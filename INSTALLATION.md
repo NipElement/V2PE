@@ -21,10 +21,10 @@
   
 ### Additional Instructions
 
-- Install `flash-attn==2.3.6`:
+- Install `flash-attn==2.5.6`:
 
   ```bash
-  pip install flash-attn==2.3.6 --no-build-isolation
+  pip install flash-attn==2.5.6 --no-build-isolation
   ```
 
   Alternatively you can compile from source:
