@@ -1,0 +1,26 @@
+{
+    "multiui": {
+        "root": "/map-vepfs/yuansheng/LongContext/codebase/V2PE/dataset/image/multiui",
+        "annotation": "/map-vepfs/yuansheng/LongContext/codebase/V2PE/dataset/annotation/multiui/multiui_train_split.jsonl",
+        "data_augment": true,
+        "repeat_time": 1
+    },
+    "docmatix": {
+        "root": "/map-vepfs/yuansheng/LongContext/codebase/V2PE/dataset/image/docmatix",
+        "annotation": "/map-vepfs/yuansheng/LongContext/codebase/V2PE/dataset/annotation/docmatix/docmatix_train_split.jsonl",
+        "data_augment": true,
+        "repeat_time": 1
+    },
+    "mammoth_ov": {
+        "root": "/map-vepfs/yuansheng/LongContext/codebase/V2PE/dataset/image/mammoth",
+        "annotation": "/map-vepfs/yuansheng/LongContext/codebase/V2PE/dataset/annotation/mammoth/mammoth_ov_train_split.jsonl",
+        "data_augment": true,
+        "repeat_time": 1
+    },
+    "mammoth_si": {
+        "root": "/map-vepfs/yuansheng/LongContext/codebase/V2PE/dataset/image/mammoth",
+        "annotation": "/map-vepfs/yuansheng/LongContext/codebase/V2PE/dataset/annotation/mammoth/mammoth_si_train_split.jsonl",
+        "data_augment": true,
+        "repeat_time": 1
+    }
+}

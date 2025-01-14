@@ -1,0 +1,8 @@
+{
+  "multiui": {
+    "root": "/map-vepfs/yuansheng/LongContext/codebase/V2PE/dataset/image/multiui",
+    "annotation": "/map-vepfs/yuansheng/LongContext/codebase/V2PE/dataset/annotation/multiui_train_split.jsonl",
+    "data_augment": true,
+    "repeat_time": 1
+  }
+}
