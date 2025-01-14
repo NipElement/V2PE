@@ -433,7 +433,7 @@ cd ../..
 
     ```bash
     tar -xzvf dataset/benchmark/MM-NIAH/mm_niah_test/images.tar.gz -C dataset/benchmark/MM-NIAH/mm_niah_test/
-    tar -xzvf dataset/benchmark/MM-NIAH/mm_niah_val/annotations.tar.gz -C dataset/benchmark/MM-NIAH/mm_niah_val/
+    tar -xzvf dataset/benchmark/MM-NIAH/mm_niah_val/images.tar.gz -C dataset/benchmark/MM-NIAH/mm_niah_val/
     ```
 3. The directory structure should look like this:
 
