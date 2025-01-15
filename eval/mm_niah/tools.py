@@ -17,24 +17,37 @@ def has_word(sentence, word):
 
 
 def init_dist(args):
+
     num_gpus = torch.cuda.device_count()
-    args.world_size = num_gpus  # 总进程数
-    args.rank = int(os.getenv('RANK', 0))  # 当前进程的 global rank
-    args.local_rank = int(os.getenv('LOCAL_RANK', 0))  # 当前进程的 local rank
-    args.local_world_size = num_gpus
-    # 设置环境变量
-    os.environ['RANK'] = str(args.rank)
-    os.environ['LOCAL_RANK'] = str(args.local_rank)
-    os.environ['WORLD_SIZE'] = str(args.world_size)
+    if num_gpus == 0:
+        raise RuntimeError("No GPUs detected. Ensure CUDA_VISIBLE_DEVICES is set correctly.")
 
+    args.rank = int(os.getenv('RANK', 0))  # 当前进程的全局 rank
+    args.local_rank = int(os.getenv('LOCAL_RANK', 0))  # 当前节点中的 local rank
+    args.world_size = int(os.getenv('WORLD_SIZE', num_gpus))  # 总进程数
+    args.local_world_size = num_gpus // args.num_gpus_per_rank  # 每个进程的 GPU 数量
 
-    # if 'MASTER_ADDR' not in os.environ:
-    #     node_list = os.environ["SLURM_NODELIST"]
-    #     addr = subprocess.getoutput(f"scontrol show hostname {node_list} | head -n1")
-    #     os.environ['MASTER_ADDR'] = addr
-    # if 'MASTER_PORT' not in os.environ:
-    #     os.environ['MASTER_PORT'] = '22110'
+    if 'MASTER_ADDR' not in os.environ:
+        os.environ['MASTER_ADDR'] = '127.0.0.1'  # 默认使用本地地址
+    if 'MASTER_PORT' not in os.environ:
+        os.environ['MASTER_PORT'] = '29500'  # 默认端口，确保无冲突
 
+    # 设置当前进程的主 GPU
+    main_gpu = args.local_rank * args.num_gpus_per_rank
+    torch.cuda.set_device(main_gpu)
+
+    # 将每个进程分配的 GPU 加入 CUDA 设备列表
+    gpu_list = list(range(main_gpu, main_gpu + args.num_gpus_per_rank))
+    if max(gpu_list) >= num_gpus:
+        raise RuntimeError(
+            f"GPU allocation exceeds available GPUs. Local Rank {args.local_rank} requested GPUs {gpu_list}, "
+            f"but only {num_gpus} GPUs are available."
+        )
+    os.environ['CUDA_VISIBLE_DEVICES'] = ','.join(map(str, gpu_list))
+
+    print(f"Rank: {args.rank}, Local Rank: {args.local_rank}, Using GPUs: {gpu_list}")
+
+    # 初始化分布式进程组
     torch.distributed.init_process_group(
         backend='nccl',
         init_method='env://',
@@ -42,7 +55,10 @@ def init_dist(args):
         world_size=args.world_size,
         timeout=datetime.timedelta(days=2)
     )
-    torch.cuda.set_device(args.local_rank)
+
+    print(f"Distributed initialized: Rank {args.rank}, Local Rank {args.local_rank}, GPU List: {gpu_list}")
+
+
 
 
 class VQAEval:
