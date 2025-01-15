@@ -7,13 +7,13 @@ import torch
 
 from PIL import Image
 from tqdm import tqdm
-from internvl.model.internvl_chat import InternVLChatModel
-from internvl.model.internlm2.modeling_internlm2 import InternLM2LinearScalingRotaryEmbedding,InternLM2DynamicNTKScalingRotaryEmbedding
+from internvl2_5.model.internvl_chat import InternVLChatModel
+from internvl2_5.model.internlm2.modeling_internlm2 import InternLM2LinearScalingRotaryEmbedding,InternLM2DynamicNTKScalingRotaryEmbedding
 from transformers import AutoTokenizer, AutoConfig
-from internvl.train.dataset import build_transform, dynamic_preprocess
-from internvl.train.dataset import preprocess_internlm
-from internvl.model.internvl_chat.modeling_internvl_chat import get_rope_pos_id
-from internvl.patch import replace_internlm2_attention_class
+from internvl2_5.train.dataset import build_transform, dynamic_preprocess
+from internvl2_5.train.dataset import preprocess_internlm
+from internvl2_5.model.internvl_chat.modeling_internvl_chat import get_rope_pos_id
+from internvl2_5.patch import replace_internlm2_attention_class
 from eval.mm_niah.tools import get_input, init_dist
 from copy import deepcopy
 import torch.distributed as dist

@@ -6,9 +6,9 @@ import torch
 
 from PIL import Image
 from tqdm import tqdm
-from internvl.model.internvl_chat import InternVLChatModel
+from internvl2_5.model.internvl_chat import InternVLChatModel
 from transformers import AutoTokenizer, AutoConfig
-from internvl.train.dataset import build_transform, dynamic_preprocess
+from internvl2_5.train.dataset import build_transform, dynamic_preprocess
 from eval.mm_niah.tools import get_input, init_dist
 
 os.environ['PYTORCH_CUDA_ALLOC_CONF'] = 'max_split_size_mb:128'

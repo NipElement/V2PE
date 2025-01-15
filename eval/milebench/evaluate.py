@@ -336,7 +336,7 @@ def main(args):
 
     dataset = args.dataset
     result_dir = args.result_dir
-    model_name = 'internvl'
+    model_name = 'internvl2_5'
 
     core_annotation = json.load(open(os.path.join(args.data_dir, dataset, f'{dataset}-adv.json' if args.adv else f'{dataset}.json')))
     question_type = core_annotation['meta_data']['question_type']

@@ -18,22 +18,22 @@ def has_word(sentence, word):
 
 def init_dist(args):
     num_gpus = torch.cuda.device_count()
-    args.rank = int(os.getenv('SLURM_PROCID', '0'))
-    args.local_rank = args.rank % (num_gpus // args.num_gpus_per_rank)
-    args.world_size = int(os.getenv('SLURM_NTASKS', '1'))
-    args.local_world_size = num_gpus // args.num_gpus_per_rank
-
+    args.world_size = num_gpus  # 总进程数
+    args.rank = int(os.getenv('RANK', 0))  # 当前进程的 global rank
+    args.local_rank = int(os.getenv('LOCAL_RANK', 0))  # 当前进程的 local rank
+    args.local_world_size = num_gpus
+    # 设置环境变量
     os.environ['RANK'] = str(args.rank)
     os.environ['LOCAL_RANK'] = str(args.local_rank)
     os.environ['WORLD_SIZE'] = str(args.world_size)
-    os.environ['LOCAL_WORLD_SIZE'] = str(args.local_world_size)
 
-    if 'MASTER_ADDR' not in os.environ:
-        node_list = os.environ["SLURM_NODELIST"]
-        addr = subprocess.getoutput(f"scontrol show hostname {node_list} | head -n1")
-        os.environ['MASTER_ADDR'] = addr
-    if 'MASTER_PORT' not in os.environ:
-        os.environ['MASTER_PORT'] = '22110'
+
+    # if 'MASTER_ADDR' not in os.environ:
+    #     node_list = os.environ["SLURM_NODELIST"]
+    #     addr = subprocess.getoutput(f"scontrol show hostname {node_list} | head -n1")
+    #     os.environ['MASTER_ADDR'] = addr
+    # if 'MASTER_PORT' not in os.environ:
+    #     os.environ['MASTER_PORT'] = '22110'
 
     torch.distributed.init_process_group(
         backend='nccl',

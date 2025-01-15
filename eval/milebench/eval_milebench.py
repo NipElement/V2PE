@@ -7,7 +7,7 @@ from torch.utils.data import Dataset, DataLoader
 import torch
 
 from eval.milebench.utils import MileBenchDataset
-from internvl.train.dataset import build_transform, dynamic_preprocess
+from internvl2_5.train.dataset import build_transform, dynamic_preprocess
 from eval.mm_niah.tools import init_dist
 from eval.mm_niah.eval_mm_niah import build_model
 from tqdm import tqdm
@@ -27,7 +27,7 @@ def parse_args():
     parser.add_argument('--output_dir', default='outputs')
     parser.add_argument('--bsz', default=1, type=int)
     parser.add_argument('--combine_image', default=None, type=int, help='Use combined N images for evaluation.')
-    parser.add_argument('--model_configs', default='configs/model_configs.yaml')
+    # parser.add_argument('--model_configs', default='configs/model_configs.yaml')
     parser.add_argument('--overwrite', action='store_true')
     parser.add_argument('--num-gpus-per-rank', type=int, default=2)
     parser.add_argument('--max_context_len', type=int, default=512000)
@@ -37,6 +37,8 @@ def parse_args():
     parser.add_argument('--resize-image', action='store_true')
     parser.add_argument('--rope_pos_id_version', type=str, default='default')
     parser.add_argument('--rope_pos_id_stride', type=int, default=None)
+    parser.add_argument('--local_rank', type=int, default=int(os.getenv("LOCAL_RANK", 0)))
+
 
     args = parser.parse_args()
     print(f'{args.rope_pos_id_version=}')
