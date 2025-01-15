@@ -48,7 +48,7 @@ Please download the above model weights and place them in the `pretrained/` fold
 ```sh
 cd pretrained/
 # pip install -U huggingface_hub
-huggingface-cli download --resume-download --local-dir-use-symlinks False OpenGVLab/InternVL2-2B --local-dir InternVL2-2B
+huggingface-cli download --resume-download --local-dir-use-symlinks False OpenGVLab/InternVL2_5-8B --local-dir InternVL2_5-8B
 ```
 
 The directory structure is:
