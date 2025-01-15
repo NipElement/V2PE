@@ -30,8 +30,8 @@ for file in "${files[@]}"; do
   cp "$file" "$OUTPUT_DIR"
 done
 
-MODEL_PATH="/map-vepfs/yuansheng/LongContext/codebase/V2PE/pretrained/InternVL2_5-8B"
-META_PATH="/map-vepfs/yuansheng/LongContext/codebase/V2PE/shell/data/annotation_multiui.json"
+MODEL_PATH="/map-vepfs/yuansheng/LongContext/V2PE/pretrained/InternVL2_5-8B"
+META_PATH="/map-vepfs/yuansheng/LongContext/V2PE/shell/data/annotation_multiui.json"
 
 torchrun \
   --nnodes=${NODES} \
