@@ -169,5 +169,5 @@ work_dirs/
 workdirs/
 batchscript*
 *.bak
-pretrained/InternVL2_5-8B/
+pretrained/InternVL2*
 dataset/*
