@@ -1,98 +1,74 @@
-PARTITION=${PARTITION:-"VC2"}
-GPUS=${GPUS:-8}
-GPUS_PER_NODE=${GPUS_PER_NODE:-8}
-GPUS_PER_TASK=${GPUS_PER_TASK:-8}
-QUOTA_TYPE=${QUOTA_TYPE:-"reserved"}
-STRIDE=${STRIDE:-"-1"}
+#!/bin/bash
+export MASTER_ADDR=localhost
+export WORLD_SIZE=7  # Total number of processes
+GPUS=7
+CHECKPOINT="/data/yuansheng/V2PE/pretrained/InternVL2_5-8B"
+LOG_DIR=/data/yuansheng/V2PE/eval_logs/milebench_internvl2_5_8b
 
-set -x
+mkdir -p $LOG_DIR  # Create log directory
 
-
-CHECKPOINT=${1}
-JOB_FOLDER=$(dirname "$CHECKPOINT")
-files=(
-    "$JOB_FOLDER/configuration_intern_vit.py"
-    "$JOB_FOLDER/configuration_internlm2.py"
-    "$JOB_FOLDER/configuration_internvl_chat.py"
-    "$JOB_FOLDER/conversation.py"
-    "$JOB_FOLDER/modeling_intern_vit.py"
-    "$JOB_FOLDER/modeling_internlm2.py"
-    "$JOB_FOLDER/modeling_internvl_chat.py"
-    "$JOB_FOLDER/tokenization_internlm2_fast.py"
-    "$JOB_FOLDER/tokenization_internlm2.py"
-)
-for file in "${files[@]}"; do
-    dest_file="$CHECKPOINT/$(basename "$file")"
-    if [ ! -f "$dest_file" ]; then
-        cp "$file" "$CHECKPOINT"
-    fi
-done
-
-ARGS=("$@")
-
+# Task list
 declare -a tasks=( \
-   'ALFRED' \
+    'ALFRED' \
     'ActionLocalization' \
     'ActionPrediction' \
     'ActionSequence' \
-   'CLEVR-Change' \
-   'CharacterOrder' \
-   'CounterfactualInference' \
-   'DocVQA' \
-   'EgocentricNavigation' \
-   'GPR1200' \
-   'IEdit' \
-   'ImageNeedleInAHaystack' \
-   'MMCoQA' \
+    'CLEVR-Change' \
+    'CharacterOrder' \
+    'CounterfactualInference' \
+    'DocVQA' \
+    'EgocentricNavigation' \
+    'GPR1200' \
+    'IEdit' \
+    'ImageNeedleInAHaystack' \
+    'MMCoQA' \
     'MovingAttribute' \
-   'MovingDirection' \
-   'MultiModalQA' \
-   'OCR-VQA' \
+    'MovingDirection' \
+    'MultiModalQA' \
+    'OCR-VQA' \
     'ObjectExistence' \
     'ObjectInteraction' \
-   'ObjectShuffle' \
-   'SceneTransition' \
-   'SlideVQA' \
-   'Spot-the-Diff' \
-   'StateChange' \
-   'TQA' \
-   'TextNeedleInAHaystack' \
-   'WebQA' \
-   'WikiVQA' \
-   'nuscenes' \
+    'ObjectShuffle' \
+    'SceneTransition' \
+    'SlideVQA' \
+    'Spot-the-Diff' \
+    'StateChange' \
+    'TQA' \
+    'TextNeedleInAHaystack' \
+    'WebQA' \
+    'WikiVQA' \
+    'nuscenes' \
 )
 
-if [ "$STRIDE" = "-1" ]; then
-    LOG_DIR=$CHECKPOINT/eval_milebench
-else
-    LOG_DIR=$CHECKPOINT/eval_milebench_${STRIDE}
-fi
+BATCH_SIZE=2
+TASK_COUNT=${#tasks[@]}
+# Loop through each task and run evaluation
+for ((i=0; i<TASK_COUNT; i+=BATCH_SIZE)); do
+    echo "$(date) Starting batch $((i/BATCH_SIZE + 1))"
 
-mkdir -p $LOG_DIR
+    # Run a batch of tasks
+    for ((j=0; j<BATCH_SIZE && i+j<TASK_COUNT; j++)); do
+        task="${tasks[$((i+j))]}"
+        MASTER_PORT=$((15432 + i + j))  # Unique port for each task
 
-model_name="internvl"
+        echo "$(date) Starting task: ${task} on port ${MASTER_PORT}"
 
-for ((j=0; j<${#tasks[@]}; j++)); do
-
-    task="${tasks[j]}"
-
-    
-    echo "$(date) ${model_name}_${task}"
-
-    srun -p ${PARTITION} \
-            --gres=gpu:${GPUS_PER_NODE} \
-            --ntasks=$((GPUS / GPUS_PER_TASK)) \
-            --ntasks-per-node=$((GPUS_PER_NODE / GPUS_PER_TASK)) \
-            --quotatype=${QUOTA_TYPE} \
-            --job-name="${STRIDE}_${task}" \
-            -o "${LOG_DIR}/${task}.log" \
-            -e "${LOG_DIR}/${task}.log" \
-            --async \
-            python -u eval/milebench/eval_milebench.py \
+        CUDA_VISIBLE_DEVICES=1,2,3,4,5,6,7 \
+        torchrun \
+            --nproc_per_node=$GPUS \
+            --master_port=$MASTER_PORT \
+            eval/milebench/eval_milebench.py \
             --checkpoint $CHECKPOINT \
             --output_dir $LOG_DIR \
             --dataset_name $task \
-            --num-gpus-per-rank ${GPUS_PER_TASK} 
-    sleep 0.2
+            --num-gpus-per-rank 1 \
+            > "${LOG_DIR}/${task}.log" 2>&1 &
+    done
 
+    sleep 0.2 # Wait for the current batch to finish
+    wait
+
+    echo "$(date) Finished batch $((i/BATCH_SIZE + 1))"
 done
+
+echo "All tasks completed!"
