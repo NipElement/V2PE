@@ -1,6 +1,6 @@
 #!/bin/bash
 export MASTER_ADDR=localhost
-export WORLD_SIZE=4  # Total number of processes
+export WORLD_SIZE=8  # Total number of processes
 GPUS=$WORLD_SIZE
 CHECKPOINT="pretrained/InternVL2_5-8B"
 LOG_DIR=eval_logs/mmniah/internvl2_5_8b
@@ -31,7 +31,7 @@ for ((i=0; i<TASK_COUNT; i+=BATCH_SIZE)); do
 
         echo "$(date) Starting task: ${task} on port ${MASTER_PORT}"
 
-        CUDA_VISIBLE_DEVICES=0,1,2,3 \
+        CUDA_VISIBLE_DEVICES=0,1,2,3,4,5,6,7 \
         torchrun \
             --nproc_per_node=$GPUS \
             --master_port=$MASTER_PORT \
