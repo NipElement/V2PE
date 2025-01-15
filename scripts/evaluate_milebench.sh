@@ -1,9 +1,9 @@
 #!/bin/bash
 export MASTER_ADDR=localhost
 export WORLD_SIZE=7  # Total number of processes
-GPUS=7
-CHECKPOINT="/data/yuansheng/V2PE/pretrained/InternVL2_5-8B"
-LOG_DIR=/data/yuansheng/V2PE/eval_logs/milebench/internvl2_5_8b
+GPUS=$WORLD_SIZE
+CHECKPOINT="pretrained/InternVL2_5-8B"
+LOG_DIR=eval_logs/milebench/internvl2_5_8b
 
 mkdir -p $LOG_DIR  # Create log directory
 
@@ -39,6 +39,8 @@ declare -a tasks=( \
     'WikiVQA' \
     'nuscenes' \
 )
+
+model_name="internvl2_5"
 
 BATCH_SIZE=2
 TASK_COUNT=${#tasks[@]}

@@ -1,35 +1,11 @@
-PARTITION=${PARTITION:-"VC2"}
-GPUS=${GPUS:-8}
-GPUS_PER_NODE=${GPUS_PER_NODE:-8}
-GPUS_PER_TASK=${GPUS_PER_TASK:-1}
-QUOTA_TYPE=${QUOTA_TYPE:-"reserved"}
-STRIDE=${STRIDE:-"-1"}
+#!/bin/bash
+export MASTER_ADDR=localhost
+export WORLD_SIZE=4  # Total number of processes
+GPUS=$WORLD_SIZE
+CHECKPOINT="pretrained/InternVL2_5-8B"
+LOG_DIR=eval_logs/mmniah/internvl2_5_8b
 
-
-set -x
-
-CHECKPOINT=${1}
-
-JOB_FOLDER=$(dirname "$CHECKPOINT")
-files=(
-    "$JOB_FOLDER/configuration_intern_vit.py"
-    "$JOB_FOLDER/configuration_internlm2.py"
-    "$JOB_FOLDER/configuration_internvl_chat.py"
-    "$JOB_FOLDER/conversation.py"
-    "$JOB_FOLDER/modeling_intern_vit.py"
-    "$JOB_FOLDER/modeling_internlm2.py"
-    "$JOB_FOLDER/modeling_internvl_chat.py"
-    "$JOB_FOLDER/tokenization_internlm2_fast.py"
-    "$JOB_FOLDER/tokenization_internlm2.py"
-)
-for file in "${files[@]}"; do
-    dest_file="$CHECKPOINT/$(basename "$file")"
-    if [ ! -f "$dest_file" ]; then
-        cp "$file" "$CHECKPOINT"
-    fi
-done
-ARGS=("$@")
-
+mkdir -p $LOG_DIR  # Create log directory
 
 declare -a tasks=( \
     'retrieval-text-test' \
@@ -40,38 +16,37 @@ declare -a tasks=( \
     'reasoning-image-test' \
 )
 
-if [ "$STRIDE" = "-1" ]; then
-    LOG_DIR=$CHECKPOINT/eval_mm_niah
-else
-    LOG_DIR=$CHECKPOINT/eval_mm_niah_${STRIDE}
-fi
+model_name="internvl2_5"
 
-mkdir -p $LOG_DIR
+BATCH_SIZE=1
+TASK_COUNT=${#tasks[@]}
+# Loop through each task and run evaluation
+for ((i=0; i<TASK_COUNT; i+=BATCH_SIZE)); do
+    echo "$(date) Starting batch $((i/BATCH_SIZE + 1))"
 
-model_name="internvl"
+    # Run a batch of tasks
+    for ((j=0; j<BATCH_SIZE && i+j<TASK_COUNT; j++)); do
+        task="${tasks[$((i+j))]}"
+        MASTER_PORT=$((15432 + i + j))  # Unique port for each task
 
-for ((j=0; j<${#tasks[@]}; j++)); do
+        echo "$(date) Starting task: ${task} on port ${MASTER_PORT}"
 
-    task=${tasks[j]}
-
-
-    echo "$(date) ${model_name}_${task}"
-
-    srun -p ${PARTITION} \
-            --job-name=${STRIDE}_${task} \
-            --gres=gpu:${GPUS_PER_NODE} \
-            --async \
-            --ntasks=$((GPUS / GPUS_PER_TASK)) \
-            --ntasks-per-node=$((GPUS_PER_NODE / GPUS_PER_TASK)) \
-            --quotatype=${QUOTA_TYPE} \
-            -o "${LOG_DIR}/${task}.log" \
-            -e "${LOG_DIR}/${task}.log" \
-            python -u eval/mm_niah/eval_mm_niah.py \
+        CUDA_VISIBLE_DEVICES=0,1,2,3 \
+        torchrun \
+            --nproc_per_node=$GPUS \
+            --master_port=$MASTER_PORT \
+            eval/mm_niah/eval_mm_niah.py \
             --checkpoint $CHECKPOINT \
             --outputs-dir $LOG_DIR \
             --task $task \
-            --num-gpus-per-rank ${GPUS_PER_TASK} "${ARGS[@]:1}"
+            --num-gpus-per-rank 1 \
+            > "${LOG_DIR}/${task}.log" 2>&1 &
+    done
 
-    sleep 0.2
+    sleep 0.2 # Wait for the current batch to finish
+    wait
 
+    echo "$(date) Finished batch $((i/BATCH_SIZE + 1))"
 done
+
+echo "All tasks completed!"
