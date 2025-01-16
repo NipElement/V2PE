@@ -42,7 +42,7 @@ def main(args):
             for dataset in dataset_names:
                 print(dataset)
                 try:
-                    eval_path = os.path.join(result_dir, 'eval_milebench', dataset, 'eval.json')
+                    eval_path = os.path.join(result_dir, model_name, dataset, 'eval.json')
                     if not os.path.exists(eval_path):
                         print(f'\t{model_name}--{dataset}  No evaluation file found')
                         task_result[dataset] = {}
@@ -91,7 +91,7 @@ if __name__ == '__main__':
     parser = argparse.ArgumentParser()
     parser.add_argument('--result-dir', type=str, required=True)
     args = parser.parse_args()
-    args.models = ['internvl']
+    args.models = ['internvl2_5_8b']
     main(args)
 
 '''

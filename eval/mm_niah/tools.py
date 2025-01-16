@@ -17,7 +17,6 @@ def has_word(sentence, word):
 
 
 def init_dist(args):
-
     num_gpus = torch.cuda.device_count()
     if num_gpus == 0:
         raise RuntimeError("No GPUs detected. Ensure CUDA_VISIBLE_DEVICES is set correctly.")
@@ -25,24 +24,22 @@ def init_dist(args):
     args.rank = int(os.getenv('RANK', 0))  # 当前进程的全局 rank
     args.local_rank = int(os.getenv('LOCAL_RANK', 0))  # 当前节点中的 local rank
     args.world_size = int(os.getenv('WORLD_SIZE', num_gpus))  # 总进程数
-    args.local_world_size = num_gpus // args.num_gpus_per_rank  # 每个进程的 GPU 数量
+    args.local_world_size = num_gpus // args.num_gpus_per_rank  # 当前节点上的进程数
 
-    if 'MASTER_ADDR' not in os.environ:
-        os.environ['MASTER_ADDR'] = '127.0.0.1'  # 默认使用本地地址
-    if 'MASTER_PORT' not in os.environ:
-        os.environ['MASTER_PORT'] = '29500'  # 默认端口，确保无冲突
 
-    # 设置当前进程的主 GPU
-    main_gpu = args.local_rank * args.num_gpus_per_rank
-    torch.cuda.set_device(main_gpu)
+    # 计算当前进程使用的 GPU
+    gpu_start = args.local_rank * args.num_gpus_per_rank
+    gpu_end = gpu_start + args.num_gpus_per_rank
+    gpu_list = list(range(gpu_start, gpu_end))
 
-    # 将每个进程分配的 GPU 加入 CUDA 设备列表
-    gpu_list = list(range(main_gpu, main_gpu + args.num_gpus_per_rank))
     if max(gpu_list) >= num_gpus:
         raise RuntimeError(
             f"GPU allocation exceeds available GPUs. Local Rank {args.local_rank} requested GPUs {gpu_list}, "
             f"but only {num_gpus} GPUs are available."
         )
+    
+    # 设置主 GPU 和环境变量
+    torch.cuda.set_device(gpu_list[0])  # 设置第一个 GPU 为主 GPU
     os.environ['CUDA_VISIBLE_DEVICES'] = ','.join(map(str, gpu_list))
 
     print(f"Rank: {args.rank}, Local Rank: {args.local_rank}, Using GPUs: {gpu_list}")
@@ -57,6 +54,7 @@ def init_dist(args):
     )
 
     print(f"Distributed initialized: Rank {args.rank}, Local Rank {args.local_rank}, GPU List: {gpu_list}")
+
 
 
 
