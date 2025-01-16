@@ -164,7 +164,7 @@ cython_debug/
 
 
 
-results*/
+# results*/
 work_dirs/
 workdirs/
 batchscript*
