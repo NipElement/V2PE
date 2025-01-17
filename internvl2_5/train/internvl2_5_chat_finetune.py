@@ -218,7 +218,7 @@ class DataTrainingArguments:
         default='internvl_zh', metadata={'help': 'Prompt style for a conversation.'}
     )
     meta_path: Optional[str] = field(
-        default="/map-vepfs/yuansheng/LongContext/codebase/V2PE/dataset/annotation/multiui_train_split.jsonl",
+        default=None,
         metadata={'help': 'The path of the meta file of datasets.'},
     )
     use_data_resampling: Optional[bool] = field(
@@ -1087,7 +1087,7 @@ def len2weight(x, loss_reduction):
 def main():
 
     # launcher = os.environ.get('LAUNCHER', 'slurm')
-    # init_dist(launcher=launcher, backend='nccl')
+    init_dist(launcher=launcher, backend='nccl')
 
     parser = HfArgumentParser((ModelArguments, DataTrainingArguments, TrainingArguments))
     if len(sys.argv) == 2 and sys.argv[1].endswith('.json'):
@@ -1433,7 +1433,7 @@ def main():
             group_list=group_list,
         )
     else:
-        training_args.dataloader_num_workers
+        # training_args.dataloader_num_workers = 0
         trainer = Trainer(
             model=model,
             args=training_args,
