@@ -262,8 +262,8 @@
             "left/2639_frame32/2639_frame32_30.jpg",
             "left/2639_frame32/2639_frame32_31.jpg"
         ],
-        "extracted": "DAA",
-        "result": 0
+        "extracted": "D",
+        "result": 1
     },
     {
         "sample_id": 7,
@@ -318,7 +318,7 @@
             "left/1581_frame33/1581_frame33_31.jpg",
             "left/1581_frame33/1581_frame33_32.jpg"
         ],
-        "extracted": "AAC",
+        "extracted": "A",
         "result": 0
     },
     {
@@ -375,7 +375,7 @@
             "left/1161_frame34/1161_frame34_32.jpg",
             "left/1161_frame34/1161_frame34_33.jpg"
         ],
-        "extracted": "DAAADA",
+        "extracted": "A",
         "result": 0
     },
     {
@@ -490,8 +490,8 @@
             "left/4993_frame35/4993_frame35_33.jpg",
             "left/4993_frame35/4993_frame35_34.jpg"
         ],
-        "extracted": "CAA",
-        "result": 0
+        "extracted": "C",
+        "result": 1
     },
     {
         "sample_id": 27,
@@ -548,8 +548,8 @@
             "left/6626_frame35/6626_frame35_33.jpg",
             "left/6626_frame35/6626_frame35_34.jpg"
         ],
-        "extracted": "BAA",
-        "result": 0
+        "extracted": "B",
+        "result": 1
     },
     {
         "sample_id": 71,
@@ -665,7 +665,7 @@
             "left/2380_frame36/2380_frame36_34.jpg",
             "left/2380_frame36/2380_frame36_35.jpg"
         ],
-        "extracted": "BBD",
+        "extracted": "B",
         "result": 0
     },
     {
@@ -784,7 +784,7 @@
             "right/2662_frame37/2662_frame37_35.jpg",
             "right/2662_frame37/2662_frame37_36.jpg"
         ],
-        "extracted": "CD",
+        "extracted": "C",
         "result": 0
     },
     {
@@ -844,8 +844,8 @@
             "right/6966_frame37/6966_frame37_35.jpg",
             "right/6966_frame37/6966_frame37_36.jpg"
         ],
-        "extracted": "DC",
-        "result": 0
+        "extracted": "D",
+        "result": 1
     },
     {
         "sample_id": 3,
@@ -966,8 +966,8 @@
             "left/2988_frame38/2988_frame38_36.jpg",
             "left/2988_frame38/2988_frame38_37.jpg"
         ],
-        "extracted": "DADBADAAABD",
-        "result": 0
+        "extracted": "D",
+        "result": 1
     },
     {
         "sample_id": 10,
@@ -1028,8 +1028,8 @@
             "left/5938_frame39/5938_frame39_37.jpg",
             "left/5938_frame39/5938_frame39_38.jpg"
         ],
-        "extracted": "AAD",
-        "result": 0
+        "extracted": "A",
+        "result": 1
     },
     {
         "sample_id": 23,
@@ -1153,8 +1153,8 @@
             "right/4101_frame40/4101_frame40_38.jpg",
             "right/4101_frame40/4101_frame40_39.jpg"
         ],
-        "extracted": "ADA",
-        "result": 0
+        "extracted": "A",
+        "result": 1
     },
     {
         "sample_id": 50,
@@ -1348,8 +1348,8 @@
             "left/6164_frame43/6164_frame43_41.jpg",
             "left/6164_frame43/6164_frame43_42.jpg"
         ],
-        "extracted": "CAC",
-        "result": 0
+        "extracted": "C",
+        "result": 1
     },
     {
         "sample_id": 9,
@@ -1415,7 +1415,7 @@
             "left/4597_frame44/4597_frame44_42.jpg",
             "left/4597_frame44/4597_frame44_43.jpg"
         ],
-        "extracted": "BAADAAAAADAB",
+        "extracted": "B",
         "result": 0
     },
     {
@@ -1622,7 +1622,7 @@
             "left/4871_frame47/4871_frame47_45.jpg",
             "left/4871_frame47/4871_frame47_46.jpg"
         ],
-        "extracted": "BAA",
+        "extracted": "B",
         "result": 0
     },
     {
@@ -1763,8 +1763,8 @@
             "left/3858_frame48/3858_frame48_46.jpg",
             "left/3858_frame48/3858_frame48_47.jpg"
         ],
-        "extracted": "AAD",
-        "result": 0
+        "extracted": "A",
+        "result": 1
     },
     {
         "sample_id": 109,
@@ -1982,7 +1982,7 @@
             "left/4448_frame51/4448_frame51_49.jpg",
             "left/4448_frame51/4448_frame51_50.jpg"
         ],
-        "extracted": "CAAAADAACAAC",
+        "extracted": "C",
         "result": 0
     },
     {
@@ -2057,7 +2057,7 @@
             "left/4504_frame52/4504_frame52_50.jpg",
             "left/4504_frame52/4504_frame52_51.jpg"
         ],
-        "extracted": "DBD",
+        "extracted": "D",
         "result": 0
     },
     {
@@ -2208,7 +2208,7 @@
             "left/1194_frame53/1194_frame53_51.jpg",
             "left/1194_frame53/1194_frame53_52.jpg"
         ],
-        "extracted": "DDAACADACDAB",
+        "extracted": "D",
         "result": 0
     },
     {
@@ -2442,7 +2442,7 @@
             "left/5162_frame56/5162_frame56_54.jpg",
             "left/5162_frame56/5162_frame56_55.jpg"
         ],
-        "extracted": "DD",
+        "extracted": "D",
         "result": 0
     },
     {
@@ -2522,8 +2522,8 @@
             "right/5138_frame57/5138_frame57_55.jpg",
             "right/5138_frame57/5138_frame57_56.jpg"
         ],
-        "extracted": "AADA",
-        "result": 0
+        "extracted": "A",
+        "result": 1
     },
     {
         "sample_id": 46,
@@ -2768,7 +2768,7 @@
             "right/254_frame60/254_frame60_58.jpg",
             "right/254_frame60/254_frame60_59.jpg"
         ],
-        "extracted": "ADAD",
+        "extracted": "A",
         "result": 0
     },
     {
@@ -3992,8 +3992,8 @@
             "right/5787_frame90/5787_frame90_88.jpg",
             "right/5787_frame90/5787_frame90_89.jpg"
         ],
-        "extracted": "CD",
-        "result": 0
+        "extracted": "C",
+        "result": 1
     },
     {
         "sample_id": 111,
@@ -4177,7 +4177,7 @@
             "left/1420_frame30/1420_frame30_28.jpg",
             "left/1420_frame30/1420_frame30_29.jpg"
         ],
-        "extracted": "CADAAABAADABAD",
+        "extracted": "C",
         "result": 0
     },
     {
@@ -4231,7 +4231,7 @@
             "right/1189_frame31/1189_frame31_29.jpg",
             "right/1189_frame31/1189_frame31_30.jpg"
         ],
-        "extracted": "DBD",
+        "extracted": "D",
         "result": 0
     },
     {
@@ -4397,7 +4397,7 @@
             "left/431_frame33/431_frame33_31.jpg",
             "left/431_frame33/431_frame33_32.jpg"
         ],
-        "extracted": "ABDADAADAACDA",
+        "extracted": "A",
         "result": 0
     },
     {
@@ -4454,8 +4454,8 @@
             "right/1851_frame34/1851_frame34_32.jpg",
             "right/1851_frame34/1851_frame34_33.jpg"
         ],
-        "extracted": "DAACBD",
-        "result": 0
+        "extracted": "D",
+        "result": 1
     },
     {
         "sample_id": 73,
@@ -4570,8 +4570,8 @@
             "right/2749_frame35/2749_frame35_33.jpg",
             "right/2749_frame35/2749_frame35_34.jpg"
         ],
-        "extracted": "DAA",
-        "result": 0
+        "extracted": "D",
+        "result": 1
     },
     {
         "sample_id": 80,
@@ -4746,8 +4746,8 @@
             "left/1119_frame36/1119_frame36_34.jpg",
             "left/1119_frame36/1119_frame36_35.jpg"
         ],
-        "extracted": "CAACBA",
-        "result": 0
+        "extracted": "C",
+        "result": 1
     },
     {
         "sample_id": 72,
@@ -4927,8 +4927,8 @@
             "left/4492_frame38/4492_frame38_36.jpg",
             "left/4492_frame38/4492_frame38_37.jpg"
         ],
-        "extracted": "CAADABDAAAD",
-        "result": 0
+        "extracted": "C",
+        "result": 1
     },
     {
         "sample_id": 39,
@@ -5112,8 +5112,8 @@
             "left/5952_frame39/5952_frame39_37.jpg",
             "left/5952_frame39/5952_frame39_38.jpg"
         ],
-        "extracted": "CADACDADAB",
-        "result": 0
+        "extracted": "C",
+        "result": 1
     },
     {
         "sample_id": 122,
@@ -6240,7 +6240,7 @@
             "right/239_frame55/239_frame55_53.jpg",
             "right/239_frame55/239_frame55_54.jpg"
         ],
-        "extracted": "BDA",
+        "extracted": "B",
         "result": 0
     },
     {
@@ -6646,7 +6646,7 @@
             "stop/3274_frame61/3274_frame61_59.jpg",
             "stop/3274_frame61/3274_frame61_60.jpg"
         ],
-        "extracted": "CAB",
+        "extracted": "C",
         "result": 0
     },
     {
@@ -6919,7 +6919,7 @@
             "right/3234_frame73/3234_frame73_71.jpg",
             "right/3234_frame73/3234_frame73_72.jpg"
         ],
-        "extracted": "CCAA",
+        "extracted": "C",
         "result": 0
     },
     {
@@ -7081,8 +7081,8 @@
             "right/3012_frame32/3012_frame32_30.jpg",
             "right/3012_frame32/3012_frame32_31.jpg"
         ],
-        "extracted": "BA",
-        "result": 0
+        "extracted": "B",
+        "result": 1
     },
     {
         "sample_id": 99,
@@ -7483,8 +7483,8 @@
             "left/4573_frame36/4573_frame36_34.jpg",
             "left/4573_frame36/4573_frame36_35.jpg"
         ],
-        "extracted": "DD",
-        "result": 0
+        "extracted": "D",
+        "result": 1
     },
     {
         "sample_id": 104,
@@ -7543,7 +7543,7 @@
             "forward/4801_frame37/4801_frame37_35.jpg",
             "forward/4801_frame37/4801_frame37_36.jpg"
         ],
-        "extracted": "CDAADA",
+        "extracted": "C",
         "result": 0
     },
     {
@@ -7918,7 +7918,7 @@
             "forward/2233_frame42/2233_frame42_40.jpg",
             "forward/2233_frame42/2233_frame42_41.jpg"
         ],
-        "extracted": "DDAAABCAAADAA",
+        "extracted": "D",
         "result": 0
     },
     {
@@ -8119,7 +8119,7 @@
             "right/6828_frame45/6828_frame45_43.jpg",
             "right/6828_frame45/6828_frame45_44.jpg"
         ],
-        "extracted": "ACA",
+        "extracted": "A",
         "result": 0
     },
     {
@@ -8627,8 +8627,8 @@
             "right/6046_frame53/6046_frame53_51.jpg",
             "right/6046_frame53/6046_frame53_52.jpg"
         ],
-        "extracted": "DCAA",
-        "result": 0
+        "extracted": "D",
+        "result": 1
     },
     {
         "sample_id": 156,
@@ -8704,8 +8704,8 @@
             "stop/5039_frame54/5039_frame54_52.jpg",
             "stop/5039_frame54/5039_frame54_53.jpg"
         ],
-        "extracted": "DAA",
-        "result": 0
+        "extracted": "D",
+        "result": 1
     },
     {
         "sample_id": 123,
@@ -9022,7 +9022,7 @@
             "forward/1111_frame58/1111_frame58_56.jpg",
             "forward/1111_frame58/1111_frame58_57.jpg"
         ],
-        "extracted": "ABCC",
+        "extracted": "A",
         "result": 0
     },
     {
@@ -9614,8 +9614,8 @@
             "forward/4940_frame37/4940_frame37_35.jpg",
             "forward/4940_frame37/4940_frame37_36.jpg"
         ],
-        "extracted": "BAAD",
-        "result": 0
+        "extracted": "B",
+        "result": 1
     },
     {
         "sample_id": 137,
@@ -9674,7 +9674,7 @@
             "forward/3785_frame37/3785_frame37_35.jpg",
             "forward/3785_frame37/3785_frame37_36.jpg"
         ],
-        "extracted": "CAA",
+        "extracted": "C",
         "result": 0
     },
     {
@@ -9797,8 +9797,8 @@
             "forward/4613_frame39/4613_frame39_37.jpg",
             "forward/4613_frame39/4613_frame39_38.jpg"
         ],
-        "extracted": "BA",
-        "result": 0
+        "extracted": "B",
+        "result": 1
     },
     {
         "sample_id": 119,
@@ -9861,8 +9861,8 @@
             "forward/3661_frame41/3661_frame41_39.jpg",
             "forward/3661_frame41/3661_frame41_40.jpg"
         ],
-        "extracted": "BDA",
-        "result": 0
+        "extracted": "B",
+        "result": 1
     },
     {
         "sample_id": 182,
@@ -9927,8 +9927,8 @@
             "stop/2564_frame43/2564_frame43_41.jpg",
             "stop/2564_frame43/2564_frame43_42.jpg"
         ],
-        "extracted": "BBAAA",
-        "result": 0
+        "extracted": "B",
+        "result": 1
     },
     {
         "sample_id": 116,
@@ -9995,7 +9995,7 @@
             "forward/4156_frame45/4156_frame45_43.jpg",
             "forward/4156_frame45/4156_frame45_44.jpg"
         ],
-        "extracted": "BADAACADACAB",
+        "extracted": "B",
         "result": 0
     },
     {
@@ -10064,7 +10064,7 @@
             "stop/4749_frame46/4749_frame46_44.jpg",
             "stop/4749_frame46/4749_frame46_45.jpg"
         ],
-        "extracted": "DDBD",
+        "extracted": "D",
         "result": 0
     },
     {
@@ -11136,7 +11136,7 @@
             "forward/5512_frame35/5512_frame35_33.jpg",
             "forward/5512_frame35/5512_frame35_34.jpg"
         ],
-        "extracted": "BAADABADCAADA",
+        "extracted": "B",
         "result": 0
     },
     {
@@ -11724,7 +11724,7 @@
             "stop/5403_frame50/5403_frame50_48.jpg",
             "stop/5403_frame50/5403_frame50_49.jpg"
         ],
-        "extracted": "AAAB",
+        "extracted": "A",
         "result": 0
     },
     {
@@ -11952,7 +11952,7 @@
             "stop/2071_frame54/2071_frame54_52.jpg",
             "stop/2071_frame54/2071_frame54_53.jpg"
         ],
-        "extracted": "DACADAAADAB",
+        "extracted": "D",
         "result": 0
     },
     {
@@ -12139,7 +12139,7 @@
             "stop/4027_frame31/4027_frame31_29.jpg",
             "stop/4027_frame31/4027_frame31_30.jpg"
         ],
-        "extracted": "DD",
+        "extracted": "D",
         "result": 0
     },
     {
@@ -12194,8 +12194,8 @@
             "forward/7079_frame32/7079_frame32_30.jpg",
             "forward/7079_frame32/7079_frame32_31.jpg"
         ],
-        "extracted": "CCA",
-        "result": 0
+        "extracted": "C",
+        "result": 1
     },
     {
         "sample_id": 132,
@@ -12309,7 +12309,7 @@
             "forward/300_frame35/300_frame35_33.jpg",
             "forward/300_frame35/300_frame35_34.jpg"
         ],
-        "extracted": "DADACAAA",
+        "extracted": "D",
         "result": 0
     },
     {
@@ -12426,7 +12426,7 @@
             "forward/4474_frame36/4474_frame36_34.jpg",
             "forward/4474_frame36/4474_frame36_35.jpg"
         ],
-        "extracted": "AADAA",
+        "extracted": "A",
         "result": 0
     },
     {
@@ -12609,7 +12609,7 @@
             "forward/6157_frame39/6157_frame39_37.jpg",
             "forward/6157_frame39/6157_frame39_38.jpg"
         ],
-        "extracted": "AC",
+        "extracted": "A",
         "result": 0
     },
     {
@@ -12822,7 +12822,7 @@
             "stop/2527_frame52/2527_frame52_50.jpg",
             "stop/2527_frame52/2527_frame52_51.jpg"
         ],
-        "extracted": "BAC",
+        "extracted": "B",
         "result": 0
     },
     {
@@ -12929,7 +12929,7 @@
             "stop/2834_frame31/2834_frame31_29.jpg",
             "stop/2834_frame31/2834_frame31_30.jpg"
         ],
-        "extracted": "CBD",
+        "extracted": "C",
         "result": 0
     },
     {
@@ -12984,7 +12984,7 @@
             "forward/2371_frame32/2371_frame32_30.jpg",
             "forward/2371_frame32/2371_frame32_31.jpg"
         ],
-        "extracted": "CAC",
+        "extracted": "C",
         "result": 0
     },
     {
@@ -13041,7 +13041,7 @@
             "stop/267_frame34/267_frame34_32.jpg",
             "stop/267_frame34/267_frame34_33.jpg"
         ],
-        "extracted": "BAA",
+        "extracted": "B",
         "result": 0
     },
     {
@@ -13276,8 +13276,8 @@
             "stop/6822_frame37/6822_frame37_35.jpg",
             "stop/6822_frame37/6822_frame37_36.jpg"
         ],
-        "extracted": "BAA",
-        "result": 0
+        "extracted": "B",
+        "result": 1
     },
     {
         "sample_id": 193,
@@ -13469,8 +13469,8 @@
             "stop/6336_frame47/6336_frame47_45.jpg",
             "stop/6336_frame47/6336_frame47_46.jpg"
         ],
-        "extracted": "DDA",
-        "result": 0
+        "extracted": "D",
+        "result": 1
     },
     {
         "sample_id": 199,

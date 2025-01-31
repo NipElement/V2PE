@@ -121,7 +121,7 @@
             "8.png",
             "9.jpg"
         ],
-        "extracted": "DAAADDAAAA",
+        "extracted": "A",
         "result": 0
     },
     {
@@ -171,8 +171,8 @@
             "12.png",
             "13.jpg"
         ],
-        "extracted": "DD",
-        "result": 0
+        "extracted": "D",
+        "result": 1
     },
     {
         "sample_id": 7,
@@ -321,7 +321,7 @@
             "24.png",
             "25.jpg"
         ],
-        "extracted": "BB",
+        "extracted": "B",
         "result": 0
     },
     {
@@ -421,7 +421,7 @@
             "32.png",
             "33.jpg"
         ],
-        "extracted": "DADAAADAADCCDCBA",
+        "extracted": "D",
         "result": 0
     },
     {
@@ -596,8 +596,8 @@
             "46.png",
             "47.jpg"
         ],
-        "extracted": "DA",
-        "result": 0
+        "extracted": "D",
+        "result": 1
     },
     {
         "sample_id": 24,
@@ -804,8 +804,8 @@
             "248.jpg",
             "249.jpg"
         ],
-        "extracted": "AADCB",
-        "result": 0
+        "extracted": "A",
+        "result": 1
     },
     {
         "sample_id": 122,
@@ -886,7 +886,7 @@
             "58.png",
             "59.jpg"
         ],
-        "extracted": "DDADC",
+        "extracted": "D",
         "result": 0
     },
     {
@@ -936,8 +936,8 @@
             "62.png",
             "63.jpg"
         ],
-        "extracted": "AA",
-        "result": 0
+        "extracted": "A",
+        "result": 1
     },
     {
         "sample_id": 32,
@@ -961,8 +961,8 @@
             "64.png",
             "65.jpg"
         ],
-        "extracted": "AAAAAA",
-        "result": 0
+        "extracted": "A",
+        "result": 1
     },
     {
         "sample_id": 33,
@@ -986,8 +986,8 @@
             "66.png",
             "67.jpg"
         ],
-        "extracted": "BAA",
-        "result": 0
+        "extracted": "B",
+        "result": 1
     },
     {
         "sample_id": 34,
@@ -1061,8 +1061,8 @@
             "72.png",
             "73.jpg"
         ],
-        "extracted": "BBA",
-        "result": 0
+        "extracted": "B",
+        "result": 1
     },
     {
         "sample_id": 37,
@@ -1386,8 +1386,8 @@
             "98.png",
             "99.png"
         ],
-        "extracted": "DAAD",
-        "result": 0
+        "extracted": "D",
+        "result": 1
     },
     {
         "sample_id": 50,
@@ -1486,7 +1486,7 @@
             "106.png",
             "107.jpg"
         ],
-        "extracted": "DBAAB",
+        "extracted": "D",
         "result": 0
     },
     {
@@ -1511,8 +1511,8 @@
             "108.png",
             "109.png"
         ],
-        "extracted": "DA",
-        "result": 0
+        "extracted": "D",
+        "result": 1
     },
     {
         "sample_id": 55,
@@ -1536,7 +1536,7 @@
             "110.png",
             "111.jpg"
         ],
-        "extracted": "BDAAACAD",
+        "extracted": "B",
         "result": 0
     },
     {
@@ -1716,7 +1716,7 @@
             "120.png",
             "121.jpg"
         ],
-        "extracted": "BDAA",
+        "extracted": "B",
         "result": 0
     },
     {
@@ -1816,8 +1816,8 @@
             "128.png",
             "129.png"
         ],
-        "extracted": "ABAAB",
-        "result": 0
+        "extracted": "A",
+        "result": 1
     },
     {
         "sample_id": 65,
@@ -1841,8 +1841,8 @@
             "130.png",
             "131.jpg"
         ],
-        "extracted": "CB",
-        "result": 0
+        "extracted": "C",
+        "result": 1
     },
     {
         "sample_id": 66,
@@ -1866,7 +1866,7 @@
             "132.png",
             "133.png"
         ],
-        "extracted": "AA",
+        "extracted": "A",
         "result": 0
     },
     {
@@ -1891,8 +1891,8 @@
             "134.png",
             "135.jpg"
         ],
-        "extracted": "BBAABDCACDACA",
-        "result": 0
+        "extracted": "B",
+        "result": 1
     },
     {
         "sample_id": 68,
@@ -2066,8 +2066,8 @@
             "148.png",
             "149.png"
         ],
-        "extracted": "BAAC",
-        "result": 0
+        "extracted": "B",
+        "result": 1
     },
     {
         "sample_id": 75,
@@ -2166,8 +2166,8 @@
             "156.png",
             "157.jpg"
         ],
-        "extracted": "DA",
-        "result": 0
+        "extracted": "D",
+        "result": 1
     },
     {
         "sample_id": 79,
@@ -2191,8 +2191,8 @@
             "158.png",
             "159.jpg"
         ],
-        "extracted": "CBBABAADAAADBADC",
-        "result": 0
+        "extracted": "C",
+        "result": 1
     },
     {
         "sample_id": 80,
@@ -2216,8 +2216,8 @@
             "160.png",
             "161.jpg"
         ],
-        "extracted": "CCA",
-        "result": 0
+        "extracted": "C",
+        "result": 1
     },
     {
         "sample_id": 81,
@@ -2266,8 +2266,8 @@
             "164.png",
             "165.jpg"
         ],
-        "extracted": "DABAD",
-        "result": 0
+        "extracted": "D",
+        "result": 1
     },
     {
         "sample_id": 83,
@@ -2291,8 +2291,8 @@
             "166.png",
             "167.jpg"
         ],
-        "extracted": "AA",
-        "result": 0
+        "extracted": "A",
+        "result": 1
     },
     {
         "sample_id": 188,
@@ -2320,8 +2320,8 @@
             "404.png",
             "405.jpg"
         ],
-        "extracted": "CAAAACBAAAAAACBA",
-        "result": 0
+        "extracted": "C",
+        "result": 1
     },
     {
         "sample_id": 84,
@@ -2345,8 +2345,8 @@
             "168.png",
             "169.jpg"
         ],
-        "extracted": "DBAAB",
-        "result": 0
+        "extracted": "D",
+        "result": 1
     },
     {
         "sample_id": 85,
@@ -2420,8 +2420,8 @@
             "174.png",
             "175.jpg"
         ],
-        "extracted": "AA",
-        "result": 0
+        "extracted": "A",
+        "result": 1
     },
     {
         "sample_id": 88,
@@ -2445,8 +2445,8 @@
             "176.png",
             "177.jpg"
         ],
-        "extracted": "BBAA",
-        "result": 0
+        "extracted": "B",
+        "result": 1
     },
     {
         "sample_id": 89,
@@ -2520,8 +2520,8 @@
             "182.png",
             "183.jpg"
         ],
-        "extracted": "ABAAB",
-        "result": 0
+        "extracted": "A",
+        "result": 1
     },
     {
         "sample_id": 92,
@@ -2620,8 +2620,8 @@
             "190.png",
             "191.png"
         ],
-        "extracted": "DC",
-        "result": 0
+        "extracted": "D",
+        "result": 1
     },
     {
         "sample_id": 96,
@@ -2845,8 +2845,8 @@
             "208.png",
             "209.jpg"
         ],
-        "extracted": "CC",
-        "result": 0
+        "extracted": "C",
+        "result": 1
     },
     {
         "sample_id": 105,
@@ -3045,8 +3045,8 @@
             "229.png",
             "230.png"
         ],
-        "extracted": "DBAAB",
-        "result": 0
+        "extracted": "D",
+        "result": 1
     },
     {
         "sample_id": 114,
@@ -3070,8 +3070,8 @@
             "231.png",
             "232.jpg"
         ],
-        "extracted": "CDBACA",
-        "result": 0
+        "extracted": "C",
+        "result": 1
     },
     {
         "sample_id": 115,
@@ -3120,8 +3120,8 @@
             "235.png",
             "236.jpg"
         ],
-        "extracted": "CAAAA",
-        "result": 0
+        "extracted": "C",
+        "result": 1
     },
     {
         "sample_id": 117,
@@ -3270,8 +3270,8 @@
             "267.png",
             "268.png"
         ],
-        "extracted": "CBACCC",
-        "result": 0
+        "extracted": "C",
+        "result": 1
     },
     {
         "sample_id": 126,
@@ -3370,8 +3370,8 @@
             "275.png",
             "276.jpg"
         ],
-        "extracted": "BABAAA",
-        "result": 0
+        "extracted": "B",
+        "result": 1
     },
     {
         "sample_id": 130,
@@ -3395,8 +3395,8 @@
             "277.png",
             "278.jpg"
         ],
-        "extracted": "BAABAD",
-        "result": 0
+        "extracted": "B",
+        "result": 1
     },
     {
         "sample_id": 131,
@@ -3445,8 +3445,8 @@
             "281.png",
             "282.png"
         ],
-        "extracted": "BBAABAACBA",
-        "result": 0
+        "extracted": "B",
+        "result": 1
     },
     {
         "sample_id": 133,
@@ -3495,7 +3495,7 @@
             "285.png",
             "286.jpg"
         ],
-        "extracted": "DBAABDAAAAAAAACAAAAAAA",
+        "extracted": "D",
         "result": 0
     },
     {
@@ -3570,8 +3570,8 @@
             "291.png",
             "292.jpg"
         ],
-        "extracted": "BAACAABACAA",
-        "result": 0
+        "extracted": "B",
+        "result": 1
     },
     {
         "sample_id": 138,
@@ -3595,8 +3595,8 @@
             "293.png",
             "294.jpg"
         ],
-        "extracted": "CAC",
-        "result": 0
+        "extracted": "C",
+        "result": 1
     },
     {
         "sample_id": 139,
@@ -3620,8 +3620,8 @@
             "295.png",
             "296.jpg"
         ],
-        "extracted": "CAAAA",
-        "result": 0
+        "extracted": "C",
+        "result": 1
     },
     {
         "sample_id": 140,
@@ -3645,8 +3645,8 @@
             "297.png",
             "298.png"
         ],
-        "extracted": "BACADAACAAC",
-        "result": 0
+        "extracted": "B",
+        "result": 1
     },
     {
         "sample_id": 141,
@@ -3720,7 +3720,7 @@
             "303.png",
             "304.jpg"
         ],
-        "extracted": "DD",
+        "extracted": "D",
         "result": 0
     },
     {
@@ -3820,8 +3820,8 @@
             "311.png",
             "312.jpg"
         ],
-        "extracted": "BA",
-        "result": 0
+        "extracted": "B",
+        "result": 1
     },
     {
         "sample_id": 148,
@@ -3995,8 +3995,8 @@
             "325.png",
             "326.png"
         ],
-        "extracted": "BAA",
-        "result": 0
+        "extracted": "B",
+        "result": 1
     },
     {
         "sample_id": 155,
@@ -4095,8 +4095,8 @@
             "336.png",
             "337.jpg"
         ],
-        "extracted": "BBAABACACA",
-        "result": 0
+        "extracted": "B",
+        "result": 1
     },
     {
         "sample_id": 160,
@@ -4120,8 +4120,8 @@
             "338.png",
             "339.png"
         ],
-        "extracted": "AAAC",
-        "result": 0
+        "extracted": "A",
+        "result": 1
     },
     {
         "sample_id": 161,
@@ -4145,8 +4145,8 @@
             "340.png",
             "341.jpg"
         ],
-        "extracted": "DAACAABCBA",
-        "result": 0
+        "extracted": "D",
+        "result": 1
     },
     {
         "sample_id": 162,
@@ -4170,8 +4170,8 @@
             "342.png",
             "343.jpg"
         ],
-        "extracted": "CAD",
-        "result": 0
+        "extracted": "C",
+        "result": 1
     },
     {
         "sample_id": 163,
@@ -4195,7 +4195,7 @@
             "344.png",
             "345.jpg"
         ],
-        "extracted": "AA",
+        "extracted": "A",
         "result": 0
     },
     {
@@ -4220,8 +4220,8 @@
             "346.png",
             "347.jpg"
         ],
-        "extracted": "BAAA",
-        "result": 0
+        "extracted": "B",
+        "result": 1
     },
     {
         "sample_id": 165,
@@ -4245,8 +4245,8 @@
             "348.png",
             "349.png"
         ],
-        "extracted": "CBAABDDAADCC",
-        "result": 0
+        "extracted": "C",
+        "result": 1
     },
     {
         "sample_id": 166,
@@ -4395,8 +4395,8 @@
             "360.png",
             "361.jpg"
         ],
-        "extracted": "DAA",
-        "result": 0
+        "extracted": "D",
+        "result": 1
     },
     {
         "sample_id": 172,
@@ -4420,7 +4420,7 @@
             "362.png",
             "363.jpg"
         ],
-        "extracted": "CAC",
+        "extracted": "C",
         "result": 0
     },
     {
@@ -4495,7 +4495,7 @@
             "368.png",
             "369.jpg"
         ],
-        "extracted": "DBADAC",
+        "extracted": "D",
         "result": 0
     },
     {
@@ -4820,8 +4820,8 @@
             "411.png",
             "412.jpg"
         ],
-        "extracted": "DACA",
-        "result": 0
+        "extracted": "D",
+        "result": 1
     },
     {
         "sample_id": 192,
@@ -4845,7 +4845,7 @@
             "413.png",
             "414.jpg"
         ],
-        "extracted": "CA",
+        "extracted": "C",
         "result": 0
     },
     {

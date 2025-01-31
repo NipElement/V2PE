@@ -44,9 +44,26 @@ def init_dist(launcher, backend='nccl', **kwargs):
 
 def _init_dist_pytorch(backend, **kwargs):
     # TODO: use local_rank instead of rank % num_gpus
+    # print("Environment variables before initialization:")
+    # for key in ['RANK', 'WORLD_SIZE', 'MASTER_ADDR', 'MASTER_PORT', 'MLP_ROLE_INDEX', 
+    #             'MLP_WORKER_NUM', 'MLP_WORKER_GPU', 'LOCAL_RANK']:
+    #     print(f"{key}: {os.environ.get(key)}")
+
+    # if 'RANK' not in os.environ:
+    #     os.environ['RANK'] = os.environ['MLP_ROLE_INDEX']
     rank = int(os.environ['RANK'])
     num_gpus = torch.cuda.device_count()
     torch.cuda.set_device(rank % num_gpus)
+
+    # if 'MASTER_PORT' not in os.environ:
+    #     os.environ['MASTER_PORT'] = os.environ['MLP_WORKER_0_PORT']
+    # if 'MASTER_ADDR' not in os.environ:
+    #     raise KeyError('The environment variable MASTER_ADDR is not set')
+    # if 'WORLD_SIZE' not in os.environ:
+    #     num_workers = int(os.environ['MLP_WORKER_NUM'])
+    #     num_gpus_per_worker = int(os.environ['MLP_WORKER_GPU'])
+    #     os.environ['WORLD_SIZE'] = str(num_workers * num_gpus_per_worker)
+        
     # dist.init_process_group(backend=backend, **kwargs)
     deepspeed.init_distributed(dist_backend=backend)
 

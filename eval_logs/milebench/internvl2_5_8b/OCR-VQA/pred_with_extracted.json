@@ -46,8 +46,8 @@
             "2.jpg",
             "3.jpg"
         ],
-        "extracted": "CADADA",
-        "result": 0
+        "extracted": "C",
+        "result": 1
     },
     {
         "sample_id": 2,
@@ -96,8 +96,8 @@
             "6.jpg",
             "7.jpg"
         ],
-        "extracted": "CB",
-        "result": 0
+        "extracted": "C",
+        "result": 1
     },
     {
         "sample_id": 4,
@@ -171,8 +171,8 @@
             "21.jpg",
             "22.jpg"
         ],
-        "extracted": "AAA",
-        "result": 0
+        "extracted": "A",
+        "result": 1
     },
     {
         "sample_id": 10,
@@ -196,8 +196,8 @@
             "23.jpg",
             "24.jpg"
         ],
-        "extracted": "BAA",
-        "result": 0
+        "extracted": "B",
+        "result": 1
     },
     {
         "sample_id": 13,
@@ -271,8 +271,8 @@
             "41.jpg",
             "42.jpg"
         ],
-        "extracted": "BAAC",
-        "result": 0
+        "extracted": "B",
+        "result": 1
     },
     {
         "sample_id": 18,
@@ -296,7 +296,7 @@
             "43.jpg",
             "44.jpg"
         ],
-        "extracted": "DCA",
+        "extracted": "D",
         "result": 0
     },
     {
@@ -346,7 +346,7 @@
             "53.jpg",
             "54.jpg"
         ],
-        "extracted": "CA",
+        "extracted": "C",
         "result": 0
     },
     {
@@ -574,8 +574,8 @@
             "13.jpg",
             "14.jpg"
         ],
-        "extracted": "BABEECECEEEEFEDAAECADEEEDE",
-        "result": 0
+        "extracted": "B",
+        "result": 1
     },
     {
         "sample_id": 7,
@@ -686,7 +686,7 @@
             "29.jpg",
             "30.jpg"
         ],
-        "extracted": "AEEAAEACAAEAECEEEAEDCEEEADEC",
+        "extracted": "A",
         "result": 0
     },
     {
@@ -714,7 +714,7 @@
             "36.jpg",
             "37.jpg"
         ],
-        "extracted": "AECEAFFCAAEDEAFECEADEEAF",
+        "extracted": "A",
         "result": 0
     },
     {
@@ -767,8 +767,8 @@
             "80.jpg",
             "81.jpg"
         ],
-        "extracted": "DAA",
-        "result": 0
+        "extracted": "D",
+        "result": 1
     },
     {
         "sample_id": 35,
@@ -917,7 +917,7 @@
             "95.jpg",
             "96.jpg"
         ],
-        "extracted": "CDBBCD",
+        "extracted": "C",
         "result": 0
     },
     {
@@ -942,8 +942,8 @@
             "97.jpg",
             "98.jpg"
         ],
-        "extracted": "CC",
-        "result": 0
+        "extracted": "C",
+        "result": 1
     },
     {
         "sample_id": 43,
@@ -967,8 +967,8 @@
             "99.jpg",
             "100.jpg"
         ],
-        "extracted": "BAAADADAABCDA",
-        "result": 0
+        "extracted": "B",
+        "result": 1
     },
     {
         "sample_id": 44,
@@ -1092,8 +1092,8 @@
             "115.jpg",
             "116.jpg"
         ],
-        "extracted": "AC",
-        "result": 0
+        "extracted": "A",
+        "result": 1
     },
     {
         "sample_id": 51,
@@ -1142,7 +1142,7 @@
             "119.jpg",
             "120.jpg"
         ],
-        "extracted": "ACD",
+        "extracted": "A",
         "result": 0
     },
     {
@@ -1167,8 +1167,8 @@
             "121.jpg",
             "122.jpg"
         ],
-        "extracted": "CC",
-        "result": 0
+        "extracted": "C",
+        "result": 1
     },
     {
         "sample_id": 54,
@@ -1192,8 +1192,8 @@
             "123.jpg",
             "124.jpg"
         ],
-        "extracted": "DC",
-        "result": 0
+        "extracted": "D",
+        "result": 1
     },
     {
         "sample_id": 55,
@@ -1348,7 +1348,7 @@
             "51.jpg",
             "52.jpg"
         ],
-        "extracted": "BEEAADFDE",
+        "extracted": "B",
         "result": 0
     },
     {
@@ -1460,7 +1460,7 @@
             "85.jpg",
             "86.jpg"
         ],
-        "extracted": "BFDADCEBAEEAEEEEBEAAEFFDFAAD",
+        "extracted": "B",
         "result": 0
     },
     {
@@ -1538,8 +1538,8 @@
             "141.jpg",
             "142.jpg"
         ],
-        "extracted": "BDBAA",
-        "result": 0
+        "extracted": "B",
+        "result": 1
     },
     {
         "sample_id": 63,
@@ -1663,7 +1663,7 @@
             "163.jpg",
             "164.jpg"
         ],
-        "extracted": "BC",
+        "extracted": "B",
         "result": 0
     },
     {
@@ -1688,8 +1688,8 @@
             "165.jpg",
             "166.jpg"
         ],
-        "extracted": "DB",
-        "result": 0
+        "extracted": "D",
+        "result": 1
     },
     {
         "sample_id": 73,
@@ -1863,8 +1863,8 @@
             "182.jpg",
             "183.jpg"
         ],
-        "extracted": "CC",
-        "result": 0
+        "extracted": "C",
+        "result": 1
     },
     {
         "sample_id": 81,
@@ -1988,7 +1988,7 @@
             "201.jpg",
             "202.jpg"
         ],
-        "extracted": "BBD",
+        "extracted": "B",
         "result": 0
     },
     {
@@ -2038,7 +2038,7 @@
             "208.jpg",
             "209.jpg"
         ],
-        "extracted": "DCCAAA",
+        "extracted": "D",
         "result": 0
     },
     {
@@ -2094,7 +2094,7 @@
             "132.jpg",
             "133.jpg"
         ],
-        "extracted": "BAADEEDEACCACAEACE",
+        "extracted": "B",
         "result": 0
     },
     {
@@ -2206,7 +2206,7 @@
             "154.jpg",
             "155.jpg"
         ],
-        "extracted": "CEEEEAAAADEABECEEDADBEEBEF",
+        "extracted": "C",
         "result": 0
     },
     {
@@ -2284,8 +2284,8 @@
             "212.jpg",
             "213.jpg"
         ],
-        "extracted": "BCAADDA",
-        "result": 0
+        "extracted": "B",
+        "result": 1
     },
     {
         "sample_id": 94,
@@ -2359,7 +2359,7 @@
             "221.jpg",
             "222.jpg"
         ],
-        "extracted": "DC",
+        "extracted": "D",
         "result": 0
     },
     {
@@ -2459,7 +2459,7 @@
             "232.jpg",
             "233.jpg"
         ],
-        "extracted": "DCAC",
+        "extracted": "D",
         "result": 0
     },
     {
@@ -2584,7 +2584,7 @@
             "248.jpg",
             "249.jpg"
         ],
-        "extracted": "DAAADAAA",
+        "extracted": "D",
         "result": 0
     },
     {
@@ -3130,8 +3130,8 @@
             "288.jpg",
             "289.jpg"
         ],
-        "extracted": "CC",
-        "result": 0
+        "extracted": "C",
+        "result": 1
     },
     {
         "sample_id": 128,
@@ -3255,8 +3255,8 @@
             "298.jpg",
             "299.jpg"
         ],
-        "extracted": "CAC",
-        "result": 0
+        "extracted": "C",
+        "result": 1
     },
     {
         "sample_id": 133,
@@ -3330,8 +3330,8 @@
             "307.jpg",
             "308.jpg"
         ],
-        "extracted": "CAD",
-        "result": 0
+        "extracted": "C",
+        "result": 1
     },
     {
         "sample_id": 137,
@@ -3355,8 +3355,8 @@
             "309.jpg",
             "310.jpg"
         ],
-        "extracted": "AC",
-        "result": 0
+        "extracted": "A",
+        "result": 1
     },
     {
         "sample_id": 139,
@@ -3558,7 +3558,7 @@
             "235.jpg",
             "236.jpg"
         ],
-        "extracted": "ADAACEBEEEFDACFCEEAACE",
+        "extracted": "A",
         "result": 0
     },
     {
@@ -3751,8 +3751,8 @@
             "328.jpg",
             "329.jpg"
         ],
-        "extracted": "CC",
-        "result": 0
+        "extracted": "C",
+        "result": 1
     },
     {
         "sample_id": 150,
@@ -3776,7 +3776,7 @@
             "339.jpg",
             "340.jpg"
         ],
-        "extracted": "DA",
+        "extracted": "D",
         "result": 0
     },
     {
@@ -3876,7 +3876,7 @@
             "347.jpg",
             "348.jpg"
         ],
-        "extracted": "CC",
+        "extracted": "C",
         "result": 0
     },
     {
@@ -3926,8 +3926,8 @@
             "351.jpg",
             "352.jpg"
         ],
-        "extracted": "BCADA",
-        "result": 0
+        "extracted": "B",
+        "result": 1
     },
     {
         "sample_id": 157,
@@ -4026,8 +4026,8 @@
             "359.jpg",
             "360.jpg"
         ],
-        "extracted": "CC",
-        "result": 0
+        "extracted": "C",
+        "result": 1
     },
     {
         "sample_id": 161,
@@ -4151,7 +4151,7 @@
             "375.jpg",
             "376.jpg"
         ],
-        "extracted": "BC",
+        "extracted": "B",
         "result": 0
     },
     {
@@ -4226,8 +4226,8 @@
             "390.jpg",
             "391.jpg"
         ],
-        "extracted": "BBABA",
-        "result": 0
+        "extracted": "B",
+        "result": 1
     },
     {
         "sample_id": 174,
@@ -4360,7 +4360,7 @@
             "334.jpg",
             "335.jpg"
         ],
-        "extracted": "EDAEECAAEACDEBEAAEAD",
+        "extracted": "A",
         "result": 0
     },
     {
@@ -4444,7 +4444,7 @@
             "371.jpg",
             "372.jpg"
         ],
-        "extracted": "BDABAEAEAEEBEAEAEA",
+        "extracted": "B",
         "result": 0
     },
     {
@@ -4594,8 +4594,8 @@
             "406.jpg",
             "407.jpg"
         ],
-        "extracted": "BC",
-        "result": 0
+        "extracted": "B",
+        "result": 1
     },
     {
         "sample_id": 182,
@@ -4644,8 +4644,8 @@
             "410.jpg",
             "411.jpg"
         ],
-        "extracted": "DCA",
-        "result": 0
+        "extracted": "D",
+        "result": 1
     },
     {
         "sample_id": 184,
@@ -4719,8 +4719,8 @@
             "419.jpg",
             "420.jpg"
         ],
-        "extracted": "DCCAAACADCCAAAADABDCAD",
-        "result": 0
+        "extracted": "D",
+        "result": 1
     },
     {
         "sample_id": 188,
@@ -4794,7 +4794,7 @@
             "425.jpg",
             "426.jpg"
         ],
-        "extracted": "AD",
+        "extracted": "A",
         "result": 0
     },
     {
@@ -4819,7 +4819,7 @@
             "430.jpg",
             "431.jpg"
         ],
-        "extracted": "DADBA",
+        "extracted": "D",
         "result": 0
     },
     {
@@ -4894,8 +4894,8 @@
             "439.jpg",
             "440.jpg"
         ],
-        "extracted": "CB",
-        "result": 0
+        "extracted": "C",
+        "result": 1
     },
     {
         "sample_id": 197,
@@ -5025,7 +5025,7 @@
             "383.jpg",
             "384.jpg"
         ],
-        "extracted": "AAEAADEEAAEEAAFDEECEFC",
+        "extracted": "A",
         "result": 0
     },
     {

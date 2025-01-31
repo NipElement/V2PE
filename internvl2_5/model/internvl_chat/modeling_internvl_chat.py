@@ -262,6 +262,8 @@ class InternVLChatModel(PreTrainedModel):
                 loss_weight=list(loss_weight.numpy())
                 attention_mask=attention_mask//dist.get_world_size(group)
             elif self.attn_type=='ring':
+                # print("Rank",dist.get_rank(group),"attention_mask (before)",attention_mask)
+                # print("Rank",dist.get_rank(group),"input_embeds (before)",input_embeds.shape)
                 input_embeds=extract_local(input_embeds,dist.get_rank(group),dist.get_world_size(group))
                 position_ids=extract_local(position_ids,dist.get_rank(group),dist.get_world_size(group))
                 labels=extract_local(labels,dist.get_rank(group),dist.get_world_size(group))
@@ -269,6 +271,11 @@ class InternVLChatModel(PreTrainedModel):
                     loss_weight=extract_local(torch.tensor(loss_weight),dist.get_rank(group),dist.get_world_size(group))
                     loss_weight=list(loss_weight.numpy())
                 attention_mask=attention_mask//dist.get_world_size(group)
+                # print("Rank",dist.get_rank(group),"world_size",dist.get_world_size(group))
+                # print("Rank",dist.get_rank(group),"attention_mask",attention_mask)
+                # print("Rank",dist.get_rank(group),"input_embeds",input_embeds.shape)
+                # exit(1)
+
         outputs = self.language_model(
             inputs_embeds=input_embeds,
             attention_mask=attention_mask,

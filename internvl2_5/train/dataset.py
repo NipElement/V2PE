@@ -479,8 +479,8 @@ def preprocess_mpt(
     input_ids = tokenizer(
         conversations,
         return_tensors='pt',
-        # padding=False if group_by_length or use_packed_ds else 'max_length',
-        padding=False,
+        padding=False if group_by_length or use_packed_ds else 'max_length',
+        # padding=False,
         max_length=tokenizer.model_max_length,
         truncation=True,
     ).input_ids
@@ -647,6 +647,7 @@ def preprocess_internlm(
         use_packed_ds: bool = False,
         ds_name: str = None,
         num_image: int = 1,
+        debug_check: bool = False, 
 ) -> Dict:
     conv = get_conv_template(template_name)
     roles = {'human': conv.roles[0], 'gpt': conv.roles[1]}
@@ -672,6 +673,14 @@ def preprocess_internlm(
             for i in range(num_image):
                 image_tokens = f'{IMG_START_TOKEN}{IMG_CONTEXT_TOKEN * num_image_token_list[i]}{IMG_END_TOKEN}'
                 conversation = conversation.replace('<image>', image_tokens, 1)
+                # if '<image>' in conversation:
+                #     oritingal_conversation = conversation
+                #     conversation = conversation.replace('<image>', image_tokens, 1)
+                #     debug_info = f"[Debug] Before replacement: {oritingal_conversation}\n[Debug] After Replacing replacement: {conversation}"
+                #     sys.stdout.write(debug_info + "\n")
+                #     sys.stdout.flush()
+                # if '<image>' in conversation:
+                #     raise ValueError(f"[Error] <image> replacement failed! Conversation after replacement: {conversation}")
             new_conversations.append(conversation)
         conversations = new_conversations
 
@@ -679,7 +688,8 @@ def preprocess_internlm(
     input_ids = tokenizer(
         conversations,
         return_tensors='pt',
-        padding=False if group_by_length or use_packed_ds else 'max_length',
+        padding=False,
+        # padding=False if group_by_length or use_packed_ds else 'max_length',
         max_length=tokenizer.model_max_length,
         truncation=True,
     ).input_ids
@@ -720,6 +730,32 @@ def preprocess_internlm(
                 print(f'WARNING: tokenization mismatch: {cur_len} vs. {total_len}. This dataset is {ds_name}.')
                 sys.stdout.flush()
 
+    # if debug_check and not text_only:
+    #     # 如果任何一条分词长度 == model_max_length，则说明被截断
+    #     seq_len = input_ids.shape[1]
+    #     if seq_len == tokenizer.model_max_length:
+    #         is_cut=True
+    #     else:
+    #         is_cut=False
+        
+    #     image_end_token_id = tokenizer.convert_tokens_to_ids(IMG_END_TOKEN)
+    #     end_count = (input_ids[0] == image_end_token_id).sum().item()
+    #     if end_count != num_image:
+    #         debug_info = {
+    #             'ds_name': ds_name,
+    #             'conversation': conversations, 
+    #             'final_seq_len': seq_len,
+    #             'model_max_length': tokenizer.model_max_length,
+    #             'num_image_token_list': num_image_token_list,
+    #             # "image_tokens":image_tokens,
+    #             'num_image': num_image,
+    #             'is_cut': is_cut,
+    #             'found_image_end_count': end_count,
+    #         }
+    #         raise AssertionError(
+    #             f"[preprocess_internlm]!\n"
+    #             f"Debug info: {debug_info}"
+    #         )
     return dict(
         input_ids=input_ids,
         labels=targets,
@@ -727,19 +763,96 @@ def preprocess_internlm(
     )
 
 
-def find_closest_aspect_ratio(aspect_ratio, target_ratios, width, height, image_size):
+# def find_closest_aspect_ratio(aspect_ratio, target_ratios, width, height, image_size):
+#     best_ratio_diff = float('inf')
+#     best_ratio = (1, 1)
+#     area = width * height
+#     for ratio in target_ratios:
+#         target_aspect_ratio = ratio[0] / ratio[1]
+#         ratio_diff = abs(aspect_ratio - target_aspect_ratio)
+#         if ratio_diff < best_ratio_diff:
+#             best_ratio_diff = ratio_diff
+#             best_ratio = ratio
+#         elif ratio_diff == best_ratio_diff:
+#             if area > 0.5 * image_size * image_size * ratio[0] * ratio[1]:
+#                 best_ratio = ratio
+#     return best_ratio
+
+def find_closest_aspect_ratio(
+    aspect_ratio,
+    target_ratios,
+    orig_width,
+    orig_height,
+    image_size,
+    min_factor=1,
+    upscale_factor=1.2
+):
+    """
+    1) 若原图宽高都很小(如小于 448×min_factor)，直接 (1,1)。
+    2) 若能找到不大于原图的组合，则选其中比值最接近 aspect_ratio 的。
+    3) 如果找不到(说明原图比 448×1 还小, 或非常极端)，则允许最高放大 upscale_factor 倍。
+       i.e. i*image_size <= upscale_factor * orig_width, j*image_size <= upscale_factor * orig_height
+    4) 若还是没有，就回退到原逻辑(完全不管放大，找纵横比最近)。
+    """
+
+    # Step A: 若图非常小(短边 < 448×min_factor)，直接 (1,1)，防止过度放大或缩小
+    # 比如：orig_width=324, orig_height=500, min(orig_width, orig_height)=324
+    # 如果 324 < 448*0.8=358, 则说明太小 => 就只拆 1 块
+    if min(orig_width, orig_height) < image_size * min_factor:
+        return (1, 1)
+
+    # Step B: 收集所有“不放大”组合 => i*image_size <= orig_width & j*image_size <= orig_height
+    no_upscale_candidates = []
+    for (i, j) in target_ratios:
+        if i * image_size <= orig_width and j * image_size <= orig_height:
+            no_upscale_candidates.append((i, j))
+
+    if no_upscale_candidates:
+        # 在这些不放大的组合里找纵横比最接近 aspect_ratio
+        best_ratio_diff = float('inf')
+        best_ratio = (1, 1)
+        for (i, j) in no_upscale_candidates:
+            r = i / j
+            diff = abs(aspect_ratio - r)
+            if diff < best_ratio_diff:
+                best_ratio_diff = diff
+                best_ratio = (i, j)
+        return best_ratio
+
+    # Step C: 允许最高 upscale_factor 倍放大 => i*image_size <= upscale_factor*orig_width etc.
+    # 这一步只在前面下采样找不到时才走
+    limited_up_candidates = []
+    for (i, j) in target_ratios:
+        scaled_w = i * image_size
+        scaled_h = j * image_size
+        if scaled_w <= upscale_factor * orig_width and scaled_h <= upscale_factor * orig_height:
+            limited_up_candidates.append((i, j))
+
+    if limited_up_candidates:
+        # 在允许 up-scale 的范围里选 ratio 最接近
+        best_ratio_diff = float('inf')
+        best_ratio = (1, 1)
+        for (i, j) in limited_up_candidates:
+            r = i / j
+            diff = abs(aspect_ratio - r)
+            if diff < best_ratio_diff:
+                best_ratio_diff = diff
+                best_ratio = (i, j)
+        return best_ratio
+
+    # 如果上述都找不到(可能极端情况?), 就回到最原始的逻辑
     best_ratio_diff = float('inf')
     best_ratio = (1, 1)
-    area = width * height
-    for ratio in target_ratios:
-        target_aspect_ratio = ratio[0] / ratio[1]
-        ratio_diff = abs(aspect_ratio - target_aspect_ratio)
-        if ratio_diff < best_ratio_diff:
-            best_ratio_diff = ratio_diff
-            best_ratio = ratio
-        elif ratio_diff == best_ratio_diff:
-            if area > 0.5 * image_size * image_size * ratio[0] * ratio[1]:
-                best_ratio = ratio
+    area = orig_width * orig_height
+    for (i, j) in target_ratios:
+        r = i / j
+        diff = abs(aspect_ratio - r)
+        if diff < best_ratio_diff:
+            best_ratio_diff = diff
+            best_ratio = (i, j)
+        elif diff == best_ratio_diff:
+            if area > 0.5 * image_size * image_size * i * j:
+                best_ratio = (i, j)
     return best_ratio
 
 
@@ -782,7 +895,21 @@ def dynamic_preprocess(image, min_num=1, max_num=6, image_size=448, use_thumbnai
         thumbnail_img = image.resize((image_size, image_size))
         processed_images.append(thumbnail_img)
 
+    # if not debug_return:
     if return_box:
         return processed_images,boxes
     else:
         return processed_images
+
+    # # 如果 debug_return=True，返回更多信息
+    # debug_info = {
+    #     "orig_width": orig_width,
+    #     "orig_height": orig_height,
+    #     "target_width": target_width,
+    #     "target_height": target_height,
+    #     "blocks": blocks
+    # }
+    # if return_box:
+    #     return processed_images,boxes,debug_info
+    # else:
+    #     return processed_images,debug_info

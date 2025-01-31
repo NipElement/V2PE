@@ -263,8 +263,8 @@
             "1097.png",
             "1098.png"
         ],
-        "extracted": "ADAA",
-        "result": 0
+        "extracted": "A",
+        "result": 1
     },
     {
         "sample_id": 107,
@@ -406,8 +406,8 @@
             "900.png",
             "901.png"
         ],
-        "extracted": "CADAAA",
-        "result": 0
+        "extracted": "C",
+        "result": 1
     },
     {
         "sample_id": 71,
@@ -435,7 +435,7 @@
             "906.png",
             "907.png"
         ],
-        "extracted": "AAAAAD",
+        "extracted": "A",
         "result": 0
     },
     {
@@ -617,8 +617,8 @@
             "1471.png",
             "1472.png"
         ],
-        "extracted": "ACAB",
-        "result": 0
+        "extracted": "A",
+        "result": 1
     },
     {
         "sample_id": 180,
@@ -1035,8 +1035,8 @@
             "1072.png",
             "1073.png"
         ],
-        "extracted": "BACDA",
-        "result": 0
+        "extracted": "B",
+        "result": 1
     },
     {
         "sample_id": 102,
@@ -1142,8 +1142,8 @@
             "1166.png",
             "1167.png"
         ],
-        "extracted": "CAB",
-        "result": 0
+        "extracted": "C",
+        "result": 1
     },
     {
         "sample_id": 138,
@@ -1197,8 +1197,8 @@
             "1137.png",
             "1138.png"
         ],
-        "extracted": "ADAA",
-        "result": 0
+        "extracted": "A",
+        "result": 1
     },
     {
         "sample_id": 120,
@@ -1281,8 +1281,8 @@
             "1162.png",
             "1163.png"
         ],
-        "extracted": "CA",
-        "result": 0
+        "extracted": "C",
+        "result": 1
     },
     {
         "sample_id": 73,
@@ -1397,8 +1397,8 @@
             "936.png",
             "937.png"
         ],
-        "extracted": "AC",
-        "result": 0
+        "extracted": "A",
+        "result": 1
     },
     {
         "sample_id": 77,
@@ -1827,8 +1827,8 @@
             "206.png",
             "207.png"
         ],
-        "extracted": "CDAA",
-        "result": 0
+        "extracted": "C",
+        "result": 1
     },
     {
         "sample_id": 16,
@@ -1935,8 +1935,8 @@
             "245.png",
             "246.png"
         ],
-        "extracted": "ABD",
-        "result": 0
+        "extracted": "A",
+        "result": 1
     },
     {
         "sample_id": 19,
@@ -1971,8 +1971,8 @@
             "258.png",
             "259.png"
         ],
-        "extracted": "BAC",
-        "result": 0
+        "extracted": "B",
+        "result": 1
     },
     {
         "sample_id": 111,
@@ -2050,7 +2050,7 @@
             "1247.png",
             "1248.png"
         ],
-        "extracted": "AACADAAACAAAAA",
+        "extracted": "A",
         "result": 0
     },
     {
@@ -2104,8 +2104,8 @@
             "1386.png",
             "1387.png"
         ],
-        "extracted": "CADC",
-        "result": 0
+        "extracted": "C",
+        "result": 1
     },
     {
         "sample_id": 161,
@@ -2215,8 +2215,8 @@
             "1199.png",
             "1200.png"
         ],
-        "extracted": "DD",
-        "result": 0
+        "extracted": "D",
+        "result": 1
     },
     {
         "sample_id": 78,
@@ -2331,7 +2331,7 @@
             "966.png",
             "967.png"
         ],
-        "extracted": "BAABACAAADAA",
+        "extracted": "B",
         "result": 0
     },
     {
@@ -2420,8 +2420,8 @@
             "1308.png",
             "1309.png"
         ],
-        "extracted": "ACBDCBDCBD",
-        "result": 0
+        "extracted": "A",
+        "result": 1
     },
     {
         "sample_id": 149,
@@ -2450,8 +2450,8 @@
             "1315.png",
             "1316.png"
         ],
-        "extracted": "CCBDCBD",
-        "result": 0
+        "extracted": "C",
+        "result": 1
     },
     {
         "sample_id": 183,
@@ -2482,8 +2482,8 @@
             "1507.png",
             "1508.png"
         ],
-        "extracted": "DCCA",
-        "result": 0
+        "extracted": "D",
+        "result": 1
     },
     {
         "sample_id": 184,
@@ -2622,8 +2622,8 @@
             "297.png",
             "298.png"
         ],
-        "extracted": "AAA",
-        "result": 0
+        "extracted": "A",
+        "result": 1
     },
     {
         "sample_id": 23,
@@ -2694,8 +2694,8 @@
             "323.png",
             "324.png"
         ],
-        "extracted": "CACC",
-        "result": 0
+        "extracted": "C",
+        "result": 1
     },
     {
         "sample_id": 25,
@@ -2730,8 +2730,8 @@
             "336.png",
             "337.png"
         ],
-        "extracted": "DAABD",
-        "result": 0
+        "extracted": "D",
+        "result": 1
     },
     {
         "sample_id": 26,
@@ -2838,8 +2838,8 @@
             "375.png",
             "376.png"
         ],
-        "extracted": "DBAC",
-        "result": 0
+        "extracted": "D",
+        "result": 1
     },
     {
         "sample_id": 29,
@@ -2900,8 +2900,8 @@
             "1127.png",
             "1128.png"
         ],
-        "extracted": "AACCCC",
-        "result": 0
+        "extracted": "A",
+        "result": 1
     },
     {
         "sample_id": 118,
@@ -2926,8 +2926,8 @@
             "1144.png",
             "1145.png"
         ],
-        "extracted": "CDAAACACAACADA",
-        "result": 0
+        "extracted": "C",
+        "result": 1
     },
     {
         "sample_id": 162,
@@ -2980,7 +2980,7 @@
             "1398.png",
             "1399.png"
         ],
-        "extracted": "DBA",
+        "extracted": "D",
         "result": 0
     },
     {
@@ -3090,8 +3090,8 @@
             "1209.png",
             "1210.png"
         ],
-        "extracted": "DDAA",
-        "result": 0
+        "extracted": "D",
+        "result": 1
     },
     {
         "sample_id": 132,
@@ -3176,8 +3176,8 @@
             "984.png",
             "985.png"
         ],
-        "extracted": "BDABDBC",
-        "result": 0
+        "extracted": "B",
+        "result": 1
     },
     {
         "sample_id": 85,
@@ -3263,8 +3263,8 @@
             "1002.png",
             "1003.png"
         ],
-        "extracted": "CA",
-        "result": 0
+        "extracted": "C",
+        "result": 1
     },
     {
         "sample_id": 150,
@@ -3323,8 +3323,8 @@
             "1329.png",
             "1330.png"
         ],
-        "extracted": "ACB",
-        "result": 0
+        "extracted": "A",
+        "result": 1
     },
     {
         "sample_id": 152,
@@ -3353,7 +3353,7 @@
             "1336.png",
             "1337.png"
         ],
-        "extracted": "ADAD",
+        "extracted": "A",
         "result": 0
     },
     {
@@ -3385,8 +3385,8 @@
             "1525.png",
             "1526.png"
         ],
-        "extracted": "ABC",
-        "result": 0
+        "extracted": "A",
+        "result": 1
     },
     {
         "sample_id": 186,
@@ -3633,8 +3633,8 @@
             "466.png",
             "467.png"
         ],
-        "extracted": "BDAA",
-        "result": 0
+        "extracted": "B",
+        "result": 1
     },
     {
         "sample_id": 36,
@@ -4021,8 +4021,8 @@
             "1229.png",
             "1230.png"
         ],
-        "extracted": "BD",
-        "result": 0
+        "extracted": "B",
+        "result": 1
     },
     {
         "sample_id": 88,
@@ -4137,8 +4137,8 @@
             "1026.png",
             "1027.png"
         ],
-        "extracted": "DD",
-        "result": 0
+        "extracted": "D",
+        "result": 1
     },
     {
         "sample_id": 92,
@@ -4196,8 +4196,8 @@
             "1343.png",
             "1344.png"
         ],
-        "extracted": "DAAAD",
-        "result": 0
+        "extracted": "D",
+        "result": 1
     },
     {
         "sample_id": 154,
@@ -4226,7 +4226,7 @@
             "1350.png",
             "1351.png"
         ],
-        "extracted": "BDAA",
+        "extracted": "B",
         "result": 0
     },
     {
@@ -4398,8 +4398,8 @@
             "557.png",
             "558.png"
         ],
-        "extracted": "BA",
-        "result": 0
+        "extracted": "B",
+        "result": 1
     },
     {
         "sample_id": 43,
@@ -4470,8 +4470,8 @@
             "583.png",
             "584.png"
         ],
-        "extracted": "CA",
-        "result": 0
+        "extracted": "C",
+        "result": 1
     },
     {
         "sample_id": 45,
@@ -4506,8 +4506,8 @@
             "596.png",
             "597.png"
         ],
-        "extracted": "BA",
-        "result": 0
+        "extracted": "B",
+        "result": 1
     },
     {
         "sample_id": 46,
@@ -4614,7 +4614,7 @@
             "635.png",
             "636.png"
         ],
-        "extracted": "AD",
+        "extracted": "A",
         "result": 0
     },
     {
@@ -4729,8 +4729,8 @@
             "1574.png",
             "1575.png"
         ],
-        "extracted": "ADAA",
-        "result": 0
+        "extracted": "A",
+        "result": 1
     },
     {
         "sample_id": 192,
@@ -4783,8 +4783,8 @@
             "1582.png",
             "1583.png"
         ],
-        "extracted": "BAAC",
-        "result": 0
+        "extracted": "B",
+        "result": 1
     },
     {
         "sample_id": 194,
@@ -5010,7 +5010,7 @@
             "1066.png",
             "1067.png"
         ],
-        "extracted": "BA",
+        "extracted": "B",
         "result": 0
     },
     {
@@ -5069,8 +5069,8 @@
             "1357.png",
             "1358.png"
         ],
-        "extracted": "ACBD",
-        "result": 0
+        "extracted": "A",
+        "result": 1
     },
     {
         "sample_id": 156,
@@ -5099,8 +5099,8 @@
             "1364.png",
             "1365.png"
         ],
-        "extracted": "CCBDCBDCBD",
-        "result": 0
+        "extracted": "C",
+        "result": 1
     },
     {
         "sample_id": 189,
@@ -5311,8 +5311,8 @@
             "713.png",
             "714.png"
         ],
-        "extracted": "ABA",
-        "result": 0
+        "extracted": "A",
+        "result": 1
     },
     {
         "sample_id": 55,
@@ -5383,8 +5383,8 @@
             "739.png",
             "740.png"
         ],
-        "extracted": "ADACAA",
-        "result": 0
+        "extracted": "A",
+        "result": 1
     },
     {
         "sample_id": 57,
@@ -5455,7 +5455,7 @@
             "765.png",
             "766.png"
         ],
-        "extracted": "DAAAA",
+        "extracted": "A",
         "result": 0
     },
     {
@@ -5481,8 +5481,8 @@
             "1446.png",
             "1447.png"
         ],
-        "extracted": "BA",
-        "result": 0
+        "extracted": "B",
+        "result": 1
     },
     {
         "sample_id": 198,
@@ -5561,7 +5561,7 @@
             "1594.png",
             "1595.png"
         ],
-        "extracted": "CCCACDCC",
+        "extracted": "C",
         "result": 0
     },
     {
@@ -5644,8 +5644,8 @@
             "1438.png",
             "1439.png"
         ],
-        "extracted": "CCACACA",
-        "result": 0
+        "extracted": "C",
+        "result": 1
     },
     {
         "sample_id": 197,
@@ -5759,7 +5759,7 @@
             "1178.png",
             "1179.png"
         ],
-        "extracted": "CCAAAADA",
+        "extracted": "C",
         "result": 0
     },
     {
@@ -5818,8 +5818,8 @@
             "1371.png",
             "1372.png"
         ],
-        "extracted": "CCBD",
-        "result": 0
+        "extracted": "C",
+        "result": 1
     },
     {
         "sample_id": 158,
@@ -5848,8 +5848,8 @@
             "1378.png",
             "1379.png"
         ],
-        "extracted": "DDAA",
-        "result": 0
+        "extracted": "D",
+        "result": 1
     },
     {
         "sample_id": 190,
@@ -5880,8 +5880,8 @@
             "1570.png",
             "1571.png"
         ],
-        "extracted": "ACAB",
-        "result": 0
+        "extracted": "A",
+        "result": 1
     },
     {
         "sample_id": 59,
@@ -5988,7 +5988,7 @@
             "804.png",
             "805.png"
         ],
-        "extracted": "BAC",
+        "extracted": "B",
         "result": 0
     },
     {

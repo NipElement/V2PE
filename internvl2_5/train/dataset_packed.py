@@ -181,7 +181,7 @@ class PackedDataset(IterableDataset):
                         raise StopIteration
                     return self.next_data(np.random.choice(len(self.datasets)))
             else:
-                # logger.error(f'{self.worker_id=} Fail to get any data from {self.datasets[current_dataset_idx].ds_name}!')
+                logger.error(f'{self.worker_id=} Fail to get any data from {self.datasets[current_dataset_idx].ds_name}!')
                 self.datasets.pop(current_dataset_idx)
                 self.dataset_iter_list.pop(current_dataset_idx)
                 self.dataset_weight.pop(current_dataset_idx)

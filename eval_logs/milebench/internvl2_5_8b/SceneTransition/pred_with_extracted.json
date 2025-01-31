@@ -200,7 +200,7 @@
             "Top010_04755/Top010_04755_18.jpeg",
             "Top010_04755/Top010_04755_19.jpeg"
         ],
-        "extracted": "BAA",
+        "extracted": "B",
         "result": 0
     },
     {
@@ -329,8 +329,8 @@
             "Top012_03585/Top012_03585_18.jpeg",
             "Top012_03585/Top012_03585_19.jpeg"
         ],
-        "extracted": "DA",
-        "result": 0
+        "extracted": "D",
+        "result": 1
     },
     {
         "sample_id": 4,
@@ -415,8 +415,8 @@
             "Top006_08310/Top006_08310_18.jpeg",
             "Top006_08310/Top006_08310_19.jpeg"
         ],
-        "extracted": "BAA",
-        "result": 0
+        "extracted": "B",
+        "result": 1
     },
     {
         "sample_id": 6,
@@ -458,8 +458,8 @@
             "Top012_07450/Top012_07450_18.jpeg",
             "Top012_07450/Top012_07450_19.jpeg"
         ],
-        "extracted": "AAC",
-        "result": 0
+        "extracted": "A",
+        "result": 1
     },
     {
         "sample_id": 7,
@@ -501,8 +501,8 @@
             "Top135_04375/Top135_04375_18.jpeg",
             "Top135_04375/Top135_04375_19.jpeg"
         ],
-        "extracted": "AD",
-        "result": 0
+        "extracted": "A",
+        "result": 1
     },
     {
         "sample_id": 8,
@@ -630,7 +630,7 @@
             "Top047_00935/Top047_00935_18.jpeg",
             "Top047_00935/Top047_00935_19.jpeg"
         ],
-        "extracted": "BA",
+        "extracted": "B",
         "result": 0
     },
     {
@@ -673,7 +673,7 @@
             "Top075_00490/Top075_00490_18.jpeg",
             "Top075_00490/Top075_00490_19.jpeg"
         ],
-        "extracted": "BCDAAAD",
+        "extracted": "B",
         "result": 0
     },
     {
@@ -716,8 +716,8 @@
             "Top069_04215/Top069_04215_18.jpeg",
             "Top069_04215/Top069_04215_19.jpeg"
         ],
-        "extracted": "CBADAABADAABADAA",
-        "result": 0
+        "extracted": "C",
+        "result": 1
     },
     {
         "sample_id": 13,
@@ -759,8 +759,8 @@
             "Top034_00725/Top034_00725_18.jpeg",
             "Top034_00725/Top034_00725_19.jpeg"
         ],
-        "extracted": "ADACB",
-        "result": 0
+        "extracted": "A",
+        "result": 1
     },
     {
         "sample_id": 14,
@@ -888,8 +888,8 @@
             "Top048_06240/Top048_06240_18.jpeg",
             "Top048_06240/Top048_06240_19.jpeg"
         ],
-        "extracted": "CA",
-        "result": 0
+        "extracted": "C",
+        "result": 1
     },
     {
         "sample_id": 17,
@@ -974,7 +974,7 @@
             "Top038_03635/Top038_03635_18.jpeg",
             "Top038_03635/Top038_03635_19.jpeg"
         ],
-        "extracted": "CAAA",
+        "extracted": "C",
         "result": 0
     },
     {
@@ -1060,8 +1060,8 @@
             "Top079_00580/Top079_00580_18.jpeg",
             "Top079_00580/Top079_00580_19.jpeg"
         ],
-        "extracted": "BA",
-        "result": 0
+        "extracted": "B",
+        "result": 1
     },
     {
         "sample_id": 21,
@@ -1146,8 +1146,8 @@
             "Top135_02445/Top135_02445_18.jpeg",
             "Top135_02445/Top135_02445_19.jpeg"
         ],
-        "extracted": "CDAAAAA",
-        "result": 0
+        "extracted": "C",
+        "result": 1
     },
     {
         "sample_id": 23,
@@ -1189,8 +1189,8 @@
             "Top077_01400/Top077_01400_18.jpeg",
             "Top077_01400/Top077_01400_19.jpeg"
         ],
-        "extracted": "CCAA",
-        "result": 0
+        "extracted": "C",
+        "result": 1
     },
     {
         "sample_id": 24,
@@ -1275,8 +1275,8 @@
             "Top044_03420/Top044_03420_18.jpeg",
             "Top044_03420/Top044_03420_19.jpeg"
         ],
-        "extracted": "AA",
-        "result": 0
+        "extracted": "A",
+        "result": 1
     },
     {
         "sample_id": 26,
@@ -1401,8 +1401,8 @@
             "Top001_00390/Top001_00390_15.jpeg",
             "Top001_00390/Top001_00390_16.jpeg"
         ],
-        "extracted": "ADCDBA",
-        "result": 0
+        "extracted": "A",
+        "result": 1
     },
     {
         "sample_id": 28,
@@ -1444,8 +1444,8 @@
             "Top073_04440/Top073_04440_18.jpeg",
             "Top073_04440/Top073_04440_19.jpeg"
         ],
-        "extracted": "CCACC",
-        "result": 0
+        "extracted": "C",
+        "result": 1
     },
     {
         "sample_id": 29,
@@ -1530,8 +1530,8 @@
             "Top046_00630/Top046_00630_18.jpeg",
             "Top046_00630/Top046_00630_19.jpeg"
         ],
-        "extracted": "CB",
-        "result": 0
+        "extracted": "C",
+        "result": 1
     },
     {
         "sample_id": 31,
@@ -1659,8 +1659,8 @@
             "Top119_01705/Top119_01705_18.jpeg",
             "Top119_01705/Top119_01705_19.jpeg"
         ],
-        "extracted": "CCA",
-        "result": 0
+        "extracted": "C",
+        "result": 1
     },
     {
         "sample_id": 34,
@@ -1702,8 +1702,8 @@
             "Top078_06630/Top078_06630_18.jpeg",
             "Top078_06630/Top078_06630_19.jpeg"
         ],
-        "extracted": "AAC",
-        "result": 0
+        "extracted": "A",
+        "result": 1
     },
     {
         "sample_id": 35,
@@ -1745,8 +1745,8 @@
             "Top027_06300/Top027_06300_18.jpeg",
             "Top027_06300/Top027_06300_19.jpeg"
         ],
-        "extracted": "AAD",
-        "result": 0
+        "extracted": "A",
+        "result": 1
     },
     {
         "sample_id": 36,
@@ -1831,8 +1831,8 @@
             "Top020_07525/Top020_07525_18.jpeg",
             "Top020_07525/Top020_07525_19.jpeg"
         ],
-        "extracted": "DDD",
-        "result": 0
+        "extracted": "D",
+        "result": 1
     },
     {
         "sample_id": 38,
@@ -1874,8 +1874,8 @@
             "Top133_03845/Top133_03845_18.jpeg",
             "Top133_03845/Top133_03845_19.jpeg"
         ],
-        "extracted": "ABD",
-        "result": 0
+        "extracted": "A",
+        "result": 1
     },
     {
         "sample_id": 39,
@@ -1960,8 +1960,8 @@
             "Top047_01590/Top047_01590_18.jpeg",
             "Top047_01590/Top047_01590_19.jpeg"
         ],
-        "extracted": "ABD",
-        "result": 0
+        "extracted": "A",
+        "result": 1
     },
     {
         "sample_id": 41,
@@ -2003,8 +2003,8 @@
             "Top041_10365/Top041_10365_18.jpeg",
             "Top041_10365/Top041_10365_19.jpeg"
         ],
-        "extracted": "CCAD",
-        "result": 0
+        "extracted": "C",
+        "result": 1
     },
     {
         "sample_id": 42,
@@ -2046,8 +2046,8 @@
             "Top014_02195/Top014_02195_18.jpeg",
             "Top014_02195/Top014_02195_19.jpeg"
         ],
-        "extracted": "AA",
-        "result": 0
+        "extracted": "A",
+        "result": 1
     },
     {
         "sample_id": 43,
@@ -2132,8 +2132,8 @@
             "Top119_04940/Top119_04940_18.jpeg",
             "Top119_04940/Top119_04940_19.jpeg"
         ],
-        "extracted": "CCCA",
-        "result": 0
+        "extracted": "C",
+        "result": 1
     },
     {
         "sample_id": 45,
@@ -2175,8 +2175,8 @@
             "Top027_01600/Top027_01600_18.jpeg",
             "Top027_01600/Top027_01600_19.jpeg"
         ],
-        "extracted": "BAADAAAC",
-        "result": 0
+        "extracted": "B",
+        "result": 1
     },
     {
         "sample_id": 46,
@@ -2218,8 +2218,8 @@
             "Top027_00760/Top027_00760_18.jpeg",
             "Top027_00760/Top027_00760_19.jpeg"
         ],
-        "extracted": "BA",
-        "result": 0
+        "extracted": "B",
+        "result": 1
     },
     {
         "sample_id": 47,
@@ -2261,8 +2261,8 @@
             "Top024_04925/Top024_04925_18.jpeg",
             "Top024_04925/Top024_04925_19.jpeg"
         ],
-        "extracted": "CCAD",
-        "result": 0
+        "extracted": "C",
+        "result": 1
     },
     {
         "sample_id": 48,
@@ -2390,8 +2390,8 @@
             "Top051_05975/Top051_05975_18.jpeg",
             "Top051_05975/Top051_05975_19.jpeg"
         ],
-        "extracted": "CBBD",
-        "result": 0
+        "extracted": "C",
+        "result": 1
     },
     {
         "sample_id": 51,
@@ -2433,8 +2433,8 @@
             "Top014_03725/Top014_03725_18.jpeg",
             "Top014_03725/Top014_03725_19.jpeg"
         ],
-        "extracted": "BDDADDCACAA",
-        "result": 0
+        "extracted": "B",
+        "result": 1
     },
     {
         "sample_id": 52,
@@ -2519,8 +2519,8 @@
             "Top017_04525/Top017_04525_18.jpeg",
             "Top017_04525/Top017_04525_19.jpeg"
         ],
-        "extracted": "CBD",
-        "result": 0
+        "extracted": "C",
+        "result": 1
     },
     {
         "sample_id": 54,
@@ -2645,8 +2645,8 @@
             "Top020_06895/Top020_06895_15.jpeg",
             "Top020_06895/Top020_06895_16.jpeg"
         ],
-        "extracted": "AAAC",
-        "result": 0
+        "extracted": "A",
+        "result": 1
     },
     {
         "sample_id": 57,
@@ -2903,8 +2903,8 @@
             "Top007_03840/Top007_03840_18.jpeg",
             "Top007_03840/Top007_03840_19.jpeg"
         ],
-        "extracted": "BCAC",
-        "result": 0
+        "extracted": "B",
+        "result": 1
     },
     {
         "sample_id": 64,
@@ -2989,8 +2989,8 @@
             "Top010_00765/Top010_00765_18.jpeg",
             "Top010_00765/Top010_00765_19.jpeg"
         ],
-        "extracted": "BCA",
-        "result": 0
+        "extracted": "B",
+        "result": 1
     },
     {
         "sample_id": 66,
@@ -3161,8 +3161,8 @@
             "Top064_06035/Top064_06035_18.jpeg",
             "Top064_06035/Top064_06035_19.jpeg"
         ],
-        "extracted": "DACC",
-        "result": 0
+        "extracted": "D",
+        "result": 1
     },
     {
         "sample_id": 70,
@@ -3204,8 +3204,8 @@
             "Top009_02605/Top009_02605_18.jpeg",
             "Top009_02605/Top009_02605_19.jpeg"
         ],
-        "extracted": "CAC",
-        "result": 0
+        "extracted": "C",
+        "result": 1
     },
     {
         "sample_id": 71,
@@ -3247,8 +3247,8 @@
             "Top091_00995/Top091_00995_18.jpeg",
             "Top091_00995/Top091_00995_19.jpeg"
         ],
-        "extracted": "CBAA",
-        "result": 0
+        "extracted": "C",
+        "result": 1
     },
     {
         "sample_id": 72,
@@ -3333,8 +3333,8 @@
             "Top090_01300/Top090_01300_18.jpeg",
             "Top090_01300/Top090_01300_19.jpeg"
         ],
-        "extracted": "CAC",
-        "result": 0
+        "extracted": "C",
+        "result": 1
     },
     {
         "sample_id": 74,
@@ -3376,8 +3376,8 @@
             "Top008_04905/Top008_04905_18.jpeg",
             "Top008_04905/Top008_04905_19.jpeg"
         ],
-        "extracted": "BA",
-        "result": 0
+        "extracted": "B",
+        "result": 1
     },
     {
         "sample_id": 75,
@@ -3419,8 +3419,8 @@
             "Top042_08415/Top042_08415_18.jpeg",
             "Top042_08415/Top042_08415_19.jpeg"
         ],
-        "extracted": "ADA",
-        "result": 0
+        "extracted": "A",
+        "result": 1
     },
     {
         "sample_id": 76,
@@ -3462,8 +3462,8 @@
             "Top103_02830/Top103_02830_18.jpeg",
             "Top103_02830/Top103_02830_19.jpeg"
         ],
-        "extracted": "ACA",
-        "result": 0
+        "extracted": "A",
+        "result": 1
     },
     {
         "sample_id": 77,
@@ -3548,8 +3548,8 @@
             "Top008_00190/Top008_00190_18.jpeg",
             "Top008_00190/Top008_00190_19.jpeg"
         ],
-        "extracted": "ACA",
-        "result": 0
+        "extracted": "A",
+        "result": 1
     },
     {
         "sample_id": 79,
@@ -3591,8 +3591,8 @@
             "Top079_01715/Top079_01715_18.jpeg",
             "Top079_01715/Top079_01715_19.jpeg"
         ],
-        "extracted": "BA",
-        "result": 0
+        "extracted": "B",
+        "result": 1
     },
     {
         "sample_id": 80,
@@ -3634,8 +3634,8 @@
             "Top024_03665/Top024_03665_18.jpeg",
             "Top024_03665/Top024_03665_19.jpeg"
         ],
-        "extracted": "CA",
-        "result": 0
+        "extracted": "C",
+        "result": 1
     },
     {
         "sample_id": 81,
@@ -3677,8 +3677,8 @@
             "Top090_07115/Top090_07115_18.jpeg",
             "Top090_07115/Top090_07115_19.jpeg"
         ],
-        "extracted": "AA",
-        "result": 0
+        "extracted": "A",
+        "result": 1
     },
     {
         "sample_id": 82,
@@ -3720,8 +3720,8 @@
             "Top040_02215/Top040_02215_18.jpeg",
             "Top040_02215/Top040_02215_19.jpeg"
         ],
-        "extracted": "BAC",
-        "result": 0
+        "extracted": "B",
+        "result": 1
     },
     {
         "sample_id": 83,
@@ -3806,8 +3806,8 @@
             "Top099_04400/Top099_04400_18.jpeg",
             "Top099_04400/Top099_04400_19.jpeg"
         ],
-        "extracted": "DA",
-        "result": 0
+        "extracted": "D",
+        "result": 1
     },
     {
         "sample_id": 85,
@@ -3849,8 +3849,8 @@
             "Top135_02935/Top135_02935_18.jpeg",
             "Top135_02935/Top135_02935_19.jpeg"
         ],
-        "extracted": "CCADADAA",
-        "result": 0
+        "extracted": "C",
+        "result": 1
     },
     {
         "sample_id": 86,
@@ -3978,8 +3978,8 @@
             "Top019_07810/Top019_07810_18.jpeg",
             "Top019_07810/Top019_07810_19.jpeg"
         ],
-        "extracted": "BA",
-        "result": 0
+        "extracted": "B",
+        "result": 1
     },
     {
         "sample_id": 89,
@@ -4150,8 +4150,8 @@
             "Top004_07620/Top004_07620_18.jpeg",
             "Top004_07620/Top004_07620_19.jpeg"
         ],
-        "extracted": "AD",
-        "result": 0
+        "extracted": "A",
+        "result": 1
     },
     {
         "sample_id": 93,
@@ -4193,8 +4193,8 @@
             "Top015_00675/Top015_00675_18.jpeg",
             "Top015_00675/Top015_00675_19.jpeg"
         ],
-        "extracted": "CD",
-        "result": 0
+        "extracted": "C",
+        "result": 1
     },
     {
         "sample_id": 94,
@@ -4279,8 +4279,8 @@
             "Top122_03820/Top122_03820_18.jpeg",
             "Top122_03820/Top122_03820_19.jpeg"
         ],
-        "extracted": "DACC",
-        "result": 0
+        "extracted": "D",
+        "result": 1
     },
     {
         "sample_id": 96,
@@ -4365,8 +4365,8 @@
             "Top064_02590/Top064_02590_18.jpeg",
             "Top064_02590/Top064_02590_19.jpeg"
         ],
-        "extracted": "CACA",
-        "result": 0
+        "extracted": "C",
+        "result": 1
     },
     {
         "sample_id": 98,
@@ -4580,8 +4580,8 @@
             "Top066_01200/Top066_01200_18.jpeg",
             "Top066_01200/Top066_01200_19.jpeg"
         ],
-        "extracted": "BBDA",
-        "result": 0
+        "extracted": "B",
+        "result": 1
     },
     {
         "sample_id": 104,
@@ -4666,8 +4666,8 @@
             "Top136_05555/Top136_05555_18.jpeg",
             "Top136_05555/Top136_05555_19.jpeg"
         ],
-        "extracted": "BAAAABD",
-        "result": 0
+        "extracted": "B",
+        "result": 1
     },
     {
         "sample_id": 106,
@@ -4709,8 +4709,8 @@
             "Top042_05370/Top042_05370_18.jpeg",
             "Top042_05370/Top042_05370_19.jpeg"
         ],
-        "extracted": "DDCDBAC",
-        "result": 0
+        "extracted": "D",
+        "result": 1
     },
     {
         "sample_id": 107,
@@ -4795,8 +4795,8 @@
             "Top064_04175/Top064_04175_18.jpeg",
             "Top064_04175/Top064_04175_19.jpeg"
         ],
-        "extracted": "DA",
-        "result": 0
+        "extracted": "D",
+        "result": 1
     },
     {
         "sample_id": 109,
@@ -4924,7 +4924,7 @@
             "Top097_01280/Top097_01280_18.jpeg",
             "Top097_01280/Top097_01280_19.jpeg"
         ],
-        "extracted": "CBA",
+        "extracted": "C",
         "result": 0
     },
     {
@@ -4967,8 +4967,8 @@
             "Top019_03440/Top019_03440_18.jpeg",
             "Top019_03440/Top019_03440_19.jpeg"
         ],
-        "extracted": "DB",
-        "result": 0
+        "extracted": "D",
+        "result": 1
     },
     {
         "sample_id": 114,
@@ -5053,8 +5053,8 @@
             "Top119_00995/Top119_00995_18.jpeg",
             "Top119_00995/Top119_00995_19.jpeg"
         ],
-        "extracted": "CD",
-        "result": 0
+        "extracted": "C",
+        "result": 1
     },
     {
         "sample_id": 116,
@@ -5139,8 +5139,8 @@
             "Top023_09385/Top023_09385_18.jpeg",
             "Top023_09385/Top023_09385_19.jpeg"
         ],
-        "extracted": "AC",
-        "result": 0
+        "extracted": "A",
+        "result": 1
     },
     {
         "sample_id": 118,
@@ -5182,8 +5182,8 @@
             "Top084_01205/Top084_01205_18.jpeg",
             "Top084_01205/Top084_01205_19.jpeg"
         ],
-        "extracted": "CC",
-        "result": 0
+        "extracted": "C",
+        "result": 1
     },
     {
         "sample_id": 119,
@@ -5225,8 +5225,8 @@
             "Top009_02325/Top009_02325_18.jpeg",
             "Top009_02325/Top009_02325_19.jpeg"
         ],
-        "extracted": "DB",
-        "result": 0
+        "extracted": "D",
+        "result": 1
     },
     {
         "sample_id": 120,
@@ -5268,8 +5268,8 @@
             "Top019_08115/Top019_08115_18.jpeg",
             "Top019_08115/Top019_08115_19.jpeg"
         ],
-        "extracted": "CA",
-        "result": 0
+        "extracted": "C",
+        "result": 1
     },
     {
         "sample_id": 122,
@@ -5354,8 +5354,8 @@
             "Top081_03965/Top081_03965_18.jpeg",
             "Top081_03965/Top081_03965_19.jpeg"
         ],
-        "extracted": "AACDAAA",
-        "result": 0
+        "extracted": "A",
+        "result": 1
     },
     {
         "sample_id": 124,
@@ -5483,8 +5483,8 @@
             "Top113_00550/Top113_00550_18.jpeg",
             "Top113_00550/Top113_00550_19.jpeg"
         ],
-        "extracted": "AA",
-        "result": 0
+        "extracted": "A",
+        "result": 1
     },
     {
         "sample_id": 127,
@@ -5655,8 +5655,8 @@
             "Top011_07740/Top011_07740_18.jpeg",
             "Top011_07740/Top011_07740_19.jpeg"
         ],
-        "extracted": "BAA",
-        "result": 0
+        "extracted": "B",
+        "result": 1
     },
     {
         "sample_id": 131,
@@ -5741,8 +5741,8 @@
             "Top001_03675/Top001_03675_18.jpeg",
             "Top001_03675/Top001_03675_19.jpeg"
         ],
-        "extracted": "CBADB",
-        "result": 0
+        "extracted": "C",
+        "result": 1
     },
     {
         "sample_id": 133,
@@ -5827,8 +5827,8 @@
             "Top014_01990/Top014_01990_18.jpeg",
             "Top014_01990/Top014_01990_19.jpeg"
         ],
-        "extracted": "AAA",
-        "result": 0
+        "extracted": "A",
+        "result": 1
     },
     {
         "sample_id": 135,
@@ -5870,8 +5870,8 @@
             "Top014_01100/Top014_01100_18.jpeg",
             "Top014_01100/Top014_01100_19.jpeg"
         ],
-        "extracted": "DA",
-        "result": 0
+        "extracted": "D",
+        "result": 1
     },
     {
         "sample_id": 136,
@@ -5913,8 +5913,8 @@
             "Top006_02240/Top006_02240_18.jpeg",
             "Top006_02240/Top006_02240_19.jpeg"
         ],
-        "extracted": "ABAA",
-        "result": 0
+        "extracted": "A",
+        "result": 1
     },
     {
         "sample_id": 137,
@@ -5956,8 +5956,8 @@
             "Top014_03245/Top014_03245_18.jpeg",
             "Top014_03245/Top014_03245_19.jpeg"
         ],
-        "extracted": "AD",
-        "result": 0
+        "extracted": "A",
+        "result": 1
     },
     {
         "sample_id": 138,
@@ -6042,8 +6042,8 @@
             "Top075_06545/Top075_06545_18.jpeg",
             "Top075_06545/Top075_06545_19.jpeg"
         ],
-        "extracted": "ADAA",
-        "result": 0
+        "extracted": "A",
+        "result": 1
     },
     {
         "sample_id": 140,
@@ -6214,8 +6214,8 @@
             "Top013_02815/Top013_02815_18.jpeg",
             "Top013_02815/Top013_02815_19.jpeg"
         ],
-        "extracted": "DDAD",
-        "result": 0
+        "extracted": "D",
+        "result": 1
     },
     {
         "sample_id": 144,
@@ -6257,8 +6257,8 @@
             "Top014_00525/Top014_00525_18.jpeg",
             "Top014_00525/Top014_00525_19.jpeg"
         ],
-        "extracted": "DCABD",
-        "result": 0
+        "extracted": "D",
+        "result": 1
     },
     {
         "sample_id": 145,
@@ -6472,8 +6472,8 @@
             "Top038_01050/Top038_01050_18.jpeg",
             "Top038_01050/Top038_01050_19.jpeg"
         ],
-        "extracted": "BC",
-        "result": 0
+        "extracted": "B",
+        "result": 1
     },
     {
         "sample_id": 150,
@@ -6515,8 +6515,8 @@
             "Top043_02660/Top043_02660_18.jpeg",
             "Top043_02660/Top043_02660_19.jpeg"
         ],
-        "extracted": "CAADADCA",
-        "result": 0
+        "extracted": "C",
+        "result": 1
     },
     {
         "sample_id": 151,
@@ -6558,8 +6558,8 @@
             "Top042_08875/Top042_08875_18.jpeg",
             "Top042_08875/Top042_08875_19.jpeg"
         ],
-        "extracted": "ADCDA",
-        "result": 0
+        "extracted": "A",
+        "result": 1
     },
     {
         "sample_id": 152,
@@ -6601,8 +6601,8 @@
             "Top051_09070/Top051_09070_18.jpeg",
             "Top051_09070/Top051_09070_19.jpeg"
         ],
-        "extracted": "BCC",
-        "result": 0
+        "extracted": "B",
+        "result": 1
     },
     {
         "sample_id": 153,
@@ -6644,8 +6644,8 @@
             "Top042_09625/Top042_09625_18.jpeg",
             "Top042_09625/Top042_09625_19.jpeg"
         ],
-        "extracted": "AB",
-        "result": 0
+        "extracted": "A",
+        "result": 1
     },
     {
         "sample_id": 154,
@@ -6687,8 +6687,8 @@
             "Top046_05685/Top046_05685_18.jpeg",
             "Top046_05685/Top046_05685_19.jpeg"
         ],
-        "extracted": "BBD",
-        "result": 0
+        "extracted": "B",
+        "result": 1
     },
     {
         "sample_id": 155,
@@ -6730,8 +6730,8 @@
             "Top023_04225/Top023_04225_18.jpeg",
             "Top023_04225/Top023_04225_19.jpeg"
         ],
-        "extracted": "CC",
-        "result": 0
+        "extracted": "C",
+        "result": 1
     },
     {
         "sample_id": 156,
@@ -7074,8 +7074,8 @@
             "Top064_04510/Top064_04510_18.jpeg",
             "Top064_04510/Top064_04510_19.jpeg"
         ],
-        "extracted": "BC",
-        "result": 0
+        "extracted": "B",
+        "result": 1
     },
     {
         "sample_id": 164,
@@ -7117,8 +7117,8 @@
             "Top077_02770/Top077_02770_18.jpeg",
             "Top077_02770/Top077_02770_19.jpeg"
         ],
-        "extracted": "AA",
-        "result": 0
+        "extracted": "A",
+        "result": 1
     },
     {
         "sample_id": 165,
@@ -7203,8 +7203,8 @@
             "Top017_03940/Top017_03940_18.jpeg",
             "Top017_03940/Top017_03940_19.jpeg"
         ],
-        "extracted": "ABA",
-        "result": 0
+        "extracted": "A",
+        "result": 1
     },
     {
         "sample_id": 167,
@@ -7246,8 +7246,8 @@
             "Top077_05290/Top077_05290_18.jpeg",
             "Top077_05290/Top077_05290_19.jpeg"
         ],
-        "extracted": "AA",
-        "result": 0
+        "extracted": "A",
+        "result": 1
     },
     {
         "sample_id": 168,
@@ -7418,7 +7418,7 @@
             "Top009_00375/Top009_00375_18.jpeg",
             "Top009_00375/Top009_00375_19.jpeg"
         ],
-        "extracted": "DB",
+        "extracted": "D",
         "result": 0
     },
     {
@@ -7547,8 +7547,8 @@
             "Top005_00550/Top005_00550_18.jpeg",
             "Top005_00550/Top005_00550_19.jpeg"
         ],
-        "extracted": "CA",
-        "result": 0
+        "extracted": "C",
+        "result": 1
     },
     {
         "sample_id": 175,
@@ -7590,8 +7590,8 @@
             "Top023_05940/Top023_05940_18.jpeg",
             "Top023_05940/Top023_05940_19.jpeg"
         ],
-        "extracted": "BA",
-        "result": 0
+        "extracted": "B",
+        "result": 1
     },
     {
         "sample_id": 176,
@@ -7633,8 +7633,8 @@
             "Top077_03460/Top077_03460_18.jpeg",
             "Top077_03460/Top077_03460_19.jpeg"
         ],
-        "extracted": "DA",
-        "result": 0
+        "extracted": "D",
+        "result": 1
     },
     {
         "sample_id": 178,
@@ -7676,8 +7676,8 @@
             "Top019_08785/Top019_08785_18.jpeg",
             "Top019_08785/Top019_08785_19.jpeg"
         ],
-        "extracted": "CAC",
-        "result": 0
+        "extracted": "C",
+        "result": 1
     },
     {
         "sample_id": 179,
@@ -7719,7 +7719,7 @@
             "Top133_05575/Top133_05575_18.jpeg",
             "Top133_05575/Top133_05575_19.jpeg"
         ],
-        "extracted": "DA",
+        "extracted": "D",
         "result": 0
     },
     {
@@ -7762,8 +7762,8 @@
             "Top035_04835/Top035_04835_18.jpeg",
             "Top035_04835/Top035_04835_19.jpeg"
         ],
-        "extracted": "BCDABD",
-        "result": 0
+        "extracted": "B",
+        "result": 1
     },
     {
         "sample_id": 181,
@@ -7891,8 +7891,8 @@
             "Top010_07590/Top010_07590_18.jpeg",
             "Top010_07590/Top010_07590_19.jpeg"
         ],
-        "extracted": "CA",
-        "result": 0
+        "extracted": "C",
+        "result": 1
     },
     {
         "sample_id": 184,
@@ -8020,8 +8020,8 @@
             "Top009_03460/Top009_03460_18.jpeg",
             "Top009_03460/Top009_03460_19.jpeg"
         ],
-        "extracted": "BB",
-        "result": 0
+        "extracted": "B",
+        "result": 1
     },
     {
         "sample_id": 187,
@@ -8192,8 +8192,8 @@
             "Top099_03220/Top099_03220_18.jpeg",
             "Top099_03220/Top099_03220_19.jpeg"
         ],
-        "extracted": "AAD",
-        "result": 0
+        "extracted": "A",
+        "result": 1
     },
     {
         "sample_id": 191,
@@ -8235,8 +8235,8 @@
             "Top077_02225/Top077_02225_18.jpeg",
             "Top077_02225/Top077_02225_19.jpeg"
         ],
-        "extracted": "BAC",
-        "result": 0
+        "extracted": "B",
+        "result": 1
     },
     {
         "sample_id": 192,
@@ -8278,8 +8278,8 @@
             "Top043_01020/Top043_01020_18.jpeg",
             "Top043_01020/Top043_01020_19.jpeg"
         ],
-        "extracted": "DBA",
-        "result": 0
+        "extracted": "D",
+        "result": 1
     },
     {
         "sample_id": 193,
@@ -8364,8 +8364,8 @@
             "Top075_02170/Top075_02170_18.jpeg",
             "Top075_02170/Top075_02170_19.jpeg"
         ],
-        "extracted": "AC",
-        "result": 0
+        "extracted": "A",
+        "result": 1
     },
     {
         "sample_id": 195,
@@ -8407,8 +8407,8 @@
             "Top033_03315/Top033_03315_18.jpeg",
             "Top033_03315/Top033_03315_19.jpeg"
         ],
-        "extracted": "DA",
-        "result": 0
+        "extracted": "D",
+        "result": 1
     },
     {
         "sample_id": 196,
@@ -8536,8 +8536,8 @@
             "Top010_03375/Top010_03375_18.jpeg",
             "Top010_03375/Top010_03375_19.jpeg"
         ],
-        "extracted": "DCAB",
-        "result": 0
+        "extracted": "D",
+        "result": 1
     },
     {
         "sample_id": 199,
@@ -8579,7 +8579,7 @@
             "Top069_07390/Top069_07390_18.jpeg",
             "Top069_07390/Top069_07390_19.jpeg"
         ],
-        "extracted": "AA",
-        "result": 0
+        "extracted": "A",
+        "result": 1
     }
 ]

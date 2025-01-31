@@ -1,0 +1,2402 @@
+[
+    {
+        "sample_id": 107,
+        "question": "Assess the given images and answer the question related to the order of characters. You must choose your answer from the Choice List.\n<image><image><image><image><image><image><image><image><image>What is the order of the letters on the table at the end?\nChoice list: \nA. xqko\nB. xkoq\nC. qxok\nAnswer with the option's letter from the given choices directly.",
+        "gt_response": "qxok",
+        "gen_kwargs": {
+            "do_sample": false,
+            "num_beams": 1,
+            "max_new_tokens": 32,
+            "eos_token_id": 92542
+        },
+        "pred_response": "A"
+    },
+    {
+        "sample_id": 28,
+        "question": "Scrutinize the provided visuals and answer the question about the arrangement of characters. You must choose your answer from the Choice List.\n<image><image><image><image><image><image><image><image><image><image>What letters did the person type on the computer in order?\nChoice list: \nA. kag\nB. kav\nC. bag\nAnswer with the option's letter from the given choices directly.",
+        "gt_response": "bag",
+        "gen_kwargs": {
+            "do_sample": false,
+            "num_beams": 1,
+            "max_new_tokens": 32,
+            "eos_token_id": 92542
+        },
+        "pred_response": "C"
+    },
+    {
+        "sample_id": 40,
+        "question": "Interpret the images given and provide an answer to the question regarding the character order. You must choose your answer from the Choice List.\n<image><image><image><image><image><image><image><image><image><image><image><image>What was the order of the letters on the table before shuffling?\nChoice list: \nA. lkj\nB. kjl\nC. jkl\nAnswer with the option's letter from the given choices directly.",
+        "gt_response": "jkl",
+        "gen_kwargs": {
+            "do_sample": false,
+            "num_beams": 1,
+            "max_new_tokens": 32,
+            "eos_token_id": 92542
+        },
+        "pred_response": "C"
+    },
+    {
+        "sample_id": 72,
+        "question": "Assess the given images and answer the question related to the order of characters. You must choose your answer from the Choice List.\n<image><image><image><image><image><image><image><image><image><image><image><image><image>What is the order of the letters on the table at the end?\nChoice list: \nA. boy\nB. oby\nC. byo\nAnswer with the option's letter from the given choices directly.",
+        "gt_response": "boy",
+        "gen_kwargs": {
+            "do_sample": false,
+            "num_beams": 1,
+            "max_new_tokens": 32,
+            "eos_token_id": 92542
+        },
+        "pred_response": "A"
+    },
+    {
+        "sample_id": 66,
+        "question": "From the images supplied, answer the question relevant to character order. You must choose your answer from the Choice List.\n<image><image><image><image><image><image><image><image><image><image><image><image><image><image>In what order did the person put the letters on the table?\nChoice list: \nA. liex\nB. jnyv\nC. liev\nAnswer with the option's letter from the given choices directly.",
+        "gt_response": "liev",
+        "gen_kwargs": {
+            "do_sample": false,
+            "num_beams": 1,
+            "max_new_tokens": 32,
+            "eos_token_id": 92542
+        },
+        "pred_response": "C"
+    },
+    {
+        "sample_id": 53,
+        "question": "From the images supplied, answer the question relevant to character order. You must choose your answer from the Choice List.\n<image><image><image><image><image><image><image><image><image><image><image><image><image><image><image>What would be the order of the written letters if the person had written them in reverse order?\nChoice list: \nA. cow\nB. woc\nC. qob\nAnswer with the option's letter from the given choices directly.",
+        "gt_response": "woc",
+        "gen_kwargs": {
+            "do_sample": false,
+            "num_beams": 1,
+            "max_new_tokens": 32,
+            "eos_token_id": 92542
+        },
+        "pred_response": "C"
+    },
+    {
+        "sample_id": 6,
+        "question": "Utilize the images provided to answer the given question about the character order. You must choose your answer from the Choice List.\n<image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image>What letter is likely to be shown next?\nChoice list: \nA. g\nB. j\nC. s\nAnswer with the option's letter from the given choices directly.",
+        "gt_response": "s",
+        "gen_kwargs": {
+            "do_sample": false,
+            "num_beams": 1,
+            "max_new_tokens": 32,
+            "eos_token_id": 92542
+        },
+        "pred_response": "B"
+    },
+    {
+        "sample_id": 19,
+        "question": "Analyze the given visuals and answer the question about the order of character. You must choose your answer from the Choice List.\n<image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image>What letters did the person show in order?\nChoice list: \nA. ekq\nB. fqk\nC. bwk\nAnswer with the option's letter from the given choices directly.",
+        "gt_response": "ekq",
+        "gen_kwargs": {
+            "do_sample": false,
+            "num_beams": 1,
+            "max_new_tokens": 32,
+            "eos_token_id": 92542
+        },
+        "pred_response": "A"
+    },
+    {
+        "sample_id": 103,
+        "question": "Using the supplied images, answer the question concerning the order of characters. You must choose your answer from the Choice List.\n<image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image>What letters did the person show in order?\nChoice list: \nA. str\nB. rst\nC. rsn\nAnswer with the option's letter from the given choices directly.",
+        "gt_response": "rst",
+        "gen_kwargs": {
+            "do_sample": false,
+            "num_beams": 1,
+            "max_new_tokens": 32,
+            "eos_token_id": 92542
+        },
+        "pred_response": "B"
+    },
+    {
+        "sample_id": 12,
+        "question": "Interpret the images given and provide an answer to the question regarding the character order. You must choose your answer from the Choice List.\n<image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image>What letter is likely to be shown next?\nChoice list: \nA. f\nB. u\nC. h\nAnswer with the option's letter from the given choices directly.",
+        "gt_response": "f",
+        "gen_kwargs": {
+            "do_sample": false,
+            "num_beams": 1,
+            "max_new_tokens": 32,
+            "eos_token_id": 92542
+        },
+        "pred_response": "B"
+    },
+    {
+        "sample_id": 10,
+        "question": "From the images supplied, answer the question relevant to character order. You must choose your answer from the Choice List.\n<image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image>What letters did the person show in order?\nChoice list: \nA. efgh\nB. egfh\nC. empw\nAnswer with the option's letter from the given choices directly.",
+        "gt_response": "efgh",
+        "gen_kwargs": {
+            "do_sample": false,
+            "num_beams": 1,
+            "max_new_tokens": 32,
+            "eos_token_id": 92542
+        },
+        "pred_response": "A"
+    },
+    {
+        "sample_id": 36,
+        "question": "Utilize the images provided to answer the given question about the character order. You must choose your answer from the Choice List.\n<image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image>What was the second letter written on the paper?\nChoice list: \nA. o\nB. c\nC. w\nAnswer with the option's letter from the given choices directly.",
+        "gt_response": "o",
+        "gen_kwargs": {
+            "do_sample": false,
+            "num_beams": 1,
+            "max_new_tokens": 32,
+            "eos_token_id": 92542
+        },
+        "pred_response": "C"
+    },
+    {
+        "sample_id": 23,
+        "question": "Assess the given images and answer the question related to the order of characters. You must choose your answer from the Choice List.\n<image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image>What is the order of the letters at the end?\nChoice list: \nA. idm\nB. imd\nC. dim\nAnswer with the option's letter from the given choices directly.",
+        "gt_response": "dim",
+        "gen_kwargs": {
+            "do_sample": false,
+            "num_beams": 1,
+            "max_new_tokens": 32,
+            "eos_token_id": 92542
+        },
+        "pred_response": "C"
+    },
+    {
+        "sample_id": 26,
+        "question": "Review the visuals provided and respond to the question concerning the character sequence. You must choose your answer from the Choice List.\n<image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image>What letter is likely to be shown next?\nChoice list: \nA. u\nB. w\nC. g\nAnswer with the option's letter from the given choices directly.",
+        "gt_response": "g",
+        "gen_kwargs": {
+            "do_sample": false,
+            "num_beams": 1,
+            "max_new_tokens": 32,
+            "eos_token_id": 92542
+        },
+        "pred_response": "C"
+    },
+    {
+        "sample_id": 2,
+        "question": "Based on the provided images, answer the question related to the character order You must choose your answer from the Choice List.\n<image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image>What letters did the person type on the computer in order?\nChoice list: \nA. amxbnj\nB. rmtegh\nC. aqlbns\nAnswer with the option's letter from the given choices directly.",
+        "gt_response": "amxbnj",
+        "gen_kwargs": {
+            "do_sample": false,
+            "num_beams": 1,
+            "max_new_tokens": 32,
+            "eos_token_id": 92542
+        },
+        "pred_response": "A"
+    },
+    {
+        "sample_id": 18,
+        "question": "Examine the visuals provided and respond to the query about the sequence of characters. You must choose your answer from the Choice List.\n<image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image>In what order did the person put the letters on the table?\nChoice list: \nA. tel\nB. tun\nC. car\nAnswer with the option's letter from the given choices directly.",
+        "gt_response": "tel",
+        "gen_kwargs": {
+            "do_sample": false,
+            "num_beams": 1,
+            "max_new_tokens": 32,
+            "eos_token_id": 92542
+        },
+        "pred_response": "C"
+    },
+    {
+        "sample_id": 25,
+        "question": "From the images supplied, answer the question relevant to character order. You must choose your answer from the Choice List.\n<image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image>In what order did the person put the letters on the table?\nChoice list: \nA. pin\nB. ped\nC. pen\nAnswer with the option's letter from the given choices directly.",
+        "gt_response": "pen",
+        "gen_kwargs": {
+            "do_sample": false,
+            "num_beams": 1,
+            "max_new_tokens": 32,
+            "eos_token_id": 92542
+        },
+        "pred_response": "C"
+    },
+    {
+        "sample_id": 35,
+        "question": "Assess the given images and answer the question related to the order of characters. You must choose your answer from the Choice List.\n<image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image>What was the order of the letters at the beginning?\nChoice list: \nA. bpx\nB. pxb\nC. bxp\nAnswer with the option's letter from the given choices directly.",
+        "gt_response": "bpx",
+        "gen_kwargs": {
+            "do_sample": false,
+            "num_beams": 1,
+            "max_new_tokens": 32,
+            "eos_token_id": 92542
+        },
+        "pred_response": "C"
+    },
+    {
+        "sample_id": 3,
+        "question": "Using the supplied images, answer the question concerning the order of characters. You must choose your answer from the Choice List.\n<image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image>What would be the order of the written letters if the person had written them in reverse order?\nChoice list: \nA. rust\nB. tsur\nC. ruts\nAnswer with the option's letter from the given choices directly.",
+        "gt_response": "tsur",
+        "gen_kwargs": {
+            "do_sample": false,
+            "num_beams": 1,
+            "max_new_tokens": 32,
+            "eos_token_id": 92542
+        },
+        "pred_response": "C"
+    },
+    {
+        "sample_id": 7,
+        "question": "Interpret the images given and provide an answer to the question regarding the character order. You must choose your answer from the Choice List.\n<image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image>In what order did the person put the letters on the table?\nChoice list: \nA. luber\nB. luper\nC. lhpez\nAnswer with the option's letter from the given choices directly.",
+        "gt_response": "luper",
+        "gen_kwargs": {
+            "do_sample": false,
+            "num_beams": 1,
+            "max_new_tokens": 32,
+            "eos_token_id": 92542
+        },
+        "pred_response": "B"
+    },
+    {
+        "sample_id": 21,
+        "question": "Based on the provided images, answer the question related to the character order You must choose your answer from the Choice List.\n<image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image>What is the order of the letters at the end?\nChoice list: \nA. umit\nB. iumt\nC. muti\nAnswer with the option's letter from the given choices directly.",
+        "gt_response": "umit",
+        "gen_kwargs": {
+            "do_sample": false,
+            "num_beams": 1,
+            "max_new_tokens": 32,
+            "eos_token_id": 92542
+        },
+        "pred_response": "B"
+    },
+    {
+        "sample_id": 51,
+        "question": "Utilize the images provided to answer the given question about the character order. You must choose your answer from the Choice List.\n<image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image>What was the second letter written on the paper?\nChoice list: \nA. t\nB. a\nC. c\nAnswer with the option's letter from the given choices directly.",
+        "gt_response": "a",
+        "gen_kwargs": {
+            "do_sample": false,
+            "num_beams": 1,
+            "max_new_tokens": 32,
+            "eos_token_id": 92542
+        },
+        "pred_response": "A"
+    },
+    {
+        "sample_id": 1,
+        "question": "Based on the provided images, answer the question related to the character order You must choose your answer from the Choice List.\n<image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image>What was the order of the letters at the beginning?\nChoice list: \nA. mi\nB. xm\nC. mx\nAnswer with the option's letter from the given choices directly.",
+        "gt_response": "mx",
+        "gen_kwargs": {
+            "do_sample": false,
+            "num_beams": 1,
+            "max_new_tokens": 32,
+            "eos_token_id": 92542
+        },
+        "pred_response": "B"
+    },
+    {
+        "sample_id": 5,
+        "question": "Analyze the given visuals and answer the question about the order of character. You must choose your answer from the Choice List.\n<image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image>What would be the order of the written letters if the person had written them in reverse order?\nChoice list: \nA. dog\nB. don\nC. god\nAnswer with the option's letter from the given choices directly.",
+        "gt_response": "dog",
+        "gen_kwargs": {
+            "do_sample": false,
+            "num_beams": 1,
+            "max_new_tokens": 32,
+            "eos_token_id": 92542
+        },
+        "pred_response": "C"
+    },
+    {
+        "sample_id": 15,
+        "question": "Using the supplied images, answer the question concerning the order of characters. You must choose your answer from the Choice List.\n<image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image>What was the second letter written on the paper?\nChoice list: \nA. t\nB. a\nC. c\nAnswer with the option's letter from the given choices directly.",
+        "gt_response": "c",
+        "gen_kwargs": {
+            "do_sample": false,
+            "num_beams": 1,
+            "max_new_tokens": 32,
+            "eos_token_id": 92542
+        },
+        "pred_response": "B"
+    },
+    {
+        "sample_id": 0,
+        "question": "Based on the provided images, answer the question related to the character order You must choose your answer from the Choice List.\n<image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image>What letter did the person write first on the paper?\nChoice list: \nA. l\nB. v\nC. e\nAnswer with the option's letter from the given choices directly.",
+        "gt_response": "l",
+        "gen_kwargs": {
+            "do_sample": false,
+            "num_beams": 1,
+            "max_new_tokens": 32,
+            "eos_token_id": 92542
+        },
+        "pred_response": "C"
+    },
+    {
+        "sample_id": 24,
+        "question": "Utilize the images provided to answer the given question about the character order. You must choose your answer from the Choice List.\n<image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image>In what order did the person put the letters on the table?\nChoice list: \nA. aojn\nB. qzcx\nC. alct\nAnswer with the option's letter from the given choices directly.",
+        "gt_response": "alct",
+        "gen_kwargs": {
+            "do_sample": false,
+            "num_beams": 1,
+            "max_new_tokens": 32,
+            "eos_token_id": 92542
+        },
+        "pred_response": "C"
+    },
+    {
+        "sample_id": 84,
+        "question": "Analyze the given visuals and answer the question about the order of character. You must choose your answer from the Choice List.\n<image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image>What is the order of the letters at the end?\nChoice list: \nA. eta\nB. eat\nC. aet\nAnswer with the option's letter from the given choices directly.",
+        "gt_response": "eat",
+        "gen_kwargs": {
+            "do_sample": false,
+            "num_beams": 1,
+            "max_new_tokens": 32,
+            "eos_token_id": 92542
+        },
+        "pred_response": "B"
+    },
+    {
+        "sample_id": 44,
+        "question": "Using the supplied images, answer the question concerning the order of characters. You must choose your answer from the Choice List.\n<image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image>What letter is likely to be shown next?\nChoice list: \nA. o\nB. l\nC. e\nAnswer with the option's letter from the given choices directly.",
+        "gt_response": "o",
+        "gen_kwargs": {
+            "do_sample": false,
+            "num_beams": 1,
+            "max_new_tokens": 32,
+            "eos_token_id": 92542
+        },
+        "pred_response": "C"
+    },
+    {
+        "sample_id": 58,
+        "question": "Examine the visuals provided and respond to the query about the sequence of characters. You must choose your answer from the Choice List.\n<image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image>What was the order of the letters at the beginning?\nChoice list: \nA. dog\nB. dgo\nC. god\nAnswer with the option's letter from the given choices directly.",
+        "gt_response": "dog",
+        "gen_kwargs": {
+            "do_sample": false,
+            "num_beams": 1,
+            "max_new_tokens": 32,
+            "eos_token_id": 92542
+        },
+        "pred_response": "B"
+    },
+    {
+        "sample_id": 52,
+        "question": "Analyze the given visuals and answer the question about the order of character. You must choose your answer from the Choice List.\n<image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image>What letter did the person write first on the paper?\nChoice list: \nA. g\nB. d\nC. i\nAnswer with the option's letter from the given choices directly.",
+        "gt_response": "i",
+        "gen_kwargs": {
+            "do_sample": false,
+            "num_beams": 1,
+            "max_new_tokens": 32,
+            "eos_token_id": 92542
+        },
+        "pred_response": "C"
+    },
+    {
+        "sample_id": 27,
+        "question": "Interpret the images given and provide an answer to the question regarding the character order. You must choose your answer from the Choice List.\n<image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image>What letters did the person show in order?\nChoice list: \nA. fdy\nB. cde\nC. cdf\nAnswer with the option's letter from the given choices directly.",
+        "gt_response": "cde",
+        "gen_kwargs": {
+            "do_sample": false,
+            "num_beams": 1,
+            "max_new_tokens": 32,
+            "eos_token_id": 92542
+        },
+        "pred_response": "C"
+    },
+    {
+        "sample_id": 29,
+        "question": "Utilize the images provided to answer the given question about the character order. You must choose your answer from the Choice List.\n<image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image>What was the second letter written on the paper?\nChoice list: \nA. c\nB. a\nC. t\nAnswer with the option's letter from the given choices directly.",
+        "gt_response": "c",
+        "gen_kwargs": {
+            "do_sample": false,
+            "num_beams": 1,
+            "max_new_tokens": 32,
+            "eos_token_id": 92542
+        },
+        "pred_response": "B"
+    },
+    {
+        "sample_id": 32,
+        "question": "Analyze the given visuals and answer the question about the order of character. You must choose your answer from the Choice List.\n<image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image>What was the order of the letters at the beginning?\nChoice list: \nA. ated\nB. date\nC. taed\nAnswer with the option's letter from the given choices directly.",
+        "gt_response": "taed",
+        "gen_kwargs": {
+            "do_sample": false,
+            "num_beams": 1,
+            "max_new_tokens": 32,
+            "eos_token_id": 92542
+        },
+        "pred_response": "C"
+    },
+    {
+        "sample_id": 49,
+        "question": "Based on the provided images, answer the question related to the character order You must choose your answer from the Choice List.\n<image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image>What was the second letter written on the paper?\nChoice list: \nA. e\nB. d\nC. r\nAnswer with the option's letter from the given choices directly.",
+        "gt_response": "e",
+        "gen_kwargs": {
+            "do_sample": false,
+            "num_beams": 1,
+            "max_new_tokens": 32,
+            "eos_token_id": 92542
+        },
+        "pred_response": "C"
+    },
+    {
+        "sample_id": 13,
+        "question": "Utilize the images provided to answer the given question about the character order. You must choose your answer from the Choice List.\n<image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image>What was the order of the letters at the beginning?\nChoice list: \nA. hca\nB. ahc\nC. cha\nAnswer with the option's letter from the given choices directly.",
+        "gt_response": "ahc",
+        "gen_kwargs": {
+            "do_sample": false,
+            "num_beams": 1,
+            "max_new_tokens": 32,
+            "eos_token_id": 92542
+        },
+        "pred_response": "A"
+    },
+    {
+        "sample_id": 22,
+        "question": "Review the visuals provided and respond to the question concerning the character sequence. You must choose your answer from the Choice List.\n<image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image>What would be the order of the written letters if the person had written them in reverse order?\nChoice list: \nA. dog\nB. zoy\nC. god\nAnswer with the option's letter from the given choices directly.",
+        "gt_response": "god",
+        "gen_kwargs": {
+            "do_sample": false,
+            "num_beams": 1,
+            "max_new_tokens": 32,
+            "eos_token_id": 92542
+        },
+        "pred_response": "A"
+    },
+    {
+        "sample_id": 31,
+        "question": "Examine the visuals provided and respond to the query about the sequence of characters. You must choose your answer from the Choice List.\n<image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image>What letter did the person write first on the paper?\nChoice list: \nA. b\nB. a\nC. e\nAnswer with the option's letter from the given choices directly.",
+        "gt_response": "b",
+        "gen_kwargs": {
+            "do_sample": false,
+            "num_beams": 1,
+            "max_new_tokens": 32,
+            "eos_token_id": 92542
+        },
+        "pred_response": "B"
+    },
+    {
+        "sample_id": 154,
+        "question": "Based on the provided images, answer the question related to the character order You must choose your answer from the Choice List.\n<image><image><image><image><image><image><image><image><image>What would be the order of the written letters if the person had written them in reverse order?\nChoice list: \nA. jfau\nB. ecab\nC. bace\nAnswer with the option's letter from the given choices directly.",
+        "gt_response": "ecab",
+        "gen_kwargs": {
+            "do_sample": false,
+            "num_beams": 1,
+            "max_new_tokens": 32,
+            "eos_token_id": 92542
+        },
+        "pred_response": "B"
+    },
+    {
+        "sample_id": 144,
+        "question": "Examine the visuals provided and respond to the query about the sequence of characters. You must choose your answer from the Choice List.\n<image><image><image><image><image><image><image><image><image><image>What was the order of the letters on the table before shuffling?\nChoice list: \nA. hanhdm\nB. hdhman\nC. hhdamn\nAnswer with the option's letter from the given choices directly.",
+        "gt_response": "hhdamn",
+        "gen_kwargs": {
+            "do_sample": false,
+            "num_beams": 1,
+            "max_new_tokens": 32,
+            "eos_token_id": 92542
+        },
+        "pred_response": "B"
+    },
+    {
+        "sample_id": 111,
+        "question": "Using the supplied images, answer the question concerning the order of characters. You must choose your answer from the Choice List.\n<image><image><image><image><image><image><image><image><image><image><image><image>What was the second letter written on the paper?\nChoice list: \nA. o\nB. v\nC. l\nAnswer with the option's letter from the given choices directly.",
+        "gt_response": "o",
+        "gen_kwargs": {
+            "do_sample": false,
+            "num_beams": 1,
+            "max_new_tokens": 32,
+            "eos_token_id": 92542
+        },
+        "pred_response": "C"
+    },
+    {
+        "sample_id": 152,
+        "question": "Interpret the images given and provide an answer to the question regarding the character order. You must choose your answer from the Choice List.\n<image><image><image><image><image><image><image><image><image><image><image><image><image>In what order did the person put the letters on the table?\nChoice list: \nA. xvc\nB. tec\nC. xuc\nAnswer with the option's letter from the given choices directly.",
+        "gt_response": "xvc",
+        "gen_kwargs": {
+            "do_sample": false,
+            "num_beams": 1,
+            "max_new_tokens": 32,
+            "eos_token_id": 92542
+        },
+        "pred_response": "A"
+    },
+    {
+        "sample_id": 113,
+        "question": "Using the supplied images, answer the question concerning the order of characters. You must choose your answer from the Choice List.\n<image><image><image><image><image><image><image><image><image><image><image><image><image><image>What letters did the person type on the computer in order?\nChoice list: \nA. lmae\nB. lame\nC. kame\nAnswer with the option's letter from the given choices directly.",
+        "gt_response": "lame",
+        "gen_kwargs": {
+            "do_sample": false,
+            "num_beams": 1,
+            "max_new_tokens": 32,
+            "eos_token_id": 92542
+        },
+        "pred_response": "B"
+    },
+    {
+        "sample_id": 95,
+        "question": "Based on the provided images, answer the question related to the character order You must choose your answer from the Choice List.\n<image><image><image><image><image><image><image><image><image><image><image><image><image><image><image>What letters did the person show in order?\nChoice list: \nA. hji\nB. hij\nC. doj\nAnswer with the option's letter from the given choices directly.",
+        "gt_response": "hij",
+        "gen_kwargs": {
+            "do_sample": false,
+            "num_beams": 1,
+            "max_new_tokens": 32,
+            "eos_token_id": 92542
+        },
+        "pred_response": "B"
+    },
+    {
+        "sample_id": 94,
+        "question": "Scrutinize the provided visuals and answer the question about the arrangement of characters. You must choose your answer from the Choice List.\n<image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image>What letters did the person show in order?\nChoice list: \nA. cta\nB. tca\nC. cat\nAnswer with the option's letter from the given choices directly.",
+        "gt_response": "cat",
+        "gen_kwargs": {
+            "do_sample": false,
+            "num_beams": 1,
+            "max_new_tokens": 32,
+            "eos_token_id": 92542
+        },
+        "pred_response": "A"
+    },
+    {
+        "sample_id": 68,
+        "question": "Analyze the given visuals and answer the question about the order of character. You must choose your answer from the Choice List.\n<image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image>What would be the order of the written letters if the person had written them in reverse order?\nChoice list: \nA. lhb\nB. gab\nC. bag\nAnswer with the option's letter from the given choices directly.",
+        "gt_response": "gab",
+        "gen_kwargs": {
+            "do_sample": false,
+            "num_beams": 1,
+            "max_new_tokens": 32,
+            "eos_token_id": 92542
+        },
+        "pred_response": "B"
+    },
+    {
+        "sample_id": 14,
+        "question": "Analyze the given visuals and answer the question about the order of character. You must choose your answer from the Choice List.\n<image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image>What was the order of the letters on the table before shuffling?\nChoice list: \nA. calypso\nB. claoyps\nC. cyspola\nAnswer with the option's letter from the given choices directly.",
+        "gt_response": "calypso",
+        "gen_kwargs": {
+            "do_sample": false,
+            "num_beams": 1,
+            "max_new_tokens": 32,
+            "eos_token_id": 92542
+        },
+        "pred_response": "B"
+    },
+    {
+        "sample_id": 17,
+        "question": "Based on the provided images, answer the question related to the character order You must choose your answer from the Choice List.\n<image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image>What is the order of the letters at the end?\nChoice list: \nA. ad\nB. ma\nC. am\nAnswer with the option's letter from the given choices directly.",
+        "gt_response": "am",
+        "gen_kwargs": {
+            "do_sample": false,
+            "num_beams": 1,
+            "max_new_tokens": 32,
+            "eos_token_id": 92542
+        },
+        "pred_response": "C"
+    },
+    {
+        "sample_id": 50,
+        "question": "Based on the provided images, answer the question related to the character order You must choose your answer from the Choice List.\n<image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image>What would be the order of the written letters if the person had written them in reverse order?\nChoice list: \nA. ten\nB. teg\nC. bdg\nAnswer with the option's letter from the given choices directly.",
+        "gt_response": "teg",
+        "gen_kwargs": {
+            "do_sample": false,
+            "num_beams": 1,
+            "max_new_tokens": 32,
+            "eos_token_id": 92542
+        },
+        "pred_response": "B"
+    },
+    {
+        "sample_id": 37,
+        "question": "Examine the visuals provided and respond to the query about the sequence of characters. You must choose your answer from the Choice List.\n<image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image>In what order did the person put the letters on the table?\nChoice list: \nA. fbk\nB. fer\nC. ref\nAnswer with the option's letter from the given choices directly.",
+        "gt_response": "fer",
+        "gen_kwargs": {
+            "do_sample": false,
+            "num_beams": 1,
+            "max_new_tokens": 32,
+            "eos_token_id": 92542
+        },
+        "pred_response": "C"
+    },
+    {
+        "sample_id": 30,
+        "question": "Assess the given images and answer the question related to the order of characters. You must choose your answer from the Choice List.\n<image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image>What letters did the person show in order?\nChoice list: \nA. evg\nB. efg\nC. esg\nAnswer with the option's letter from the given choices directly.",
+        "gt_response": "efg",
+        "gen_kwargs": {
+            "do_sample": false,
+            "num_beams": 1,
+            "max_new_tokens": 32,
+            "eos_token_id": 92542
+        },
+        "pred_response": "A"
+    },
+    {
+        "sample_id": 39,
+        "question": "Scrutinize the provided visuals and answer the question about the arrangement of characters. You must choose your answer from the Choice List.\n<image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image>What was the second letter written on the paper?\nChoice list: \nA. a\nB. e\nC. t\nAnswer with the option's letter from the given choices directly.",
+        "gt_response": "e",
+        "gen_kwargs": {
+            "do_sample": false,
+            "num_beams": 1,
+            "max_new_tokens": 32,
+            "eos_token_id": 92542
+        },
+        "pred_response": "B"
+    },
+    {
+        "sample_id": 55,
+        "question": "Scrutinize the provided visuals and answer the question about the arrangement of characters. You must choose your answer from the Choice List.\n<image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image>In what order did the person put the letters on the table?\nChoice list: \nA. iwt\nB. wit\nC. wyt\nAnswer with the option's letter from the given choices directly.",
+        "gt_response": "wit",
+        "gen_kwargs": {
+            "do_sample": false,
+            "num_beams": 1,
+            "max_new_tokens": 32,
+            "eos_token_id": 92542
+        },
+        "pred_response": "B"
+    },
+    {
+        "sample_id": 8,
+        "question": "Assess the given images and answer the question related to the order of characters. You must choose your answer from the Choice List.\n<image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image>What letter is likely to be shown next?\nChoice list: \nA. y\nB. h\nC. z\nAnswer with the option's letter from the given choices directly.",
+        "gt_response": "h",
+        "gen_kwargs": {
+            "do_sample": false,
+            "num_beams": 1,
+            "max_new_tokens": 32,
+            "eos_token_id": 92542
+        },
+        "pred_response": "C"
+    },
+    {
+        "sample_id": 9,
+        "question": "Using the supplied images, answer the question concerning the order of characters. You must choose your answer from the Choice List.\n<image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image>What would be the order of the written letters if the person had written them in reverse order?\nChoice list: \nA. bce\nB. zlb\nC. ecb\nAnswer with the option's letter from the given choices directly.",
+        "gt_response": "ecb",
+        "gen_kwargs": {
+            "do_sample": false,
+            "num_beams": 1,
+            "max_new_tokens": 32,
+            "eos_token_id": 92542
+        },
+        "pred_response": "A"
+    },
+    {
+        "sample_id": 54,
+        "question": "Scrutinize the provided visuals and answer the question about the arrangement of characters. You must choose your answer from the Choice List.\n<image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image>What is the order of the letters at the end?\nChoice list: \nA. ot\nB. te\nC. to\nAnswer with the option's letter from the given choices directly.",
+        "gt_response": "to",
+        "gen_kwargs": {
+            "do_sample": false,
+            "num_beams": 1,
+            "max_new_tokens": 32,
+            "eos_token_id": 92542
+        },
+        "pred_response": "C"
+    },
+    {
+        "sample_id": 71,
+        "question": "Review the visuals provided and respond to the question concerning the character sequence. You must choose your answer from the Choice List.\n<image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image>What was the order of the letters at the beginning?\nChoice list: \nA. qm\nB. tq\nC. qt\nAnswer with the option's letter from the given choices directly.",
+        "gt_response": "qt",
+        "gen_kwargs": {
+            "do_sample": false,
+            "num_beams": 1,
+            "max_new_tokens": 32,
+            "eos_token_id": 92542
+        },
+        "pred_response": "C"
+    },
+    {
+        "sample_id": 16,
+        "question": "From the images supplied, answer the question relevant to character order. You must choose your answer from the Choice List.\n<image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image>In what order did the person put the letters on the table?\nChoice list: \nA. wvc\nB. ovl\nC. lvo\nAnswer with the option's letter from the given choices directly.",
+        "gt_response": "lvo",
+        "gen_kwargs": {
+            "do_sample": false,
+            "num_beams": 1,
+            "max_new_tokens": 32,
+            "eos_token_id": 92542
+        },
+        "pred_response": "C"
+    },
+    {
+        "sample_id": 43,
+        "question": "Using the supplied images, answer the question concerning the order of characters. You must choose your answer from the Choice List.\n<image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image>What is the order of the letters at the end?\nChoice list: \nA. def\nB. efd\nC. fed\nAnswer with the option's letter from the given choices directly.",
+        "gt_response": "def",
+        "gen_kwargs": {
+            "do_sample": false,
+            "num_beams": 1,
+            "max_new_tokens": 32,
+            "eos_token_id": 92542
+        },
+        "pred_response": "C"
+    },
+    {
+        "sample_id": 64,
+        "question": "Scrutinize the provided visuals and answer the question about the arrangement of characters. You must choose your answer from the Choice List.\n<image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image>What was the second letter written on the paper?\nChoice list: \nA. i\nB. u\nC. t\nAnswer with the option's letter from the given choices directly.",
+        "gt_response": "t",
+        "gen_kwargs": {
+            "do_sample": false,
+            "num_beams": 1,
+            "max_new_tokens": 32,
+            "eos_token_id": 92542
+        },
+        "pred_response": "B"
+    },
+    {
+        "sample_id": 4,
+        "question": "From the images supplied, answer the question relevant to character order. You must choose your answer from the Choice List.\n<image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image>What was the order of the letters at the beginning?\nChoice list: \nA. ceh\nB. hce\nC. hec\nAnswer with the option's letter from the given choices directly.",
+        "gt_response": "hec",
+        "gen_kwargs": {
+            "do_sample": false,
+            "num_beams": 1,
+            "max_new_tokens": 32,
+            "eos_token_id": 92542
+        },
+        "pred_response": "C"
+    },
+    {
+        "sample_id": 61,
+        "question": "Assess the given images and answer the question related to the order of characters. You must choose your answer from the Choice List.\n<image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image>What is the order of the letters at the end?\nChoice list: \nA. osp\nB. ops\nC. pos\nAnswer with the option's letter from the given choices directly.",
+        "gt_response": "osp",
+        "gen_kwargs": {
+            "do_sample": false,
+            "num_beams": 1,
+            "max_new_tokens": 32,
+            "eos_token_id": 92542
+        },
+        "pred_response": "A"
+    },
+    {
+        "sample_id": 106,
+        "question": "Based on the provided images, answer the question related to the character order You must choose your answer from the Choice List.\n<image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image>In what order did the person put the letters on the table?\nChoice list: \nA. jxoa\nB. jxne\nC. jgnq\nAnswer with the option's letter from the given choices directly.",
+        "gt_response": "jxne",
+        "gen_kwargs": {
+            "do_sample": false,
+            "num_beams": 1,
+            "max_new_tokens": 32,
+            "eos_token_id": 92542
+        },
+        "pred_response": "B"
+    },
+    {
+        "sample_id": 69,
+        "question": "Utilize the images provided to answer the given question about the character order. You must choose your answer from the Choice List.\n<image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image>In what order did the person put the letters on the table?\nChoice list: \nA. niw\nB. win\nC. ain\nAnswer with the option's letter from the given choices directly.",
+        "gt_response": "win",
+        "gen_kwargs": {
+            "do_sample": false,
+            "num_beams": 1,
+            "max_new_tokens": 32,
+            "eos_token_id": 92542
+        },
+        "pred_response": "B"
+    },
+    {
+        "sample_id": 77,
+        "question": "Review the visuals provided and respond to the question concerning the character sequence. You must choose your answer from the Choice List.\n<image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image>What letters did the person show in order?\nChoice list: \nA. rst\nB. ost\nC. tsr\nAnswer with the option's letter from the given choices directly.",
+        "gt_response": "rst",
+        "gen_kwargs": {
+            "do_sample": false,
+            "num_beams": 1,
+            "max_new_tokens": 32,
+            "eos_token_id": 92542
+        },
+        "pred_response": "A"
+    },
+    {
+        "sample_id": 116,
+        "question": "Assess the given images and answer the question related to the order of characters. You must choose your answer from the Choice List.\n<image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image>What was the order of the letters at the beginning?\nChoice list: \nA. hec\nB. che\nC. hce\nAnswer with the option's letter from the given choices directly.",
+        "gt_response": "hec",
+        "gen_kwargs": {
+            "do_sample": false,
+            "num_beams": 1,
+            "max_new_tokens": 32,
+            "eos_token_id": 92542
+        },
+        "pred_response": "A"
+    },
+    {
+        "sample_id": 65,
+        "question": "Analyze the given visuals and answer the question about the order of character. You must choose your answer from the Choice List.\n<image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image>What was the order of the letters at the beginning?\nChoice list: \nA. men\nB. mne\nC. emn\nAnswer with the option's letter from the given choices directly.",
+        "gt_response": "men",
+        "gen_kwargs": {
+            "do_sample": false,
+            "num_beams": 1,
+            "max_new_tokens": 32,
+            "eos_token_id": 92542
+        },
+        "pred_response": "A"
+    },
+    {
+        "sample_id": 74,
+        "question": "Review the visuals provided and respond to the question concerning the character sequence. You must choose your answer from the Choice List.\n<image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image>In what order did the person put the letters on the table?\nChoice list: \nA. many\nB. jxne\nC. ywne\nAnswer with the option's letter from the given choices directly.",
+        "gt_response": "jxne",
+        "gen_kwargs": {
+            "do_sample": false,
+            "num_beams": 1,
+            "max_new_tokens": 32,
+            "eos_token_id": 92542
+        },
+        "pred_response": "B"
+    },
+    {
+        "sample_id": 75,
+        "question": "Using the supplied images, answer the question concerning the order of characters. You must choose your answer from the Choice List.\n<image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image>What letters did the person show in order?\nChoice list: \nA. adb\nB. bad\nC. abd\nAnswer with the option's letter from the given choices directly.",
+        "gt_response": "abd",
+        "gen_kwargs": {
+            "do_sample": false,
+            "num_beams": 1,
+            "max_new_tokens": 32,
+            "eos_token_id": 92542
+        },
+        "pred_response": "C"
+    },
+    {
+        "sample_id": 85,
+        "question": "Scrutinize the provided visuals and answer the question about the arrangement of characters. You must choose your answer from the Choice List.\n<image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image>What letters did the person show in order?\nChoice list: \nA. bcdef\nB. krdvl\nC. bsdhf\nAnswer with the option's letter from the given choices directly.",
+        "gt_response": "bcdef",
+        "gen_kwargs": {
+            "do_sample": false,
+            "num_beams": 1,
+            "max_new_tokens": 32,
+            "eos_token_id": 92542
+        },
+        "pred_response": "B"
+    },
+    {
+        "sample_id": 33,
+        "question": "Based on the provided images, answer the question related to the character order You must choose your answer from the Choice List.\n<image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image>What letters did the person show in order?\nChoice list: \nA. abc\nB. obc\nC. wdc\nAnswer with the option's letter from the given choices directly.",
+        "gt_response": "abc",
+        "gen_kwargs": {
+            "do_sample": false,
+            "num_beams": 1,
+            "max_new_tokens": 32,
+            "eos_token_id": 92542
+        },
+        "pred_response": "A"
+    },
+    {
+        "sample_id": 46,
+        "question": "Analyze the given visuals and answer the question about the order of character. You must choose your answer from the Choice List.\n<image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image>What was the order of the letters at the beginning?\nChoice list: \nA. cha\nB. hac\nC. cah\nAnswer with the option's letter from the given choices directly.",
+        "gt_response": "cha",
+        "gen_kwargs": {
+            "do_sample": false,
+            "num_beams": 1,
+            "max_new_tokens": 32,
+            "eos_token_id": 92542
+        },
+        "pred_response": "A"
+    },
+    {
+        "sample_id": 47,
+        "question": "Review the visuals provided and respond to the question concerning the character sequence. You must choose your answer from the Choice List.\n<image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image>What was the order of the letters at the beginning?\nChoice list: \nA. men\nB. enm\nC. emn\nAnswer with the option's letter from the given choices directly.",
+        "gt_response": "men",
+        "gen_kwargs": {
+            "do_sample": false,
+            "num_beams": 1,
+            "max_new_tokens": 32,
+            "eos_token_id": 92542
+        },
+        "pred_response": "A"
+    },
+    {
+        "sample_id": 171,
+        "question": "Examine the visuals provided and respond to the query about the sequence of characters. You must choose your answer from the Choice List.\n<image><image><image><image><image><image><image><image><image><image>What is the order of the letters on the table at the end?\nChoice list: \nA. abn\nB. nab\nC. bna\nAnswer with the option's letter from the given choices directly.",
+        "gt_response": "bna",
+        "gen_kwargs": {
+            "do_sample": false,
+            "num_beams": 1,
+            "max_new_tokens": 32,
+            "eos_token_id": 92542
+        },
+        "pred_response": "A"
+    },
+    {
+        "sample_id": 160,
+        "question": "Scrutinize the provided visuals and answer the question about the arrangement of characters. You must choose your answer from the Choice List.\n<image><image><image><image><image><image><image><image><image><image><image><image>What letters did the person show in order?\nChoice list: \nA. haik\nB. habo\nC. aobh\nAnswer with the option's letter from the given choices directly.",
+        "gt_response": "aobh",
+        "gen_kwargs": {
+            "do_sample": false,
+            "num_beams": 1,
+            "max_new_tokens": 32,
+            "eos_token_id": 92542
+        },
+        "pred_response": "C"
+    },
+    {
+        "sample_id": 170,
+        "question": "Interpret the images given and provide an answer to the question regarding the character order. You must choose your answer from the Choice List.\n<image><image><image><image><image><image><image><image><image><image><image><image><image><image>What was the order of the letters on the table before shuffling?\nChoice list: \nA. fdacbe\nB. abcdef\nC. dacbef\nAnswer with the option's letter from the given choices directly.",
+        "gt_response": "abcdef",
+        "gen_kwargs": {
+            "do_sample": false,
+            "num_beams": 1,
+            "max_new_tokens": 32,
+            "eos_token_id": 92542
+        },
+        "pred_response": "C"
+    },
+    {
+        "sample_id": 164,
+        "question": "From the images supplied, answer the question relevant to character order. You must choose your answer from the Choice List.\n<image><image><image><image><image><image><image><image><image><image><image><image><image><image><image>What letters did the person show in order?\nChoice list: \nA. hcj\nB. hij\nC. uzj\nAnswer with the option's letter from the given choices directly.",
+        "gt_response": "hij",
+        "gen_kwargs": {
+            "do_sample": false,
+            "num_beams": 1,
+            "max_new_tokens": 32,
+            "eos_token_id": 92542
+        },
+        "pred_response": "C"
+    },
+    {
+        "sample_id": 182,
+        "question": "Utilize the images provided to answer the given question about the character order. You must choose your answer from the Choice List.\n<image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image>What letter did the person write first on the paper?\nChoice list: \nA. d\nB. g\nC. o\nAnswer with the option's letter from the given choices directly.",
+        "gt_response": "g",
+        "gen_kwargs": {
+            "do_sample": false,
+            "num_beams": 1,
+            "max_new_tokens": 32,
+            "eos_token_id": 92542
+        },
+        "pred_response": "B"
+    },
+    {
+        "sample_id": 91,
+        "question": "Assess the given images and answer the question related to the order of characters. You must choose your answer from the Choice List.\n<image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image>What would be the order of the written letters if the person had written them in reverse order?\nChoice list: \nA. gab\nB. gjb\nC. bag\nAnswer with the option's letter from the given choices directly.",
+        "gt_response": "gab",
+        "gen_kwargs": {
+            "do_sample": false,
+            "num_beams": 1,
+            "max_new_tokens": 32,
+            "eos_token_id": 92542
+        },
+        "pred_response": "C"
+    },
+    {
+        "sample_id": 38,
+        "question": "Based on the provided images, answer the question related to the character order You must choose your answer from the Choice List.\n<image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image>What was the second letter written on the paper?\nChoice list: \nA. f\nB. g\nC. o\nAnswer with the option's letter from the given choices directly.",
+        "gt_response": "o",
+        "gen_kwargs": {
+            "do_sample": false,
+            "num_beams": 1,
+            "max_new_tokens": 32,
+            "eos_token_id": 92542
+        },
+        "pred_response": "B"
+    },
+    {
+        "sample_id": 34,
+        "question": "Assess the given images and answer the question related to the order of characters. You must choose your answer from the Choice List.\n<image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image>What letters did the person show in order?\nChoice list: \nA. xae\nB. axe\nC. hme\nAnswer with the option's letter from the given choices directly.",
+        "gt_response": "axe",
+        "gen_kwargs": {
+            "do_sample": false,
+            "num_beams": 1,
+            "max_new_tokens": 32,
+            "eos_token_id": 92542
+        },
+        "pred_response": "A"
+    },
+    {
+        "sample_id": 90,
+        "question": "Based on the provided images, answer the question related to the character order You must choose your answer from the Choice List.\n<image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image>In what order did the person put the letters on the table?\nChoice list: \nA. tism\nB. xkqm\nC. thsm\nAnswer with the option's letter from the given choices directly.",
+        "gt_response": "tism",
+        "gen_kwargs": {
+            "do_sample": false,
+            "num_beams": 1,
+            "max_new_tokens": 32,
+            "eos_token_id": 92542
+        },
+        "pred_response": "A"
+    },
+    {
+        "sample_id": 41,
+        "question": "Review the visuals provided and respond to the question concerning the character sequence. You must choose your answer from the Choice List.\n<image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image>What letters did the person show in order?\nChoice list: \nA. edf\nB. obf\nC. def\nAnswer with the option's letter from the given choices directly.",
+        "gt_response": "def",
+        "gen_kwargs": {
+            "do_sample": false,
+            "num_beams": 1,
+            "max_new_tokens": 32,
+            "eos_token_id": 92542
+        },
+        "pred_response": "C"
+    },
+    {
+        "sample_id": 42,
+        "question": "Analyze the given visuals and answer the question about the order of character. You must choose your answer from the Choice List.\n<image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image>What letter did the person write first on the paper?\nChoice list: \nA. w\nB. o\nC. c\nAnswer with the option's letter from the given choices directly.",
+        "gt_response": "c",
+        "gen_kwargs": {
+            "do_sample": false,
+            "num_beams": 1,
+            "max_new_tokens": 32,
+            "eos_token_id": 92542
+        },
+        "pred_response": "C"
+    },
+    {
+        "sample_id": 57,
+        "question": "Examine the visuals provided and respond to the query about the sequence of characters. You must choose your answer from the Choice List.\n<image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image>In what order did the person put the letters on the table?\nChoice list: \nA. pmg\nB. prk\nC. pmt\nAnswer with the option's letter from the given choices directly.",
+        "gt_response": "pmg",
+        "gen_kwargs": {
+            "do_sample": false,
+            "num_beams": 1,
+            "max_new_tokens": 32,
+            "eos_token_id": 92542
+        },
+        "pred_response": "C"
+    },
+    {
+        "sample_id": 83,
+        "question": "Analyze the given visuals and answer the question about the order of character. You must choose your answer from the Choice List.\n<image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image>What letter did the person write first on the paper?\nChoice list: \nA. o\nB. v\nC. l\nAnswer with the option's letter from the given choices directly.",
+        "gt_response": "l",
+        "gen_kwargs": {
+            "do_sample": false,
+            "num_beams": 1,
+            "max_new_tokens": 32,
+            "eos_token_id": 92542
+        },
+        "pred_response": "C"
+    },
+    {
+        "sample_id": 11,
+        "question": "Assess the given images and answer the question related to the order of characters. You must choose your answer from the Choice List.\n<image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image>What is the order of the letters at the end?\nChoice list: \nA. mf\nB. ma\nC. am\nAnswer with the option's letter from the given choices directly.",
+        "gt_response": "ma",
+        "gen_kwargs": {
+            "do_sample": false,
+            "num_beams": 1,
+            "max_new_tokens": 32,
+            "eos_token_id": 92542
+        },
+        "pred_response": "C"
+    },
+    {
+        "sample_id": 123,
+        "question": "Interpret the images given and provide an answer to the question regarding the character order. You must choose your answer from the Choice List.\n<image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image>What is the order of the letters at the end?\nChoice list: \nA. dsa\nB. sad\nC. asd\nAnswer with the option's letter from the given choices directly.",
+        "gt_response": "sad",
+        "gen_kwargs": {
+            "do_sample": false,
+            "num_beams": 1,
+            "max_new_tokens": 32,
+            "eos_token_id": 92542
+        },
+        "pred_response": "C"
+    },
+    {
+        "sample_id": 73,
+        "question": "Review the visuals provided and respond to the question concerning the character sequence. You must choose your answer from the Choice List.\n<image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image>What was the order of the letters on the table before shuffling?\nChoice list: \nA. exs\nB. esx\nC. sex\nAnswer with the option's letter from the given choices directly.",
+        "gt_response": "sex",
+        "gen_kwargs": {
+            "do_sample": false,
+            "num_beams": 1,
+            "max_new_tokens": 32,
+            "eos_token_id": 92542
+        },
+        "pred_response": "A"
+    },
+    {
+        "sample_id": 80,
+        "question": "Using the supplied images, answer the question concerning the order of characters. You must choose your answer from the Choice List.\n<image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image>What was the second letter written on the paper?\nChoice list: \nA. e\nB. a\nC. x\nAnswer with the option's letter from the given choices directly.",
+        "gt_response": "x",
+        "gen_kwargs": {
+            "do_sample": false,
+            "num_beams": 1,
+            "max_new_tokens": 32,
+            "eos_token_id": 92542
+        },
+        "pred_response": "C"
+    },
+    {
+        "sample_id": 79,
+        "question": "Scrutinize the provided visuals and answer the question about the arrangement of characters. You must choose your answer from the Choice List.\n<image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image>What would be the order of the written letters if the person had written them in reverse order?\nChoice list: \nA. ael\nB. aet\nC. tae\nAnswer with the option's letter from the given choices directly.",
+        "gt_response": "aet",
+        "gen_kwargs": {
+            "do_sample": false,
+            "num_beams": 1,
+            "max_new_tokens": 32,
+            "eos_token_id": 92542
+        },
+        "pred_response": "C"
+    },
+    {
+        "sample_id": 82,
+        "question": "Examine the visuals provided and respond to the query about the sequence of characters. You must choose your answer from the Choice List.\n<image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image>What letter did the person write first on the paper?\nChoice list: \nA. a\nB. t\nC. c\nAnswer with the option's letter from the given choices directly.",
+        "gt_response": "a",
+        "gen_kwargs": {
+            "do_sample": false,
+            "num_beams": 1,
+            "max_new_tokens": 32,
+            "eos_token_id": 92542
+        },
+        "pred_response": "A"
+    },
+    {
+        "sample_id": 105,
+        "question": "Scrutinize the provided visuals and answer the question about the arrangement of characters. You must choose your answer from the Choice List.\n<image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image>What is the order of the letters at the end?\nChoice list: \nA. sad\nB. ads\nC. asd\nAnswer with the option's letter from the given choices directly.",
+        "gt_response": "sad",
+        "gen_kwargs": {
+            "do_sample": false,
+            "num_beams": 1,
+            "max_new_tokens": 32,
+            "eos_token_id": 92542
+        },
+        "pred_response": "C"
+    },
+    {
+        "sample_id": 20,
+        "question": "From the images supplied, answer the question relevant to character order. You must choose your answer from the Choice List.\n<image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image>In what order did the person put the letters on the table?\nChoice list: \nA. etum\nB. mute\nC. suhe\nAnswer with the option's letter from the given choices directly.",
+        "gt_response": "mute",
+        "gen_kwargs": {
+            "do_sample": false,
+            "num_beams": 1,
+            "max_new_tokens": 32,
+            "eos_token_id": 92542
+        },
+        "pred_response": "B"
+    },
+    {
+        "sample_id": 124,
+        "question": "Examine the visuals provided and respond to the query about the sequence of characters. You must choose your answer from the Choice List.\n<image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image>What letters did the person show in order?\nChoice list: \nA. csgz\nB. rsvp\nC. osvd\nAnswer with the option's letter from the given choices directly.",
+        "gt_response": "rsvp",
+        "gen_kwargs": {
+            "do_sample": false,
+            "num_beams": 1,
+            "max_new_tokens": 32,
+            "eos_token_id": 92542
+        },
+        "pred_response": "B"
+    },
+    {
+        "sample_id": 108,
+        "question": "Assess the given images and answer the question related to the order of characters. You must choose your answer from the Choice List.\n<image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image>What letter did the person write first on the paper?\nChoice list: \nA. t\nB. r\nC. o\nAnswer with the option's letter from the given choices directly.",
+        "gt_response": "r",
+        "gen_kwargs": {
+            "do_sample": false,
+            "num_beams": 1,
+            "max_new_tokens": 32,
+            "eos_token_id": 92542
+        },
+        "pred_response": "B"
+    },
+    {
+        "sample_id": 78,
+        "question": "Examine the visuals provided and respond to the query about the sequence of characters. You must choose your answer from the Choice List.\n<image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image>What was the second letter written on the paper?\nChoice list: \nA. e\nB. m\nC. o\nAnswer with the option's letter from the given choices directly.",
+        "gt_response": "o",
+        "gen_kwargs": {
+            "do_sample": false,
+            "num_beams": 1,
+            "max_new_tokens": 32,
+            "eos_token_id": 92542
+        },
+        "pred_response": "C"
+    },
+    {
+        "sample_id": 88,
+        "question": "Using the supplied images, answer the question concerning the order of characters. You must choose your answer from the Choice List.\n<image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image>What is the order of the letters at the end?\nChoice list: \nA. gra\nB. arg\nC. rag\nAnswer with the option's letter from the given choices directly.",
+        "gt_response": "gra",
+        "gen_kwargs": {
+            "do_sample": false,
+            "num_beams": 1,
+            "max_new_tokens": 32,
+            "eos_token_id": 92542
+        },
+        "pred_response": "C"
+    },
+    {
+        "sample_id": 122,
+        "question": "Interpret the images given and provide an answer to the question regarding the character order. You must choose your answer from the Choice List.\n<image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image>What is the order of the letters at the end?\nChoice list: \nA. eat\nB. ate\nC. tae\nAnswer with the option's letter from the given choices directly.",
+        "gt_response": "eat",
+        "gen_kwargs": {
+            "do_sample": false,
+            "num_beams": 1,
+            "max_new_tokens": 32,
+            "eos_token_id": 92542
+        },
+        "pred_response": "B"
+    },
+    {
+        "sample_id": 86,
+        "question": "Assess the given images and answer the question related to the order of characters. You must choose your answer from the Choice List.\n<image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image>What is the order of the letters at the end?\nChoice list: \nA. mer\nB. emr\nC. rme\nAnswer with the option's letter from the given choices directly.",
+        "gt_response": "emr",
+        "gen_kwargs": {
+            "do_sample": false,
+            "num_beams": 1,
+            "max_new_tokens": 32,
+            "eos_token_id": 92542
+        },
+        "pred_response": "C"
+    },
+    {
+        "sample_id": 92,
+        "question": "Examine the visuals provided and respond to the query about the sequence of characters. You must choose your answer from the Choice List.\n<image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image>What letter is likely to be shown next?\nChoice list: \nA. r\nB. f\nC. k\nAnswer with the option's letter from the given choices directly.",
+        "gt_response": "f",
+        "gen_kwargs": {
+            "do_sample": false,
+            "num_beams": 1,
+            "max_new_tokens": 32,
+            "eos_token_id": 92542
+        },
+        "pred_response": "B"
+    },
+    {
+        "sample_id": 101,
+        "question": "Analyze the given visuals and answer the question about the order of character. You must choose your answer from the Choice List.\n<image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image>What was the second letter written on the paper?\nChoice list: \nA. e\nB. b\nC. d\nAnswer with the option's letter from the given choices directly.",
+        "gt_response": "e",
+        "gen_kwargs": {
+            "do_sample": false,
+            "num_beams": 1,
+            "max_new_tokens": 32,
+            "eos_token_id": 92542
+        },
+        "pred_response": "B"
+    },
+    {
+        "sample_id": 114,
+        "question": "Analyze the given visuals and answer the question about the order of character. You must choose your answer from the Choice List.\n<image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image>What is the order of the letters at the end?\nChoice list: \nA. tea\nB. ate\nC. eat\nAnswer with the option's letter from the given choices directly.",
+        "gt_response": "eat",
+        "gen_kwargs": {
+            "do_sample": false,
+            "num_beams": 1,
+            "max_new_tokens": 32,
+            "eos_token_id": 92542
+        },
+        "pred_response": "A"
+    },
+    {
+        "sample_id": 60,
+        "question": "Scrutinize the provided visuals and answer the question about the arrangement of characters. You must choose your answer from the Choice List.\n<image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image>What was the second letter written on the paper?\nChoice list: \nA. o\nB. d\nC. g\nAnswer with the option's letter from the given choices directly.",
+        "gt_response": "o",
+        "gen_kwargs": {
+            "do_sample": false,
+            "num_beams": 1,
+            "max_new_tokens": 32,
+            "eos_token_id": 92542
+        },
+        "pred_response": "C"
+    },
+    {
+        "sample_id": 63,
+        "question": "Interpret the images given and provide an answer to the question regarding the character order. You must choose your answer from the Choice List.\n<image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image>What was the order of the letters at the beginning?\nChoice list: \nA. ual\nB. lua\nC. alu\nAnswer with the option's letter from the given choices directly.",
+        "gt_response": "lua",
+        "gen_kwargs": {
+            "do_sample": false,
+            "num_beams": 1,
+            "max_new_tokens": 32,
+            "eos_token_id": 92542
+        },
+        "pred_response": "B"
+    },
+    {
+        "sample_id": 67,
+        "question": "Examine the visuals provided and respond to the query about the sequence of characters. You must choose your answer from the Choice List.\n<image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image>What is the order of the letters at the end?\nChoice list: \nA. xbdm\nB. mxbd\nC. bxmd\nAnswer with the option's letter from the given choices directly.",
+        "gt_response": "xbdm",
+        "gen_kwargs": {
+            "do_sample": false,
+            "num_beams": 1,
+            "max_new_tokens": 32,
+            "eos_token_id": 92542
+        },
+        "pred_response": "A"
+    },
+    {
+        "sample_id": 167,
+        "question": "Examine the visuals provided and respond to the query about the sequence of characters. You must choose your answer from the Choice List.\n<image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image>What letters did the person show in order?\nChoice list: \nA. hgf\nB. fgh\nC. hfg\nAnswer with the option's letter from the given choices directly.",
+        "gt_response": "fgh",
+        "gen_kwargs": {
+            "do_sample": false,
+            "num_beams": 1,
+            "max_new_tokens": 32,
+            "eos_token_id": 92542
+        },
+        "pred_response": "C"
+    },
+    {
+        "sample_id": 70,
+        "question": "Using the supplied images, answer the question concerning the order of characters. You must choose your answer from the Choice List.\n<image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image>What letters did the person show in order?\nChoice list: \nA. efg\nB. ofg\nC. ecg\nAnswer with the option's letter from the given choices directly.",
+        "gt_response": "efg",
+        "gen_kwargs": {
+            "do_sample": false,
+            "num_beams": 1,
+            "max_new_tokens": 32,
+            "eos_token_id": 92542
+        },
+        "pred_response": "A"
+    },
+    {
+        "sample_id": 48,
+        "question": "Interpret the images given and provide an answer to the question regarding the character order. You must choose your answer from the Choice List.\n<image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image>What letter did the person write first on the paper?\nChoice list: \nA. a\nB. m\nC. g\nAnswer with the option's letter from the given choices directly.",
+        "gt_response": "a",
+        "gen_kwargs": {
+            "do_sample": false,
+            "num_beams": 1,
+            "max_new_tokens": 32,
+            "eos_token_id": 92542
+        },
+        "pred_response": "B"
+    },
+    {
+        "sample_id": 126,
+        "question": "Assess the given images and answer the question related to the order of characters. You must choose your answer from the Choice List.\n<image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image>What would be the order of the written letters if the person had written them in reverse order?\nChoice list: \nA. nbw\nB. niw\nC. win\nAnswer with the option's letter from the given choices directly.",
+        "gt_response": "niw",
+        "gen_kwargs": {
+            "do_sample": false,
+            "num_beams": 1,
+            "max_new_tokens": 32,
+            "eos_token_id": 92542
+        },
+        "pred_response": "B"
+    },
+    {
+        "sample_id": 59,
+        "question": "Analyze the given visuals and answer the question about the order of character. You must choose your answer from the Choice List.\n<image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image>What letters did the person show in order?\nChoice list: \nA. efg\nB. eag\nC. efd\nAnswer with the option's letter from the given choices directly.",
+        "gt_response": "efg",
+        "gen_kwargs": {
+            "do_sample": false,
+            "num_beams": 1,
+            "max_new_tokens": 32,
+            "eos_token_id": 92542
+        },
+        "pred_response": "A"
+    },
+    {
+        "sample_id": 138,
+        "question": "Scrutinize the provided visuals and answer the question about the arrangement of characters. You must choose your answer from the Choice List.\n<image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image>What is the order of the letters at the end?\nChoice list: \nA. mid\nB. dim\nC. idm\nAnswer with the option's letter from the given choices directly.",
+        "gt_response": "mid",
+        "gen_kwargs": {
+            "do_sample": false,
+            "num_beams": 1,
+            "max_new_tokens": 32,
+            "eos_token_id": 92542
+        },
+        "pred_response": "C"
+    },
+    {
+        "sample_id": 93,
+        "question": "Review the visuals provided and respond to the question concerning the character sequence. You must choose your answer from the Choice List.\n<image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image>What was the order of the letters on the table before shuffling?\nChoice list: \nA. npor\nB. opnr\nC. porn\nAnswer with the option's letter from the given choices directly.",
+        "gt_response": "opnr",
+        "gen_kwargs": {
+            "do_sample": false,
+            "num_beams": 1,
+            "max_new_tokens": 32,
+            "eos_token_id": 92542
+        },
+        "pred_response": "B"
+    },
+    {
+        "sample_id": 109,
+        "question": "Examine the visuals provided and respond to the query about the sequence of characters. You must choose your answer from the Choice List.\n<image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image>What letters did the person show in order?\nChoice list: \nA. deu\nB. dvg\nC. eud\nAnswer with the option's letter from the given choices directly.",
+        "gt_response": "deu",
+        "gen_kwargs": {
+            "do_sample": false,
+            "num_beams": 1,
+            "max_new_tokens": 32,
+            "eos_token_id": 92542
+        },
+        "pred_response": "B"
+    },
+    {
+        "sample_id": 142,
+        "question": "Interpret the images given and provide an answer to the question regarding the character order. You must choose your answer from the Choice List.\n<image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image>In what order did the person put the letters on the table?\nChoice list: \nA. pgoq\nB. pmoz\nC. umow\nAnswer with the option's letter from the given choices directly.",
+        "gt_response": "pmoz",
+        "gen_kwargs": {
+            "do_sample": false,
+            "num_beams": 1,
+            "max_new_tokens": 32,
+            "eos_token_id": 92542
+        },
+        "pred_response": "B"
+    },
+    {
+        "sample_id": 161,
+        "question": "Utilize the images provided to answer the given question about the character order. You must choose your answer from the Choice List.\n<image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image>What letter is likely to be shown next?\nChoice list: \nA. y\nB. f\nC. o\nAnswer with the option's letter from the given choices directly.",
+        "gt_response": "o",
+        "gen_kwargs": {
+            "do_sample": false,
+            "num_beams": 1,
+            "max_new_tokens": 32,
+            "eos_token_id": 92542
+        },
+        "pred_response": "C"
+    },
+    {
+        "sample_id": 96,
+        "question": "Review the visuals provided and respond to the question concerning the character sequence. You must choose your answer from the Choice List.\n<image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image>What was the second letter written on the paper?\nChoice list: \nA. c\nB. r\nC. a\nAnswer with the option's letter from the given choices directly.",
+        "gt_response": "a",
+        "gen_kwargs": {
+            "do_sample": false,
+            "num_beams": 1,
+            "max_new_tokens": 32,
+            "eos_token_id": 92542
+        },
+        "pred_response": "C"
+    },
+    {
+        "sample_id": 81,
+        "question": "Utilize the images provided to answer the given question about the character order. You must choose your answer from the Choice List.\n<image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image>In what order did the person put the letters on the table?\nChoice list: \nA. emn\nB. nme\nC. noe\nAnswer with the option's letter from the given choices directly.",
+        "gt_response": "nme",
+        "gen_kwargs": {
+            "do_sample": false,
+            "num_beams": 1,
+            "max_new_tokens": 32,
+            "eos_token_id": 92542
+        },
+        "pred_response": "B"
+    },
+    {
+        "sample_id": 132,
+        "question": "Examine the visuals provided and respond to the query about the sequence of characters. You must choose your answer from the Choice List.\n<image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image>What letters did the person show in order?\nChoice list: \nA. cdzw\nB. cehi\nC. seht\nAnswer with the option's letter from the given choices directly.",
+        "gt_response": "cehi",
+        "gen_kwargs": {
+            "do_sample": false,
+            "num_beams": 1,
+            "max_new_tokens": 32,
+            "eos_token_id": 92542
+        },
+        "pred_response": "B"
+    },
+    {
+        "sample_id": 134,
+        "question": "Utilize the images provided to answer the given question about the character order. You must choose your answer from the Choice List.\n<image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image>What was the second letter written on the paper?\nChoice list: \nA. w\nB. o\nC. t\nAnswer with the option's letter from the given choices directly.",
+        "gt_response": "w",
+        "gen_kwargs": {
+            "do_sample": false,
+            "num_beams": 1,
+            "max_new_tokens": 32,
+            "eos_token_id": 92542
+        },
+        "pred_response": "B"
+    },
+    {
+        "sample_id": 45,
+        "question": "Analyze the given visuals and answer the question about the order of character. You must choose your answer from the Choice List.\n<image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image>What letters did the person show in order?\nChoice list: \nA. hkxnam\nB. knamxh\nC. xhakmn\nAnswer with the option's letter from the given choices directly.",
+        "gt_response": "xhakmn",
+        "gen_kwargs": {
+            "do_sample": false,
+            "num_beams": 1,
+            "max_new_tokens": 32,
+            "eos_token_id": 92542
+        },
+        "pred_response": "B"
+    },
+    {
+        "sample_id": 140,
+        "question": "Based on the provided images, answer the question related to the character order You must choose your answer from the Choice List.\n<image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image>In what order did the person put the letters on the table?\nChoice list: \nA. supev\nB. super\nC. supzr\nAnswer with the option's letter from the given choices directly.",
+        "gt_response": "super",
+        "gen_kwargs": {
+            "do_sample": false,
+            "num_beams": 1,
+            "max_new_tokens": 32,
+            "eos_token_id": 92542
+        },
+        "pred_response": "B"
+    },
+    {
+        "sample_id": 115,
+        "question": "Review the visuals provided and respond to the question concerning the character sequence. You must choose your answer from the Choice List.\n<image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image>What was the order of the letters on the table before shuffling?\nChoice list: \nA. bfcade\nB. afcdbe\nC. abcdef\nAnswer with the option's letter from the given choices directly.",
+        "gt_response": "abcdef",
+        "gen_kwargs": {
+            "do_sample": false,
+            "num_beams": 1,
+            "max_new_tokens": 32,
+            "eos_token_id": 92542
+        },
+        "pred_response": "C"
+    },
+    {
+        "sample_id": 98,
+        "question": "From the images supplied, answer the question relevant to character order. You must choose your answer from the Choice List.\n<image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image>What letters did the person show in order?\nChoice list: \nA. abchij\nB. lpczqj\nC. angyrz\nAnswer with the option's letter from the given choices directly.",
+        "gt_response": "abchij",
+        "gen_kwargs": {
+            "do_sample": false,
+            "num_beams": 1,
+            "max_new_tokens": 32,
+            "eos_token_id": 92542
+        },
+        "pred_response": "B"
+    },
+    {
+        "sample_id": 99,
+        "question": "Utilize the images provided to answer the given question about the character order. You must choose your answer from the Choice List.\n<image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image>What was the order of the letters at the beginning?\nChoice list: \nA. ech\nB. hec\nC. che\nAnswer with the option's letter from the given choices directly.",
+        "gt_response": "hec",
+        "gen_kwargs": {
+            "do_sample": false,
+            "num_beams": 1,
+            "max_new_tokens": 32,
+            "eos_token_id": 92542
+        },
+        "pred_response": "B"
+    },
+    {
+        "sample_id": 120,
+        "question": "Using the supplied images, answer the question concerning the order of characters. You must choose your answer from the Choice List.\n<image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image>What is the order of the letters at the end?\nChoice list: \nA. hoyc\nB. hyoc\nC. cyoh\nAnswer with the option's letter from the given choices directly.",
+        "gt_response": "hoyc",
+        "gen_kwargs": {
+            "do_sample": false,
+            "num_beams": 1,
+            "max_new_tokens": 32,
+            "eos_token_id": 92542
+        },
+        "pred_response": "A"
+    },
+    {
+        "sample_id": 125,
+        "question": "Analyze the given visuals and answer the question about the order of character. You must choose your answer from the Choice List.\n<image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image>What letters did the person show in order?\nChoice list: \nA. daobgc\nB. dwrbgc\nC. dqobgc\nAnswer with the option's letter from the given choices directly.",
+        "gt_response": "daobgc",
+        "gen_kwargs": {
+            "do_sample": false,
+            "num_beams": 1,
+            "max_new_tokens": 32,
+            "eos_token_id": 92542
+        },
+        "pred_response": "A"
+    },
+    {
+        "sample_id": 128,
+        "question": "Assess the given images and answer the question related to the order of characters. You must choose your answer from the Choice List.\n<image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image>What letters did the person show in order?\nChoice list: \nA. zxy\nB. xyr\nC. xyz\nAnswer with the option's letter from the given choices directly.",
+        "gt_response": "xyz",
+        "gen_kwargs": {
+            "do_sample": false,
+            "num_beams": 1,
+            "max_new_tokens": 32,
+            "eos_token_id": 92542
+        },
+        "pred_response": "C"
+    },
+    {
+        "sample_id": 130,
+        "question": "Utilize the images provided to answer the given question about the character order. You must choose your answer from the Choice List.\n<image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image>What was the order of the letters at the beginning?\nChoice list: \nA. ochy\nB. hoyc\nC. cyoh\nAnswer with the option's letter from the given choices directly.",
+        "gt_response": "cyoh",
+        "gen_kwargs": {
+            "do_sample": false,
+            "num_beams": 1,
+            "max_new_tokens": 32,
+            "eos_token_id": 92542
+        },
+        "pred_response": "C"
+    },
+    {
+        "sample_id": 76,
+        "question": "From the images supplied, answer the question relevant to character order. You must choose your answer from the Choice List.\n<image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image>What was the order of the letters at the beginning?\nChoice list: \nA. bxmd\nB. mbxd\nC. bdxm\nAnswer with the option's letter from the given choices directly.",
+        "gt_response": "mbxd",
+        "gen_kwargs": {
+            "do_sample": false,
+            "num_beams": 1,
+            "max_new_tokens": 32,
+            "eos_token_id": 92542
+        },
+        "pred_response": "C"
+    },
+    {
+        "sample_id": 87,
+        "question": "Using the supplied images, answer the question concerning the order of characters. You must choose your answer from the Choice List.\n<image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image>What letter is likely to be shown next?\nChoice list: \nA. g\nB. a\nC. j\nAnswer with the option's letter from the given choices directly.",
+        "gt_response": "g",
+        "gen_kwargs": {
+            "do_sample": false,
+            "num_beams": 1,
+            "max_new_tokens": 32,
+            "eos_token_id": 92542
+        },
+        "pred_response": "B"
+    },
+    {
+        "sample_id": 97,
+        "question": "Utilize the images provided to answer the given question about the character order. You must choose your answer from the Choice List.\n<image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image>What was the order of the letters at the beginning?\nChoice list: \nA. rwe\nB. wre\nC. ewr\nAnswer with the option's letter from the given choices directly.",
+        "gt_response": "ewr",
+        "gen_kwargs": {
+            "do_sample": false,
+            "num_beams": 1,
+            "max_new_tokens": 32,
+            "eos_token_id": 92542
+        },
+        "pred_response": "B"
+    },
+    {
+        "sample_id": 117,
+        "question": "Using the supplied images, answer the question concerning the order of characters. You must choose your answer from the Choice List.\n<image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image>What is the order of the letters at the end?\nChoice list: \nA. as\nB. ao\nC. sa\nAnswer with the option's letter from the given choices directly.",
+        "gt_response": "as",
+        "gen_kwargs": {
+            "do_sample": false,
+            "num_beams": 1,
+            "max_new_tokens": 32,
+            "eos_token_id": 92542
+        },
+        "pred_response": "B"
+    },
+    {
+        "sample_id": 62,
+        "question": "Review the visuals provided and respond to the question concerning the character sequence. You must choose your answer from the Choice List.\n<image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image>In what order did the person put the letters on the table?\nChoice list: \nA. yxs\nB. uxz\nC. ybw\nAnswer with the option's letter from the given choices directly.",
+        "gt_response": "yxs",
+        "gen_kwargs": {
+            "do_sample": false,
+            "num_beams": 1,
+            "max_new_tokens": 32,
+            "eos_token_id": 92542
+        },
+        "pred_response": "A"
+    },
+    {
+        "sample_id": 143,
+        "question": "Based on the provided images, answer the question related to the character order You must choose your answer from the Choice List.\n<image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image>What letter did the person write first on the paper?\nChoice list: \nA. z\nB. o\nC. n\nAnswer with the option's letter from the given choices directly.",
+        "gt_response": "z",
+        "gen_kwargs": {
+            "do_sample": false,
+            "num_beams": 1,
+            "max_new_tokens": 32,
+            "eos_token_id": 92542
+        },
+        "pred_response": "B"
+    },
+    {
+        "sample_id": 104,
+        "question": "Utilize the images provided to answer the given question about the character order. You must choose your answer from the Choice List.\n<image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image>What is the order of the letters at the end?\nChoice list: \nA. ma\nB. aj\nC. am\nAnswer with the option's letter from the given choices directly.",
+        "gt_response": "am",
+        "gen_kwargs": {
+            "do_sample": false,
+            "num_beams": 1,
+            "max_new_tokens": 32,
+            "eos_token_id": 92542
+        },
+        "pred_response": "C"
+    },
+    {
+        "sample_id": 141,
+        "question": "Review the visuals provided and respond to the question concerning the character sequence. You must choose your answer from the Choice List.\n<image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image>What letters did the person type on the computer in order?\nChoice list: \nA. teh\nB. hte\nC. tqh\nAnswer with the option's letter from the given choices directly.",
+        "gt_response": "teh",
+        "gen_kwargs": {
+            "do_sample": false,
+            "num_beams": 1,
+            "max_new_tokens": 32,
+            "eos_token_id": 92542
+        },
+        "pred_response": "A"
+    },
+    {
+        "sample_id": 162,
+        "question": "Analyze the given visuals and answer the question about the order of character. You must choose your answer from the Choice List.\n<image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image>What was the order of the letters at the beginning?\nChoice list: \nA. vahb\nB. abhv\nC. bavh\nAnswer with the option's letter from the given choices directly.",
+        "gt_response": "bavh",
+        "gen_kwargs": {
+            "do_sample": false,
+            "num_beams": 1,
+            "max_new_tokens": 32,
+            "eos_token_id": 92542
+        },
+        "pred_response": "C"
+    },
+    {
+        "sample_id": 177,
+        "question": "Interpret the images given and provide an answer to the question regarding the character order. You must choose your answer from the Choice List.\n<image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image>What was the order of the letters on the table before shuffling?\nChoice list: \nA. bcaogd\nB. abcdgo\nC. aodgbc\nAnswer with the option's letter from the given choices directly.",
+        "gt_response": "bcaogd",
+        "gen_kwargs": {
+            "do_sample": false,
+            "num_beams": 1,
+            "max_new_tokens": 32,
+            "eos_token_id": 92542
+        },
+        "pred_response": "B"
+    },
+    {
+        "sample_id": 102,
+        "question": "Assess the given images and answer the question related to the order of characters. You must choose your answer from the Choice List.\n<image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image>What is the order of the letters at the end?\nChoice list: \nA. aimr\nB. airm\nC. mira\nAnswer with the option's letter from the given choices directly.",
+        "gt_response": "airm",
+        "gen_kwargs": {
+            "do_sample": false,
+            "num_beams": 1,
+            "max_new_tokens": 32,
+            "eos_token_id": 92542
+        },
+        "pred_response": "C"
+    },
+    {
+        "sample_id": 89,
+        "question": "Utilize the images provided to answer the given question about the character order. You must choose your answer from the Choice List.\n<image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image>What was the order of the letters on the table before shuffling?\nChoice list: \nA. eupckac\nB. cupcake\nC. pkcaeuc\nAnswer with the option's letter from the given choices directly.",
+        "gt_response": "eupckac",
+        "gen_kwargs": {
+            "do_sample": false,
+            "num_beams": 1,
+            "max_new_tokens": 32,
+            "eos_token_id": 92542
+        },
+        "pred_response": "B"
+    },
+    {
+        "sample_id": 145,
+        "question": "Scrutinize the provided visuals and answer the question about the arrangement of characters. You must choose your answer from the Choice List.\n<image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image>In what order did the person put the letters on the table?\nChoice list: \nA. lypi\nB. qyve\nC. love\nAnswer with the option's letter from the given choices directly.",
+        "gt_response": "love",
+        "gen_kwargs": {
+            "do_sample": false,
+            "num_beams": 1,
+            "max_new_tokens": 32,
+            "eos_token_id": 92542
+        },
+        "pred_response": "C"
+    },
+    {
+        "sample_id": 56,
+        "question": "Interpret the images given and provide an answer to the question regarding the character order. You must choose your answer from the Choice List.\n<image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image>In what order did the person put the letters on the table?\nChoice list: \nA. muse\nB. mute\nC. etum\nAnswer with the option's letter from the given choices directly.",
+        "gt_response": "mute",
+        "gen_kwargs": {
+            "do_sample": false,
+            "num_beams": 1,
+            "max_new_tokens": 32,
+            "eos_token_id": 92542
+        },
+        "pred_response": "B"
+    },
+    {
+        "sample_id": 197,
+        "question": "Interpret the images given and provide an answer to the question regarding the character order. You must choose your answer from the Choice List.\n<image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image>What letter did the person write first on the paper?\nChoice list: \nA. t\nB. i\nC. z\nAnswer with the option's letter from the given choices directly.",
+        "gt_response": "i",
+        "gen_kwargs": {
+            "do_sample": false,
+            "num_beams": 1,
+            "max_new_tokens": 32,
+            "eos_token_id": 92542
+        },
+        "pred_response": "B"
+    },
+    {
+        "sample_id": 136,
+        "question": "Examine the visuals provided and respond to the query about the sequence of characters. You must choose your answer from the Choice List.\n<image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image>In what order did the person put the letters on the table?\nChoice list: \nA. feba\nB. feby\nC. fdsa\nAnswer with the option's letter from the given choices directly.",
+        "gt_response": "feba",
+        "gen_kwargs": {
+            "do_sample": false,
+            "num_beams": 1,
+            "max_new_tokens": 32,
+            "eos_token_id": 92542
+        },
+        "pred_response": "B"
+    },
+    {
+        "sample_id": 118,
+        "question": "Interpret the images given and provide an answer to the question regarding the character order. You must choose your answer from the Choice List.\n<image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image>What was the order of the letters at the beginning?\nChoice list: \nA. red\nB. rde\nC. erd\nAnswer with the option's letter from the given choices directly.",
+        "gt_response": "red",
+        "gen_kwargs": {
+            "do_sample": false,
+            "num_beams": 1,
+            "max_new_tokens": 32,
+            "eos_token_id": 92542
+        },
+        "pred_response": "B"
+    },
+    {
+        "sample_id": 133,
+        "question": "From the images supplied, answer the question relevant to character order. You must choose your answer from the Choice List.\n<image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image>What is the order of the letters at the end?\nChoice list: \nA. av\nB. va\nC. ya\nAnswer with the option's letter from the given choices directly.",
+        "gt_response": "va",
+        "gen_kwargs": {
+            "do_sample": false,
+            "num_beams": 1,
+            "max_new_tokens": 32,
+            "eos_token_id": 92542
+        },
+        "pred_response": "B"
+    },
+    {
+        "sample_id": 137,
+        "question": "Assess the given images and answer the question related to the order of characters. You must choose your answer from the Choice List.\n<image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image>What is the order of the letters at the end?\nChoice list: \nA. dc\nB. zd\nC. cd\nAnswer with the option's letter from the given choices directly.",
+        "gt_response": "cd",
+        "gen_kwargs": {
+            "do_sample": false,
+            "num_beams": 1,
+            "max_new_tokens": 32,
+            "eos_token_id": 92542
+        },
+        "pred_response": "C"
+    },
+    {
+        "sample_id": 139,
+        "question": "Examine the visuals provided and respond to the query about the sequence of characters. You must choose your answer from the Choice List.\n<image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image>What is the order of the letters at the end?\nChoice list: \nA. alic\nB. laic\nC. ical\nAnswer with the option's letter from the given choices directly.",
+        "gt_response": "alic",
+        "gen_kwargs": {
+            "do_sample": false,
+            "num_beams": 1,
+            "max_new_tokens": 32,
+            "eos_token_id": 92542
+        },
+        "pred_response": "C"
+    },
+    {
+        "sample_id": 148,
+        "question": "Utilize the images provided to answer the given question about the character order. You must choose your answer from the Choice List.\n<image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image>In what order did the person put the letters on the table?\nChoice list: \nA. box\nB. lom\nC. xob\nAnswer with the option's letter from the given choices directly.",
+        "gt_response": "box",
+        "gen_kwargs": {
+            "do_sample": false,
+            "num_beams": 1,
+            "max_new_tokens": 32,
+            "eos_token_id": 92542
+        },
+        "pred_response": "B"
+    },
+    {
+        "sample_id": 100,
+        "question": "Examine the visuals provided and respond to the query about the sequence of characters. You must choose your answer from the Choice List.\n<image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image>What was the order of the letters at the beginning?\nChoice list: \nA. vol\nB. lvo\nC. ovl\nAnswer with the option's letter from the given choices directly.",
+        "gt_response": "vol",
+        "gen_kwargs": {
+            "do_sample": false,
+            "num_beams": 1,
+            "max_new_tokens": 32,
+            "eos_token_id": 92542
+        },
+        "pred_response": "A"
+    },
+    {
+        "sample_id": 127,
+        "question": "Analyze the given visuals and answer the question about the order of character. You must choose your answer from the Choice List.\n<image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image>What was the order of the letters at the beginning?\nChoice list: \nA. sel\nB. les\nC. esl\nAnswer with the option's letter from the given choices directly.",
+        "gt_response": "sel",
+        "gen_kwargs": {
+            "do_sample": false,
+            "num_beams": 1,
+            "max_new_tokens": 32,
+            "eos_token_id": 92542
+        },
+        "pred_response": "A"
+    },
+    {
+        "sample_id": 151,
+        "question": "Scrutinize the provided visuals and answer the question about the arrangement of characters. You must choose your answer from the Choice List.\n<image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image>What letter did the person write first on the paper?\nChoice list: \nA. l\nB. a\nC. p\nAnswer with the option's letter from the given choices directly.",
+        "gt_response": "l",
+        "gen_kwargs": {
+            "do_sample": false,
+            "num_beams": 1,
+            "max_new_tokens": 32,
+            "eos_token_id": 92542
+        },
+        "pred_response": "A"
+    },
+    {
+        "sample_id": 181,
+        "question": "Review the visuals provided and respond to the question concerning the character sequence. You must choose your answer from the Choice List.\n<image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image>What letter is likely to be shown next?\nChoice list: \nA. b\nB. i\nC. e\nAnswer with the option's letter from the given choices directly.",
+        "gt_response": "e",
+        "gen_kwargs": {
+            "do_sample": false,
+            "num_beams": 1,
+            "max_new_tokens": 32,
+            "eos_token_id": 92542
+        },
+        "pred_response": "C"
+    },
+    {
+        "sample_id": 153,
+        "question": "Using the supplied images, answer the question concerning the order of characters. You must choose your answer from the Choice List.\n<image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image>What letter is likely to be shown next?\nChoice list: \nA. a\nB. e\nC. m\nAnswer with the option's letter from the given choices directly.",
+        "gt_response": "e",
+        "gen_kwargs": {
+            "do_sample": false,
+            "num_beams": 1,
+            "max_new_tokens": 32,
+            "eos_token_id": 92542
+        },
+        "pred_response": "C"
+    },
+    {
+        "sample_id": 156,
+        "question": "From the images supplied, answer the question relevant to character order. You must choose your answer from the Choice List.\n<image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image>What is the order of the letters at the end?\nChoice list: \nA. mf\nB. am\nC. ma\nAnswer with the option's letter from the given choices directly.",
+        "gt_response": "ma",
+        "gen_kwargs": {
+            "do_sample": false,
+            "num_beams": 1,
+            "max_new_tokens": 32,
+            "eos_token_id": 92542
+        },
+        "pred_response": "C"
+    },
+    {
+        "sample_id": 146,
+        "question": "Examine the visuals provided and respond to the query about the sequence of characters. You must choose your answer from the Choice List.\n<image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image>What letter did the person write first on the paper?\nChoice list: \nA. t\nB. c\nC. a\nAnswer with the option's letter from the given choices directly.",
+        "gt_response": "c",
+        "gen_kwargs": {
+            "do_sample": false,
+            "num_beams": 1,
+            "max_new_tokens": 32,
+            "eos_token_id": 92542
+        },
+        "pred_response": "B"
+    },
+    {
+        "sample_id": 172,
+        "question": "Using the supplied images, answer the question concerning the order of characters. You must choose your answer from the Choice List.\n<image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image>In what order did the person put the letters on the table?\nChoice list: \nA. gxvd\nB. love\nC. lyne\nAnswer with the option's letter from the given choices directly.",
+        "gt_response": "love",
+        "gen_kwargs": {
+            "do_sample": false,
+            "num_beams": 1,
+            "max_new_tokens": 32,
+            "eos_token_id": 92542
+        },
+        "pred_response": "B"
+    },
+    {
+        "sample_id": 188,
+        "question": "Assess the given images and answer the question related to the order of characters. You must choose your answer from the Choice List.\n<image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image>What was the order of the letters at the beginning?\nChoice list: \nA. bavh\nB. abhv\nC. vhba\nAnswer with the option's letter from the given choices directly.",
+        "gt_response": "bavh",
+        "gen_kwargs": {
+            "do_sample": false,
+            "num_beams": 1,
+            "max_new_tokens": 32,
+            "eos_token_id": 92542
+        },
+        "pred_response": "A"
+    },
+    {
+        "sample_id": 121,
+        "question": "Assess the given images and answer the question related to the order of characters. You must choose your answer from the Choice List.\n<image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image>What letter did the person write first on the paper?\nChoice list: \nA. t\nB. a\nC. c\nAnswer with the option's letter from the given choices directly.",
+        "gt_response": "c",
+        "gen_kwargs": {
+            "do_sample": false,
+            "num_beams": 1,
+            "max_new_tokens": 32,
+            "eos_token_id": 92542
+        },
+        "pred_response": "C"
+    },
+    {
+        "sample_id": 147,
+        "question": "From the images supplied, answer the question relevant to character order. You must choose your answer from the Choice List.\n<image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image>What is the order of the letters at the end?\nChoice list: \nA. va\nB. vj\nC. av\nAnswer with the option's letter from the given choices directly.",
+        "gt_response": "va",
+        "gen_kwargs": {
+            "do_sample": false,
+            "num_beams": 1,
+            "max_new_tokens": 32,
+            "eos_token_id": 92542
+        },
+        "pred_response": "C"
+    },
+    {
+        "sample_id": 110,
+        "question": "Utilize the images provided to answer the given question about the character order. You must choose your answer from the Choice List.\n<image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image>What was the second letter written on the paper?\nChoice list: \nA. o\nB. u\nC. y\nAnswer with the option's letter from the given choices directly.",
+        "gt_response": "o",
+        "gen_kwargs": {
+            "do_sample": false,
+            "num_beams": 1,
+            "max_new_tokens": 32,
+            "eos_token_id": 92542
+        },
+        "pred_response": "B"
+    },
+    {
+        "sample_id": 157,
+        "question": "Based on the provided images, answer the question related to the character order You must choose your answer from the Choice List.\n<image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image>What is the order of the letters at the end?\nChoice list: \nA. gair\nB. ragi\nC. gari\nAnswer with the option's letter from the given choices directly.",
+        "gt_response": "ragi",
+        "gen_kwargs": {
+            "do_sample": false,
+            "num_beams": 1,
+            "max_new_tokens": 32,
+            "eos_token_id": 92542
+        },
+        "pred_response": "B"
+    },
+    {
+        "sample_id": 149,
+        "question": "Examine the visuals provided and respond to the query about the sequence of characters. You must choose your answer from the Choice List.\n<image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image>What was the order of the letters at the beginning?\nChoice list: \nA. levo\nB. vole\nC. love\nAnswer with the option's letter from the given choices directly.",
+        "gt_response": "love",
+        "gen_kwargs": {
+            "do_sample": false,
+            "num_beams": 1,
+            "max_new_tokens": 32,
+            "eos_token_id": 92542
+        },
+        "pred_response": "C"
+    },
+    {
+        "sample_id": 150,
+        "question": "Scrutinize the provided visuals and answer the question about the arrangement of characters. You must choose your answer from the Choice List.\n<image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image>In what order did the person put the letters on the table?\nChoice list: \nA. hrdae\nB. darhe\nC. ehrad\nAnswer with the option's letter from the given choices directly.",
+        "gt_response": "darhe",
+        "gen_kwargs": {
+            "do_sample": false,
+            "num_beams": 1,
+            "max_new_tokens": 32,
+            "eos_token_id": 92542
+        },
+        "pred_response": "B"
+    },
+    {
+        "sample_id": 159,
+        "question": "Utilize the images provided to answer the given question about the character order. You must choose your answer from the Choice List.\n<image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image>What was the second letter written on the paper?\nChoice list: \nA. m\nB. l\nC. o\nAnswer with the option's letter from the given choices directly.",
+        "gt_response": "o",
+        "gen_kwargs": {
+            "do_sample": false,
+            "num_beams": 1,
+            "max_new_tokens": 32,
+            "eos_token_id": 92542
+        },
+        "pred_response": "C"
+    },
+    {
+        "sample_id": 166,
+        "question": "Analyze the given visuals and answer the question about the order of character. You must choose your answer from the Choice List.\n<image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image>What is the order of the letters at the end?\nChoice list: \nA. ilac\nB. laci\nC. alic\nAnswer with the option's letter from the given choices directly.",
+        "gt_response": "alic",
+        "gen_kwargs": {
+            "do_sample": false,
+            "num_beams": 1,
+            "max_new_tokens": 32,
+            "eos_token_id": 92542
+        },
+        "pred_response": "B"
+    },
+    {
+        "sample_id": 131,
+        "question": "Based on the provided images, answer the question related to the character order You must choose your answer from the Choice List.\n<image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image>What letter is likely to be shown next?\nChoice list: \nA. h\nB. o\nC. j\nAnswer with the option's letter from the given choices directly.",
+        "gt_response": "o",
+        "gen_kwargs": {
+            "do_sample": false,
+            "num_beams": 1,
+            "max_new_tokens": 32,
+            "eos_token_id": 92542
+        },
+        "pred_response": "B"
+    },
+    {
+        "sample_id": 135,
+        "question": "Using the supplied images, answer the question concerning the order of characters. You must choose your answer from the Choice List.\n<image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image>What would be the order of the written letters if the person had written them in reverse order?\nChoice list: \nA. car\nB. cer\nC. rac\nAnswer with the option's letter from the given choices directly.",
+        "gt_response": "rac",
+        "gen_kwargs": {
+            "do_sample": false,
+            "num_beams": 1,
+            "max_new_tokens": 32,
+            "eos_token_id": 92542
+        },
+        "pred_response": "B"
+    },
+    {
+        "sample_id": 191,
+        "question": "Assess the given images and answer the question related to the order of characters. You must choose your answer from the Choice List.\n<image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image>What letters did the person show in order?\nChoice list: \nA. ymc\nB. abc\nC. hbc\nAnswer with the option's letter from the given choices directly.",
+        "gt_response": "abc",
+        "gen_kwargs": {
+            "do_sample": false,
+            "num_beams": 1,
+            "max_new_tokens": 32,
+            "eos_token_id": 92542
+        },
+        "pred_response": "B"
+    },
+    {
+        "sample_id": 185,
+        "question": "From the images supplied, answer the question relevant to character order. You must choose your answer from the Choice List.\n<image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image>What letter did the person write first on the paper?\nChoice list: \nA. n\nB. f\nC. u\nAnswer with the option's letter from the given choices directly.",
+        "gt_response": "f",
+        "gen_kwargs": {
+            "do_sample": false,
+            "num_beams": 1,
+            "max_new_tokens": 32,
+            "eos_token_id": 92542
+        },
+        "pred_response": "B"
+    },
+    {
+        "sample_id": 165,
+        "question": "Based on the provided images, answer the question related to the character order You must choose your answer from the Choice List.\n<image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image>What letter is likely to be shown next?\nChoice list: \nA. m\nB. f\nC. q\nAnswer with the option's letter from the given choices directly.",
+        "gt_response": "q",
+        "gen_kwargs": {
+            "do_sample": false,
+            "num_beams": 1,
+            "max_new_tokens": 32,
+            "eos_token_id": 92542
+        },
+        "pred_response": "A"
+    },
+    {
+        "sample_id": 163,
+        "question": "Assess the given images and answer the question related to the order of characters. You must choose your answer from the Choice List.\n<image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image>What letters did the person show in order?\nChoice list: \nA. jklmn\nB. jxigc\nC. jsrho\nAnswer with the option's letter from the given choices directly.",
+        "gt_response": "jklmn",
+        "gen_kwargs": {
+            "do_sample": false,
+            "num_beams": 1,
+            "max_new_tokens": 32,
+            "eos_token_id": 92542
+        },
+        "pred_response": "A"
+    },
+    {
+        "sample_id": 174,
+        "question": "Scrutinize the provided visuals and answer the question about the arrangement of characters. You must choose your answer from the Choice List.\n<image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image>In what order did the person put the letters on the table?\nChoice list: \nA. luper\nB. rpleu\nC. lupbi\nAnswer with the option's letter from the given choices directly.",
+        "gt_response": "luper",
+        "gen_kwargs": {
+            "do_sample": false,
+            "num_beams": 1,
+            "max_new_tokens": 32,
+            "eos_token_id": 92542
+        },
+        "pred_response": "A"
+    },
+    {
+        "sample_id": 194,
+        "question": "Interpret the images given and provide an answer to the question regarding the character order. You must choose your answer from the Choice List.\n<image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image>What was the second letter written on the paper?\nChoice list: \nA. o\nB. n\nC. h\nAnswer with the option's letter from the given choices directly.",
+        "gt_response": "o",
+        "gen_kwargs": {
+            "do_sample": false,
+            "num_beams": 1,
+            "max_new_tokens": 32,
+            "eos_token_id": 92542
+        },
+        "pred_response": "B"
+    },
+    {
+        "sample_id": 129,
+        "question": "Based on the provided images, answer the question related to the character order You must choose your answer from the Choice List.\n<image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image>What is the order of the letters on the table at the end?\nChoice list: \nA. sbeac\nB. bsace\nC. seacb\nAnswer with the option's letter from the given choices directly.",
+        "gt_response": "sbeac",
+        "gen_kwargs": {
+            "do_sample": false,
+            "num_beams": 1,
+            "max_new_tokens": 32,
+            "eos_token_id": 92542
+        },
+        "pred_response": "B"
+    },
+    {
+        "sample_id": 189,
+        "question": "Examine the visuals provided and respond to the query about the sequence of characters. You must choose your answer from the Choice List.\n<image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image>What letter did the person write first on the paper?\nChoice list: \nA. d\nB. r\nC. e\nAnswer with the option's letter from the given choices directly.",
+        "gt_response": "r",
+        "gen_kwargs": {
+            "do_sample": false,
+            "num_beams": 1,
+            "max_new_tokens": 32,
+            "eos_token_id": 92542
+        },
+        "pred_response": "C"
+    },
+    {
+        "sample_id": 112,
+        "question": "Utilize the images provided to answer the given question about the character order. You must choose your answer from the Choice List.\n<image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image>What letter did the person write first on the paper?\nChoice list: \nA. o\nB. n\nC. e\nAnswer with the option's letter from the given choices directly.",
+        "gt_response": "n",
+        "gen_kwargs": {
+            "do_sample": false,
+            "num_beams": 1,
+            "max_new_tokens": 32,
+            "eos_token_id": 92542
+        },
+        "pred_response": "C"
+    },
+    {
+        "sample_id": 158,
+        "question": "Interpret the images given and provide an answer to the question regarding the character order. You must choose your answer from the Choice List.\n<image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image>In what order did the person put the letters on the table?\nChoice list: \nA. ant\nB. act\nC. hnv\nAnswer with the option's letter from the given choices directly.",
+        "gt_response": "ant",
+        "gen_kwargs": {
+            "do_sample": false,
+            "num_beams": 1,
+            "max_new_tokens": 32,
+            "eos_token_id": 92542
+        },
+        "pred_response": "B"
+    },
+    {
+        "sample_id": 155,
+        "question": "Based on the provided images, answer the question related to the character order You must choose your answer from the Choice List.\n<image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image>What letter did the person write first on the paper?\nChoice list: \nA. f\nB. a\nC. b\nAnswer with the option's letter from the given choices directly.",
+        "gt_response": "b",
+        "gen_kwargs": {
+            "do_sample": false,
+            "num_beams": 1,
+            "max_new_tokens": 32,
+            "eos_token_id": 92542
+        },
+        "pred_response": "B"
+    },
+    {
+        "sample_id": 173,
+        "question": "Utilize the images provided to answer the given question about the character order. You must choose your answer from the Choice List.\n<image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image>What was the order of the letters at the beginning?\nChoice list: \nA. malin\nB. nialm\nC. inlam\nAnswer with the option's letter from the given choices directly.",
+        "gt_response": "inlam",
+        "gen_kwargs": {
+            "do_sample": false,
+            "num_beams": 1,
+            "max_new_tokens": 32,
+            "eos_token_id": 92542
+        },
+        "pred_response": "B"
+    },
+    {
+        "sample_id": 175,
+        "question": "Review the visuals provided and respond to the question concerning the character sequence. You must choose your answer from the Choice List.\n<image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image>What is the order of the letters at the end?\nChoice list: \nA. alic\nB. lcai\nC. ical\nAnswer with the option's letter from the given choices directly.",
+        "gt_response": "ical",
+        "gen_kwargs": {
+            "do_sample": false,
+            "num_beams": 1,
+            "max_new_tokens": 32,
+            "eos_token_id": 92542
+        },
+        "pred_response": "C"
+    },
+    {
+        "sample_id": 176,
+        "question": "From the images supplied, answer the question relevant to character order. You must choose your answer from the Choice List.\n<image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image>In what order did the person put the letters on the table?\nChoice list: \nA. bfd\nB. bid\nC. bkd\nAnswer with the option's letter from the given choices directly.",
+        "gt_response": "bid",
+        "gen_kwargs": {
+            "do_sample": false,
+            "num_beams": 1,
+            "max_new_tokens": 32,
+            "eos_token_id": 92542
+        },
+        "pred_response": "C"
+    },
+    {
+        "sample_id": 168,
+        "question": "Examine the visuals provided and respond to the query about the sequence of characters. You must choose your answer from the Choice List.\n<image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image>What is the order of the letters at the end?\nChoice list: \nA. se\nB. ye\nC. es\nAnswer with the option's letter from the given choices directly.",
+        "gt_response": "se",
+        "gen_kwargs": {
+            "do_sample": false,
+            "num_beams": 1,
+            "max_new_tokens": 32,
+            "eos_token_id": 92542
+        },
+        "pred_response": "B"
+    },
+    {
+        "sample_id": 178,
+        "question": "Assess the given images and answer the question related to the order of characters. You must choose your answer from the Choice List.\n<image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image>What would be the order of the written letters if the person had written them in reverse order?\nChoice list: \nA. gjicf\nB. yppah\nC. happy\nAnswer with the option's letter from the given choices directly.",
+        "gt_response": "yppah",
+        "gen_kwargs": {
+            "do_sample": false,
+            "num_beams": 1,
+            "max_new_tokens": 32,
+            "eos_token_id": 92542
+        },
+        "pred_response": "B"
+    },
+    {
+        "sample_id": 186,
+        "question": "Using the supplied images, answer the question concerning the order of characters. You must choose your answer from the Choice List.\n<image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image>What is the order of the letters at the end?\nChoice list: \nA. fal\nB. lfa\nC. afl\nAnswer with the option's letter from the given choices directly.",
+        "gt_response": "fal",
+        "gen_kwargs": {
+            "do_sample": false,
+            "num_beams": 1,
+            "max_new_tokens": 32,
+            "eos_token_id": 92542
+        },
+        "pred_response": "C"
+    },
+    {
+        "sample_id": 187,
+        "question": "Review the visuals provided and respond to the question concerning the character sequence. You must choose your answer from the Choice List.\n<image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image>What was the second letter written on the paper?\nChoice list: \nA. g\nB. d\nC. o\nAnswer with the option's letter from the given choices directly.",
+        "gt_response": "o",
+        "gen_kwargs": {
+            "do_sample": false,
+            "num_beams": 1,
+            "max_new_tokens": 32,
+            "eos_token_id": 92542
+        },
+        "pred_response": "C"
+    },
+    {
+        "sample_id": 198,
+        "question": "Interpret the images given and provide an answer to the question regarding the character order. You must choose your answer from the Choice List.\n<image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image>What letter did the person write first on the paper?\nChoice list: \nA. a\nB. e\nC. r\nAnswer with the option's letter from the given choices directly.",
+        "gt_response": "r",
+        "gen_kwargs": {
+            "do_sample": false,
+            "num_beams": 1,
+            "max_new_tokens": 32,
+            "eos_token_id": 92542
+        },
+        "pred_response": "C"
+    },
+    {
+        "sample_id": 199,
+        "question": "Using the supplied images, answer the question concerning the order of characters. You must choose your answer from the Choice List.\n<image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image>In what order did the person put the letters on the table?\nChoice list: \nA. emoz\nB. pmqr\nC. pmoz\nAnswer with the option's letter from the given choices directly.",
+        "gt_response": "pmoz",
+        "gen_kwargs": {
+            "do_sample": false,
+            "num_beams": 1,
+            "max_new_tokens": 32,
+            "eos_token_id": 92542
+        },
+        "pred_response": "C"
+    },
+    {
+        "sample_id": 196,
+        "question": "Review the visuals provided and respond to the question concerning the character sequence. You must choose your answer from the Choice List.\n<image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image>What letters did the person show in order?\nChoice list: \nA. sml\nB. fle\nC. efl\nAnswer with the option's letter from the given choices directly.",
+        "gt_response": "efl",
+        "gen_kwargs": {
+            "do_sample": false,
+            "num_beams": 1,
+            "max_new_tokens": 32,
+            "eos_token_id": 92542
+        },
+        "pred_response": "B"
+    },
+    {
+        "sample_id": 169,
+        "question": "Examine the visuals provided and respond to the query about the sequence of characters. You must choose your answer from the Choice List.\n<image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image>What was the order of the letters on the table before shuffling?\nChoice list: \nA. money\nB. nmeoy\nC. emnoy\nAnswer with the option's letter from the given choices directly.",
+        "gt_response": "nmeoy",
+        "gen_kwargs": {
+            "do_sample": false,
+            "num_beams": 1,
+            "max_new_tokens": 32,
+            "eos_token_id": 92542
+        },
+        "pred_response": "B"
+    },
+    {
+        "sample_id": 193,
+        "question": "Examine the visuals provided and respond to the query about the sequence of characters. You must choose your answer from the Choice List.\n<image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image>In what order did the person put the letters on the table?\nChoice list: \nA. rna\nB. nav\nC. nar\nAnswer with the option's letter from the given choices directly.",
+        "gt_response": "nar",
+        "gen_kwargs": {
+            "do_sample": false,
+            "num_beams": 1,
+            "max_new_tokens": 32,
+            "eos_token_id": 92542
+        },
+        "pred_response": "B"
+    },
+    {
+        "sample_id": 119,
+        "question": "Using the supplied images, answer the question concerning the order of characters. You must choose your answer from the Choice List.\n<image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image>What is the order of the letters on the table at the end?\nChoice list: \nA. ghijkl\nB. kglhji\nC. igljkh\nAnswer with the option's letter from the given choices directly.",
+        "gt_response": "ghijkl",
+        "gen_kwargs": {
+            "do_sample": false,
+            "num_beams": 1,
+            "max_new_tokens": 32,
+            "eos_token_id": 92542
+        },
+        "pred_response": "A"
+    },
+    {
+        "sample_id": 179,
+        "question": "Utilize the images provided to answer the given question about the character order. You must choose your answer from the Choice List.\n<image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image>In what order did the person put the letters on the table?\nChoice list: \nA. fab\nB. cat\nC. fhb\nAnswer with the option's letter from the given choices directly.",
+        "gt_response": "fab",
+        "gen_kwargs": {
+            "do_sample": false,
+            "num_beams": 1,
+            "max_new_tokens": 32,
+            "eos_token_id": 92542
+        },
+        "pred_response": "B"
+    },
+    {
+        "sample_id": 195,
+        "question": "Based on the provided images, answer the question related to the character order You must choose your answer from the Choice List.\n<image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image>What is the order of the letters at the end?\nChoice list: \nA. odco\nB. oocd\nC. dooc\nAnswer with the option's letter from the given choices directly.",
+        "gt_response": "dooc",
+        "gen_kwargs": {
+            "do_sample": false,
+            "num_beams": 1,
+            "max_new_tokens": 32,
+            "eos_token_id": 92542
+        },
+        "pred_response": "C"
+    },
+    {
+        "sample_id": 180,
+        "question": "Interpret the images given and provide an answer to the question regarding the character order. You must choose your answer from the Choice List.\n<image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image>What was the second letter written on the paper?\nChoice list: \nA. i\nB. p\nC. g\nAnswer with the option's letter from the given choices directly.",
+        "gt_response": "i",
+        "gen_kwargs": {
+            "do_sample": false,
+            "num_beams": 1,
+            "max_new_tokens": 32,
+            "eos_token_id": 92542
+        },
+        "pred_response": "B"
+    },
+    {
+        "sample_id": 183,
+        "question": "Assess the given images and answer the question related to the order of characters. You must choose your answer from the Choice List.\n<image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image>What letter is likely to be shown next?\nChoice list: \nA. c\nB. o\nC. g\nAnswer with the option's letter from the given choices directly.",
+        "gt_response": "g",
+        "gen_kwargs": {
+            "do_sample": false,
+            "num_beams": 1,
+            "max_new_tokens": 32,
+            "eos_token_id": 92542
+        },
+        "pred_response": "C"
+    },
+    {
+        "sample_id": 190,
+        "question": "Interpret the images given and provide an answer to the question regarding the character order. You must choose your answer from the Choice List.\n<image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image>What letters did the person show in order?\nChoice list: \nA. mcdev\nB. bcdef\nC. edbfc\nAnswer with the option's letter from the given choices directly.",
+        "gt_response": "bcdef",
+        "gen_kwargs": {
+            "do_sample": false,
+            "num_beams": 1,
+            "max_new_tokens": 32,
+            "eos_token_id": 92542
+        },
+        "pred_response": "C"
+    },
+    {
+        "sample_id": 184,
+        "question": "Interpret the images given and provide an answer to the question regarding the character order. You must choose your answer from the Choice List.\n<image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image>What letter did the person write first on the paper?\nChoice list: \nA. i\nB. k\nC. b\nAnswer with the option's letter from the given choices directly.",
+        "gt_response": "b",
+        "gen_kwargs": {
+            "do_sample": false,
+            "num_beams": 1,
+            "max_new_tokens": 32,
+            "eos_token_id": 92542
+        },
+        "pred_response": "B"
+    },
+    {
+        "sample_id": 192,
+        "question": "Interpret the images given and provide an answer to the question regarding the character order. You must choose your answer from the Choice List.\n<image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image>What is the order of the letters at the end?\nChoice list: \nA. erm\nB. emr\nC. rem\nAnswer with the option's letter from the given choices directly.",
+        "gt_response": "emr",
+        "gen_kwargs": {
+            "do_sample": false,
+            "num_beams": 1,
+            "max_new_tokens": 32,
+            "eos_token_id": 92542
+        },
+        "pred_response": "B"
+    }
+]

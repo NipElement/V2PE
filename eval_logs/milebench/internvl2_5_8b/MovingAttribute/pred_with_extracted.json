@@ -131,7 +131,7 @@
             "video_12262/video_12262_3.jpeg",
             "video_12262/video_12262_4.jpeg"
         ],
-        "extracted": "BA",
+        "extracted": "B",
         "result": 0
     },
     {
@@ -211,7 +211,7 @@
             "video_13962/video_13962_3.jpeg",
             "video_13962/video_13962_4.jpeg"
         ],
-        "extracted": "ABC",
+        "extracted": "A",
         "result": 0
     },
     {
@@ -238,8 +238,8 @@
             "video_14644/video_14644_3.jpeg",
             "video_14644/video_14644_4.jpeg"
         ],
-        "extracted": "BBC",
-        "result": 0
+        "extracted": "B",
+        "result": 1
     },
     {
         "sample_id": 9,
@@ -398,8 +398,8 @@
             "video_10969/video_10969_3.jpeg",
             "video_10969/video_10969_4.jpeg"
         ],
-        "extracted": "BB",
-        "result": 0
+        "extracted": "B",
+        "result": 1
     },
     {
         "sample_id": 15,
@@ -507,8 +507,8 @@
             "video_12283/video_12283_3.jpeg",
             "video_12283/video_12283_4.jpeg"
         ],
-        "extracted": "CA",
-        "result": 0
+        "extracted": "C",
+        "result": 1
     },
     {
         "sample_id": 19,
@@ -533,8 +533,8 @@
             "video_13870/video_13870_3.jpeg",
             "video_13870/video_13870_4.jpeg"
         ],
-        "extracted": "BB",
-        "result": 0
+        "extracted": "B",
+        "result": 1
     },
     {
         "sample_id": 20,
@@ -615,8 +615,8 @@
             "video_11343/video_11343_3.jpeg",
             "video_11343/video_11343_4.jpeg"
         ],
-        "extracted": "BABABA",
-        "result": 0
+        "extracted": "B",
+        "result": 1
     },
     {
         "sample_id": 23,
@@ -670,7 +670,7 @@
             "video_13825/video_13825_3.jpeg",
             "video_13825/video_13825_4.jpeg"
         ],
-        "extracted": "CA",
+        "extracted": "C",
         "result": 0
     },
     {
@@ -698,8 +698,8 @@
             "video_13615/video_13615_3.jpeg",
             "video_13615/video_13615_4.jpeg"
         ],
-        "extracted": "ABB",
-        "result": 0
+        "extracted": "A",
+        "result": 1
     },
     {
         "sample_id": 26,
@@ -752,8 +752,8 @@
             "video_12148/video_12148_3.jpeg",
             "video_12148/video_12148_4.jpeg"
         ],
-        "extracted": "CB",
-        "result": 0
+        "extracted": "C",
+        "result": 1
     },
     {
         "sample_id": 28,
@@ -804,8 +804,8 @@
             "video_14998/video_14998_3.jpeg",
             "video_14998/video_14998_4.jpeg"
         ],
-        "extracted": "AAA",
-        "result": 0
+        "extracted": "A",
+        "result": 1
     },
     {
         "sample_id": 30,
@@ -1189,8 +1189,8 @@
             "video_11397/video_11397_3.jpeg",
             "video_11397/video_11397_4.jpeg"
         ],
-        "extracted": "DCD",
-        "result": 0
+        "extracted": "D",
+        "result": 1
     },
     {
         "sample_id": 44,
@@ -1271,7 +1271,7 @@
             "video_13226/video_13226_3.jpeg",
             "video_13226/video_13226_4.jpeg"
         ],
-        "extracted": "CBA",
+        "extracted": "C",
         "result": 0
     },
     {
@@ -1486,8 +1486,8 @@
             "video_11174/video_11174_3.jpeg",
             "video_11174/video_11174_4.jpeg"
         ],
-        "extracted": "AB",
-        "result": 0
+        "extracted": "A",
+        "result": 1
     },
     {
         "sample_id": 55,
@@ -1591,8 +1591,8 @@
             "video_14679/video_14679_3.jpeg",
             "video_14679/video_14679_4.jpeg"
         ],
-        "extracted": "BB",
-        "result": 0
+        "extracted": "B",
+        "result": 1
     },
     {
         "sample_id": 59,
@@ -1670,8 +1670,8 @@
             "video_10092/video_10092_3.jpeg",
             "video_10092/video_10092_4.jpeg"
         ],
-        "extracted": "AB",
-        "result": 0
+        "extracted": "A",
+        "result": 1
     },
     {
         "sample_id": 62,
@@ -1942,8 +1942,8 @@
             "video_12027/video_12027_3.jpeg",
             "video_12027/video_12027_4.jpeg"
         ],
-        "extracted": "AA",
-        "result": 0
+        "extracted": "A",
+        "result": 1
     },
     {
         "sample_id": 72,
@@ -1998,8 +1998,8 @@
             "video_14212/video_14212_3.jpeg",
             "video_14212/video_14212_4.jpeg"
         ],
-        "extracted": "ACD",
-        "result": 0
+        "extracted": "A",
+        "result": 1
     },
     {
         "sample_id": 74,
@@ -2051,8 +2051,8 @@
             "video_10778/video_10778_3.jpeg",
             "video_10778/video_10778_4.jpeg"
         ],
-        "extracted": "BB",
-        "result": 0
+        "extracted": "B",
+        "result": 1
     },
     {
         "sample_id": 76,
@@ -2705,8 +2705,8 @@
             "video_13185/video_13185_3.jpeg",
             "video_13185/video_13185_4.jpeg"
         ],
-        "extracted": "BB",
-        "result": 0
+        "extracted": "B",
+        "result": 1
     },
     {
         "sample_id": 100,
@@ -2731,8 +2731,8 @@
             "video_14517/video_14517_3.jpeg",
             "video_14517/video_14517_4.jpeg"
         ],
-        "extracted": "AB",
-        "result": 0
+        "extracted": "A",
+        "result": 1
     },
     {
         "sample_id": 101,
@@ -2895,8 +2895,8 @@
             "video_13171/video_13171_3.jpeg",
             "video_13171/video_13171_4.jpeg"
         ],
-        "extracted": "BB",
-        "result": 0
+        "extracted": "B",
+        "result": 1
     },
     {
         "sample_id": 107,
@@ -3111,8 +3111,8 @@
             "video_13473/video_13473_3.jpeg",
             "video_13473/video_13473_4.jpeg"
         ],
-        "extracted": "BCA",
-        "result": 0
+        "extracted": "B",
+        "result": 1
     },
     {
         "sample_id": 115,
@@ -3192,8 +3192,8 @@
             "video_14262/video_14262_3.jpeg",
             "video_14262/video_14262_4.jpeg"
         ],
-        "extracted": "BB",
-        "result": 0
+        "extracted": "B",
+        "result": 1
     },
     {
         "sample_id": 118,
@@ -3273,8 +3273,8 @@
             "video_14387/video_14387_3.jpeg",
             "video_14387/video_14387_4.jpeg"
         ],
-        "extracted": "CC",
-        "result": 0
+        "extracted": "C",
+        "result": 1
     },
     {
         "sample_id": 121,
@@ -3733,8 +3733,8 @@
             "video_12925/video_12925_3.jpeg",
             "video_12925/video_12925_4.jpeg"
         ],
-        "extracted": "BC",
-        "result": 0
+        "extracted": "B",
+        "result": 1
     },
     {
         "sample_id": 138,
@@ -3897,8 +3897,8 @@
             "video_12743/video_12743_3.jpeg",
             "video_12743/video_12743_4.jpeg"
         ],
-        "extracted": "DB",
-        "result": 0
+        "extracted": "D",
+        "result": 1
     },
     {
         "sample_id": 144,
@@ -3975,8 +3975,8 @@
             "video_12477/video_12477_3.jpeg",
             "video_12477/video_12477_4.jpeg"
         ],
-        "extracted": "BB",
-        "result": 0
+        "extracted": "B",
+        "result": 1
     },
     {
         "sample_id": 147,
@@ -4111,8 +4111,8 @@
             "video_10439/video_10439_3.jpeg",
             "video_10439/video_10439_4.jpeg"
         ],
-        "extracted": "AB",
-        "result": 0
+        "extracted": "A",
+        "result": 1
     },
     {
         "sample_id": 152,
@@ -4138,8 +4138,8 @@
             "video_10892/video_10892_3.jpeg",
             "video_10892/video_10892_4.jpeg"
         ],
-        "extracted": "CBC",
-        "result": 0
+        "extracted": "C",
+        "result": 1
     },
     {
         "sample_id": 153,
@@ -4269,8 +4269,8 @@
             "video_10685/video_10685_3.jpeg",
             "video_10685/video_10685_4.jpeg"
         ],
-        "extracted": "BBAB",
-        "result": 0
+        "extracted": "B",
+        "result": 1
     },
     {
         "sample_id": 158,
@@ -4375,8 +4375,8 @@
             "video_13405/video_13405_3.jpeg",
             "video_13405/video_13405_4.jpeg"
         ],
-        "extracted": "BB",
-        "result": 0
+        "extracted": "B",
+        "result": 1
     },
     {
         "sample_id": 162,
@@ -4482,8 +4482,8 @@
             "video_13401/video_13401_3.jpeg",
             "video_13401/video_13401_4.jpeg"
         ],
-        "extracted": "CCA",
-        "result": 0
+        "extracted": "C",
+        "result": 1
     },
     {
         "sample_id": 166,
@@ -4672,8 +4672,8 @@
             "video_14028/video_14028_3.jpeg",
             "video_14028/video_14028_4.jpeg"
         ],
-        "extracted": "BA",
-        "result": 0
+        "extracted": "B",
+        "result": 1
     },
     {
         "sample_id": 173,
@@ -4808,8 +4808,8 @@
             "video_13752/video_13752_3.jpeg",
             "video_13752/video_13752_4.jpeg"
         ],
-        "extracted": "AB",
-        "result": 0
+        "extracted": "A",
+        "result": 1
     },
     {
         "sample_id": 178,
@@ -4888,8 +4888,8 @@
             "video_10242/video_10242_3.jpeg",
             "video_10242/video_10242_4.jpeg"
         ],
-        "extracted": "CCB",
-        "result": 0
+        "extracted": "C",
+        "result": 1
     },
     {
         "sample_id": 181,
@@ -5023,8 +5023,8 @@
             "video_12170/video_12170_3.jpeg",
             "video_12170/video_12170_4.jpeg"
         ],
-        "extracted": "CB",
-        "result": 0
+        "extracted": "C",
+        "result": 1
     },
     {
         "sample_id": 186,
@@ -5051,8 +5051,8 @@
             "video_14500/video_14500_3.jpeg",
             "video_14500/video_14500_4.jpeg"
         ],
-        "extracted": "ACB",
-        "result": 0
+        "extracted": "A",
+        "result": 1
     },
     {
         "sample_id": 187,
@@ -5131,8 +5131,8 @@
             "video_12175/video_12175_3.jpeg",
             "video_12175/video_12175_4.jpeg"
         ],
-        "extracted": "BBB",
-        "result": 0
+        "extracted": "B",
+        "result": 1
     },
     {
         "sample_id": 190,
@@ -5210,8 +5210,8 @@
             "video_10410/video_10410_3.jpeg",
             "video_10410/video_10410_4.jpeg"
         ],
-        "extracted": "BA",
-        "result": 0
+        "extracted": "B",
+        "result": 1
     },
     {
         "sample_id": 193,

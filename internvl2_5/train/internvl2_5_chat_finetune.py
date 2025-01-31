@@ -65,7 +65,7 @@ try:
 
     has_tcs_loader = True
 except ImportError as E:
-    print('petrel_client is not installed. Using PIL to load images.')
+    # print('petrel_client is not installed. Using PIL to load images.')
     has_tcs_loader = False
 
 IGNORE_INDEX = -100
@@ -203,7 +203,7 @@ class DataTrainingArguments:
         },
     )
     force_image_size: Optional[int] = field(
-        default=224,
+        default=448,
         metadata={'help': 'Set the desired size for the image. Default is 224.'},
     )
     down_sample_ratio: Optional[float] = field(
@@ -242,7 +242,7 @@ class DataTrainingArguments:
         metadata={'help': 'The minimum number of dynamic patches. Default is 1.'},
     )
     max_dynamic_patch: Optional[int] = field(
-        default=12,
+        default=500,
         metadata={'help': 'The maximum number of dynamic patches. Default is 6.'},
     )
     min_num_frame: Optional[int] = field(
@@ -338,7 +338,7 @@ class LazySupervisedDataset(Dataset):
             dynamic_max_patch=False,
             use_thumbnail=False,
             min_dynamic_patch=1,
-            max_dynamic_patch=6,
+            max_dynamic_patch=500,
             max_num_frame=20,
             min_num_frame=4,
             sampling_method='rand',
@@ -476,7 +476,6 @@ class LazySupervisedDataset(Dataset):
     def multi_modal_get_item(self, data_item):
         if '<image>' not in data_item['conversations'][0]['value']:
             data_item['conversations'][0]['value'] = '<image>\n' + data_item['conversations'][0]['value']
-
         if data_item['image'].startswith('s3://'):
             image_path = self.root + data_item['image']
         elif data_item['image'].startswith('http') or data_item['image'].startswith('HTTP'):
@@ -625,6 +624,12 @@ class LazySupervisedDataset(Dataset):
         return list(rope_pos_id.numpy())
 
     def multi_modal_multi_image_get_item(self, data_item):
+        num_image = len(data_item['image']) 
+        current_image_count = data_item['conversations'][0]['value'].count('<image>')
+        if current_image_count < num_image:
+            for _ in range(num_image - current_image_count):
+                data_item['conversations'][0]['value'] = '<image>\n' + data_item['conversations'][0]['value']
+        
         transform = build_transform(
             is_train=self.is_train,
             input_size=self.image_size,
@@ -635,6 +640,7 @@ class LazySupervisedDataset(Dataset):
         num_image = len(data_item['image'])
         all_boxes = []
         image_list = []
+        # debug_image_infos = []
         for image_path in data_item['image']:
             if image_path.startswith('s3://'):
                 image_path = self.root + image_path
@@ -653,7 +659,6 @@ class LazySupervisedDataset(Dataset):
                 image = Image.open(image_path).convert('RGB')
             orig_size = image.size
             if self.dynamic_image_size:
-
                 image, boxes = dynamic_preprocess(
                     image,
                     min_num=self.min_dynamic_patch,
@@ -662,6 +667,28 @@ class LazySupervisedDataset(Dataset):
                     use_thumbnail=self.use_thumbnail,
                     return_box=True
                 )
+                # splitted_imgs, boxes, dbg = dynamic_preprocess(
+                #     image,
+                #     min_num=self.min_dynamic_patch,
+                #     max_num=self.max_dynamic_patch // num_image if self.dynamic_max_patch else self.max_dynamic_patch,
+                #     image_size=self.image_size,
+                #     use_thumbnail=self.use_thumbnail,
+                #     return_box=True,
+                #     debug_return=True 
+                # )
+                # images += splitted_imgs
+                # all_boxes.append(boxes)
+                # image_list.append(splitted_imgs)
+                # num_tiles.append(len(splitted_imgs))
+                # img_debug = {
+                #     "orig_width": dbg["orig_width"],
+                #     "orig_height": dbg["orig_height"],
+                #     "target_width": dbg["target_width"],
+                #     "target_height": dbg["target_height"],
+                #     "blocks": dbg["blocks"],
+                #     "splitted_imgs_count": len(splitted_imgs)
+                # }
+                # debug_image_infos.append(img_debug)
                 images += image
                 image_list.append(image)
                 all_boxes.append(boxes)
@@ -700,7 +727,19 @@ class LazySupervisedDataset(Dataset):
         position_ids.masked_fill_(ret['attention_mask'] == 0, 1)
 
         image_end_token_id = self.tokenizer.convert_tokens_to_ids(IMG_END_TOKEN)
-        assert (ret['input_ids'][0] == image_end_token_id).sum() == num_image, f'image tokens are truncated, this dataset is {self.ds_name}'
+        assert (ret['input_ids'][0] == image_end_token_id).sum() == num_image, f"\nnum_image_tokens:{num_image_tokens}\nnum_tiles:{num_tiles}\nimage tokens are truncated, this dataset is {self.ds_name}"
+        
+        # if (ret['input_ids'][0] == image_end_token_id).sum() != num_image:
+        #     debug_struct = {
+        #         "dataset": self.ds_name,
+        #         "num_image": num_image,
+        #         "num_tiles": num_tiles,
+        #         "num_image_tokens": num_image_tokens,
+        #         "debug_image_infos": debug_image_infos
+        #     }
+        #     debug_str = json.dumps(debug_struct)
+        #     raise AssertionError(f"[multi_modal_multi_image_get_item] image tokens are truncated!\n{debug_str}")
+            
 
         rope_pos_id = self.get_rope_pos_id(ret, num_tiles, torch.float32, self.rope_pos_id_version, position_ids[0])
 
@@ -1086,8 +1125,10 @@ def len2weight(x, loss_reduction):
 
 def main():
 
-    # launcher = os.environ.get('LAUNCHER', 'slurm')
+    launcher = os.environ.get('LAUNCHER', 'pytorch')
     init_dist(launcher=launcher, backend='nccl')
+
+    # print("Distributed initialization completed. Exiting for debugging.")
 
     parser = HfArgumentParser((ModelArguments, DataTrainingArguments, TrainingArguments))
     if len(sys.argv) == 2 and sys.argv[1].endswith('.json'):

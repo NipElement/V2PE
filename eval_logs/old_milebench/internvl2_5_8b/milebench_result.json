@@ -1,0 +1,646 @@
+{
+    "Realistic Temporal": {
+        "ActionLocalization": {
+            "Accuracy": 0.11,
+            "image_quantity_level-Accuracy": {
+                "Few": 0,
+                "Medium": 0.10377358490566038,
+                "Many": 0.11702127659574468
+            },
+            "image_quantity_level-Result": {
+                "Few": [
+                    0,
+                    0
+                ],
+                "Medium": [
+                    11,
+                    106
+                ],
+                "Many": [
+                    11,
+                    94
+                ]
+            }
+        },
+        "ActionPrediction": {
+            "Accuracy": 0.265,
+            "image_quantity_level-Accuracy": {
+                "Few": 0,
+                "Medium": 0.25925925925925924,
+                "Many": 0.27692307692307694
+            },
+            "image_quantity_level-Result": {
+                "Few": [
+                    0,
+                    0
+                ],
+                "Medium": [
+                    35,
+                    135
+                ],
+                "Many": [
+                    18,
+                    65
+                ]
+            }
+        },
+        "ActionSequence": {
+            "Accuracy": 0.275,
+            "image_quantity_level-Accuracy": {
+                "Few": 0,
+                "Medium": 0.291970802919708,
+                "Many": 0.23809523809523808
+            },
+            "image_quantity_level-Result": {
+                "Few": [
+                    0,
+                    0
+                ],
+                "Medium": [
+                    40,
+                    137
+                ],
+                "Many": [
+                    15,
+                    63
+                ]
+            }
+        },
+        "CharacterOrder": {
+            "Accuracy": 0.46,
+            "image_quantity_level-Accuracy": {
+                "Few": 0,
+                "Medium": 0.5147058823529411,
+                "Many": 0.34375
+            },
+            "image_quantity_level-Result": {
+                "Few": [
+                    0,
+                    0
+                ],
+                "Medium": [
+                    70,
+                    136
+                ],
+                "Many": [
+                    22,
+                    64
+                ]
+            }
+        },
+        "CounterfactualInference": {
+            "Accuracy": 0.115,
+            "image_quantity_level-Accuracy": {
+                "Few": 0.115,
+                "Medium": 0,
+                "Many": 0
+            },
+            "image_quantity_level-Result": {
+                "Few": [
+                    23,
+                    200
+                ],
+                "Medium": [
+                    0,
+                    0
+                ],
+                "Many": [
+                    0,
+                    0
+                ]
+            }
+        },
+        "EgocentricNavigation": {
+            "Accuracy": 0.225,
+            "image_quantity_level-Accuracy": {
+                "Few": 0,
+                "Medium": 0.26666666666666666,
+                "Many": 0.22162162162162163
+            },
+            "image_quantity_level-Result": {
+                "Few": [
+                    0,
+                    0
+                ],
+                "Medium": [
+                    4,
+                    15
+                ],
+                "Many": [
+                    41,
+                    185
+                ]
+            }
+        },
+        "MovingAttribute": {
+            "Accuracy": 0.29,
+            "image_quantity_level-Accuracy": {
+                "Few": 0.29,
+                "Medium": 0,
+                "Many": 0
+            },
+            "image_quantity_level-Result": {
+                "Few": [
+                    58,
+                    200
+                ],
+                "Medium": [
+                    0,
+                    0
+                ],
+                "Many": [
+                    0,
+                    0
+                ]
+            }
+        },
+        "MovingDirection": {
+            "Accuracy": 0.245,
+            "image_quantity_level-Accuracy": {
+                "Few": 0.245,
+                "Medium": 0,
+                "Many": 0
+            },
+            "image_quantity_level-Result": {
+                "Few": [
+                    49,
+                    200
+                ],
+                "Medium": [
+                    0,
+                    0
+                ],
+                "Many": [
+                    0,
+                    0
+                ]
+            }
+        },
+        "ObjectExistence": {
+            "Accuracy": 0.345,
+            "image_quantity_level-Accuracy": {
+                "Few": 0.345,
+                "Medium": 0,
+                "Many": 0
+            },
+            "image_quantity_level-Result": {
+                "Few": [
+                    69,
+                    200
+                ],
+                "Medium": [
+                    0,
+                    0
+                ],
+                "Many": [
+                    0,
+                    0
+                ]
+            }
+        },
+        "ObjectInteraction": {
+            "Accuracy": 0.325,
+            "image_quantity_level-Accuracy": {
+                "Few": 0,
+                "Medium": 0.3064516129032258,
+                "Many": 0.35526315789473684
+            },
+            "image_quantity_level-Result": {
+                "Few": [
+                    0,
+                    0
+                ],
+                "Medium": [
+                    38,
+                    124
+                ],
+                "Many": [
+                    27,
+                    76
+                ]
+            }
+        },
+        "ObjectShuffle": {
+            "Accuracy": 0.15,
+            "image_quantity_level-Accuracy": {
+                "Few": 0,
+                "Medium": 0.14689265536723164,
+                "Many": 0.17391304347826086
+            },
+            "image_quantity_level-Result": {
+                "Few": [
+                    0,
+                    0
+                ],
+                "Medium": [
+                    26,
+                    177
+                ],
+                "Many": [
+                    4,
+                    23
+                ]
+            }
+        },
+        "SceneTransition": {
+            "Accuracy": 0.215,
+            "image_quantity_level-Accuracy": {
+                "Few": 0,
+                "Medium": 0.215,
+                "Many": 0
+            },
+            "image_quantity_level-Result": {
+                "Few": [
+                    0,
+                    0
+                ],
+                "Medium": [
+                    43,
+                    200
+                ],
+                "Many": [
+                    0,
+                    0
+                ]
+            }
+        },
+        "StateChange": {
+            "Accuracy": 0.22,
+            "image_quantity_level-Accuracy": {
+                "Few": 0,
+                "Medium": 0.23448275862068965,
+                "Many": 0.18181818181818182
+            },
+            "image_quantity_level-Result": {
+                "Few": [
+                    0,
+                    0
+                ],
+                "Medium": [
+                    34,
+                    145
+                ],
+                "Many": [
+                    10,
+                    55
+                ]
+            }
+        }
+    },
+    "Realistic Semantic": {
+        "ALFRED": {
+            "Rouge-L f": 0.32825943171025146,
+            "image_quantity_level-Accuracy": {
+                "Few": 0.32825943171025146,
+                "Medium": 0,
+                "Many": 0
+            },
+            "image_quantity_level-Result": {
+                "Few": [
+                    65.6518863420503,
+                    200
+                ],
+                "Medium": [
+                    0,
+                    0
+                ],
+                "Many": [
+                    0,
+                    0
+                ]
+            }
+        },
+        "CLEVR-Change": {
+            "Rouge-L f": 0.23008021110041327,
+            "image_quantity_level-Accuracy": {
+                "Few": 0.23008021110041327,
+                "Medium": 0,
+                "Many": 0
+            },
+            "image_quantity_level-Result": {
+                "Few": [
+                    46.016042220082646,
+                    200
+                ],
+                "Medium": [
+                    0,
+                    0
+                ],
+                "Many": [
+                    0,
+                    0
+                ]
+            }
+        },
+        "DocVQA": {
+            "Accuracy": 0.19,
+            "image_quantity_level-Accuracy": {
+                "Few": 0.1875,
+                "Medium": 0.20833333333333334,
+                "Many": 0
+            },
+            "image_quantity_level-Result": {
+                "Few": [
+                    33,
+                    176
+                ],
+                "Medium": [
+                    5,
+                    24
+                ],
+                "Many": [
+                    0,
+                    0
+                ]
+            }
+        },
+        "IEdit": {
+            "Rouge-L f": 0.12643133882753138,
+            "image_quantity_level-Accuracy": {
+                "Few": 0.12643133882753138,
+                "Medium": 0,
+                "Many": 0
+            },
+            "image_quantity_level-Result": {
+                "Few": [
+                    25.286267765506267,
+                    200
+                ],
+                "Medium": [
+                    0,
+                    0
+                ],
+                "Many": [
+                    0,
+                    0
+                ]
+            }
+        },
+        "MMCoQA": {
+            "Accuracy": 0.54,
+            "image_quantity_level-Accuracy": {
+                "Few": 0.53125,
+                "Medium": 0.5480769230769231,
+                "Many": 0
+            },
+            "image_quantity_level-Result": {
+                "Few": [
+                    51,
+                    96
+                ],
+                "Medium": [
+                    57,
+                    104
+                ],
+                "Many": [
+                    0,
+                    0
+                ]
+            }
+        },
+        "MultiModalQA": {
+            "Accuracy": 0.375,
+            "image_quantity_level-Accuracy": {
+                "Few": 0.37755102040816324,
+                "Medium": 0.25,
+                "Many": 0
+            },
+            "image_quantity_level-Result": {
+                "Few": [
+                    74,
+                    196
+                ],
+                "Medium": [
+                    1,
+                    4
+                ],
+                "Many": [
+                    0,
+                    0
+                ]
+            }
+        },
+        "nuscenes": {
+            "Accuracy": 0.295,
+            "image_quantity_level-Accuracy": {
+                "Few": 0,
+                "Medium": 0.295,
+                "Many": 0
+            },
+            "image_quantity_level-Result": {
+                "Few": [
+                    0,
+                    0
+                ],
+                "Medium": [
+                    59,
+                    200
+                ],
+                "Many": [
+                    0,
+                    0
+                ]
+            }
+        },
+        "OCR-VQA": {
+            "Accuracy": 0.4,
+            "image_quantity_level-Accuracy": {
+                "Few": 0.4,
+                "Medium": 0,
+                "Many": 0
+            },
+            "image_quantity_level-Result": {
+                "Few": [
+                    80,
+                    200
+                ],
+                "Medium": [
+                    0,
+                    0
+                ],
+                "Many": [
+                    0,
+                    0
+                ]
+            }
+        },
+        "SlideVQA": {
+            "Accuracy": 0.38,
+            "image_quantity_level-Accuracy": {
+                "Few": 0.38,
+                "Medium": 0,
+                "Many": 0
+            },
+            "image_quantity_level-Result": {
+                "Few": [
+                    76,
+                    200
+                ],
+                "Medium": [
+                    0,
+                    0
+                ],
+                "Many": [
+                    0,
+                    0
+                ]
+            }
+        },
+        "Spot-the-Diff": {
+            "Rouge-L f": 0.26571882299353666,
+            "image_quantity_level-Accuracy": {
+                "Few": 0.26571882299353666,
+                "Medium": 0,
+                "Many": 0
+            },
+            "image_quantity_level-Result": {
+                "Few": [
+                    53.14376459870732,
+                    200
+                ],
+                "Medium": [
+                    0,
+                    0
+                ],
+                "Many": [
+                    0,
+                    0
+                ]
+            }
+        },
+        "TQA": {
+            "Accuracy": 0.305,
+            "image_quantity_level-Accuracy": {
+                "Few": 0.30303030303030304,
+                "Medium": 0.30597014925373134,
+                "Many": 0
+            },
+            "image_quantity_level-Result": {
+                "Few": [
+                    20,
+                    66
+                ],
+                "Medium": [
+                    41,
+                    134
+                ],
+                "Many": [
+                    0,
+                    0
+                ]
+            }
+        },
+        "WebQA": {
+            "Accuracy": 0.26,
+            "image_quantity_level-Accuracy": {
+                "Few": 0.26,
+                "Medium": 0,
+                "Many": 0
+            },
+            "image_quantity_level-Result": {
+                "Few": [
+                    52,
+                    200
+                ],
+                "Medium": [
+                    0,
+                    0
+                ],
+                "Many": [
+                    0,
+                    0
+                ]
+            }
+        },
+        "WikiVQA": {
+            "Accuracy": 0.35,
+            "image_quantity_level-Accuracy": {
+                "Few": 0.3675675675675676,
+                "Medium": 0.13333333333333333,
+                "Many": 0
+            },
+            "image_quantity_level-Result": {
+                "Few": [
+                    68,
+                    185
+                ],
+                "Medium": [
+                    2,
+                    15
+                ],
+                "Many": [
+                    0,
+                    0
+                ]
+            }
+        }
+    },
+    "Diagnostic": {
+        "TextNeedleInAHaystack": {
+            "Accuracy": 0.628125,
+            "image_quantity_level-Accuracy": {
+                "Few": 1.0,
+                "Medium": 0.9692307692307692,
+                "Many": 0.3235294117647059
+            },
+            "image_quantity_level-Result": {
+                "Few": [
+                    20,
+                    20
+                ],
+                "Medium": [
+                    126,
+                    130
+                ],
+                "Many": [
+                    55,
+                    170
+                ]
+            }
+        },
+        "ImageNeedleInAHaystack": {
+            "Accuracy": 0.803125,
+            "image_quantity_level-Accuracy": {
+                "Few": 0.9,
+                "Medium": 0.8538461538461538,
+                "Many": 0.7529411764705882
+            },
+            "image_quantity_level-Result": {
+                "Few": [
+                    18,
+                    20
+                ],
+                "Medium": [
+                    111,
+                    130
+                ],
+                "Many": [
+                    128,
+                    170
+                ]
+            }
+        },
+        "GPR1200": {
+            "Accuracy": 0.4116666666666667,
+            "image_quantity_level-Accuracy": {
+                "Few": 0,
+                "Medium": 0.5116279069767442,
+                "Many": 0.03937007874015748
+            },
+            "image_quantity_level-Result": {
+                "Few": [
+                    0,
+                    0
+                ],
+                "Medium": [
+                    242,
+                    473
+                ],
+                "Many": [
+                    5,
+                    127
+                ]
+            }
+        }
+    }
+}

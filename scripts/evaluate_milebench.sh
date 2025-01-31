@@ -1,9 +1,17 @@
 #!/bin/bash
-export MASTER_ADDR=localhost
-export WORLD_SIZE=7  # Total number of processes
-GPUS=$WORLD_SIZE
-CHECKPOINT="pretrained/InternVL2_5-8B"
-LOG_DIR=eval_logs/milebench/internvl2_5_8b
+# export MASTER_ADDR=localhost
+# export WORLD_SIZE=1  # Total number of processes
+# GPUS=$WORLD_SIZE
+export RANK=$MLP_ROLE_INDEX
+export WORLD_SIZE=$(($MLP_WORKER_NUM * $MLP_WORKER_GPU))
+export MASTER_ADDR=$MLP_WORKER_0_HOST
+export MASTER_PORT=$MLP_WORKER_0_PORT
+export LOCAL_RANK=$(($RANK % $MLP_WORKER_GPU))
+CHECKPOINT="/map-vepfs/yuansheng/LongContext/V2PE/pretrained/Mantis-8B"
+LOG_DIR=eval_logs/milebench/Mantis-8B
+
+echo "Starting evaluation for MileBench tasks"
+echo "Distribution: $MLP_WORKER_NUM nodes, $MLP_WORKER_GPU GPUs per node, $WORLD_SIZE total processes, $RANK current process, $LOCAL_RANK local rank, $MASTER_ADDR master address, $MASTER_PORT master port".
 
 mkdir -p $LOG_DIR  # Create log directory
 
@@ -40,37 +48,32 @@ declare -a tasks=( \
     'nuscenes' \
 )
 
-model_name="internvl2_5"
+model_name="invervl2_5_2b"
 
-BATCH_SIZE=2
-TASK_COUNT=${#tasks[@]}
-# Loop through each task and run evaluation
-for ((i=0; i<TASK_COUNT; i+=BATCH_SIZE)); do
-    echo "$(date) Starting batch $((i/BATCH_SIZE + 1))"
+for ((j=0; j<${#tasks[@]}; j++)); do
 
-    # Run a batch of tasks
-    for ((j=0; j<BATCH_SIZE && i+j<TASK_COUNT; j++)); do
-        task="${tasks[$((i+j))]}"
-        MASTER_PORT=$((15432 + i + j))  # Unique port for each task
+    task="${tasks[j]}"
 
-        echo "$(date) Starting task: ${task} on port ${MASTER_PORT}"
+    
+    echo "$(date) ${model_name}_${task}"
 
-        CUDA_VISIBLE_DEVICES=1,2,3,4,5,6,7 \
-        torchrun \
-            --nproc_per_node=$GPUS \
-            --master_port=$MASTER_PORT \
-            eval/milebench/eval_milebench.py \
-            --checkpoint $CHECKPOINT \
-            --output_dir $LOG_DIR \
-            --dataset_name $task \
-            --num-gpus-per-rank 1 \
-            > "${LOG_DIR}/${task}.log" 2>&1 &
-    done
-
-    sleep 0.2 # Wait for the current batch to finish
-    wait
-
-    echo "$(date) Finished batch $((i/BATCH_SIZE + 1))"
+    torchrun \
+        --nproc_per_node "$MLP_WORKER_GPU" \
+        --nnodes "$MLP_WORKER_NUM" \
+        --node_rank "$MLP_ROLE_INDEX" \
+        --master_port "$MLP_WORKER_0_PORT" \
+        --master_addr "$MLP_WORKER_0_HOST" \
+        eval/milebench/eval_milebench.py \
+        --checkpoint $CHECKPOINT \
+        --output_dir $LOG_DIR \
+        --dataset_name $task \
+        --num-gpus-per-rank 1 \
+        > "${LOG_DIR}/${task}.log" 2>&1
+    sleep 0.2
 done
 
 echo "All tasks completed!"
+
+
+            # --rope_pos_id_version v2pe_fix \
+            # --rope_pos_id_stride 2 \

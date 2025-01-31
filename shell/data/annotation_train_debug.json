@@ -1,0 +1,8 @@
+{
+    "docmatix": {
+        "root": "/map-vepfs/yuansheng/LongContext/V2PE/dataset/image/docmatix",
+        "annotation": "/map-vepfs/yuansheng/LongContext/V2PE/dataset/annotation/docmatix/docmatix_20K_train_split.jsonl",
+        "data_augment": true,
+        "repeat_time": 1
+    }
+}

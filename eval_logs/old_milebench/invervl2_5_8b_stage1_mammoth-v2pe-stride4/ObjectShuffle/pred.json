@@ -1,0 +1,2402 @@
+[
+    {
+        "sample_id": 47,
+        "question": "Analyze the provided pictures, and find the hidden object. You must choose your answer from the Choice List.\n<image><image><image><image><image><image><image><image><image><image>The person uses multiple similar objects to play an occlusion game. Where is the hidden object at the end of the game from the person's point of view?\nChoice list: \nA. Under the third object from the left.\nB. Under the first object from the left.\nC. Under the second object from the left.\nAnswer with the option's letter from the given choices directly.",
+        "gt_response": "Under the third object from the left.",
+        "gen_kwargs": {
+            "do_sample": false,
+            "num_beams": 1,
+            "max_new_tokens": 32,
+            "eos_token_id": 92542
+        },
+        "pred_response": "A"
+    },
+    {
+        "sample_id": 148,
+        "question": "Review the supplied imagery, and find the hidden object. You must choose your answer from the Choice List.\n<image><image><image><image><image><image><image><image><image><image><image>The person uses multiple similar objects to play an occlusion game. Where is the hidden object at the end of the game from the person's point of view?\nChoice list: \nA. Under the third object from the left.\nB. Under the first object from the left.\nC. Under the second object from the left.\nAnswer with the option's letter from the given choices directly.",
+        "gt_response": "Under the third object from the left.",
+        "gen_kwargs": {
+            "do_sample": false,
+            "num_beams": 1,
+            "max_new_tokens": 32,
+            "eos_token_id": 92542
+        },
+        "pred_response": "A"
+    },
+    {
+        "sample_id": 122,
+        "question": "Evaluate the images, and find the hidden object. You must choose your answer from the Choice List.\n<image><image><image><image><image><image><image><image><image><image><image><image>The person uses multiple similar objects to play an occlusion game. Where is the hidden object at the end of the game from the person's point of view?\nChoice list: \nA. Under the fourth object from the left.\nB. Under the third object from the left.\nC. Under the second object from the left.\nAnswer with the option's letter from the given choices directly.",
+        "gt_response": "Under the second object from the left.",
+        "gen_kwargs": {
+            "do_sample": false,
+            "num_beams": 1,
+            "max_new_tokens": 32,
+            "eos_token_id": 92542
+        },
+        "pred_response": "C"
+    },
+    {
+        "sample_id": 12,
+        "question": "Inspect the presented pictures, and find the hidden object. You must choose your answer from the Choice List.\n<image><image><image><image><image><image><image><image><image><image><image><image><image>The person uses multiple similar objects to play an occlusion game. Where is the hidden object at the end of the game from the person's point of view?\nChoice list: \nA. Under the first object from the left.\nB. Under the third object from the left.\nC. Under the second object from the left.\nAnswer with the option's letter from the given choices directly.",
+        "gt_response": "Under the second object from the left.",
+        "gen_kwargs": {
+            "do_sample": false,
+            "num_beams": 1,
+            "max_new_tokens": 32,
+            "eos_token_id": 92542
+        },
+        "pred_response": "B"
+    },
+    {
+        "sample_id": 15,
+        "question": "Observe the provided pictorials, and find the hidden object. You must choose your answer from the Choice List.\n<image><image><image><image><image><image><image><image><image><image><image><image><image><image>The person uses multiple similar objects to play an occlusion game. Where is the hidden object at the end of the game from the person's point of view?\nChoice list: \nA. Under the second object from the left.\nB. Under the first object from the left.\nC. Under the third object from the left.\nAnswer with the option's letter from the given choices directly.",
+        "gt_response": "Under the second object from the left.",
+        "gen_kwargs": {
+            "do_sample": false,
+            "num_beams": 1,
+            "max_new_tokens": 32,
+            "eos_token_id": 92542
+        },
+        "pred_response": "A"
+    },
+    {
+        "sample_id": 17,
+        "question": "Assess the presented graphics, and find the hidden object. You must choose your answer from the Choice List.\n<image><image><image><image><image><image><image><image><image><image><image><image><image><image><image>The person uses multiple similar objects to play an occlusion game. Where is the hidden object at the end of the game from the person's point of view?\nChoice list: \nA. Under the first object from the left.\nB. Under the second object from the left.\nC. Under the third object from the left.\nAnswer with the option's letter from the given choices directly.",
+        "gt_response": "Under the second object from the left.",
+        "gen_kwargs": {
+            "do_sample": false,
+            "num_beams": 1,
+            "max_new_tokens": 32,
+            "eos_token_id": 92542
+        },
+        "pred_response": "B"
+    },
+    {
+        "sample_id": 88,
+        "question": "Based on the provided images, and find the hidden object. You must choose your answer from the Choice List.\n<image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image>The person uses multiple similar objects to play an occlusion game. Where is the hidden object at the end of the game from the person's point of view?\nChoice list: \nA. Under the third object from the left.\nB. Under the second object from the left.\nC. Under the fourth object from the left.\nAnswer with the option's letter from the given choices directly.",
+        "gt_response": "Under the third object from the left.",
+        "gen_kwargs": {
+            "do_sample": false,
+            "num_beams": 1,
+            "max_new_tokens": 32,
+            "eos_token_id": 92542
+        },
+        "pred_response": "A"
+    },
+    {
+        "sample_id": 5,
+        "question": "Inspect the presented pictures, and find the hidden object. You must choose your answer from the Choice List.\n<image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image>The person uses multiple similar objects to play an occlusion game. Where is the hidden object at the end of the game from the person's point of view?\nChoice list: \nA. Under the third object from the left.\nB. Under the second object from the left.\nC. Under the first object from the left.\nAnswer with the option's letter from the given choices directly.",
+        "gt_response": "Under the third object from the left.",
+        "gen_kwargs": {
+            "do_sample": false,
+            "num_beams": 1,
+            "max_new_tokens": 32,
+            "eos_token_id": 92542
+        },
+        "pred_response": "C"
+    },
+    {
+        "sample_id": 7,
+        "question": "Inspect the presented pictures, and find the hidden object. You must choose your answer from the Choice List.\n<image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image>The person uses multiple similar objects to play an occlusion game. Where is the hidden object at the end of the game from the person's point of view?\nChoice list: \nA. Under the first object from the left.\nB. Under the second object from the left.\nC. Under the third object from the left.\nAnswer with the option's letter from the given choices directly.",
+        "gt_response": "Under the second object from the left.",
+        "gen_kwargs": {
+            "do_sample": false,
+            "num_beams": 1,
+            "max_new_tokens": 32,
+            "eos_token_id": 92542
+        },
+        "pred_response": "B"
+    },
+    {
+        "sample_id": 53,
+        "question": "Analyze the provided pictures, and find the hidden object. You must choose your answer from the Choice List.\n<image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image>The person uses multiple similar objects to play an occlusion game. Where is the hidden object at the end of the game from the person's point of view?\nChoice list: \nA. Under the third object from the left.\nB. Under the first object from the left.\nC. Under the second object from the left.\nAnswer with the option's letter from the given choices directly.",
+        "gt_response": "Under the second object from the left.",
+        "gen_kwargs": {
+            "do_sample": false,
+            "num_beams": 1,
+            "max_new_tokens": 32,
+            "eos_token_id": 92542
+        },
+        "pred_response": "B"
+    },
+    {
+        "sample_id": 42,
+        "question": "Investigate the given graphics, and find the hidden object. You must choose your answer from the Choice List.\n<image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image>The person uses multiple similar objects to play an occlusion game. Where is the hidden object at the end of the game from the person's point of view?\nChoice list: \nA. Under the first object from the left.\nB. Under the third object from the left.\nC. Under the second object from the left.\nAnswer with the option's letter from the given choices directly.",
+        "gt_response": "Under the first object from the left.",
+        "gen_kwargs": {
+            "do_sample": false,
+            "num_beams": 1,
+            "max_new_tokens": 32,
+            "eos_token_id": 92542
+        },
+        "pred_response": "C"
+    },
+    {
+        "sample_id": 92,
+        "question": "Evaluate the images, and find the hidden object. You must choose your answer from the Choice List.\n<image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image>The person uses multiple similar objects to play an occlusion game. Where is the hidden object at the end of the game from the person's point of view?\nChoice list: \nA. Under the third object from the left.\nB. Under the second object from the left.\nC. Under the first object from the left.\nAnswer with the option's letter from the given choices directly.",
+        "gt_response": "Under the first object from the left.",
+        "gen_kwargs": {
+            "do_sample": false,
+            "num_beams": 1,
+            "max_new_tokens": 32,
+            "eos_token_id": 92542
+        },
+        "pred_response": "C"
+    },
+    {
+        "sample_id": 4,
+        "question": "Assess the presented graphics, and find the hidden object. You must choose your answer from the Choice List.\n<image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image>The person uses multiple similar objects to play an occlusion game. Where is the hidden object at the end of the game from the person's point of view?\nChoice list: \nA. Under the first object from the left.\nB. Under the second object from the left.\nC. Under the third object from the left.\nAnswer with the option's letter from the given choices directly.",
+        "gt_response": "Under the first object from the left.",
+        "gen_kwargs": {
+            "do_sample": false,
+            "num_beams": 1,
+            "max_new_tokens": 32,
+            "eos_token_id": 92542
+        },
+        "pred_response": "A"
+    },
+    {
+        "sample_id": 10,
+        "question": "Based on the provided images, and find the hidden object. You must choose your answer from the Choice List.\n<image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image>The person uses multiple similar objects to play an occlusion game. Where is the hidden object at the end of the game from the person's point of view?\nChoice list: \nA. Under the third object from the left.\nB. Under the first object from the left.\nC. Under the second object from the left.\nAnswer with the option's letter from the given choices directly.",
+        "gt_response": "Under the first object from the left.",
+        "gen_kwargs": {
+            "do_sample": false,
+            "num_beams": 1,
+            "max_new_tokens": 32,
+            "eos_token_id": 92542
+        },
+        "pred_response": "B"
+    },
+    {
+        "sample_id": 2,
+        "question": "Analyze the provided pictures, and find the hidden object. You must choose your answer from the Choice List.\n<image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image>The person uses multiple similar objects to play an occlusion game. Where is the hidden object at the end of the game from the person's point of view?\nChoice list: \nA. Under the first object from the left.\nB. Under the second object from the left.\nC. Under the third object from the left.\nAnswer with the option's letter from the given choices directly.",
+        "gt_response": "Under the first object from the left.",
+        "gen_kwargs": {
+            "do_sample": false,
+            "num_beams": 1,
+            "max_new_tokens": 32,
+            "eos_token_id": 92542
+        },
+        "pred_response": "B"
+    },
+    {
+        "sample_id": 23,
+        "question": "Review the supplied imagery, and find the hidden object. You must choose your answer from the Choice List.\n<image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image>The person uses multiple similar objects to play an occlusion game. Where is the hidden object at the end of the game from the person's point of view?\nChoice list: \nA. Under the first object from the left.\nB. Under the third object from the left.\nC. Under the second object from the left.\nAnswer with the option's letter from the given choices directly.",
+        "gt_response": "Under the second object from the left.",
+        "gen_kwargs": {
+            "do_sample": false,
+            "num_beams": 1,
+            "max_new_tokens": 32,
+            "eos_token_id": 92542
+        },
+        "pred_response": "C"
+    },
+    {
+        "sample_id": 11,
+        "question": "Examine the supplied visuals, and find the hidden object. You must choose your answer from the Choice List.\n<image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image>The person uses multiple similar objects to play an occlusion game. Where is the hidden object at the end of the game from the person's point of view?\nChoice list: \nA. Under the second object from the left.\nB. Under the first object from the left.\nC. Under the third object from the left.\nAnswer with the option's letter from the given choices directly.",
+        "gt_response": "Under the first object from the left.",
+        "gen_kwargs": {
+            "do_sample": false,
+            "num_beams": 1,
+            "max_new_tokens": 32,
+            "eos_token_id": 92542
+        },
+        "pred_response": "B"
+    },
+    {
+        "sample_id": 29,
+        "question": "Scrutinize the given visuals, and find the hidden object. You must choose your answer from the Choice List.\n<image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image>The person uses multiple similar objects to play an occlusion game. Where is the hidden object at the end of the game from the person's point of view?\nChoice list: \nA. Under the second object from the left.\nB. Under the first object from the left.\nC. Under the third object from the left.\nAnswer with the option's letter from the given choices directly.",
+        "gt_response": "Under the third object from the left.",
+        "gen_kwargs": {
+            "do_sample": false,
+            "num_beams": 1,
+            "max_new_tokens": 32,
+            "eos_token_id": 92542
+        },
+        "pred_response": "B"
+    },
+    {
+        "sample_id": 1,
+        "question": "Scrutinize the given visuals, and find the hidden object. You must choose your answer from the Choice List.\n<image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image>The person uses multiple similar objects to play an occlusion game. Where is the hidden object at the end of the game from the person's point of view?\nChoice list: \nA. Under the first object from the left.\nB. Under the third object from the left.\nC. Under the second object from the left.\nAnswer with the option's letter from the given choices directly.",
+        "gt_response": "Under the second object from the left.",
+        "gen_kwargs": {
+            "do_sample": false,
+            "num_beams": 1,
+            "max_new_tokens": 32,
+            "eos_token_id": 92542
+        },
+        "pred_response": "B"
+    },
+    {
+        "sample_id": 14,
+        "question": "Review the supplied imagery, and find the hidden object. You must choose your answer from the Choice List.\n<image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image>The person uses multiple similar objects to play an occlusion game. Where is the hidden object at the end of the game from the person's point of view?\nChoice list: \nA. Under the third object from the left.\nB. Under the second object from the left.\nC. Under the first object from the left.\nAnswer with the option's letter from the given choices directly.",
+        "gt_response": "Under the first object from the left.",
+        "gen_kwargs": {
+            "do_sample": false,
+            "num_beams": 1,
+            "max_new_tokens": 32,
+            "eos_token_id": 92542
+        },
+        "pred_response": "B"
+    },
+    {
+        "sample_id": 18,
+        "question": "Investigate the given graphics, and find the hidden object. You must choose your answer from the Choice List.\n<image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image>The person uses multiple similar objects to play an occlusion game. Where is the hidden object at the end of the game from the person's point of view?\nChoice list: \nA. Under the third object from the left.\nB. Under the first object from the left.\nC. Under the second object from the left.\nAnswer with the option's letter from the given choices directly.",
+        "gt_response": "Under the second object from the left.",
+        "gen_kwargs": {
+            "do_sample": false,
+            "num_beams": 1,
+            "max_new_tokens": 32,
+            "eos_token_id": 92542
+        },
+        "pred_response": "C"
+    },
+    {
+        "sample_id": 6,
+        "question": "Inspect the presented pictures, and find the hidden object. You must choose your answer from the Choice List.\n<image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image>The person uses multiple similar objects to play an occlusion game. Where is the hidden object at the end of the game from the person's point of view?\nChoice list: \nA. Under the third object from the left.\nB. Under the second object from the left.\nC. Under the first object from the left.\nAnswer with the option's letter from the given choices directly.",
+        "gt_response": "Under the first object from the left.",
+        "gen_kwargs": {
+            "do_sample": false,
+            "num_beams": 1,
+            "max_new_tokens": 32,
+            "eos_token_id": 92542
+        },
+        "pred_response": "C"
+    },
+    {
+        "sample_id": 28,
+        "question": "Observe the provided pictorials, and find the hidden object. You must choose your answer from the Choice List.\n<image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image>The person uses multiple similar objects to play an occlusion game. Where is the hidden object at the end of the game from the person's point of view?\nChoice list: \nA. Under the second object from the left.\nB. Under the third object from the left.\nC. Under the first object from the left.\nAnswer with the option's letter from the given choices directly.",
+        "gt_response": "Under the third object from the left.",
+        "gen_kwargs": {
+            "do_sample": false,
+            "num_beams": 1,
+            "max_new_tokens": 32,
+            "eos_token_id": 92542
+        },
+        "pred_response": "B"
+    },
+    {
+        "sample_id": 19,
+        "question": "Inspect the presented pictures, and find the hidden object. You must choose your answer from the Choice List.\n<image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image>The person uses multiple similar objects to play an occlusion game. Where is the hidden object at the end of the game from the person's point of view?\nChoice list: \nA. Under the first object from the left.\nB. Under the second object from the left.\nC. Under the third object from the left.\nAnswer with the option's letter from the given choices directly.",
+        "gt_response": "Under the first object from the left.",
+        "gen_kwargs": {
+            "do_sample": false,
+            "num_beams": 1,
+            "max_new_tokens": 32,
+            "eos_token_id": 92542
+        },
+        "pred_response": "A"
+    },
+    {
+        "sample_id": 55,
+        "question": "Review the supplied imagery, and find the hidden object. You must choose your answer from the Choice List.\n<image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image>The person uses multiple similar objects to play an occlusion game. Where is the hidden object at the end of the game from the person's point of view?\nChoice list: \nA. Under the first object from the left.\nB. Under the second object from the left.\nC. Under the third object from the left.\nAnswer with the option's letter from the given choices directly.",
+        "gt_response": "Under the first object from the left.",
+        "gen_kwargs": {
+            "do_sample": false,
+            "num_beams": 1,
+            "max_new_tokens": 32,
+            "eos_token_id": 92542
+        },
+        "pred_response": "C"
+    },
+    {
+        "sample_id": 31,
+        "question": "Examine the supplied visuals, and find the hidden object. You must choose your answer from the Choice List.\n<image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image>The person uses multiple similar objects to play an occlusion game. Where is the hidden object at the end of the game from the person's point of view?\nChoice list: \nA. Under the first object from the left.\nB. Under the second object from the left.\nC. Under the fourth object from the left.\nAnswer with the option's letter from the given choices directly.",
+        "gt_response": "Under the fourth object from the left.",
+        "gen_kwargs": {
+            "do_sample": false,
+            "num_beams": 1,
+            "max_new_tokens": 32,
+            "eos_token_id": 92542
+        },
+        "pred_response": "A"
+    },
+    {
+        "sample_id": 8,
+        "question": "Analyze the provided pictures, and find the hidden object. You must choose your answer from the Choice List.\n<image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image>The person uses multiple similar objects to play an occlusion game. Where is the hidden object at the end of the game from the person's point of view?\nChoice list: \nA. Under the second object from the left.\nB. Under the third object from the left.\nC. Under the fourth object from the left.\nAnswer with the option's letter from the given choices directly.",
+        "gt_response": "Under the fourth object from the left.",
+        "gen_kwargs": {
+            "do_sample": false,
+            "num_beams": 1,
+            "max_new_tokens": 32,
+            "eos_token_id": 92542
+        },
+        "pred_response": "A"
+    },
+    {
+        "sample_id": 20,
+        "question": "Based on the provided images, and find the hidden object. You must choose your answer from the Choice List.\n<image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image>The person uses multiple similar objects to play an occlusion game. Where is the hidden object at the end of the game from the person's point of view?\nChoice list: \nA. Under the first object from the left.\nB. Under the second object from the left.\nC. Under the third object from the left.\nAnswer with the option's letter from the given choices directly.",
+        "gt_response": "Under the second object from the left.",
+        "gen_kwargs": {
+            "do_sample": false,
+            "num_beams": 1,
+            "max_new_tokens": 32,
+            "eos_token_id": 92542
+        },
+        "pred_response": "A"
+    },
+    {
+        "sample_id": 0,
+        "question": "Based on the provided images, and find the hidden object. You must choose your answer from the Choice List.\n<image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image>The person uses multiple similar objects to play an occlusion game. Where is the hidden object at the end of the game from the person's point of view?\nChoice list: \nA. Under the first object from the left.\nB. Under the third object from the left.\nC. Under the second object from the left.\nAnswer with the option's letter from the given choices directly.",
+        "gt_response": "Under the third object from the left.",
+        "gen_kwargs": {
+            "do_sample": false,
+            "num_beams": 1,
+            "max_new_tokens": 32,
+            "eos_token_id": 92542
+        },
+        "pred_response": "C"
+    },
+    {
+        "sample_id": 13,
+        "question": "Examine the supplied visuals, and find the hidden object. You must choose your answer from the Choice List.\n<image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image>The person uses multiple similar objects to play an occlusion game. Where is the hidden object at the end of the game from the person's point of view?\nChoice list: \nA. Under the third object from the left.\nB. Under the second object from the left.\nC. Under the first object from the left.\nAnswer with the option's letter from the given choices directly.",
+        "gt_response": "Under the second object from the left.",
+        "gen_kwargs": {
+            "do_sample": false,
+            "num_beams": 1,
+            "max_new_tokens": 32,
+            "eos_token_id": 92542
+        },
+        "pred_response": "A"
+    },
+    {
+        "sample_id": 32,
+        "question": "Scrutinize the given visuals, and find the hidden object. You must choose your answer from the Choice List.\n<image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image>The person uses multiple similar objects to play an occlusion game. Where is the hidden object at the end of the game from the person's point of view?\nChoice list: \nA. Under the second object from the left.\nB. Under the third object from the left.\nC. Under the first object from the left.\nAnswer with the option's letter from the given choices directly.",
+        "gt_response": "Under the third object from the left.",
+        "gen_kwargs": {
+            "do_sample": false,
+            "num_beams": 1,
+            "max_new_tokens": 32,
+            "eos_token_id": 92542
+        },
+        "pred_response": "C"
+    },
+    {
+        "sample_id": 9,
+        "question": "Scrutinize the given visuals, and find the hidden object. You must choose your answer from the Choice List.\n<image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image>The person uses multiple similar objects to play an occlusion game. Where is the hidden object at the end of the game from the person's point of view?\nChoice list: \nA. Under the third object from the left.\nB. Under the first object from the left.\nC. Under the second object from the left.\nAnswer with the option's letter from the given choices directly.",
+        "gt_response": "Under the first object from the left.",
+        "gen_kwargs": {
+            "do_sample": false,
+            "num_beams": 1,
+            "max_new_tokens": 32,
+            "eos_token_id": 92542
+        },
+        "pred_response": "A"
+    },
+    {
+        "sample_id": 51,
+        "question": "Examine the supplied visuals, and find the hidden object. You must choose your answer from the Choice List.\n<image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image>The person uses multiple similar objects to play an occlusion game. Where is the hidden object at the end of the game from the person's point of view?\nChoice list: \nA. Under the first object from the left.\nB. Under the second object from the left.\nC. Under the third object from the left.\nAnswer with the option's letter from the given choices directly.",
+        "gt_response": "Under the first object from the left.",
+        "gen_kwargs": {
+            "do_sample": false,
+            "num_beams": 1,
+            "max_new_tokens": 32,
+            "eos_token_id": 92542
+        },
+        "pred_response": "B"
+    },
+    {
+        "sample_id": 154,
+        "question": "Review the supplied imagery, and find the hidden object. You must choose your answer from the Choice List.\n<image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image>The person uses multiple similar objects to play an occlusion game. Where is the hidden object at the end of the game from the person's point of view?\nChoice list: \nA. Under the second object from the left.\nB. Under the third object from the left.\nC. Under the first object from the left.\nAnswer with the option's letter from the given choices directly.",
+        "gt_response": "Under the first object from the left.",
+        "gen_kwargs": {
+            "do_sample": false,
+            "num_beams": 1,
+            "max_new_tokens": 32,
+            "eos_token_id": 92542
+        },
+        "pred_response": "B"
+    },
+    {
+        "sample_id": 89,
+        "question": "Scrutinize the given visuals, and find the hidden object. You must choose your answer from the Choice List.\n<image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image>The person uses multiple similar objects to play an occlusion game. Where is the hidden object at the end of the game from the person's point of view?\nChoice list: \nA. Under the third object from the left.\nB. Under the second object from the left.\nC. Under the first object from the left.\nAnswer with the option's letter from the given choices directly.",
+        "gt_response": "Under the second object from the left.",
+        "gen_kwargs": {
+            "do_sample": false,
+            "num_beams": 1,
+            "max_new_tokens": 32,
+            "eos_token_id": 92542
+        },
+        "pred_response": "C"
+    },
+    {
+        "sample_id": 3,
+        "question": "Scrutinize the given visuals, and find the hidden object. You must choose your answer from the Choice List.\n<image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image>The person uses multiple similar objects to play an occlusion game. Where is the hidden object at the end of the game from the person's point of view?\nChoice list: \nA. Under the second object from the left.\nB. Under the third object from the left.\nC. Under the fourth object from the left.\nAnswer with the option's letter from the given choices directly.",
+        "gt_response": "Under the second object from the left.",
+        "gen_kwargs": {
+            "do_sample": false,
+            "num_beams": 1,
+            "max_new_tokens": 32,
+            "eos_token_id": 92542
+        },
+        "pred_response": "B"
+    },
+    {
+        "sample_id": 21,
+        "question": "Scrutinize the given visuals, and find the hidden object. You must choose your answer from the Choice List.\n<image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image>The person uses multiple similar objects to play an occlusion game. Where is the hidden object at the end of the game from the person's point of view?\nChoice list: \nA. Under the second object from the left.\nB. Under the third object from the left.\nC. Under the first object from the left.\nAnswer with the option's letter from the given choices directly.",
+        "gt_response": "Under the first object from the left.",
+        "gen_kwargs": {
+            "do_sample": false,
+            "num_beams": 1,
+            "max_new_tokens": 32,
+            "eos_token_id": 92542
+        },
+        "pred_response": "C"
+    },
+    {
+        "sample_id": 40,
+        "question": "Evaluate the images, and find the hidden object. You must choose your answer from the Choice List.\n<image><image><image><image><image><image><image><image><image><image><image><image><image>The person uses multiple similar objects to play an occlusion game. Where is the hidden object at the end of the game from the person's point of view?\nChoice list: \nA. Under the third object from the left.\nB. Under the first object from the left.\nC. Under the second object from the left.\nAnswer with the option's letter from the given choices directly.",
+        "gt_response": "Under the second object from the left.",
+        "gen_kwargs": {
+            "do_sample": false,
+            "num_beams": 1,
+            "max_new_tokens": 32,
+            "eos_token_id": 92542
+        },
+        "pred_response": "C"
+    },
+    {
+        "sample_id": 37,
+        "question": "Evaluate the images, and find the hidden object. You must choose your answer from the Choice List.\n<image><image><image><image><image><image><image><image><image><image><image><image><image><image>The person uses multiple similar objects to play an occlusion game. Where is the hidden object at the end of the game from the person's point of view?\nChoice list: \nA. Under the second object from the left.\nB. Under the first object from the left.\nC. Under the third object from the left.\nAnswer with the option's letter from the given choices directly.",
+        "gt_response": "Under the first object from the left.",
+        "gen_kwargs": {
+            "do_sample": false,
+            "num_beams": 1,
+            "max_new_tokens": 32,
+            "eos_token_id": 92542
+        },
+        "pred_response": "B"
+    },
+    {
+        "sample_id": 22,
+        "question": "Examine the supplied visuals, and find the hidden object. You must choose your answer from the Choice List.\n<image><image><image><image><image><image><image><image><image><image><image><image><image><image><image>The person uses multiple similar objects to play an occlusion game. Where is the hidden object at the end of the game from the person's point of view?\nChoice list: \nA. Under the second object from the left.\nB. Under the first object from the left.\nC. Under the third object from the left.\nAnswer with the option's letter from the given choices directly.",
+        "gt_response": "Under the second object from the left.",
+        "gen_kwargs": {
+            "do_sample": false,
+            "num_beams": 1,
+            "max_new_tokens": 32,
+            "eos_token_id": 92542
+        },
+        "pred_response": "B"
+    },
+    {
+        "sample_id": 121,
+        "question": "Evaluate the images, and find the hidden object. You must choose your answer from the Choice List.\n<image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image>The person uses multiple similar objects to play an occlusion game. Where is the hidden object at the end of the game from the person's point of view?\nChoice list: \nA. Under the second object from the left.\nB. Under the first object from the left.\nC. Under the third object from the left.\nAnswer with the option's letter from the given choices directly.",
+        "gt_response": "Under the third object from the left.",
+        "gen_kwargs": {
+            "do_sample": false,
+            "num_beams": 1,
+            "max_new_tokens": 32,
+            "eos_token_id": 92542
+        },
+        "pred_response": "B"
+    },
+    {
+        "sample_id": 16,
+        "question": "Analyze the provided pictures, and find the hidden object. You must choose your answer from the Choice List.\n<image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image>The person uses multiple similar objects to play an occlusion game. Where is the hidden object at the end of the game from the person's point of view?\nChoice list: \nA. Under the second object from the left.\nB. Under the third object from the left.\nC. Under the first object from the left.\nAnswer with the option's letter from the given choices directly.",
+        "gt_response": "Under the second object from the left.",
+        "gen_kwargs": {
+            "do_sample": false,
+            "num_beams": 1,
+            "max_new_tokens": 32,
+            "eos_token_id": 92542
+        },
+        "pred_response": "C"
+    },
+    {
+        "sample_id": 67,
+        "question": "Investigate the given graphics, and find the hidden object. You must choose your answer from the Choice List.\n<image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image>The person uses multiple similar objects to play an occlusion game. Where is the hidden object at the end of the game from the person's point of view?\nChoice list: \nA. Under the first object from the left.\nB. Under the second object from the left.\nC. Under the third object from the left.\nAnswer with the option's letter from the given choices directly.",
+        "gt_response": "Under the second object from the left.",
+        "gen_kwargs": {
+            "do_sample": false,
+            "num_beams": 1,
+            "max_new_tokens": 32,
+            "eos_token_id": 92542
+        },
+        "pred_response": "B"
+    },
+    {
+        "sample_id": 70,
+        "question": "Analyze the provided pictures, and find the hidden object. You must choose your answer from the Choice List.\n<image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image>The person uses multiple similar objects to play an occlusion game. Where is the hidden object at the end of the game from the person's point of view?\nChoice list: \nA. Under the third object from the left.\nB. Under the first object from the left.\nC. Under the second object from the left.\nAnswer with the option's letter from the given choices directly.",
+        "gt_response": "Under the second object from the left.",
+        "gen_kwargs": {
+            "do_sample": false,
+            "num_beams": 1,
+            "max_new_tokens": 32,
+            "eos_token_id": 92542
+        },
+        "pred_response": "B"
+    },
+    {
+        "sample_id": 94,
+        "question": "Analyze the provided pictures, and find the hidden object. You must choose your answer from the Choice List.\n<image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image>The person uses multiple similar objects to play an occlusion game. Where is the hidden object at the end of the game from the person's point of view?\nChoice list: \nA. Under the third object from the left.\nB. Under the second object from the left.\nC. Under the first object from the left.\nAnswer with the option's letter from the given choices directly.",
+        "gt_response": "Under the second object from the left.",
+        "gen_kwargs": {
+            "do_sample": false,
+            "num_beams": 1,
+            "max_new_tokens": 32,
+            "eos_token_id": 92542
+        },
+        "pred_response": "C"
+    },
+    {
+        "sample_id": 96,
+        "question": "Based on the provided images, and find the hidden object. You must choose your answer from the Choice List.\n<image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image>The person uses multiple similar objects to play an occlusion game. Where is the hidden object at the end of the game from the person's point of view?\nChoice list: \nA. Under the second object from the left.\nB. Under the fourth object from the left.\nC. Under the first object from the left.\nAnswer with the option's letter from the given choices directly.",
+        "gt_response": "Under the second object from the left.",
+        "gen_kwargs": {
+            "do_sample": false,
+            "num_beams": 1,
+            "max_new_tokens": 32,
+            "eos_token_id": 92542
+        },
+        "pred_response": "C"
+    },
+    {
+        "sample_id": 25,
+        "question": "Review the supplied imagery, and find the hidden object. You must choose your answer from the Choice List.\n<image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image>The person uses multiple similar objects to play an occlusion game. Where is the hidden object at the end of the game from the person's point of view?\nChoice list: \nA. Under the second object from the left.\nB. Under the third object from the left.\nC. Under the first object from the left.\nAnswer with the option's letter from the given choices directly.",
+        "gt_response": "Under the third object from the left.",
+        "gen_kwargs": {
+            "do_sample": false,
+            "num_beams": 1,
+            "max_new_tokens": 32,
+            "eos_token_id": 92542
+        },
+        "pred_response": "C"
+    },
+    {
+        "sample_id": 52,
+        "question": "Analyze the provided pictures, and find the hidden object. You must choose your answer from the Choice List.\n<image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image>The person uses multiple similar objects to play an occlusion game. Where is the hidden object at the end of the game from the person's point of view?\nChoice list: \nA. Under the first object from the left.\nB. Under the third object from the left.\nC. Under the second object from the left.\nAnswer with the option's letter from the given choices directly.",
+        "gt_response": "Under the third object from the left.",
+        "gen_kwargs": {
+            "do_sample": false,
+            "num_beams": 1,
+            "max_new_tokens": 32,
+            "eos_token_id": 92542
+        },
+        "pred_response": "C"
+    },
+    {
+        "sample_id": 30,
+        "question": "Scrutinize the given visuals, and find the hidden object. You must choose your answer from the Choice List.\n<image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image>The person uses multiple similar objects to play an occlusion game. Where is the hidden object at the end of the game from the person's point of view?\nChoice list: \nA. Under the first object from the left.\nB. Under the third object from the left.\nC. Under the second object from the left.\nAnswer with the option's letter from the given choices directly.",
+        "gt_response": "Under the second object from the left.",
+        "gen_kwargs": {
+            "do_sample": false,
+            "num_beams": 1,
+            "max_new_tokens": 32,
+            "eos_token_id": 92542
+        },
+        "pred_response": "A"
+    },
+    {
+        "sample_id": 34,
+        "question": "Based on the provided images, and find the hidden object. You must choose your answer from the Choice List.\n<image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image>The person uses multiple similar objects to play an occlusion game. Where is the hidden object at the end of the game from the person's point of view?\nChoice list: \nA. Under the second object from the left.\nB. Under the first object from the left.\nC. Under the third object from the left.\nAnswer with the option's letter from the given choices directly.",
+        "gt_response": "Under the third object from the left.",
+        "gen_kwargs": {
+            "do_sample": false,
+            "num_beams": 1,
+            "max_new_tokens": 32,
+            "eos_token_id": 92542
+        },
+        "pred_response": "B"
+    },
+    {
+        "sample_id": 44,
+        "question": "Assess the presented graphics, and find the hidden object. You must choose your answer from the Choice List.\n<image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image>The person uses multiple similar objects to play an occlusion game. Where is the hidden object at the end of the game from the person's point of view?\nChoice list: \nA. Under the second object from the left.\nB. Under the first object from the left.\nC. Under the third object from the left.\nAnswer with the option's letter from the given choices directly.",
+        "gt_response": "Under the third object from the left.",
+        "gen_kwargs": {
+            "do_sample": false,
+            "num_beams": 1,
+            "max_new_tokens": 32,
+            "eos_token_id": 92542
+        },
+        "pred_response": "C"
+    },
+    {
+        "sample_id": 45,
+        "question": "Observe the provided pictorials, and find the hidden object. You must choose your answer from the Choice List.\n<image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image>The person uses multiple similar objects to play an occlusion game. Where is the hidden object at the end of the game from the person's point of view?\nChoice list: \nA. Under the first object from the left.\nB. Under the third object from the left.\nC. Under the second object from the left.\nAnswer with the option's letter from the given choices directly.",
+        "gt_response": "Under the first object from the left.",
+        "gen_kwargs": {
+            "do_sample": false,
+            "num_beams": 1,
+            "max_new_tokens": 32,
+            "eos_token_id": 92542
+        },
+        "pred_response": "A"
+    },
+    {
+        "sample_id": 27,
+        "question": "Examine the supplied visuals, and find the hidden object. You must choose your answer from the Choice List.\n<image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image>The person uses multiple similar objects to play an occlusion game. Where is the hidden object at the end of the game from the person's point of view?\nChoice list: \nA. Under the first object from the left.\nB. Under the second object from the left.\nC. Under the third object from the left.\nAnswer with the option's letter from the given choices directly.",
+        "gt_response": "Under the first object from the left.",
+        "gen_kwargs": {
+            "do_sample": false,
+            "num_beams": 1,
+            "max_new_tokens": 32,
+            "eos_token_id": 92542
+        },
+        "pred_response": "A"
+    },
+    {
+        "sample_id": 41,
+        "question": "Evaluate the images, and find the hidden object. You must choose your answer from the Choice List.\n<image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image>The person uses multiple similar objects to play an occlusion game. Where is the hidden object at the end of the game from the person's point of view?\nChoice list: \nA. Under the second object from the left.\nB. Under the first object from the left.\nC. Under the third object from the left.\nAnswer with the option's letter from the given choices directly.",
+        "gt_response": "Under the second object from the left.",
+        "gen_kwargs": {
+            "do_sample": false,
+            "num_beams": 1,
+            "max_new_tokens": 32,
+            "eos_token_id": 92542
+        },
+        "pred_response": "B"
+    },
+    {
+        "sample_id": 38,
+        "question": "Based on the provided images, and find the hidden object. You must choose your answer from the Choice List.\n<image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image>The person uses multiple similar objects to play an occlusion game. Where is the hidden object at the end of the game from the person's point of view?\nChoice list: \nA. Under the first object from the left.\nB. Under the third object from the left.\nC. Under the second object from the left.\nAnswer with the option's letter from the given choices directly.",
+        "gt_response": "Under the second object from the left.",
+        "gen_kwargs": {
+            "do_sample": false,
+            "num_beams": 1,
+            "max_new_tokens": 32,
+            "eos_token_id": 92542
+        },
+        "pred_response": "B"
+    },
+    {
+        "sample_id": 54,
+        "question": "Assess the presented graphics, and find the hidden object. You must choose your answer from the Choice List.\n<image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image>The person uses multiple similar objects to play an occlusion game. Where is the hidden object at the end of the game from the person's point of view?\nChoice list: \nA. Under the third object from the left.\nB. Under the first object from the left.\nC. Under the second object from the left.\nAnswer with the option's letter from the given choices directly.",
+        "gt_response": "Under the third object from the left.",
+        "gen_kwargs": {
+            "do_sample": false,
+            "num_beams": 1,
+            "max_new_tokens": 32,
+            "eos_token_id": 92542
+        },
+        "pred_response": "C"
+    },
+    {
+        "sample_id": 56,
+        "question": "Review the supplied imagery, and find the hidden object. You must choose your answer from the Choice List.\n<image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image>The person uses multiple similar objects to play an occlusion game. Where is the hidden object at the end of the game from the person's point of view?\nChoice list: \nA. Under the third object from the left.\nB. Under the first object from the left.\nC. Under the second object from the left.\nAnswer with the option's letter from the given choices directly.",
+        "gt_response": "Under the first object from the left.",
+        "gen_kwargs": {
+            "do_sample": false,
+            "num_beams": 1,
+            "max_new_tokens": 32,
+            "eos_token_id": 92542
+        },
+        "pred_response": "C"
+    },
+    {
+        "sample_id": 81,
+        "question": "Inspect the presented pictures, and find the hidden object. You must choose your answer from the Choice List.\n<image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image>The person uses multiple similar objects to play an occlusion game. Where is the hidden object at the end of the game from the person's point of view?\nChoice list: \nA. Under the first object from the left.\nB. Under the third object from the left.\nC. Under the second object from the left.\nAnswer with the option's letter from the given choices directly.",
+        "gt_response": "Under the second object from the left.",
+        "gen_kwargs": {
+            "do_sample": false,
+            "num_beams": 1,
+            "max_new_tokens": 32,
+            "eos_token_id": 92542
+        },
+        "pred_response": "C"
+    },
+    {
+        "sample_id": 73,
+        "question": "Observe the provided pictorials, and find the hidden object. You must choose your answer from the Choice List.\n<image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image>The person uses multiple similar objects to play an occlusion game. Where is the hidden object at the end of the game from the person's point of view?\nChoice list: \nA. Under the third object from the left.\nB. Under the second object from the left.\nC. Under the first object from the left.\nAnswer with the option's letter from the given choices directly.",
+        "gt_response": "Under the first object from the left.",
+        "gen_kwargs": {
+            "do_sample": false,
+            "num_beams": 1,
+            "max_new_tokens": 32,
+            "eos_token_id": 92542
+        },
+        "pred_response": "A"
+    },
+    {
+        "sample_id": 26,
+        "question": "Examine the supplied visuals, and find the hidden object. You must choose your answer from the Choice List.\n<image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image>The person uses multiple similar objects to play an occlusion game. Where is the hidden object at the end of the game from the person's point of view?\nChoice list: \nA. Under the fourth object from the left.\nB. Under the second object from the left.\nC. Under the third object from the left.\nAnswer with the option's letter from the given choices directly.",
+        "gt_response": "Under the fourth object from the left.",
+        "gen_kwargs": {
+            "do_sample": false,
+            "num_beams": 1,
+            "max_new_tokens": 32,
+            "eos_token_id": 92542
+        },
+        "pred_response": "B"
+    },
+    {
+        "sample_id": 36,
+        "question": "Observe the provided pictorials, and find the hidden object. You must choose your answer from the Choice List.\n<image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image>The person uses multiple similar objects to play an occlusion game. Where is the hidden object at the end of the game from the person's point of view?\nChoice list: \nA. Under the first object from the left.\nB. Under the second object from the left.\nC. Under the third object from the left.\nAnswer with the option's letter from the given choices directly.",
+        "gt_response": "Under the second object from the left.",
+        "gen_kwargs": {
+            "do_sample": false,
+            "num_beams": 1,
+            "max_new_tokens": 32,
+            "eos_token_id": 92542
+        },
+        "pred_response": "B"
+    },
+    {
+        "sample_id": 33,
+        "question": "Observe the provided pictorials, and find the hidden object. You must choose your answer from the Choice List.\n<image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image>The person uses multiple similar objects to play an occlusion game. Where is the hidden object at the end of the game from the person's point of view?\nChoice list: \nA. Under the farthest object from the person.\nB. Under the middle object.\nC. Under the closest object to the person.\nAnswer with the option's letter from the given choices directly.",
+        "gt_response": "Under the farthest object from the person.",
+        "gen_kwargs": {
+            "do_sample": false,
+            "num_beams": 1,
+            "max_new_tokens": 32,
+            "eos_token_id": 92542
+        },
+        "pred_response": "C"
+    },
+    {
+        "sample_id": 76,
+        "question": "Analyze the provided pictures, and find the hidden object. You must choose your answer from the Choice List.\n<image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image>The person uses multiple similar objects to play an occlusion game. Where is the hidden object at the end of the game from the person's point of view?\nChoice list: \nA. Under the second object from the left.\nB. Under the first object from the left.\nC. Under the third object from the left.\nAnswer with the option's letter from the given choices directly.",
+        "gt_response": "Under the second object from the left.",
+        "gen_kwargs": {
+            "do_sample": false,
+            "num_beams": 1,
+            "max_new_tokens": 32,
+            "eos_token_id": 92542
+        },
+        "pred_response": "C"
+    },
+    {
+        "sample_id": 35,
+        "question": "Observe the provided pictorials, and find the hidden object. You must choose your answer from the Choice List.\n<image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image>The person uses multiple similar objects to play an occlusion game. Where is the hidden object at the end of the game from the person's point of view?\nChoice list: \nA. Under the first object from the left.\nB. Under the second object from the left.\nC. Under the third object from the left.\nAnswer with the option's letter from the given choices directly.",
+        "gt_response": "Under the second object from the left.",
+        "gen_kwargs": {
+            "do_sample": false,
+            "num_beams": 1,
+            "max_new_tokens": 32,
+            "eos_token_id": 92542
+        },
+        "pred_response": "B"
+    },
+    {
+        "sample_id": 60,
+        "question": "Analyze the provided pictures, and find the hidden object. You must choose your answer from the Choice List.\n<image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image>The person uses multiple similar objects to play an occlusion game. Where is the hidden object at the end of the game from the person's point of view?\nChoice list: \nA. Under the second object from the left.\nB. Under the first object from the left.\nC. Under the third object from the left.\nAnswer with the option's letter from the given choices directly.",
+        "gt_response": "Under the first object from the left.",
+        "gen_kwargs": {
+            "do_sample": false,
+            "num_beams": 1,
+            "max_new_tokens": 32,
+            "eos_token_id": 92542
+        },
+        "pred_response": "A"
+    },
+    {
+        "sample_id": 57,
+        "question": "Review the supplied imagery, and find the hidden object. You must choose your answer from the Choice List.\n<image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image>The person uses multiple similar objects to play an occlusion game. Where is the hidden object at the end of the game from the person's point of view?\nChoice list: \nA. Under the first object from the left.\nB. Under the second object from the left.\nC. Under the third object from the left.\nAnswer with the option's letter from the given choices directly.",
+        "gt_response": "Under the second object from the left.",
+        "gen_kwargs": {
+            "do_sample": false,
+            "num_beams": 1,
+            "max_new_tokens": 32,
+            "eos_token_id": 92542
+        },
+        "pred_response": "C"
+    },
+    {
+        "sample_id": 129,
+        "question": "Assess the presented graphics, and find the hidden object. You must choose your answer from the Choice List.\n<image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image>The person uses multiple similar objects to play an occlusion game. Where is the hidden object at the end of the game from the person's point of view?\nChoice list: \nA. Under the first object from the left.\nB. Under the third object from the left.\nC. Under the second object from the left.\nAnswer with the option's letter from the given choices directly.",
+        "gt_response": "Under the second object from the left.",
+        "gen_kwargs": {
+            "do_sample": false,
+            "num_beams": 1,
+            "max_new_tokens": 32,
+            "eos_token_id": 92542
+        },
+        "pred_response": "C"
+    },
+    {
+        "sample_id": 39,
+        "question": "Analyze the provided pictures, and find the hidden object. You must choose your answer from the Choice List.\n<image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image>The person uses multiple similar objects to play an occlusion game. Where is the hidden object at the end of the game from the person's point of view?\nChoice list: \nA. Under the third object from the left.\nB. Under the second object from the left.\nC. Under the first object from the left.\nAnswer with the option's letter from the given choices directly.",
+        "gt_response": "Under the second object from the left.",
+        "gen_kwargs": {
+            "do_sample": false,
+            "num_beams": 1,
+            "max_new_tokens": 32,
+            "eos_token_id": 92542
+        },
+        "pred_response": "B"
+    },
+    {
+        "sample_id": 48,
+        "question": "Review the supplied imagery, and find the hidden object. You must choose your answer from the Choice List.\n<image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image>The person uses multiple similar objects to play an occlusion game. Where is the hidden object at the end of the game from the person's point of view?\nChoice list: \nA. Under the first object from the left.\nB. Under the second object from the left.\nC. Under the third object from the left.\nAnswer with the option's letter from the given choices directly.",
+        "gt_response": "Under the third object from the left.",
+        "gen_kwargs": {
+            "do_sample": false,
+            "num_beams": 1,
+            "max_new_tokens": 32,
+            "eos_token_id": 92542
+        },
+        "pred_response": "B"
+    },
+    {
+        "sample_id": 58,
+        "question": "Scrutinize the given visuals, and find the hidden object. You must choose your answer from the Choice List.\n<image><image><image><image><image><image><image><image><image><image><image><image><image>The person uses multiple similar objects to play an occlusion game. Where is the hidden object at the end of the game from the person's point of view?\nChoice list: \nA. Under the second object from the left.\nB. Under the third object from the left.\nC. Under the first object from the left.\nAnswer with the option's letter from the given choices directly.",
+        "gt_response": "Under the second object from the left.",
+        "gen_kwargs": {
+            "do_sample": false,
+            "num_beams": 1,
+            "max_new_tokens": 32,
+            "eos_token_id": 92542
+        },
+        "pred_response": "A"
+    },
+    {
+        "sample_id": 62,
+        "question": "Analyze the provided pictures, and find the hidden object. You must choose your answer from the Choice List.\n<image><image><image><image><image><image><image><image><image><image><image><image><image><image>The person uses multiple similar objects to play an occlusion game. Where is the hidden object at the end of the game from the person's point of view?\nChoice list: \nA. Under the fourth object from the left.\nB. Under the first object from the left.\nC. Under the second object from the left.\nAnswer with the option's letter from the given choices directly.",
+        "gt_response": "Under the second object from the left.",
+        "gen_kwargs": {
+            "do_sample": false,
+            "num_beams": 1,
+            "max_new_tokens": 32,
+            "eos_token_id": 92542
+        },
+        "pred_response": "B"
+    },
+    {
+        "sample_id": 185,
+        "question": "Review the supplied imagery, and find the hidden object. You must choose your answer from the Choice List.\n<image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image>The person uses multiple similar objects to play an occlusion game. Where is the hidden object at the end of the game from the person's point of view?\nChoice list: \nA. Under the third object from the left.\nB. Under the first object from the left.\nC. Under the second object from the left.\nAnswer with the option's letter from the given choices directly.",
+        "gt_response": "Under the second object from the left.",
+        "gen_kwargs": {
+            "do_sample": false,
+            "num_beams": 1,
+            "max_new_tokens": 32,
+            "eos_token_id": 92542
+        },
+        "pred_response": "A"
+    },
+    {
+        "sample_id": 24,
+        "question": "Inspect the presented pictures, and find the hidden object. You must choose your answer from the Choice List.\n<image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image>The person uses multiple similar objects to play an occlusion game. Where is the hidden object at the end of the game from the person's point of view?\nChoice list: \nA. Under the second object from the left.\nB. Under the third object from the left.\nC. Under the first object from the left.\nAnswer with the option's letter from the given choices directly.",
+        "gt_response": "Under the second object from the left.",
+        "gen_kwargs": {
+            "do_sample": false,
+            "num_beams": 1,
+            "max_new_tokens": 32,
+            "eos_token_id": 92542
+        },
+        "pred_response": "B"
+    },
+    {
+        "sample_id": 91,
+        "question": "Assess the presented graphics, and find the hidden object. You must choose your answer from the Choice List.\n<image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image>The person uses multiple similar objects to play an occlusion game. Where is the hidden object at the end of the game from the person's point of view?\nChoice list: \nA. Under the third object from the left.\nB. Under the second object from the left.\nC. Under the first object from the left.\nAnswer with the option's letter from the given choices directly.",
+        "gt_response": "Under the third object from the left.",
+        "gen_kwargs": {
+            "do_sample": false,
+            "num_beams": 1,
+            "max_new_tokens": 32,
+            "eos_token_id": 92542
+        },
+        "pred_response": "A"
+    },
+    {
+        "sample_id": 107,
+        "question": "Inspect the presented pictures, and find the hidden object. You must choose your answer from the Choice List.\n<image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image>The person uses multiple similar objects to play an occlusion game. Where is the hidden object at the end of the game from the person's point of view?\nChoice list: \nA. Under the first object from the left.\nB. Under the third object from the left.\nC. Under the second object from the left.\nAnswer with the option's letter from the given choices directly.",
+        "gt_response": "Under the third object from the left.",
+        "gen_kwargs": {
+            "do_sample": false,
+            "num_beams": 1,
+            "max_new_tokens": 32,
+            "eos_token_id": 92542
+        },
+        "pred_response": "B"
+    },
+    {
+        "sample_id": 97,
+        "question": "Analyze the provided pictures, and find the hidden object. You must choose your answer from the Choice List.\n<image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image>The person uses multiple similar objects to play an occlusion game. Where is the hidden object at the end of the game from the person's point of view?\nChoice list: \nA. Under the third object from the left.\nB. Under the second object from the left.\nC. Under the first object from the left.\nAnswer with the option's letter from the given choices directly.",
+        "gt_response": "Under the second object from the left.",
+        "gen_kwargs": {
+            "do_sample": false,
+            "num_beams": 1,
+            "max_new_tokens": 32,
+            "eos_token_id": 92542
+        },
+        "pred_response": "C"
+    },
+    {
+        "sample_id": 125,
+        "question": "Analyze the provided pictures, and find the hidden object. You must choose your answer from the Choice List.\n<image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image>The person uses multiple similar objects to play an occlusion game. Where is the hidden object at the end of the game from the person's point of view?\nChoice list: \nA. Under the second object from the left.\nB. Under the third object from the left.\nC. Under the first object from the left.\nAnswer with the option's letter from the given choices directly.",
+        "gt_response": "Under the second object from the left.",
+        "gen_kwargs": {
+            "do_sample": false,
+            "num_beams": 1,
+            "max_new_tokens": 32,
+            "eos_token_id": 92542
+        },
+        "pred_response": "C"
+    },
+    {
+        "sample_id": 68,
+        "question": "Based on the provided images, and find the hidden object. You must choose your answer from the Choice List.\n<image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image>The person uses multiple similar objects to play an occlusion game. Where is the hidden object at the end of the game from the person's point of view?\nChoice list: \nA. Under the third object from the left.\nB. Under the second object from the left.\nC. Under the first object from the left.\nAnswer with the option's letter from the given choices directly.",
+        "gt_response": "Under the third object from the left.",
+        "gen_kwargs": {
+            "do_sample": false,
+            "num_beams": 1,
+            "max_new_tokens": 32,
+            "eos_token_id": 92542
+        },
+        "pred_response": "C"
+    },
+    {
+        "sample_id": 71,
+        "question": "Investigate the given graphics, and find the hidden object. You must choose your answer from the Choice List.\n<image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image>The person uses multiple similar objects to play an occlusion game. Where is the hidden object at the end of the game from the person's point of view?\nChoice list: \nA. Under the second object from the left.\nB. Under the fourth object from the left.\nC. Under the first object from the left.\nAnswer with the option's letter from the given choices directly.",
+        "gt_response": "Under the second object from the left.",
+        "gen_kwargs": {
+            "do_sample": false,
+            "num_beams": 1,
+            "max_new_tokens": 32,
+            "eos_token_id": 92542
+        },
+        "pred_response": "C"
+    },
+    {
+        "sample_id": 63,
+        "question": "Evaluate the images, and find the hidden object. You must choose your answer from the Choice List.\n<image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image>The person uses multiple similar objects to play an occlusion game. Where is the hidden object at the end of the game from the person's point of view?\nChoice list: \nA. Under the third object from the left.\nB. Under the first object from the left.\nC. Under the second object from the left.\nAnswer with the option's letter from the given choices directly.",
+        "gt_response": "Under the second object from the left.",
+        "gen_kwargs": {
+            "do_sample": false,
+            "num_beams": 1,
+            "max_new_tokens": 32,
+            "eos_token_id": 92542
+        },
+        "pred_response": "C"
+    },
+    {
+        "sample_id": 74,
+        "question": "Review the supplied imagery, and find the hidden object. You must choose your answer from the Choice List.\n<image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image>The person uses multiple similar objects to play an occlusion game. Where is the hidden object at the end of the game from the person's point of view?\nChoice list: \nA. Under the third object from the left.\nB. Under the second object from the left.\nC. Under the first object from the left.\nAnswer with the option's letter from the given choices directly.",
+        "gt_response": "Under the first object from the left.",
+        "gen_kwargs": {
+            "do_sample": false,
+            "num_beams": 1,
+            "max_new_tokens": 32,
+            "eos_token_id": 92542
+        },
+        "pred_response": "B"
+    },
+    {
+        "sample_id": 46,
+        "question": "Observe the provided pictorials, and find the hidden object. You must choose your answer from the Choice List.\n<image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image>The person uses multiple similar objects to play an occlusion game. Where is the hidden object at the end of the game from the person's point of view?\nChoice list: \nA. Under the first object from the left.\nB. Under the second object from the left.\nC. Under the third object from the left.\nAnswer with the option's letter from the given choices directly.",
+        "gt_response": "Under the second object from the left.",
+        "gen_kwargs": {
+            "do_sample": false,
+            "num_beams": 1,
+            "max_new_tokens": 32,
+            "eos_token_id": 92542
+        },
+        "pred_response": "B"
+    },
+    {
+        "sample_id": 93,
+        "question": "Assess the presented graphics, and find the hidden object. You must choose your answer from the Choice List.\n<image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image>The person uses multiple similar objects to play an occlusion game. Where is the hidden object at the end of the game from the person's point of view?\nChoice list: \nA. Under the third object from the left.\nB. Under the first object from the left.\nC. Under the second object from the left.\nAnswer with the option's letter from the given choices directly.",
+        "gt_response": "Under the third object from the left.",
+        "gen_kwargs": {
+            "do_sample": false,
+            "num_beams": 1,
+            "max_new_tokens": 32,
+            "eos_token_id": 92542
+        },
+        "pred_response": "A"
+    },
+    {
+        "sample_id": 49,
+        "question": "Based on the provided images, and find the hidden object. You must choose your answer from the Choice List.\n<image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image>The person uses multiple similar objects to play an occlusion game. Where is the hidden object at the end of the game from the person's point of view?\nChoice list: \nA. Under the second object from the left.\nB. Under the third object from the left.\nC. Under the first object from the left.\nAnswer with the option's letter from the given choices directly.",
+        "gt_response": "Under the third object from the left.",
+        "gen_kwargs": {
+            "do_sample": false,
+            "num_beams": 1,
+            "max_new_tokens": 32,
+            "eos_token_id": 92542
+        },
+        "pred_response": "C"
+    },
+    {
+        "sample_id": 65,
+        "question": "Examine the supplied visuals, and find the hidden object. You must choose your answer from the Choice List.\n<image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image>The person uses multiple similar objects to play an occlusion game. Where is the hidden object at the end of the game from the person's point of view?\nChoice list: \nA. Under the farthest object from the person.\nB. Under the closest object to the person.\nC. Under the middle object.\nAnswer with the option's letter from the given choices directly.",
+        "gt_response": "Under the middle object.",
+        "gen_kwargs": {
+            "do_sample": false,
+            "num_beams": 1,
+            "max_new_tokens": 32,
+            "eos_token_id": 92542
+        },
+        "pred_response": "B"
+    },
+    {
+        "sample_id": 66,
+        "question": "Based on the provided images, and find the hidden object. You must choose your answer from the Choice List.\n<image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image>The person uses multiple similar objects to play an occlusion game. Where is the hidden object at the end of the game from the person's point of view?\nChoice list: \nA. Under the first object from the left.\nB. Under the second object from the left.\nC. Under the third object from the left.\nAnswer with the option's letter from the given choices directly.",
+        "gt_response": "Under the first object from the left.",
+        "gen_kwargs": {
+            "do_sample": false,
+            "num_beams": 1,
+            "max_new_tokens": 32,
+            "eos_token_id": 92542
+        },
+        "pred_response": "B"
+    },
+    {
+        "sample_id": 100,
+        "question": "Review the supplied imagery, and find the hidden object. You must choose your answer from the Choice List.\n<image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image>The person uses multiple similar objects to play an occlusion game. Where is the hidden object at the end of the game from the person's point of view?\nChoice list: \nA. Under the first object from the left.\nB. Under the third object from the left.\nC. Under the second object from the left.\nAnswer with the option's letter from the given choices directly.",
+        "gt_response": "Under the second object from the left.",
+        "gen_kwargs": {
+            "do_sample": false,
+            "num_beams": 1,
+            "max_new_tokens": 32,
+            "eos_token_id": 92542
+        },
+        "pred_response": "C"
+    },
+    {
+        "sample_id": 84,
+        "question": "Review the supplied imagery, and find the hidden object. You must choose your answer from the Choice List.\n<image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image>The person uses multiple similar objects to play an occlusion game. Where is the hidden object at the end of the game from the person's point of view?\nChoice list: \nA. Under the third object from the left.\nB. Under the second object from the left.\nC. Under the fourth object from the left.\nAnswer with the option's letter from the given choices directly.",
+        "gt_response": "Under the third object from the left.",
+        "gen_kwargs": {
+            "do_sample": false,
+            "num_beams": 1,
+            "max_new_tokens": 32,
+            "eos_token_id": 92542
+        },
+        "pred_response": "B"
+    },
+    {
+        "sample_id": 108,
+        "question": "Investigate the given graphics, and find the hidden object. You must choose your answer from the Choice List.\n<image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image>The person uses multiple similar objects to play an occlusion game. Where is the hidden object at the end of the game from the person's point of view?\nChoice list: \nA. Under the second object from the left.\nB. Under the third object from the left.\nC. Under the first object from the left.\nAnswer with the option's letter from the given choices directly.",
+        "gt_response": "Under the third object from the left.",
+        "gen_kwargs": {
+            "do_sample": false,
+            "num_beams": 1,
+            "max_new_tokens": 32,
+            "eos_token_id": 92542
+        },
+        "pred_response": "B"
+    },
+    {
+        "sample_id": 77,
+        "question": "Review the supplied imagery, and find the hidden object. You must choose your answer from the Choice List.\n<image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image>The person uses multiple similar objects to play an occlusion game. Where is the hidden object at the end of the game from the person's point of view?\nChoice list: \nA. Under the second object from the left.\nB. Under the first object from the left.\nC. Under the third object from the left.\nAnswer with the option's letter from the given choices directly.",
+        "gt_response": "Under the third object from the left.",
+        "gen_kwargs": {
+            "do_sample": false,
+            "num_beams": 1,
+            "max_new_tokens": 32,
+            "eos_token_id": 92542
+        },
+        "pred_response": "B"
+    },
+    {
+        "sample_id": 59,
+        "question": "Observe the provided pictorials, and find the hidden object. You must choose your answer from the Choice List.\n<image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image>The person uses multiple similar objects to play an occlusion game. Where is the hidden object at the end of the game from the person's point of view?\nChoice list: \nA. Under the second object from the left.\nB. Under the third object from the left.\nC. Under the first object from the left.\nAnswer with the option's letter from the given choices directly.",
+        "gt_response": "Under the third object from the left.",
+        "gen_kwargs": {
+            "do_sample": false,
+            "num_beams": 1,
+            "max_new_tokens": 32,
+            "eos_token_id": 92542
+        },
+        "pred_response": "A"
+    },
+    {
+        "sample_id": 112,
+        "question": "Investigate the given graphics, and find the hidden object. You must choose your answer from the Choice List.\n<image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image>The person uses multiple similar objects to play an occlusion game. Where is the hidden object at the end of the game from the person's point of view?\nChoice list: \nA. Under the second object from the left.\nB. Under the third object from the left.\nC. Under the first object from the left.\nAnswer with the option's letter from the given choices directly.",
+        "gt_response": "Under the second object from the left.",
+        "gen_kwargs": {
+            "do_sample": false,
+            "num_beams": 1,
+            "max_new_tokens": 32,
+            "eos_token_id": 92542
+        },
+        "pred_response": "C"
+    },
+    {
+        "sample_id": 43,
+        "question": "Scrutinize the given visuals, and find the hidden object. You must choose your answer from the Choice List.\n<image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image>The person uses multiple similar objects to play an occlusion game. Where is the hidden object at the end of the game from the person's point of view?\nChoice list: \nA. Under the third object from the left.\nB. Under the first object from the left.\nC. Under the second object from the left.\nAnswer with the option's letter from the given choices directly.",
+        "gt_response": "Under the second object from the left.",
+        "gen_kwargs": {
+            "do_sample": false,
+            "num_beams": 1,
+            "max_new_tokens": 32,
+            "eos_token_id": 92542
+        },
+        "pred_response": "B"
+    },
+    {
+        "sample_id": 105,
+        "question": "Scrutinize the given visuals, and find the hidden object. You must choose your answer from the Choice List.\n<image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image>The person uses multiple similar objects to play an occlusion game. Where is the hidden object at the end of the game from the person's point of view?\nChoice list: \nA. Under the third object from the left.\nB. Under the second object from the left.\nC. Under the first object from the left.\nAnswer with the option's letter from the given choices directly.",
+        "gt_response": "Under the second object from the left.",
+        "gen_kwargs": {
+            "do_sample": false,
+            "num_beams": 1,
+            "max_new_tokens": 32,
+            "eos_token_id": 92542
+        },
+        "pred_response": "A"
+    },
+    {
+        "sample_id": 69,
+        "question": "Observe the provided pictorials, and find the hidden object. You must choose your answer from the Choice List.\n<image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image>The person uses multiple similar objects to play an occlusion game. Where is the hidden object at the end of the game from the person's point of view?\nChoice list: \nA. Under the second object from the left.\nB. Under the third object from the left.\nC. Under the first object from the left.\nAnswer with the option's letter from the given choices directly.",
+        "gt_response": "Under the third object from the left.",
+        "gen_kwargs": {
+            "do_sample": false,
+            "num_beams": 1,
+            "max_new_tokens": 32,
+            "eos_token_id": 92542
+        },
+        "pred_response": "C"
+    },
+    {
+        "sample_id": 187,
+        "question": "Review the supplied imagery, and find the hidden object. You must choose your answer from the Choice List.\n<image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image>The person uses multiple similar objects to play an occlusion game. Where is the hidden object at the end of the game from the person's point of view?\nChoice list: \nA. Under the first object from the left.\nB. Under the second object from the left.\nC. Under the third object from the left.\nAnswer with the option's letter from the given choices directly.",
+        "gt_response": "Under the first object from the left.",
+        "gen_kwargs": {
+            "do_sample": false,
+            "num_beams": 1,
+            "max_new_tokens": 32,
+            "eos_token_id": 92542
+        },
+        "pred_response": "B"
+    },
+    {
+        "sample_id": 104,
+        "question": "Assess the presented graphics, and find the hidden object. You must choose your answer from the Choice List.\n<image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image>The person uses multiple similar objects to play an occlusion game. Where is the hidden object at the end of the game from the person's point of view?\nChoice list: \nA. Under the second object from the left.\nB. Under the first object from the left.\nC. Under the third object from the left.\nAnswer with the option's letter from the given choices directly.",
+        "gt_response": "Under the third object from the left.",
+        "gen_kwargs": {
+            "do_sample": false,
+            "num_beams": 1,
+            "max_new_tokens": 32,
+            "eos_token_id": 92542
+        },
+        "pred_response": "B"
+    },
+    {
+        "sample_id": 119,
+        "question": "Scrutinize the given visuals, and find the hidden object. You must choose your answer from the Choice List.\n<image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image>The person uses multiple similar objects to play an occlusion game. Where is the hidden object at the end of the game from the person's point of view?\nChoice list: \nA. Under the third object from the left.\nB. Under the first object from the left.\nC. Under the second object from the left.\nAnswer with the option's letter from the given choices directly.",
+        "gt_response": "Under the first object from the left.",
+        "gen_kwargs": {
+            "do_sample": false,
+            "num_beams": 1,
+            "max_new_tokens": 32,
+            "eos_token_id": 92542
+        },
+        "pred_response": "A"
+    },
+    {
+        "sample_id": 61,
+        "question": "Review the supplied imagery, and find the hidden object. You must choose your answer from the Choice List.\n<image><image><image><image><image><image><image><image><image><image><image><image><image>The person uses multiple similar objects to play an occlusion game. Where is the hidden object at the end of the game from the person's point of view?\nChoice list: \nA. Under the second object from the left.\nB. Under the first object from the left.\nC. Under the third object from the left.\nAnswer with the option's letter from the given choices directly.",
+        "gt_response": "Under the first object from the left.",
+        "gen_kwargs": {
+            "do_sample": false,
+            "num_beams": 1,
+            "max_new_tokens": 32,
+            "eos_token_id": 92542
+        },
+        "pred_response": "C"
+    },
+    {
+        "sample_id": 72,
+        "question": "Scrutinize the given visuals, and find the hidden object. You must choose your answer from the Choice List.\n<image><image><image><image><image><image><image><image><image><image><image><image><image><image>The person uses multiple similar objects to play an occlusion game. Where is the hidden object at the end of the game from the person's point of view?\nChoice list: \nA. Under the first object from the left.\nB. Under the second object from the left.\nC. Under the third object from the left.\nAnswer with the option's letter from the given choices directly.",
+        "gt_response": "Under the first object from the left.",
+        "gen_kwargs": {
+            "do_sample": false,
+            "num_beams": 1,
+            "max_new_tokens": 32,
+            "eos_token_id": 92542
+        },
+        "pred_response": "B"
+    },
+    {
+        "sample_id": 188,
+        "question": "Review the supplied imagery, and find the hidden object. You must choose your answer from the Choice List.\n<image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image>The person uses multiple similar objects to play an occlusion game. Where is the hidden object at the end of the game from the person's point of view?\nChoice list: \nA. Under the third object from the left.\nB. Under the first object from the left.\nC. Under the second object from the left.\nAnswer with the option's letter from the given choices directly.",
+        "gt_response": "Under the second object from the left.",
+        "gen_kwargs": {
+            "do_sample": false,
+            "num_beams": 1,
+            "max_new_tokens": 32,
+            "eos_token_id": 92542
+        },
+        "pred_response": "B"
+    },
+    {
+        "sample_id": 50,
+        "question": "Review the supplied imagery, and find the hidden object. You must choose your answer from the Choice List.\n<image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image>The person uses multiple similar objects to play an occlusion game. Where is the hidden object at the end of the game from the person's point of view?\nChoice list: \nA. Under the first object from the left.\nB. Under the third object from the left.\nC. Under the second object from the left.\nAnswer with the option's letter from the given choices directly.",
+        "gt_response": "Under the first object from the left.",
+        "gen_kwargs": {
+            "do_sample": false,
+            "num_beams": 1,
+            "max_new_tokens": 32,
+            "eos_token_id": 92542
+        },
+        "pred_response": "B"
+    },
+    {
+        "sample_id": 137,
+        "question": "Scrutinize the given visuals, and find the hidden object. You must choose your answer from the Choice List.\n<image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image>The person uses multiple similar objects to play an occlusion game. Where is the hidden object at the end of the game from the person's point of view?\nChoice list: \nA. Under the first object from the left.\nB. Under the second object from the left.\nC. Under the third object from the left.\nAnswer with the option's letter from the given choices directly.",
+        "gt_response": "Under the third object from the left.",
+        "gen_kwargs": {
+            "do_sample": false,
+            "num_beams": 1,
+            "max_new_tokens": 32,
+            "eos_token_id": 92542
+        },
+        "pred_response": "B"
+    },
+    {
+        "sample_id": 144,
+        "question": "Evaluate the images, and find the hidden object. You must choose your answer from the Choice List.\n<image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image>The person uses multiple similar objects to play an occlusion game. Where is the hidden object at the end of the game from the person's point of view?\nChoice list: \nA. Under the second object from the left.\nB. Under the third object from the left.\nC. Under the first object from the left.\nAnswer with the option's letter from the given choices directly.",
+        "gt_response": "Under the second object from the left.",
+        "gen_kwargs": {
+            "do_sample": false,
+            "num_beams": 1,
+            "max_new_tokens": 32,
+            "eos_token_id": 92542
+        },
+        "pred_response": "C"
+    },
+    {
+        "sample_id": 134,
+        "question": "Inspect the presented pictures, and find the hidden object. You must choose your answer from the Choice List.\n<image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image>The person uses multiple similar objects to play an occlusion game. Where is the hidden object at the end of the game from the person's point of view?\nChoice list: \nA. Under the third object from the left.\nB. Under the second object from the left.\nC. Under the first object from the left.\nAnswer with the option's letter from the given choices directly.",
+        "gt_response": "Under the second object from the left.",
+        "gen_kwargs": {
+            "do_sample": false,
+            "num_beams": 1,
+            "max_new_tokens": 32,
+            "eos_token_id": 92542
+        },
+        "pred_response": "B"
+    },
+    {
+        "sample_id": 79,
+        "question": "Scrutinize the given visuals, and find the hidden object. You must choose your answer from the Choice List.\n<image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image>The person uses multiple similar objects to play an occlusion game. Where is the hidden object at the end of the game from the person's point of view?\nChoice list: \nA. Under the third object from the left.\nB. Under the first object from the left.\nC. Under the second object from the left.\nAnswer with the option's letter from the given choices directly.",
+        "gt_response": "Under the third object from the left.",
+        "gen_kwargs": {
+            "do_sample": false,
+            "num_beams": 1,
+            "max_new_tokens": 32,
+            "eos_token_id": 92542
+        },
+        "pred_response": "B"
+    },
+    {
+        "sample_id": 80,
+        "question": "Evaluate the images, and find the hidden object. You must choose your answer from the Choice List.\n<image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image>The person uses multiple similar objects to play an occlusion game. Where is the hidden object at the end of the game from the person's point of view?\nChoice list: \nA. Under the first object from the left.\nB. Under the third object from the left.\nC. Under the second object from the left.\nAnswer with the option's letter from the given choices directly.",
+        "gt_response": "Under the third object from the left.",
+        "gen_kwargs": {
+            "do_sample": false,
+            "num_beams": 1,
+            "max_new_tokens": 32,
+            "eos_token_id": 92542
+        },
+        "pred_response": "C"
+    },
+    {
+        "sample_id": 87,
+        "question": "Examine the supplied visuals, and find the hidden object. You must choose your answer from the Choice List.\n<image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image>The person uses multiple similar objects to play an occlusion game. Where is the hidden object at the end of the game from the person's point of view?\nChoice list: \nA. Under the second object from the left.\nB. Under the first object from the left.\nC. Under the third object from the left.\nAnswer with the option's letter from the given choices directly.",
+        "gt_response": "Under the first object from the left.",
+        "gen_kwargs": {
+            "do_sample": false,
+            "num_beams": 1,
+            "max_new_tokens": 32,
+            "eos_token_id": 92542
+        },
+        "pred_response": "A"
+    },
+    {
+        "sample_id": 90,
+        "question": "Scrutinize the given visuals, and find the hidden object. You must choose your answer from the Choice List.\n<image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image>The person uses multiple similar objects to play an occlusion game. Where is the hidden object at the end of the game from the person's point of view?\nChoice list: \nA. Under the first object from the left.\nB. Under the third object from the left.\nC. Under the second object from the left.\nAnswer with the option's letter from the given choices directly.",
+        "gt_response": "Under the first object from the left.",
+        "gen_kwargs": {
+            "do_sample": false,
+            "num_beams": 1,
+            "max_new_tokens": 32,
+            "eos_token_id": 92542
+        },
+        "pred_response": "C"
+    },
+    {
+        "sample_id": 101,
+        "question": "Observe the provided pictorials, and find the hidden object. You must choose your answer from the Choice List.\n<image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image>The person uses multiple similar objects to play an occlusion game. Where is the hidden object at the end of the game from the person's point of view?\nChoice list: \nA. Under the third object from the left.\nB. Under the second object from the left.\nC. Under the first object from the left.\nAnswer with the option's letter from the given choices directly.",
+        "gt_response": "Under the second object from the left.",
+        "gen_kwargs": {
+            "do_sample": false,
+            "num_beams": 1,
+            "max_new_tokens": 32,
+            "eos_token_id": 92542
+        },
+        "pred_response": "B"
+    },
+    {
+        "sample_id": 103,
+        "question": "Review the supplied imagery, and find the hidden object. You must choose your answer from the Choice List.\n<image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image>The person uses multiple similar objects to play an occlusion game. Where is the hidden object at the end of the game from the person's point of view?\nChoice list: \nA. Under the second object from the left.\nB. Under the fourth object from the left.\nC. Under the first object from the left.\nAnswer with the option's letter from the given choices directly.",
+        "gt_response": "Under the fourth object from the left.",
+        "gen_kwargs": {
+            "do_sample": false,
+            "num_beams": 1,
+            "max_new_tokens": 32,
+            "eos_token_id": 92542
+        },
+        "pred_response": "C"
+    },
+    {
+        "sample_id": 78,
+        "question": "Inspect the presented pictures, and find the hidden object. You must choose your answer from the Choice List.\n<image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image>The person uses multiple similar objects to play an occlusion game. Where is the hidden object at the end of the game from the person's point of view?\nChoice list: \nA. Under the third object from the left.\nB. Under the first object from the left.\nC. Under the second object from the left.\nAnswer with the option's letter from the given choices directly.",
+        "gt_response": "Under the second object from the left.",
+        "gen_kwargs": {
+            "do_sample": false,
+            "num_beams": 1,
+            "max_new_tokens": 32,
+            "eos_token_id": 92542
+        },
+        "pred_response": "C"
+    },
+    {
+        "sample_id": 83,
+        "question": "Based on the provided images, and find the hidden object. You must choose your answer from the Choice List.\n<image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image>The person uses multiple similar objects to play an occlusion game. Where is the hidden object at the end of the game from the person's point of view?\nChoice list: \nA. Under the third object from the left.\nB. Under the second object from the left.\nC. Under the first object from the left.\nAnswer with the option's letter from the given choices directly.",
+        "gt_response": "Under the second object from the left.",
+        "gen_kwargs": {
+            "do_sample": false,
+            "num_beams": 1,
+            "max_new_tokens": 32,
+            "eos_token_id": 92542
+        },
+        "pred_response": "C"
+    },
+    {
+        "sample_id": 110,
+        "question": "Inspect the presented pictures, and find the hidden object. You must choose your answer from the Choice List.\n<image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image>The person uses multiple similar objects to play an occlusion game. Where is the hidden object at the end of the game from the person's point of view?\nChoice list: \nA. Under the second object from the left.\nB. Under the third object from the left.\nC. Under the first object from the left.\nAnswer with the option's letter from the given choices directly.",
+        "gt_response": "Under the third object from the left.",
+        "gen_kwargs": {
+            "do_sample": false,
+            "num_beams": 1,
+            "max_new_tokens": 32,
+            "eos_token_id": 92542
+        },
+        "pred_response": "C"
+    },
+    {
+        "sample_id": 111,
+        "question": "Examine the supplied visuals, and find the hidden object. You must choose your answer from the Choice List.\n<image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image>The person uses multiple similar objects to play an occlusion game. Where is the hidden object at the end of the game from the person's point of view?\nChoice list: \nA. Under the second object from the left.\nB. Under the third object from the left.\nC. Under the first object from the left.\nAnswer with the option's letter from the given choices directly.",
+        "gt_response": "Under the first object from the left.",
+        "gen_kwargs": {
+            "do_sample": false,
+            "num_beams": 1,
+            "max_new_tokens": 32,
+            "eos_token_id": 92542
+        },
+        "pred_response": "C"
+    },
+    {
+        "sample_id": 139,
+        "question": "Assess the presented graphics, and find the hidden object. You must choose your answer from the Choice List.\n<image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image>The person uses multiple similar objects to play an occlusion game. Where is the hidden object at the end of the game from the person's point of view?\nChoice list: \nA. Under the second object from the left.\nB. Under the first object from the left.\nC. Under the third object from the left.\nAnswer with the option's letter from the given choices directly.",
+        "gt_response": "Under the second object from the left.",
+        "gen_kwargs": {
+            "do_sample": false,
+            "num_beams": 1,
+            "max_new_tokens": 32,
+            "eos_token_id": 92542
+        },
+        "pred_response": "B"
+    },
+    {
+        "sample_id": 82,
+        "question": "Inspect the presented pictures, and find the hidden object. You must choose your answer from the Choice List.\n<image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image>The person uses multiple similar objects to play an occlusion game. Where is the hidden object at the end of the game from the person's point of view?\nChoice list: \nA. Under the third object from the left.\nB. Under the first object from the left.\nC. Under the second object from the left.\nAnswer with the option's letter from the given choices directly.",
+        "gt_response": "Under the third object from the left.",
+        "gen_kwargs": {
+            "do_sample": false,
+            "num_beams": 1,
+            "max_new_tokens": 32,
+            "eos_token_id": 92542
+        },
+        "pred_response": "C"
+    },
+    {
+        "sample_id": 64,
+        "question": "Observe the provided pictorials, and find the hidden object. You must choose your answer from the Choice List.\n<image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image>The person uses multiple similar objects to play an occlusion game. Where is the hidden object at the end of the game from the person's point of view?\nChoice list: \nA. Under the first object from the left.\nB. Under the third object from the left.\nC. Under the second object from the left.\nAnswer with the option's letter from the given choices directly.",
+        "gt_response": "Under the second object from the left.",
+        "gen_kwargs": {
+            "do_sample": false,
+            "num_beams": 1,
+            "max_new_tokens": 32,
+            "eos_token_id": 92542
+        },
+        "pred_response": "C"
+    },
+    {
+        "sample_id": 117,
+        "question": "Inspect the presented pictures, and find the hidden object. You must choose your answer from the Choice List.\n<image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image>The person uses multiple similar objects to play an occlusion game. Where is the hidden object at the end of the game from the person's point of view?\nChoice list: \nA. Under the second object from the left.\nB. Under the first object from the left.\nC. Under the third object from the left.\nAnswer with the option's letter from the given choices directly.",
+        "gt_response": "Under the second object from the left.",
+        "gen_kwargs": {
+            "do_sample": false,
+            "num_beams": 1,
+            "max_new_tokens": 32,
+            "eos_token_id": 92542
+        },
+        "pred_response": "C"
+    },
+    {
+        "sample_id": 115,
+        "question": "Examine the supplied visuals, and find the hidden object. You must choose your answer from the Choice List.\n<image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image>The person uses multiple similar objects to play an occlusion game. Where is the hidden object at the end of the game from the person's point of view?\nChoice list: \nA. Under the first object from the left.\nB. Under the third object from the left.\nC. Under the second object from the left.\nAnswer with the option's letter from the given choices directly.",
+        "gt_response": "Under the first object from the left.",
+        "gen_kwargs": {
+            "do_sample": false,
+            "num_beams": 1,
+            "max_new_tokens": 32,
+            "eos_token_id": 92542
+        },
+        "pred_response": "C"
+    },
+    {
+        "sample_id": 114,
+        "question": "Examine the supplied visuals, and find the hidden object. You must choose your answer from the Choice List.\n<image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image>The person uses multiple similar objects to play an occlusion game. Where is the hidden object at the end of the game from the person's point of view?\nChoice list: \nA. Under the first object from the left.\nB. Under the third object from the left.\nC. Under the second object from the left.\nAnswer with the option's letter from the given choices directly.",
+        "gt_response": "Under the second object from the left.",
+        "gen_kwargs": {
+            "do_sample": false,
+            "num_beams": 1,
+            "max_new_tokens": 32,
+            "eos_token_id": 92542
+        },
+        "pred_response": "C"
+    },
+    {
+        "sample_id": 116,
+        "question": "Based on the provided images, and find the hidden object. You must choose your answer from the Choice List.\n<image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image>The person uses multiple similar objects to play an occlusion game. Where is the hidden object at the end of the game from the person's point of view?\nChoice list: \nA. Under the second object from the left.\nB. Under the first object from the left.\nC. Under the third object from the left.\nAnswer with the option's letter from the given choices directly.",
+        "gt_response": "Under the third object from the left.",
+        "gen_kwargs": {
+            "do_sample": false,
+            "num_beams": 1,
+            "max_new_tokens": 32,
+            "eos_token_id": 92542
+        },
+        "pred_response": "B"
+    },
+    {
+        "sample_id": 191,
+        "question": "Analyze the provided pictures, and find the hidden object. You must choose your answer from the Choice List.\n<image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image>The person uses multiple similar objects to play an occlusion game. Where is the hidden object at the end of the game from the person's point of view?\nChoice list: \nA. Under the first object from the left.\nB. Under the third object from the left.\nC. Under the second object from the left.\nAnswer with the option's letter from the given choices directly.",
+        "gt_response": "Under the second object from the left.",
+        "gen_kwargs": {
+            "do_sample": false,
+            "num_beams": 1,
+            "max_new_tokens": 32,
+            "eos_token_id": 92542
+        },
+        "pred_response": "C"
+    },
+    {
+        "sample_id": 127,
+        "question": "Scrutinize the given visuals, and find the hidden object. You must choose your answer from the Choice List.\n<image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image>The person uses multiple similar objects to play an occlusion game. Where is the hidden object at the end of the game from the person's point of view?\nChoice list: \nA. Under the first object from the left.\nB. Under the second object from the left.\nC. Under the third object from the left.\nAnswer with the option's letter from the given choices directly.",
+        "gt_response": "Under the first object from the left.",
+        "gen_kwargs": {
+            "do_sample": false,
+            "num_beams": 1,
+            "max_new_tokens": 32,
+            "eos_token_id": 92542
+        },
+        "pred_response": "B"
+    },
+    {
+        "sample_id": 140,
+        "question": "Examine the supplied visuals, and find the hidden object. You must choose your answer from the Choice List.\n<image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image>The person uses multiple similar objects to play an occlusion game. Where is the hidden object at the end of the game from the person's point of view?\nChoice list: \nA. Under the first object from the left.\nB. Under the third object from the left.\nC. Under the second object from the left.\nAnswer with the option's letter from the given choices directly.",
+        "gt_response": "Under the third object from the left.",
+        "gen_kwargs": {
+            "do_sample": false,
+            "num_beams": 1,
+            "max_new_tokens": 32,
+            "eos_token_id": 92542
+        },
+        "pred_response": "B"
+    },
+    {
+        "sample_id": 99,
+        "question": "Evaluate the images, and find the hidden object. You must choose your answer from the Choice List.\n<image><image><image><image><image><image><image><image><image><image><image><image><image><image>The person uses multiple similar objects to play an occlusion game. Where is the hidden object at the end of the game from the person's point of view?\nChoice list: \nA. Under the second object from the left.\nB. Under the third object from the left.\nC. Under the first object from the left.\nAnswer with the option's letter from the given choices directly.",
+        "gt_response": "Under the first object from the left.",
+        "gen_kwargs": {
+            "do_sample": false,
+            "num_beams": 1,
+            "max_new_tokens": 32,
+            "eos_token_id": 92542
+        },
+        "pred_response": "A"
+    },
+    {
+        "sample_id": 102,
+        "question": "Examine the supplied visuals, and find the hidden object. You must choose your answer from the Choice List.\n<image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image>The person uses multiple similar objects to play an occlusion game. Where is the hidden object at the end of the game from the person's point of view?\nChoice list: \nA. Under the first object from the left.\nB. Under the fourth object from the left.\nC. Under the third object from the left.\nAnswer with the option's letter from the given choices directly.",
+        "gt_response": "Under the first object from the left.",
+        "gen_kwargs": {
+            "do_sample": false,
+            "num_beams": 1,
+            "max_new_tokens": 32,
+            "eos_token_id": 92542
+        },
+        "pred_response": "C"
+    },
+    {
+        "sample_id": 158,
+        "question": "Evaluate the images, and find the hidden object. You must choose your answer from the Choice List.\n<image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image>The person uses multiple similar objects to play an occlusion game. Where is the hidden object at the end of the game from the person's point of view?\nChoice list: \nA. Under the third object from the left.\nB. Under the second object from the left.\nC. Under the first object from the left.\nAnswer with the option's letter from the given choices directly.",
+        "gt_response": "Under the third object from the left.",
+        "gen_kwargs": {
+            "do_sample": false,
+            "num_beams": 1,
+            "max_new_tokens": 32,
+            "eos_token_id": 92542
+        },
+        "pred_response": "C"
+    },
+    {
+        "sample_id": 161,
+        "question": "Evaluate the images, and find the hidden object. You must choose your answer from the Choice List.\n<image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image>The person uses multiple similar objects to play an occlusion game. Where is the hidden object at the end of the game from the person's point of view?\nChoice list: \nA. Under the third object from the left.\nB. Under the second object from the left.\nC. Under the first object from the left.\nAnswer with the option's letter from the given choices directly.",
+        "gt_response": "Under the third object from the left.",
+        "gen_kwargs": {
+            "do_sample": false,
+            "num_beams": 1,
+            "max_new_tokens": 32,
+            "eos_token_id": 92542
+        },
+        "pred_response": "A"
+    },
+    {
+        "sample_id": 165,
+        "question": "Assess the presented graphics, and find the hidden object. You must choose your answer from the Choice List.\n<image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image>The person uses multiple similar objects to play an occlusion game. Where is the hidden object at the end of the game from the person's point of view?\nChoice list: \nA. Under the first object from the left.\nB. Under the second object from the left.\nC. Under the third object from the left.\nAnswer with the option's letter from the given choices directly.",
+        "gt_response": "Under the first object from the left.",
+        "gen_kwargs": {
+            "do_sample": false,
+            "num_beams": 1,
+            "max_new_tokens": 32,
+            "eos_token_id": 92542
+        },
+        "pred_response": "A"
+    },
+    {
+        "sample_id": 95,
+        "question": "Investigate the given graphics, and find the hidden object. You must choose your answer from the Choice List.\n<image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image>The person uses multiple similar objects to play an occlusion game. Where is the hidden object at the end of the game from the person's point of view?\nChoice list: \nA. Under the third object from the left.\nB. Under the first object from the left.\nC. Under the second object from the left.\nAnswer with the option's letter from the given choices directly.",
+        "gt_response": "Under the third object from the left.",
+        "gen_kwargs": {
+            "do_sample": false,
+            "num_beams": 1,
+            "max_new_tokens": 32,
+            "eos_token_id": 92542
+        },
+        "pred_response": "A"
+    },
+    {
+        "sample_id": 98,
+        "question": "Analyze the provided pictures, and find the hidden object. You must choose your answer from the Choice List.\n<image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image>The person uses multiple similar objects to play an occlusion game. Where is the hidden object at the end of the game from the person's point of view?\nChoice list: \nA. Under the farthest object from the person.\nB. Under the middle object.\nC. Under the closest object to the person.\nAnswer with the option's letter from the given choices directly.",
+        "gt_response": "Under the farthest object from the person.",
+        "gen_kwargs": {
+            "do_sample": false,
+            "num_beams": 1,
+            "max_new_tokens": 32,
+            "eos_token_id": 92542
+        },
+        "pred_response": "B"
+    },
+    {
+        "sample_id": 126,
+        "question": "Based on the provided images, and find the hidden object. You must choose your answer from the Choice List.\n<image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image>The person uses multiple similar objects to play an occlusion game. Where is the hidden object at the end of the game from the person's point of view?\nChoice list: \nA. Under the second object from the left.\nB. Under the first object from the left.\nC. Under the third object from the left.\nAnswer with the option's letter from the given choices directly.",
+        "gt_response": "Under the first object from the left.",
+        "gen_kwargs": {
+            "do_sample": false,
+            "num_beams": 1,
+            "max_new_tokens": 32,
+            "eos_token_id": 92542
+        },
+        "pred_response": "B"
+    },
+    {
+        "sample_id": 138,
+        "question": "Analyze the provided pictures, and find the hidden object. You must choose your answer from the Choice List.\n<image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image>The person uses multiple similar objects to play an occlusion game. Where is the hidden object at the end of the game from the person's point of view?\nChoice list: \nA. Under the third object from the left.\nB. Under the first object from the left.\nC. Under the second object from the left.\nAnswer with the option's letter from the given choices directly.",
+        "gt_response": "Under the third object from the left.",
+        "gen_kwargs": {
+            "do_sample": false,
+            "num_beams": 1,
+            "max_new_tokens": 32,
+            "eos_token_id": 92542
+        },
+        "pred_response": "C"
+    },
+    {
+        "sample_id": 118,
+        "question": "Observe the provided pictorials, and find the hidden object. You must choose your answer from the Choice List.\n<image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image>The person uses multiple similar objects to play an occlusion game. Where is the hidden object at the end of the game from the person's point of view?\nChoice list: \nA. Under the third object from the left.\nB. Under the first object from the left.\nC. Under the second object from the left.\nAnswer with the option's letter from the given choices directly.",
+        "gt_response": "Under the second object from the left.",
+        "gen_kwargs": {
+            "do_sample": false,
+            "num_beams": 1,
+            "max_new_tokens": 32,
+            "eos_token_id": 92542
+        },
+        "pred_response": "B"
+    },
+    {
+        "sample_id": 120,
+        "question": "Evaluate the images, and find the hidden object. You must choose your answer from the Choice List.\n<image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image>The person uses multiple similar objects to play an occlusion game. Where is the hidden object at the end of the game from the person's point of view?\nChoice list: \nA. Under the second object from the left.\nB. Under the first object from the left.\nC. Under the third object from the left.\nAnswer with the option's letter from the given choices directly.",
+        "gt_response": "Under the second object from the left.",
+        "gen_kwargs": {
+            "do_sample": false,
+            "num_beams": 1,
+            "max_new_tokens": 32,
+            "eos_token_id": 92542
+        },
+        "pred_response": "B"
+    },
+    {
+        "sample_id": 85,
+        "question": "Examine the supplied visuals, and find the hidden object. You must choose your answer from the Choice List.\n<image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image>The person uses multiple similar objects to play an occlusion game. Where is the hidden object at the end of the game from the person's point of view?\nChoice list: \nA. Under the first object from the left.\nB. Under the third object from the left.\nC. Under the second object from the left.\nAnswer with the option's letter from the given choices directly.",
+        "gt_response": "Under the second object from the left.",
+        "gen_kwargs": {
+            "do_sample": false,
+            "num_beams": 1,
+            "max_new_tokens": 32,
+            "eos_token_id": 92542
+        },
+        "pred_response": "C"
+    },
+    {
+        "sample_id": 106,
+        "question": "Based on the provided images, and find the hidden object. You must choose your answer from the Choice List.\n<image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image>The person uses multiple similar objects to play an occlusion game. Where is the hidden object at the end of the game from the person's point of view?\nChoice list: \nA. Under the second object from the left.\nB. Under the first object from the left.\nC. Under the third object from the left.\nAnswer with the option's letter from the given choices directly.",
+        "gt_response": "Under the second object from the left.",
+        "gen_kwargs": {
+            "do_sample": false,
+            "num_beams": 1,
+            "max_new_tokens": 32,
+            "eos_token_id": 92542
+        },
+        "pred_response": "A"
+    },
+    {
+        "sample_id": 155,
+        "question": "Inspect the presented pictures, and find the hidden object. You must choose your answer from the Choice List.\n<image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image>The person uses multiple similar objects to play an occlusion game. Where is the hidden object at the end of the game from the person's point of view?\nChoice list: \nA. Under the second object from the left.\nB. Under the first object from the left.\nC. Under the third object from the left.\nAnswer with the option's letter from the given choices directly.",
+        "gt_response": "Under the first object from the left.",
+        "gen_kwargs": {
+            "do_sample": false,
+            "num_beams": 1,
+            "max_new_tokens": 32,
+            "eos_token_id": 92542
+        },
+        "pred_response": "A"
+    },
+    {
+        "sample_id": 142,
+        "question": "Investigate the given graphics, and find the hidden object. You must choose your answer from the Choice List.\n<image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image>The person uses multiple similar objects to play an occlusion game. Where is the hidden object at the end of the game from the person's point of view?\nChoice list: \nA. Under the second object from the left.\nB. Under the third object from the left.\nC. Under the first object from the left.\nAnswer with the option's letter from the given choices directly.",
+        "gt_response": "Under the first object from the left.",
+        "gen_kwargs": {
+            "do_sample": false,
+            "num_beams": 1,
+            "max_new_tokens": 32,
+            "eos_token_id": 92542
+        },
+        "pred_response": "B"
+    },
+    {
+        "sample_id": 156,
+        "question": "Review the supplied imagery, and find the hidden object. You must choose your answer from the Choice List.\n<image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image>The person uses multiple similar objects to play an occlusion game. Where is the hidden object at the end of the game from the person's point of view?\nChoice list: \nA. Under the second object from the left.\nB. Under the first object from the left.\nC. Under the third object from the left.\nAnswer with the option's letter from the given choices directly.",
+        "gt_response": "Under the second object from the left.",
+        "gen_kwargs": {
+            "do_sample": false,
+            "num_beams": 1,
+            "max_new_tokens": 32,
+            "eos_token_id": 92542
+        },
+        "pred_response": "A"
+    },
+    {
+        "sample_id": 86,
+        "question": "Observe the provided pictorials, and find the hidden object. You must choose your answer from the Choice List.\n<image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image>The person uses multiple similar objects to play an occlusion game. Where is the hidden object at the end of the game from the person's point of view?\nChoice list: \nA. Under the first object from the left.\nB. Under the third object from the left.\nC. Under the second object from the left.\nAnswer with the option's letter from the given choices directly.",
+        "gt_response": "Under the second object from the left.",
+        "gen_kwargs": {
+            "do_sample": false,
+            "num_beams": 1,
+            "max_new_tokens": 32,
+            "eos_token_id": 92542
+        },
+        "pred_response": "C"
+    },
+    {
+        "sample_id": 75,
+        "question": "Analyze the provided pictures, and find the hidden object. You must choose your answer from the Choice List.\n<image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image>The person uses multiple similar objects to play an occlusion game. Where is the hidden object at the end of the game from the person's point of view?\nChoice list: \nA. Under the third object from the left.\nB. Under the second object from the left.\nC. Under the first object from the left.\nAnswer with the option's letter from the given choices directly.",
+        "gt_response": "Under the third object from the left.",
+        "gen_kwargs": {
+            "do_sample": false,
+            "num_beams": 1,
+            "max_new_tokens": 32,
+            "eos_token_id": 92542
+        },
+        "pred_response": "A"
+    },
+    {
+        "sample_id": 130,
+        "question": "Examine the supplied visuals, and find the hidden object. You must choose your answer from the Choice List.\n<image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image>The person uses multiple similar objects to play an occlusion game. Where is the hidden object at the end of the game from the person's point of view?\nChoice list: \nA. Under the third object from the left.\nB. Under the second object from the left.\nC. Under the first object from the left.\nAnswer with the option's letter from the given choices directly.",
+        "gt_response": "Under the second object from the left.",
+        "gen_kwargs": {
+            "do_sample": false,
+            "num_beams": 1,
+            "max_new_tokens": 32,
+            "eos_token_id": 92542
+        },
+        "pred_response": "B"
+    },
+    {
+        "sample_id": 147,
+        "question": "Inspect the presented pictures, and find the hidden object. You must choose your answer from the Choice List.\n<image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image>The person uses multiple similar objects to play an occlusion game. Where is the hidden object at the end of the game from the person's point of view?\nChoice list: \nA. Under the second object from the left.\nB. Under the third object from the left.\nC. Under the first object from the left.\nAnswer with the option's letter from the given choices directly.",
+        "gt_response": "Under the second object from the left.",
+        "gen_kwargs": {
+            "do_sample": false,
+            "num_beams": 1,
+            "max_new_tokens": 32,
+            "eos_token_id": 92542
+        },
+        "pred_response": "B"
+    },
+    {
+        "sample_id": 136,
+        "question": "Review the supplied imagery, and find the hidden object. You must choose your answer from the Choice List.\n<image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image>The person uses multiple similar objects to play an occlusion game. Where is the hidden object at the end of the game from the person's point of view?\nChoice list: \nA. Under the third object from the left.\nB. Under the first object from the left.\nC. Under the second object from the left.\nAnswer with the option's letter from the given choices directly.",
+        "gt_response": "Under the third object from the left.",
+        "gen_kwargs": {
+            "do_sample": false,
+            "num_beams": 1,
+            "max_new_tokens": 32,
+            "eos_token_id": 92542
+        },
+        "pred_response": "B"
+    },
+    {
+        "sample_id": 175,
+        "question": "Investigate the given graphics, and find the hidden object. You must choose your answer from the Choice List.\n<image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image>The person uses multiple similar objects to play an occlusion game. Where is the hidden object at the end of the game from the person's point of view?\nChoice list: \nA. Under the second object from the left.\nB. Under the third object from the left.\nC. Under the first object from the left.\nAnswer with the option's letter from the given choices directly.",
+        "gt_response": "Under the first object from the left.",
+        "gen_kwargs": {
+            "do_sample": false,
+            "num_beams": 1,
+            "max_new_tokens": 32,
+            "eos_token_id": 92542
+        },
+        "pred_response": "C"
+    },
+    {
+        "sample_id": 143,
+        "question": "Examine the supplied visuals, and find the hidden object. You must choose your answer from the Choice List.\n<image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image>The person uses multiple similar objects to play an occlusion game. Where is the hidden object at the end of the game from the person's point of view?\nChoice list: \nA. Under the first object from the left.\nB. Under the second object from the left.\nC. Under the third object from the left.\nAnswer with the option's letter from the given choices directly.",
+        "gt_response": "Under the first object from the left.",
+        "gen_kwargs": {
+            "do_sample": false,
+            "num_beams": 1,
+            "max_new_tokens": 32,
+            "eos_token_id": 92542
+        },
+        "pred_response": "B"
+    },
+    {
+        "sample_id": 124,
+        "question": "Investigate the given graphics, and find the hidden object. You must choose your answer from the Choice List.\n<image><image><image><image><image><image><image><image><image><image><image><image><image><image>The person uses multiple similar objects to play an occlusion game. Where is the hidden object at the end of the game from the person's point of view?\nChoice list: \nA. Under the first object from the left.\nB. Under the third object from the left.\nC. Under the second object from the left.\nAnswer with the option's letter from the given choices directly.",
+        "gt_response": "Under the first object from the left.",
+        "gen_kwargs": {
+            "do_sample": false,
+            "num_beams": 1,
+            "max_new_tokens": 32,
+            "eos_token_id": 92542
+        },
+        "pred_response": "B"
+    },
+    {
+        "sample_id": 135,
+        "question": "Scrutinize the given visuals, and find the hidden object. You must choose your answer from the Choice List.\n<image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image>The person uses multiple similar objects to play an occlusion game. Where is the hidden object at the end of the game from the person's point of view?\nChoice list: \nA. Under the second object from the left.\nB. Under the first object from the left.\nC. Under the third object from the left.\nAnswer with the option's letter from the given choices directly.",
+        "gt_response": "Under the third object from the left.",
+        "gen_kwargs": {
+            "do_sample": false,
+            "num_beams": 1,
+            "max_new_tokens": 32,
+            "eos_token_id": 92542
+        },
+        "pred_response": "B"
+    },
+    {
+        "sample_id": 170,
+        "question": "Scrutinize the given visuals, and find the hidden object. You must choose your answer from the Choice List.\n<image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image>The person uses multiple similar objects to play an occlusion game. Where is the hidden object at the end of the game from the person's point of view?\nChoice list: \nA. Under the third object from the left.\nB. Under the first object from the left.\nC. Under the second object from the left.\nAnswer with the option's letter from the given choices directly.",
+        "gt_response": "Under the third object from the left.",
+        "gen_kwargs": {
+            "do_sample": false,
+            "num_beams": 1,
+            "max_new_tokens": 32,
+            "eos_token_id": 92542
+        },
+        "pred_response": "B"
+    },
+    {
+        "sample_id": 169,
+        "question": "Inspect the presented pictures, and find the hidden object. You must choose your answer from the Choice List.\n<image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image>The person uses multiple similar objects to play an occlusion game. Where is the hidden object at the end of the game from the person's point of view?\nChoice list: \nA. Under the third object from the left.\nB. Under the first object from the left.\nC. Under the second object from the left.\nAnswer with the option's letter from the given choices directly.",
+        "gt_response": "Under the first object from the left.",
+        "gen_kwargs": {
+            "do_sample": false,
+            "num_beams": 1,
+            "max_new_tokens": 32,
+            "eos_token_id": 92542
+        },
+        "pred_response": "B"
+    },
+    {
+        "sample_id": 152,
+        "question": "Assess the presented graphics, and find the hidden object. You must choose your answer from the Choice List.\n<image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image>The person uses multiple similar objects to play an occlusion game. Where is the hidden object at the end of the game from the person's point of view?\nChoice list: \nA. Under the second object from the left.\nB. Under the third object from the left.\nC. Under the first object from the left.\nAnswer with the option's letter from the given choices directly.",
+        "gt_response": "Under the second object from the left.",
+        "gen_kwargs": {
+            "do_sample": false,
+            "num_beams": 1,
+            "max_new_tokens": 32,
+            "eos_token_id": 92542
+        },
+        "pred_response": "A"
+    },
+    {
+        "sample_id": 149,
+        "question": "Analyze the provided pictures, and find the hidden object. You must choose your answer from the Choice List.\n<image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image>The person uses multiple similar objects to play an occlusion game. Where is the hidden object at the end of the game from the person's point of view?\nChoice list: \nA. Under the second object from the left.\nB. Under the third object from the left.\nC. Under the first object from the left.\nAnswer with the option's letter from the given choices directly.",
+        "gt_response": "Under the first object from the left.",
+        "gen_kwargs": {
+            "do_sample": false,
+            "num_beams": 1,
+            "max_new_tokens": 32,
+            "eos_token_id": 92542
+        },
+        "pred_response": "C"
+    },
+    {
+        "sample_id": 123,
+        "question": "Examine the supplied visuals, and find the hidden object. You must choose your answer from the Choice List.\n<image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image>The person uses multiple similar objects to play an occlusion game. Where is the hidden object at the end of the game from the person's point of view?\nChoice list: \nA. Under the third object from the left.\nB. Under the first object from the left.\nC. Under the second object from the left.\nAnswer with the option's letter from the given choices directly.",
+        "gt_response": "Under the third object from the left.",
+        "gen_kwargs": {
+            "do_sample": false,
+            "num_beams": 1,
+            "max_new_tokens": 32,
+            "eos_token_id": 92542
+        },
+        "pred_response": "B"
+    },
+    {
+        "sample_id": 141,
+        "question": "Based on the provided images, and find the hidden object. You must choose your answer from the Choice List.\n<image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image>The person uses multiple similar objects to play an occlusion game. Where is the hidden object at the end of the game from the person's point of view?\nChoice list: \nA. Under the first object from the left.\nB. Under the third object from the left.\nC. Under the second object from the left.\nAnswer with the option's letter from the given choices directly.",
+        "gt_response": "Under the second object from the left.",
+        "gen_kwargs": {
+            "do_sample": false,
+            "num_beams": 1,
+            "max_new_tokens": 32,
+            "eos_token_id": 92542
+        },
+        "pred_response": "A"
+    },
+    {
+        "sample_id": 128,
+        "question": "Review the supplied imagery, and find the hidden object. You must choose your answer from the Choice List.\n<image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image>The person uses multiple similar objects to play an occlusion game. Where is the hidden object at the end of the game from the person's point of view?\nChoice list: \nA. Under the first object from the left.\nB. Under the second object from the left.\nC. Under the third object from the left.\nAnswer with the option's letter from the given choices directly.",
+        "gt_response": "Under the first object from the left.",
+        "gen_kwargs": {
+            "do_sample": false,
+            "num_beams": 1,
+            "max_new_tokens": 32,
+            "eos_token_id": 92542
+        },
+        "pred_response": "B"
+    },
+    {
+        "sample_id": 131,
+        "question": "Observe the provided pictorials, and find the hidden object. You must choose your answer from the Choice List.\n<image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image>The person uses multiple similar objects to play an occlusion game. Where is the hidden object at the end of the game from the person's point of view?\nChoice list: \nA. Under the first object from the left.\nB. Under the second object from the left.\nC. Under the third object from the left.\nAnswer with the option's letter from the given choices directly.",
+        "gt_response": "Under the second object from the left.",
+        "gen_kwargs": {
+            "do_sample": false,
+            "num_beams": 1,
+            "max_new_tokens": 32,
+            "eos_token_id": 92542
+        },
+        "pred_response": "B"
+    },
+    {
+        "sample_id": 163,
+        "question": "Observe the provided pictorials, and find the hidden object. You must choose your answer from the Choice List.\n<image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image>The person uses multiple similar objects to play an occlusion game. Where is the hidden object at the end of the game from the person's point of view?\nChoice list: \nA. Under the middle object.\nB. Under the closest object to the person.\nC. Under the farthest object from the person.\nAnswer with the option's letter from the given choices directly.",
+        "gt_response": "Under the middle object.",
+        "gen_kwargs": {
+            "do_sample": false,
+            "num_beams": 1,
+            "max_new_tokens": 32,
+            "eos_token_id": 92542
+        },
+        "pred_response": "B"
+    },
+    {
+        "sample_id": 162,
+        "question": "Scrutinize the given visuals, and find the hidden object. You must choose your answer from the Choice List.\n<image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image>The person uses multiple similar objects to play an occlusion game. Where is the hidden object at the end of the game from the person's point of view?\nChoice list: \nA. Under the closest object to the person.\nB. Under the farthest object from the person.\nC. Under the middle object.\nAnswer with the option's letter from the given choices directly.",
+        "gt_response": "Under the farthest object from the person.",
+        "gen_kwargs": {
+            "do_sample": false,
+            "num_beams": 1,
+            "max_new_tokens": 32,
+            "eos_token_id": 92542
+        },
+        "pred_response": "A"
+    },
+    {
+        "sample_id": 173,
+        "question": "Examine the supplied visuals, and find the hidden object. You must choose your answer from the Choice List.\n<image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image>The person uses multiple similar objects to play an occlusion game. Where is the hidden object at the end of the game from the person's point of view?\nChoice list: \nA. Under the first object from the left.\nB. Under the third object from the left.\nC. Under the second object from the left.\nAnswer with the option's letter from the given choices directly.",
+        "gt_response": "Under the first object from the left.",
+        "gen_kwargs": {
+            "do_sample": false,
+            "num_beams": 1,
+            "max_new_tokens": 32,
+            "eos_token_id": 92542
+        },
+        "pred_response": "C"
+    },
+    {
+        "sample_id": 109,
+        "question": "Analyze the provided pictures, and find the hidden object. You must choose your answer from the Choice List.\n<image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image>The person uses multiple similar objects to play an occlusion game. Where is the hidden object at the end of the game from the person's point of view?\nChoice list: \nA. Under the first object from the left.\nB. Under the second object from the left.\nC. Under the third object from the left.\nAnswer with the option's letter from the given choices directly.",
+        "gt_response": "Under the first object from the left.",
+        "gen_kwargs": {
+            "do_sample": false,
+            "num_beams": 1,
+            "max_new_tokens": 32,
+            "eos_token_id": 92542
+        },
+        "pred_response": "B"
+    },
+    {
+        "sample_id": 113,
+        "question": "Assess the presented graphics, and find the hidden object. You must choose your answer from the Choice List.\n<image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image>The person uses multiple similar objects to play an occlusion game. Where is the hidden object at the end of the game from the person's point of view?\nChoice list: \nA. Under the third object from the left.\nB. Under the first object from the left.\nC. Under the second object from the left.\nAnswer with the option's letter from the given choices directly.",
+        "gt_response": "Under the second object from the left.",
+        "gen_kwargs": {
+            "do_sample": false,
+            "num_beams": 1,
+            "max_new_tokens": 32,
+            "eos_token_id": 92542
+        },
+        "pred_response": "C"
+    },
+    {
+        "sample_id": 159,
+        "question": "Evaluate the images, and find the hidden object. You must choose your answer from the Choice List.\n<image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image>The person uses multiple similar objects to play an occlusion game. Where is the hidden object at the end of the game from the person's point of view?\nChoice list: \nA. Under the first object from the left.\nB. Under the second object from the left.\nC. Under the third object from the left.\nAnswer with the option's letter from the given choices directly.",
+        "gt_response": "Under the first object from the left.",
+        "gen_kwargs": {
+            "do_sample": false,
+            "num_beams": 1,
+            "max_new_tokens": 32,
+            "eos_token_id": 92542
+        },
+        "pred_response": "B"
+    },
+    {
+        "sample_id": 171,
+        "question": "Observe the provided pictorials, and find the hidden object. You must choose your answer from the Choice List.\n<image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image>The person uses multiple similar objects to play an occlusion game. Where is the hidden object at the end of the game from the person's point of view?\nChoice list: \nA. Under the third object from the left.\nB. Under the first object from the left.\nC. Under the second object from the left.\nAnswer with the option's letter from the given choices directly.",
+        "gt_response": "Under the third object from the left.",
+        "gen_kwargs": {
+            "do_sample": false,
+            "num_beams": 1,
+            "max_new_tokens": 32,
+            "eos_token_id": 92542
+        },
+        "pred_response": "A"
+    },
+    {
+        "sample_id": 145,
+        "question": "Evaluate the images, and find the hidden object. You must choose your answer from the Choice List.\n<image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image>The person uses multiple similar objects to play an occlusion game. Where is the hidden object at the end of the game from the person's point of view?\nChoice list: \nA. Under the third object from the left.\nB. Under the first object from the left.\nC. Under the second object from the left.\nAnswer with the option's letter from the given choices directly.",
+        "gt_response": "Under the third object from the left.",
+        "gen_kwargs": {
+            "do_sample": false,
+            "num_beams": 1,
+            "max_new_tokens": 32,
+            "eos_token_id": 92542
+        },
+        "pred_response": "B"
+    },
+    {
+        "sample_id": 177,
+        "question": "Investigate the given graphics, and find the hidden object. You must choose your answer from the Choice List.\n<image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image>The person uses multiple similar objects to play an occlusion game. Where is the hidden object at the end of the game from the person's point of view?\nChoice list: \nA. Under the closest object to the person.\nB. Under the farthest object from the person.\nC. Under the middle object.\nAnswer with the option's letter from the given choices directly.",
+        "gt_response": "Under the middle object.",
+        "gen_kwargs": {
+            "do_sample": false,
+            "num_beams": 1,
+            "max_new_tokens": 32,
+            "eos_token_id": 92542
+        },
+        "pred_response": "A"
+    },
+    {
+        "sample_id": 146,
+        "question": "Examine the supplied visuals, and find the hidden object. You must choose your answer from the Choice List.\n<image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image>The person uses multiple similar objects to play an occlusion game. Where is the hidden object at the end of the game from the person's point of view?\nChoice list: \nA. Under the third object from the left.\nB. Under the second object from the left.\nC. Under the first object from the left.\nAnswer with the option's letter from the given choices directly.",
+        "gt_response": "Under the third object from the left.",
+        "gen_kwargs": {
+            "do_sample": false,
+            "num_beams": 1,
+            "max_new_tokens": 32,
+            "eos_token_id": 92542
+        },
+        "pred_response": "B"
+    },
+    {
+        "sample_id": 132,
+        "question": "Inspect the presented pictures, and find the hidden object. You must choose your answer from the Choice List.\n<image><image><image><image><image><image><image><image><image><image><image><image><image><image>The person uses multiple similar objects to play an occlusion game. Where is the hidden object at the end of the game from the person's point of view?\nChoice list: \nA. Under the third object from the left.\nB. Under the second object from the left.\nC. Under the first object from the left.\nAnswer with the option's letter from the given choices directly.",
+        "gt_response": "Under the second object from the left.",
+        "gen_kwargs": {
+            "do_sample": false,
+            "num_beams": 1,
+            "max_new_tokens": 32,
+            "eos_token_id": 92542
+        },
+        "pred_response": "A"
+    },
+    {
+        "sample_id": 176,
+        "question": "Examine the supplied visuals, and find the hidden object. You must choose your answer from the Choice List.\n<image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image>The person uses multiple similar objects to play an occlusion game. Where is the hidden object at the end of the game from the person's point of view?\nChoice list: \nA. Under the second object from the left.\nB. Under the first object from the left.\nC. Under the third object from the left.\nAnswer with the option's letter from the given choices directly.",
+        "gt_response": "Under the second object from the left.",
+        "gen_kwargs": {
+            "do_sample": false,
+            "num_beams": 1,
+            "max_new_tokens": 32,
+            "eos_token_id": 92542
+        },
+        "pred_response": "B"
+    },
+    {
+        "sample_id": 174,
+        "question": "Analyze the provided pictures, and find the hidden object. You must choose your answer from the Choice List.\n<image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image>The person uses multiple similar objects to play an occlusion game. Where is the hidden object at the end of the game from the person's point of view?\nChoice list: \nA. Under the first object from the left.\nB. Under the third object from the left.\nC. Under the second object from the left.\nAnswer with the option's letter from the given choices directly.",
+        "gt_response": "Under the second object from the left.",
+        "gen_kwargs": {
+            "do_sample": false,
+            "num_beams": 1,
+            "max_new_tokens": 32,
+            "eos_token_id": 92542
+        },
+        "pred_response": "B"
+    },
+    {
+        "sample_id": 172,
+        "question": "Analyze the provided pictures, and find the hidden object. You must choose your answer from the Choice List.\n<image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image>The person uses multiple similar objects to play an occlusion game. Where is the hidden object at the end of the game from the person's point of view?\nChoice list: \nA. Under the first object from the left.\nB. Under the second object from the left.\nC. Under the third object from the left.\nAnswer with the option's letter from the given choices directly.",
+        "gt_response": "Under the first object from the left.",
+        "gen_kwargs": {
+            "do_sample": false,
+            "num_beams": 1,
+            "max_new_tokens": 32,
+            "eos_token_id": 92542
+        },
+        "pred_response": "B"
+    },
+    {
+        "sample_id": 153,
+        "question": "Assess the presented graphics, and find the hidden object. You must choose your answer from the Choice List.\n<image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image>The person uses multiple similar objects to play an occlusion game. Where is the hidden object at the end of the game from the person's point of view?\nChoice list: \nA. Under the middle object.\nB. Under the closest object to the person.\nC. Under the farthest object from the person.\nAnswer with the option's letter from the given choices directly.",
+        "gt_response": "Under the middle object.",
+        "gen_kwargs": {
+            "do_sample": false,
+            "num_beams": 1,
+            "max_new_tokens": 32,
+            "eos_token_id": 92542
+        },
+        "pred_response": "B"
+    },
+    {
+        "sample_id": 157,
+        "question": "Evaluate the images, and find the hidden object. You must choose your answer from the Choice List.\n<image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image>The person uses multiple similar objects to play an occlusion game. Where is the hidden object at the end of the game from the person's point of view?\nChoice list: \nA. Under the middle object.\nB. Under the farthest object from the person.\nC. Under the closest object to the person.\nAnswer with the option's letter from the given choices directly.",
+        "gt_response": "Under the middle object.",
+        "gen_kwargs": {
+            "do_sample": false,
+            "num_beams": 1,
+            "max_new_tokens": 32,
+            "eos_token_id": 92542
+        },
+        "pred_response": "C"
+    },
+    {
+        "sample_id": 160,
+        "question": "Scrutinize the given visuals, and find the hidden object. You must choose your answer from the Choice List.\n<image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image>The person uses multiple similar objects to play an occlusion game. Where is the hidden object at the end of the game from the person's point of view?\nChoice list: \nA. Under the first object from the left.\nB. Under the third object from the left.\nC. Under the second object from the left.\nAnswer with the option's letter from the given choices directly.",
+        "gt_response": "Under the third object from the left.",
+        "gen_kwargs": {
+            "do_sample": false,
+            "num_beams": 1,
+            "max_new_tokens": 32,
+            "eos_token_id": 92542
+        },
+        "pred_response": "C"
+    },
+    {
+        "sample_id": 167,
+        "question": "Scrutinize the given visuals, and find the hidden object. You must choose your answer from the Choice List.\n<image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image>The person uses multiple similar objects to play an occlusion game. Where is the hidden object at the end of the game from the person's point of view?\nChoice list: \nA. Under the third object from the left.\nB. Under the first object from the left.\nC. Under the second object from the left.\nAnswer with the option's letter from the given choices directly.",
+        "gt_response": "Under the first object from the left.",
+        "gen_kwargs": {
+            "do_sample": false,
+            "num_beams": 1,
+            "max_new_tokens": 32,
+            "eos_token_id": 92542
+        },
+        "pred_response": "C"
+    },
+    {
+        "sample_id": 133,
+        "question": "Scrutinize the given visuals, and find the hidden object. You must choose your answer from the Choice List.\n<image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image>The person uses multiple similar objects to play an occlusion game. Where is the hidden object at the end of the game from the person's point of view?\nChoice list: \nA. Under the third object from the left.\nB. Under the second object from the left.\nC. Under the first object from the left.\nAnswer with the option's letter from the given choices directly.",
+        "gt_response": "Under the first object from the left.",
+        "gen_kwargs": {
+            "do_sample": false,
+            "num_beams": 1,
+            "max_new_tokens": 32,
+            "eos_token_id": 92542
+        },
+        "pred_response": "C"
+    },
+    {
+        "sample_id": 150,
+        "question": "Examine the supplied visuals, and find the hidden object. You must choose your answer from the Choice List.\n<image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image>The person uses multiple similar objects to play an occlusion game. Where is the hidden object at the end of the game from the person's point of view?\nChoice list: \nA. Under the first object from the left.\nB. Under the second object from the left.\nC. Under the third object from the left.\nAnswer with the option's letter from the given choices directly.",
+        "gt_response": "Under the second object from the left.",
+        "gen_kwargs": {
+            "do_sample": false,
+            "num_beams": 1,
+            "max_new_tokens": 32,
+            "eos_token_id": 92542
+        },
+        "pred_response": "B"
+    },
+    {
+        "sample_id": 166,
+        "question": "Review the supplied imagery, and find the hidden object. You must choose your answer from the Choice List.\n<image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image>The person uses multiple similar objects to play an occlusion game. Where is the hidden object at the end of the game from the person's point of view?\nChoice list: \nA. Under the third object from the left.\nB. Under the first object from the left.\nC. Under the second object from the left.\nAnswer with the option's letter from the given choices directly.",
+        "gt_response": "Under the third object from the left.",
+        "gen_kwargs": {
+            "do_sample": false,
+            "num_beams": 1,
+            "max_new_tokens": 32,
+            "eos_token_id": 92542
+        },
+        "pred_response": "B"
+    },
+    {
+        "sample_id": 183,
+        "question": "Evaluate the images, and find the hidden object. You must choose your answer from the Choice List.\n<image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image>The person uses multiple similar objects to play an occlusion game. Where is the hidden object at the end of the game from the person's point of view?\nChoice list: \nA. Under the farthest object from the person.\nB. Under the closest object to the person.\nC. Under the middle object.\nAnswer with the option's letter from the given choices directly.",
+        "gt_response": "Under the middle object.",
+        "gen_kwargs": {
+            "do_sample": false,
+            "num_beams": 1,
+            "max_new_tokens": 32,
+            "eos_token_id": 92542
+        },
+        "pred_response": "B"
+    },
+    {
+        "sample_id": 168,
+        "question": "Evaluate the images, and find the hidden object. You must choose your answer from the Choice List.\n<image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image>The person uses multiple similar objects to play an occlusion game. Where is the hidden object at the end of the game from the person's point of view?\nChoice list: \nA. Under the first object from the left.\nB. Under the second object from the left.\nC. Under the third object from the left.\nAnswer with the option's letter from the given choices directly.",
+        "gt_response": "Under the third object from the left.",
+        "gen_kwargs": {
+            "do_sample": false,
+            "num_beams": 1,
+            "max_new_tokens": 32,
+            "eos_token_id": 92542
+        },
+        "pred_response": "B"
+    },
+    {
+        "sample_id": 164,
+        "question": "Scrutinize the given visuals, and find the hidden object. You must choose your answer from the Choice List.\n<image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image>The person uses multiple similar objects to play an occlusion game. Where is the hidden object at the end of the game from the person's point of view?\nChoice list: \nA. Under the first object from the left.\nB. Under the third object from the left.\nC. Under the second object from the left.\nAnswer with the option's letter from the given choices directly.",
+        "gt_response": "Under the third object from the left.",
+        "gen_kwargs": {
+            "do_sample": false,
+            "num_beams": 1,
+            "max_new_tokens": 32,
+            "eos_token_id": 92542
+        },
+        "pred_response": "C"
+    },
+    {
+        "sample_id": 190,
+        "question": "Evaluate the images, and find the hidden object. You must choose your answer from the Choice List.\n<image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image>The person uses multiple similar objects to play an occlusion game. Where is the hidden object at the end of the game from the person's point of view?\nChoice list: \nA. Under the second object from the left.\nB. Under the first object from the left.\nC. Under the third object from the left.\nAnswer with the option's letter from the given choices directly.",
+        "gt_response": "Under the second object from the left.",
+        "gen_kwargs": {
+            "do_sample": false,
+            "num_beams": 1,
+            "max_new_tokens": 32,
+            "eos_token_id": 92542
+        },
+        "pred_response": "C"
+    },
+    {
+        "sample_id": 199,
+        "question": "Evaluate the images, and find the hidden object. You must choose your answer from the Choice List.\n<image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image>The person uses multiple similar objects to play an occlusion game. Where is the hidden object at the end of the game from the person's point of view?\nChoice list: \nA. Under the second object from the left.\nB. Under the first object from the left.\nC. Under the fourth object from the left.\nAnswer with the option's letter from the given choices directly.",
+        "gt_response": "Under the first object from the left.",
+        "gen_kwargs": {
+            "do_sample": false,
+            "num_beams": 1,
+            "max_new_tokens": 32,
+            "eos_token_id": 92542
+        },
+        "pred_response": "A"
+    },
+    {
+        "sample_id": 184,
+        "question": "Examine the supplied visuals, and find the hidden object. You must choose your answer from the Choice List.\n<image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image>The person uses multiple similar objects to play an occlusion game. Where is the hidden object at the end of the game from the person's point of view?\nChoice list: \nA. Under the first object from the left.\nB. Under the third object from the left.\nC. Under the second object from the left.\nAnswer with the option's letter from the given choices directly.",
+        "gt_response": "Under the second object from the left.",
+        "gen_kwargs": {
+            "do_sample": false,
+            "num_beams": 1,
+            "max_new_tokens": 32,
+            "eos_token_id": 92542
+        },
+        "pred_response": "B"
+    },
+    {
+        "sample_id": 151,
+        "question": "Examine the supplied visuals, and find the hidden object. You must choose your answer from the Choice List.\n<image><image><image><image><image><image><image><image><image><image><image><image><image><image>The person uses multiple similar objects to play an occlusion game. Where is the hidden object at the end of the game from the person's point of view?\nChoice list: \nA. Under the farthest object from the person.\nB. Under the closest object to the person.\nC. Under the middle object.\nAnswer with the option's letter from the given choices directly.",
+        "gt_response": "Under the middle object.",
+        "gen_kwargs": {
+            "do_sample": false,
+            "num_beams": 1,
+            "max_new_tokens": 32,
+            "eos_token_id": 92542
+        },
+        "pred_response": "B"
+    },
+    {
+        "sample_id": 181,
+        "question": "Observe the provided pictorials, and find the hidden object. You must choose your answer from the Choice List.\n<image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image>The person uses multiple similar objects to play an occlusion game. Where is the hidden object at the end of the game from the person's point of view?\nChoice list: \nA. Under the first object from the left.\nB. Under the second object from the left.\nC. Under the third object from the left.\nAnswer with the option's letter from the given choices directly.",
+        "gt_response": "Under the second object from the left.",
+        "gen_kwargs": {
+            "do_sample": false,
+            "num_beams": 1,
+            "max_new_tokens": 32,
+            "eos_token_id": 92542
+        },
+        "pred_response": "C"
+    },
+    {
+        "sample_id": 193,
+        "question": "Scrutinize the given visuals, and find the hidden object. You must choose your answer from the Choice List.\n<image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image>The person uses multiple similar objects to play an occlusion game. Where is the hidden object at the end of the game from the person's point of view?\nChoice list: \nA. Under the first object from the left.\nB. Under the second object from the left.\nC. Under the third object from the left.\nAnswer with the option's letter from the given choices directly.",
+        "gt_response": "Under the second object from the left.",
+        "gen_kwargs": {
+            "do_sample": false,
+            "num_beams": 1,
+            "max_new_tokens": 32,
+            "eos_token_id": 92542
+        },
+        "pred_response": "A"
+    },
+    {
+        "sample_id": 189,
+        "question": "Scrutinize the given visuals, and find the hidden object. You must choose your answer from the Choice List.\n<image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image>The person uses multiple similar objects to play an occlusion game. Where is the hidden object at the end of the game from the person's point of view?\nChoice list: \nA. Under the third object from the left.\nB. Under the second object from the left.\nC. Under the first object from the left.\nAnswer with the option's letter from the given choices directly.",
+        "gt_response": "Under the second object from the left.",
+        "gen_kwargs": {
+            "do_sample": false,
+            "num_beams": 1,
+            "max_new_tokens": 32,
+            "eos_token_id": 92542
+        },
+        "pred_response": "C"
+    },
+    {
+        "sample_id": 182,
+        "question": "Assess the presented graphics, and find the hidden object. You must choose your answer from the Choice List.\n<image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image>The person uses multiple similar objects to play an occlusion game. Where is the hidden object at the end of the game from the person's point of view?\nChoice list: \nA. Under the second object from the left.\nB. Under the first object from the left.\nC. Under the third object from the left.\nAnswer with the option's letter from the given choices directly.",
+        "gt_response": "Under the third object from the left.",
+        "gen_kwargs": {
+            "do_sample": false,
+            "num_beams": 1,
+            "max_new_tokens": 32,
+            "eos_token_id": 92542
+        },
+        "pred_response": "B"
+    },
+    {
+        "sample_id": 178,
+        "question": "Review the supplied imagery, and find the hidden object. You must choose your answer from the Choice List.\n<image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image>The person uses multiple similar objects to play an occlusion game. Where is the hidden object at the end of the game from the person's point of view?\nChoice list: \nA. Under the third object from the left.\nB. Under the first object from the left.\nC. Under the second object from the left.\nAnswer with the option's letter from the given choices directly.",
+        "gt_response": "Under the first object from the left.",
+        "gen_kwargs": {
+            "do_sample": false,
+            "num_beams": 1,
+            "max_new_tokens": 32,
+            "eos_token_id": 92542
+        },
+        "pred_response": "B"
+    },
+    {
+        "sample_id": 195,
+        "question": "Observe the provided pictorials, and find the hidden object. You must choose your answer from the Choice List.\n<image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image>The person uses multiple similar objects to play an occlusion game. Where is the hidden object at the end of the game from the person's point of view?\nChoice list: \nA. Under the second object from the left.\nB. Under the third object from the left.\nC. Under the first object from the left.\nAnswer with the option's letter from the given choices directly.",
+        "gt_response": "Under the first object from the left.",
+        "gen_kwargs": {
+            "do_sample": false,
+            "num_beams": 1,
+            "max_new_tokens": 32,
+            "eos_token_id": 92542
+        },
+        "pred_response": "C"
+    },
+    {
+        "sample_id": 186,
+        "question": "Examine the supplied visuals, and find the hidden object. You must choose your answer from the Choice List.\n<image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image>The person uses multiple similar objects to play an occlusion game. Where is the hidden object at the end of the game from the person's point of view?\nChoice list: \nA. Under the second object from the left.\nB. Under the first object from the left.\nC. Under the third object from the left.\nAnswer with the option's letter from the given choices directly.",
+        "gt_response": "Under the third object from the left.",
+        "gen_kwargs": {
+            "do_sample": false,
+            "num_beams": 1,
+            "max_new_tokens": 32,
+            "eos_token_id": 92542
+        },
+        "pred_response": "A"
+    },
+    {
+        "sample_id": 194,
+        "question": "Scrutinize the given visuals, and find the hidden object. You must choose your answer from the Choice List.\n<image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image>The person uses multiple similar objects to play an occlusion game. Where is the hidden object at the end of the game from the person's point of view?\nChoice list: \nA. Under the third object from the left.\nB. Under the second object from the left.\nC. Under the first object from the left.\nAnswer with the option's letter from the given choices directly.",
+        "gt_response": "Under the first object from the left.",
+        "gen_kwargs": {
+            "do_sample": false,
+            "num_beams": 1,
+            "max_new_tokens": 32,
+            "eos_token_id": 92542
+        },
+        "pred_response": "C"
+    },
+    {
+        "sample_id": 197,
+        "question": "Evaluate the images, and find the hidden object. You must choose your answer from the Choice List.\n<image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image>The person uses multiple similar objects to play an occlusion game. Where is the hidden object at the end of the game from the person's point of view?\nChoice list: \nA. Under the third object from the left.\nB. Under the second object from the left.\nC. Under the first object from the left.\nAnswer with the option's letter from the given choices directly.",
+        "gt_response": "Under the first object from the left.",
+        "gen_kwargs": {
+            "do_sample": false,
+            "num_beams": 1,
+            "max_new_tokens": 32,
+            "eos_token_id": 92542
+        },
+        "pred_response": "C"
+    },
+    {
+        "sample_id": 196,
+        "question": "Evaluate the images, and find the hidden object. You must choose your answer from the Choice List.\n<image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image>The person uses multiple similar objects to play an occlusion game. Where is the hidden object at the end of the game from the person's point of view?\nChoice list: \nA. Under the middle object.\nB. Under the farthest object from the person.\nC. Under the closest object to the person.\nAnswer with the option's letter from the given choices directly.",
+        "gt_response": "Under the middle object.",
+        "gen_kwargs": {
+            "do_sample": false,
+            "num_beams": 1,
+            "max_new_tokens": 32,
+            "eos_token_id": 92542
+        },
+        "pred_response": "C"
+    },
+    {
+        "sample_id": 179,
+        "question": "Observe the provided pictorials, and find the hidden object. You must choose your answer from the Choice List.\n<image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image>The person uses multiple similar objects to play an occlusion game. Where is the hidden object at the end of the game from the person's point of view?\nChoice list: \nA. Under the second object from the left.\nB. Under the first object from the left.\nC. Under the fourth object from the left.\nAnswer with the option's letter from the given choices directly.",
+        "gt_response": "Under the second object from the left.",
+        "gen_kwargs": {
+            "do_sample": false,
+            "num_beams": 1,
+            "max_new_tokens": 32,
+            "eos_token_id": 92542
+        },
+        "pred_response": "B"
+    },
+    {
+        "sample_id": 180,
+        "question": "Evaluate the images, and find the hidden object. You must choose your answer from the Choice List.\n<image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image>The person uses multiple similar objects to play an occlusion game. Where is the hidden object at the end of the game from the person's point of view?\nChoice list: \nA. Under the third object from the left.\nB. Under the second object from the left.\nC. Under the fourth object from the left.\nAnswer with the option's letter from the given choices directly.",
+        "gt_response": "Under the fourth object from the left.",
+        "gen_kwargs": {
+            "do_sample": false,
+            "num_beams": 1,
+            "max_new_tokens": 32,
+            "eos_token_id": 92542
+        },
+        "pred_response": "B"
+    },
+    {
+        "sample_id": 192,
+        "question": "Evaluate the images, and find the hidden object. You must choose your answer from the Choice List.\n<image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image>The person uses multiple similar objects to play an occlusion game. Where is the hidden object at the end of the game from the person's point of view?\nChoice list: \nA. Under the third object from the left.\nB. Under the second object from the left.\nC. Under the first object from the left.\nAnswer with the option's letter from the given choices directly.",
+        "gt_response": "Under the third object from the left.",
+        "gen_kwargs": {
+            "do_sample": false,
+            "num_beams": 1,
+            "max_new_tokens": 32,
+            "eos_token_id": 92542
+        },
+        "pred_response": "C"
+    },
+    {
+        "sample_id": 198,
+        "question": "Examine the supplied visuals, and find the hidden object. You must choose your answer from the Choice List.\n<image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image>The person uses multiple similar objects to play an occlusion game. Where is the hidden object at the end of the game from the person's point of view?\nChoice list: \nA. Under the farthest object from the person.\nB. Under the middle object.\nC. Under the closest object to the person.\nAnswer with the option's letter from the given choices directly.",
+        "gt_response": "Under the closest object to the person.",
+        "gen_kwargs": {
+            "do_sample": false,
+            "num_beams": 1,
+            "max_new_tokens": 32,
+            "eos_token_id": 92542
+        },
+        "pred_response": "C"
+    }
+]

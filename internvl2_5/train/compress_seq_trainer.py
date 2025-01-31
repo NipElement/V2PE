@@ -542,7 +542,10 @@ class chunkTrainer(Trainer):
                     inputs = None
 
                 inputs = [inputs]
-                dist.broadcast_object_list(inputs, src=self.group_idx*8,group=self.group)
+                # dist.broadcast_object_list(inputs, src=self.group_idx*8,group=self.group)
+                src = self.group_idx * self.chunk_num
+                dist.broadcast_object_list(inputs, src=src, group=self.group)
+
                 inputs = inputs[0]
 
                 if inputs is None:
@@ -550,10 +553,11 @@ class chunkTrainer(Trainer):
                 if step==0:
                     step+=1
                     continue
-                inputs=pad_packed_inputs(inputs,dist.get_world_size(self.group))
-                # chunked_inputs=chunk2(inputs, self.chunk_num)
-                
-                # inputs=chunked_inputs[self.inner_idx]
+                if self.chunk_num > 1:
+                    inputs=pad_packed_inputs(inputs,dist.get_world_size(self.group))
+                    # chunked_inputs=chunk2(inputs, self.chunk_num)
+                    
+                    # inputs=chunked_inputs[self.inner_idx]
                 
                 total_batched_samples += 1
 
