@@ -41,6 +41,7 @@ def parse_args():
 
 
     args = parser.parse_args()
+    print(f'{args.checkpoint=}')
     print(f'{args.rope_pos_id_version=}')
 
     args.output_dir = os.path.join(args.output_dir, f"{args.dataset_name}")
@@ -268,6 +269,13 @@ def main(args):
                             num_patches_list=num_patches_list,
                             generation_config=generation_config
                         )  # list[dict], with the key "answer" added to each item
+                        # pred = model.chat_mllava(
+                        #     tokenizer=tokenizer,
+                        #     pixel_values=pixel_values,
+                        #     question=question,
+                        #     num_patches_list=num_patches_list,
+                        #     generation_config=generation_config
+                        # )  # list[dict], with the key "answer" added to each item
                     else:
                         pred = model.chat(
                             tokenizer=tokenizer,

@@ -10,6 +10,8 @@ from internvl2_5.model.internvl_chat import InternVLChatModel
 from transformers import AutoTokenizer, AutoConfig
 from internvl2_5.train.dataset import build_transform, dynamic_preprocess
 from eval.mm_niah.tools import get_input, init_dist
+from mantis.models.mllava import chat_mllava
+from mantis.models.mllava import MLlavaProcessor, LlavaForConditionalGeneration
 
 os.environ['PYTORCH_CUDA_ALLOC_CONF'] = 'max_split_size_mb:128'
 
@@ -50,6 +52,7 @@ def load_image(image_file, dynamic_image_size=True, input_size=448, max_num=12, 
 
 
 def build_model(args):
+    # print(f"Rank [{args.rank}] Begin to build model from checkpoint {args.checkpoint}")
 
     num_gpus = torch.cuda.device_count()
 
@@ -58,7 +61,6 @@ def build_model(args):
     if len(visible_devices) > 1:
         device_map = {}
         config = AutoConfig.from_pretrained(args.checkpoint, trust_remote_code=True)
-
 
         num_gpus_for_vit = 1
         num_gpus_for_llm = len(visible_devices) - num_gpus_for_vit
@@ -95,7 +97,7 @@ def build_model(args):
     if args.rank == 0:
         for k, v in device_map.items():
             print(k, v)
-
+    print(f"Rank [{args.rank}] model = InternVLChatModel.from_pretrained: {args.checkpoint}")
     model = InternVLChatModel.from_pretrained(
         args.checkpoint,
         torch_dtype=torch.bfloat16,
@@ -103,6 +105,15 @@ def build_model(args):
         trust_remote_code=True,
         device_map=device_map,
     ).eval()
+    # processor = MLlavaProcessor.from_pretrained(args.checkpoint)
+    # model = LlavaForConditionalGeneration.from_pretrained(
+    #     args.checkpoint,
+    #     torch_dtype=torch.bfloat16,
+    #     low_cpu_mem_usage=True,
+    #     trust_remote_code=True,
+    #     device_map=device_map,
+    #     attn_implementation="flash_attention_2"
+    # ).eval()
 
     tokenizer = AutoTokenizer.from_pretrained(args.checkpoint, trust_remote_code=True)
 

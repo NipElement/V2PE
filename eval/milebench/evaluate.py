@@ -209,6 +209,7 @@ class Eval:
             # 1. Char+Choice: `A. Blastomycosis`
             option_str = "|".join([preprocess_option_string(f"{k} {v}")for k,v in option.items()])
             option_pattern = rf'({option_str})'
+            # option_pattern = rf'\b({option_str})\b'
             option_res = re.search(option_pattern, text, re.S)   # NOTE we dont use match_all
             if option_res:
                 return (option_res.group(0)[0]).upper()
@@ -216,6 +217,7 @@ class Eval:
             # 2. Choice: `Blastomycosis`
             option_str = "|".join([preprocess_option_string(v).replace(' ', '') for k,v in option.items()])
             option_pattern = rf'({option_str})'
+            # option_pattern = rf'\b({option_str})\b'
             option_res = re.search(option_pattern, text.replace(' ', ''), re.S)   # NOTE we dont use match_all
             if option_res:
                 for k, v in option.items():
@@ -223,9 +225,12 @@ class Eval:
                         return k.upper()
             
             # 3. Char: `A` `AB`
-            if len(text) in [1,2] and text.upper() in option.keys():
-                return text.upper()
-
+            # if len(text) in [1,2] and text.upper() in option.keys():
+            #     return text.upper()
+            # only return first char
+            match = re.findall(r'\b[A-D]\b', text.upper())
+            if len(match) == 1:
+                return match[0]
             # use gpt extract
 
         except Exception as e:
