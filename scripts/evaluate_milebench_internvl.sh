@@ -8,7 +8,7 @@ export MASTER_ADDR=$MLP_WORKER_0_HOST
 export MASTER_PORT=$MLP_WORKER_0_PORT
 export LOCAL_RANK=$(($RANK % $MLP_WORKER_GPU))
 CHECKPOINT="/map-vepfs/yuansheng/LongContext/V2PE/pretrained/InternVL2_5-8B"
-LOG_DIR=eval_logs/milebench/invervl2_5_8b_test
+LOG_DIR=eval_logs/milebench/invernvl2_5_8b
 
 echo "Starting evaluation for MileBench tasks"
 echo "Distribution: $MLP_WORKER_NUM nodes, $MLP_WORKER_GPU GPUs per node, $WORLD_SIZE total processes, $RANK current process, $LOCAL_RANK local rank, $MASTER_ADDR master address, $MASTER_PORT master port".
@@ -48,7 +48,7 @@ declare -a tasks=( \
     'nuscenes' \
 )
 
-model_name="invervl2_5_2b"
+model_name="invernvl2_5_8b"
 
 for ((j=0; j<${#tasks[@]}; j++)); do
 
