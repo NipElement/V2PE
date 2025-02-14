@@ -9,14 +9,14 @@ from functools import partial
 import torch
 from data_utils import CAT_SHORT2LONG, process_single_sample
 from datasets import concatenate_datasets, load_dataset
-from internvl.model.internvl_chat import InternVLChatModel
-from internvl.train.dataset import build_transform, dynamic_preprocess
+from internvl2_5.model.internvl_chat import InternVLChatModel
+from internvl2_5.train.dataset import build_transform, dynamic_preprocess
 from PIL import Image
 from torch.utils.data import Dataset
 from tqdm import tqdm
 from transformers import AutoTokenizer
 
-cache_dir = "/mnt/petrelfs/wangweiyun/workspace_zyc/.cache/MMMU"
+cache_dir = "/map-vepfs/yuansheng/tmp/MMMU"
 
 ds_collections = {
     'MMMU_validation': {
@@ -328,10 +328,10 @@ def evaluate_chat_model():
 if __name__ == '__main__':
     parser = argparse.ArgumentParser()
     parser.add_argument('--checkpoint', type=str, default='')
-    parser.add_argument('--datasets', type=str, default='MMMU_dev')
+    parser.add_argument('--datasets', type=str, default='MMMU_validation')
     parser.add_argument('--batch-size', type=int, default=1)
     parser.add_argument('--num-workers', type=int, default=1)
-    parser.add_argument('--num-beams', type=int, default=5)
+    parser.add_argument('--num-beams', type=int, default=1)
     parser.add_argument('--temperature', type=float, default=0.0)
     parser.add_argument('--out-dir', type=str, default='results')
     parser.add_argument('--seed', type=int, default=0)

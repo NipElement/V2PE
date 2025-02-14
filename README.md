@@ -285,9 +285,9 @@ wget https://datasets.cvc.uab.es/rrc/DocVQA/val.tar.gz --no-check-certificate
 wget https://datasets.cvc.uab.es/rrc/DocVQA/test.tar.gz --no-check-certificate
 
 # unzip files
-tar -zxvf train.tar.gz
-tar -zxvf val.tar.gz
-tar -zxvf test.tar.gz
+tar -xvf train.tar.gz
+tar -xvf val.tar.gz
+tar -xvf test.tar.gz
 
 # download converted jsonl files
 wget https://ofasys-wlcb.oss-cn-wulanchabu.aliyuncs.com/Qwen-VL/evaluation/docvqa/train.jsonl

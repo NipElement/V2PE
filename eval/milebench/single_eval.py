@@ -106,7 +106,7 @@ if __name__ == '__main__':
     main(args)
 '''
 python eval/milebench/single_eval.py \
-    --output_root /map-vepfs/yuansheng/LongContext/V2PE/eval/milebench \
+    --output_root /map-vepfs/yuansheng/LongContext/V2PE/eval/milebench/milebench \
     --overwrite \
-    --num_threads 16
+    --num_threads 32
 '''

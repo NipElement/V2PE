@@ -68,7 +68,7 @@ def calculate_averages(data, task_categories):
 
 # 输出结果为表格
 def output_table(results, model_name):
-    shortened_name = model_name.replace("invervl2_5_8b_stage1_mammoth-", "")
+    shortened_name = model_name.replace("internvl2_5_8b_stage1_mammoth-", "")
     df = pd.DataFrame(results)
     df[shortened_name] = df["Average Score"].map(lambda x: f"{x:.1f}")
     df = df.drop(columns=["Average Score"])
@@ -76,7 +76,8 @@ def output_table(results, model_name):
 
 # 主函数
 def main():
-    base_path = "/map-vepfs/yuansheng/LongContext/V2PE/eval_logs/milebench"
+    # base_path = "/map-vepfs/yuansheng/LongContext/V2PE/eval_logs/milebench"
+    base_path = "/map-vepfs/yuansheng/LongContext/V2PE/eval_logs/milebench_stage2"
     model_dirs = [d for d in os.listdir(base_path) if os.path.isdir(os.path.join(base_path, d))]
 
     all_results = []

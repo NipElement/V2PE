@@ -180,6 +180,8 @@ class InternVLChatModel(PreTrainedModel):
             loss_reduction_all_gather: Optional[bool] = False,
             origin_cu_seq_lens: Optional[torch.Tensor] = None,
     ) -> Union[Tuple, CausalLMOutputWithPast]:
+        # print("[0] start forward")
+        # print(attention_mask)
         if isinstance(position_ids,list):
             position_ids=torch.tensor(position_ids).to(input_ids.device)
         return_dict = return_dict if return_dict is not None else self.config.use_return_dict
@@ -195,6 +197,8 @@ class InternVLChatModel(PreTrainedModel):
             local_group=None
         image_flags = image_flags.squeeze(-1)
         input_embeds = self.language_model.get_input_embeddings()(input_ids).clone()
+        # print("[0.1] after get_input_embeddings")
+        # print(attention_mask)
         if self.attn_type:
             if self.attn_type=='ring':
                 group_size = dist.get_world_size(group)
@@ -275,7 +279,8 @@ class InternVLChatModel(PreTrainedModel):
                 # print("Rank",dist.get_rank(group),"attention_mask",attention_mask)
                 # print("Rank",dist.get_rank(group),"input_embeds",input_embeds.shape)
                 # exit(1)
-
+        # print("[1] outputs = self.language_model(")
+        # print(attention_mask)
         outputs = self.language_model(
             inputs_embeds=input_embeds,
             attention_mask=attention_mask,
@@ -501,6 +506,7 @@ class InternVLChatModel(PreTrainedModel):
                 pos_ids.append(cur_pos_id)
                 
             pos_ids=torch.stack(pos_ids)
+            # print(self.attn_type)
             if self.attn_type=='ulysses' or self.attn_type=='ring':
                 if input_ids.shape[1]%(2*dist.get_world_size())!=0:
                     num_padding = 2*dist.get_world_size()-input_ids.shape[1]%(2*dist.get_world_size())
@@ -516,6 +522,7 @@ class InternVLChatModel(PreTrainedModel):
                     pos_padding = torch.arange(max_pos_id, max_pos_id + num_padding, device=input_ids.device)
                     pos_padding = pos_padding.unsqueeze(0).expand(input_ids.shape[0], -1)
                     pos_ids = torch.cat([pos_ids, pos_padding], dim=1)
+                    # print(f"[DEBUG] after padding, pos_ids.shape = {pos_ids.shape}")
             generation_output = self.generate(
                 pixel_values=pixel_values,
                 input_ids=input_ids,
@@ -597,6 +604,9 @@ class InternVLChatModel(PreTrainedModel):
                 former_shape = input_embeds.shape
                 input_embeds=extract_local(input_embeds,dist.get_rank(),dist.get_world_size())
                 attention_mask=extract_local(attention_mask,dist.get_rank(),dist.get_world_size())
+        # print(f"[DEBUG] before language_model.generate():")
+        # print(f"  inputs_embeds.shape={input_embeds.shape if input_embeds is not None else None}")
+        # print(f"  attention_mask.shape={attention_mask.shape}")
         outputs = self.language_model.generate(
             inputs_embeds=input_embeds,
             attention_mask=attention_mask,

@@ -1,0 +1,2402 @@
+[
+    {
+        "sample_id": 132,
+        "question": "Based on the given images, identify the state change. You must choose your answer from the Choice List.\n<image><image><image><image><image><image><image><image><image>If the person tried to turn on the electric device and it was not working, what was the reason for that?\nChoice list: \nA. The electric device did not work most likely because it was already unplugged at the beginning of the video.\nB. The device worked when the person tried to turn it on.\nC. The electric device did not work because the person unplugged the device during the video.\nAnswer with the option's letter from the given choices directly.",
+        "gt_response": "The device worked when the person tried to turn it on.",
+        "gen_kwargs": {
+            "do_sample": false,
+            "num_beams": 1,
+            "max_new_tokens": 32,
+            "eos_token_id": 92542
+        },
+        "pred_response": "C"
+    },
+    {
+        "sample_id": 25,
+        "question": "Using the images at hand, infer the state change. You must choose your answer from the Choice List.\n<image><image><image><image><image><image><image><image><image><image>The person interacts with a lighting device among other objects. Is the lighting device on at any point?\nChoice list: \nA. no\nB. yes\nC. I don't know\nAnswer with the option's letter from the given choices directly.",
+        "gt_response": "no",
+        "gen_kwargs": {
+            "do_sample": false,
+            "num_beams": 1,
+            "max_new_tokens": 32,
+            "eos_token_id": 92542
+        },
+        "pred_response": "B"
+    },
+    {
+        "sample_id": 11,
+        "question": "From the images presented, ascertain the state change in the query. You must choose your answer from the Choice List.\n<image><image><image><image><image><image><image><image><image><image><image>The person interacts with a lighting device among other objects. Is the lighting device on at any point?\nChoice list: \nA. yes\nB. I don't know\nC. no\nAnswer with the option's letter from the given choices directly.",
+        "gt_response": "no",
+        "gen_kwargs": {
+            "do_sample": false,
+            "num_beams": 1,
+            "max_new_tokens": 32,
+            "eos_token_id": 92542
+        },
+        "pred_response": "A"
+    },
+    {
+        "sample_id": 151,
+        "question": "From the images presented, ascertain the state change in the query. You must choose your answer from the Choice List.\n<image><image><image><image><image><image><image><image><image><image><image><image>The person interacts with a lighting device among other objects. Is the lighting device on at any point?\nChoice list: \nA. I don't know\nB. yes\nC. no\nAnswer with the option's letter from the given choices directly.",
+        "gt_response": "yes",
+        "gen_kwargs": {
+            "do_sample": false,
+            "num_beams": 1,
+            "max_new_tokens": 32,
+            "eos_token_id": 92542
+        },
+        "pred_response": "B"
+    },
+    {
+        "sample_id": 18,
+        "question": "Given the visuals, discern the state change. You must choose your answer from the Choice List.\n<image><image><image><image><image><image><image><image><image><image><image><image><image>If the person tried to turn on the electric device and it was not working, what was the reason for that?\nChoice list: \nA. The electric device did not work most likely because it was already unplugged at the beginning of the video.\nB. The device worked when the person tried to turn it on.\nC. The electric device did not work because the person unplugged the device during the video.\nAnswer with the option's letter from the given choices directly.",
+        "gt_response": "The electric device did not work most likely because it was already unplugged at the beginning of the video.",
+        "gen_kwargs": {
+            "do_sample": false,
+            "num_beams": 1,
+            "max_new_tokens": 32,
+            "eos_token_id": 92542
+        },
+        "pred_response": "C"
+    },
+    {
+        "sample_id": 22,
+        "question": "Observe the given images and deduce the state change. You must choose your answer from the Choice List.\n<image><image><image><image><image><image><image><image><image><image><image><image><image>If the person tried to turn on the electric device and it was not working, what was the reason for that?\nChoice list: \nA. The electric device did not work because the person unplugged the device during the video.\nB. The device worked when the person tried to turn it on.\nC. The electric device did not work most likely because it was already unplugged at the beginning of the video.\nAnswer with the option's letter from the given choices directly.",
+        "gt_response": "The device worked when the person tried to turn it on.",
+        "gen_kwargs": {
+            "do_sample": false,
+            "num_beams": 1,
+            "max_new_tokens": 32,
+            "eos_token_id": 92542
+        },
+        "pred_response": "C"
+    },
+    {
+        "sample_id": 19,
+        "question": "Analyze the provided visuals and determine the change of the state in question. You must choose your answer from the Choice List.\n<image><image><image><image><image><image><image><image><image><image><image><image><image><image>The person interacts with a lighting device among other objects. Is the lighting device on at any point?\nChoice list: \nA. yes\nB. no\nC. I don't know\nAnswer with the option's letter from the given choices directly.",
+        "gt_response": "yes",
+        "gen_kwargs": {
+            "do_sample": false,
+            "num_beams": 1,
+            "max_new_tokens": 32,
+            "eos_token_id": 92542
+        },
+        "pred_response": "A"
+    },
+    {
+        "sample_id": 12,
+        "question": "From the images presented, ascertain the state change in the query. You must choose your answer from the Choice List.\n<image><image><image><image><image><image><image><image><image><image><image><image><image><image><image>The person interacts with a lighting device among other objects. Is the lighting device on at any point?\nChoice list: \nA. yes\nB. I don't know\nC. no\nAnswer with the option's letter from the given choices directly.",
+        "gt_response": "no",
+        "gen_kwargs": {
+            "do_sample": false,
+            "num_beams": 1,
+            "max_new_tokens": 32,
+            "eos_token_id": 92542
+        },
+        "pred_response": "A"
+    },
+    {
+        "sample_id": 1,
+        "question": "Examine the given illustrations and deduce the state change. You must choose your answer from the Choice List.\n<image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image>If the person tried to turn on the electric device and it was not working, what was the reason for that?\nChoice list: \nA. The electric device did not work because the person unplugged the device during the video.\nB. The electric device did not work most likely because it was already unplugged at the beginning of the video.\nC. The device worked when the person tried to turn it on.\nAnswer with the option's letter from the given choices directly.",
+        "gt_response": "The device worked when the person tried to turn it on.",
+        "gen_kwargs": {
+            "do_sample": false,
+            "num_beams": 1,
+            "max_new_tokens": 32,
+            "eos_token_id": 92542
+        },
+        "pred_response": "B"
+    },
+    {
+        "sample_id": 8,
+        "question": "Evaluate the presented graphics and infer the state change. You must choose your answer from the Choice List.\n<image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image>The person interacts with a lighting device among other objects. Is the lighting device on at any point?\nChoice list: \nA. I don't know\nB. yes\nC. no\nAnswer with the option's letter from the given choices directly.",
+        "gt_response": "yes",
+        "gen_kwargs": {
+            "do_sample": false,
+            "num_beams": 1,
+            "max_new_tokens": 32,
+            "eos_token_id": 92542
+        },
+        "pred_response": "B"
+    },
+    {
+        "sample_id": 2,
+        "question": "Given the visuals, discern the state change. You must choose your answer from the Choice List.\n<image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image>The person interacts with a lighting device among other objects. Is the lighting device on at any point?\nChoice list: \nA. I don't know\nB. no\nC. yes\nAnswer with the option's letter from the given choices directly.",
+        "gt_response": "no",
+        "gen_kwargs": {
+            "do_sample": false,
+            "num_beams": 1,
+            "max_new_tokens": 32,
+            "eos_token_id": 92542
+        },
+        "pred_response": "C"
+    },
+    {
+        "sample_id": 21,
+        "question": "Evaluate the presented graphics and infer the state change. You must choose your answer from the Choice List.\n<image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image>If the person tried to turn on the electric device and it was not working, what was the reason for that?\nChoice list: \nA. The device worked when the person tried to turn it on.\nB. The electric device did not work because the person unplugged the device during the video.\nC. The electric device did not work most likely because it was already unplugged at the beginning of the video.\nAnswer with the option's letter from the given choices directly.",
+        "gt_response": "The device worked when the person tried to turn it on.",
+        "gen_kwargs": {
+            "do_sample": false,
+            "num_beams": 1,
+            "max_new_tokens": 32,
+            "eos_token_id": 92542
+        },
+        "pred_response": "B"
+    },
+    {
+        "sample_id": 70,
+        "question": "Examine the given illustrations and deduce the state change. You must choose your answer from the Choice List.\n<image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image>Is the bag empty at the end?\nChoice list: \nA. Yes\nB. No\nC. The person doesn't interact with a bag.\nAnswer with the option's letter from the given choices directly.",
+        "gt_response": "Yes",
+        "gen_kwargs": {
+            "do_sample": false,
+            "num_beams": 1,
+            "max_new_tokens": 32,
+            "eos_token_id": 92542
+        },
+        "pred_response": "B"
+    },
+    {
+        "sample_id": 79,
+        "question": "Analyze the provided visuals and determine the change of the state in question. You must choose your answer from the Choice List.\n<image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image>The person interacts with a lighting device among other objects. Is the lighting device on at any point?\nChoice list: \nA. yes\nB. no\nC. I don't know\nAnswer with the option's letter from the given choices directly.",
+        "gt_response": "yes",
+        "gen_kwargs": {
+            "do_sample": false,
+            "num_beams": 1,
+            "max_new_tokens": 32,
+            "eos_token_id": 92542
+        },
+        "pred_response": "A"
+    },
+    {
+        "sample_id": 10,
+        "question": "Using the images at hand, infer the state change. You must choose your answer from the Choice List.\n<image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image>What can you say about the temperature of the water being poured?\nChoice list: \nA. The water seems cold.\nB. No water was poured.\nC. The water seems hot.\nAnswer with the option's letter from the given choices directly.",
+        "gt_response": "The water seems cold.",
+        "gen_kwargs": {
+            "do_sample": false,
+            "num_beams": 1,
+            "max_new_tokens": 32,
+            "eos_token_id": 92542
+        },
+        "pred_response": "C"
+    },
+    {
+        "sample_id": 30,
+        "question": "Inspect the presented illustrations and conclude the state change. You must choose your answer from the Choice List.\n<image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image>The person interacts with a lighting device among other objects. Is the lighting device on at any point?\nChoice list: \nA. yes\nB. I don't know\nC. no\nAnswer with the option's letter from the given choices directly.",
+        "gt_response": "yes",
+        "gen_kwargs": {
+            "do_sample": false,
+            "num_beams": 1,
+            "max_new_tokens": 32,
+            "eos_token_id": 92542
+        },
+        "pred_response": "A"
+    },
+    {
+        "sample_id": 52,
+        "question": "Evaluate the presented graphics and infer the state change. You must choose your answer from the Choice List.\n<image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image>What can you say about the temperature of the water being poured?\nChoice list: \nA. The water seems cold.\nB. The water seems hot.\nC. No water was poured.\nAnswer with the option's letter from the given choices directly.",
+        "gt_response": "The water seems cold.",
+        "gen_kwargs": {
+            "do_sample": false,
+            "num_beams": 1,
+            "max_new_tokens": 32,
+            "eos_token_id": 92542
+        },
+        "pred_response": "B"
+    },
+    {
+        "sample_id": 7,
+        "question": "Examine the given illustrations and deduce the state change. You must choose your answer from the Choice List.\n<image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image>The person interacts with a lighting device among other objects. Is the lighting device on at any point?\nChoice list: \nA. no\nB. yes\nC. I don't know\nAnswer with the option's letter from the given choices directly.",
+        "gt_response": "no",
+        "gen_kwargs": {
+            "do_sample": false,
+            "num_beams": 1,
+            "max_new_tokens": 32,
+            "eos_token_id": 92542
+        },
+        "pred_response": "B"
+    },
+    {
+        "sample_id": 31,
+        "question": "Evaluate the presented graphics and infer the state change. You must choose your answer from the Choice List.\n<image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image>If the person tried to turn on the electric device and it was not working, what was the reason for that?\nChoice list: \nA. The electric device did not work most likely because it was already unplugged at the beginning of the video.\nB. The electric device did not work because the person unplugged the device during the video.\nC. The device worked when the person tried to turn it on.\nAnswer with the option's letter from the given choices directly.",
+        "gt_response": "The device worked when the person tried to turn it on.",
+        "gen_kwargs": {
+            "do_sample": false,
+            "num_beams": 1,
+            "max_new_tokens": 32,
+            "eos_token_id": 92542
+        },
+        "pred_response": "A"
+    },
+    {
+        "sample_id": 47,
+        "question": "Evaluate the presented graphics and infer the state change. You must choose your answer from the Choice List.\n<image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image>Is the bag empty at the end?\nChoice list: \nA. The person doesn't interact with a bag.\nB. No\nC. Yes\nAnswer with the option's letter from the given choices directly.",
+        "gt_response": "Yes",
+        "gen_kwargs": {
+            "do_sample": false,
+            "num_beams": 1,
+            "max_new_tokens": 32,
+            "eos_token_id": 92542
+        },
+        "pred_response": "C"
+    },
+    {
+        "sample_id": 5,
+        "question": "Review the supplied visuals and ascertain the state change. You must choose your answer from the Choice List.\n<image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image>If the person tried to turn on the electric device and it was not working, what was the reason for that?\nChoice list: \nA. The electric device seemed plugged in, but it did not work most likely because it is broken or there is no electricity.\nB. The electric device did not work because the person unplugged the device during the video.\nC. The device worked when the person tried to turn it on.\nAnswer with the option's letter from the given choices directly.",
+        "gt_response": "The electric device seemed plugged in, but it did not work most likely because it is broken or there is no electricity.",
+        "gen_kwargs": {
+            "do_sample": false,
+            "num_beams": 1,
+            "max_new_tokens": 32,
+            "eos_token_id": 92542
+        },
+        "pred_response": "A"
+    },
+    {
+        "sample_id": 53,
+        "question": "From the images presented, ascertain the state change in the query. You must choose your answer from the Choice List.\n<image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image>What can you say about the temperature of the water being poured?\nChoice list: \nA. The water seems cold.\nB. No water was poured.\nC. The water seems hot.\nAnswer with the option's letter from the given choices directly.",
+        "gt_response": "The water seems hot.",
+        "gen_kwargs": {
+            "do_sample": false,
+            "num_beams": 1,
+            "max_new_tokens": 32,
+            "eos_token_id": 92542
+        },
+        "pred_response": "C"
+    },
+    {
+        "sample_id": 28,
+        "question": "Review the supplied visuals and ascertain the state change. You must choose your answer from the Choice List.\n<image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image>The person interacts with a lighting device among other objects. Is the lighting device on at any point?\nChoice list: \nA. no\nB. yes\nC. I don't know\nAnswer with the option's letter from the given choices directly.",
+        "gt_response": "yes",
+        "gen_kwargs": {
+            "do_sample": false,
+            "num_beams": 1,
+            "max_new_tokens": 32,
+            "eos_token_id": 92542
+        },
+        "pred_response": "B"
+    },
+    {
+        "sample_id": 38,
+        "question": "Given the visuals, discern the state change. You must choose your answer from the Choice List.\n<image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image>The person interacts with a lighting device among other objects. Is the lighting device on at any point?\nChoice list: \nA. I don't know\nB. no\nC. yes\nAnswer with the option's letter from the given choices directly.",
+        "gt_response": "no",
+        "gen_kwargs": {
+            "do_sample": false,
+            "num_beams": 1,
+            "max_new_tokens": 32,
+            "eos_token_id": 92542
+        },
+        "pred_response": "C"
+    },
+    {
+        "sample_id": 14,
+        "question": "Observe the given images and deduce the state change. You must choose your answer from the Choice List.\n<image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image>The person interacts with a lighting device among other objects. Is the lighting device on at any point?\nChoice list: \nA. no\nB. yes\nC. I don't know\nAnswer with the option's letter from the given choices directly.",
+        "gt_response": "yes",
+        "gen_kwargs": {
+            "do_sample": false,
+            "num_beams": 1,
+            "max_new_tokens": 32,
+            "eos_token_id": 92542
+        },
+        "pred_response": "B"
+    },
+    {
+        "sample_id": 3,
+        "question": "Based on the given images, identify the state change. You must choose your answer from the Choice List.\n<image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image>What can you say about the temperature of the water being poured?\nChoice list: \nA. The water seems hot.\nB. No water was poured.\nC. The water seems cold.\nAnswer with the option's letter from the given choices directly.",
+        "gt_response": "The water seems hot.",
+        "gen_kwargs": {
+            "do_sample": false,
+            "num_beams": 1,
+            "max_new_tokens": 32,
+            "eos_token_id": 92542
+        },
+        "pred_response": "C"
+    },
+    {
+        "sample_id": 26,
+        "question": "From the images presented, ascertain the state change in the query. You must choose your answer from the Choice List.\n<image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image>The person interacts with a lighting device among other objects. Is the lighting device on at any point?\nChoice list: \nA. yes\nB. I don't know\nC. no\nAnswer with the option's letter from the given choices directly.",
+        "gt_response": "yes",
+        "gen_kwargs": {
+            "do_sample": false,
+            "num_beams": 1,
+            "max_new_tokens": 32,
+            "eos_token_id": 92542
+        },
+        "pred_response": "A"
+    },
+    {
+        "sample_id": 23,
+        "question": "Using the images at hand, infer the state change. You must choose your answer from the Choice List.\n<image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image>If the person tried to turn on the electric device and it was not working, what was the reason for that?\nChoice list: \nA. The device worked when the person tried to turn it on.\nB. The electric device did not work most likely because it was already unplugged at the beginning of the video.\nC. The electric device did not work because the person unplugged the device during the video.\nAnswer with the option's letter from the given choices directly.",
+        "gt_response": "The electric device did not work because the person unplugged the device during the video.",
+        "gen_kwargs": {
+            "do_sample": false,
+            "num_beams": 1,
+            "max_new_tokens": 32,
+            "eos_token_id": 92542
+        },
+        "pred_response": "B"
+    },
+    {
+        "sample_id": 9,
+        "question": "Observe the given images and deduce the state change. You must choose your answer from the Choice List.\n<image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image>If the person tried to turn on the electric device and it was not working, what was the reason for that?\nChoice list: \nA. The electric device did not work because the person unplugged the device during the video.\nB. The device worked when the person tried to turn it on.\nC. The electric device did not work most likely because it was already unplugged at the beginning of the video.\nAnswer with the option's letter from the given choices directly.",
+        "gt_response": "The device worked when the person tried to turn it on.",
+        "gen_kwargs": {
+            "do_sample": false,
+            "num_beams": 1,
+            "max_new_tokens": 32,
+            "eos_token_id": 92542
+        },
+        "pred_response": "A"
+    },
+    {
+        "sample_id": 27,
+        "question": "Review the supplied visuals and ascertain the state change. You must choose your answer from the Choice List.\n<image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image>What can you say about the temperature of the water being poured?\nChoice list: \nA. The water seems cold.\nB. The water seems hot.\nC. No water was poured.\nAnswer with the option's letter from the given choices directly.",
+        "gt_response": "The water seems cold.",
+        "gen_kwargs": {
+            "do_sample": false,
+            "num_beams": 1,
+            "max_new_tokens": 32,
+            "eos_token_id": 92542
+        },
+        "pred_response": "B"
+    },
+    {
+        "sample_id": 76,
+        "question": "Using the images at hand, infer the state change. You must choose your answer from the Choice List.\n<image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image>The person interacts with a lighting device among other objects. Is the lighting device on at any point?\nChoice list: \nA. I don't know\nB. yes\nC. no\nAnswer with the option's letter from the given choices directly.",
+        "gt_response": "no",
+        "gen_kwargs": {
+            "do_sample": false,
+            "num_beams": 1,
+            "max_new_tokens": 32,
+            "eos_token_id": 92542
+        },
+        "pred_response": "C"
+    },
+    {
+        "sample_id": 16,
+        "question": "Inspect the presented illustrations and conclude the state change. You must choose your answer from the Choice List.\n<image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image>If the person tried to turn on the electric device and it was not working, what was the reason for that?\nChoice list: \nA. The device worked when the person tried to turn it on.\nB. The electric device did not work most likely because it was already unplugged at the beginning of the video.\nC. The electric device did not work because the person unplugged the device during the video.\nAnswer with the option's letter from the given choices directly.",
+        "gt_response": "The device worked when the person tried to turn it on.",
+        "gen_kwargs": {
+            "do_sample": false,
+            "num_beams": 1,
+            "max_new_tokens": 32,
+            "eos_token_id": 92542
+        },
+        "pred_response": "C"
+    },
+    {
+        "sample_id": 33,
+        "question": "From the images presented, ascertain the state change in the query. You must choose your answer from the Choice List.\n<image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image>The person interacts with a lighting device among other objects. Is the lighting device on at any point?\nChoice list: \nA. yes\nB. no\nC. I don't know\nAnswer with the option's letter from the given choices directly.",
+        "gt_response": "yes",
+        "gen_kwargs": {
+            "do_sample": false,
+            "num_beams": 1,
+            "max_new_tokens": 32,
+            "eos_token_id": 92542
+        },
+        "pred_response": "A"
+    },
+    {
+        "sample_id": 39,
+        "question": "From the images presented, ascertain the state change in the query. You must choose your answer from the Choice List.\n<image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image>The person interacts with a lighting device among other objects. Is the lighting device on at any point?\nChoice list: \nA. no\nB. I don't know\nC. yes\nAnswer with the option's letter from the given choices directly.",
+        "gt_response": "yes",
+        "gen_kwargs": {
+            "do_sample": false,
+            "num_beams": 1,
+            "max_new_tokens": 32,
+            "eos_token_id": 92542
+        },
+        "pred_response": "C"
+    },
+    {
+        "sample_id": 0,
+        "question": "Given the visuals, discern the state change. You must choose your answer from the Choice List.\n<image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image>What can you say about the temperature of the water being poured?\nChoice list: \nA. No water was poured.\nB. The water seems hot.\nC. The water seems cold.\nAnswer with the option's letter from the given choices directly.",
+        "gt_response": "The water seems hot.",
+        "gen_kwargs": {
+            "do_sample": false,
+            "num_beams": 1,
+            "max_new_tokens": 32,
+            "eos_token_id": 92542
+        },
+        "pred_response": "B"
+    },
+    {
+        "sample_id": 4,
+        "question": "Analyze the provided visuals and determine the change of the state in question. You must choose your answer from the Choice List.\n<image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image>What can you say about the temperature of the water being poured?\nChoice list: \nA. The water seems hot.\nB. No water was poured.\nC. The water seems cold.\nAnswer with the option's letter from the given choices directly.",
+        "gt_response": "The water seems hot.",
+        "gen_kwargs": {
+            "do_sample": false,
+            "num_beams": 1,
+            "max_new_tokens": 32,
+            "eos_token_id": 92542
+        },
+        "pred_response": "A"
+    },
+    {
+        "sample_id": 133,
+        "question": "Given the visuals, discern the state change. You must choose your answer from the Choice List.\n<image><image><image><image><image><image><image><image><image>The person interacts with a lighting device among other objects. Is the lighting device on at any point?\nChoice list: \nA. no\nB. yes\nC. I don't know\nAnswer with the option's letter from the given choices directly.",
+        "gt_response": "yes",
+        "gen_kwargs": {
+            "do_sample": false,
+            "num_beams": 1,
+            "max_new_tokens": 32,
+            "eos_token_id": 92542
+        },
+        "pred_response": "B"
+    },
+    {
+        "sample_id": 32,
+        "question": "Evaluate the presented graphics and infer the state change. You must choose your answer from the Choice List.\n<image><image><image><image><image><image><image><image><image><image>The person interacts with a lighting device among other objects. Is the lighting device on at any point?\nChoice list: \nA. I don't know\nB. no\nC. yes\nAnswer with the option's letter from the given choices directly.",
+        "gt_response": "yes",
+        "gen_kwargs": {
+            "do_sample": false,
+            "num_beams": 1,
+            "max_new_tokens": 32,
+            "eos_token_id": 92542
+        },
+        "pred_response": "C"
+    },
+    {
+        "sample_id": 56,
+        "question": "Based on the given images, identify the state change. You must choose your answer from the Choice List.\n<image><image><image><image><image><image><image><image><image><image><image>If the person tried to turn on the electric device and it was not working, what was the reason for that?\nChoice list: \nA. The electric device did not work because the person unplugged the device during the video.\nB. The electric device did not work most likely because it was already unplugged at the beginning of the video.\nC. The device worked when the person tried to turn it on.\nAnswer with the option's letter from the given choices directly.",
+        "gt_response": "The electric device did not work because the person unplugged the device during the video.",
+        "gen_kwargs": {
+            "do_sample": false,
+            "num_beams": 1,
+            "max_new_tokens": 32,
+            "eos_token_id": 92542
+        },
+        "pred_response": "B"
+    },
+    {
+        "sample_id": 63,
+        "question": "Using the images at hand, infer the state change. You must choose your answer from the Choice List.\n<image><image><image><image><image><image><image><image><image><image><image><image><image>If the person tried to turn on the electric device and it was not working, what was the reason for that?\nChoice list: \nA. The electric device did not work because the person unplugged the device during the video.\nB. The device worked when the person tried to turn it on.\nC. The electric device did not work most likely because it was already unplugged at the beginning of the video.\nAnswer with the option's letter from the given choices directly.",
+        "gt_response": "The device worked when the person tried to turn it on.",
+        "gen_kwargs": {
+            "do_sample": false,
+            "num_beams": 1,
+            "max_new_tokens": 32,
+            "eos_token_id": 92542
+        },
+        "pred_response": "C"
+    },
+    {
+        "sample_id": 84,
+        "question": "Analyze the provided visuals and determine the change of the state in question. You must choose your answer from the Choice List.\n<image><image><image><image><image><image><image><image><image><image><image><image><image>Is the bag empty at the end?\nChoice list: \nA. The person doesn't interact with a bag.\nB. No\nC. Yes\nAnswer with the option's letter from the given choices directly.",
+        "gt_response": "Yes",
+        "gen_kwargs": {
+            "do_sample": false,
+            "num_beams": 1,
+            "max_new_tokens": 32,
+            "eos_token_id": 92542
+        },
+        "pred_response": "C"
+    },
+    {
+        "sample_id": 51,
+        "question": "Observe the given images and deduce the state change. You must choose your answer from the Choice List.\n<image><image><image><image><image><image><image><image><image><image><image><image><image><image>If the person tried to turn on the electric device and it was not working, what was the reason for that?\nChoice list: \nA. The device worked when the person tried to turn it on.\nB. The electric device did not work because the person unplugged the device during the video.\nC. The electric device did not work most likely because it was already unplugged at the beginning of the video.\nAnswer with the option's letter from the given choices directly.",
+        "gt_response": "The electric device did not work most likely because it was already unplugged at the beginning of the video.",
+        "gen_kwargs": {
+            "do_sample": false,
+            "num_beams": 1,
+            "max_new_tokens": 32,
+            "eos_token_id": 92542
+        },
+        "pred_response": "C"
+    },
+    {
+        "sample_id": 15,
+        "question": "Given the visuals, discern the state change. You must choose your answer from the Choice List.\n<image><image><image><image><image><image><image><image><image><image><image><image><image><image><image>If the person tried to turn on the electric device and it was not working, what was the reason for that?\nChoice list: \nA. The electric device did not work most likely because it was already unplugged at the beginning of the video.\nB. The device worked when the person tried to turn it on.\nC. The electric device did not work because the person unplugged the device during the video.\nAnswer with the option's letter from the given choices directly.",
+        "gt_response": "The electric device did not work most likely because it was already unplugged at the beginning of the video.",
+        "gen_kwargs": {
+            "do_sample": false,
+            "num_beams": 1,
+            "max_new_tokens": 32,
+            "eos_token_id": 92542
+        },
+        "pred_response": "C"
+    },
+    {
+        "sample_id": 50,
+        "question": "Based on the given images, identify the state change. You must choose your answer from the Choice List.\n<image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image>The person interacts with a lighting device among other objects. Is the lighting device on at any point?\nChoice list: \nA. yes\nB. I don't know\nC. no\nAnswer with the option's letter from the given choices directly.",
+        "gt_response": "no",
+        "gen_kwargs": {
+            "do_sample": false,
+            "num_beams": 1,
+            "max_new_tokens": 32,
+            "eos_token_id": 92542
+        },
+        "pred_response": "A"
+    },
+    {
+        "sample_id": 49,
+        "question": "Observe the given images and deduce the state change. You must choose your answer from the Choice List.\n<image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image>The person interacts with a lighting device among other objects. Is the lighting device on at any point?\nChoice list: \nA. no\nB. yes\nC. I don't know\nAnswer with the option's letter from the given choices directly.",
+        "gt_response": "yes",
+        "gen_kwargs": {
+            "do_sample": false,
+            "num_beams": 1,
+            "max_new_tokens": 32,
+            "eos_token_id": 92542
+        },
+        "pred_response": "B"
+    },
+    {
+        "sample_id": 119,
+        "question": "Inspect the presented illustrations and conclude the state change. You must choose your answer from the Choice List.\n<image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image>If the person tried to turn on the electric device and it was not working, what was the reason for that?\nChoice list: \nA. The device worked when the person tried to turn it on.\nB. The electric device did not work because the person unplugged the device during the video.\nC. The electric device did not work most likely because it was already unplugged at the beginning of the video.\nAnswer with the option's letter from the given choices directly.",
+        "gt_response": "The electric device did not work because the person unplugged the device during the video.",
+        "gen_kwargs": {
+            "do_sample": false,
+            "num_beams": 1,
+            "max_new_tokens": 32,
+            "eos_token_id": 92542
+        },
+        "pred_response": "C"
+    },
+    {
+        "sample_id": 71,
+        "question": "Evaluate the presented graphics and infer the state change. You must choose your answer from the Choice List.\n<image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image>Is the bag empty at the end?\nChoice list: \nA. Yes\nB. The person doesn't interact with a bag.\nC. No\nAnswer with the option's letter from the given choices directly.",
+        "gt_response": "No",
+        "gen_kwargs": {
+            "do_sample": false,
+            "num_beams": 1,
+            "max_new_tokens": 32,
+            "eos_token_id": 92542
+        },
+        "pred_response": "C"
+    },
+    {
+        "sample_id": 80,
+        "question": "Inspect the presented illustrations and conclude the state change. You must choose your answer from the Choice List.\n<image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image>Is the bag empty at the end?\nChoice list: \nA. No\nB. The person doesn't interact with a bag.\nC. Yes\nAnswer with the option's letter from the given choices directly.",
+        "gt_response": "No",
+        "gen_kwargs": {
+            "do_sample": false,
+            "num_beams": 1,
+            "max_new_tokens": 32,
+            "eos_token_id": 92542
+        },
+        "pred_response": "C"
+    },
+    {
+        "sample_id": 95,
+        "question": "Observe the given images and deduce the state change. You must choose your answer from the Choice List.\n<image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image>The person interacts with a lighting device among other objects. Is the lighting device on at any point?\nChoice list: \nA. no\nB. I don't know\nC. yes\nAnswer with the option's letter from the given choices directly.",
+        "gt_response": "yes",
+        "gen_kwargs": {
+            "do_sample": false,
+            "num_beams": 1,
+            "max_new_tokens": 32,
+            "eos_token_id": 92542
+        },
+        "pred_response": "C"
+    },
+    {
+        "sample_id": 20,
+        "question": "Evaluate the presented graphics and infer the state change. You must choose your answer from the Choice List.\n<image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image>If the person tried to turn on the electric device and it was not working, what was the reason for that?\nChoice list: \nA. The electric device did not work most likely because it was already unplugged at the beginning of the video.\nB. The electric device did not work because the person unplugged the device during the video.\nC. The device worked when the person tried to turn it on.\nAnswer with the option's letter from the given choices directly.",
+        "gt_response": "The device worked when the person tried to turn it on.",
+        "gen_kwargs": {
+            "do_sample": false,
+            "num_beams": 1,
+            "max_new_tokens": 32,
+            "eos_token_id": 92542
+        },
+        "pred_response": "B"
+    },
+    {
+        "sample_id": 55,
+        "question": "Analyze the provided visuals and determine the change of the state in question. You must choose your answer from the Choice List.\n<image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image>Is the bag empty at the end?\nChoice list: \nA. Yes\nB. No\nC. The person doesn't interact with a bag.\nAnswer with the option's letter from the given choices directly.",
+        "gt_response": "Yes",
+        "gen_kwargs": {
+            "do_sample": false,
+            "num_beams": 1,
+            "max_new_tokens": 32,
+            "eos_token_id": 92542
+        },
+        "pred_response": "A"
+    },
+    {
+        "sample_id": 64,
+        "question": "Given the visuals, discern the state change. You must choose your answer from the Choice List.\n<image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image>What can you say about the temperature of the water being poured?\nChoice list: \nA. No water was poured.\nB. The water seems hot.\nC. The water seems cold.\nAnswer with the option's letter from the given choices directly.",
+        "gt_response": "No water was poured.",
+        "gen_kwargs": {
+            "do_sample": false,
+            "num_beams": 1,
+            "max_new_tokens": 32,
+            "eos_token_id": 92542
+        },
+        "pred_response": "C"
+    },
+    {
+        "sample_id": 36,
+        "question": "Inspect the presented illustrations and conclude the state change. You must choose your answer from the Choice List.\n<image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image>What can you say about the temperature of the water being poured?\nChoice list: \nA. The water seems cold.\nB. The water seems hot.\nC. No water was poured.\nAnswer with the option's letter from the given choices directly.",
+        "gt_response": "The water seems cold.",
+        "gen_kwargs": {
+            "do_sample": false,
+            "num_beams": 1,
+            "max_new_tokens": 32,
+            "eos_token_id": 92542
+        },
+        "pred_response": "A"
+    },
+    {
+        "sample_id": 37,
+        "question": "Based on the given images, identify the state change. You must choose your answer from the Choice List.\n<image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image>Is the bag empty at the end?\nChoice list: \nA. No\nB. The person doesn't interact with a bag.\nC. Yes\nAnswer with the option's letter from the given choices directly.",
+        "gt_response": "No",
+        "gen_kwargs": {
+            "do_sample": false,
+            "num_beams": 1,
+            "max_new_tokens": 32,
+            "eos_token_id": 92542
+        },
+        "pred_response": "A"
+    },
+    {
+        "sample_id": 59,
+        "question": "Observe the given images and deduce the state change. You must choose your answer from the Choice List.\n<image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image>What can you say about the temperature of the water being poured?\nChoice list: \nA. The water seems hot.\nB. No water was poured.\nC. The water seems cold.\nAnswer with the option's letter from the given choices directly.",
+        "gt_response": "The water seems cold.",
+        "gen_kwargs": {
+            "do_sample": false,
+            "num_beams": 1,
+            "max_new_tokens": 32,
+            "eos_token_id": 92542
+        },
+        "pred_response": "A"
+    },
+    {
+        "sample_id": 65,
+        "question": "Evaluate the presented graphics and infer the state change. You must choose your answer from the Choice List.\n<image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image>If the person tried to turn on the electric device and it was not working, what was the reason for that?\nChoice list: \nA. The electric device did not work because the person unplugged the device during the video.\nB. The electric device did not work most likely because it was already unplugged at the beginning of the video.\nC. The device worked when the person tried to turn it on.\nAnswer with the option's letter from the given choices directly.",
+        "gt_response": "The device worked when the person tried to turn it on.",
+        "gen_kwargs": {
+            "do_sample": false,
+            "num_beams": 1,
+            "max_new_tokens": 32,
+            "eos_token_id": 92542
+        },
+        "pred_response": "B"
+    },
+    {
+        "sample_id": 74,
+        "question": "Based on the given images, identify the state change. You must choose your answer from the Choice List.\n<image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image>The person interacts with a lighting device among other objects. Is the lighting device on at any point?\nChoice list: \nA. yes\nB. no\nC. I don't know\nAnswer with the option's letter from the given choices directly.",
+        "gt_response": "no",
+        "gen_kwargs": {
+            "do_sample": false,
+            "num_beams": 1,
+            "max_new_tokens": 32,
+            "eos_token_id": 92542
+        },
+        "pred_response": "A"
+    },
+    {
+        "sample_id": 48,
+        "question": "Based on the given images, identify the state change. You must choose your answer from the Choice List.\n<image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image>The person interacts with a lighting device among other objects. Is the lighting device on at any point?\nChoice list: \nA. no\nB. I don't know\nC. yes\nAnswer with the option's letter from the given choices directly.",
+        "gt_response": "yes",
+        "gen_kwargs": {
+            "do_sample": false,
+            "num_beams": 1,
+            "max_new_tokens": 32,
+            "eos_token_id": 92542
+        },
+        "pred_response": "C"
+    },
+    {
+        "sample_id": 75,
+        "question": "Evaluate the presented graphics and infer the state change. You must choose your answer from the Choice List.\n<image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image>The person interacts with a lighting device among other objects. Is the lighting device on at any point?\nChoice list: \nA. I don't know\nB. yes\nC. no\nAnswer with the option's letter from the given choices directly.",
+        "gt_response": "yes",
+        "gen_kwargs": {
+            "do_sample": false,
+            "num_beams": 1,
+            "max_new_tokens": 32,
+            "eos_token_id": 92542
+        },
+        "pred_response": "B"
+    },
+    {
+        "sample_id": 78,
+        "question": "Based on the given images, identify the state change. You must choose your answer from the Choice List.\n<image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image>If the person tried to turn on the electric device and it was not working, what was the reason for that?\nChoice list: \nA. The electric device did not work because the person unplugged the device during the video.\nB. The device worked when the person tried to turn it on.\nC. The electric device did not work most likely because it was already unplugged at the beginning of the video.\nAnswer with the option's letter from the given choices directly.",
+        "gt_response": "The electric device did not work because the person unplugged the device during the video.",
+        "gen_kwargs": {
+            "do_sample": false,
+            "num_beams": 1,
+            "max_new_tokens": 32,
+            "eos_token_id": 92542
+        },
+        "pred_response": "A"
+    },
+    {
+        "sample_id": 43,
+        "question": "Examine the given illustrations and deduce the state change. You must choose your answer from the Choice List.\n<image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image>If the person tried to turn on the electric device and it was not working, what was the reason for that?\nChoice list: \nA. The device worked when the person tried to turn it on.\nB. The electric device did not work because the person unplugged the device during the video.\nC. The electric device did not work most likely because it was already unplugged at the beginning of the video.\nAnswer with the option's letter from the given choices directly.",
+        "gt_response": "The device worked when the person tried to turn it on.",
+        "gen_kwargs": {
+            "do_sample": false,
+            "num_beams": 1,
+            "max_new_tokens": 32,
+            "eos_token_id": 92542
+        },
+        "pred_response": "C"
+    },
+    {
+        "sample_id": 42,
+        "question": "Examine the given illustrations and deduce the state change. You must choose your answer from the Choice List.\n<image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image>The person interacts with a lighting device among other objects. Is the lighting device on at any point?\nChoice list: \nA. I don't know\nB. yes\nC. no\nAnswer with the option's letter from the given choices directly.",
+        "gt_response": "yes",
+        "gen_kwargs": {
+            "do_sample": false,
+            "num_beams": 1,
+            "max_new_tokens": 32,
+            "eos_token_id": 92542
+        },
+        "pred_response": "B"
+    },
+    {
+        "sample_id": 29,
+        "question": "Observe the given images and deduce the state change. You must choose your answer from the Choice List.\n<image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image>The person interacts with a lighting device among other objects. Is the lighting device on at any point?\nChoice list: \nA. yes\nB. I don't know\nC. no\nAnswer with the option's letter from the given choices directly.",
+        "gt_response": "yes",
+        "gen_kwargs": {
+            "do_sample": false,
+            "num_beams": 1,
+            "max_new_tokens": 32,
+            "eos_token_id": 92542
+        },
+        "pred_response": "A"
+    },
+    {
+        "sample_id": 34,
+        "question": "Observe the given images and deduce the state change. You must choose your answer from the Choice List.\n<image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image>What can you say about the temperature of the water being poured?\nChoice list: \nA. The water seems hot.\nB. No water was poured.\nC. The water seems cold.\nAnswer with the option's letter from the given choices directly.",
+        "gt_response": "The water seems cold.",
+        "gen_kwargs": {
+            "do_sample": false,
+            "num_beams": 1,
+            "max_new_tokens": 32,
+            "eos_token_id": 92542
+        },
+        "pred_response": "C"
+    },
+    {
+        "sample_id": 86,
+        "question": "Using the images at hand, infer the state change. You must choose your answer from the Choice List.\n<image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image>If the person tried to turn on the electric device and it was not working, what was the reason for that?\nChoice list: \nA. The device worked when the person tried to turn it on.\nB. The electric device did not work because the person unplugged the device during the video.\nC. The electric device did not work most likely because it was already unplugged at the beginning of the video.\nAnswer with the option's letter from the given choices directly.",
+        "gt_response": "The electric device did not work because the person unplugged the device during the video.",
+        "gen_kwargs": {
+            "do_sample": false,
+            "num_beams": 1,
+            "max_new_tokens": 32,
+            "eos_token_id": 92542
+        },
+        "pred_response": "C"
+    },
+    {
+        "sample_id": 87,
+        "question": "Inspect the presented illustrations and conclude the state change. You must choose your answer from the Choice List.\n<image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image>What can you say about the temperature of the water being poured?\nChoice list: \nA. The water seems cold.\nB. No water was poured.\nC. The water seems hot.\nAnswer with the option's letter from the given choices directly.",
+        "gt_response": "The water seems cold.",
+        "gen_kwargs": {
+            "do_sample": false,
+            "num_beams": 1,
+            "max_new_tokens": 32,
+            "eos_token_id": 92542
+        },
+        "pred_response": "C"
+    },
+    {
+        "sample_id": 57,
+        "question": "Inspect the presented illustrations and conclude the state change. You must choose your answer from the Choice List.\n<image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image>The person interacts with a lighting device among other objects. Is the lighting device on at any point?\nChoice list: \nA. yes\nB. I don't know\nC. no\nAnswer with the option's letter from the given choices directly.",
+        "gt_response": "yes",
+        "gen_kwargs": {
+            "do_sample": false,
+            "num_beams": 1,
+            "max_new_tokens": 32,
+            "eos_token_id": 92542
+        },
+        "pred_response": "A"
+    },
+    {
+        "sample_id": 61,
+        "question": "Examine the given illustrations and deduce the state change. You must choose your answer from the Choice List.\n<image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image>The person interacts with a lighting device among other objects. Is the lighting device on at any point?\nChoice list: \nA. I don't know\nB. no\nC. yes\nAnswer with the option's letter from the given choices directly.",
+        "gt_response": "yes",
+        "gen_kwargs": {
+            "do_sample": false,
+            "num_beams": 1,
+            "max_new_tokens": 32,
+            "eos_token_id": 92542
+        },
+        "pred_response": "C"
+    },
+    {
+        "sample_id": 66,
+        "question": "Analyze the provided visuals and determine the change of the state in question. You must choose your answer from the Choice List.\n<image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image>The person interacts with a lighting device among other objects. Is the lighting device on at any point?\nChoice list: \nA. no\nB. I don't know\nC. yes\nAnswer with the option's letter from the given choices directly.",
+        "gt_response": "yes",
+        "gen_kwargs": {
+            "do_sample": false,
+            "num_beams": 1,
+            "max_new_tokens": 32,
+            "eos_token_id": 92542
+        },
+        "pred_response": "C"
+    },
+    {
+        "sample_id": 6,
+        "question": "Review the supplied visuals and ascertain the state change. You must choose your answer from the Choice List.\n<image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image>The person interacts with a lighting device among other objects. Is the lighting device on at any point?\nChoice list: \nA. yes\nB. I don't know\nC. no\nAnswer with the option's letter from the given choices directly.",
+        "gt_response": "yes",
+        "gen_kwargs": {
+            "do_sample": false,
+            "num_beams": 1,
+            "max_new_tokens": 32,
+            "eos_token_id": 92542
+        },
+        "pred_response": "A"
+    },
+    {
+        "sample_id": 13,
+        "question": "Given the visuals, discern the state change. You must choose your answer from the Choice List.\n<image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image>The person interacts with a lighting device among other objects. Is the lighting device on at any point?\nChoice list: \nA. I don't know\nB. yes\nC. no\nAnswer with the option's letter from the given choices directly.",
+        "gt_response": "no",
+        "gen_kwargs": {
+            "do_sample": false,
+            "num_beams": 1,
+            "max_new_tokens": 32,
+            "eos_token_id": 92542
+        },
+        "pred_response": "C"
+    },
+    {
+        "sample_id": 44,
+        "question": "Inspect the presented illustrations and conclude the state change. You must choose your answer from the Choice List.\n<image><image><image><image><image><image><image><image><image><image>Is the bag empty at the end?\nChoice list: \nA. No\nB. Yes\nC. The person doesn't interact with a bag.\nAnswer with the option's letter from the given choices directly.",
+        "gt_response": "No",
+        "gen_kwargs": {
+            "do_sample": false,
+            "num_beams": 1,
+            "max_new_tokens": 32,
+            "eos_token_id": 92542
+        },
+        "pred_response": "A"
+    },
+    {
+        "sample_id": 77,
+        "question": "From the images presented, ascertain the state change in the query. You must choose your answer from the Choice List.\n<image><image><image><image><image><image><image><image><image><image><image>If the person tried to turn on the electric device and it was not working, what was the reason for that?\nChoice list: \nA. The device worked when the person tried to turn it on.\nB. The electric device did not work because the person unplugged the device during the video.\nC. The electric device did not work most likely because it was already unplugged at the beginning of the video.\nAnswer with the option's letter from the given choices directly.",
+        "gt_response": "The electric device did not work because the person unplugged the device during the video.",
+        "gen_kwargs": {
+            "do_sample": false,
+            "num_beams": 1,
+            "max_new_tokens": 32,
+            "eos_token_id": 92542
+        },
+        "pred_response": "B"
+    },
+    {
+        "sample_id": 109,
+        "question": "Review the supplied visuals and ascertain the state change. You must choose your answer from the Choice List.\n<image><image><image><image><image><image><image><image><image><image><image><image><image>If the person tried to turn on the electric device and it was not working, what was the reason for that?\nChoice list: \nA. The electric device did not work because the person unplugged the device during the video.\nB. The device worked when the person tried to turn it on.\nC. The electric device did not work most likely because it was already unplugged at the beginning of the video.\nAnswer with the option's letter from the given choices directly.",
+        "gt_response": "The device worked when the person tried to turn it on.",
+        "gen_kwargs": {
+            "do_sample": false,
+            "num_beams": 1,
+            "max_new_tokens": 32,
+            "eos_token_id": 92542
+        },
+        "pred_response": "A"
+    },
+    {
+        "sample_id": 174,
+        "question": "From the images presented, ascertain the state change in the query. You must choose your answer from the Choice List.\n<image><image><image><image><image><image><image><image><image><image><image><image><image><image>The person interacts with a lighting device among other objects. Is the lighting device on at any point?\nChoice list: \nA. I don't know\nB. yes\nC. no\nAnswer with the option's letter from the given choices directly.",
+        "gt_response": "no",
+        "gen_kwargs": {
+            "do_sample": false,
+            "num_beams": 1,
+            "max_new_tokens": 32,
+            "eos_token_id": 92542
+        },
+        "pred_response": "C"
+    },
+    {
+        "sample_id": 17,
+        "question": "Observe the given images and deduce the state change. You must choose your answer from the Choice List.\n<image><image><image><image><image><image><image><image><image><image><image><image><image><image><image>If the person tried to turn on the electric device and it was not working, what was the reason for that?\nChoice list: \nA. The device worked when the person tried to turn it on.\nB. The electric device did not work because the person unplugged the device during the video.\nC. The electric device did not work most likely because it was already unplugged at the beginning of the video.\nAnswer with the option's letter from the given choices directly.",
+        "gt_response": "The electric device did not work most likely because it was already unplugged at the beginning of the video.",
+        "gen_kwargs": {
+            "do_sample": false,
+            "num_beams": 1,
+            "max_new_tokens": 32,
+            "eos_token_id": 92542
+        },
+        "pred_response": "B"
+    },
+    {
+        "sample_id": 167,
+        "question": "Inspect the presented illustrations and conclude the state change. You must choose your answer from the Choice List.\n<image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image>If the person tried to turn on the electric device and it was not working, what was the reason for that?\nChoice list: \nA. The electric device did not work most likely because it was already unplugged at the beginning of the video.\nB. The electric device did not work because the person unplugged the device during the video.\nC. The device worked when the person tried to turn it on.\nAnswer with the option's letter from the given choices directly.",
+        "gt_response": "The device worked when the person tried to turn it on.",
+        "gen_kwargs": {
+            "do_sample": false,
+            "num_beams": 1,
+            "max_new_tokens": 32,
+            "eos_token_id": 92542
+        },
+        "pred_response": "B"
+    },
+    {
+        "sample_id": 69,
+        "question": "From the images presented, ascertain the state change in the query. You must choose your answer from the Choice List.\n<image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image>If the person tried to turn on the electric device and it was not working, what was the reason for that?\nChoice list: \nA. The electric device did not work because the person unplugged the device during the video.\nB. The electric device did not work most likely because it was already unplugged at the beginning of the video.\nC. The device worked when the person tried to turn it on.\nAnswer with the option's letter from the given choices directly.",
+        "gt_response": "The electric device did not work most likely because it was already unplugged at the beginning of the video.",
+        "gen_kwargs": {
+            "do_sample": false,
+            "num_beams": 1,
+            "max_new_tokens": 32,
+            "eos_token_id": 92542
+        },
+        "pred_response": "B"
+    },
+    {
+        "sample_id": 140,
+        "question": "From the images presented, ascertain the state change in the query. You must choose your answer from the Choice List.\n<image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image>If the person tried to turn on the electric device and it was not working, what was the reason for that?\nChoice list: \nA. The electric device did not work most likely because it was already unplugged at the beginning of the video.\nB. The device worked when the person tried to turn it on.\nC. The electric device did not work because the person unplugged the device during the video.\nAnswer with the option's letter from the given choices directly.",
+        "gt_response": "The device worked when the person tried to turn it on.",
+        "gen_kwargs": {
+            "do_sample": false,
+            "num_beams": 1,
+            "max_new_tokens": 32,
+            "eos_token_id": 92542
+        },
+        "pred_response": "C"
+    },
+    {
+        "sample_id": 105,
+        "question": "Inspect the presented illustrations and conclude the state change. You must choose your answer from the Choice List.\n<image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image>Is the bag empty at the end?\nChoice list: \nA. Yes\nB. The person doesn't interact with a bag.\nC. No\nAnswer with the option's letter from the given choices directly.",
+        "gt_response": "Yes",
+        "gen_kwargs": {
+            "do_sample": false,
+            "num_beams": 1,
+            "max_new_tokens": 32,
+            "eos_token_id": 92542
+        },
+        "pred_response": "C"
+    },
+    {
+        "sample_id": 131,
+        "question": "Using the images at hand, infer the state change. You must choose your answer from the Choice List.\n<image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image>The person interacts with a lighting device among other objects. Is the lighting device on at any point?\nChoice list: \nA. yes\nB. no\nC. I don't know\nAnswer with the option's letter from the given choices directly.",
+        "gt_response": "yes",
+        "gen_kwargs": {
+            "do_sample": false,
+            "num_beams": 1,
+            "max_new_tokens": 32,
+            "eos_token_id": 92542
+        },
+        "pred_response": "A"
+    },
+    {
+        "sample_id": 67,
+        "question": "Inspect the presented illustrations and conclude the state change. You must choose your answer from the Choice List.\n<image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image>If the person tried to turn on the electric device and it was not working, what was the reason for that?\nChoice list: \nA. The device worked when the person tried to turn it on.\nB. The electric device did not work most likely because it was already unplugged at the beginning of the video.\nC. The electric device did not work because the person unplugged the device during the video.\nAnswer with the option's letter from the given choices directly.",
+        "gt_response": "The electric device did not work because the person unplugged the device during the video.",
+        "gen_kwargs": {
+            "do_sample": false,
+            "num_beams": 1,
+            "max_new_tokens": 32,
+            "eos_token_id": 92542
+        },
+        "pred_response": "C"
+    },
+    {
+        "sample_id": 102,
+        "question": "Based on the given images, identify the state change. You must choose your answer from the Choice List.\n<image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image>Is the bag empty at the end?\nChoice list: \nA. The person doesn't interact with a bag.\nB. Yes\nC. No\nAnswer with the option's letter from the given choices directly.",
+        "gt_response": "Yes",
+        "gen_kwargs": {
+            "do_sample": false,
+            "num_beams": 1,
+            "max_new_tokens": 32,
+            "eos_token_id": 92542
+        },
+        "pred_response": "C"
+    },
+    {
+        "sample_id": 125,
+        "question": "Evaluate the presented graphics and infer the state change. You must choose your answer from the Choice List.\n<image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image>The person interacts with a lighting device among other objects. Is the lighting device on at any point?\nChoice list: \nA. I don't know\nB. no\nC. yes\nAnswer with the option's letter from the given choices directly.",
+        "gt_response": "yes",
+        "gen_kwargs": {
+            "do_sample": false,
+            "num_beams": 1,
+            "max_new_tokens": 32,
+            "eos_token_id": 92542
+        },
+        "pred_response": "C"
+    },
+    {
+        "sample_id": 40,
+        "question": "Observe the given images and deduce the state change. You must choose your answer from the Choice List.\n<image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image>If the person tried to turn on the electric device and it was not working, what was the reason for that?\nChoice list: \nA. The device worked when the person tried to turn it on.\nB. The electric device did not work because the person unplugged the device during the video.\nC. The electric device did not work most likely because it was already unplugged at the beginning of the video.\nAnswer with the option's letter from the given choices directly.",
+        "gt_response": "The device worked when the person tried to turn it on.",
+        "gen_kwargs": {
+            "do_sample": false,
+            "num_beams": 1,
+            "max_new_tokens": 32,
+            "eos_token_id": 92542
+        },
+        "pred_response": "B"
+    },
+    {
+        "sample_id": 41,
+        "question": "Evaluate the presented graphics and infer the state change. You must choose your answer from the Choice List.\n<image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image>Is the bag empty at the end?\nChoice list: \nA. Yes\nB. The person doesn't interact with a bag.\nC. No\nAnswer with the option's letter from the given choices directly.",
+        "gt_response": "Yes",
+        "gen_kwargs": {
+            "do_sample": false,
+            "num_beams": 1,
+            "max_new_tokens": 32,
+            "eos_token_id": 92542
+        },
+        "pred_response": "A"
+    },
+    {
+        "sample_id": 62,
+        "question": "Inspect the presented illustrations and conclude the state change. You must choose your answer from the Choice List.\n<image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image>Is the bag empty at the end?\nChoice list: \nA. Yes\nB. No\nC. The person doesn't interact with a bag.\nAnswer with the option's letter from the given choices directly.",
+        "gt_response": "Yes",
+        "gen_kwargs": {
+            "do_sample": false,
+            "num_beams": 1,
+            "max_new_tokens": 32,
+            "eos_token_id": 92542
+        },
+        "pred_response": "A"
+    },
+    {
+        "sample_id": 85,
+        "question": "Observe the given images and deduce the state change. You must choose your answer from the Choice List.\n<image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image>The person interacts with a lighting device among other objects. Is the lighting device on at any point?\nChoice list: \nA. I don't know\nB. yes\nC. no\nAnswer with the option's letter from the given choices directly.",
+        "gt_response": "yes",
+        "gen_kwargs": {
+            "do_sample": false,
+            "num_beams": 1,
+            "max_new_tokens": 32,
+            "eos_token_id": 92542
+        },
+        "pred_response": "B"
+    },
+    {
+        "sample_id": 100,
+        "question": "Evaluate the presented graphics and infer the state change. You must choose your answer from the Choice List.\n<image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image>Is the bag empty at the end?\nChoice list: \nA. Yes\nB. No\nC. The person doesn't interact with a bag.\nAnswer with the option's letter from the given choices directly.",
+        "gt_response": "Yes",
+        "gen_kwargs": {
+            "do_sample": false,
+            "num_beams": 1,
+            "max_new_tokens": 32,
+            "eos_token_id": 92542
+        },
+        "pred_response": "A"
+    },
+    {
+        "sample_id": 115,
+        "question": "Observe the given images and deduce the state change. You must choose your answer from the Choice List.\n<image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image>The person interacts with a lighting device among other objects. Is the lighting device on at any point?\nChoice list: \nA. no\nB. I don't know\nC. yes\nAnswer with the option's letter from the given choices directly.",
+        "gt_response": "yes",
+        "gen_kwargs": {
+            "do_sample": false,
+            "num_beams": 1,
+            "max_new_tokens": 32,
+            "eos_token_id": 92542
+        },
+        "pred_response": "C"
+    },
+    {
+        "sample_id": 120,
+        "question": "Review the supplied visuals and ascertain the state change. You must choose your answer from the Choice List.\n<image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image>Is the bag empty at the end?\nChoice list: \nA. The person doesn't interact with a bag.\nB. Yes\nC. No\nAnswer with the option's letter from the given choices directly.",
+        "gt_response": "Yes",
+        "gen_kwargs": {
+            "do_sample": false,
+            "num_beams": 1,
+            "max_new_tokens": 32,
+            "eos_token_id": 92542
+        },
+        "pred_response": "B"
+    },
+    {
+        "sample_id": 89,
+        "question": "Based on the given images, identify the state change. You must choose your answer from the Choice List.\n<image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image>If the person tried to turn on the electric device and it was not working, what was the reason for that?\nChoice list: \nA. The electric device did not work because the person unplugged the device during the video.\nB. The device worked when the person tried to turn it on.\nC. The electric device did not work most likely because it was already unplugged at the beginning of the video.\nAnswer with the option's letter from the given choices directly.",
+        "gt_response": "The device worked when the person tried to turn it on.",
+        "gen_kwargs": {
+            "do_sample": false,
+            "num_beams": 1,
+            "max_new_tokens": 32,
+            "eos_token_id": 92542
+        },
+        "pred_response": "C"
+    },
+    {
+        "sample_id": 45,
+        "question": "Analyze the provided visuals and determine the change of the state in question. You must choose your answer from the Choice List.\n<image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image>If the person tried to turn on the electric device and it was not working, what was the reason for that?\nChoice list: \nA. The device worked when the person tried to turn it on.\nB. The electric device did not work most likely because it was already unplugged at the beginning of the video.\nC. The electric device did not work because the person unplugged the device during the video.\nAnswer with the option's letter from the given choices directly.",
+        "gt_response": "The device worked when the person tried to turn it on.",
+        "gen_kwargs": {
+            "do_sample": false,
+            "num_beams": 1,
+            "max_new_tokens": 32,
+            "eos_token_id": 92542
+        },
+        "pred_response": "C"
+    },
+    {
+        "sample_id": 143,
+        "question": "Examine the given illustrations and deduce the state change. You must choose your answer from the Choice List.\n<image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image>The person interacts with a lighting device among other objects. Is the lighting device on at any point?\nChoice list: \nA. yes\nB. I don't know\nC. no\nAnswer with the option's letter from the given choices directly.",
+        "gt_response": "yes",
+        "gen_kwargs": {
+            "do_sample": false,
+            "num_beams": 1,
+            "max_new_tokens": 32,
+            "eos_token_id": 92542
+        },
+        "pred_response": "A"
+    },
+    {
+        "sample_id": 101,
+        "question": "From the images presented, ascertain the state change in the query. You must choose your answer from the Choice List.\n<image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image>What can you say about the temperature of the water being poured?\nChoice list: \nA. The water seems hot.\nB. No water was poured.\nC. The water seems cold.\nAnswer with the option's letter from the given choices directly.",
+        "gt_response": "The water seems hot.",
+        "gen_kwargs": {
+            "do_sample": false,
+            "num_beams": 1,
+            "max_new_tokens": 32,
+            "eos_token_id": 92542
+        },
+        "pred_response": "A"
+    },
+    {
+        "sample_id": 54,
+        "question": "Review the supplied visuals and ascertain the state change. You must choose your answer from the Choice List.\n<image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image>What can you say about the temperature of the water being poured?\nChoice list: \nA. The water seems hot.\nB. The water seems cold.\nC. No water was poured.\nAnswer with the option's letter from the given choices directly.",
+        "gt_response": "The water seems hot.",
+        "gen_kwargs": {
+            "do_sample": false,
+            "num_beams": 1,
+            "max_new_tokens": 32,
+            "eos_token_id": 92542
+        },
+        "pred_response": "A"
+    },
+    {
+        "sample_id": 98,
+        "question": "Based on the given images, identify the state change. You must choose your answer from the Choice List.\n<image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image>If the person tried to turn on the electric device and it was not working, what was the reason for that?\nChoice list: \nA. The electric device did not work most likely because it was already unplugged at the beginning of the video.\nB. The device worked when the person tried to turn it on.\nC. The electric device did not work because the person unplugged the device during the video.\nAnswer with the option's letter from the given choices directly.",
+        "gt_response": "The device worked when the person tried to turn it on.",
+        "gen_kwargs": {
+            "do_sample": false,
+            "num_beams": 1,
+            "max_new_tokens": 32,
+            "eos_token_id": 92542
+        },
+        "pred_response": "C"
+    },
+    {
+        "sample_id": 103,
+        "question": "Examine the given illustrations and deduce the state change. You must choose your answer from the Choice List.\n<image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image>The person interacts with a lighting device among other objects. Is the lighting device on at any point?\nChoice list: \nA. I don't know\nB. no\nC. yes\nAnswer with the option's letter from the given choices directly.",
+        "gt_response": "yes",
+        "gen_kwargs": {
+            "do_sample": false,
+            "num_beams": 1,
+            "max_new_tokens": 32,
+            "eos_token_id": 92542
+        },
+        "pred_response": "C"
+    },
+    {
+        "sample_id": 91,
+        "question": "Evaluate the presented graphics and infer the state change. You must choose your answer from the Choice List.\n<image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image>What can you say about the temperature of the water being poured?\nChoice list: \nA. The water seems cold.\nB. No water was poured.\nC. The water seems hot.\nAnswer with the option's letter from the given choices directly.",
+        "gt_response": "The water seems hot.",
+        "gen_kwargs": {
+            "do_sample": false,
+            "num_beams": 1,
+            "max_new_tokens": 32,
+            "eos_token_id": 92542
+        },
+        "pred_response": "C"
+    },
+    {
+        "sample_id": 92,
+        "question": "Review the supplied visuals and ascertain the state change. You must choose your answer from the Choice List.\n<image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image>Is the bag empty at the end?\nChoice list: \nA. No\nB. Yes\nC. The person doesn't interact with a bag.\nAnswer with the option's letter from the given choices directly.",
+        "gt_response": "Yes",
+        "gen_kwargs": {
+            "do_sample": false,
+            "num_beams": 1,
+            "max_new_tokens": 32,
+            "eos_token_id": 92542
+        },
+        "pred_response": "B"
+    },
+    {
+        "sample_id": 104,
+        "question": "Given the visuals, discern the state change. You must choose your answer from the Choice List.\n<image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image>What can you say about the temperature of the water being poured?\nChoice list: \nA. No water was poured.\nB. The water seems cold.\nC. The water seems hot.\nAnswer with the option's letter from the given choices directly.",
+        "gt_response": "No water was poured.",
+        "gen_kwargs": {
+            "do_sample": false,
+            "num_beams": 1,
+            "max_new_tokens": 32,
+            "eos_token_id": 92542
+        },
+        "pred_response": "C"
+    },
+    {
+        "sample_id": 24,
+        "question": "Using the images at hand, infer the state change. You must choose your answer from the Choice List.\n<image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image>What can you say about the temperature of the water being poured?\nChoice list: \nA. No water was poured.\nB. The water seems hot.\nC. The water seems cold.\nAnswer with the option's letter from the given choices directly.",
+        "gt_response": "The water seems hot.",
+        "gen_kwargs": {
+            "do_sample": false,
+            "num_beams": 1,
+            "max_new_tokens": 32,
+            "eos_token_id": 92542
+        },
+        "pred_response": "C"
+    },
+    {
+        "sample_id": 35,
+        "question": "Based on the given images, identify the state change. You must choose your answer from the Choice List.\n<image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image>What can you say about the temperature of the water being poured?\nChoice list: \nA. No water was poured.\nB. The water seems cold.\nC. The water seems hot.\nAnswer with the option's letter from the given choices directly.",
+        "gt_response": "The water seems cold.",
+        "gen_kwargs": {
+            "do_sample": false,
+            "num_beams": 1,
+            "max_new_tokens": 32,
+            "eos_token_id": 92542
+        },
+        "pred_response": "C"
+    },
+    {
+        "sample_id": 195,
+        "question": "Using the images at hand, infer the state change. You must choose your answer from the Choice List.\n<image><image><image><image><image><image><image><image><image><image>If the person tried to turn on the electric device and it was not working, what was the reason for that?\nChoice list: \nA. The electric device did not work most likely because it was already unplugged at the beginning of the video.\nB. The device worked when the person tried to turn it on.\nC. The electric device did not work because the person unplugged the device during the video.\nAnswer with the option's letter from the given choices directly.",
+        "gt_response": "The device worked when the person tried to turn it on.",
+        "gen_kwargs": {
+            "do_sample": false,
+            "num_beams": 1,
+            "max_new_tokens": 32,
+            "eos_token_id": 92542
+        },
+        "pred_response": "B"
+    },
+    {
+        "sample_id": 149,
+        "question": "Using the images at hand, infer the state change. You must choose your answer from the Choice List.\n<image><image><image><image><image><image><image><image><image><image><image>The person interacts with a lighting device among other objects. Is the lighting device on at any point?\nChoice list: \nA. yes\nB. I don't know\nC. no\nAnswer with the option's letter from the given choices directly.",
+        "gt_response": "no",
+        "gen_kwargs": {
+            "do_sample": false,
+            "num_beams": 1,
+            "max_new_tokens": 32,
+            "eos_token_id": 92542
+        },
+        "pred_response": "A"
+    },
+    {
+        "sample_id": 110,
+        "question": "Observe the given images and deduce the state change. You must choose your answer from the Choice List.\n<image><image><image><image><image><image><image><image><image><image><image><image><image>Is the bag empty at the end?\nChoice list: \nA. Yes\nB. The person doesn't interact with a bag.\nC. No\nAnswer with the option's letter from the given choices directly.",
+        "gt_response": "No",
+        "gen_kwargs": {
+            "do_sample": false,
+            "num_beams": 1,
+            "max_new_tokens": 32,
+            "eos_token_id": 92542
+        },
+        "pred_response": "C"
+    },
+    {
+        "sample_id": 114,
+        "question": "Using the images at hand, infer the state change. You must choose your answer from the Choice List.\n<image><image><image><image><image><image><image><image><image><image><image><image><image><image><image>The person interacts with a lighting device among other objects. Is the lighting device on at any point?\nChoice list: \nA. no\nB. yes\nC. I don't know\nAnswer with the option's letter from the given choices directly.",
+        "gt_response": "no",
+        "gen_kwargs": {
+            "do_sample": false,
+            "num_beams": 1,
+            "max_new_tokens": 32,
+            "eos_token_id": 92542
+        },
+        "pred_response": "B"
+    },
+    {
+        "sample_id": 97,
+        "question": "Based on the given images, identify the state change. You must choose your answer from the Choice List.\n<image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image>The person interacts with a lighting device among other objects. Is the lighting device on at any point?\nChoice list: \nA. I don't know\nB. yes\nC. no\nAnswer with the option's letter from the given choices directly.",
+        "gt_response": "yes",
+        "gen_kwargs": {
+            "do_sample": false,
+            "num_beams": 1,
+            "max_new_tokens": 32,
+            "eos_token_id": 92542
+        },
+        "pred_response": "B"
+    },
+    {
+        "sample_id": 196,
+        "question": "Analyze the provided visuals and determine the change of the state in question. You must choose your answer from the Choice List.\n<image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image>If the person tried to turn on the electric device and it was not working, what was the reason for that?\nChoice list: \nA. The electric device did not work because the person unplugged the device during the video.\nB. The device worked when the person tried to turn it on.\nC. The electric device did not work most likely because it was already unplugged at the beginning of the video.\nAnswer with the option's letter from the given choices directly.",
+        "gt_response": "The electric device did not work most likely because it was already unplugged at the beginning of the video.",
+        "gen_kwargs": {
+            "do_sample": false,
+            "num_beams": 1,
+            "max_new_tokens": 32,
+            "eos_token_id": 92542
+        },
+        "pred_response": "A"
+    },
+    {
+        "sample_id": 130,
+        "question": "Inspect the presented illustrations and conclude the state change. You must choose your answer from the Choice List.\n<image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image>The person interacts with a lighting device among other objects. Is the lighting device on at any point?\nChoice list: \nA. I don't know\nB. no\nC. yes\nAnswer with the option's letter from the given choices directly.",
+        "gt_response": "no",
+        "gen_kwargs": {
+            "do_sample": false,
+            "num_beams": 1,
+            "max_new_tokens": 32,
+            "eos_token_id": 92542
+        },
+        "pred_response": "C"
+    },
+    {
+        "sample_id": 135,
+        "question": "Based on the given images, identify the state change. You must choose your answer from the Choice List.\n<image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image>If the person tried to turn on the electric device and it was not working, what was the reason for that?\nChoice list: \nA. The electric device did not work because the person unplugged the device during the video.\nB. The electric device did not work most likely because it was already unplugged at the beginning of the video.\nC. The device worked when the person tried to turn it on.\nAnswer with the option's letter from the given choices directly.",
+        "gt_response": "The device worked when the person tried to turn it on.",
+        "gen_kwargs": {
+            "do_sample": false,
+            "num_beams": 1,
+            "max_new_tokens": 32,
+            "eos_token_id": 92542
+        },
+        "pred_response": "A"
+    },
+    {
+        "sample_id": 94,
+        "question": "Evaluate the presented graphics and infer the state change. You must choose your answer from the Choice List.\n<image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image>The person interacts with a lighting device among other objects. Is the lighting device on at any point?\nChoice list: \nA. no\nB. yes\nC. I don't know\nAnswer with the option's letter from the given choices directly.",
+        "gt_response": "yes",
+        "gen_kwargs": {
+            "do_sample": false,
+            "num_beams": 1,
+            "max_new_tokens": 32,
+            "eos_token_id": 92542
+        },
+        "pred_response": "B"
+    },
+    {
+        "sample_id": 141,
+        "question": "Inspect the presented illustrations and conclude the state change. You must choose your answer from the Choice List.\n<image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image>The person interacts with a lighting device among other objects. Is the lighting device on at any point?\nChoice list: \nA. yes\nB. I don't know\nC. no\nAnswer with the option's letter from the given choices directly.",
+        "gt_response": "no",
+        "gen_kwargs": {
+            "do_sample": false,
+            "num_beams": 1,
+            "max_new_tokens": 32,
+            "eos_token_id": 92542
+        },
+        "pred_response": "C"
+    },
+    {
+        "sample_id": 72,
+        "question": "Evaluate the presented graphics and infer the state change. You must choose your answer from the Choice List.\n<image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image>If the person tried to turn on the electric device and it was not working, what was the reason for that?\nChoice list: \nA. The device worked when the person tried to turn it on.\nB. The electric device did not work because the person unplugged the device during the video.\nC. The electric device did not work most likely because it was already unplugged at the beginning of the video.\nAnswer with the option's letter from the given choices directly.",
+        "gt_response": "The device worked when the person tried to turn it on.",
+        "gen_kwargs": {
+            "do_sample": false,
+            "num_beams": 1,
+            "max_new_tokens": 32,
+            "eos_token_id": 92542
+        },
+        "pred_response": "B"
+    },
+    {
+        "sample_id": 83,
+        "question": "Analyze the provided visuals and determine the change of the state in question. You must choose your answer from the Choice List.\n<image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image>What can you say about the temperature of the water being poured?\nChoice list: \nA. The water seems hot.\nB. The water seems cold.\nC. No water was poured.\nAnswer with the option's letter from the given choices directly.",
+        "gt_response": "The water seems cold.",
+        "gen_kwargs": {
+            "do_sample": false,
+            "num_beams": 1,
+            "max_new_tokens": 32,
+            "eos_token_id": 92542
+        },
+        "pred_response": "B"
+    },
+    {
+        "sample_id": 150,
+        "question": "Using the images at hand, infer the state change. You must choose your answer from the Choice List.\n<image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image>The person interacts with a lighting device among other objects. Is the lighting device on at any point?\nChoice list: \nA. I don't know\nB. no\nC. yes\nAnswer with the option's letter from the given choices directly.",
+        "gt_response": "yes",
+        "gen_kwargs": {
+            "do_sample": false,
+            "num_beams": 1,
+            "max_new_tokens": 32,
+            "eos_token_id": 92542
+        },
+        "pred_response": "C"
+    },
+    {
+        "sample_id": 138,
+        "question": "Given the visuals, discern the state change. You must choose your answer from the Choice List.\n<image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image>The person interacts with a lighting device among other objects. Is the lighting device on at any point?\nChoice list: \nA. yes\nB. I don't know\nC. no\nAnswer with the option's letter from the given choices directly.",
+        "gt_response": "no",
+        "gen_kwargs": {
+            "do_sample": false,
+            "num_beams": 1,
+            "max_new_tokens": 32,
+            "eos_token_id": 92542
+        },
+        "pred_response": "A"
+    },
+    {
+        "sample_id": 96,
+        "question": "Inspect the presented illustrations and conclude the state change. You must choose your answer from the Choice List.\n<image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image>What can you say about the temperature of the water being poured?\nChoice list: \nA. The water seems hot.\nB. No water was poured.\nC. The water seems cold.\nAnswer with the option's letter from the given choices directly.",
+        "gt_response": "The water seems cold.",
+        "gen_kwargs": {
+            "do_sample": false,
+            "num_beams": 1,
+            "max_new_tokens": 32,
+            "eos_token_id": 92542
+        },
+        "pred_response": "A"
+    },
+    {
+        "sample_id": 46,
+        "question": "Using the images at hand, infer the state change. You must choose your answer from the Choice List.\n<image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image>If the person tried to turn on the electric device and it was not working, what was the reason for that?\nChoice list: \nA. The electric device did not work because the person unplugged the device during the video.\nB. The device worked when the person tried to turn it on.\nC. The electric device did not work most likely because it was already unplugged at the beginning of the video.\nAnswer with the option's letter from the given choices directly.",
+        "gt_response": "The device worked when the person tried to turn it on.",
+        "gen_kwargs": {
+            "do_sample": false,
+            "num_beams": 1,
+            "max_new_tokens": 32,
+            "eos_token_id": 92542
+        },
+        "pred_response": "A"
+    },
+    {
+        "sample_id": 193,
+        "question": "Review the supplied visuals and ascertain the state change. You must choose your answer from the Choice List.\n<image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image>What can you say about the temperature of the water being poured?\nChoice list: \nA. The water seems cold.\nB. The water seems hot.\nC. No water was poured.\nAnswer with the option's letter from the given choices directly.",
+        "gt_response": "The water seems cold.",
+        "gen_kwargs": {
+            "do_sample": false,
+            "num_beams": 1,
+            "max_new_tokens": 32,
+            "eos_token_id": 92542
+        },
+        "pred_response": "A"
+    },
+    {
+        "sample_id": 112,
+        "question": "Review the supplied visuals and ascertain the state change. You must choose your answer from the Choice List.\n<image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image>If the person tried to turn on the electric device and it was not working, what was the reason for that?\nChoice list: \nA. The device worked when the person tried to turn it on.\nB. The electric device did not work most likely because it was already unplugged at the beginning of the video.\nC. The electric device did not work because the person unplugged the device during the video.\nAnswer with the option's letter from the given choices directly.",
+        "gt_response": "The electric device did not work most likely because it was already unplugged at the beginning of the video.",
+        "gen_kwargs": {
+            "do_sample": false,
+            "num_beams": 1,
+            "max_new_tokens": 32,
+            "eos_token_id": 92542
+        },
+        "pred_response": "B"
+    },
+    {
+        "sample_id": 82,
+        "question": "Observe the given images and deduce the state change. You must choose your answer from the Choice List.\n<image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image>What can you say about the temperature of the water being poured?\nChoice list: \nA. The water seems cold.\nB. The water seems hot.\nC. No water was poured.\nAnswer with the option's letter from the given choices directly.",
+        "gt_response": "The water seems hot.",
+        "gen_kwargs": {
+            "do_sample": false,
+            "num_beams": 1,
+            "max_new_tokens": 32,
+            "eos_token_id": 92542
+        },
+        "pred_response": "B"
+    },
+    {
+        "sample_id": 121,
+        "question": "Review the supplied visuals and ascertain the state change. You must choose your answer from the Choice List.\n<image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image>The person interacts with a lighting device among other objects. Is the lighting device on at any point?\nChoice list: \nA. yes\nB. no\nC. I don't know\nAnswer with the option's letter from the given choices directly.",
+        "gt_response": "yes",
+        "gen_kwargs": {
+            "do_sample": false,
+            "num_beams": 1,
+            "max_new_tokens": 32,
+            "eos_token_id": 92542
+        },
+        "pred_response": "A"
+    },
+    {
+        "sample_id": 107,
+        "question": "Analyze the provided visuals and determine the change of the state in question. You must choose your answer from the Choice List.\n<image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image>What can you say about the temperature of the water being poured?\nChoice list: \nA. The water seems cold.\nB. The water seems hot.\nC. No water was poured.\nAnswer with the option's letter from the given choices directly.",
+        "gt_response": "The water seems hot.",
+        "gen_kwargs": {
+            "do_sample": false,
+            "num_beams": 1,
+            "max_new_tokens": 32,
+            "eos_token_id": 92542
+        },
+        "pred_response": "B"
+    },
+    {
+        "sample_id": 111,
+        "question": "Based on the given images, identify the state change. You must choose your answer from the Choice List.\n<image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image>The person interacts with a lighting device among other objects. Is the lighting device on at any point?\nChoice list: \nA. yes\nB. I don't know\nC. no\nAnswer with the option's letter from the given choices directly.",
+        "gt_response": "no",
+        "gen_kwargs": {
+            "do_sample": false,
+            "num_beams": 1,
+            "max_new_tokens": 32,
+            "eos_token_id": 92542
+        },
+        "pred_response": "C"
+    },
+    {
+        "sample_id": 134,
+        "question": "Given the visuals, discern the state change. You must choose your answer from the Choice List.\n<image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image>The person interacts with a lighting device among other objects. Is the lighting device on at any point?\nChoice list: \nA. yes\nB. no\nC. I don't know\nAnswer with the option's letter from the given choices directly.",
+        "gt_response": "no",
+        "gen_kwargs": {
+            "do_sample": false,
+            "num_beams": 1,
+            "max_new_tokens": 32,
+            "eos_token_id": 92542
+        },
+        "pred_response": "B"
+    },
+    {
+        "sample_id": 58,
+        "question": "Review the supplied visuals and ascertain the state change. You must choose your answer from the Choice List.\n<image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image>What can you say about the temperature of the water being poured?\nChoice list: \nA. The water seems cold.\nB. The water seems hot.\nC. No water was poured.\nAnswer with the option's letter from the given choices directly.",
+        "gt_response": "The water seems hot.",
+        "gen_kwargs": {
+            "do_sample": false,
+            "num_beams": 1,
+            "max_new_tokens": 32,
+            "eos_token_id": 92542
+        },
+        "pred_response": "B"
+    },
+    {
+        "sample_id": 73,
+        "question": "Given the visuals, discern the state change. You must choose your answer from the Choice List.\n<image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image>What can you say about the temperature of the water being poured?\nChoice list: \nA. The water seems cold.\nB. The water seems hot.\nC. No water was poured.\nAnswer with the option's letter from the given choices directly.",
+        "gt_response": "The water seems cold.",
+        "gen_kwargs": {
+            "do_sample": false,
+            "num_beams": 1,
+            "max_new_tokens": 32,
+            "eos_token_id": 92542
+        },
+        "pred_response": "B"
+    },
+    {
+        "sample_id": 182,
+        "question": "Inspect the presented illustrations and conclude the state change. You must choose your answer from the Choice List.\n<image><image><image><image><image><image><image><image><image><image><image>The person interacts with a lighting device among other objects. Is the lighting device on at any point?\nChoice list: \nA. I don't know\nB. yes\nC. no\nAnswer with the option's letter from the given choices directly.",
+        "gt_response": "no",
+        "gen_kwargs": {
+            "do_sample": false,
+            "num_beams": 1,
+            "max_new_tokens": 32,
+            "eos_token_id": 92542
+        },
+        "pred_response": "B"
+    },
+    {
+        "sample_id": 164,
+        "question": "Analyze the provided visuals and determine the change of the state in question. You must choose your answer from the Choice List.\n<image><image><image><image><image><image><image><image><image><image><image><image><image>The person interacts with a lighting device among other objects. Is the lighting device on at any point?\nChoice list: \nA. no\nB. yes\nC. I don't know\nAnswer with the option's letter from the given choices directly.",
+        "gt_response": "no",
+        "gen_kwargs": {
+            "do_sample": false,
+            "num_beams": 1,
+            "max_new_tokens": 32,
+            "eos_token_id": 92542
+        },
+        "pred_response": "A"
+    },
+    {
+        "sample_id": 162,
+        "question": "Inspect the presented illustrations and conclude the state change. You must choose your answer from the Choice List.\n<image><image><image><image><image><image><image><image><image><image><image><image><image><image><image>If the person tried to turn on the electric device and it was not working, what was the reason for that?\nChoice list: \nA. The electric device did not work most likely because it was already unplugged at the beginning of the video.\nB. The device worked when the person tried to turn it on.\nC. The electric device did not work because the person unplugged the device during the video.\nAnswer with the option's letter from the given choices directly.",
+        "gt_response": "The device worked when the person tried to turn it on.",
+        "gen_kwargs": {
+            "do_sample": false,
+            "num_beams": 1,
+            "max_new_tokens": 32,
+            "eos_token_id": 92542
+        },
+        "pred_response": "C"
+    },
+    {
+        "sample_id": 127,
+        "question": "Using the images at hand, infer the state change. You must choose your answer from the Choice List.\n<image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image>What can you say about the temperature of the water being poured?\nChoice list: \nA. The water seems hot.\nB. No water was poured.\nC. The water seems cold.\nAnswer with the option's letter from the given choices directly.",
+        "gt_response": "No water was poured.",
+        "gen_kwargs": {
+            "do_sample": false,
+            "num_beams": 1,
+            "max_new_tokens": 32,
+            "eos_token_id": 92542
+        },
+        "pred_response": "A"
+    },
+    {
+        "sample_id": 142,
+        "question": "Inspect the presented illustrations and conclude the state change. You must choose your answer from the Choice List.\n<image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image>Is the bag empty at the end?\nChoice list: \nA. The person doesn't interact with a bag.\nB. Yes\nC. No\nAnswer with the option's letter from the given choices directly.",
+        "gt_response": "Yes",
+        "gen_kwargs": {
+            "do_sample": false,
+            "num_beams": 1,
+            "max_new_tokens": 32,
+            "eos_token_id": 92542
+        },
+        "pred_response": "B"
+    },
+    {
+        "sample_id": 139,
+        "question": "Given the visuals, discern the state change. You must choose your answer from the Choice List.\n<image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image>What can you say about the temperature of the water being poured?\nChoice list: \nA. The water seems cold.\nB. No water was poured.\nC. The water seems hot.\nAnswer with the option's letter from the given choices directly.",
+        "gt_response": "No water was poured.",
+        "gen_kwargs": {
+            "do_sample": false,
+            "num_beams": 1,
+            "max_new_tokens": 32,
+            "eos_token_id": 92542
+        },
+        "pred_response": "A"
+    },
+    {
+        "sample_id": 123,
+        "question": "Using the images at hand, infer the state change. You must choose your answer from the Choice List.\n<image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image>If the person tried to turn on the electric device and it was not working, what was the reason for that?\nChoice list: \nA. The electric device did not work most likely because it was already unplugged at the beginning of the video.\nB. The electric device did not work because the person unplugged the device during the video.\nC. The device worked when the person tried to turn it on.\nAnswer with the option's letter from the given choices directly.",
+        "gt_response": "The device worked when the person tried to turn it on.",
+        "gen_kwargs": {
+            "do_sample": false,
+            "num_beams": 1,
+            "max_new_tokens": 32,
+            "eos_token_id": 92542
+        },
+        "pred_response": "B"
+    },
+    {
+        "sample_id": 154,
+        "question": "From the images presented, ascertain the state change in the query. You must choose your answer from the Choice List.\n<image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image>The person interacts with a lighting device among other objects. Is the lighting device on at any point?\nChoice list: \nA. I don't know\nB. no\nC. yes\nAnswer with the option's letter from the given choices directly.",
+        "gt_response": "yes",
+        "gen_kwargs": {
+            "do_sample": false,
+            "num_beams": 1,
+            "max_new_tokens": 32,
+            "eos_token_id": 92542
+        },
+        "pred_response": "C"
+    },
+    {
+        "sample_id": 88,
+        "question": "Analyze the provided visuals and determine the change of the state in question. You must choose your answer from the Choice List.\n<image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image>If the person tried to turn on the electric device and it was not working, what was the reason for that?\nChoice list: \nA. The electric device did not work because the person unplugged the device during the video.\nB. The device worked when the person tried to turn it on.\nC. The electric device did not work most likely because it was already unplugged at the beginning of the video.\nAnswer with the option's letter from the given choices directly.",
+        "gt_response": "The device worked when the person tried to turn it on.",
+        "gen_kwargs": {
+            "do_sample": false,
+            "num_beams": 1,
+            "max_new_tokens": 32,
+            "eos_token_id": 92542
+        },
+        "pred_response": "A"
+    },
+    {
+        "sample_id": 128,
+        "question": "Analyze the provided visuals and determine the change of the state in question. You must choose your answer from the Choice List.\n<image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image>What can you say about the temperature of the water being poured?\nChoice list: \nA. No water was poured.\nB. The water seems hot.\nC. The water seems cold.\nAnswer with the option's letter from the given choices directly.",
+        "gt_response": "The water seems cold.",
+        "gen_kwargs": {
+            "do_sample": false,
+            "num_beams": 1,
+            "max_new_tokens": 32,
+            "eos_token_id": 92542
+        },
+        "pred_response": "C"
+    },
+    {
+        "sample_id": 165,
+        "question": "Using the images at hand, infer the state change. You must choose your answer from the Choice List.\n<image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image>If the person tried to turn on the electric device and it was not working, what was the reason for that?\nChoice list: \nA. The device worked when the person tried to turn it on.\nB. The electric device did not work because the person unplugged the device during the video.\nC. The electric device did not work most likely because it was already unplugged at the beginning of the video.\nAnswer with the option's letter from the given choices directly.",
+        "gt_response": "The device worked when the person tried to turn it on.",
+        "gen_kwargs": {
+            "do_sample": false,
+            "num_beams": 1,
+            "max_new_tokens": 32,
+            "eos_token_id": 92542
+        },
+        "pred_response": "B"
+    },
+    {
+        "sample_id": 163,
+        "question": "Inspect the presented illustrations and conclude the state change. You must choose your answer from the Choice List.\n<image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image>The person interacts with a lighting device among other objects. Is the lighting device on at any point?\nChoice list: \nA. no\nB. yes\nC. I don't know\nAnswer with the option's letter from the given choices directly.",
+        "gt_response": "yes",
+        "gen_kwargs": {
+            "do_sample": false,
+            "num_beams": 1,
+            "max_new_tokens": 32,
+            "eos_token_id": 92542
+        },
+        "pred_response": "B"
+    },
+    {
+        "sample_id": 99,
+        "question": "Using the images at hand, infer the state change. You must choose your answer from the Choice List.\n<image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image>The person interacts with a lighting device among other objects. Is the lighting device on at any point?\nChoice list: \nA. I don't know\nB. yes\nC. no\nAnswer with the option's letter from the given choices directly.",
+        "gt_response": "yes",
+        "gen_kwargs": {
+            "do_sample": false,
+            "num_beams": 1,
+            "max_new_tokens": 32,
+            "eos_token_id": 92542
+        },
+        "pred_response": "B"
+    },
+    {
+        "sample_id": 60,
+        "question": "Using the images at hand, infer the state change. You must choose your answer from the Choice List.\n<image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image>What can you say about the temperature of the water being poured?\nChoice list: \nA. The water seems hot.\nB. The water seems cold.\nC. No water was poured.\nAnswer with the option's letter from the given choices directly.",
+        "gt_response": "The water seems cold.",
+        "gen_kwargs": {
+            "do_sample": false,
+            "num_beams": 1,
+            "max_new_tokens": 32,
+            "eos_token_id": 92542
+        },
+        "pred_response": "B"
+    },
+    {
+        "sample_id": 198,
+        "question": "Using the images at hand, infer the state change. You must choose your answer from the Choice List.\n<image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image>Is the bag empty at the end?\nChoice list: \nA. Yes\nB. No\nC. The person doesn't interact with a bag.\nAnswer with the option's letter from the given choices directly.",
+        "gt_response": "Yes",
+        "gen_kwargs": {
+            "do_sample": false,
+            "num_beams": 1,
+            "max_new_tokens": 32,
+            "eos_token_id": 92542
+        },
+        "pred_response": "A"
+    },
+    {
+        "sample_id": 117,
+        "question": "Based on the given images, identify the state change. You must choose your answer from the Choice List.\n<image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image>What can you say about the temperature of the water being poured?\nChoice list: \nA. The water seems cold.\nB. No water was poured.\nC. The water seems hot.\nAnswer with the option's letter from the given choices directly.",
+        "gt_response": "The water seems hot.",
+        "gen_kwargs": {
+            "do_sample": false,
+            "num_beams": 1,
+            "max_new_tokens": 32,
+            "eos_token_id": 92542
+        },
+        "pred_response": "C"
+    },
+    {
+        "sample_id": 124,
+        "question": "Evaluate the presented graphics and infer the state change. You must choose your answer from the Choice List.\n<image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image>If the person tried to turn on the electric device and it was not working, what was the reason for that?\nChoice list: \nA. The electric device did not work most likely because it was already unplugged at the beginning of the video.\nB. The device worked when the person tried to turn it on.\nC. The electric device did not work because the person unplugged the device during the video.\nAnswer with the option's letter from the given choices directly.",
+        "gt_response": "The device worked when the person tried to turn it on.",
+        "gen_kwargs": {
+            "do_sample": false,
+            "num_beams": 1,
+            "max_new_tokens": 32,
+            "eos_token_id": 92542
+        },
+        "pred_response": "C"
+    },
+    {
+        "sample_id": 137,
+        "question": "Using the images at hand, infer the state change. You must choose your answer from the Choice List.\n<image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image>What can you say about the temperature of the water being poured?\nChoice list: \nA. The water seems hot.\nB. No water was poured.\nC. The water seems cold.\nAnswer with the option's letter from the given choices directly.",
+        "gt_response": "The water seems cold.",
+        "gen_kwargs": {
+            "do_sample": false,
+            "num_beams": 1,
+            "max_new_tokens": 32,
+            "eos_token_id": 92542
+        },
+        "pred_response": "C"
+    },
+    {
+        "sample_id": 146,
+        "question": "Inspect the presented illustrations and conclude the state change. You must choose your answer from the Choice List.\n<image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image>What can you say about the temperature of the water being poured?\nChoice list: \nA. The water seems hot.\nB. The water seems cold.\nC. No water was poured.\nAnswer with the option's letter from the given choices directly.",
+        "gt_response": "The water seems hot.",
+        "gen_kwargs": {
+            "do_sample": false,
+            "num_beams": 1,
+            "max_new_tokens": 32,
+            "eos_token_id": 92542
+        },
+        "pred_response": "B"
+    },
+    {
+        "sample_id": 148,
+        "question": "Review the supplied visuals and ascertain the state change. You must choose your answer from the Choice List.\n<image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image>What can you say about the temperature of the water being poured?\nChoice list: \nA. The water seems cold.\nB. No water was poured.\nC. The water seems hot.\nAnswer with the option's letter from the given choices directly.",
+        "gt_response": "No water was poured.",
+        "gen_kwargs": {
+            "do_sample": false,
+            "num_beams": 1,
+            "max_new_tokens": 32,
+            "eos_token_id": 92542
+        },
+        "pred_response": "C"
+    },
+    {
+        "sample_id": 81,
+        "question": "Observe the given images and deduce the state change. You must choose your answer from the Choice List.\n<image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image>What can you say about the temperature of the water being poured?\nChoice list: \nA. No water was poured.\nB. The water seems cold.\nC. The water seems hot.\nAnswer with the option's letter from the given choices directly.",
+        "gt_response": "The water seems hot.",
+        "gen_kwargs": {
+            "do_sample": false,
+            "num_beams": 1,
+            "max_new_tokens": 32,
+            "eos_token_id": 92542
+        },
+        "pred_response": "C"
+    },
+    {
+        "sample_id": 90,
+        "question": "Inspect the presented illustrations and conclude the state change. You must choose your answer from the Choice List.\n<image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image>What can you say about the temperature of the water being poured?\nChoice list: \nA. The water seems hot.\nB. No water was poured.\nC. The water seems cold.\nAnswer with the option's letter from the given choices directly.",
+        "gt_response": "The water seems cold.",
+        "gen_kwargs": {
+            "do_sample": false,
+            "num_beams": 1,
+            "max_new_tokens": 32,
+            "eos_token_id": 92542
+        },
+        "pred_response": "C"
+    },
+    {
+        "sample_id": 197,
+        "question": "Given the visuals, discern the state change. You must choose your answer from the Choice List.\n<image><image><image><image><image><image><image><image><image><image><image>If the person tried to turn on the electric device and it was not working, what was the reason for that?\nChoice list: \nA. The electric device did not work most likely because it was already unplugged at the beginning of the video.\nB. The device worked when the person tried to turn it on.\nC. The electric device did not work because the person unplugged the device during the video.\nAnswer with the option's letter from the given choices directly.",
+        "gt_response": "The device worked when the person tried to turn it on.",
+        "gen_kwargs": {
+            "do_sample": false,
+            "num_beams": 1,
+            "max_new_tokens": 32,
+            "eos_token_id": 92542
+        },
+        "pred_response": "C"
+    },
+    {
+        "sample_id": 177,
+        "question": "Based on the given images, identify the state change. You must choose your answer from the Choice List.\n<image><image><image><image><image><image><image><image><image><image><image><image><image>Is the bag empty at the end?\nChoice list: \nA. The person doesn't interact with a bag.\nB. Yes\nC. No\nAnswer with the option's letter from the given choices directly.",
+        "gt_response": "Yes",
+        "gen_kwargs": {
+            "do_sample": false,
+            "num_beams": 1,
+            "max_new_tokens": 32,
+            "eos_token_id": 92542
+        },
+        "pred_response": "C"
+    },
+    {
+        "sample_id": 184,
+        "question": "Observe the given images and deduce the state change. You must choose your answer from the Choice List.\n<image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image>If the person tried to turn on the electric device and it was not working, what was the reason for that?\nChoice list: \nA. The device worked when the person tried to turn it on.\nB. The electric device did not work most likely because it was already unplugged at the beginning of the video.\nC. The electric device did not work because the person unplugged the device during the video.\nAnswer with the option's letter from the given choices directly.",
+        "gt_response": "The electric device did not work because the person unplugged the device during the video.",
+        "gen_kwargs": {
+            "do_sample": false,
+            "num_beams": 1,
+            "max_new_tokens": 32,
+            "eos_token_id": 92542
+        },
+        "pred_response": "C"
+    },
+    {
+        "sample_id": 147,
+        "question": "Using the images at hand, infer the state change. You must choose your answer from the Choice List.\n<image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image>If the person tried to turn on the electric device and it was not working, what was the reason for that?\nChoice list: \nA. The electric device did not work most likely because it was already unplugged at the beginning of the video.\nB. The device worked when the person tried to turn it on.\nC. The electric device did not work because the person unplugged the device during the video.\nAnswer with the option's letter from the given choices directly.",
+        "gt_response": "The electric device did not work most likely because it was already unplugged at the beginning of the video.",
+        "gen_kwargs": {
+            "do_sample": false,
+            "num_beams": 1,
+            "max_new_tokens": 32,
+            "eos_token_id": 92542
+        },
+        "pred_response": "A"
+    },
+    {
+        "sample_id": 153,
+        "question": "Inspect the presented illustrations and conclude the state change. You must choose your answer from the Choice List.\n<image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image>Is the bag empty at the end?\nChoice list: \nA. No\nB. The person doesn't interact with a bag.\nC. Yes\nAnswer with the option's letter from the given choices directly.",
+        "gt_response": "No",
+        "gen_kwargs": {
+            "do_sample": false,
+            "num_beams": 1,
+            "max_new_tokens": 32,
+            "eos_token_id": 92542
+        },
+        "pred_response": "A"
+    },
+    {
+        "sample_id": 155,
+        "question": "Evaluate the presented graphics and infer the state change. You must choose your answer from the Choice List.\n<image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image>If the person tried to turn on the electric device and it was not working, what was the reason for that?\nChoice list: \nA. The electric device did not work most likely because it was already unplugged at the beginning of the video.\nB. The device worked when the person tried to turn it on.\nC. The electric device did not work because the person unplugged the device during the video.\nAnswer with the option's letter from the given choices directly.",
+        "gt_response": "The electric device did not work because the person unplugged the device during the video.",
+        "gen_kwargs": {
+            "do_sample": false,
+            "num_beams": 1,
+            "max_new_tokens": 32,
+            "eos_token_id": 92542
+        },
+        "pred_response": "C"
+    },
+    {
+        "sample_id": 158,
+        "question": "Using the images at hand, infer the state change. You must choose your answer from the Choice List.\n<image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image>The person interacts with a lighting device among other objects. Is the lighting device on at any point?\nChoice list: \nA. yes\nB. I don't know\nC. no\nAnswer with the option's letter from the given choices directly.",
+        "gt_response": "yes",
+        "gen_kwargs": {
+            "do_sample": false,
+            "num_beams": 1,
+            "max_new_tokens": 32,
+            "eos_token_id": 92542
+        },
+        "pred_response": "A"
+    },
+    {
+        "sample_id": 106,
+        "question": "Examine the given illustrations and deduce the state change. You must choose your answer from the Choice List.\n<image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image>The person interacts with a lighting device among other objects. Is the lighting device on at any point?\nChoice list: \nA. I don't know\nB. no\nC. yes\nAnswer with the option's letter from the given choices directly.",
+        "gt_response": "no",
+        "gen_kwargs": {
+            "do_sample": false,
+            "num_beams": 1,
+            "max_new_tokens": 32,
+            "eos_token_id": 92542
+        },
+        "pred_response": "C"
+    },
+    {
+        "sample_id": 136,
+        "question": "Observe the given images and deduce the state change. You must choose your answer from the Choice List.\n<image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image>If the person tried to turn on the electric device and it was not working, what was the reason for that?\nChoice list: \nA. The electric device did not work most likely because it was already unplugged at the beginning of the video.\nB. The electric device did not work because the person unplugged the device during the video.\nC. The device worked when the person tried to turn it on.\nAnswer with the option's letter from the given choices directly.",
+        "gt_response": "The device worked when the person tried to turn it on.",
+        "gen_kwargs": {
+            "do_sample": false,
+            "num_beams": 1,
+            "max_new_tokens": 32,
+            "eos_token_id": 92542
+        },
+        "pred_response": "B"
+    },
+    {
+        "sample_id": 168,
+        "question": "Evaluate the presented graphics and infer the state change. You must choose your answer from the Choice List.\n<image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image>What can you say about the temperature of the water being poured?\nChoice list: \nA. The water seems cold.\nB. The water seems hot.\nC. No water was poured.\nAnswer with the option's letter from the given choices directly.",
+        "gt_response": "No water was poured.",
+        "gen_kwargs": {
+            "do_sample": false,
+            "num_beams": 1,
+            "max_new_tokens": 32,
+            "eos_token_id": 92542
+        },
+        "pred_response": "A"
+    },
+    {
+        "sample_id": 185,
+        "question": "Review the supplied visuals and ascertain the state change. You must choose your answer from the Choice List.\n<image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image>If the person tried to turn on the electric device and it was not working, what was the reason for that?\nChoice list: \nA. The device worked when the person tried to turn it on.\nB. The electric device did not work because the person unplugged the device during the video.\nC. The electric device did not work most likely because it was already unplugged at the beginning of the video.\nAnswer with the option's letter from the given choices directly.",
+        "gt_response": "The electric device did not work because the person unplugged the device during the video.",
+        "gen_kwargs": {
+            "do_sample": false,
+            "num_beams": 1,
+            "max_new_tokens": 32,
+            "eos_token_id": 92542
+        },
+        "pred_response": "C"
+    },
+    {
+        "sample_id": 108,
+        "question": "Analyze the provided visuals and determine the change of the state in question. You must choose your answer from the Choice List.\n<image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image>If the person tried to turn on the electric device and it was not working, what was the reason for that?\nChoice list: \nA. The device worked when the person tried to turn it on.\nB. The electric device did not work because the person unplugged the device during the video.\nC. The electric device did not work most likely because it was already unplugged at the beginning of the video.\nAnswer with the option's letter from the given choices directly.",
+        "gt_response": "The device worked when the person tried to turn it on.",
+        "gen_kwargs": {
+            "do_sample": false,
+            "num_beams": 1,
+            "max_new_tokens": 32,
+            "eos_token_id": 92542
+        },
+        "pred_response": "C"
+    },
+    {
+        "sample_id": 68,
+        "question": "Analyze the provided visuals and determine the change of the state in question. You must choose your answer from the Choice List.\n<image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image>The person interacts with a lighting device among other objects. Is the lighting device on at any point?\nChoice list: \nA. no\nB. I don't know\nC. yes\nAnswer with the option's letter from the given choices directly.",
+        "gt_response": "yes",
+        "gen_kwargs": {
+            "do_sample": false,
+            "num_beams": 1,
+            "max_new_tokens": 32,
+            "eos_token_id": 92542
+        },
+        "pred_response": "C"
+    },
+    {
+        "sample_id": 129,
+        "question": "Examine the given illustrations and deduce the state change. You must choose your answer from the Choice List.\n<image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image>The person interacts with a lighting device among other objects. Is the lighting device on at any point?\nChoice list: \nA. no\nB. yes\nC. I don't know\nAnswer with the option's letter from the given choices directly.",
+        "gt_response": "no",
+        "gen_kwargs": {
+            "do_sample": false,
+            "num_beams": 1,
+            "max_new_tokens": 32,
+            "eos_token_id": 92542
+        },
+        "pred_response": "B"
+    },
+    {
+        "sample_id": 176,
+        "question": "Evaluate the presented graphics and infer the state change. You must choose your answer from the Choice List.\n<image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image>What can you say about the temperature of the water being poured?\nChoice list: \nA. The water seems cold.\nB. No water was poured.\nC. The water seems hot.\nAnswer with the option's letter from the given choices directly.",
+        "gt_response": "The water seems hot.",
+        "gen_kwargs": {
+            "do_sample": false,
+            "num_beams": 1,
+            "max_new_tokens": 32,
+            "eos_token_id": 92542
+        },
+        "pred_response": "C"
+    },
+    {
+        "sample_id": 152,
+        "question": "Analyze the provided visuals and determine the change of the state in question. You must choose your answer from the Choice List.\n<image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image>What can you say about the temperature of the water being poured?\nChoice list: \nA. No water was poured.\nB. The water seems hot.\nC. The water seems cold.\nAnswer with the option's letter from the given choices directly.",
+        "gt_response": "The water seems cold.",
+        "gen_kwargs": {
+            "do_sample": false,
+            "num_beams": 1,
+            "max_new_tokens": 32,
+            "eos_token_id": 92542
+        },
+        "pred_response": "B"
+    },
+    {
+        "sample_id": 156,
+        "question": "Examine the given illustrations and deduce the state change. You must choose your answer from the Choice List.\n<image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image>What can you say about the temperature of the water being poured?\nChoice list: \nA. The water seems cold.\nB. No water was poured.\nC. The water seems hot.\nAnswer with the option's letter from the given choices directly.",
+        "gt_response": "The water seems cold.",
+        "gen_kwargs": {
+            "do_sample": false,
+            "num_beams": 1,
+            "max_new_tokens": 32,
+            "eos_token_id": 92542
+        },
+        "pred_response": "C"
+    },
+    {
+        "sample_id": 159,
+        "question": "Given the visuals, discern the state change. You must choose your answer from the Choice List.\n<image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image>The person interacts with a lighting device among other objects. Is the lighting device on at any point?\nChoice list: \nA. yes\nB. no\nC. I don't know\nAnswer with the option's letter from the given choices directly.",
+        "gt_response": "yes",
+        "gen_kwargs": {
+            "do_sample": false,
+            "num_beams": 1,
+            "max_new_tokens": 32,
+            "eos_token_id": 92542
+        },
+        "pred_response": "A"
+    },
+    {
+        "sample_id": 93,
+        "question": "Examine the given illustrations and deduce the state change. You must choose your answer from the Choice List.\n<image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image>What can you say about the temperature of the water being poured?\nChoice list: \nA. The water seems hot.\nB. No water was poured.\nC. The water seems cold.\nAnswer with the option's letter from the given choices directly.",
+        "gt_response": "The water seems hot.",
+        "gen_kwargs": {
+            "do_sample": false,
+            "num_beams": 1,
+            "max_new_tokens": 32,
+            "eos_token_id": 92542
+        },
+        "pred_response": "C"
+    },
+    {
+        "sample_id": 113,
+        "question": "Analyze the provided visuals and determine the change of the state in question. You must choose your answer from the Choice List.\n<image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image>What can you say about the temperature of the water being poured?\nChoice list: \nA. The water seems cold.\nB. The water seems hot.\nC. No water was poured.\nAnswer with the option's letter from the given choices directly.",
+        "gt_response": "The water seems hot.",
+        "gen_kwargs": {
+            "do_sample": false,
+            "num_beams": 1,
+            "max_new_tokens": 32,
+            "eos_token_id": 92542
+        },
+        "pred_response": "B"
+    },
+    {
+        "sample_id": 183,
+        "question": "Given the visuals, discern the state change. You must choose your answer from the Choice List.\n<image><image><image><image><image><image><image><image><image><image><image><image><image>If the person tried to turn on the electric device and it was not working, what was the reason for that?\nChoice list: \nA. The electric device did not work most likely because it was already unplugged at the beginning of the video.\nB. The electric device did not work because the person unplugged the device during the video.\nC. The device worked when the person tried to turn it on.\nAnswer with the option's letter from the given choices directly.",
+        "gt_response": "The device worked when the person tried to turn it on.",
+        "gen_kwargs": {
+            "do_sample": false,
+            "num_beams": 1,
+            "max_new_tokens": 32,
+            "eos_token_id": 92542
+        },
+        "pred_response": "B"
+    },
+    {
+        "sample_id": 166,
+        "question": "Using the images at hand, infer the state change. You must choose your answer from the Choice List.\n<image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image>The person interacts with a lighting device among other objects. Is the lighting device on at any point?\nChoice list: \nA. no\nB. yes\nC. I don't know\nAnswer with the option's letter from the given choices directly.",
+        "gt_response": "yes",
+        "gen_kwargs": {
+            "do_sample": false,
+            "num_beams": 1,
+            "max_new_tokens": 32,
+            "eos_token_id": 92542
+        },
+        "pred_response": "B"
+    },
+    {
+        "sample_id": 192,
+        "question": "From the images presented, ascertain the state change in the query. You must choose your answer from the Choice List.\n<image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image>The person interacts with a lighting device among other objects. Is the lighting device on at any point?\nChoice list: \nA. yes\nB. I don't know\nC. no\nAnswer with the option's letter from the given choices directly.",
+        "gt_response": "no",
+        "gen_kwargs": {
+            "do_sample": false,
+            "num_beams": 1,
+            "max_new_tokens": 32,
+            "eos_token_id": 92542
+        },
+        "pred_response": "C"
+    },
+    {
+        "sample_id": 170,
+        "question": "Evaluate the presented graphics and infer the state change. You must choose your answer from the Choice List.\n<image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image>If the person tried to turn on the electric device and it was not working, what was the reason for that?\nChoice list: \nA. The electric device did not work because the person unplugged the device during the video.\nB. The device worked when the person tried to turn it on.\nC. The electric device did not work most likely because it was already unplugged at the beginning of the video.\nAnswer with the option's letter from the given choices directly.",
+        "gt_response": "The electric device did not work most likely because it was already unplugged at the beginning of the video.",
+        "gen_kwargs": {
+            "do_sample": false,
+            "num_beams": 1,
+            "max_new_tokens": 32,
+            "eos_token_id": 92542
+        },
+        "pred_response": "A"
+    },
+    {
+        "sample_id": 161,
+        "question": "Analyze the provided visuals and determine the change of the state in question. You must choose your answer from the Choice List.\n<image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image>The person interacts with a lighting device among other objects. Is the lighting device on at any point?\nChoice list: \nA. I don't know\nB. yes\nC. no\nAnswer with the option's letter from the given choices directly.",
+        "gt_response": "no",
+        "gen_kwargs": {
+            "do_sample": false,
+            "num_beams": 1,
+            "max_new_tokens": 32,
+            "eos_token_id": 92542
+        },
+        "pred_response": "B"
+    },
+    {
+        "sample_id": 116,
+        "question": "Analyze the provided visuals and determine the change of the state in question. You must choose your answer from the Choice List.\n<image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image>What can you say about the temperature of the water being poured?\nChoice list: \nA. The water seems cold.\nB. The water seems hot.\nC. No water was poured.\nAnswer with the option's letter from the given choices directly.",
+        "gt_response": "No water was poured.",
+        "gen_kwargs": {
+            "do_sample": false,
+            "num_beams": 1,
+            "max_new_tokens": 32,
+            "eos_token_id": 92542
+        },
+        "pred_response": "A"
+    },
+    {
+        "sample_id": 178,
+        "question": "Observe the given images and deduce the state change. You must choose your answer from the Choice List.\n<image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image>If the person tried to turn on the electric device and it was not working, what was the reason for that?\nChoice list: \nA. The device worked when the person tried to turn it on.\nB. The electric device did not work most likely because it was already unplugged at the beginning of the video.\nC. The electric device did not work because the person unplugged the device during the video.\nAnswer with the option's letter from the given choices directly.",
+        "gt_response": "The device worked when the person tried to turn it on.",
+        "gen_kwargs": {
+            "do_sample": false,
+            "num_beams": 1,
+            "max_new_tokens": 32,
+            "eos_token_id": 92542
+        },
+        "pred_response": "C"
+    },
+    {
+        "sample_id": 173,
+        "question": "From the images presented, ascertain the state change in the query. You must choose your answer from the Choice List.\n<image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image>If the person tried to turn on the electric device and it was not working, what was the reason for that?\nChoice list: \nA. The electric device did not work because the person unplugged the device during the video.\nB. The device worked when the person tried to turn it on.\nC. The electric device did not work most likely because it was already unplugged at the beginning of the video.\nAnswer with the option's letter from the given choices directly.",
+        "gt_response": "The device worked when the person tried to turn it on.",
+        "gen_kwargs": {
+            "do_sample": false,
+            "num_beams": 1,
+            "max_new_tokens": 32,
+            "eos_token_id": 92542
+        },
+        "pred_response": "A"
+    },
+    {
+        "sample_id": 191,
+        "question": "From the images presented, ascertain the state change in the query. You must choose your answer from the Choice List.\n<image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image>If the person tried to turn on the electric device and it was not working, what was the reason for that?\nChoice list: \nA. The electric device did not work most likely because it was already unplugged at the beginning of the video.\nB. The device worked when the person tried to turn it on.\nC. The electric device did not work because the person unplugged the device during the video.\nAnswer with the option's letter from the given choices directly.",
+        "gt_response": "The electric device did not work because the person unplugged the device during the video.",
+        "gen_kwargs": {
+            "do_sample": false,
+            "num_beams": 1,
+            "max_new_tokens": 32,
+            "eos_token_id": 92542
+        },
+        "pred_response": "C"
+    },
+    {
+        "sample_id": 126,
+        "question": "Analyze the provided visuals and determine the change of the state in question. You must choose your answer from the Choice List.\n<image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image>What can you say about the temperature of the water being poured?\nChoice list: \nA. No water was poured.\nB. The water seems hot.\nC. The water seems cold.\nAnswer with the option's letter from the given choices directly.",
+        "gt_response": "The water seems cold.",
+        "gen_kwargs": {
+            "do_sample": false,
+            "num_beams": 1,
+            "max_new_tokens": 32,
+            "eos_token_id": 92542
+        },
+        "pred_response": "B"
+    },
+    {
+        "sample_id": 180,
+        "question": "Examine the given illustrations and deduce the state change. You must choose your answer from the Choice List.\n<image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image>If the person tried to turn on the electric device and it was not working, what was the reason for that?\nChoice list: \nA. The electric device did not work most likely because it was already unplugged at the beginning of the video.\nB. The device worked when the person tried to turn it on.\nC. The electric device did not work because the person unplugged the device during the video.\nAnswer with the option's letter from the given choices directly.",
+        "gt_response": "The device worked when the person tried to turn it on.",
+        "gen_kwargs": {
+            "do_sample": false,
+            "num_beams": 1,
+            "max_new_tokens": 32,
+            "eos_token_id": 92542
+        },
+        "pred_response": "C"
+    },
+    {
+        "sample_id": 181,
+        "question": "Observe the given images and deduce the state change. You must choose your answer from the Choice List.\n<image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image>What can you say about the temperature of the water being poured?\nChoice list: \nA. No water was poured.\nB. The water seems cold.\nC. The water seems hot.\nAnswer with the option's letter from the given choices directly.",
+        "gt_response": "No water was poured.",
+        "gen_kwargs": {
+            "do_sample": false,
+            "num_beams": 1,
+            "max_new_tokens": 32,
+            "eos_token_id": 92542
+        },
+        "pred_response": "C"
+    },
+    {
+        "sample_id": 160,
+        "question": "Using the images at hand, infer the state change. You must choose your answer from the Choice List.\n<image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image>What can you say about the temperature of the water being poured?\nChoice list: \nA. The water seems cold.\nB. The water seems hot.\nC. No water was poured.\nAnswer with the option's letter from the given choices directly.",
+        "gt_response": "The water seems cold.",
+        "gen_kwargs": {
+            "do_sample": false,
+            "num_beams": 1,
+            "max_new_tokens": 32,
+            "eos_token_id": 92542
+        },
+        "pred_response": "B"
+    },
+    {
+        "sample_id": 169,
+        "question": "Given the visuals, discern the state change. You must choose your answer from the Choice List.\n<image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image>What can you say about the temperature of the water being poured?\nChoice list: \nA. The water seems hot.\nB. No water was poured.\nC. The water seems cold.\nAnswer with the option's letter from the given choices directly.",
+        "gt_response": "The water seems cold.",
+        "gen_kwargs": {
+            "do_sample": false,
+            "num_beams": 1,
+            "max_new_tokens": 32,
+            "eos_token_id": 92542
+        },
+        "pred_response": "C"
+    },
+    {
+        "sample_id": 118,
+        "question": "Review the supplied visuals and ascertain the state change. You must choose your answer from the Choice List.\n<image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image>The person interacts with a lighting device among other objects. Is the lighting device on at any point?\nChoice list: \nA. I don't know\nB. no\nC. yes\nAnswer with the option's letter from the given choices directly.",
+        "gt_response": "no",
+        "gen_kwargs": {
+            "do_sample": false,
+            "num_beams": 1,
+            "max_new_tokens": 32,
+            "eos_token_id": 92542
+        },
+        "pred_response": "C"
+    },
+    {
+        "sample_id": 122,
+        "question": "Based on the given images, identify the state change. You must choose your answer from the Choice List.\n<image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image>If the person tried to turn on the electric device and it was not working, what was the reason for that?\nChoice list: \nA. The electric device did not work because the person unplugged the device during the video.\nB. The device worked when the person tried to turn it on.\nC. The electric device did not work most likely because it was already unplugged at the beginning of the video.\nAnswer with the option's letter from the given choices directly.",
+        "gt_response": "The device worked when the person tried to turn it on.",
+        "gen_kwargs": {
+            "do_sample": false,
+            "num_beams": 1,
+            "max_new_tokens": 32,
+            "eos_token_id": 92542
+        },
+        "pred_response": "A"
+    },
+    {
+        "sample_id": 188,
+        "question": "Evaluate the presented graphics and infer the state change. You must choose your answer from the Choice List.\n<image><image><image><image><image><image><image><image><image><image><image><image><image>If the person tried to turn on the electric device and it was not working, what was the reason for that?\nChoice list: \nA. The electric device did not work because the person unplugged the device during the video.\nB. The device worked when the person tried to turn it on.\nC. The electric device did not work most likely because it was already unplugged at the beginning of the video.\nAnswer with the option's letter from the given choices directly.",
+        "gt_response": "The device worked when the person tried to turn it on.",
+        "gen_kwargs": {
+            "do_sample": false,
+            "num_beams": 1,
+            "max_new_tokens": 32,
+            "eos_token_id": 92542
+        },
+        "pred_response": "C"
+    },
+    {
+        "sample_id": 175,
+        "question": "Given the visuals, discern the state change. You must choose your answer from the Choice List.\n<image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image>Is the bag empty at the end?\nChoice list: \nA. No\nB. Yes\nC. The person doesn't interact with a bag.\nAnswer with the option's letter from the given choices directly.",
+        "gt_response": "No",
+        "gen_kwargs": {
+            "do_sample": false,
+            "num_beams": 1,
+            "max_new_tokens": 32,
+            "eos_token_id": 92542
+        },
+        "pred_response": "A"
+    },
+    {
+        "sample_id": 190,
+        "question": "Based on the given images, identify the state change. You must choose your answer from the Choice List.\n<image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image>If the person tried to turn on the electric device and it was not working, what was the reason for that?\nChoice list: \nA. The device worked when the person tried to turn it on.\nB. The electric device did not work most likely because it was already unplugged at the beginning of the video.\nC. The electric device did not work because the person unplugged the device during the video.\nAnswer with the option's letter from the given choices directly.",
+        "gt_response": "The device worked when the person tried to turn it on.",
+        "gen_kwargs": {
+            "do_sample": false,
+            "num_beams": 1,
+            "max_new_tokens": 32,
+            "eos_token_id": 92542
+        },
+        "pred_response": "C"
+    },
+    {
+        "sample_id": 172,
+        "question": "Inspect the presented illustrations and conclude the state change. You must choose your answer from the Choice List.\n<image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image>What can you say about the temperature of the water being poured?\nChoice list: \nA. No water was poured.\nB. The water seems cold.\nC. The water seems hot.\nAnswer with the option's letter from the given choices directly.",
+        "gt_response": "No water was poured.",
+        "gen_kwargs": {
+            "do_sample": false,
+            "num_beams": 1,
+            "max_new_tokens": 32,
+            "eos_token_id": 92542
+        },
+        "pred_response": "B"
+    },
+    {
+        "sample_id": 144,
+        "question": "Observe the given images and deduce the state change. You must choose your answer from the Choice List.\n<image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image>The person interacts with a lighting device among other objects. Is the lighting device on at any point?\nChoice list: \nA. no\nB. I don't know\nC. yes\nAnswer with the option's letter from the given choices directly.",
+        "gt_response": "no",
+        "gen_kwargs": {
+            "do_sample": false,
+            "num_beams": 1,
+            "max_new_tokens": 32,
+            "eos_token_id": 92542
+        },
+        "pred_response": "C"
+    },
+    {
+        "sample_id": 186,
+        "question": "From the images presented, ascertain the state change in the query. You must choose your answer from the Choice List.\n<image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image>Is the bag empty at the end?\nChoice list: \nA. Yes\nB. No\nC. The person doesn't interact with a bag.\nAnswer with the option's letter from the given choices directly.",
+        "gt_response": "Yes",
+        "gen_kwargs": {
+            "do_sample": false,
+            "num_beams": 1,
+            "max_new_tokens": 32,
+            "eos_token_id": 92542
+        },
+        "pred_response": "B"
+    },
+    {
+        "sample_id": 199,
+        "question": "Evaluate the presented graphics and infer the state change. You must choose your answer from the Choice List.\n<image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image>Is the bag empty at the end?\nChoice list: \nA. Yes\nB. No\nC. The person doesn't interact with a bag.\nAnswer with the option's letter from the given choices directly.",
+        "gt_response": "No",
+        "gen_kwargs": {
+            "do_sample": false,
+            "num_beams": 1,
+            "max_new_tokens": 32,
+            "eos_token_id": 92542
+        },
+        "pred_response": "B"
+    },
+    {
+        "sample_id": 157,
+        "question": "Analyze the provided visuals and determine the change of the state in question. You must choose your answer from the Choice List.\n<image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image>The person interacts with a lighting device among other objects. Is the lighting device on at any point?\nChoice list: \nA. no\nB. yes\nC. I don't know\nAnswer with the option's letter from the given choices directly.",
+        "gt_response": "yes",
+        "gen_kwargs": {
+            "do_sample": false,
+            "num_beams": 1,
+            "max_new_tokens": 32,
+            "eos_token_id": 92542
+        },
+        "pred_response": "B"
+    },
+    {
+        "sample_id": 189,
+        "question": "Review the supplied visuals and ascertain the state change. You must choose your answer from the Choice List.\n<image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image>What can you say about the temperature of the water being poured?\nChoice list: \nA. The water seems hot.\nB. The water seems cold.\nC. No water was poured.\nAnswer with the option's letter from the given choices directly.",
+        "gt_response": "The water seems hot.",
+        "gen_kwargs": {
+            "do_sample": false,
+            "num_beams": 1,
+            "max_new_tokens": 32,
+            "eos_token_id": 92542
+        },
+        "pred_response": "A"
+    },
+    {
+        "sample_id": 187,
+        "question": "Inspect the presented illustrations and conclude the state change. You must choose your answer from the Choice List.\n<image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image>If the person tried to turn on the electric device and it was not working, what was the reason for that?\nChoice list: \nA. The electric device did not work because the person unplugged the device during the video.\nB. The electric device did not work most likely because it was already unplugged at the beginning of the video.\nC. The device worked when the person tried to turn it on.\nAnswer with the option's letter from the given choices directly.",
+        "gt_response": "The device worked when the person tried to turn it on.",
+        "gen_kwargs": {
+            "do_sample": false,
+            "num_beams": 1,
+            "max_new_tokens": 32,
+            "eos_token_id": 92542
+        },
+        "pred_response": "A"
+    },
+    {
+        "sample_id": 171,
+        "question": "Evaluate the presented graphics and infer the state change. You must choose your answer from the Choice List.\n<image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image>The person interacts with a lighting device among other objects. Is the lighting device on at any point?\nChoice list: \nA. I don't know\nB. yes\nC. no\nAnswer with the option's letter from the given choices directly.",
+        "gt_response": "yes",
+        "gen_kwargs": {
+            "do_sample": false,
+            "num_beams": 1,
+            "max_new_tokens": 32,
+            "eos_token_id": 92542
+        },
+        "pred_response": "B"
+    },
+    {
+        "sample_id": 194,
+        "question": "From the images presented, ascertain the state change in the query. You must choose your answer from the Choice List.\n<image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image>If the person tried to turn on the electric device and it was not working, what was the reason for that?\nChoice list: \nA. The electric device did not work most likely because it was already unplugged at the beginning of the video.\nB. The electric device did not work because the person unplugged the device during the video.\nC. The device worked when the person tried to turn it on.\nAnswer with the option's letter from the given choices directly.",
+        "gt_response": "The device worked when the person tried to turn it on.",
+        "gen_kwargs": {
+            "do_sample": false,
+            "num_beams": 1,
+            "max_new_tokens": 32,
+            "eos_token_id": 92542
+        },
+        "pred_response": "B"
+    },
+    {
+        "sample_id": 145,
+        "question": "Given the visuals, discern the state change. You must choose your answer from the Choice List.\n<image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image>What can you say about the temperature of the water being poured?\nChoice list: \nA. The water seems cold.\nB. The water seems hot.\nC. No water was poured.\nAnswer with the option's letter from the given choices directly.",
+        "gt_response": "The water seems hot.",
+        "gen_kwargs": {
+            "do_sample": false,
+            "num_beams": 1,
+            "max_new_tokens": 32,
+            "eos_token_id": 92542
+        },
+        "pred_response": "A"
+    },
+    {
+        "sample_id": 179,
+        "question": "Observe the given images and deduce the state change. You must choose your answer from the Choice List.\n<image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image>If the person tried to turn on the electric device and it was not working, what was the reason for that?\nChoice list: \nA. The electric device did not work because the person unplugged the device during the video.\nB. The device worked when the person tried to turn it on.\nC. The electric device did not work most likely because it was already unplugged at the beginning of the video.\nAnswer with the option's letter from the given choices directly.",
+        "gt_response": "The electric device did not work because the person unplugged the device during the video.",
+        "gen_kwargs": {
+            "do_sample": false,
+            "num_beams": 1,
+            "max_new_tokens": 32,
+            "eos_token_id": 92542
+        },
+        "pred_response": "A"
+    }
+]

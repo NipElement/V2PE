@@ -172,3 +172,5 @@ batchscript*
 pretrained/*
 dataset/*
 samples_num/
+data/
+debug_data

@@ -1,0 +1,2402 @@
+[
+    {
+        "sample_id": 0,
+        "question": "Example Question 1:\n<image> <image> <image> <image> <image> {image#1}{image#2}{image#3}{image#4}{image#5}What color is the object that enters the scene?\nAnswer: cyan\n\nExample Question 2:\n<image> <image> <image> <image> <image> {image#1}{image#2}{image#3}{image#4}{image#5}What is the color of the rubber cylinder that is moving?\nAnswer: yellow\n\nCurrent Question:\n{image#1}{image#2}{image#3}{image#4}{image#5}What color is the object that is stationary?<image> <image> <image> <image> <image> ",
+        "gt_response": "gray",
+        "gen_kwargs": {
+            "do_sample": false,
+            "num_beams": 1,
+            "max_new_tokens": 32,
+            "eos_token_id": 92542
+        },
+        "pred_response": "The image depicts a collection of geometric shapes arranged on a flat surface. The shapes include a yellow sphere, a silver sphere, a blue cube, a cyan"
+    },
+    {
+        "sample_id": 1,
+        "question": "Example Question 1:\n<image> <image> <image> <image> <image> {image#1}{image#2}{image#3}{image#4}{image#5}What is the color of the object that is stationary when the video ends?\nAnswer: blue\n\nExample Question 2:\n<image> <image> <image> <image> <image> {image#1}{image#2}{image#3}{image#4}{image#5}What shape is the metal object that is moving when the video ends?\nAnswer: cube\n\nCurrent Question:\n{image#1}{image#2}{image#3}{image#4}{image#5}What shape is the moving object when the video begins?<image> <image> <image> <image> <image> ",
+        "gt_response": "sphere",
+        "gen_kwargs": {
+            "do_sample": false,
+            "num_beams": 1,
+            "max_new_tokens": 32,
+            "eos_token_id": 92542
+        },
+        "pred_response": "The green object is a cube."
+    },
+    {
+        "sample_id": 2,
+        "question": "Example Question 1:\n<image> <image> <image> <image> <image> {image#1}{image#2}{image#3}{image#4}{image#5}What is the color of the stationary metal object when the video begins?\nAnswer: gray\n\nExample Question 2:\n<image> <image> <image> <image> <image> {image#1}{image#2}{image#3}{image#4}{image#5}What shape is the green object that is stationary when the video ends?\nAnswer: cylinder\n\nCurrent Question:\n{image#1}{image#2}{image#3}{image#4}{image#5}What color is the stationary rubber sphere when the video ends?<image> <image> <image> <image> <image> ",
+        "gt_response": "yellow",
+        "gen_kwargs": {
+            "do_sample": false,
+            "num_beams": 1,
+            "max_new_tokens": 32,
+            "eos_token_id": 92542
+        },
+        "pred_response": "The yellow sphere and the cyan sphere are both rubber objects."
+    },
+    {
+        "sample_id": 3,
+        "question": "Example Question 1:\n<image> <image> <image> <image> <image> {image#1}{image#2}{image#3}{image#4}{image#5}What shape is the last object that enters the scene?\nAnswer: sphere\n\nExample Question 2:\n<image> <image> <image> <image> <image> {image#1}{image#2}{image#3}{image#4}{image#5}What is the material of the stationary object when the video ends?\nAnswer: metal\n\nCurrent Question:\n{image#1}{image#2}{image#3}{image#4}{image#5}What material is the yellow object that is moving when the video begins?<image> <image> <image> <image> <image> ",
+        "gt_response": "metal",
+        "gen_kwargs": {
+            "do_sample": false,
+            "num_beams": 1,
+            "max_new_tokens": 32,
+            "eos_token_id": 92542
+        },
+        "pred_response": "The yellow object that is moving when the video begins is a cube."
+    },
+    {
+        "sample_id": 4,
+        "question": "Example Question 1:\n<image> <image> <image> <image> <image> {image#1}{image#2}{image#3}{image#4}{image#5}What material is the moving cylinder when the video ends?\nAnswer: metal\n\nExample Question 2:\n<image> <image> <image> <image> <image> {image#1}{image#2}{image#3}{image#4}{image#5}What material is the yellow object that is moving when the video begins?\nAnswer: metal\n\nCurrent Question:\n{image#1}{image#2}{image#3}{image#4}{image#5}What is the material of the cube that is moving when the video ends?<image> <image> <image> <image> <image> ",
+        "gt_response": "rubber",
+        "gen_kwargs": {
+            "do_sample": false,
+            "num_beams": 1,
+            "max_new_tokens": 32,
+            "eos_token_id": 92542
+        },
+        "pred_response": "The video captures a sequence of interactions between a yellow cube, a green cylinder, and a purple cube, all set against a stark white background. Initially, the"
+    },
+    {
+        "sample_id": 5,
+        "question": "Example Question 1:\n<image> <image> <image> <image> <image> {image#1}{image#2}{image#3}{image#4}{image#5}What is the color of the stationary object when the video ends?\nAnswer: green\n\nExample Question 2:\n<image> <image> <image> <image> <image> {image#1}{image#2}{image#3}{image#4}{image#5}What material is the sphere that is stationary when the video ends?\nAnswer: metal\n\nCurrent Question:\n{image#1}{image#2}{image#3}{image#4}{image#5}What shape is the moving rubber object?<image> <image> <image> <image> <image> ",
+        "gt_response": "cylinder",
+        "gen_kwargs": {
+            "do_sample": false,
+            "num_beams": 1,
+            "max_new_tokens": 32,
+            "eos_token_id": 92542
+        },
+        "pred_response": "The image captures a dynamic scene of geometric shapes in motion. A blue cube, a green cylinder, a red sphere, and a green cylinder are all in various"
+    },
+    {
+        "sample_id": 6,
+        "question": "Example Question 1:\n<image> <image> <image> <image> <image> {image#1}{image#2}{image#3}{image#4}{image#5}What is the shape of the stationary blue object when the video begins?\nAnswer: cylinder\n\nExample Question 2:\n<image> <image> <image> <image> <image> {image#1}{image#2}{image#3}{image#4}{image#5}What material is the red object that is stationary when the video begins?\nAnswer: metal\n\nCurrent Question:\n{image#1}{image#2}{image#3}{image#4}{image#5}What material is the cylinder that is moving when the video ends?<image> <image> <image> <image> <image> ",
+        "gt_response": "metal",
+        "gen_kwargs": {
+            "do_sample": false,
+            "num_beams": 1,
+            "max_new_tokens": 32,
+            "eos_token_id": 92542
+        },
+        "pred_response": "The video captures a dynamic scene of a red rubber cylinder, a gray rubber sphere, and a yellow rubber sphere in motion. The red rubber cylinder starts on the"
+    },
+    {
+        "sample_id": 7,
+        "question": "Example Question 1:\n<image> <image> <image> <image> <image> {image#1}{image#2}{image#3}{image#4}{image#5}What is the material of the cube that is moving when the video ends?\nAnswer: rubber\n\nExample Question 2:\n<image> <image> <image> <image> <image> {image#1}{image#2}{image#3}{image#4}{image#5}What material is the second object that enters the scene?\nAnswer: rubber\n\nCurrent Question:\n{image#1}{image#2}{image#3}{image#4}{image#5}What is the shape of the last object that enters the scene?<image> <image> <image> <image> <image> ",
+        "gt_response": "cube",
+        "gen_kwargs": {
+            "do_sample": false,
+            "num_beams": 1,
+            "max_new_tokens": 32,
+            "eos_token_id": 92542
+        },
+        "pred_response": "The image captures a dynamic scene of a yellow cylinder, a purple cylinder, a brown sphere, and a blue cube, all positioned on a white surface. The"
+    },
+    {
+        "sample_id": 8,
+        "question": "Example Question 1:\n<image> <image> <image> <image> <image> {image#1}{image#2}{image#3}{image#4}{image#5}What is the shape of the stationary object when the video ends?\nAnswer: cylinder\n\nExample Question 2:\n<image> <image> <image> <image> <image> {image#1}{image#2}{image#3}{image#4}{image#5}What shape is the object that exits the scene?\nAnswer: cylinder\n\nCurrent Question:\n{image#1}{image#2}{image#3}{image#4}{image#5}What is the shape of the stationary blue object when the video begins?<image> <image> <image> <image> <image> ",
+        "gt_response": "cylinder",
+        "gen_kwargs": {
+            "do_sample": false,
+            "num_beams": 1,
+            "max_new_tokens": 32,
+            "eos_token_id": 92542
+        },
+        "pred_response": "The shape of the blue object is a cylinder."
+    },
+    {
+        "sample_id": 9,
+        "question": "Example Question 1:\n<image> <image> <image> <image> <image> {image#1}{image#2}{image#3}{image#4}{image#5}What is the material of the stationary cyan object when the video begins?\nAnswer: rubber\n\nExample Question 2:\n<image> <image> <image> <image> <image> {image#1}{image#2}{image#3}{image#4}{image#5}What is the color of the stationary metal cube when the video begins?\nAnswer: green\n\nCurrent Question:\n{image#1}{image#2}{image#3}{image#4}{image#5}What shape is the metal object that is stationary when the video ends?<image> <image> <image> <image> <image> ",
+        "gt_response": "sphere",
+        "gen_kwargs": {
+            "do_sample": false,
+            "num_beams": 1,
+            "max_new_tokens": 32,
+            "eos_token_id": 92542
+        },
+        "pred_response": "The video captures a dynamic scene of a blue cube and a red sphere in motion against a stark white background. Initially, the blue cube is positioned to the right"
+    },
+    {
+        "sample_id": 10,
+        "question": "Example Question 1:\n<image> <image> <image> <image> <image> {image#1}{image#2}{image#3}{image#4}{image#5}What color is the last object that enters the scene?\nAnswer: red\n\nExample Question 2:\n<image> <image> <image> <image> <image> {image#1}{image#2}{image#3}{image#4}{image#5}What color is the object that is moving when the video begins?\nAnswer: yellow\n\nCurrent Question:\n{image#1}{image#2}{image#3}{image#4}{image#5}What material is the red object that is stationary when the video begins?<image> <image> <image> <image> <image> ",
+        "gt_response": "metal",
+        "gen_kwargs": {
+            "do_sample": false,
+            "num_beams": 1,
+            "max_new_tokens": 32,
+            "eos_token_id": 92542
+        },
+        "pred_response": "The green object is a cube."
+    },
+    {
+        "sample_id": 11,
+        "question": "Example Question 1:\n<image> <image> <image> <image> <image> {image#1}{image#2}{image#3}{image#4}{image#5}What is the material of the purple object that is moving?\nAnswer: rubber\n\nExample Question 2:\n<image> <image> <image> <image> <image> {image#1}{image#2}{image#3}{image#4}{image#5}What color is the stationary rubber object when the video begins?\nAnswer: blue\n\nCurrent Question:\n{image#1}{image#2}{image#3}{image#4}{image#5}What shape is the object that exits the scene?<image> <image> <image> <image> <image> ",
+        "gt_response": "cylinder",
+        "gen_kwargs": {
+            "do_sample": false,
+            "num_beams": 1,
+            "max_new_tokens": 32,
+            "eos_token_id": 92542
+        },
+        "pred_response": "The image captures a scene of six distinct objects arranged on a flat surface. The objects include a red cylinder, a yellow cylinder, a brown cylinder, a yellow"
+    },
+    {
+        "sample_id": 12,
+        "question": "Example Question 1:\n<image> <image> <image> <image> <image> {image#1}{image#2}{image#3}{image#4}{image#5}What is the shape of the rubber object that is stationary when the video begins?\nAnswer: sphere\n\nExample Question 2:\n<image> <image> <image> <image> <image> {image#1}{image#2}{image#3}{image#4}{image#5}What material is the red object that is stationary when the video begins?\nAnswer: metal\n\nCurrent Question:\n{image#1}{image#2}{image#3}{image#4}{image#5}What is the color of the cube that is moving when the video ends?<image> <image> <image> <image> <image> ",
+        "gt_response": "yellow",
+        "gen_kwargs": {
+            "do_sample": false,
+            "num_beams": 1,
+            "max_new_tokens": 32,
+            "eos_token_id": 92542
+        },
+        "pred_response": "The yellow object is a cube."
+    },
+    {
+        "sample_id": 13,
+        "question": "Example Question 1:\n<image> <image> <image> <image> <image> {image#1}{image#2}{image#3}{image#4}{image#5}What is the color of the rubber cylinder that is moving?\nAnswer: yellow\n\nExample Question 2:\n<image> <image> <image> <image> <image> {image#1}{image#2}{image#3}{image#4}{image#5}What is the shape of the last object that enters the scene?\nAnswer: cube\n\nCurrent Question:\n{image#1}{image#2}{image#3}{image#4}{image#5}What material is the last object that enters the scene?<image> <image> <image> <image> <image> ",
+        "gt_response": "rubber",
+        "gen_kwargs": {
+            "do_sample": false,
+            "num_beams": 1,
+            "max_new_tokens": 32,
+            "eos_token_id": 92542
+        },
+        "pred_response": "The last object that enters the scene is a purple sphere."
+    },
+    {
+        "sample_id": 14,
+        "question": "Example Question 1:\n<image> <image> <image> <image> <image> {image#1}{image#2}{image#3}{image#4}{image#5}What material is the cylinder that is moving when the video ends?\nAnswer: metal\n\nExample Question 2:\n<image> <image> <image> <image> <image> {image#1}{image#2}{image#3}{image#4}{image#5}What is the shape of the rubber object that is stationary when the video begins?\nAnswer: sphere\n\nCurrent Question:\n{image#1}{image#2}{image#3}{image#4}{image#5}What material is the stationary cylinder when the video ends?<image> <image> <image> <image> <image> ",
+        "gt_response": "metal",
+        "gen_kwargs": {
+            "do_sample": false,
+            "num_beams": 1,
+            "max_new_tokens": 32,
+            "eos_token_id": 92542
+        },
+        "pred_response": "The image captures a dynamic scene of geometric shapes in motion on a stark white background. A yellow cylinder, a purple cylinder, and a red cube are the main"
+    },
+    {
+        "sample_id": 15,
+        "question": "Example Question 1:\n<image> <image> <image> <image> <image> {image#1}{image#2}{image#3}{image#4}{image#5}What is the material of the green object that is stationary when the video begins?\nAnswer: rubber\n\nExample Question 2:\n<image> <image> <image> <image> <image> {image#1}{image#2}{image#3}{image#4}{image#5}What material is the gray object that is stationary when the video begins?\nAnswer: metal\n\nCurrent Question:\n{image#1}{image#2}{image#3}{image#4}{image#5}What is the color of the object that is stationary when the video begins?<image> <image> <image> <image> <image> ",
+        "gt_response": "green",
+        "gen_kwargs": {
+            "do_sample": false,
+            "num_beams": 1,
+            "max_new_tokens": 32,
+            "eos_token_id": 92542
+        },
+        "pred_response": "The green object that is not a cube is a cylinder."
+    },
+    {
+        "sample_id": 16,
+        "question": "Example Question 1:\n<image> <image> <image> <image> <image> {image#1}{image#2}{image#3}{image#4}{image#5}What is the shape of the stationary object when the video begins?\nAnswer: cube\n\nExample Question 2:\n<image> <image> <image> <image> <image> {image#1}{image#2}{image#3}{image#4}{image#5}What shape is the moving rubber object?\nAnswer: cylinder\n\nCurrent Question:\n{image#1}{image#2}{image#3}{image#4}{image#5}What is the color of the last object that enters the scene?<image> <image> <image> <image> <image> ",
+        "gt_response": "purple",
+        "gen_kwargs": {
+            "do_sample": false,
+            "num_beams": 1,
+            "max_new_tokens": 32,
+            "eos_token_id": 92542
+        },
+        "pred_response": "The image captures a sequence of events involving a silver sphere, a green cylinder, a blue cube, and a purple cylinder. Initially, the silver sphere is positioned"
+    },
+    {
+        "sample_id": 17,
+        "question": "Example Question 1:\n<image> <image> <image> <image> <image> {image#1}{image#2}{image#3}{image#4}{image#5}What is the material of the stationary object when the video ends?\nAnswer: metal\n\nExample Question 2:\n<image> <image> <image> <image> <image> {image#1}{image#2}{image#3}{image#4}{image#5}What color is the metal object that is stationary when the video begins?\nAnswer: purple\n\nCurrent Question:\n{image#1}{image#2}{image#3}{image#4}{image#5}What material is the object that is moving when the video begins?<image> <image> <image> <image> <image> ",
+        "gt_response": "rubber",
+        "gen_kwargs": {
+            "do_sample": false,
+            "num_beams": 1,
+            "max_new_tokens": 32,
+            "eos_token_id": 92542
+        },
+        "pred_response": "The video captures a sequence of interactions between a purple sphere, a brown sphere, and two cylinders on a flat surface. Initially, the purple sphere and the"
+    },
+    {
+        "sample_id": 18,
+        "question": "Example Question 1:\n<image> <image> <image> <image> <image> {image#1}{image#2}{image#3}{image#4}{image#5}What is the shape of the last object that enters the scene?\nAnswer: cube\n\nExample Question 2:\n<image> <image> <image> <image> <image> {image#1}{image#2}{image#3}{image#4}{image#5}What material is the object that is moving when the video begins?\nAnswer: rubber\n\nCurrent Question:\n{image#1}{image#2}{image#3}{image#4}{image#5}What is the shape of the rubber object that is stationary when the video ends?<image> <image> <image> <image> <image> ",
+        "gt_response": "cylinder",
+        "gen_kwargs": {
+            "do_sample": false,
+            "num_beams": 1,
+            "max_new_tokens": 32,
+            "eos_token_id": 92542
+        },
+        "pred_response": "The video captures a sequence of interactions between a yellow ball, a blue cylinder, and a gray cylinder on a white background. Initially, the yellow ball is positioned"
+    },
+    {
+        "sample_id": 19,
+        "question": "Example Question 1:\n<image> <image> <image> <image> <image> {image#1}{image#2}{image#3}{image#4}{image#5}What shape is the rubber object that is moving when the video ends?\nAnswer: cylinder\n\nExample Question 2:\n<image> <image> <image> <image> <image> {image#1}{image#2}{image#3}{image#4}{image#5}What is the material of the second object that enters the scene?\nAnswer: rubber\n\nCurrent Question:\n{image#1}{image#2}{image#3}{image#4}{image#5}What material is the moving green object when the video ends?<image> <image> <image> <image> <image> ",
+        "gt_response": "metal",
+        "gen_kwargs": {
+            "do_sample": false,
+            "num_beams": 1,
+            "max_new_tokens": 32,
+            "eos_token_id": 92542
+        },
+        "pred_response": "The green object that is not a cube is a cylinder."
+    },
+    {
+        "sample_id": 20,
+        "question": "Example Question 1:\n<image> <image> <image> <image> <image> {image#1}{image#2}{image#3}{image#4}{image#5}What is the color of the moving cube when the video begins?\nAnswer: yellow\n\nExample Question 2:\n<image> <image> <image> <image> <image> {image#1}{image#2}{image#3}{image#4}{image#5}What shape is the stationary object?\nAnswer: cylinder\n\nCurrent Question:\n{image#1}{image#2}{image#3}{image#4}{image#5}What is the color of the rubber object that is stationary when the video begins?<image> <image> <image> <image> <image> ",
+        "gt_response": "brown",
+        "gen_kwargs": {
+            "do_sample": false,
+            "num_beams": 1,
+            "max_new_tokens": 32,
+            "eos_token_id": 92542
+        },
+        "pred_response": "The color of the rubber object that is stationary when the video begins is blue."
+    },
+    {
+        "sample_id": 21,
+        "question": "Example Question 1:\n<image> <image> <image> <image> <image> {image#1}{image#2}{image#3}{image#4}{image#5}What shape is the stationary rubber object when the video begins?\nAnswer: cylinder\n\nExample Question 2:\n<image> <image> <image> <image> <image> {image#1}{image#2}{image#3}{image#4}{image#5}What is the shape of the stationary rubber object when the video begins?\nAnswer: cube\n\nCurrent Question:\n{image#1}{image#2}{image#3}{image#4}{image#5}What color is the last object that enters the scene?<image> <image> <image> <image> <image> ",
+        "gt_response": "yellow",
+        "gen_kwargs": {
+            "do_sample": false,
+            "num_beams": 1,
+            "max_new_tokens": 32,
+            "eos_token_id": 92542
+        },
+        "pred_response": "The image captures a dynamic scene of geometric objects in motion on a flat surface. A red cube, a blue cube, and a green sphere are the primary subjects"
+    },
+    {
+        "sample_id": 22,
+        "question": "Example Question 1:\n<image> <image> <image> <image> <image> {image#1}{image#2}{image#3}{image#4}{image#5}What is the color of the object that is stationary when the video ends?\nAnswer: blue\n\nExample Question 2:\n<image> <image> <image> <image> <image> {image#1}{image#2}{image#3}{image#4}{image#5}What shape is the object that is stationary when the cylinder enters the scene?\nAnswer: cube\n\nCurrent Question:\n{image#1}{image#2}{image#3}{image#4}{image#5}What is the material of the last object that enters the scene?<image> <image> <image> <image> <image> ",
+        "gt_response": "metal",
+        "gen_kwargs": {
+            "do_sample": false,
+            "num_beams": 1,
+            "max_new_tokens": 32,
+            "eos_token_id": 92542
+        },
+        "pred_response": "The image captures a scene of minimalist elegance, featuring a pristine white background that accentuates the presence of four distinct objects. A gray cube, exhib"
+    },
+    {
+        "sample_id": 23,
+        "question": "Example Question 1:\n<image> <image> <image> <image> <image> {image#1}{image#2}{image#3}{image#4}{image#5}What color is the last object that enters the scene?\nAnswer: red\n\nExample Question 2:\n<image> <image> <image> <image> <image> {image#1}{image#2}{image#3}{image#4}{image#5}What is the shape of the rubber object that is moving when the video begins?\nAnswer: cylinder\n\nCurrent Question:\n{image#1}{image#2}{image#3}{image#4}{image#5}What shape is the stationary object when the brown object enters the scene?<image> <image> <image> <image> <image> ",
+        "gt_response": "cylinder",
+        "gen_kwargs": {
+            "do_sample": false,
+            "num_beams": 1,
+            "max_new_tokens": 32,
+            "eos_token_id": 92542
+        },
+        "pred_response": "The image captures a dynamic scene of four cylindrical objects in motion on a stark white background. The objects, each distinct in color and size, are positioned"
+    },
+    {
+        "sample_id": 24,
+        "question": "Example Question 1:\n<image> <image> <image> <image> <image> {image#1}{image#2}{image#3}{image#4}{image#5}What is the shape of the last object that enters the scene?\nAnswer: sphere\n\nExample Question 2:\n<image> <image> <image> <image> <image> {image#1}{image#2}{image#3}{image#4}{image#5}What material is the object that is stationary when the video begins?\nAnswer: rubber\n\nCurrent Question:\n{image#1}{image#2}{image#3}{image#4}{image#5}What is the color of the second object that enters the scene?<image> <image> <image> <image> <image> ",
+        "gt_response": "green",
+        "gen_kwargs": {
+            "do_sample": false,
+            "num_beams": 1,
+            "max_new_tokens": 32,
+            "eos_token_id": 92542
+        },
+        "pred_response": "The second object that enters the scene is a blue cube."
+    },
+    {
+        "sample_id": 25,
+        "question": "Example Question 1:\n<image> <image> <image> <image> <image> {image#1}{image#2}{image#3}{image#4}{image#5}What color is the moving object when the video begins?\nAnswer: purple\n\nExample Question 2:\n<image> <image> <image> <image> <image> {image#1}{image#2}{image#3}{image#4}{image#5}What is the material of the moving green object?\nAnswer: rubber\n\nCurrent Question:\n{image#1}{image#2}{image#3}{image#4}{image#5}What is the color of the moving metal object?<image> <image> <image> <image> <image> ",
+        "gt_response": "red",
+        "gen_kwargs": {
+            "do_sample": false,
+            "num_beams": 1,
+            "max_new_tokens": 32,
+            "eos_token_id": 92542
+        },
+        "pred_response": "The color of the moving metal object is blue."
+    },
+    {
+        "sample_id": 26,
+        "question": "Example Question 1:\n<image> <image> <image> <image> <image> {image#1}{image#2}{image#3}{image#4}{image#5}What material is the red object that is moving when the video ends?\nAnswer: rubber\n\nExample Question 2:\n<image> <image> <image> <image> <image> {image#1}{image#2}{image#3}{image#4}{image#5}What color is the object that is moving when the video begins?\nAnswer: yellow\n\nCurrent Question:\n{image#1}{image#2}{image#3}{image#4}{image#5}What shape is the moving rubber object when the video begins?<image> <image> <image> <image> <image> ",
+        "gt_response": "sphere",
+        "gen_kwargs": {
+            "do_sample": false,
+            "num_beams": 1,
+            "max_new_tokens": 32,
+            "eos_token_id": 92542
+        },
+        "pred_response": "The yellow sphere is a rubber object."
+    },
+    {
+        "sample_id": 27,
+        "question": "Example Question 1:\n<image> <image> <image> <image> <image> {image#1}{image#2}{image#3}{image#4}{image#5}What is the color of the moving cube when the video ends?\nAnswer: purple\n\nExample Question 2:\n<image> <image> <image> <image> <image> {image#1}{image#2}{image#3}{image#4}{image#5}What shape is the metal object that is moving when the video ends?\nAnswer: sphere\n\nCurrent Question:\n{image#1}{image#2}{image#3}{image#4}{image#5}What shape is the rubber object that is moving when the video ends?<image> <image> <image> <image> <image> ",
+        "gt_response": "cylinder",
+        "gen_kwargs": {
+            "do_sample": false,
+            "num_beams": 1,
+            "max_new_tokens": 32,
+            "eos_token_id": 92542
+        },
+        "pred_response": "The image captures a dynamic scene of four cylindrical objects in motion on a flat surface. The objects, each distinct in color and material, are scattered across"
+    },
+    {
+        "sample_id": 28,
+        "question": "Example Question 1:\n<image> <image> <image> <image> <image> {image#1}{image#2}{image#3}{image#4}{image#5}What color is the moving cylinder when the video begins?\nAnswer: brown\n\nExample Question 2:\n<image> <image> <image> <image> <image> {image#1}{image#2}{image#3}{image#4}{image#5}What is the color of the rubber object that is stationary when the video begins?\nAnswer: brown\n\nCurrent Question:\n{image#1}{image#2}{image#3}{image#4}{image#5}What material is the moving object when the video begins?<image> <image> <image> <image> <image> ",
+        "gt_response": "rubber",
+        "gen_kwargs": {
+            "do_sample": false,
+            "num_beams": 1,
+            "max_new_tokens": 32,
+            "eos_token_id": 92542
+        },
+        "pred_response": "The color of the moving object when the video begins is purple."
+    },
+    {
+        "sample_id": 29,
+        "question": "Example Question 1:\n<image> <image> <image> <image> <image> {image#1}{image#2}{image#3}{image#4}{image#5}What is the material of the sphere that is moving when the video ends?\nAnswer: metal\n\nExample Question 2:\n<image> <image> <image> <image> <image> {image#1}{image#2}{image#3}{image#4}{image#5}What material is the object that enters the scene?\nAnswer: metal\n\nCurrent Question:\n{image#1}{image#2}{image#3}{image#4}{image#5}What is the material of the green cylinder that is moving when the video begins?<image> <image> <image> <image> <image> ",
+        "gt_response": "rubber",
+        "gen_kwargs": {
+            "do_sample": false,
+            "num_beams": 1,
+            "max_new_tokens": 32,
+            "eos_token_id": 92542
+        },
+        "pred_response": "The green cylinder is moving."
+    },
+    {
+        "sample_id": 30,
+        "question": "Example Question 1:\n<image> <image> <image> <image> <image> {image#1}{image#2}{image#3}{image#4}{image#5}What is the color of the rubber sphere that is moving?\nAnswer: gray\n\nExample Question 2:\n<image> <image> <image> <image> <image> {image#1}{image#2}{image#3}{image#4}{image#5}What material is the cylinder that is stationary when the video begins?\nAnswer: metal\n\nCurrent Question:\n{image#1}{image#2}{image#3}{image#4}{image#5}What shape is the moving rubber object when the video begins?<image> <image> <image> <image> <image> ",
+        "gt_response": "cube",
+        "gen_kwargs": {
+            "do_sample": false,
+            "num_beams": 1,
+            "max_new_tokens": 32,
+            "eos_token_id": 92542
+        },
+        "pred_response": "The green cube and the brown sphere are initially positioned close to each other."
+    },
+    {
+        "sample_id": 31,
+        "question": "Example Question 1:\n<image> <image> <image> <image> <image> {image#1}{image#2}{image#3}{image#4}{image#5}What color is the last object that enters the scene?\nAnswer: gray\n\nExample Question 2:\n<image> <image> <image> <image> <image> {image#1}{image#2}{image#3}{image#4}{image#5}What is the shape of the stationary metal object when the video begins?\nAnswer: sphere\n\nCurrent Question:\n{image#1}{image#2}{image#3}{image#4}{image#5}What color is the cylinder that is stationary when the video ends?<image> <image> <image> <image> <image> ",
+        "gt_response": "red",
+        "gen_kwargs": {
+            "do_sample": false,
+            "num_beams": 1,
+            "max_new_tokens": 32,
+            "eos_token_id": 92542
+        },
+        "pred_response": "The yellow sphere is positioned to the left of the gray sphere."
+    },
+    {
+        "sample_id": 32,
+        "question": "Example Question 1:\n<image> <image> <image> <image> <image> {image#1}{image#2}{image#3}{image#4}{image#5}What shape is the stationary rubber object when the video begins?\nAnswer: sphere\n\nExample Question 2:\n<image> <image> <image> <image> <image> {image#1}{image#2}{image#3}{image#4}{image#5}What is the color of the sphere that is moving when the video begins?\nAnswer: brown\n\nCurrent Question:\n{image#1}{image#2}{image#3}{image#4}{image#5}What color is the object that exits the scene?<image> <image> <image> <image> <image> ",
+        "gt_response": "brown",
+        "gen_kwargs": {
+            "do_sample": false,
+            "num_beams": 1,
+            "max_new_tokens": 32,
+            "eos_token_id": 92542
+        },
+        "pred_response": "The image captures a dynamic scene of six distinct objects in motion on a flat surface. A purple cube, a cyan sphere, a turquoise sphere, a brown"
+    },
+    {
+        "sample_id": 33,
+        "question": "Example Question 1:\n<image> <image> <image> <image> <image> {image#1}{image#2}{image#3}{image#4}{image#5}What is the shape of the stationary rubber object when the video begins?\nAnswer: cylinder\n\nExample Question 2:\n<image> <image> <image> <image> <image> {image#1}{image#2}{image#3}{image#4}{image#5}What material is the brown object that is moving when the video begins?\nAnswer: rubber\n\nCurrent Question:\n{image#1}{image#2}{image#3}{image#4}{image#5}What color is the last object that enters the scene?<image> <image> <image> <image> <image> ",
+        "gt_response": "brown",
+        "gen_kwargs": {
+            "do_sample": false,
+            "num_beams": 1,
+            "max_new_tokens": 32,
+            "eos_token_id": 92542
+        },
+        "pred_response": "The last object that enters the scene is a yellow sphere."
+    },
+    {
+        "sample_id": 34,
+        "question": "Example Question 1:\n<image> <image> <image> <image> <image> {image#1}{image#2}{image#3}{image#4}{image#5}What is the material of the cube that is stationary when the video begins?\nAnswer: metal\n\nExample Question 2:\n<image> <image> <image> <image> <image> {image#1}{image#2}{image#3}{image#4}{image#5}What material is the moving green object when the video ends?\nAnswer: metal\n\nCurrent Question:\n{image#1}{image#2}{image#3}{image#4}{image#5}What shape is the brown object that is stationary when the video ends?<image> <image> <image> <image> <image> ",
+        "gt_response": "sphere",
+        "gen_kwargs": {
+            "do_sample": false,
+            "num_beams": 1,
+            "max_new_tokens": 32,
+            "eos_token_id": 92542
+        },
+        "pred_response": "The yellow object is a cube."
+    },
+    {
+        "sample_id": 35,
+        "question": "Example Question 1:\n<image> <image> <image> <image> <image> {image#1}{image#2}{image#3}{image#4}{image#5}What material is the gray object that is stationary when the video begins?\nAnswer: metal\n\nExample Question 2:\n<image> <image> <image> <image> <image> {image#1}{image#2}{image#3}{image#4}{image#5}What color is the last object that enters the scene?\nAnswer: green\n\nCurrent Question:\n{image#1}{image#2}{image#3}{image#4}{image#5}What is the color of the sphere that is stationary?<image> <image> <image> <image> <image> ",
+        "gt_response": "brown",
+        "gen_kwargs": {
+            "do_sample": false,
+            "num_beams": 1,
+            "max_new_tokens": 32,
+            "eos_token_id": 92542
+        },
+        "pred_response": "The image captures a dynamic scene of a collection of geometric shapes, including spheres and cubes, arranged on a flat surface. The objects are in various colors and"
+    },
+    {
+        "sample_id": 36,
+        "question": "Example Question 1:\n<image> <image> <image> <image> <image> {image#1}{image#2}{image#3}{image#4}{image#5}What shape is the moving object when the video ends?\nAnswer: cube\n\nExample Question 2:\n<image> <image> <image> <image> <image> {image#1}{image#2}{image#3}{image#4}{image#5}What is the shape of the last object that enters the scene?\nAnswer: cube\n\nCurrent Question:\n{image#1}{image#2}{image#3}{image#4}{image#5}What color is the metal object that is stationary when the video begins?<image> <image> <image> <image> <image> ",
+        "gt_response": "purple",
+        "gen_kwargs": {
+            "do_sample": false,
+            "num_beams": 1,
+            "max_new_tokens": 32,
+            "eos_token_id": 92542
+        },
+        "pred_response": "The green object is a cylinder."
+    },
+    {
+        "sample_id": 37,
+        "question": "Example Question 1:\n<image> <image> <image> <image> <image> {image#1}{image#2}{image#3}{image#4}{image#5}What shape is the object that is moving when the video begins?\nAnswer: cube\n\nExample Question 2:\n<image> <image> <image> <image> <image> {image#1}{image#2}{image#3}{image#4}{image#5}What is the shape of the stationary object when the video ends?\nAnswer: cylinder\n\nCurrent Question:\n{image#1}{image#2}{image#3}{image#4}{image#5}What is the material of the sphere that is moving when the video ends?<image> <image> <image> <image> <image> ",
+        "gt_response": "metal",
+        "gen_kwargs": {
+            "do_sample": false,
+            "num_beams": 1,
+            "max_new_tokens": 32,
+            "eos_token_id": 92542
+        },
+        "pred_response": "The video captures a dynamic scene of a red sphere, a purple sphere, a green cylinder, a blue cylinder, a blue cube, and a gray sphere in"
+    },
+    {
+        "sample_id": 38,
+        "question": "Example Question 1:\n<image> <image> <image> <image> <image> {image#1}{image#2}{image#3}{image#4}{image#5}What material is the gray object that is stationary when the video begins?\nAnswer: metal\n\nExample Question 2:\n<image> <image> <image> <image> <image> {image#1}{image#2}{image#3}{image#4}{image#5}What is the shape of the metal object that is moving when the video begins?\nAnswer: cube\n\nCurrent Question:\n{image#1}{image#2}{image#3}{image#4}{image#5}What is the shape of the moving object when the video begins?<image> <image> <image> <image> <image> ",
+        "gt_response": "cube",
+        "gen_kwargs": {
+            "do_sample": false,
+            "num_beams": 1,
+            "max_new_tokens": 32,
+            "eos_token_id": 92542
+        },
+        "pred_response": "The video captures a sequence of movements involving a yellow cylinder, a gray sphere, a blue cube, and a purple cube. Initially, the yellow cylinder and the"
+    },
+    {
+        "sample_id": 39,
+        "question": "Example Question 1:\n<image> <image> <image> <image> <image> {image#1}{image#2}{image#3}{image#4}{image#5}What shape is the rubber object that is moving when the video ends?\nAnswer: cylinder\n\nExample Question 2:\n<image> <image> <image> <image> <image> {image#1}{image#2}{image#3}{image#4}{image#5}What is the shape of the cyan object that is stationary?\nAnswer: cube\n\nCurrent Question:\n{image#1}{image#2}{image#3}{image#4}{image#5}What is the shape of the object that is stationary when the video ends?<image> <image> <image> <image> <image> ",
+        "gt_response": "cube",
+        "gen_kwargs": {
+            "do_sample": false,
+            "num_beams": 1,
+            "max_new_tokens": 32,
+            "eos_token_id": 92542
+        },
+        "pred_response": "The image captures a dynamic scene of geometric objects in motion on a stark white background. A yellow rubber cylinder, a yellow metal cylinder, and a purple metal cube"
+    },
+    {
+        "sample_id": 40,
+        "question": "Example Question 1:\n<image> <image> <image> <image> <image> {image#1}{image#2}{image#3}{image#4}{image#5}What is the material of the moving sphere?\nAnswer: rubber\n\nExample Question 2:\n<image> <image> <image> <image> <image> {image#1}{image#2}{image#3}{image#4}{image#5}What is the shape of the last object that enters the scene?\nAnswer: cube\n\nCurrent Question:\n{image#1}{image#2}{image#3}{image#4}{image#5}What is the shape of the stationary rubber object when the video begins?<image> <image> <image> <image> <image> ",
+        "gt_response": "cube",
+        "gen_kwargs": {
+            "do_sample": false,
+            "num_beams": 1,
+            "max_new_tokens": 32,
+            "eos_token_id": 92542
+        },
+        "pred_response": "The video captures a dynamic scene of a green ball and a blue cube in motion. Initially, the green ball is positioned to the right of the blue cube,"
+    },
+    {
+        "sample_id": 41,
+        "question": "Example Question 1:\n<image> <image> <image> <image> <image> {image#1}{image#2}{image#3}{image#4}{image#5}What shape is the moving yellow object when the video ends?\nAnswer: cube\n\nExample Question 2:\n<image> <image> <image> <image> <image> {image#1}{image#2}{image#3}{image#4}{image#5}What is the color of the last object that enters the scene?\nAnswer: red\n\nCurrent Question:\n{image#1}{image#2}{image#3}{image#4}{image#5}What is the color of the first object that enters the scene?<image> <image> <image> <image> <image> ",
+        "gt_response": "purple",
+        "gen_kwargs": {
+            "do_sample": false,
+            "num_beams": 1,
+            "max_new_tokens": 32,
+            "eos_token_id": 92542
+        },
+        "pred_response": "The first object that enters the scene is a green rubber cylinder."
+    },
+    {
+        "sample_id": 42,
+        "question": "Example Question 1:\n<image> <image> <image> <image> <image> {image#1}{image#2}{image#3}{image#4}{image#5}What color is the second object that enters the scene?\nAnswer: brown\n\nExample Question 2:\n<image> <image> <image> <image> <image> {image#1}{image#2}{image#3}{image#4}{image#5}What is the shape of the stationary rubber object when the video begins?\nAnswer: cylinder\n\nCurrent Question:\n{image#1}{image#2}{image#3}{image#4}{image#5}What color is the last object that enters the scene?<image> <image> <image> <image> <image> ",
+        "gt_response": "red",
+        "gen_kwargs": {
+            "do_sample": false,
+            "num_beams": 1,
+            "max_new_tokens": 32,
+            "eos_token_id": 92542
+        },
+        "pred_response": "The last object that enters the scene is a green cube."
+    },
+    {
+        "sample_id": 43,
+        "question": "Example Question 1:\n<image> <image> <image> <image> <image> {image#1}{image#2}{image#3}{image#4}{image#5}What material is the object that is stationary when the video begins?\nAnswer: rubber\n\nExample Question 2:\n<image> <image> <image> <image> <image> {image#1}{image#2}{image#3}{image#4}{image#5}What color is the last object that enters the scene?\nAnswer: red\n\nCurrent Question:\n{image#1}{image#2}{image#3}{image#4}{image#5}What is the color of the moving rubber object when the video ends?<image> <image> <image> <image> <image> ",
+        "gt_response": "gray",
+        "gen_kwargs": {
+            "do_sample": false,
+            "num_beams": 1,
+            "max_new_tokens": 32,
+            "eos_token_id": 92542
+        },
+        "pred_response": "The video captures a sequence of interactions between a purple sphere, a green rubber cylinder, and a green metal cylinder on a plain white background. Initially, the purple"
+    },
+    {
+        "sample_id": 44,
+        "question": "Example Question 1:\n<image> <image> <image> <image> <image> {image#1}{image#2}{image#3}{image#4}{image#5}What is the shape of the rubber object that is moving when the video ends?\nAnswer: sphere\n\nExample Question 2:\n<image> <image> <image> <image> <image> {image#1}{image#2}{image#3}{image#4}{image#5}What is the color of the object that is stationary when the video ends?\nAnswer: blue\n\nCurrent Question:\n{image#1}{image#2}{image#3}{image#4}{image#5}What is the shape of the stationary red object when the video ends?<image> <image> <image> <image> <image> ",
+        "gt_response": "cylinder",
+        "gen_kwargs": {
+            "do_sample": false,
+            "num_beams": 1,
+            "max_new_tokens": 32,
+            "eos_token_id": 92542
+        },
+        "pred_response": "The image captures a dynamic scene of geometric shapes in motion on a flat surface. A purple cube, exhibiting a matte finish, is positioned in the foreground"
+    },
+    {
+        "sample_id": 45,
+        "question": "Example Question 1:\n<image> <image> <image> <image> <image> {image#1}{image#2}{image#3}{image#4}{image#5}What is the color of the stationary object when the video ends?\nAnswer: green\n\nExample Question 2:\n<image> <image> <image> <image> <image> {image#1}{image#2}{image#3}{image#4}{image#5}What is the shape of the stationary blue object when the video begins?\nAnswer: cylinder\n\nCurrent Question:\n{image#1}{image#2}{image#3}{image#4}{image#5}What is the color of the rubber cylinder that is moving?<image> <image> <image> <image> <image> ",
+        "gt_response": "yellow",
+        "gen_kwargs": {
+            "do_sample": false,
+            "num_beams": 1,
+            "max_new_tokens": 32,
+            "eos_token_id": 92542
+        },
+        "pred_response": "The image depicts a collection of geometric shapes arranged on a flat surface. The shapes include a yellow sphere, a silver sphere, a yellow cylinder, a blue"
+    },
+    {
+        "sample_id": 46,
+        "question": "Example Question 1:\n<image> <image> <image> <image> <image> {image#1}{image#2}{image#3}{image#4}{image#5}What color is the moving rubber object when the video begins?\nAnswer: brown\n\nExample Question 2:\n<image> <image> <image> <image> <image> {image#1}{image#2}{image#3}{image#4}{image#5}What color is the moving object when the video begins?\nAnswer: green\n\nCurrent Question:\n{image#1}{image#2}{image#3}{image#4}{image#5}What shape is the first object that enters the scene?<image> <image> <image> <image> <image> ",
+        "gt_response": "cube",
+        "gen_kwargs": {
+            "do_sample": false,
+            "num_beams": 1,
+            "max_new_tokens": 32,
+            "eos_token_id": 92542
+        },
+        "pred_response": "The first object that enters the scene is a blue cube."
+    },
+    {
+        "sample_id": 47,
+        "question": "Example Question 1:\n<image> <image> <image> <image> <image> {image#1}{image#2}{image#3}{image#4}{image#5}What is the material of the moving red cube?\nAnswer: metal\n\nExample Question 2:\n<image> <image> <image> <image> <image> {image#1}{image#2}{image#3}{image#4}{image#5}What material is the second object that enters the scene?\nAnswer: rubber\n\nCurrent Question:\n{image#1}{image#2}{image#3}{image#4}{image#5}What is the color of the object that is stationary when the yellow object enters the scene?<image> <image> <image> <image> <image> ",
+        "gt_response": "purple",
+        "gen_kwargs": {
+            "do_sample": false,
+            "num_beams": 1,
+            "max_new_tokens": 32,
+            "eos_token_id": 92542
+        },
+        "pred_response": "The color of the object that is stationary when the yellow object enters the scene is purple."
+    },
+    {
+        "sample_id": 48,
+        "question": "Example Question 1:\n<image> <image> <image> <image> <image> {image#1}{image#2}{image#3}{image#4}{image#5}What shape is the cyan object that is moving?\nAnswer: sphere\n\nExample Question 2:\n<image> <image> <image> <image> <image> {image#1}{image#2}{image#3}{image#4}{image#5}What is the shape of the stationary red object when the video ends?\nAnswer: cylinder\n\nCurrent Question:\n{image#1}{image#2}{image#3}{image#4}{image#5}What is the shape of the stationary object when the video begins?<image> <image> <image> <image> <image> ",
+        "gt_response": "cube",
+        "gen_kwargs": {
+            "do_sample": false,
+            "num_beams": 1,
+            "max_new_tokens": 32,
+            "eos_token_id": 92542
+        },
+        "pred_response": "The image captures a dynamic scene of four distinct objects in motion on a flat surface. A red cylinder, exhibiting a sense of movement, is positioned in the"
+    },
+    {
+        "sample_id": 49,
+        "question": "Example Question 1:\n<image> <image> <image> <image> <image> {image#1}{image#2}{image#3}{image#4}{image#5}What material is the red object that is stationary when the video begins?\nAnswer: metal\n\nExample Question 2:\n<image> <image> <image> <image> <image> {image#1}{image#2}{image#3}{image#4}{image#5}What material is the stationary cylinder when the video ends?\nAnswer: metal\n\nCurrent Question:\n{image#1}{image#2}{image#3}{image#4}{image#5}What material is the first object that enters the scene?<image> <image> <image> <image> <image> ",
+        "gt_response": "metal",
+        "gen_kwargs": {
+            "do_sample": false,
+            "num_beams": 1,
+            "max_new_tokens": 32,
+            "eos_token_id": 92542
+        },
+        "pred_response": "The green object is a cylinder."
+    },
+    {
+        "sample_id": 50,
+        "question": "Example Question 1:\n<image> <image> <image> <image> <image> {image#1}{image#2}{image#3}{image#4}{image#5}What is the shape of the first object that enters the scene?\nAnswer: sphere\n\nExample Question 2:\n<image> <image> <image> <image> <image> {image#1}{image#2}{image#3}{image#4}{image#5}What shape is the stationary object?\nAnswer: cylinder\n\nCurrent Question:\n{image#1}{image#2}{image#3}{image#4}{image#5}What is the shape of the object that is moving when the video begins?<image> <image> <image> <image> <image> ",
+        "gt_response": "sphere",
+        "gen_kwargs": {
+            "do_sample": false,
+            "num_beams": 1,
+            "max_new_tokens": 32,
+            "eos_token_id": 92542
+        },
+        "pred_response": "The video captures a sequence of events involving a collection of geometric shapes in motion on a flat surface. Initially, a yellow cube, a gray cube, a blue"
+    },
+    {
+        "sample_id": 51,
+        "question": "Example Question 1:\n<image> <image> <image> <image> <image> {image#1}{image#2}{image#3}{image#4}{image#5}What is the shape of the rubber object that is moving when the video begins?\nAnswer: cylinder\n\nExample Question 2:\n<image> <image> <image> <image> <image> {image#1}{image#2}{image#3}{image#4}{image#5}What is the shape of the first object that enters the scene?\nAnswer: sphere\n\nCurrent Question:\n{image#1}{image#2}{image#3}{image#4}{image#5}What is the color of the last object that enters the scene?<image> <image> <image> <image> <image> ",
+        "gt_response": "yellow",
+        "gen_kwargs": {
+            "do_sample": false,
+            "num_beams": 1,
+            "max_new_tokens": 32,
+            "eos_token_id": 92542
+        },
+        "pred_response": "The image captures a dynamic scene of geometric shapes in motion on a flat surface. A yellow rubber cylinder is positioned in the upper left, while a red cube is"
+    },
+    {
+        "sample_id": 52,
+        "question": "Example Question 1:\n<image> <image> <image> <image> <image> {image#1}{image#2}{image#3}{image#4}{image#5}What shape is the rubber object that is moving when the video ends?\nAnswer: cylinder\n\nExample Question 2:\n<image> <image> <image> <image> <image> {image#1}{image#2}{image#3}{image#4}{image#5}What material is the stationary yellow cube when the video ends?\nAnswer: metal\n\nCurrent Question:\n{image#1}{image#2}{image#3}{image#4}{image#5}What material is the sphere that is moving when the video ends?<image> <image> <image> <image> <image> ",
+        "gt_response": "rubber",
+        "gen_kwargs": {
+            "do_sample": false,
+            "num_beams": 1,
+            "max_new_tokens": 32,
+            "eos_token_id": 92542
+        },
+        "pred_response": "The green sphere is moving."
+    },
+    {
+        "sample_id": 53,
+        "question": "Example Question 1:\n<image> <image> <image> <image> <image> {image#1}{image#2}{image#3}{image#4}{image#5}What is the color of the rubber sphere that is moving?\nAnswer: gray\n\nExample Question 2:\n<image> <image> <image> <image> <image> {image#1}{image#2}{image#3}{image#4}{image#5}What material is the cylinder that is moving when the video ends?\nAnswer: metal\n\nCurrent Question:\n{image#1}{image#2}{image#3}{image#4}{image#5}What shape is the object that enters the scene?<image> <image> <image> <image> <image> ",
+        "gt_response": "cube",
+        "gen_kwargs": {
+            "do_sample": false,
+            "num_beams": 1,
+            "max_new_tokens": 32,
+            "eos_token_id": 92542
+        },
+        "pred_response": "The green cube and the red cylinder are positioned in the same plane."
+    },
+    {
+        "sample_id": 54,
+        "question": "Example Question 1:\n<image> <image> <image> <image> <image> {image#1}{image#2}{image#3}{image#4}{image#5}What is the shape of the stationary blue object when the video begins?\nAnswer: cylinder\n\nExample Question 2:\n<image> <image> <image> <image> <image> {image#1}{image#2}{image#3}{image#4}{image#5}What material is the sphere that is moving?\nAnswer: rubber\n\nCurrent Question:\n{image#1}{image#2}{image#3}{image#4}{image#5}What material is the stationary cylinder when the video begins?<image> <image> <image> <image> <image> ",
+        "gt_response": "metal",
+        "gen_kwargs": {
+            "do_sample": false,
+            "num_beams": 1,
+            "max_new_tokens": 32,
+            "eos_token_id": 92542
+        },
+        "pred_response": "The video captures a sequence of interactions between a blue cylinder, a yellow sphere, a brown sphere, a yellow cube, and a gray cube. Initially, the"
+    },
+    {
+        "sample_id": 55,
+        "question": "Example Question 1:\n<image> <image> <image> <image> <image> {image#1}{image#2}{image#3}{image#4}{image#5}What is the shape of the stationary red object when the video ends?\nAnswer: cylinder\n\nExample Question 2:\n<image> <image> <image> <image> <image> {image#1}{image#2}{image#3}{image#4}{image#5}What shape is the stationary object when the brown object enters the scene?\nAnswer: cylinder\n\nCurrent Question:\n{image#1}{image#2}{image#3}{image#4}{image#5}What material is the sphere that is moving when the video begins?<image> <image> <image> <image> <image> ",
+        "gt_response": "metal",
+        "gen_kwargs": {
+            "do_sample": false,
+            "num_beams": 1,
+            "max_new_tokens": 32,
+            "eos_token_id": 92542
+        },
+        "pred_response": "The video captures a dynamic scene of a blue ball in motion, interacting with a silver sphere and a cyan sphere on a white background. Initially, the blue ball"
+    },
+    {
+        "sample_id": 56,
+        "question": "Example Question 1:\n<image> <image> <image> <image> <image> {image#1}{image#2}{image#3}{image#4}{image#5}What color is the last object that enters the scene?\nAnswer: green\n\nExample Question 2:\n<image> <image> <image> <image> <image> {image#1}{image#2}{image#3}{image#4}{image#5}What material is the first object that enters the scene?\nAnswer: metal\n\nCurrent Question:\n{image#1}{image#2}{image#3}{image#4}{image#5}What material is the object that enters the scene?<image> <image> <image> <image> <image> ",
+        "gt_response": "metal",
+        "gen_kwargs": {
+            "do_sample": false,
+            "num_beams": 1,
+            "max_new_tokens": 32,
+            "eos_token_id": 92542
+        },
+        "pred_response": "The object that enters the scene is a green sphere."
+    },
+    {
+        "sample_id": 57,
+        "question": "Example Question 1:\n<image> <image> <image> <image> <image> {image#1}{image#2}{image#3}{image#4}{image#5}What color is the moving object when the video begins?\nAnswer: green\n\nExample Question 2:\n<image> <image> <image> <image> <image> {image#1}{image#2}{image#3}{image#4}{image#5}What is the color of the cylinder that is stationary when the video begins?\nAnswer: brown\n\nCurrent Question:\n{image#1}{image#2}{image#3}{image#4}{image#5}What shape is the stationary rubber object?<image> <image> <image> <image> <image> ",
+        "gt_response": "cube",
+        "gen_kwargs": {
+            "do_sample": false,
+            "num_beams": 1,
+            "max_new_tokens": 32,
+            "eos_token_id": 92542
+        },
+        "pred_response": "The image captures a dynamic scene of geometric shapes in motion on a flat surface. A red cylinder, a purple sphere, and a purple cube are in the midst"
+    },
+    {
+        "sample_id": 58,
+        "question": "Example Question 1:\n<image> <image> <image> <image> <image> {image#1}{image#2}{image#3}{image#4}{image#5}What material is the sphere that is moving?\nAnswer: rubber\n\nExample Question 2:\n<image> <image> <image> <image> <image> {image#1}{image#2}{image#3}{image#4}{image#5}What color is the second object that enters the scene?\nAnswer: yellow\n\nCurrent Question:\n{image#1}{image#2}{image#3}{image#4}{image#5}What material is the brown object that is moving when the video begins?<image> <image> <image> <image> <image> ",
+        "gt_response": "rubber",
+        "gen_kwargs": {
+            "do_sample": false,
+            "num_beams": 1,
+            "max_new_tokens": 32,
+            "eos_token_id": 92542
+        },
+        "pred_response": "The video captures a sequence of interactions between a green cube, a brown cube, and a brown sphere, all set against a stark white background. Initially, the"
+    },
+    {
+        "sample_id": 59,
+        "question": "Example Question 1:\n<image> <image> <image> <image> <image> {image#1}{image#2}{image#3}{image#4}{image#5}What material is the red object that is moving when the video ends?\nAnswer: rubber\n\nExample Question 2:\n<image> <image> <image> <image> <image> {image#1}{image#2}{image#3}{image#4}{image#5}What is the shape of the last object that enters the scene?\nAnswer: cube\n\nCurrent Question:\n{image#1}{image#2}{image#3}{image#4}{image#5}What material is the cylinder that is stationary when the video begins?<image> <image> <image> <image> <image> ",
+        "gt_response": "metal",
+        "gen_kwargs": {
+            "do_sample": false,
+            "num_beams": 1,
+            "max_new_tokens": 32,
+            "eos_token_id": 92542
+        },
+        "pred_response": "The green object is a cylinder."
+    },
+    {
+        "sample_id": 60,
+        "question": "Example Question 1:\n<image> <image> <image> <image> <image> {image#1}{image#2}{image#3}{image#4}{image#5}What color is the metal object that is stationary when the video begins?\nAnswer: purple\n\nExample Question 2:\n<image> <image> <image> <image> <image> {image#1}{image#2}{image#3}{image#4}{image#5}What material is the stationary object?\nAnswer: metal\n\nCurrent Question:\n{image#1}{image#2}{image#3}{image#4}{image#5}What shape is the last object that exits the scene?<image> <image> <image> <image> <image> ",
+        "gt_response": "sphere",
+        "gen_kwargs": {
+            "do_sample": false,
+            "num_beams": 1,
+            "max_new_tokens": 32,
+            "eos_token_id": 92542
+        },
+        "pred_response": "The sequence of images depicts a dynamic scene where multiple objects, including spheres and cylinders, are in motion. The initial image captures a moment with a"
+    },
+    {
+        "sample_id": 61,
+        "question": "Example Question 1:\n<image> <image> <image> <image> <image> {image#1}{image#2}{image#3}{image#4}{image#5}What material is the sphere that is moving when the video begins?\nAnswer: metal\n\nExample Question 2:\n<image> <image> <image> <image> <image> {image#1}{image#2}{image#3}{image#4}{image#5}What is the color of the first object that enters the scene?\nAnswer: purple\n\nCurrent Question:\n{image#1}{image#2}{image#3}{image#4}{image#5}What is the material of the purple object that is moving?<image> <image> <image> <image> <image> ",
+        "gt_response": "rubber",
+        "gen_kwargs": {
+            "do_sample": false,
+            "num_beams": 1,
+            "max_new_tokens": 32,
+            "eos_token_id": 92542
+        },
+        "pred_response": "The image depicts a collection of geometric shapes arranged on a flat surface. The shapes include a purple cube, a red cube, a yellow cylinder, a brown"
+    },
+    {
+        "sample_id": 62,
+        "question": "Example Question 1:\n<image> <image> <image> <image> <image> {image#1}{image#2}{image#3}{image#4}{image#5}What is the color of the rubber object that is stationary when the video begins?\nAnswer: brown\n\nExample Question 2:\n<image> <image> <image> <image> <image> {image#1}{image#2}{image#3}{image#4}{image#5}What is the material of the cube that is stationary when the video begins?\nAnswer: metal\n\nCurrent Question:\n{image#1}{image#2}{image#3}{image#4}{image#5}What is the material of the object that is stationary when the video begins?<image> <image> <image> <image> <image> ",
+        "gt_response": "rubber",
+        "gen_kwargs": {
+            "do_sample": false,
+            "num_beams": 1,
+            "max_new_tokens": 32,
+            "eos_token_id": 92542
+        },
+        "pred_response": "The material of the object that is stationary when the video begins is rubber."
+    },
+    {
+        "sample_id": 63,
+        "question": "Example Question 1:\n<image> <image> <image> <image> <image> {image#1}{image#2}{image#3}{image#4}{image#5}What is the color of the last object that enters the scene?\nAnswer: red\n\nExample Question 2:\n<image> <image> <image> <image> <image> {image#1}{image#2}{image#3}{image#4}{image#5}What shape is the object that exits the scene?\nAnswer: cylinder\n\nCurrent Question:\n{image#1}{image#2}{image#3}{image#4}{image#5}What color is the stationary cube when the video begins?<image> <image> <image> <image> <image> ",
+        "gt_response": "cyan",
+        "gen_kwargs": {
+            "do_sample": false,
+            "num_beams": 1,
+            "max_new_tokens": 32,
+            "eos_token_id": 92542
+        },
+        "pred_response": "The image captures a dynamic scene of a yellow sphere, a blue sphere, a yellow cylinder, a green cube, and a blue cube, all positioned on a"
+    },
+    {
+        "sample_id": 64,
+        "question": "Example Question 1:\n<image> <image> <image> <image> <image> {image#1}{image#2}{image#3}{image#4}{image#5}What color is the object that enters the scene?\nAnswer: red\n\nExample Question 2:\n<image> <image> <image> <image> <image> {image#1}{image#2}{image#3}{image#4}{image#5}What is the color of the moving rubber object?\nAnswer: purple\n\nCurrent Question:\n{image#1}{image#2}{image#3}{image#4}{image#5}What is the shape of the stationary object when the video ends?<image> <image> <image> <image> <image> ",
+        "gt_response": "cylinder",
+        "gen_kwargs": {
+            "do_sample": false,
+            "num_beams": 1,
+            "max_new_tokens": 32,
+            "eos_token_id": 92542
+        },
+        "pred_response": "The video captures a sequence of events involving a silver ball, a yellow rubber cylinder, a blue rubber cylinder, and a brown rubber cylinder. Initially, the silver"
+    },
+    {
+        "sample_id": 65,
+        "question": "Example Question 1:\n<image> <image> <image> <image> <image> {image#1}{image#2}{image#3}{image#4}{image#5}What material is the last object that exits the scene?\nAnswer: rubber\n\nExample Question 2:\n<image> <image> <image> <image> <image> {image#1}{image#2}{image#3}{image#4}{image#5}What is the color of the rubber cylinder that is moving?\nAnswer: yellow\n\nCurrent Question:\n{image#1}{image#2}{image#3}{image#4}{image#5}What is the color of the moving cube when the video begins?<image> <image> <image> <image> <image> ",
+        "gt_response": "yellow",
+        "gen_kwargs": {
+            "do_sample": false,
+            "num_beams": 1,
+            "max_new_tokens": 32,
+            "eos_token_id": 92542
+        },
+        "pred_response": "The green sphere is in the background."
+    },
+    {
+        "sample_id": 66,
+        "question": "Example Question 1:\n<image> <image> <image> <image> <image> {image#1}{image#2}{image#3}{image#4}{image#5}What material is the moving object when the video begins?\nAnswer: rubber\n\nExample Question 2:\n<image> <image> <image> <image> <image> {image#1}{image#2}{image#3}{image#4}{image#5}What color is the cylinder that is stationary when the video ends?\nAnswer: red\n\nCurrent Question:\n{image#1}{image#2}{image#3}{image#4}{image#5}What material is the stationary object?<image> <image> <image> <image> <image> ",
+        "gt_response": "metal",
+        "gen_kwargs": {
+            "do_sample": false,
+            "num_beams": 1,
+            "max_new_tokens": 32,
+            "eos_token_id": 92542
+        },
+        "pred_response": "The green object in the foreground is a sphere."
+    },
+    {
+        "sample_id": 67,
+        "question": "Example Question 1:\n<image> <image> <image> <image> <image> {image#1}{image#2}{image#3}{image#4}{image#5}What is the shape of the last object that enters the scene?\nAnswer: cube\n\nExample Question 2:\n<image> <image> <image> <image> <image> {image#1}{image#2}{image#3}{image#4}{image#5}What is the material of the stationary cylinder when the video ends?\nAnswer: rubber\n\nCurrent Question:\n{image#1}{image#2}{image#3}{image#4}{image#5}What shape is the stationary object when the video ends?<image> <image> <image> <image> <image> ",
+        "gt_response": "sphere",
+        "gen_kwargs": {
+            "do_sample": false,
+            "num_beams": 1,
+            "max_new_tokens": 32,
+            "eos_token_id": 92542
+        },
+        "pred_response": "The image captures a scene of geometric objects arranged on a flat surface. A yellow cylinder, a red cube, a blue sphere, a gray cylinder, and a"
+    },
+    {
+        "sample_id": 68,
+        "question": "Example Question 1:\n<image> <image> <image> <image> <image> {image#1}{image#2}{image#3}{image#4}{image#5}What shape is the second object that enters the scene?\nAnswer: cube\n\nExample Question 2:\n<image> <image> <image> <image> <image> {image#1}{image#2}{image#3}{image#4}{image#5}What is the shape of the rubber object that is stationary when the video ends?\nAnswer: cylinder\n\nCurrent Question:\n{image#1}{image#2}{image#3}{image#4}{image#5}What color is the last object that enters the scene?<image> <image> <image> <image> <image> ",
+        "gt_response": "gray",
+        "gen_kwargs": {
+            "do_sample": false,
+            "num_beams": 1,
+            "max_new_tokens": 32,
+            "eos_token_id": 92542
+        },
+        "pred_response": "The image depicts a collection of geometric shapes, including cubes and cylinders, arranged on a flat surface. The colors of the objects are varied, with the"
+    },
+    {
+        "sample_id": 69,
+        "question": "Example Question 1:\n<image> <image> <image> <image> <image> {image#1}{image#2}{image#3}{image#4}{image#5}What is the shape of the first object that enters the scene?\nAnswer: sphere\n\nExample Question 2:\n<image> <image> <image> <image> <image> {image#1}{image#2}{image#3}{image#4}{image#5}What is the color of the last object that enters the scene?\nAnswer: brown\n\nCurrent Question:\n{image#1}{image#2}{image#3}{image#4}{image#5}What is the color of the cylinder that is stationary when the video begins?<image> <image> <image> <image> <image> ",
+        "gt_response": "brown",
+        "gen_kwargs": {
+            "do_sample": false,
+            "num_beams": 1,
+            "max_new_tokens": 32,
+            "eos_token_id": 92542
+        },
+        "pred_response": "The color of the sphere that is not red is yellow."
+    },
+    {
+        "sample_id": 70,
+        "question": "Example Question 1:\n<image> <image> <image> <image> <image> {image#1}{image#2}{image#3}{image#4}{image#5}What is the material of the moving object when the video begins?\nAnswer: metal\n\nExample Question 2:\n<image> <image> <image> <image> <image> {image#1}{image#2}{image#3}{image#4}{image#5}What shape is the object that exits the scene?\nAnswer: cylinder\n\nCurrent Question:\n{image#1}{image#2}{image#3}{image#4}{image#5}What is the color of the moving rubber object?<image> <image> <image> <image> <image> ",
+        "gt_response": "purple",
+        "gen_kwargs": {
+            "do_sample": false,
+            "num_beams": 1,
+            "max_new_tokens": 32,
+            "eos_token_id": 92542
+        },
+        "pred_response": "The color of the moving rubber object is purple."
+    },
+    {
+        "sample_id": 71,
+        "question": "Example Question 1:\n<image> <image> <image> <image> <image> {image#1}{image#2}{image#3}{image#4}{image#5}What is the shape of the stationary purple object?\nAnswer: cube\n\nExample Question 2:\n<image> <image> <image> <image> <image> {image#1}{image#2}{image#3}{image#4}{image#5}What is the color of the first object that enters the scene?\nAnswer: purple\n\nCurrent Question:\n{image#1}{image#2}{image#3}{image#4}{image#5}What material is the sphere that is stationary when the video ends?<image> <image> <image> <image> <image> ",
+        "gt_response": "metal",
+        "gen_kwargs": {
+            "do_sample": false,
+            "num_beams": 1,
+            "max_new_tokens": 32,
+            "eos_token_id": 92542
+        },
+        "pred_response": "The video captures a dynamic scene of a blue cylinder and a gold sphere in motion, with the blue cylinder initially positioned to the left of the gold sphere. As"
+    },
+    {
+        "sample_id": 72,
+        "question": "Example Question 1:\n<image> <image> <image> <image> <image> {image#1}{image#2}{image#3}{image#4}{image#5}What shape is the stationary rubber object when the video begins?\nAnswer: sphere\n\nExample Question 2:\n<image> <image> <image> <image> <image> {image#1}{image#2}{image#3}{image#4}{image#5}What color is the moving metal object when the video begins?\nAnswer: blue\n\nCurrent Question:\n{image#1}{image#2}{image#3}{image#4}{image#5}What is the color of the stationary cylinder when the video ends?<image> <image> <image> <image> <image> ",
+        "gt_response": "blue",
+        "gen_kwargs": {
+            "do_sample": false,
+            "num_beams": 1,
+            "max_new_tokens": 32,
+            "eos_token_id": 92542
+        },
+        "pred_response": "The image captures a dynamic scene of six cylindrical objects and a single blue sphere, all positioned on a flat surface. The objects are scattered in a seemingly"
+    },
+    {
+        "sample_id": 73,
+        "question": "Example Question 1:\n<image> <image> <image> <image> <image> {image#1}{image#2}{image#3}{image#4}{image#5}What shape is the metal object that is moving when the video ends?\nAnswer: cube\n\nExample Question 2:\n<image> <image> <image> <image> <image> {image#1}{image#2}{image#3}{image#4}{image#5}What is the material of the object that is stationary when the video ends?\nAnswer: metal\n\nCurrent Question:\n{image#1}{image#2}{image#3}{image#4}{image#5}What is the color of the second object that enters the scene?<image> <image> <image> <image> <image> ",
+        "gt_response": "green",
+        "gen_kwargs": {
+            "do_sample": false,
+            "num_beams": 1,
+            "max_new_tokens": 32,
+            "eos_token_id": 92542
+        },
+        "pred_response": "The green sphere is positioned to the right of the green cylinder."
+    },
+    {
+        "sample_id": 74,
+        "question": "Example Question 1:\n<image> <image> <image> <image> <image> {image#1}{image#2}{image#3}{image#4}{image#5}What shape is the stationary rubber object?\nAnswer: cube\n\nExample Question 2:\n<image> <image> <image> <image> <image> {image#1}{image#2}{image#3}{image#4}{image#5}What is the color of the object that enters the scene?\nAnswer: red\n\nCurrent Question:\n{image#1}{image#2}{image#3}{image#4}{image#5}What is the shape of the stationary yellow object?<image> <image> <image> <image> <image> ",
+        "gt_response": "cube",
+        "gen_kwargs": {
+            "do_sample": false,
+            "num_beams": 1,
+            "max_new_tokens": 32,
+            "eos_token_id": 92542
+        },
+        "pred_response": "The image depicts a collection of geometric shapes arranged on a flat surface. The shapes include a yellow cube, a purple cube, a green sphere, a green"
+    },
+    {
+        "sample_id": 75,
+        "question": "Example Question 1:\n<image> <image> <image> <image> <image> {image#1}{image#2}{image#3}{image#4}{image#5}What is the shape of the object that is stationary when the video begins?\nAnswer: cylinder\n\nExample Question 2:\n<image> <image> <image> <image> <image> {image#1}{image#2}{image#3}{image#4}{image#5}What is the shape of the rubber object that is moving when the video ends?\nAnswer: sphere\n\nCurrent Question:\n{image#1}{image#2}{image#3}{image#4}{image#5}What is the material of the cyan object that is moving when the video begins?<image> <image> <image> <image> <image> ",
+        "gt_response": "rubber",
+        "gen_kwargs": {
+            "do_sample": false,
+            "num_beams": 1,
+            "max_new_tokens": 32,
+            "eos_token_id": 92542
+        },
+        "pred_response": "The image captures a sequence of interactions between various objects, including cylinders and cubes, on a plain white background. Initially, two cylinders and a cube are"
+    },
+    {
+        "sample_id": 76,
+        "question": "Example Question 1:\n<image> <image> <image> <image> <image> {image#1}{image#2}{image#3}{image#4}{image#5}What shape is the stationary rubber object when the video begins?\nAnswer: sphere\n\nExample Question 2:\n<image> <image> <image> <image> <image> {image#1}{image#2}{image#3}{image#4}{image#5}What is the color of the stationary object when the video ends?\nAnswer: green\n\nCurrent Question:\n{image#1}{image#2}{image#3}{image#4}{image#5}What color is the moving object when the video begins?<image> <image> <image> <image> <image> ",
+        "gt_response": "purple",
+        "gen_kwargs": {
+            "do_sample": false,
+            "num_beams": 1,
+            "max_new_tokens": 32,
+            "eos_token_id": 92542
+        },
+        "pred_response": "The color of the moving object when the video begins is purple."
+    },
+    {
+        "sample_id": 77,
+        "question": "Example Question 1:\n<image> <image> <image> <image> <image> {image#1}{image#2}{image#3}{image#4}{image#5}What material is the moving object when the video begins?\nAnswer: rubber\n\nExample Question 2:\n<image> <image> <image> <image> <image> {image#1}{image#2}{image#3}{image#4}{image#5}What material is the first object that enters the scene?\nAnswer: metal\n\nCurrent Question:\n{image#1}{image#2}{image#3}{image#4}{image#5}What is the shape of the cyan object that is stationary?<image> <image> <image> <image> <image> ",
+        "gt_response": "cube",
+        "gen_kwargs": {
+            "do_sample": false,
+            "num_beams": 1,
+            "max_new_tokens": 32,
+            "eos_token_id": 92542
+        },
+        "pred_response": "The image depicts a collection of geometric shapes arranged on a flat surface. The shapes include two cubes, one purple and one cyan, positioned adjacent to each other"
+    },
+    {
+        "sample_id": 78,
+        "question": "Example Question 1:\n<image> <image> <image> <image> <image> {image#1}{image#2}{image#3}{image#4}{image#5}What color is the stationary rubber object when the video begins?\nAnswer: blue\n\nExample Question 2:\n<image> <image> <image> <image> <image> {image#1}{image#2}{image#3}{image#4}{image#5}What material is the cylinder that is moving when the video ends?\nAnswer: metal\n\nCurrent Question:\n{image#1}{image#2}{image#3}{image#4}{image#5}What material is the second object that enters the scene?<image> <image> <image> <image> <image> ",
+        "gt_response": "rubber",
+        "gen_kwargs": {
+            "do_sample": false,
+            "num_beams": 1,
+            "max_new_tokens": 32,
+            "eos_token_id": 92542
+        },
+        "pred_response": "The image captures a dynamic scene of geometric objects in motion on a white surface. A yellow rubber cylinder is the focal point, positioned centrally and slightly to the"
+    },
+    {
+        "sample_id": 79,
+        "question": "Example Question 1:\n<image> <image> <image> <image> <image> {image#1}{image#2}{image#3}{image#4}{image#5}What is the material of the object that is stationary when the video ends?\nAnswer: metal\n\nExample Question 2:\n<image> <image> <image> <image> <image> {image#1}{image#2}{image#3}{image#4}{image#5}What color is the second object that enters the scene?\nAnswer: yellow\n\nCurrent Question:\n{image#1}{image#2}{image#3}{image#4}{image#5}What shape is the object that is stationary when the purple object enters the scene?<image> <image> <image> <image> <image> ",
+        "gt_response": "cylinder",
+        "gen_kwargs": {
+            "do_sample": false,
+            "num_beams": 1,
+            "max_new_tokens": 32,
+            "eos_token_id": 92542
+        },
+        "pred_response": "The image captures a dynamic scene of a blue cube and a purple sphere in motion, with the blue cube positioned above the purple sphere. The background is a stark"
+    },
+    {
+        "sample_id": 80,
+        "question": "Example Question 1:\n<image> <image> <image> <image> <image> {image#1}{image#2}{image#3}{image#4}{image#5}What color is the object that enters the scene?\nAnswer: cyan\n\nExample Question 2:\n<image> <image> <image> <image> <image> {image#1}{image#2}{image#3}{image#4}{image#5}What material is the cylinder that is stationary when the video begins?\nAnswer: metal\n\nCurrent Question:\n{image#1}{image#2}{image#3}{image#4}{image#5}What shape is the moving yellow object when the video ends?<image> <image> <image> <image> <image> ",
+        "gt_response": "cube",
+        "gen_kwargs": {
+            "do_sample": false,
+            "num_beams": 1,
+            "max_new_tokens": 32,
+            "eos_token_id": 92542
+        },
+        "pred_response": "The yellow object that is not a sphere is a cube."
+    },
+    {
+        "sample_id": 81,
+        "question": "Example Question 1:\n<image> <image> <image> <image> <image> {image#1}{image#2}{image#3}{image#4}{image#5}What color is the moving metal object when the video begins?\nAnswer: blue\n\nExample Question 2:\n<image> <image> <image> <image> <image> {image#1}{image#2}{image#3}{image#4}{image#5}What is the material of the cube that is moving when the video ends?\nAnswer: rubber\n\nCurrent Question:\n{image#1}{image#2}{image#3}{image#4}{image#5}What color is the last object that enters the scene?<image> <image> <image> <image> <image> ",
+        "gt_response": "red",
+        "gen_kwargs": {
+            "do_sample": false,
+            "num_beams": 1,
+            "max_new_tokens": 32,
+            "eos_token_id": 92542
+        },
+        "pred_response": "The last object that enters the scene is a red sphere."
+    },
+    {
+        "sample_id": 82,
+        "question": "Example Question 1:\n<image> <image> <image> <image> <image> {image#1}{image#2}{image#3}{image#4}{image#5}What shape is the object that is stationary when the cylinder enters the scene?\nAnswer: cube\n\nExample Question 2:\n<image> <image> <image> <image> <image> {image#1}{image#2}{image#3}{image#4}{image#5}What is the shape of the object that is moving when the video begins?\nAnswer: sphere\n\nCurrent Question:\n{image#1}{image#2}{image#3}{image#4}{image#5}What material is the gray object that is stationary when the video begins?<image> <image> <image> <image> <image> ",
+        "gt_response": "metal",
+        "gen_kwargs": {
+            "do_sample": false,
+            "num_beams": 1,
+            "max_new_tokens": 32,
+            "eos_token_id": 92542
+        },
+        "pred_response": "The yellow object is a cylinder."
+    },
+    {
+        "sample_id": 83,
+        "question": "Example Question 1:\n<image> <image> <image> <image> <image> {image#1}{image#2}{image#3}{image#4}{image#5}What is the material of the object that is stationary when the video ends?\nAnswer: metal\n\nExample Question 2:\n<image> <image> <image> <image> <image> {image#1}{image#2}{image#3}{image#4}{image#5}What shape is the object that enters the scene?\nAnswer: cylinder\n\nCurrent Question:\n{image#1}{image#2}{image#3}{image#4}{image#5}What shape is the moving rubber object when the video begins?<image> <image> <image> <image> <image> ",
+        "gt_response": "cylinder",
+        "gen_kwargs": {
+            "do_sample": false,
+            "num_beams": 1,
+            "max_new_tokens": 32,
+            "eos_token_id": 92542
+        },
+        "pred_response": "The video captures a dynamic scene of a collection of objects in motion on a white surface. It begins with a green cylinder positioned to the right, a red sphere"
+    },
+    {
+        "sample_id": 84,
+        "question": "Example Question 1:\n<image> <image> <image> <image> <image> {image#1}{image#2}{image#3}{image#4}{image#5}What material is the object that is stationary when the video begins?\nAnswer: rubber\n\nExample Question 2:\n<image> <image> <image> <image> <image> {image#1}{image#2}{image#3}{image#4}{image#5}What shape is the metal object that is moving when the video ends?\nAnswer: sphere\n\nCurrent Question:\n{image#1}{image#2}{image#3}{image#4}{image#5}What shape is the object that is moving when the video begins?<image> <image> <image> <image> <image> ",
+        "gt_response": "cube",
+        "gen_kwargs": {
+            "do_sample": false,
+            "num_beams": 1,
+            "max_new_tokens": 32,
+            "eos_token_id": 92542
+        },
+        "pred_response": "The blue cube is positioned to the right of the sphere."
+    },
+    {
+        "sample_id": 85,
+        "question": "Example Question 1:\n<image> <image> <image> <image> <image> {image#1}{image#2}{image#3}{image#4}{image#5}What is the color of the cylinder that is stationary when the video begins?\nAnswer: brown\n\nExample Question 2:\n<image> <image> <image> <image> <image> {image#1}{image#2}{image#3}{image#4}{image#5}What is the material of the green cylinder that is moving when the video begins?\nAnswer: rubber\n\nCurrent Question:\n{image#1}{image#2}{image#3}{image#4}{image#5}What material is the stationary object when the video ends?<image> <image> <image> <image> <image> ",
+        "gt_response": "metal",
+        "gen_kwargs": {
+            "do_sample": false,
+            "num_beams": 1,
+            "max_new_tokens": 32,
+            "eos_token_id": 92542
+        },
+        "pred_response": "The image captures a dynamic scene of geometric shapes in motion on a flat surface. A yellow cube, positioned centrally, is the focal point of the composition."
+    },
+    {
+        "sample_id": 86,
+        "question": "Example Question 1:\n<image> <image> <image> <image> <image> {image#1}{image#2}{image#3}{image#4}{image#5}What color is the object that enters the scene?\nAnswer: yellow\n\nExample Question 2:\n<image> <image> <image> <image> <image> {image#1}{image#2}{image#3}{image#4}{image#5}What is the color of the object that is stationary?\nAnswer: yellow\n\nCurrent Question:\n{image#1}{image#2}{image#3}{image#4}{image#5}What color is the first object that enters the scene?<image> <image> <image> <image> <image> ",
+        "gt_response": "yellow",
+        "gen_kwargs": {
+            "do_sample": false,
+            "num_beams": 1,
+            "max_new_tokens": 32,
+            "eos_token_id": 92542
+        },
+        "pred_response": "The image captures a dynamic scene of a collection of objects in motion, including a yellow object, a red object, a purple object, a brown object, and"
+    },
+    {
+        "sample_id": 87,
+        "question": "Example Question 1:\n<image> <image> <image> <image> <image> {image#1}{image#2}{image#3}{image#4}{image#5}What is the material of the green object that is stationary when the video begins?\nAnswer: rubber\n\nExample Question 2:\n<image> <image> <image> <image> <image> {image#1}{image#2}{image#3}{image#4}{image#5}What color is the cylinder that is stationary when the video ends?\nAnswer: red\n\nCurrent Question:\n{image#1}{image#2}{image#3}{image#4}{image#5}What is the color of the object that is stationary?<image> <image> <image> <image> <image> ",
+        "gt_response": "yellow",
+        "gen_kwargs": {
+            "do_sample": false,
+            "num_beams": 1,
+            "max_new_tokens": 32,
+            "eos_token_id": 92542
+        },
+        "pred_response": "The color of the object that is stationary is yellow."
+    },
+    {
+        "sample_id": 88,
+        "question": "Example Question 1:\n<image> <image> <image> <image> <image> {image#1}{image#2}{image#3}{image#4}{image#5}What is the shape of the stationary rubber object when the video begins?\nAnswer: cylinder\n\nExample Question 2:\n<image> <image> <image> <image> <image> {image#1}{image#2}{image#3}{image#4}{image#5}What is the material of the green cylinder that is moving when the video begins?\nAnswer: rubber\n\nCurrent Question:\n{image#1}{image#2}{image#3}{image#4}{image#5}What is the color of the stationary metal object when the video ends?<image> <image> <image> <image> <image> ",
+        "gt_response": "yellow",
+        "gen_kwargs": {
+            "do_sample": false,
+            "num_beams": 1,
+            "max_new_tokens": 32,
+            "eos_token_id": 92542
+        },
+        "pred_response": "The image captures a dynamic scene of a yellow ball in motion, positioned in the upper left quadrant, while a green cube is situated in the lower right."
+    },
+    {
+        "sample_id": 89,
+        "question": "Example Question 1:\n<image> <image> <image> <image> <image> {image#1}{image#2}{image#3}{image#4}{image#5}What color is the moving object when the video begins?\nAnswer: purple\n\nExample Question 2:\n<image> <image> <image> <image> <image> {image#1}{image#2}{image#3}{image#4}{image#5}What is the color of the second object that enters the scene?\nAnswer: brown\n\nCurrent Question:\n{image#1}{image#2}{image#3}{image#4}{image#5}What is the color of the second object that enters the scene?<image> <image> <image> <image> <image> ",
+        "gt_response": "red",
+        "gen_kwargs": {
+            "do_sample": false,
+            "num_beams": 1,
+            "max_new_tokens": 32,
+            "eos_token_id": 92542
+        },
+        "pred_response": "The color of the second object that enters the scene is brown."
+    },
+    {
+        "sample_id": 90,
+        "question": "Example Question 1:\n<image> <image> <image> <image> <image> {image#1}{image#2}{image#3}{image#4}{image#5}What shape is the stationary object when the video ends?\nAnswer: cylinder\n\nExample Question 2:\n<image> <image> <image> <image> <image> {image#1}{image#2}{image#3}{image#4}{image#5}What is the material of the last object that enters the scene?\nAnswer: metal\n\nCurrent Question:\n{image#1}{image#2}{image#3}{image#4}{image#5}What color is the moving object when the video begins?<image> <image> <image> <image> <image> ",
+        "gt_response": "green",
+        "gen_kwargs": {
+            "do_sample": false,
+            "num_beams": 1,
+            "max_new_tokens": 32,
+            "eos_token_id": 92542
+        },
+        "pred_response": "The blue cube is positioned to the left of the green sphere."
+    },
+    {
+        "sample_id": 91,
+        "question": "Example Question 1:\n<image> <image> <image> <image> <image> {image#1}{image#2}{image#3}{image#4}{image#5}What is the shape of the object that exits the scene?\nAnswer: sphere\n\nExample Question 2:\n<image> <image> <image> <image> <image> {image#1}{image#2}{image#3}{image#4}{image#5}What material is the stationary object when the cube enters the scene?\nAnswer: rubber\n\nCurrent Question:\n{image#1}{image#2}{image#3}{image#4}{image#5}What is the color of the last object that enters the scene?<image> <image> <image> <image> <image> ",
+        "gt_response": "brown",
+        "gen_kwargs": {
+            "do_sample": false,
+            "num_beams": 1,
+            "max_new_tokens": 32,
+            "eos_token_id": 92542
+        },
+        "pred_response": "The color of the last object that enters the scene is yellow."
+    },
+    {
+        "sample_id": 92,
+        "question": "Example Question 1:\n<image> <image> <image> <image> <image> {image#1}{image#2}{image#3}{image#4}{image#5}What is the shape of the last object that enters the scene?\nAnswer: cube\n\nExample Question 2:\n<image> <image> <image> <image> <image> {image#1}{image#2}{image#3}{image#4}{image#5}What material is the sphere that is moving when the video begins?\nAnswer: metal\n\nCurrent Question:\n{image#1}{image#2}{image#3}{image#4}{image#5}What is the shape of the stationary rubber object when the video begins?<image> <image> <image> <image> <image> ",
+        "gt_response": "cylinder",
+        "gen_kwargs": {
+            "do_sample": false,
+            "num_beams": 1,
+            "max_new_tokens": 32,
+            "eos_token_id": 92542
+        },
+        "pred_response": "The yellow cube is positioned to the right of the brown sphere."
+    },
+    {
+        "sample_id": 93,
+        "question": "Example Question 1:\n<image> <image> <image> <image> <image> {image#1}{image#2}{image#3}{image#4}{image#5}What color is the object that is moving when the video begins?\nAnswer: green\n\nExample Question 2:\n<image> <image> <image> <image> <image> {image#1}{image#2}{image#3}{image#4}{image#5}What color is the last object that enters the scene?\nAnswer: red\n\nCurrent Question:\n{image#1}{image#2}{image#3}{image#4}{image#5}What shape is the last object that enters the scene?<image> <image> <image> <image> <image> ",
+        "gt_response": "sphere",
+        "gen_kwargs": {
+            "do_sample": false,
+            "num_beams": 1,
+            "max_new_tokens": 32,
+            "eos_token_id": 92542
+        },
+        "pred_response": "The yellow object is a cube."
+    },
+    {
+        "sample_id": 94,
+        "question": "Example Question 1:\n<image> <image> <image> <image> <image> {image#1}{image#2}{image#3}{image#4}{image#5}What is the color of the cylinder that is stationary when the video begins?\nAnswer: brown\n\nExample Question 2:\n<image> <image> <image> <image> <image> {image#1}{image#2}{image#3}{image#4}{image#5}What is the shape of the stationary rubber object when the video begins?\nAnswer: cube\n\nCurrent Question:\n{image#1}{image#2}{image#3}{image#4}{image#5}What color is the object that is moving when the video begins?<image> <image> <image> <image> <image> ",
+        "gt_response": "yellow",
+        "gen_kwargs": {
+            "do_sample": false,
+            "num_beams": 1,
+            "max_new_tokens": 32,
+            "eos_token_id": 92542
+        },
+        "pred_response": "The image captures a dynamic scene of a blue cube, a yellow cube, and a red cube positioned in the upper left, middle, and right corners, respectively"
+    },
+    {
+        "sample_id": 95,
+        "question": "Example Question 1:\n<image> <image> <image> <image> <image> {image#1}{image#2}{image#3}{image#4}{image#5}What is the shape of the first object that enters the scene?\nAnswer: sphere\n\nExample Question 2:\n<image> <image> <image> <image> <image> {image#1}{image#2}{image#3}{image#4}{image#5}What is the material of the cube that is moving when the video ends?\nAnswer: rubber\n\nCurrent Question:\n{image#1}{image#2}{image#3}{image#4}{image#5}What color is the object that exits the scene?<image> <image> <image> <image> <image> ",
+        "gt_response": "brown",
+        "gen_kwargs": {
+            "do_sample": false,
+            "num_beams": 1,
+            "max_new_tokens": 32,
+            "eos_token_id": 92542
+        },
+        "pred_response": "The image captures a dynamic scene of geometric objects in motion on a white surface. A yellow sphere, exhibiting a sense of movement, is positioned to the right"
+    },
+    {
+        "sample_id": 96,
+        "question": "Example Question 1:\n<image> <image> <image> <image> <image> {image#1}{image#2}{image#3}{image#4}{image#5}What shape is the object that is stationary when the video ends?\nAnswer: cylinder\n\nExample Question 2:\n<image> <image> <image> <image> <image> {image#1}{image#2}{image#3}{image#4}{image#5}What is the color of the last object that enters the scene?\nAnswer: green\n\nCurrent Question:\n{image#1}{image#2}{image#3}{image#4}{image#5}What shape is the metal object that is stationary when the video begins?<image> <image> <image> <image> <image> ",
+        "gt_response": "cylinder",
+        "gen_kwargs": {
+            "do_sample": false,
+            "num_beams": 1,
+            "max_new_tokens": 32,
+            "eos_token_id": 92542
+        },
+        "pred_response": "The video captures a sequence of events involving a blue cylinder, a brown sphere, and a purple object. Initially, the blue cylinder is positioned to the left of"
+    },
+    {
+        "sample_id": 97,
+        "question": "Example Question 1:\n<image> <image> <image> <image> <image> {image#1}{image#2}{image#3}{image#4}{image#5}What is the color of the second object that enters the scene?\nAnswer: brown\n\nExample Question 2:\n<image> <image> <image> <image> <image> {image#1}{image#2}{image#3}{image#4}{image#5}What is the color of the second object that enters the scene?\nAnswer: green\n\nCurrent Question:\n{image#1}{image#2}{image#3}{image#4}{image#5}What is the material of the moving green object?<image> <image> <image> <image> <image> ",
+        "gt_response": "rubber",
+        "gen_kwargs": {
+            "do_sample": false,
+            "num_beams": 1,
+            "max_new_tokens": 32,
+            "eos_token_id": 92542
+        },
+        "pred_response": "The green object is a cube."
+    },
+    {
+        "sample_id": 98,
+        "question": "Example Question 1:\n<image> <image> <image> <image> <image> {image#1}{image#2}{image#3}{image#4}{image#5}What is the shape of the last object that enters the scene?\nAnswer: sphere\n\nExample Question 2:\n<image> <image> <image> <image> <image> {image#1}{image#2}{image#3}{image#4}{image#5}What is the material of the cube that is moving when the video ends?\nAnswer: rubber\n\nCurrent Question:\n{image#1}{image#2}{image#3}{image#4}{image#5}What color is the last object that enters the scene?<image> <image> <image> <image> <image> ",
+        "gt_response": "purple",
+        "gen_kwargs": {
+            "do_sample": false,
+            "num_beams": 1,
+            "max_new_tokens": 32,
+            "eos_token_id": 92542
+        },
+        "pred_response": "The image captures a dynamic scene of a yellow cylinder, a purple sphere, a gray sphere, and a cyan cylinder arranged on a white surface. The yellow cylinder"
+    },
+    {
+        "sample_id": 99,
+        "question": "Example Question 1:\n<image> <image> <image> <image> <image> {image#1}{image#2}{image#3}{image#4}{image#5}What is the color of the stationary metal object when the video begins?\nAnswer: gray\n\nExample Question 2:\n<image> <image> <image> <image> <image> {image#1}{image#2}{image#3}{image#4}{image#5}What is the color of the moving rubber object?\nAnswer: green\n\nCurrent Question:\n{image#1}{image#2}{image#3}{image#4}{image#5}What is the material of the cube that is stationary when the video begins?<image> <image> <image> <image> <image> ",
+        "gt_response": "metal",
+        "gen_kwargs": {
+            "do_sample": false,
+            "num_beams": 1,
+            "max_new_tokens": 32,
+            "eos_token_id": 92542
+        },
+        "pred_response": "The red cube is positioned to the right of the gray cube."
+    },
+    {
+        "sample_id": 100,
+        "question": "Example Question 1:\n<image> <image> <image> <image> <image> {image#1}{image#2}{image#3}{image#4}{image#5}What material is the second object that enters the scene?\nAnswer: rubber\n\nExample Question 2:\n<image> <image> <image> <image> <image> {image#1}{image#2}{image#3}{image#4}{image#5}What is the material of the object that is moving when the video begins?\nAnswer: rubber\n\nCurrent Question:\n{image#1}{image#2}{image#3}{image#4}{image#5}What is the material of the moving sphere?<image> <image> <image> <image> <image> ",
+        "gt_response": "rubber",
+        "gen_kwargs": {
+            "do_sample": false,
+            "num_beams": 1,
+            "max_new_tokens": 32,
+            "eos_token_id": 92542
+        },
+        "pred_response": "The material of the moving sphere is rubber."
+    },
+    {
+        "sample_id": 101,
+        "question": "Example Question 1:\n<image> <image> <image> <image> <image> {image#1}{image#2}{image#3}{image#4}{image#5}What shape is the stationary object when the video ends?\nAnswer: sphere\n\nExample Question 2:\n<image> <image> <image> <image> <image> {image#1}{image#2}{image#3}{image#4}{image#5}What material is the stationary object when the cube enters the scene?\nAnswer: rubber\n\nCurrent Question:\n{image#1}{image#2}{image#3}{image#4}{image#5}What is the color of the last object that enters the scene?<image> <image> <image> <image> <image> ",
+        "gt_response": "red",
+        "gen_kwargs": {
+            "do_sample": false,
+            "num_beams": 1,
+            "max_new_tokens": 32,
+            "eos_token_id": 92542
+        },
+        "pred_response": "The color of the last object that enters the scene is brown."
+    },
+    {
+        "sample_id": 102,
+        "question": "Example Question 1:\n<image> <image> <image> <image> <image> {image#1}{image#2}{image#3}{image#4}{image#5}What is the material of the moving red cube?\nAnswer: metal\n\nExample Question 2:\n<image> <image> <image> <image> <image> {image#1}{image#2}{image#3}{image#4}{image#5}What is the shape of the stationary red object when the video ends?\nAnswer: cylinder\n\nCurrent Question:\n{image#1}{image#2}{image#3}{image#4}{image#5}What is the shape of the first object that enters the scene?<image> <image> <image> <image> <image> ",
+        "gt_response": "cube",
+        "gen_kwargs": {
+            "do_sample": false,
+            "num_beams": 1,
+            "max_new_tokens": 32,
+            "eos_token_id": 92542
+        },
+        "pred_response": "The sequence of events in the video is as follows: A red sphere is placed on a flat surface. A red cylinder is then placed next to the red sphere"
+    },
+    {
+        "sample_id": 103,
+        "question": "Example Question 1:\n<image> <image> <image> <image> <image> {image#1}{image#2}{image#3}{image#4}{image#5}What color is the moving metal object when the video begins?\nAnswer: blue\n\nExample Question 2:\n<image> <image> <image> <image> <image> {image#1}{image#2}{image#3}{image#4}{image#5}What is the shape of the last object that enters the scene?\nAnswer: cube\n\nCurrent Question:\n{image#1}{image#2}{image#3}{image#4}{image#5}What color is the metal object that is stationary when the video begins?<image> <image> <image> <image> <image> ",
+        "gt_response": "brown",
+        "gen_kwargs": {
+            "do_sample": false,
+            "num_beams": 1,
+            "max_new_tokens": 32,
+            "eos_token_id": 92542
+        },
+        "pred_response": "The color of the cylinder that is not green is red."
+    },
+    {
+        "sample_id": 104,
+        "question": "Example Question 1:\n<image> <image> <image> <image> <image> {image#1}{image#2}{image#3}{image#4}{image#5}What is the shape of the rubber object that is stationary when the video ends?\nAnswer: cylinder\n\nExample Question 2:\n<image> <image> <image> <image> <image> {image#1}{image#2}{image#3}{image#4}{image#5}What color is the object that enters the scene?\nAnswer: yellow\n\nCurrent Question:\n{image#1}{image#2}{image#3}{image#4}{image#5}What shape is the green object that is stationary when the video ends?<image> <image> <image> <image> <image> ",
+        "gt_response": "cylinder",
+        "gen_kwargs": {
+            "do_sample": false,
+            "num_beams": 1,
+            "max_new_tokens": 32,
+            "eos_token_id": 92542
+        },
+        "pred_response": "The green object that is not a sphere is a cylinder."
+    },
+    {
+        "sample_id": 105,
+        "question": "Example Question 1:\n<image> <image> <image> <image> <image> {image#1}{image#2}{image#3}{image#4}{image#5}What is the material of the cube that is stationary when the video ends?\nAnswer: rubber\n\nExample Question 2:\n<image> <image> <image> <image> <image> {image#1}{image#2}{image#3}{image#4}{image#5}What is the shape of the stationary rubber object when the video begins?\nAnswer: cube\n\nCurrent Question:\n{image#1}{image#2}{image#3}{image#4}{image#5}What shape is the object that is stationary when the cylinder enters the scene?<image> <image> <image> <image> <image> ",
+        "gt_response": "cube",
+        "gen_kwargs": {
+            "do_sample": false,
+            "num_beams": 1,
+            "max_new_tokens": 32,
+            "eos_token_id": 92542
+        },
+        "pred_response": "The yellow object is a cube."
+    },
+    {
+        "sample_id": 106,
+        "question": "Example Question 1:\n<image> <image> <image> <image> <image> {image#1}{image#2}{image#3}{image#4}{image#5}What shape is the stationary gray object?\nAnswer: sphere\n\nExample Question 2:\n<image> <image> <image> <image> <image> {image#1}{image#2}{image#3}{image#4}{image#5}What is the shape of the stationary rubber object when the video begins?\nAnswer: cylinder\n\nCurrent Question:\n{image#1}{image#2}{image#3}{image#4}{image#5}What is the shape of the object that is stationary when the video begins?<image> <image> <image> <image> <image> ",
+        "gt_response": "cylinder",
+        "gen_kwargs": {
+            "do_sample": false,
+            "num_beams": 1,
+            "max_new_tokens": 32,
+            "eos_token_id": 92542
+        },
+        "pred_response": "The image captures a scene of minimalist artistry, featuring a solitary blue cube positioned adjacent to a cylindrical object on a pristine white background. The"
+    },
+    {
+        "sample_id": 107,
+        "question": "Example Question 1:\n<image> <image> <image> <image> <image> {image#1}{image#2}{image#3}{image#4}{image#5}What is the shape of the rubber object that is moving when the video ends?\nAnswer: sphere\n\nExample Question 2:\n<image> <image> <image> <image> <image> {image#1}{image#2}{image#3}{image#4}{image#5}What shape is the moving object when the video begins?\nAnswer: sphere\n\nCurrent Question:\n{image#1}{image#2}{image#3}{image#4}{image#5}What is the color of the sphere that is moving when the video begins?<image> <image> <image> <image> <image> ",
+        "gt_response": "brown",
+        "gen_kwargs": {
+            "do_sample": false,
+            "num_beams": 1,
+            "max_new_tokens": 32,
+            "eos_token_id": 92542
+        },
+        "pred_response": "The color of the sphere that is moving when the video begins is brown."
+    },
+    {
+        "sample_id": 108,
+        "question": "Example Question 1:\n<image> <image> <image> <image> <image> {image#1}{image#2}{image#3}{image#4}{image#5}What is the color of the stationary metal object when the video ends?\nAnswer: yellow\n\nExample Question 2:\n<image> <image> <image> <image> <image> {image#1}{image#2}{image#3}{image#4}{image#5}What color is the last object that enters the scene?\nAnswer: yellow\n\nCurrent Question:\n{image#1}{image#2}{image#3}{image#4}{image#5}What is the color of the stationary metal cube when the video begins?<image> <image> <image> <image> <image> ",
+        "gt_response": "green",
+        "gen_kwargs": {
+            "do_sample": false,
+            "num_beams": 1,
+            "max_new_tokens": 32,
+            "eos_token_id": 92542
+        },
+        "pred_response": "The color of the cube that is initially positioned to the left of the red sphere is green."
+    },
+    {
+        "sample_id": 109,
+        "question": "Example Question 1:\n<image> <image> <image> <image> <image> {image#1}{image#2}{image#3}{image#4}{image#5}What shape is the metal object that is moving when the video ends?\nAnswer: cube\n\nExample Question 2:\n<image> <image> <image> <image> <image> {image#1}{image#2}{image#3}{image#4}{image#5}What is the shape of the first object that enters the scene?\nAnswer: cube\n\nCurrent Question:\n{image#1}{image#2}{image#3}{image#4}{image#5}What is the shape of the stationary purple object?<image> <image> <image> <image> <image> ",
+        "gt_response": "cube",
+        "gen_kwargs": {
+            "do_sample": false,
+            "num_beams": 1,
+            "max_new_tokens": 32,
+            "eos_token_id": 92542
+        },
+        "pred_response": "The image depicts a collection of geometric shapes arranged on a flat surface. The shapes include cubes, cylinders, and a sphere, all rendered in a variety"
+    },
+    {
+        "sample_id": 110,
+        "question": "Example Question 1:\n<image> <image> <image> <image> <image> {image#1}{image#2}{image#3}{image#4}{image#5}What is the material of the second object that enters the scene?\nAnswer: rubber\n\nExample Question 2:\n<image> <image> <image> <image> <image> {image#1}{image#2}{image#3}{image#4}{image#5}What is the material of the object that is stationary when the video ends?\nAnswer: metal\n\nCurrent Question:\n{image#1}{image#2}{image#3}{image#4}{image#5}What material is the last object that enters the scene?<image> <image> <image> <image> <image> ",
+        "gt_response": "rubber",
+        "gen_kwargs": {
+            "do_sample": false,
+            "num_beams": 1,
+            "max_new_tokens": 32,
+            "eos_token_id": 92542
+        },
+        "pred_response": "The image captures a dynamic scene of a blue ball, a red cylinder, a purple cube, and a brown sphere, all positioned on a white surface. The"
+    },
+    {
+        "sample_id": 111,
+        "question": "Example Question 1:\n<image> <image> <image> <image> <image> {image#1}{image#2}{image#3}{image#4}{image#5}What is the material of the green cylinder that is moving when the video begins?\nAnswer: rubber\n\nExample Question 2:\n<image> <image> <image> <image> <image> {image#1}{image#2}{image#3}{image#4}{image#5}What material is the first object that enters the scene?\nAnswer: metal\n\nCurrent Question:\n{image#1}{image#2}{image#3}{image#4}{image#5}What material is the first object that enters the scene?<image> <image> <image> <image> <image> ",
+        "gt_response": "rubber",
+        "gen_kwargs": {
+            "do_sample": false,
+            "num_beams": 1,
+            "max_new_tokens": 32,
+            "eos_token_id": 92542
+        },
+        "pred_response": "The first object that enters the scene is a metal sphere."
+    },
+    {
+        "sample_id": 112,
+        "question": "Example Question 1:\n<image> <image> <image> <image> <image> {image#1}{image#2}{image#3}{image#4}{image#5}What is the material of the green object that is stationary when the video begins?\nAnswer: rubber\n\nExample Question 2:\n<image> <image> <image> <image> <image> {image#1}{image#2}{image#3}{image#4}{image#5}What material is the second object that enters the scene?\nAnswer: rubber\n\nCurrent Question:\n{image#1}{image#2}{image#3}{image#4}{image#5}What material is the sphere that is moving?<image> <image> <image> <image> <image> ",
+        "gt_response": "rubber",
+        "gen_kwargs": {
+            "do_sample": false,
+            "num_beams": 1,
+            "max_new_tokens": 32,
+            "eos_token_id": 92542
+        },
+        "pred_response": "The image captures a dynamic scene of six distinct objects in motion on a flat surface. The objects include a yellow rubber cylinder, a green metal cylinder, a green"
+    },
+    {
+        "sample_id": 113,
+        "question": "Example Question 1:\n<image> <image> <image> <image> <image> {image#1}{image#2}{image#3}{image#4}{image#5}What color is the object that is stationary?\nAnswer: gray\n\nExample Question 2:\n<image> <image> <image> <image> <image> {image#1}{image#2}{image#3}{image#4}{image#5}What material is the moving object when the video begins?\nAnswer: rubber\n\nCurrent Question:\n{image#1}{image#2}{image#3}{image#4}{image#5}What color is the object that enters the scene?<image> <image> <image> <image> <image> ",
+        "gt_response": "red",
+        "gen_kwargs": {
+            "do_sample": false,
+            "num_beams": 1,
+            "max_new_tokens": 32,
+            "eos_token_id": 92542
+        },
+        "pred_response": "The image captures a dynamic scene of a collection of geometric shapes in motion on a flat surface. The objects, which include spheres, cubes, and cylinders"
+    },
+    {
+        "sample_id": 114,
+        "question": "Example Question 1:\n<image> <image> <image> <image> <image> {image#1}{image#2}{image#3}{image#4}{image#5}What is the color of the stationary cylinder when the video ends?\nAnswer: blue\n\nExample Question 2:\n<image> <image> <image> <image> <image> {image#1}{image#2}{image#3}{image#4}{image#5}What shape is the stationary object?\nAnswer: cylinder\n\nCurrent Question:\n{image#1}{image#2}{image#3}{image#4}{image#5}What shape is the stationary metal object when the video ends?<image> <image> <image> <image> <image> ",
+        "gt_response": "cube",
+        "gen_kwargs": {
+            "do_sample": false,
+            "num_beams": 1,
+            "max_new_tokens": 32,
+            "eos_token_id": 92542
+        },
+        "pred_response": "The image captures a scene of geometric objects in motion on a flat surface. A blue cube, a yellow cylinder, a yellow cube, and a red cylinder are"
+    },
+    {
+        "sample_id": 115,
+        "question": "Example Question 1:\n<image> <image> <image> <image> <image> {image#1}{image#2}{image#3}{image#4}{image#5}What shape is the metal object that is moving when the video ends?\nAnswer: sphere\n\nExample Question 2:\n<image> <image> <image> <image> <image> {image#1}{image#2}{image#3}{image#4}{image#5}What material is the moving cube when the video begins?\nAnswer: rubber\n\nCurrent Question:\n{image#1}{image#2}{image#3}{image#4}{image#5}What is the shape of the object that exits the scene?<image> <image> <image> <image> <image> ",
+        "gt_response": "sphere",
+        "gen_kwargs": {
+            "do_sample": false,
+            "num_beams": 1,
+            "max_new_tokens": 32,
+            "eos_token_id": 92542
+        },
+        "pred_response": "The image captures a dynamic scene of a collection of geometric shapes in motion on a flat surface. The objects, which include spheres of various colors and a cube"
+    },
+    {
+        "sample_id": 116,
+        "question": "Example Question 1:\n<image> <image> <image> <image> <image> {image#1}{image#2}{image#3}{image#4}{image#5}What shape is the object that is stationary when the purple object enters the scene?\nAnswer: cylinder\n\nExample Question 2:\n<image> <image> <image> <image> <image> {image#1}{image#2}{image#3}{image#4}{image#5}What color is the moving rubber object when the video begins?\nAnswer: brown\n\nCurrent Question:\n{image#1}{image#2}{image#3}{image#4}{image#5}What color is the stationary rubber object when the video begins?<image> <image> <image> <image> <image> ",
+        "gt_response": "blue",
+        "gen_kwargs": {
+            "do_sample": false,
+            "num_beams": 1,
+            "max_new_tokens": 32,
+            "eos_token_id": 92542
+        },
+        "pred_response": "The image captures a dynamic scene of a collection of geometric shapes in various colors and materials, arranged on a flat surface. The objects include a blue sphere, a"
+    },
+    {
+        "sample_id": 117,
+        "question": "Example Question 1:\n<image> <image> <image> <image> <image> {image#1}{image#2}{image#3}{image#4}{image#5}What shape is the object that enters the scene?\nAnswer: cube\n\nExample Question 2:\n<image> <image> <image> <image> <image> {image#1}{image#2}{image#3}{image#4}{image#5}What is the color of the first object that enters the scene?\nAnswer: purple\n\nCurrent Question:\n{image#1}{image#2}{image#3}{image#4}{image#5}What material is the stationary yellow cube when the video ends?<image> <image> <image> <image> <image> ",
+        "gt_response": "metal",
+        "gen_kwargs": {
+            "do_sample": false,
+            "num_beams": 1,
+            "max_new_tokens": 32,
+            "eos_token_id": 92542
+        },
+        "pred_response": "The yellow cube is a solid object."
+    },
+    {
+        "sample_id": 118,
+        "question": "Example Question 1:\n<image> <image> <image> <image> <image> {image#1}{image#2}{image#3}{image#4}{image#5}What material is the last object that exits the scene?\nAnswer: rubber\n\nExample Question 2:\n<image> <image> <image> <image> <image> {image#1}{image#2}{image#3}{image#4}{image#5}What material is the cylinder that is stationary when the video ends?\nAnswer: metal\n\nCurrent Question:\n{image#1}{image#2}{image#3}{image#4}{image#5}What is the shape of the first object that enters the scene?<image> <image> <image> <image> <image> ",
+        "gt_response": "sphere",
+        "gen_kwargs": {
+            "do_sample": false,
+            "num_beams": 1,
+            "max_new_tokens": 32,
+            "eos_token_id": 92542
+        },
+        "pred_response": "The image captures a dynamic scene of geometric shapes in motion on a flat surface. A blue sphere, exhibiting a reflective sheen, is in the midst of"
+    },
+    {
+        "sample_id": 119,
+        "question": "Example Question 1:\n<image> <image> <image> <image> <image> {image#1}{image#2}{image#3}{image#4}{image#5}What is the shape of the object that is stationary when the video begins?\nAnswer: cylinder\n\nExample Question 2:\n<image> <image> <image> <image> <image> {image#1}{image#2}{image#3}{image#4}{image#5}What is the shape of the stationary rubber object when the video begins?\nAnswer: cube\n\nCurrent Question:\n{image#1}{image#2}{image#3}{image#4}{image#5}What shape is the first object that enters the scene?<image> <image> <image> <image> <image> ",
+        "gt_response": "cylinder",
+        "gen_kwargs": {
+            "do_sample": false,
+            "num_beams": 1,
+            "max_new_tokens": 32,
+            "eos_token_id": 92542
+        },
+        "pred_response": "The image captures a dynamic scene of geometric objects in motion on a flat surface. A yellow cube, a green cylinder, a gray sphere, and a gray cylinder"
+    },
+    {
+        "sample_id": 120,
+        "question": "Example Question 1:\n<image> <image> <image> <image> <image> {image#1}{image#2}{image#3}{image#4}{image#5}What is the color of the rubber sphere that is moving?\nAnswer: gray\n\nExample Question 2:\n<image> <image> <image> <image> <image> {image#1}{image#2}{image#3}{image#4}{image#5}What material is the moving cube when the video begins?\nAnswer: rubber\n\nCurrent Question:\n{image#1}{image#2}{image#3}{image#4}{image#5}What shape is the metal object that is moving when the video ends?<image> <image> <image> <image> <image> ",
+        "gt_response": "cube",
+        "gen_kwargs": {
+            "do_sample": false,
+            "num_beams": 1,
+            "max_new_tokens": 32,
+            "eos_token_id": 92542
+        },
+        "pred_response": "The yellow sphere is not moving."
+    },
+    {
+        "sample_id": 121,
+        "question": "Example Question 1:\n<image> <image> <image> <image> <image> {image#1}{image#2}{image#3}{image#4}{image#5}What color is the object that exits the scene?\nAnswer: brown\n\nExample Question 2:\n<image> <image> <image> <image> <image> {image#1}{image#2}{image#3}{image#4}{image#5}What color is the stationary rubber sphere when the video ends?\nAnswer: yellow\n\nCurrent Question:\n{image#1}{image#2}{image#3}{image#4}{image#5}What is the shape of the stationary metal object when the video begins?<image> <image> <image> <image> <image> ",
+        "gt_response": "sphere",
+        "gen_kwargs": {
+            "do_sample": false,
+            "num_beams": 1,
+            "max_new_tokens": 32,
+            "eos_token_id": 92542
+        },
+        "pred_response": "The green object is a cylinder."
+    },
+    {
+        "sample_id": 122,
+        "question": "Example Question 1:\n<image> <image> <image> <image> <image> {image#1}{image#2}{image#3}{image#4}{image#5}What is the material of the stationary cylinder when the video ends?\nAnswer: rubber\n\nExample Question 2:\n<image> <image> <image> <image> <image> {image#1}{image#2}{image#3}{image#4}{image#5}What color is the object that is stationary?\nAnswer: gray\n\nCurrent Question:\n{image#1}{image#2}{image#3}{image#4}{image#5}What color is the last object that enters the scene?<image> <image> <image> <image> <image> ",
+        "gt_response": "green",
+        "gen_kwargs": {
+            "do_sample": false,
+            "num_beams": 1,
+            "max_new_tokens": 32,
+            "eos_token_id": 92542
+        },
+        "pred_response": "The green object is a cylinder."
+    },
+    {
+        "sample_id": 123,
+        "question": "Example Question 1:\n<image> <image> <image> <image> <image> {image#1}{image#2}{image#3}{image#4}{image#5}What material is the stationary cylinder when the video ends?\nAnswer: metal\n\nExample Question 2:\n<image> <image> <image> <image> <image> {image#1}{image#2}{image#3}{image#4}{image#5}What shape is the object that exits the scene?\nAnswer: cylinder\n\nCurrent Question:\n{image#1}{image#2}{image#3}{image#4}{image#5}What is the color of the object that enters the scene?<image> <image> <image> <image> <image> ",
+        "gt_response": "red",
+        "gen_kwargs": {
+            "do_sample": false,
+            "num_beams": 1,
+            "max_new_tokens": 32,
+            "eos_token_id": 92542
+        },
+        "pred_response": "The image captures a dynamic scene of geometric objects in motion on a white surface. A red sphere, a blue sphere, a brown sphere, a red cylinder,"
+    },
+    {
+        "sample_id": 124,
+        "question": "Example Question 1:\n<image> <image> <image> <image> <image> {image#1}{image#2}{image#3}{image#4}{image#5}What is the color of the cube that is moving when the video ends?\nAnswer: yellow\n\nExample Question 2:\n<image> <image> <image> <image> <image> {image#1}{image#2}{image#3}{image#4}{image#5}What color is the moving rubber object when the video begins?\nAnswer: brown\n\nCurrent Question:\n{image#1}{image#2}{image#3}{image#4}{image#5}What material is the yellow object that is moving when the video ends?<image> <image> <image> <image> <image> ",
+        "gt_response": "metal",
+        "gen_kwargs": {
+            "do_sample": false,
+            "num_beams": 1,
+            "max_new_tokens": 32,
+            "eos_token_id": 92542
+        },
+        "pred_response": "The yellow object that is moving when the video ends is a sphere."
+    },
+    {
+        "sample_id": 125,
+        "question": "Example Question 1:\n<image> <image> <image> <image> <image> {image#1}{image#2}{image#3}{image#4}{image#5}What is the material of the object that is stationary when the video begins?\nAnswer: rubber\n\nExample Question 2:\n<image> <image> <image> <image> <image> {image#1}{image#2}{image#3}{image#4}{image#5}What color is the moving cylinder when the video begins?\nAnswer: brown\n\nCurrent Question:\n{image#1}{image#2}{image#3}{image#4}{image#5}What shape is the stationary object?<image> <image> <image> <image> <image> ",
+        "gt_response": "cylinder",
+        "gen_kwargs": {
+            "do_sample": false,
+            "num_beams": 1,
+            "max_new_tokens": 32,
+            "eos_token_id": 92542
+        },
+        "pred_response": "The image depicts a collection of geometric shapes arranged on a flat surface. The shapes include a yellow cylinder, a blue cube, a purple sphere, and a"
+    },
+    {
+        "sample_id": 126,
+        "question": "Example Question 1:\n<image> <image> <image> <image> <image> {image#1}{image#2}{image#3}{image#4}{image#5}What is the color of the rubber cylinder that is moving?\nAnswer: yellow\n\nExample Question 2:\n<image> <image> <image> <image> <image> {image#1}{image#2}{image#3}{image#4}{image#5}What shape is the stationary rubber object when the video ends?\nAnswer: cube\n\nCurrent Question:\n{image#1}{image#2}{image#3}{image#4}{image#5}What material is the stationary cylinder when the video ends?<image> <image> <image> <image> <image> ",
+        "gt_response": "metal",
+        "gen_kwargs": {
+            "do_sample": false,
+            "num_beams": 1,
+            "max_new_tokens": 32,
+            "eos_token_id": 92542
+        },
+        "pred_response": "The image captures a dynamic scene of geometric shapes in motion. A red cylinder, a green cube, and a blue cube are the primary objects, each exhibiting"
+    },
+    {
+        "sample_id": 127,
+        "question": "Example Question 1:\n<image> <image> <image> <image> <image> {image#1}{image#2}{image#3}{image#4}{image#5}What is the color of the second object that enters the scene?\nAnswer: red\n\nExample Question 2:\n<image> <image> <image> <image> <image> {image#1}{image#2}{image#3}{image#4}{image#5}What is the color of the stationary cylinder when the video ends?\nAnswer: blue\n\nCurrent Question:\n{image#1}{image#2}{image#3}{image#4}{image#5}What shape is the object that is moving when the video begins?<image> <image> <image> <image> <image> ",
+        "gt_response": "sphere",
+        "gen_kwargs": {
+            "do_sample": false,
+            "num_beams": 1,
+            "max_new_tokens": 32,
+            "eos_token_id": 92542
+        },
+        "pred_response": "The blue cube is positioned to the left of the yellow cylinder."
+    },
+    {
+        "sample_id": 128,
+        "question": "Example Question 1:\n<image> <image> <image> <image> <image> {image#1}{image#2}{image#3}{image#4}{image#5}What shape is the metal object that is moving when the video ends?\nAnswer: cube\n\nExample Question 2:\n<image> <image> <image> <image> <image> {image#1}{image#2}{image#3}{image#4}{image#5}What color is the metal object that is stationary when the video begins?\nAnswer: purple\n\nCurrent Question:\n{image#1}{image#2}{image#3}{image#4}{image#5}What material is the first object that enters the scene?<image> <image> <image> <image> <image> ",
+        "gt_response": "rubber",
+        "gen_kwargs": {
+            "do_sample": false,
+            "num_beams": 1,
+            "max_new_tokens": 32,
+            "eos_token_id": 92542
+        },
+        "pred_response": "The first object that enters the scene is a blue cube."
+    },
+    {
+        "sample_id": 129,
+        "question": "Example Question 1:\n<image> <image> <image> <image> <image> {image#1}{image#2}{image#3}{image#4}{image#5}What shape is the object that exits the scene?\nAnswer: cylinder\n\nExample Question 2:\n<image> <image> <image> <image> <image> {image#1}{image#2}{image#3}{image#4}{image#5}What material is the sphere that is moving?\nAnswer: rubber\n\nCurrent Question:\n{image#1}{image#2}{image#3}{image#4}{image#5}What is the color of the moving rubber object?<image> <image> <image> <image> <image> ",
+        "gt_response": "green",
+        "gen_kwargs": {
+            "do_sample": false,
+            "num_beams": 1,
+            "max_new_tokens": 32,
+            "eos_token_id": 92542
+        },
+        "pred_response": "The image depicts a collection of geometric shapes arranged on a flat surface. The shapes include a green sphere, a purple sphere, a blue sphere, a yellow"
+    },
+    {
+        "sample_id": 130,
+        "question": "Example Question 1:\n<image> <image> <image> <image> <image> {image#1}{image#2}{image#3}{image#4}{image#5}What is the material of the stationary sphere when the video begins?\nAnswer: rubber\n\nExample Question 2:\n<image> <image> <image> <image> <image> {image#1}{image#2}{image#3}{image#4}{image#5}What is the color of the stationary object when the video ends?\nAnswer: green\n\nCurrent Question:\n{image#1}{image#2}{image#3}{image#4}{image#5}What is the color of the moving cube when the video ends?<image> <image> <image> <image> <image> ",
+        "gt_response": "purple",
+        "gen_kwargs": {
+            "do_sample": false,
+            "num_beams": 1,
+            "max_new_tokens": 32,
+            "eos_token_id": 92542
+        },
+        "pred_response": "The video captures a dynamic scene of a group of objects in motion on a white surface. It begins with a yellow sphere and a purple cube positioned on the left"
+    },
+    {
+        "sample_id": 131,
+        "question": "Example Question 1:\n<image> <image> <image> <image> <image> {image#1}{image#2}{image#3}{image#4}{image#5}What is the material of the moving sphere?\nAnswer: rubber\n\nExample Question 2:\n<image> <image> <image> <image> <image> {image#1}{image#2}{image#3}{image#4}{image#5}What material is the stationary cylinder when the video ends?\nAnswer: metal\n\nCurrent Question:\n{image#1}{image#2}{image#3}{image#4}{image#5}What material is the object that is stationary when the video begins?<image> <image> <image> <image> <image> ",
+        "gt_response": "rubber",
+        "gen_kwargs": {
+            "do_sample": false,
+            "num_beams": 1,
+            "max_new_tokens": 32,
+            "eos_token_id": 92542
+        },
+        "pred_response": "The image depicts a scene with a variety of objects, including two blue cubes, a purple cube, and two cylinders. The blue cubes are positioned in"
+    },
+    {
+        "sample_id": 132,
+        "question": "Example Question 1:\n<image> <image> <image> <image> <image> {image#1}{image#2}{image#3}{image#4}{image#5}What is the material of the second object that enters the scene?\nAnswer: rubber\n\nExample Question 2:\n<image> <image> <image> <image> <image> {image#1}{image#2}{image#3}{image#4}{image#5}What color is the last object that enters the scene?\nAnswer: red\n\nCurrent Question:\n{image#1}{image#2}{image#3}{image#4}{image#5}What is the shape of the last object that enters the scene?<image> <image> <image> <image> <image> ",
+        "gt_response": "sphere",
+        "gen_kwargs": {
+            "do_sample": false,
+            "num_beams": 1,
+            "max_new_tokens": 32,
+            "eos_token_id": 92542
+        },
+        "pred_response": "The image depicts a collection of variously colored and shaped objects arranged on a flat surface. The objects include a green sphere, a blue sphere, a blue"
+    },
+    {
+        "sample_id": 133,
+        "question": "Example Question 1:\n<image> <image> <image> <image> <image> {image#1}{image#2}{image#3}{image#4}{image#5}What is the color of the last object that enters the scene?\nAnswer: yellow\n\nExample Question 2:\n<image> <image> <image> <image> <image> {image#1}{image#2}{image#3}{image#4}{image#5}What shape is the first object that enters the scene?\nAnswer: cylinder\n\nCurrent Question:\n{image#1}{image#2}{image#3}{image#4}{image#5}What color is the stationary metal cube when the video begins?<image> <image> <image> <image> <image> ",
+        "gt_response": "green",
+        "gen_kwargs": {
+            "do_sample": false,
+            "num_beams": 1,
+            "max_new_tokens": 32,
+            "eos_token_id": 92542
+        },
+        "pred_response": "The yellow object is a cube."
+    },
+    {
+        "sample_id": 134,
+        "question": "Example Question 1:\n<image> <image> <image> <image> <image> {image#1}{image#2}{image#3}{image#4}{image#5}What material is the stationary object?\nAnswer: metal\n\nExample Question 2:\n<image> <image> <image> <image> <image> {image#1}{image#2}{image#3}{image#4}{image#5}What is the color of the sphere that is stationary?\nAnswer: brown\n\nCurrent Question:\n{image#1}{image#2}{image#3}{image#4}{image#5}What is the material of the moving object when the video begins?<image> <image> <image> <image> <image> ",
+        "gt_response": "metal",
+        "gen_kwargs": {
+            "do_sample": false,
+            "num_beams": 1,
+            "max_new_tokens": 32,
+            "eos_token_id": 92542
+        },
+        "pred_response": "The video captures a dynamic scene of a group of geometric shapes in motion on a white surface. It begins with a red cylinder, a brown cylinder, a gray"
+    },
+    {
+        "sample_id": 135,
+        "question": "Example Question 1:\n<image> <image> <image> <image> <image> {image#1}{image#2}{image#3}{image#4}{image#5}What color is the last object that enters the scene?\nAnswer: gray\n\nExample Question 2:\n<image> <image> <image> <image> <image> {image#1}{image#2}{image#3}{image#4}{image#5}What is the color of the second object that enters the scene?\nAnswer: green\n\nCurrent Question:\n{image#1}{image#2}{image#3}{image#4}{image#5}What is the color of the object that is stationary when the video ends?<image> <image> <image> <image> <image> ",
+        "gt_response": "blue",
+        "gen_kwargs": {
+            "do_sample": false,
+            "num_beams": 1,
+            "max_new_tokens": 32,
+            "eos_token_id": 92542
+        },
+        "pred_response": "The color of the object that is stationary when the video ends is red."
+    },
+    {
+        "sample_id": 136,
+        "question": "Example Question 1:\n<image> <image> <image> <image> <image> {image#1}{image#2}{image#3}{image#4}{image#5}What material is the first object that enters the scene?\nAnswer: rubber\n\nExample Question 2:\n<image> <image> <image> <image> <image> {image#1}{image#2}{image#3}{image#4}{image#5}What shape is the stationary object when the video ends?\nAnswer: cylinder\n\nCurrent Question:\n{image#1}{image#2}{image#3}{image#4}{image#5}What shape is the object that is stationary when the video ends?<image> <image> <image> <image> <image> ",
+        "gt_response": "cylinder",
+        "gen_kwargs": {
+            "do_sample": false,
+            "num_beams": 1,
+            "max_new_tokens": 32,
+            "eos_token_id": 92542
+        },
+        "pred_response": "The object that is stationary when the video ends is a cube."
+    },
+    {
+        "sample_id": 137,
+        "question": "Example Question 1:\n<image> <image> <image> <image> <image> {image#1}{image#2}{image#3}{image#4}{image#5}What is the color of the rubber object that is stationary when the video begins?\nAnswer: brown\n\nExample Question 2:\n<image> <image> <image> <image> <image> {image#1}{image#2}{image#3}{image#4}{image#5}What material is the stationary purple object when the video begins?\nAnswer: metal\n\nCurrent Question:\n{image#1}{image#2}{image#3}{image#4}{image#5}What shape is the metal object that is moving when the video ends?<image> <image> <image> <image> <image> ",
+        "gt_response": "cube",
+        "gen_kwargs": {
+            "do_sample": false,
+            "num_beams": 1,
+            "max_new_tokens": 32,
+            "eos_token_id": 92542
+        },
+        "pred_response": "The image captures a dynamic scene of geometric objects in motion on a flat surface. A red cube, initially positioned to the left, is seen moving towards the center"
+    },
+    {
+        "sample_id": 138,
+        "question": "Example Question 1:\n<image> <image> <image> <image> <image> {image#1}{image#2}{image#3}{image#4}{image#5}What shape is the object that is moving when the video begins?\nAnswer: sphere\n\nExample Question 2:\n<image> <image> <image> <image> <image> {image#1}{image#2}{image#3}{image#4}{image#5}What shape is the stationary rubber object?\nAnswer: cube\n\nCurrent Question:\n{image#1}{image#2}{image#3}{image#4}{image#5}What is the color of the second object that enters the scene?<image> <image> <image> <image> <image> ",
+        "gt_response": "brown",
+        "gen_kwargs": {
+            "do_sample": false,
+            "num_beams": 1,
+            "max_new_tokens": 32,
+            "eos_token_id": 92542
+        },
+        "pred_response": "The image captures a dynamic scene of geometric objects in motion on a flat surface. A purple cylinder, initially positioned on the left, is seen moving towards the center"
+    },
+    {
+        "sample_id": 139,
+        "question": "Example Question 1:\n<image> <image> <image> <image> <image> {image#1}{image#2}{image#3}{image#4}{image#5}What is the material of the green object that is stationary when the video begins?\nAnswer: rubber\n\nExample Question 2:\n<image> <image> <image> <image> <image> {image#1}{image#2}{image#3}{image#4}{image#5}What is the color of the stationary cylinder when the video ends?\nAnswer: blue\n\nCurrent Question:\n{image#1}{image#2}{image#3}{image#4}{image#5}What is the material of the stationary object when the video ends?<image> <image> <image> <image> <image> ",
+        "gt_response": "metal",
+        "gen_kwargs": {
+            "do_sample": false,
+            "num_beams": 1,
+            "max_new_tokens": 32,
+            "eos_token_id": 92542
+        },
+        "pred_response": "The video captures a sequence of interactions between a blue sphere, a red cylinder, a brown cylinder, a gray cylinder, and a blue-green sphere on a white"
+    },
+    {
+        "sample_id": 140,
+        "question": "Example Question 1:\n<image> <image> <image> <image> <image> {image#1}{image#2}{image#3}{image#4}{image#5}What is the color of the cylinder that is stationary when the video begins?\nAnswer: brown\n\nExample Question 2:\n<image> <image> <image> <image> <image> {image#1}{image#2}{image#3}{image#4}{image#5}What shape is the stationary object when the brown object enters the scene?\nAnswer: cylinder\n\nCurrent Question:\n{image#1}{image#2}{image#3}{image#4}{image#5}What is the shape of the last object that enters the scene?<image> <image> <image> <image> <image> ",
+        "gt_response": "cube",
+        "gen_kwargs": {
+            "do_sample": false,
+            "num_beams": 1,
+            "max_new_tokens": 32,
+            "eos_token_id": 92542
+        },
+        "pred_response": "The image captures a dynamic scene of six distinct objects arranged on a flat surface. The objects include a red cube, a blue cylinder, a green sphere, a"
+    },
+    {
+        "sample_id": 141,
+        "question": "Example Question 1:\n<image> <image> <image> <image> <image> {image#1}{image#2}{image#3}{image#4}{image#5}What is the shape of the object that is stationary when the video begins?\nAnswer: cylinder\n\nExample Question 2:\n<image> <image> <image> <image> <image> {image#1}{image#2}{image#3}{image#4}{image#5}What is the material of the moving green object?\nAnswer: rubber\n\nCurrent Question:\n{image#1}{image#2}{image#3}{image#4}{image#5}What is the shape of the rubber object that is moving when the video ends?<image> <image> <image> <image> <image> ",
+        "gt_response": "sphere",
+        "gen_kwargs": {
+            "do_sample": false,
+            "num_beams": 1,
+            "max_new_tokens": 32,
+            "eos_token_id": 92542
+        },
+        "pred_response": "The video captures a dynamic scene of a blue cube, a gold ball, a red cube, a gray sphere, and a yellow cylinder in motion. Initially,"
+    },
+    {
+        "sample_id": 142,
+        "question": "Example Question 1:\n<image> <image> <image> <image> <image> {image#1}{image#2}{image#3}{image#4}{image#5}What is the shape of the rubber object that is moving when the video ends?\nAnswer: sphere\n\nExample Question 2:\n<image> <image> <image> <image> <image> {image#1}{image#2}{image#3}{image#4}{image#5}What is the shape of the stationary blue object when the video begins?\nAnswer: cylinder\n\nCurrent Question:\n{image#1}{image#2}{image#3}{image#4}{image#5}What is the color of the rubber sphere that is moving?<image> <image> <image> <image> <image> ",
+        "gt_response": "gray",
+        "gen_kwargs": {
+            "do_sample": false,
+            "num_beams": 1,
+            "max_new_tokens": 32,
+            "eos_token_id": 92542
+        },
+        "pred_response": "The image captures a dynamic scene of a collection of objects in motion on a flat surface. The objects include a blue sphere, a green sphere, a gray sphere"
+    },
+    {
+        "sample_id": 143,
+        "question": "Example Question 1:\n<image> <image> <image> <image> <image> {image#1}{image#2}{image#3}{image#4}{image#5}What color is the last object that enters the scene?\nAnswer: gray\n\nExample Question 2:\n<image> <image> <image> <image> <image> {image#1}{image#2}{image#3}{image#4}{image#5}What shape is the stationary object when the brown object enters the scene?\nAnswer: cylinder\n\nCurrent Question:\n{image#1}{image#2}{image#3}{image#4}{image#5}What color is the object that enters the scene?<image> <image> <image> <image> <image> ",
+        "gt_response": "cyan",
+        "gen_kwargs": {
+            "do_sample": false,
+            "num_beams": 1,
+            "max_new_tokens": 32,
+            "eos_token_id": 92542
+        },
+        "pred_response": "The image captures a serene scene of a blue rubber cylinder and a silver sphere positioned on a pristine white surface. The blue cylinder, standing upright, is"
+    },
+    {
+        "sample_id": 144,
+        "question": "Example Question 1:\n<image> <image> <image> <image> <image> {image#1}{image#2}{image#3}{image#4}{image#5}What color is the object that exits the scene?\nAnswer: brown\n\nExample Question 2:\n<image> <image> <image> <image> <image> {image#1}{image#2}{image#3}{image#4}{image#5}What shape is the object that is stationary when the video begins?\nAnswer: cube\n\nCurrent Question:\n{image#1}{image#2}{image#3}{image#4}{image#5}What material is the last object that enters the scene?<image> <image> <image> <image> <image> ",
+        "gt_response": "rubber",
+        "gen_kwargs": {
+            "do_sample": false,
+            "num_beams": 1,
+            "max_new_tokens": 32,
+            "eos_token_id": 92542
+        },
+        "pred_response": "The green cube is positioned behind the blue sphere."
+    },
+    {
+        "sample_id": 145,
+        "question": "Example Question 1:\n<image> <image> <image> <image> <image> {image#1}{image#2}{image#3}{image#4}{image#5}What is the material of the moving red cube?\nAnswer: metal\n\nExample Question 2:\n<image> <image> <image> <image> <image> {image#1}{image#2}{image#3}{image#4}{image#5}What is the color of the sphere that is moving when the video begins?\nAnswer: brown\n\nCurrent Question:\n{image#1}{image#2}{image#3}{image#4}{image#5}What is the material of the second object that enters the scene?<image> <image> <image> <image> <image> ",
+        "gt_response": "rubber",
+        "gen_kwargs": {
+            "do_sample": false,
+            "num_beams": 1,
+            "max_new_tokens": 32,
+            "eos_token_id": 92542
+        },
+        "pred_response": "The image captures a dynamic scene of a yellow ball, a green cylinder, a blue cylinder, and a purple cube in motion. The yellow ball is positioned to"
+    },
+    {
+        "sample_id": 146,
+        "question": "Example Question 1:\n<image> <image> <image> <image> <image> {image#1}{image#2}{image#3}{image#4}{image#5}What is the shape of the object that is moving when the video begins?\nAnswer: sphere\n\nExample Question 2:\n<image> <image> <image> <image> <image> {image#1}{image#2}{image#3}{image#4}{image#5}What shape is the stationary gray object?\nAnswer: sphere\n\nCurrent Question:\n{image#1}{image#2}{image#3}{image#4}{image#5}What material is the red object that is moving when the video ends?<image> <image> <image> <image> <image> ",
+        "gt_response": "rubber",
+        "gen_kwargs": {
+            "do_sample": false,
+            "num_beams": 1,
+            "max_new_tokens": 32,
+            "eos_token_id": 92542
+        },
+        "pred_response": "The red object that is moving when the video ends is a sphere."
+    },
+    {
+        "sample_id": 147,
+        "question": "Example Question 1:\n<image> <image> <image> <image> <image> {image#1}{image#2}{image#3}{image#4}{image#5}What color is the object that is stationary?\nAnswer: gray\n\nExample Question 2:\n<image> <image> <image> <image> <image> {image#1}{image#2}{image#3}{image#4}{image#5}What material is the sphere that is stationary when the video ends?\nAnswer: metal\n\nCurrent Question:\n{image#1}{image#2}{image#3}{image#4}{image#5}What shape is the metal object that is moving when the video ends?<image> <image> <image> <image> <image> ",
+        "gt_response": "sphere",
+        "gen_kwargs": {
+            "do_sample": false,
+            "num_beams": 1,
+            "max_new_tokens": 32,
+            "eos_token_id": 92542
+        },
+        "pred_response": "The green sphere is positioned to the left of the brown cube."
+    },
+    {
+        "sample_id": 148,
+        "question": "Example Question 1:\n<image> <image> <image> <image> <image> {image#1}{image#2}{image#3}{image#4}{image#5}What color is the object that enters the scene?\nAnswer: red\n\nExample Question 2:\n<image> <image> <image> <image> <image> {image#1}{image#2}{image#3}{image#4}{image#5}What is the color of the moving cube when the video begins?\nAnswer: yellow\n\nCurrent Question:\n{image#1}{image#2}{image#3}{image#4}{image#5}What material is the first object that enters the scene?<image> <image> <image> <image> <image> ",
+        "gt_response": "rubber",
+        "gen_kwargs": {
+            "do_sample": false,
+            "num_beams": 1,
+            "max_new_tokens": 32,
+            "eos_token_id": 92542
+        },
+        "pred_response": "The first object that enters the scene is a purple cube."
+    },
+    {
+        "sample_id": 149,
+        "question": "Example Question 1:\n<image> <image> <image> <image> <image> {image#1}{image#2}{image#3}{image#4}{image#5}What is the color of the cylinder that is stationary when the video begins?\nAnswer: brown\n\nExample Question 2:\n<image> <image> <image> <image> <image> {image#1}{image#2}{image#3}{image#4}{image#5}What is the color of the last object that enters the scene?\nAnswer: purple\n\nCurrent Question:\n{image#1}{image#2}{image#3}{image#4}{image#5}What color is the moving metal object when the video begins?<image> <image> <image> <image> <image> ",
+        "gt_response": "blue",
+        "gen_kwargs": {
+            "do_sample": false,
+            "num_beams": 1,
+            "max_new_tokens": 32,
+            "eos_token_id": 92542
+        },
+        "pred_response": "The color of the sphere is purple."
+    },
+    {
+        "sample_id": 150,
+        "question": "Example Question 1:\n<image> <image> <image> <image> <image> {image#1}{image#2}{image#3}{image#4}{image#5}What is the material of the sphere that is moving when the video ends?\nAnswer: metal\n\nExample Question 2:\n<image> <image> <image> <image> <image> {image#1}{image#2}{image#3}{image#4}{image#5}What material is the stationary cylinder when the video ends?\nAnswer: metal\n\nCurrent Question:\n{image#1}{image#2}{image#3}{image#4}{image#5}What color is the object that enters the scene?<image> <image> <image> <image> <image> ",
+        "gt_response": "yellow",
+        "gen_kwargs": {
+            "do_sample": false,
+            "num_beams": 1,
+            "max_new_tokens": 32,
+            "eos_token_id": 92542
+        },
+        "pred_response": "The image captures a dynamic scene of three distinct cubes in motion on a stark white background. The blue cube, positioned in the upper left, is captured in the"
+    },
+    {
+        "sample_id": 151,
+        "question": "Example Question 1:\n<image> <image> <image> <image> <image> {image#1}{image#2}{image#3}{image#4}{image#5}What is the color of the last object that enters the scene?\nAnswer: yellow\n\nExample Question 2:\n<image> <image> <image> <image> <image> {image#1}{image#2}{image#3}{image#4}{image#5}What is the shape of the rubber object that is moving when the video ends?\nAnswer: sphere\n\nCurrent Question:\n{image#1}{image#2}{image#3}{image#4}{image#5}What is the shape of the stationary rubber object when the video begins?<image> <image> <image> <image> <image> ",
+        "gt_response": "cylinder",
+        "gen_kwargs": {
+            "do_sample": false,
+            "num_beams": 1,
+            "max_new_tokens": 32,
+            "eos_token_id": 92542
+        },
+        "pred_response": "The image captures a dynamic scene of four cylindrical objects and a yellow sphere in motion. The yellow sphere, positioned in the upper right, is in the"
+    },
+    {
+        "sample_id": 152,
+        "question": "Example Question 1:\n<image> <image> <image> <image> <image> {image#1}{image#2}{image#3}{image#4}{image#5}What is the material of the green cylinder that is moving when the video begins?\nAnswer: rubber\n\nExample Question 2:\n<image> <image> <image> <image> <image> {image#1}{image#2}{image#3}{image#4}{image#5}What is the color of the stationary cylinder when the video ends?\nAnswer: blue\n\nCurrent Question:\n{image#1}{image#2}{image#3}{image#4}{image#5}What is the shape of the metal object that is stationary when the video begins?<image> <image> <image> <image> <image> ",
+        "gt_response": "cube",
+        "gen_kwargs": {
+            "do_sample": false,
+            "num_beams": 1,
+            "max_new_tokens": 32,
+            "eos_token_id": 92542
+        },
+        "pred_response": "The image captures a dynamic scene of geometric shapes in motion on a white background. A purple cube, a yellow sphere, a red cube, and a brown cube"
+    },
+    {
+        "sample_id": 153,
+        "question": "Example Question 1:\n<image> <image> <image> <image> <image> {image#1}{image#2}{image#3}{image#4}{image#5}What is the material of the cube that is stationary when the video begins?\nAnswer: metal\n\nExample Question 2:\n<image> <image> <image> <image> <image> {image#1}{image#2}{image#3}{image#4}{image#5}What color is the cylinder that is stationary when the video ends?\nAnswer: red\n\nCurrent Question:\n{image#1}{image#2}{image#3}{image#4}{image#5}What is the material of the cube that is stationary when the video ends?<image> <image> <image> <image> <image> ",
+        "gt_response": "rubber",
+        "gen_kwargs": {
+            "do_sample": false,
+            "num_beams": 1,
+            "max_new_tokens": 32,
+            "eos_token_id": 92542
+        },
+        "pred_response": "The material of the cube that is stationary when the video ends is rubber."
+    },
+    {
+        "sample_id": 154,
+        "question": "Example Question 1:\n<image> <image> <image> <image> <image> {image#1}{image#2}{image#3}{image#4}{image#5}What is the color of the object that is stationary?\nAnswer: yellow\n\nExample Question 2:\n<image> <image> <image> <image> <image> {image#1}{image#2}{image#3}{image#4}{image#5}What is the shape of the stationary rubber object when the video begins?\nAnswer: cylinder\n\nCurrent Question:\n{image#1}{image#2}{image#3}{image#4}{image#5}What is the material of the cube that is moving when the video ends?<image> <image> <image> <image> <image> ",
+        "gt_response": "rubber",
+        "gen_kwargs": {
+            "do_sample": false,
+            "num_beams": 1,
+            "max_new_tokens": 32,
+            "eos_token_id": 92542
+        },
+        "pred_response": "The green object is a cube."
+    },
+    {
+        "sample_id": 155,
+        "question": "Example Question 1:\n<image> <image> <image> <image> <image> {image#1}{image#2}{image#3}{image#4}{image#5}What is the color of the rubber sphere that is moving?\nAnswer: gray\n\nExample Question 2:\n<image> <image> <image> <image> <image> {image#1}{image#2}{image#3}{image#4}{image#5}What material is the first object that enters the scene?\nAnswer: rubber\n\nCurrent Question:\n{image#1}{image#2}{image#3}{image#4}{image#5}What shape is the object that enters the scene?<image> <image> <image> <image> <image> ",
+        "gt_response": "cylinder",
+        "gen_kwargs": {
+            "do_sample": false,
+            "num_beams": 1,
+            "max_new_tokens": 32,
+            "eos_token_id": 92542
+        },
+        "pred_response": "The image captures a dynamic scene of six distinct objects arranged on a flat surface. The objects include a green cylinder, a red sphere, a green cube, a"
+    },
+    {
+        "sample_id": 156,
+        "question": "Example Question 1:\n<image> <image> <image> <image> <image> {image#1}{image#2}{image#3}{image#4}{image#5}What shape is the stationary rubber object when the video ends?\nAnswer: cube\n\nExample Question 2:\n<image> <image> <image> <image> <image> {image#1}{image#2}{image#3}{image#4}{image#5}What color is the object that is stationary?\nAnswer: gray\n\nCurrent Question:\n{image#1}{image#2}{image#3}{image#4}{image#5}What material is the first object that enters the scene?<image> <image> <image> <image> <image> ",
+        "gt_response": "rubber",
+        "gen_kwargs": {
+            "do_sample": false,
+            "num_beams": 1,
+            "max_new_tokens": 32,
+            "eos_token_id": 92542
+        },
+        "pred_response": "The yellow object is a cube."
+    },
+    {
+        "sample_id": 157,
+        "question": "Example Question 1:\n<image> <image> <image> <image> <image> {image#1}{image#2}{image#3}{image#4}{image#5}What is the color of the sphere that is stationary?\nAnswer: brown\n\nExample Question 2:\n<image> <image> <image> <image> <image> {image#1}{image#2}{image#3}{image#4}{image#5}What is the material of the cube that is moving when the video ends?\nAnswer: rubber\n\nCurrent Question:\n{image#1}{image#2}{image#3}{image#4}{image#5}What is the material of the object that is moving when the video begins?<image> <image> <image> <image> <image> ",
+        "gt_response": "rubber",
+        "gen_kwargs": {
+            "do_sample": false,
+            "num_beams": 1,
+            "max_new_tokens": 32,
+            "eos_token_id": 92542
+        },
+        "pred_response": "The video captures a sequence of interactions between a blue cube, a brown sphere, and a purple sphere, all set against a stark white background. Initially, the"
+    },
+    {
+        "sample_id": 158,
+        "question": "Example Question 1:\n<image> <image> <image> <image> <image> {image#1}{image#2}{image#3}{image#4}{image#5}What is the color of the object that is stationary when the yellow object enters the scene?\nAnswer: purple\n\nExample Question 2:\n<image> <image> <image> <image> <image> {image#1}{image#2}{image#3}{image#4}{image#5}What is the color of the sphere that is stationary?\nAnswer: brown\n\nCurrent Question:\n{image#1}{image#2}{image#3}{image#4}{image#5}What is the shape of the metal object that is moving when the video begins?<image> <image> <image> <image> <image> ",
+        "gt_response": "cube",
+        "gen_kwargs": {
+            "do_sample": false,
+            "num_beams": 1,
+            "max_new_tokens": 32,
+            "eos_token_id": 92542
+        },
+        "pred_response": "The image captures a dynamic scene of three distinct objects in motion on a stark white background. A yellow cylinder, exhibiting a sense of movement, is positioned on"
+    },
+    {
+        "sample_id": 159,
+        "question": "Example Question 1:\n<image> <image> <image> <image> <image> {image#1}{image#2}{image#3}{image#4}{image#5}What is the material of the cyan object that is moving when the video begins?\nAnswer: rubber\n\nExample Question 2:\n<image> <image> <image> <image> <image> {image#1}{image#2}{image#3}{image#4}{image#5}What is the material of the stationary cyan object when the video begins?\nAnswer: rubber\n\nCurrent Question:\n{image#1}{image#2}{image#3}{image#4}{image#5}What shape is the stationary rubber object when the video ends?<image> <image> <image> <image> <image> ",
+        "gt_response": "cube",
+        "gen_kwargs": {
+            "do_sample": false,
+            "num_beams": 1,
+            "max_new_tokens": 32,
+            "eos_token_id": 92542
+        },
+        "pred_response": "The image depicts a collection of small, colorful objects arranged on a flat surface. The objects include a red cube, a blue cube, a cyan cube,"
+    },
+    {
+        "sample_id": 160,
+        "question": "Example Question 1:\n<image> <image> <image> <image> <image> {image#1}{image#2}{image#3}{image#4}{image#5}What is the color of the cylinder that is stationary when the video begins?\nAnswer: brown\n\nExample Question 2:\n<image> <image> <image> <image> <image> {image#1}{image#2}{image#3}{image#4}{image#5}What is the material of the stationary object when the video ends?\nAnswer: metal\n\nCurrent Question:\n{image#1}{image#2}{image#3}{image#4}{image#5}What is the material of the moving red cube?<image> <image> <image> <image> <image> ",
+        "gt_response": "metal",
+        "gen_kwargs": {
+            "do_sample": false,
+            "num_beams": 1,
+            "max_new_tokens": 32,
+            "eos_token_id": 92542
+        },
+        "pred_response": "The image captures a dynamic scene of geometric shapes in motion. A green cylinder, a red cube, and a brown cylinder are the main subjects. The green cylinder"
+    },
+    {
+        "sample_id": 161,
+        "question": "Example Question 1:\n<image> <image> <image> <image> <image> {image#1}{image#2}{image#3}{image#4}{image#5}What shape is the stationary object?\nAnswer: cylinder\n\nExample Question 2:\n<image> <image> <image> <image> <image> {image#1}{image#2}{image#3}{image#4}{image#5}What color is the object that is stationary?\nAnswer: gray\n\nCurrent Question:\n{image#1}{image#2}{image#3}{image#4}{image#5}What is the material of the object that is stationary when the video ends?<image> <image> <image> <image> <image> ",
+        "gt_response": "metal",
+        "gen_kwargs": {
+            "do_sample": false,
+            "num_beams": 1,
+            "max_new_tokens": 32,
+            "eos_token_id": 92542
+        },
+        "pred_response": "The video captures a dynamic scene of a green rubber cylinder and a blue rubber cube in motion, with the green cylinder initially positioned to the left of the blue cube"
+    },
+    {
+        "sample_id": 162,
+        "question": "Example Question 1:\n<image> <image> <image> <image> <image> {image#1}{image#2}{image#3}{image#4}{image#5}What is the material of the moving object when the video begins?\nAnswer: metal\n\nExample Question 2:\n<image> <image> <image> <image> <image> {image#1}{image#2}{image#3}{image#4}{image#5}What is the shape of the rubber object that is moving when the video begins?\nAnswer: cylinder\n\nCurrent Question:\n{image#1}{image#2}{image#3}{image#4}{image#5}What shape is the stationary object when the video ends?<image> <image> <image> <image> <image> ",
+        "gt_response": "cylinder",
+        "gen_kwargs": {
+            "do_sample": false,
+            "num_beams": 1,
+            "max_new_tokens": 32,
+            "eos_token_id": 92542
+        },
+        "pred_response": "The image captures a serene still life arrangement on a pristine white surface, featuring a brown cylindrical object, a green cube, a blue sphere,"
+    },
+    {
+        "sample_id": 163,
+        "question": "Example Question 1:\n<image> <image> <image> <image> <image> {image#1}{image#2}{image#3}{image#4}{image#5}What shape is the object that is stationary when the video begins?\nAnswer: cube\n\nExample Question 2:\n<image> <image> <image> <image> <image> {image#1}{image#2}{image#3}{image#4}{image#5}What is the shape of the first object that enters the scene?\nAnswer: cube\n\nCurrent Question:\n{image#1}{image#2}{image#3}{image#4}{image#5}What shape is the cyan object that is moving?<image> <image> <image> <image> <image> ",
+        "gt_response": "sphere",
+        "gen_kwargs": {
+            "do_sample": false,
+            "num_beams": 1,
+            "max_new_tokens": 32,
+            "eos_token_id": 92542
+        },
+        "pred_response": "The image captures a dynamic scene of a collection of objects in motion on a white surface. A blue cube is prominently positioned in the center, surrounded by a"
+    },
+    {
+        "sample_id": 164,
+        "question": "Example Question 1:\n<image> <image> <image> <image> <image> {image#1}{image#2}{image#3}{image#4}{image#5}What is the material of the moving sphere?\nAnswer: rubber\n\nExample Question 2:\n<image> <image> <image> <image> <image> {image#1}{image#2}{image#3}{image#4}{image#5}What shape is the second object that enters the scene?\nAnswer: cube\n\nCurrent Question:\n{image#1}{image#2}{image#3}{image#4}{image#5}What material is the object that is stationary when the video begins?<image> <image> <image> <image> <image> ",
+        "gt_response": "metal",
+        "gen_kwargs": {
+            "do_sample": false,
+            "num_beams": 1,
+            "max_new_tokens": 32,
+            "eos_token_id": 92542
+        },
+        "pred_response": "The video captures a sequence of movements involving a yellow cylinder, a blue sphere, a green cube, and a purple sphere. Initially, the yellow cylinder is positioned"
+    },
+    {
+        "sample_id": 165,
+        "question": "Example Question 1:\n<image> <image> <image> <image> <image> {image#1}{image#2}{image#3}{image#4}{image#5}What is the color of the stationary cylinder when the video ends?\nAnswer: blue\n\nExample Question 2:\n<image> <image> <image> <image> <image> {image#1}{image#2}{image#3}{image#4}{image#5}What material is the first object that enters the scene?\nAnswer: metal\n\nCurrent Question:\n{image#1}{image#2}{image#3}{image#4}{image#5}What is the shape of the rubber object that is moving when the video begins?<image> <image> <image> <image> <image> ",
+        "gt_response": "cylinder",
+        "gen_kwargs": {
+            "do_sample": false,
+            "num_beams": 1,
+            "max_new_tokens": 32,
+            "eos_token_id": 92542
+        },
+        "pred_response": "The video captures a dynamic scene of a group of geometric shapes in motion on a white surface. It begins with a red cylinder, a blue sphere, a cyan"
+    },
+    {
+        "sample_id": 166,
+        "question": "Example Question 1:\n<image> <image> <image> <image> <image> {image#1}{image#2}{image#3}{image#4}{image#5}What is the material of the moving red cube?\nAnswer: metal\n\nExample Question 2:\n<image> <image> <image> <image> <image> {image#1}{image#2}{image#3}{image#4}{image#5}What is the shape of the metal object that is stationary when the video begins?\nAnswer: cube\n\nCurrent Question:\n{image#1}{image#2}{image#3}{image#4}{image#5}What material is the last object that exits the scene?<image> <image> <image> <image> <image> ",
+        "gt_response": "rubber",
+        "gen_kwargs": {
+            "do_sample": false,
+            "num_beams": 1,
+            "max_new_tokens": 32,
+            "eos_token_id": 92542
+        },
+        "pred_response": "The image captures a dynamic scene of four distinct objects in motion on a white background. A green sphere, exhibiting a metallic sheen, is positioned in the"
+    },
+    {
+        "sample_id": 167,
+        "question": "Example Question 1:\n<image> <image> <image> <image> <image> {image#1}{image#2}{image#3}{image#4}{image#5}What is the color of the last object that enters the scene?\nAnswer: purple\n\nExample Question 2:\n<image> <image> <image> <image> <image> {image#1}{image#2}{image#3}{image#4}{image#5}What shape is the stationary object when the video ends?\nAnswer: cylinder\n\nCurrent Question:\n{image#1}{image#2}{image#3}{image#4}{image#5}What color is the stationary object when the video ends?<image> <image> <image> <image> <image> ",
+        "gt_response": "yellow",
+        "gen_kwargs": {
+            "do_sample": false,
+            "num_beams": 1,
+            "max_new_tokens": 32,
+            "eos_token_id": 92542
+        },
+        "pred_response": "The image captures a dynamic scene of six distinct objects in motion on a flat surface. A yellow sphere is in the midst of a collision with a purple cube,"
+    },
+    {
+        "sample_id": 168,
+        "question": "Example Question 1:\n<image> <image> <image> <image> <image> {image#1}{image#2}{image#3}{image#4}{image#5}What is the color of the moving rubber object?\nAnswer: green\n\nExample Question 2:\n<image> <image> <image> <image> <image> {image#1}{image#2}{image#3}{image#4}{image#5}What material is the stationary blue object when the video begins?\nAnswer: rubber\n\nCurrent Question:\n{image#1}{image#2}{image#3}{image#4}{image#5}What is the material of the stationary cyan object when the video begins?<image> <image> <image> <image> <image> ",
+        "gt_response": "rubber",
+        "gen_kwargs": {
+            "do_sample": false,
+            "num_beams": 1,
+            "max_new_tokens": 32,
+            "eos_token_id": 92542
+        },
+        "pred_response": "The image captures a dynamic scene of geometric objects in motion on a flat surface. A blue cylinder, initially positioned to the left, moves towards the center, while"
+    },
+    {
+        "sample_id": 169,
+        "question": "Example Question 1:\n<image> <image> <image> <image> <image> {image#1}{image#2}{image#3}{image#4}{image#5}What shape is the object that enters the scene?\nAnswer: cylinder\n\nExample Question 2:\n<image> <image> <image> <image> <image> {image#1}{image#2}{image#3}{image#4}{image#5}What is the color of the first object that enters the scene?\nAnswer: purple\n\nCurrent Question:\n{image#1}{image#2}{image#3}{image#4}{image#5}What shape is the object that is stationary when the video begins?<image> <image> <image> <image> <image> ",
+        "gt_response": "cube",
+        "gen_kwargs": {
+            "do_sample": false,
+            "num_beams": 1,
+            "max_new_tokens": 32,
+            "eos_token_id": 92542
+        },
+        "pred_response": "The video captures a sequence of events involving a blue cube, a gray sphere, and a metallic sphere. Initially, the blue cube and the gray sphere are positioned"
+    },
+    {
+        "sample_id": 170,
+        "question": "Example Question 1:\n<image> <image> <image> <image> <image> {image#1}{image#2}{image#3}{image#4}{image#5}What shape is the metal object that is stationary when the video ends?\nAnswer: sphere\n\nExample Question 2:\n<image> <image> <image> <image> <image> {image#1}{image#2}{image#3}{image#4}{image#5}What color is the moving object when the video begins?\nAnswer: purple\n\nCurrent Question:\n{image#1}{image#2}{image#3}{image#4}{image#5}What color is the object that is moving when the video begins?<image> <image> <image> <image> <image> ",
+        "gt_response": "green",
+        "gen_kwargs": {
+            "do_sample": false,
+            "num_beams": 1,
+            "max_new_tokens": 32,
+            "eos_token_id": 92542
+        },
+        "pred_response": "The green object is a sphere."
+    },
+    {
+        "sample_id": 171,
+        "question": "Example Question 1:\n<image> <image> <image> <image> <image> {image#1}{image#2}{image#3}{image#4}{image#5}What is the color of the stationary metal object when the video ends?\nAnswer: yellow\n\nExample Question 2:\n<image> <image> <image> <image> <image> {image#1}{image#2}{image#3}{image#4}{image#5}What material is the sphere that is moving?\nAnswer: rubber\n\nCurrent Question:\n{image#1}{image#2}{image#3}{image#4}{image#5}What color is the moving cylinder when the video begins?<image> <image> <image> <image> <image> ",
+        "gt_response": "brown",
+        "gen_kwargs": {
+            "do_sample": false,
+            "num_beams": 1,
+            "max_new_tokens": 32,
+            "eos_token_id": 92542
+        },
+        "pred_response": "The image captures a dynamic scene of a collection of geometric shapes in motion on a flat surface. The objects, which include a red cube, a red sphere,"
+    },
+    {
+        "sample_id": 172,
+        "question": "Example Question 1:\n<image> <image> <image> <image> <image> {image#1}{image#2}{image#3}{image#4}{image#5}What color is the stationary object when the video ends?\nAnswer: yellow\n\nExample Question 2:\n<image> <image> <image> <image> <image> {image#1}{image#2}{image#3}{image#4}{image#5}What material is the stationary purple object when the video begins?\nAnswer: metal\n\nCurrent Question:\n{image#1}{image#2}{image#3}{image#4}{image#5}What shape is the stationary rubber object when the video begins?<image> <image> <image> <image> <image> ",
+        "gt_response": "cylinder",
+        "gen_kwargs": {
+            "do_sample": false,
+            "num_beams": 1,
+            "max_new_tokens": 32,
+            "eos_token_id": 92542
+        },
+        "pred_response": "The video captures a dynamic scene of geometric shapes in motion on a white surface. It begins with a blue sphere, a brown cylinder, a gray cylinder, and"
+    },
+    {
+        "sample_id": 173,
+        "question": "Example Question 1:\n<image> <image> <image> <image> <image> {image#1}{image#2}{image#3}{image#4}{image#5}What is the material of the moving object when the video begins?\nAnswer: metal\n\nExample Question 2:\n<image> <image> <image> <image> <image> {image#1}{image#2}{image#3}{image#4}{image#5}What material is the moving green object when the video ends?\nAnswer: metal\n\nCurrent Question:\n{image#1}{image#2}{image#3}{image#4}{image#5}What color is the moving rubber object when the video begins?<image> <image> <image> <image> <image> ",
+        "gt_response": "brown",
+        "gen_kwargs": {
+            "do_sample": false,
+            "num_beams": 1,
+            "max_new_tokens": 32,
+            "eos_token_id": 92542
+        },
+        "pred_response": "The color of the moving rubber object when the video begins is brown."
+    },
+    {
+        "sample_id": 174,
+        "question": "Example Question 1:\n<image> <image> <image> <image> <image> {image#1}{image#2}{image#3}{image#4}{image#5}What shape is the moving yellow object when the video ends?\nAnswer: cube\n\nExample Question 2:\n<image> <image> <image> <image> <image> {image#1}{image#2}{image#3}{image#4}{image#5}What color is the last object that enters the scene?\nAnswer: red\n\nCurrent Question:\n{image#1}{image#2}{image#3}{image#4}{image#5}What is the material of the stationary sphere when the video ends?<image> <image> <image> <image> <image> ",
+        "gt_response": "rubber",
+        "gen_kwargs": {
+            "do_sample": false,
+            "num_beams": 1,
+            "max_new_tokens": 32,
+            "eos_token_id": 92542
+        },
+        "pred_response": "The yellow sphere is a rubber object."
+    },
+    {
+        "sample_id": 175,
+        "question": "Example Question 1:\n<image> <image> <image> <image> <image> {image#1}{image#2}{image#3}{image#4}{image#5}What material is the brown object that is moving when the video begins?\nAnswer: rubber\n\nExample Question 2:\n<image> <image> <image> <image> <image> {image#1}{image#2}{image#3}{image#4}{image#5}What is the material of the last object that enters the scene?\nAnswer: metal\n\nCurrent Question:\n{image#1}{image#2}{image#3}{image#4}{image#5}What is the color of the stationary metal object when the video begins?<image> <image> <image> <image> <image> ",
+        "gt_response": "gray",
+        "gen_kwargs": {
+            "do_sample": false,
+            "num_beams": 1,
+            "max_new_tokens": 32,
+            "eos_token_id": 92542
+        },
+        "pred_response": "The color of the cylinder that is farthest from the red cylinder is purple."
+    },
+    {
+        "sample_id": 176,
+        "question": "Example Question 1:\n<image> <image> <image> <image> <image> {image#1}{image#2}{image#3}{image#4}{image#5}What shape is the object that is moving when the video begins?\nAnswer: sphere\n\nExample Question 2:\n<image> <image> <image> <image> <image> {image#1}{image#2}{image#3}{image#4}{image#5}What color is the cylinder that is stationary when the video ends?\nAnswer: red\n\nCurrent Question:\n{image#1}{image#2}{image#3}{image#4}{image#5}What color is the second object that enters the scene?<image> <image> <image> <image> <image> ",
+        "gt_response": "yellow",
+        "gen_kwargs": {
+            "do_sample": false,
+            "num_beams": 1,
+            "max_new_tokens": 32,
+            "eos_token_id": 92542
+        },
+        "pred_response": "The second object that enters the scene is a yellow cylinder."
+    },
+    {
+        "sample_id": 177,
+        "question": "Example Question 1:\n<image> <image> <image> <image> <image> {image#1}{image#2}{image#3}{image#4}{image#5}What shape is the second object that enters the scene?\nAnswer: cube\n\nExample Question 2:\n<image> <image> <image> <image> <image> {image#1}{image#2}{image#3}{image#4}{image#5}What is the color of the last object that enters the scene?\nAnswer: purple\n\nCurrent Question:\n{image#1}{image#2}{image#3}{image#4}{image#5}What material is the cylinder that is stationary when the video ends?<image> <image> <image> <image> <image> ",
+        "gt_response": "metal",
+        "gen_kwargs": {
+            "do_sample": false,
+            "num_beams": 1,
+            "max_new_tokens": 32,
+            "eos_token_id": 92542
+        },
+        "pred_response": "The video captures a sequence of events involving a green cylinder, a blue cylinder, and a cyan sphere. Initially, the green cylinder and the blue cylinder are positioned"
+    },
+    {
+        "sample_id": 178,
+        "question": "Example Question 1:\n<image> <image> <image> <image> <image> {image#1}{image#2}{image#3}{image#4}{image#5}What shape is the object that is moving when the video begins?\nAnswer: sphere\n\nExample Question 2:\n<image> <image> <image> <image> <image> {image#1}{image#2}{image#3}{image#4}{image#5}What is the color of the moving rubber object?\nAnswer: green\n\nCurrent Question:\n{image#1}{image#2}{image#3}{image#4}{image#5}What is the material of the moving sphere when the video ends?<image> <image> <image> <image> <image> ",
+        "gt_response": "metal",
+        "gen_kwargs": {
+            "do_sample": false,
+            "num_beams": 1,
+            "max_new_tokens": 32,
+            "eos_token_id": 92542
+        },
+        "pred_response": "The green object is a cylinder."
+    },
+    {
+        "sample_id": 179,
+        "question": "Example Question 1:\n<image> <image> <image> <image> <image> {image#1}{image#2}{image#3}{image#4}{image#5}What is the material of the moving green object?\nAnswer: rubber\n\nExample Question 2:\n<image> <image> <image> <image> <image> {image#1}{image#2}{image#3}{image#4}{image#5}What material is the red object that is stationary when the video begins?\nAnswer: metal\n\nCurrent Question:\n{image#1}{image#2}{image#3}{image#4}{image#5}What material is the moving cube when the video begins?<image> <image> <image> <image> <image> ",
+        "gt_response": "rubber",
+        "gen_kwargs": {
+            "do_sample": false,
+            "num_beams": 1,
+            "max_new_tokens": 32,
+            "eos_token_id": 92542
+        },
+        "pred_response": "The green object is a sphere."
+    },
+    {
+        "sample_id": 180,
+        "question": "Example Question 1:\n<image> <image> <image> <image> <image> {image#1}{image#2}{image#3}{image#4}{image#5}What is the shape of the rubber object that is moving when the video ends?\nAnswer: sphere\n\nExample Question 2:\n<image> <image> <image> <image> <image> {image#1}{image#2}{image#3}{image#4}{image#5}What is the color of the last object that enters the scene?\nAnswer: purple\n\nCurrent Question:\n{image#1}{image#2}{image#3}{image#4}{image#5}What is the color of the cylinder that is stationary when the video begins?<image> <image> <image> <image> <image> ",
+        "gt_response": "brown",
+        "gen_kwargs": {
+            "do_sample": false,
+            "num_beams": 1,
+            "max_new_tokens": 32,
+            "eos_token_id": 92542
+        },
+        "pred_response": "The image captures a dynamic scene of a collection of objects in motion on a white surface. A green cube is seen in the midst of a swift trajectory, heading"
+    },
+    {
+        "sample_id": 181,
+        "question": "Example Question 1:\n<image> <image> <image> <image> <image> {image#1}{image#2}{image#3}{image#4}{image#5}What is the color of the sphere that is stationary?\nAnswer: brown\n\nExample Question 2:\n<image> <image> <image> <image> <image> {image#1}{image#2}{image#3}{image#4}{image#5}What material is the sphere that is moving?\nAnswer: rubber\n\nCurrent Question:\n{image#1}{image#2}{image#3}{image#4}{image#5}What is the color of the last object that enters the scene?<image> <image> <image> <image> <image> ",
+        "gt_response": "green",
+        "gen_kwargs": {
+            "do_sample": false,
+            "num_beams": 1,
+            "max_new_tokens": 32,
+            "eos_token_id": 92542
+        },
+        "pred_response": "The image captures a dynamic scene of a yellow rubber cylinder positioned in the foreground, while a gray cube is situated in the background. A blue sphere is also present"
+    },
+    {
+        "sample_id": 182,
+        "question": "Example Question 1:\n<image> <image> <image> <image> <image> {image#1}{image#2}{image#3}{image#4}{image#5}What color is the last object that enters the scene?\nAnswer: red\n\nExample Question 2:\n<image> <image> <image> <image> <image> {image#1}{image#2}{image#3}{image#4}{image#5}What material is the first object that enters the scene?\nAnswer: metal\n\nCurrent Question:\n{image#1}{image#2}{image#3}{image#4}{image#5}What shape is the stationary rubber object when the video begins?<image> <image> <image> <image> <image> ",
+        "gt_response": "sphere",
+        "gen_kwargs": {
+            "do_sample": false,
+            "num_beams": 1,
+            "max_new_tokens": 32,
+            "eos_token_id": 92542
+        },
+        "pred_response": "The yellow rubber sphere is positioned to the left of the red sphere."
+    },
+    {
+        "sample_id": 183,
+        "question": "Example Question 1:\n<image> <image> <image> <image> <image> {image#1}{image#2}{image#3}{image#4}{image#5}What is the color of the cylinder that is stationary when the video begins?\nAnswer: brown\n\nExample Question 2:\n<image> <image> <image> <image> <image> {image#1}{image#2}{image#3}{image#4}{image#5}What color is the first object that enters the scene?\nAnswer: yellow\n\nCurrent Question:\n{image#1}{image#2}{image#3}{image#4}{image#5}What material is the moving cylinder when the video ends?<image> <image> <image> <image> <image> ",
+        "gt_response": "metal",
+        "gen_kwargs": {
+            "do_sample": false,
+            "num_beams": 1,
+            "max_new_tokens": 32,
+            "eos_token_id": 92542
+        },
+        "pred_response": "The yellow object is a cube."
+    },
+    {
+        "sample_id": 184,
+        "question": "Example Question 1:\n<image> <image> <image> <image> <image> {image#1}{image#2}{image#3}{image#4}{image#5}What is the shape of the stationary yellow object?\nAnswer: cube\n\nExample Question 2:\n<image> <image> <image> <image> <image> {image#1}{image#2}{image#3}{image#4}{image#5}What shape is the object that is stationary when the cylinder enters the scene?\nAnswer: cube\n\nCurrent Question:\n{image#1}{image#2}{image#3}{image#4}{image#5}What is the shape of the rubber object that is stationary when the video begins?<image> <image> <image> <image> <image> ",
+        "gt_response": "sphere",
+        "gen_kwargs": {
+            "do_sample": false,
+            "num_beams": 1,
+            "max_new_tokens": 32,
+            "eos_token_id": 92542
+        },
+        "pred_response": "The blue object is a cube."
+    },
+    {
+        "sample_id": 185,
+        "question": "Example Question 1:\n<image> <image> <image> <image> <image> {image#1}{image#2}{image#3}{image#4}{image#5}What is the color of the rubber cylinder that is moving?\nAnswer: yellow\n\nExample Question 2:\n<image> <image> <image> <image> <image> {image#1}{image#2}{image#3}{image#4}{image#5}What is the material of the cube that is moving when the video ends?\nAnswer: rubber\n\nCurrent Question:\n{image#1}{image#2}{image#3}{image#4}{image#5}What shape is the moving object when the video ends?<image> <image> <image> <image> <image> ",
+        "gt_response": "cube",
+        "gen_kwargs": {
+            "do_sample": false,
+            "num_beams": 1,
+            "max_new_tokens": 32,
+            "eos_token_id": 92542
+        },
+        "pred_response": "The blue object is a cube."
+    },
+    {
+        "sample_id": 186,
+        "question": "Example Question 1:\n<image> <image> <image> <image> <image> {image#1}{image#2}{image#3}{image#4}{image#5}What shape is the metal object that is stationary when the video begins?\nAnswer: cylinder\n\nExample Question 2:\n<image> <image> <image> <image> <image> {image#1}{image#2}{image#3}{image#4}{image#5}What is the material of the green cylinder that is moving when the video begins?\nAnswer: rubber\n\nCurrent Question:\n{image#1}{image#2}{image#3}{image#4}{image#5}What color is the last object that enters the scene?<image> <image> <image> <image> <image> ",
+        "gt_response": "red",
+        "gen_kwargs": {
+            "do_sample": false,
+            "num_beams": 1,
+            "max_new_tokens": 32,
+            "eos_token_id": 92542
+        },
+        "pred_response": "The video captures a sequence of events involving a collection of objects on a white surface. Initially, a blue sphere and a purple cylinder are present. As the video"
+    },
+    {
+        "sample_id": 187,
+        "question": "Example Question 1:\n<image> <image> <image> <image> <image> {image#1}{image#2}{image#3}{image#4}{image#5}What is the shape of the last object that enters the scene?\nAnswer: cube\n\nExample Question 2:\n<image> <image> <image> <image> <image> {image#1}{image#2}{image#3}{image#4}{image#5}What color is the stationary metal cube when the video begins?\nAnswer: green\n\nCurrent Question:\n{image#1}{image#2}{image#3}{image#4}{image#5}What is the shape of the stationary object?<image> <image> <image> <image> <image> ",
+        "gt_response": "cylinder",
+        "gen_kwargs": {
+            "do_sample": false,
+            "num_beams": 1,
+            "max_new_tokens": 32,
+            "eos_token_id": 92542
+        },
+        "pred_response": "The image captures a dynamic scene of geometric objects in motion. A red sphere is seen in the midst of a trajectory, heading towards a blue cylinder that stands out"
+    },
+    {
+        "sample_id": 188,
+        "question": "Example Question 1:\n<image> <image> <image> <image> <image> {image#1}{image#2}{image#3}{image#4}{image#5}What is the material of the stationary object when the video ends?\nAnswer: metal\n\nExample Question 2:\n<image> <image> <image> <image> <image> {image#1}{image#2}{image#3}{image#4}{image#5}What is the shape of the stationary object when the video begins?\nAnswer: cube\n\nCurrent Question:\n{image#1}{image#2}{image#3}{image#4}{image#5}What is the material of the stationary sphere when the video begins?<image> <image> <image> <image> <image> ",
+        "gt_response": "rubber",
+        "gen_kwargs": {
+            "do_sample": false,
+            "num_beams": 1,
+            "max_new_tokens": 32,
+            "eos_token_id": 92542
+        },
+        "pred_response": "The video captures a sequence of interactions between a red cylinder, a blue sphere, and a brown sphere on a flat surface. Initially, the red cylinder and the"
+    },
+    {
+        "sample_id": 189,
+        "question": "Example Question 1:\n<image> <image> <image> <image> <image> {image#1}{image#2}{image#3}{image#4}{image#5}What is the shape of the stationary object?\nAnswer: cylinder\n\nExample Question 2:\n<image> <image> <image> <image> <image> {image#1}{image#2}{image#3}{image#4}{image#5}What is the material of the cube that is moving when the video ends?\nAnswer: rubber\n\nCurrent Question:\n{image#1}{image#2}{image#3}{image#4}{image#5}What is the shape of the last object that enters the scene?<image> <image> <image> <image> <image> ",
+        "gt_response": "cube",
+        "gen_kwargs": {
+            "do_sample": false,
+            "num_beams": 1,
+            "max_new_tokens": 32,
+            "eos_token_id": 92542
+        },
+        "pred_response": "The image captures a dynamic scene of geometric shapes in motion. A green cylinder, a brown cube, and a cyan cube are all in the midst of movement,"
+    },
+    {
+        "sample_id": 190,
+        "question": "Example Question 1:\n<image> <image> <image> <image> <image> {image#1}{image#2}{image#3}{image#4}{image#5}What is the color of the stationary metal object when the video begins?\nAnswer: gray\n\nExample Question 2:\n<image> <image> <image> <image> <image> {image#1}{image#2}{image#3}{image#4}{image#5}What material is the stationary purple object when the video begins?\nAnswer: metal\n\nCurrent Question:\n{image#1}{image#2}{image#3}{image#4}{image#5}What material is the second object that enters the scene?<image> <image> <image> <image> <image> ",
+        "gt_response": "rubber",
+        "gen_kwargs": {
+            "do_sample": false,
+            "num_beams": 1,
+            "max_new_tokens": 32,
+            "eos_token_id": 92542
+        },
+        "pred_response": "The green object is a sphere."
+    },
+    {
+        "sample_id": 191,
+        "question": "Example Question 1:\n<image> <image> <image> <image> <image> {image#1}{image#2}{image#3}{image#4}{image#5}What color is the first object that enters the scene?\nAnswer: yellow\n\nExample Question 2:\n<image> <image> <image> <image> <image> {image#1}{image#2}{image#3}{image#4}{image#5}What material is the stationary object?\nAnswer: metal\n\nCurrent Question:\n{image#1}{image#2}{image#3}{image#4}{image#5}What material is the stationary object when the cube enters the scene?<image> <image> <image> <image> <image> ",
+        "gt_response": "rubber",
+        "gen_kwargs": {
+            "do_sample": false,
+            "num_beams": 1,
+            "max_new_tokens": 32,
+            "eos_token_id": 92542
+        },
+        "pred_response": "The yellow sphere is a rubber object."
+    },
+    {
+        "sample_id": 192,
+        "question": "Example Question 1:\n<image> <image> <image> <image> <image> {image#1}{image#2}{image#3}{image#4}{image#5}What color is the last object that enters the scene?\nAnswer: red\n\nExample Question 2:\n<image> <image> <image> <image> <image> {image#1}{image#2}{image#3}{image#4}{image#5}What is the material of the stationary sphere when the video begins?\nAnswer: rubber\n\nCurrent Question:\n{image#1}{image#2}{image#3}{image#4}{image#5}What shape is the stationary gray object?<image> <image> <image> <image> <image> ",
+        "gt_response": "sphere",
+        "gen_kwargs": {
+            "do_sample": false,
+            "num_beams": 1,
+            "max_new_tokens": 32,
+            "eos_token_id": 92542
+        },
+        "pred_response": "The image captures a dynamic scene of geometric shapes in motion on a white surface. A red sphere, a green sphere, a gray sphere, and a red cube"
+    },
+    {
+        "sample_id": 193,
+        "question": "Example Question 1:\n<image> <image> <image> <image> <image> {image#1}{image#2}{image#3}{image#4}{image#5}What material is the first object that enters the scene?\nAnswer: rubber\n\nExample Question 2:\n<image> <image> <image> <image> <image> {image#1}{image#2}{image#3}{image#4}{image#5}What is the material of the cyan object that is moving when the video begins?\nAnswer: rubber\n\nCurrent Question:\n{image#1}{image#2}{image#3}{image#4}{image#5}What material is the stationary blue object when the video begins?<image> <image> <image> <image> <image> ",
+        "gt_response": "rubber",
+        "gen_kwargs": {
+            "do_sample": false,
+            "num_beams": 1,
+            "max_new_tokens": 32,
+            "eos_token_id": 92542
+        },
+        "pred_response": "The blue object that is not a sphere is a cylinder."
+    },
+    {
+        "sample_id": 194,
+        "question": "Example Question 1:\n<image> <image> <image> <image> <image> {image#1}{image#2}{image#3}{image#4}{image#5}What is the material of the stationary sphere when the video begins?\nAnswer: rubber\n\nExample Question 2:\n<image> <image> <image> <image> <image> {image#1}{image#2}{image#3}{image#4}{image#5}What material is the moving cylinder when the video ends?\nAnswer: metal\n\nCurrent Question:\n{image#1}{image#2}{image#3}{image#4}{image#5}What is the color of the stationary object when the video ends?<image> <image> <image> <image> <image> ",
+        "gt_response": "green",
+        "gen_kwargs": {
+            "do_sample": false,
+            "num_beams": 1,
+            "max_new_tokens": 32,
+            "eos_token_id": 92542
+        },
+        "pred_response": "The video captures a sequence of interactions between a yellow cylinder, a purple cube, a green sphere, and a brown cylinder on a white background. Initially, the"
+    },
+    {
+        "sample_id": 195,
+        "question": "Example Question 1:\n<image> <image> <image> <image> <image> {image#1}{image#2}{image#3}{image#4}{image#5}What material is the stationary object when the video ends?\nAnswer: metal\n\nExample Question 2:\n<image> <image> <image> <image> <image> {image#1}{image#2}{image#3}{image#4}{image#5}What material is the cylinder that is stationary when the video begins?\nAnswer: metal\n\nCurrent Question:\n{image#1}{image#2}{image#3}{image#4}{image#5}What shape is the second object that enters the scene?<image> <image> <image> <image> <image> ",
+        "gt_response": "cube",
+        "gen_kwargs": {
+            "do_sample": false,
+            "num_beams": 1,
+            "max_new_tokens": 32,
+            "eos_token_id": 92542
+        },
+        "pred_response": "The second object that enters the scene is a purple sphere."
+    },
+    {
+        "sample_id": 196,
+        "question": "Example Question 1:\n<image> <image> <image> <image> <image> {image#1}{image#2}{image#3}{image#4}{image#5}What is the material of the moving object when the video begins?\nAnswer: metal\n\nExample Question 2:\n<image> <image> <image> <image> <image> {image#1}{image#2}{image#3}{image#4}{image#5}What color is the last object that enters the scene?\nAnswer: green\n\nCurrent Question:\n{image#1}{image#2}{image#3}{image#4}{image#5}What is the material of the stationary cylinder when the video ends?<image> <image> <image> <image> <image> ",
+        "gt_response": "rubber",
+        "gen_kwargs": {
+            "do_sample": false,
+            "num_beams": 1,
+            "max_new_tokens": 32,
+            "eos_token_id": 92542
+        },
+        "pred_response": "The video captures a dynamic scene of a group of objects in motion on a white surface. It begins with a red cylinder, a blue cube, a brown cylinder"
+    },
+    {
+        "sample_id": 197,
+        "question": "Example Question 1:\n<image> <image> <image> <image> <image> {image#1}{image#2}{image#3}{image#4}{image#5}What material is the cylinder that is stationary when the video ends?\nAnswer: metal\n\nExample Question 2:\n<image> <image> <image> <image> <image> {image#1}{image#2}{image#3}{image#4}{image#5}What shape is the moving rubber object when the video begins?\nAnswer: cylinder\n\nCurrent Question:\n{image#1}{image#2}{image#3}{image#4}{image#5}What material is the stationary purple object when the video begins?<image> <image> <image> <image> <image> ",
+        "gt_response": "metal",
+        "gen_kwargs": {
+            "do_sample": false,
+            "num_beams": 1,
+            "max_new_tokens": 32,
+            "eos_token_id": 92542
+        },
+        "pred_response": "The video captures a dynamic scene of a purple cube, a blue cube, a red sphere, a gray cube, and a purple cylinder in various positions and interactions"
+    },
+    {
+        "sample_id": 198,
+        "question": "Example Question 1:\n<image> <image> <image> <image> <image> {image#1}{image#2}{image#3}{image#4}{image#5}What material is the first object that enters the scene?\nAnswer: rubber\n\nExample Question 2:\n<image> <image> <image> <image> <image> {image#1}{image#2}{image#3}{image#4}{image#5}What is the shape of the metal object that is moving when the video begins?\nAnswer: cube\n\nCurrent Question:\n{image#1}{image#2}{image#3}{image#4}{image#5}What is the material of the green object that is stationary when the video begins?<image> <image> <image> <image> <image> ",
+        "gt_response": "rubber",
+        "gen_kwargs": {
+            "do_sample": false,
+            "num_beams": 1,
+            "max_new_tokens": 32,
+            "eos_token_id": 92542
+        },
+        "pred_response": "The green object that is not a sphere is a cylinder."
+    },
+    {
+        "sample_id": 199,
+        "question": "Example Question 1:\n<image> <image> <image> <image> <image> {image#1}{image#2}{image#3}{image#4}{image#5}What material is the first object that enters the scene?\nAnswer: rubber\n\nExample Question 2:\n<image> <image> <image> <image> <image> {image#1}{image#2}{image#3}{image#4}{image#5}What is the shape of the rubber object that is moving when the video ends?\nAnswer: sphere\n\nCurrent Question:\n{image#1}{image#2}{image#3}{image#4}{image#5}What color is the second object that enters the scene?<image> <image> <image> <image> <image> ",
+        "gt_response": "brown",
+        "gen_kwargs": {
+            "do_sample": false,
+            "num_beams": 1,
+            "max_new_tokens": 32,
+            "eos_token_id": 92542
+        },
+        "pred_response": "The image captures a sequence of four distinct objects: a yellow cylinder, a red cube, a brown sphere, and a gray cube. The yellow cylinder is positioned"
+    }
+]

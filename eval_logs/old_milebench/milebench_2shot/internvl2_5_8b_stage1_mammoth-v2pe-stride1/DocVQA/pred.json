@@ -1,0 +1,2402 @@
+[
+    {
+        "sample_id": 0,
+        "question": "Example Question 1:\n<image> <image> {image#1}{image#2}Question: what is the name of heart association ?\nAnswer: American\n\nExample Question 2:\n<image> <image> {image#1}{image#2}Question: what is the total voucher amount ?\nAnswer: $1,295.87\n\nCurrent Question:\n{image#1}{image#2}Question: what is the title for the name robert kauk ?<image> <image> ",
+        "gt_response": "PRESIDENT, BRUSH BEET GROWERS ASS'N",
+        "gen_kwargs": {
+            "do_sample": false,
+            "num_beams": 1,
+            "max_new_tokens": 32,
+            "eos_token_id": 92542
+        },
+        "pred_response": "fort morgan, colorado"
+    },
+    {
+        "sample_id": 5,
+        "question": "Example Question 1:\n<image> <image> {image#1}{image#2}Question: What is J. Brozek's topic from 9:30-10:00?\nAnswer: CHARACTERIZATION OF MAN'S PHYSIQUE\n\nExample Question 2:\n<image> <image> <image> {image#1}{image#2}{image#3}Question: what is the office phone number ?\nAnswer: 282-2511\n\nCurrent Question:\n{image#1}{image#2}Question: Which institution is mentioned at the top of the page?<image> <image> ",
+        "gt_response": "MEDICAL RESEARCH FOUNDATION OF OREGON",
+        "gen_kwargs": {
+            "do_sample": false,
+            "num_beams": 1,
+            "max_new_tokens": 32,
+            "eos_token_id": 92542
+        },
+        "pred_response": "The institution is the Oregon State Research Foundation."
+    },
+    {
+        "sample_id": 7,
+        "question": "Example Question 1:\n<image> <image> {image#1}{image#2}Question: what is the contract no.?\nAnswer: DA-49-007-MD-1024\n\nExample Question 2:\n<image> <image> {image#1}{image#2}Question: what is the total population under 21 years in 1950?\nAnswer: 139,132\n\nCurrent Question:\n{image#1}{image#2}Question: who is the chairman of nutrition program , penn state<image> <image> ",
+        "gt_response": "Helen A. guthrie",
+        "gen_kwargs": {
+            "do_sample": false,
+            "num_beams": 1,
+            "max_new_tokens": 32,
+            "eos_token_id": 92542
+        },
+        "pred_response": "henry prentiss armsby"
+    },
+    {
+        "sample_id": 12,
+        "question": "Example Question 1:\n<image> <image> <image> <image> {image#1}{image#2}{image#3}{image#4}Question: What is the File No.?\nAnswer: 185-58361\n\nExample Question 2:\n<image> <image> <image> <image> <image> {image#1}{image#2}{image#3}{image#4}{image#5}Question: Which is the institution or agency of ALEXANDER, E. Russell, M.D.?\nAnswer: Washington\n\nCurrent Question:\n{image#1}{image#2}Question: Who has the assignment for \"Plant Clean up\"?<image> <image> ",
+        "gt_response": "Corsberg",
+        "gen_kwargs": {
+            "do_sample": false,
+            "num_beams": 1,
+            "max_new_tokens": 32,
+            "eos_token_id": 92542
+        },
+        "pred_response": "Lyon"
+    },
+    {
+        "sample_id": 14,
+        "question": "Example Question 1:\n<image> <image> <image> <image> <image> {image#1}{image#2}{image#3}{image#4}{image#5}Question: What is the brand code?\nAnswer: CF85\n\nExample Question 2:\n<image> <image> <image> <image> <image> <image> {image#1}{image#2}{image#3}{image#4}{image#5}{image#6}Question: what is the total amount mentioned in the given form ?\nAnswer: 574.49\n\nCurrent Question:\n{image#1}{image#2}Question: To whom this is addressed<image> <image> ",
+        "gt_response": "Dr.K.S.Houghton",
+        "gen_kwargs": {
+            "do_sample": false,
+            "num_beams": 1,
+            "max_new_tokens": 32,
+            "eos_token_id": 92542
+        },
+        "pred_response": "The interstate plan has been formulated to addresses customer complaints regarding short-term wraps coated with potassium adsorption short chain diestrolate acids."
+    },
+    {
+        "sample_id": 15,
+        "question": "Example Question 1:\n<image> <image> <image> <image> <image> {image#1}{image#2}{image#3}{image#4}{image#5}Question: What is the G/L account code mentioned in the voucher?\nAnswer: 04 08 1100 9143 821\n\nExample Question 2:\n<image> <image> <image> {image#1}{image#2}{image#3}Question: Who is the marketing person responsible for the project?\nAnswer: Lucinda Sheer\n\nCurrent Question:\n{image#1}{image#2}Question: What is the Direct materials cost (Items under $50) given in the voucher?<image> <image> ",
+        "gt_response": "118.14",
+        "gen_kwargs": {
+            "do_sample": false,
+            "num_beams": 1,
+            "max_new_tokens": 32,
+            "eos_token_id": 92542
+        },
+        "pred_response": "The direct materials cost (items under $50) is 77.59."
+    },
+    {
+        "sample_id": 20,
+        "question": "Example Question 1:\n<image> <image> {image#1}{image#2}Question: When is the Third day ?\nAnswer: Wednesday 22nd\n\nExample Question 2:\n<image> <image> {image#1}{image#2}Question: What is the electronic signature code number?\nAnswer: 266-524-9\n\nCurrent Question:\n{image#1}{image#2}Question: What is the place of meeting ?<image> <image> ",
+        "gt_response": "Winston-Salem",
+        "gen_kwargs": {
+            "do_sample": false,
+            "num_beams": 1,
+            "max_new_tokens": 32,
+            "eos_token_id": 92542
+        },
+        "pred_response": "Winston-Salem"
+    },
+    {
+        "sample_id": 23,
+        "question": "Example Question 1:\n<image> <image> {image#1}{image#2}Question: By how much has the cement industry reduced energy use?\nAnswer: nearly 30 percent\n\nExample Question 2:\n<image> <image> <image> {image#1}{image#2}{image#3}Question: To where the approved invoice sent to?\nAnswer: Sponsoring Members\n\nCurrent Question:\n{image#1}{image#2}Question: what is the flight no. mentioned in the given page ?<image> <image> ",
+        "gt_response": "407  ($48.30)",
+        "gen_kwargs": {
+            "do_sample": false,
+            "num_beams": 1,
+            "max_new_tokens": 32,
+            "eos_token_id": 92542
+        },
+        "pred_response": "407"
+    },
+    {
+        "sample_id": 34,
+        "question": "Example Question 1:\n<image> <image> <image> <image> <image> <image> {image#1}{image#2}{image#3}{image#4}{image#5}{image#6}Question: who is the whole -time director( up to July 31,2009) ?\nAnswer: Mr. S.V.Shanbhag\n\nExample Question 2:\n<image> <image> <image> {image#1}{image#2}{image#3}Question: What is the designation of Mrs. J. Heather Etheridge?\nAnswer: Administrative Assistant\n\nCurrent Question:\n{image#1}{image#2}Question: to whom this letter was written ?<image> <image> ",
+        "gt_response": "Tim",
+        "gen_kwargs": {
+            "do_sample": false,
+            "num_beams": 1,
+            "max_new_tokens": 32,
+            "eos_token_id": 92542
+        },
+        "pred_response": "Beu Carter - Thought you 'd be interested in the attached."
+    },
+    {
+        "sample_id": 35,
+        "question": "Example Question 1:\n<image> <image> <image> {image#1}{image#2}{image#3}Question: Who is the recipient ?\nAnswer: K. P. Dubrovin\n\nExample Question 2:\n<image> <image> {image#1}{image#2}Question: what is the origin ?\nAnswer: BEY\n\nCurrent Question:\n{image#1}{image#2}Question: Who conducted the paper on the topic \" Iron in Human Nutrition \" on Friday ?<image> <image> ",
+        "gt_response": "Gilbert B. Forbes",
+        "gen_kwargs": {
+            "do_sample": false,
+            "num_beams": 1,
+            "max_new_tokens": 32,
+            "eos_token_id": 92542
+        },
+        "pred_response": "George H. Owen, Ph.D."
+    },
+    {
+        "sample_id": 36,
+        "question": "Example Question 1:\n<image> <image> <image> <image> {image#1}{image#2}{image#3}{image#4}Question: what is the date mentioned in the given page ?\nAnswer: december 6-8, 1958\n\nExample Question 2:\n<image> <image> {image#1}{image#2}Question: How many biographical data forms are attached?\nAnswer: 6 biographical data forms\n\nCurrent Question:\n{image#1}{image#2}Question: When did Charles E. Hirsch promoted as Chief Engineer?<image> <image> ",
+        "gt_response": "September 1, 1949",
+        "gen_kwargs": {
+            "do_sample": false,
+            "num_beams": 1,
+            "max_new_tokens": 32,
+            "eos_token_id": 92542
+        },
+        "pred_response": "1947"
+    },
+    {
+        "sample_id": 2,
+        "question": "Example Question 1:\n<image> <image> <image> <image> <image> {image#1}{image#2}{image#3}{image#4}{image#5}Question: what is amount of composition for Printer number I ?\nAnswer: $ 3,436.98\n\nExample Question 2:\n<image> <image> {image#1}{image#2}Question: What is the due date(outline)?\nAnswer: February 25, 2002\n\nCurrent Question:\n{image#1}{image#2}{image#3}Question: what is the title of Irene Karl?<image> <image> <image> ",
+        "gt_response": "Res. Asst.",
+        "gen_kwargs": {
+            "do_sample": false,
+            "num_beams": 1,
+            "max_new_tokens": 32,
+            "eos_token_id": 92542
+        },
+        "pred_response": "Irene Karl"
+    },
+    {
+        "sample_id": 3,
+        "question": "Example Question 1:\n<image> <image> <image> <image> <image> {image#1}{image#2}{image#3}{image#4}{image#5}Question: What is the G/L account code mentioned in the voucher?\nAnswer: 04 08 1100 9143 821\n\nExample Question 2:\n<image> <image> <image> <image> <image> <image> {image#1}{image#2}{image#3}{image#4}{image#5}{image#6}Question: What is the Home Phone?\nAnswer: 744-5106\n\nCurrent Question:\n{image#1}{image#2}{image#3}Question: What is the End Date of Returns ?<image> <image> <image> ",
+        "gt_response": "10/10/97",
+        "gen_kwargs": {
+            "do_sample": false,
+            "num_beams": 1,
+            "max_new_tokens": 32,
+            "eos_token_id": 92542
+        },
+        "pred_response": "The expected quantity to return is 12,000."
+    },
+    {
+        "sample_id": 10,
+        "question": "Example Question 1:\n<image> <image> <image> <image> <image> {image#1}{image#2}{image#3}{image#4}{image#5}Question: what is the proposed grand total amount for the year 1976 ?\nAnswer: $ 129,576\n\nExample Question 2:\n<image> <image> <image> {image#1}{image#2}{image#3}Question: what is the estimated population in poverty in Macon county ?\nAnswer: 3,363\n\nCurrent Question:\n{image#1}{image#2}{image#3}Question: what is the designation of Dr. F. James Levinson ?<image> <image> <image> ",
+        "gt_response": "director",
+        "gen_kwargs": {
+            "do_sample": false,
+            "num_beams": 1,
+            "max_new_tokens": 32,
+            "eos_token_id": 92542
+        },
+        "pred_response": "Dr. F. James Levinson is the director of the International Nutrition Planning Program."
+    },
+    {
+        "sample_id": 13,
+        "question": "Example Question 1:\n<image> <image> {image#1}{image#2}Question: what is the contact number of The Visiting Nurse Association of Greater St. Louis, St. Louis County  ?\nAnswer: 314-533-9680\n\nExample Question 2:\n<image> <image> <image> <image> {image#1}{image#2}{image#3}{image#4}Question: Who is Donald K. Tressler?\nAnswer: Scientific Director of the Institute\n\nCurrent Question:\n{image#1}{image#2}{image#3}Question: What is the weight of Lactalbumin in Milk protein - 75g?<image> <image> <image> ",
+        "gt_response": "7.60",
+        "gen_kwargs": {
+            "do_sample": false,
+            "num_beams": 1,
+            "max_new_tokens": 32,
+            "eos_token_id": 92542
+        },
+        "pred_response": "The weight of lactalbumin in milk protein - 75g is 7.68."
+    },
+    {
+        "sample_id": 17,
+        "question": "Example Question 1:\n<image> <image> {image#1}{image#2}Question: Who is the author of \" The Taming of the C.A.N.D.Y. Monster\"?\nAnswer: LANSKY\n\nExample Question 2:\n<image> <image> <image> {image#1}{image#2}{image#3}Question: When is the date of departure?\nAnswer: July 10th, 1950\n\nCurrent Question:\n{image#1}{image#2}{image#3}Question: What is the Written in  To Field ?<image> <image> <image> ",
+        "gt_response": "All Boston Region Full-Time Personnel",
+        "gen_kwargs": {
+            "do_sample": false,
+            "num_beams": 1,
+            "max_new_tokens": 32,
+            "eos_token_id": 92542
+        },
+        "pred_response": "The written in to field is all boston region full time personnel."
+    },
+    {
+        "sample_id": 26,
+        "question": "Example Question 1:\n<image> <image> <image> {image#1}{image#2}{image#3}Question: What is the designation of Dr. William J. Darby?\nAnswer: president\n\nExample Question 2:\n<image> <image> {image#1}{image#2}Question: what is the name of the cashier mentioned ?\nAnswer: Mr. Ralph T. Smith\n\nCurrent Question:\n{image#1}{image#2}{image#3}Question: Who is the recipient ?<image> <image> <image> ",
+        "gt_response": "K. P. Dubrovin",
+        "gen_kwargs": {
+            "do_sample": false,
+            "num_beams": 1,
+            "max_new_tokens": 32,
+            "eos_token_id": 92542
+        },
+        "pred_response": "Mr. K. P. Dubrovin"
+    },
+    {
+        "sample_id": 9,
+        "question": "Example Question 1:\n<image> <image> <image> <image> <image> {image#1}{image#2}{image#3}{image#4}{image#5}Question: What is the full form of GLP?\nAnswer: Good Laboratory Practice\n\nExample Question 2:\n<image> <image> <image> {image#1}{image#2}{image#3}Question: what are the expenses for meals (other than those at hotel )?\nAnswer: 26.50\n\nCurrent Question:\n{image#1}{image#2}{image#3}{image#4}Question: What is the email id of Mr. Hironao Ihara?<image> <image> <image> <image> ",
+        "gt_response": "hironao.ihara@takeda.com",
+        "gen_kwargs": {
+            "do_sample": false,
+            "num_beams": 1,
+            "max_new_tokens": 32,
+            "eos_token_id": 92542
+        },
+        "pred_response": "Mr. Hironao Ihara's email address is ihara@actosys.jr.jaist.ac.jp."
+    },
+    {
+        "sample_id": 25,
+        "question": "Example Question 1:\n<image> <image> <image> {image#1}{image#2}{image#3}Question: what is the program number ?\nAnswer: 601270\n\nExample Question 2:\n<image> <image> {image#1}{image#2}Question: What is the product designation?\nAnswer: Sugar-cane\n\nCurrent Question:\n{image#1}{image#2}{image#3}{image#4}Question: What are the reporting dates?<image> <image> <image> <image> ",
+        "gt_response": "10/5 -10/30/98",
+        "gen_kwargs": {
+            "do_sample": false,
+            "num_beams": 1,
+            "max_new_tokens": 32,
+            "eos_token_id": 92542
+        },
+        "pred_response": "The reporting dates are from September 1, 1993 to August 31, 1994."
+    },
+    {
+        "sample_id": 27,
+        "question": "Example Question 1:\n<image> <image> <image> <image> {image#1}{image#2}{image#3}{image#4}Question: What is the full form of POV?\nAnswer: Privately-Owned Vehicle\n\nExample Question 2:\n<image> <image> <image> <image> {image#1}{image#2}{image#3}{image#4}Question: What is the email id of Mr. Hironao Ihara?\nAnswer: hironao.ihara@takeda.com\n\nCurrent Question:\n{image#1}{image#2}{image#3}{image#4}Question: what is the date mentioned in the given page ?<image> <image> <image> <image> ",
+        "gt_response": "Friday, November 1, 1974",
+        "gen_kwargs": {
+            "do_sample": false,
+            "num_beams": 1,
+            "max_new_tokens": 32,
+            "eos_token_id": 92542
+        },
+        "pred_response": "washington"
+    },
+    {
+        "sample_id": 28,
+        "question": "Example Question 1:\n<image> <image> {image#1}{image#2}Question: What is the Order No. ?\nAnswer: 32709\n\nExample Question 2:\n<image> <image> {image#1}{image#2}Question: Who is the chairman of Environment and Public Works Committee?\nAnswer: John Barrasso\n\nCurrent Question:\n{image#1}{image#2}{image#3}{image#4}Question: What is the first TARGET AUDIENCE mentioned?<image> <image> <image> <image> ",
+        "gt_response": "BVS1 (AMM)",
+        "gen_kwargs": {
+            "do_sample": false,
+            "num_beams": 1,
+            "max_new_tokens": 32,
+            "eos_token_id": 92542
+        },
+        "pred_response": "Rationale for Mid style - a proven transition style into KOOL, as it offers something new and different to smokers."
+    },
+    {
+        "sample_id": 30,
+        "question": "Example Question 1:\n<image> <image> <image> <image> <image> {image#1}{image#2}{image#3}{image#4}{image#5}Question: What is the full form of GLP?\nAnswer: Good Laboratory Practice\n\nExample Question 2:\n<image> <image> <image> {image#1}{image#2}{image#3}Question: what is the address of the business office of the company?\nAnswer: 108 Depot Avenue, N. E., Knoxville, Tennessee\n\nCurrent Question:\n{image#1}{image#2}{image#3}{image#4}Question: How much is the debt equity ratio?<image> <image> <image> <image> ",
+        "gt_response": "0.02",
+        "gen_kwargs": {
+            "do_sample": false,
+            "num_beams": 1,
+            "max_new_tokens": 32,
+            "eos_token_id": 92542
+        },
+        "pred_response": "55.42"
+    },
+    {
+        "sample_id": 1,
+        "question": "Example Question 1:\n<image> <image> <image> <image> {image#1}{image#2}{image#3}{image#4}Question: what is the date mentioned in the given page ?\nAnswer: december 6-8, 1958\n\nExample Question 2:\n<image> <image> <image> <image> <image> {image#1}{image#2}{image#3}{image#4}{image#5}Question: what is the name of the university mentioned in the given address ?\nAnswer: thomas jefferson university\n\nCurrent Question:\n{image#1}{image#2}{image#3}{image#4}{image#5}Question: How much Total Income ?<image> <image> <image> <image> <image> ",
+        "gt_response": "$12,000 to $15,000",
+        "gen_kwargs": {
+            "do_sample": false,
+            "num_beams": 1,
+            "max_new_tokens": 32,
+            "eos_token_id": 92542
+        },
+        "pred_response": "$10,672"
+    },
+    {
+        "sample_id": 8,
+        "question": "Example Question 1:\n<image> <image> <image> <image> <image> {image#1}{image#2}{image#3}{image#4}{image#5}Question: what is the EST response % ?\nAnswer: 5.00%\n\nExample Question 2:\n<image> <image> <image> {image#1}{image#2}{image#3}Question: what is the brand mentioned in the confirmation?\nAnswer: WINSTON\n\nCurrent Question:\n{image#1}{image#2}{image#3}{image#4}{image#5}Question: What is the Net sales of Campbell Soup Company for the year 1965?<image> <image> <image> <image> <image> ",
+        "gt_response": "$712,785,000",
+        "gen_kwargs": {
+            "do_sample": false,
+            "num_beams": 1,
+            "max_new_tokens": 32,
+            "eos_token_id": 92542
+        },
+        "pred_response": "The net sales of Campbell Soup Company for the year 1965 were $1,345,000,000."
+    },
+    {
+        "sample_id": 11,
+        "question": "Example Question 1:\n<image> <image> {image#1}{image#2}Question: what is amount of Potassium mg./100g. of Figs (R)?\nAnswer: 290\n\nExample Question 2:\n<image> <image> <image> <image> <image> {image#1}{image#2}{image#3}{image#4}{image#5}Question: who is chief, Processing and Records Unit, PERS. MGMT. DIV. ?\nAnswer: Marie C. Newman\n\nCurrent Question:\n{image#1}{image#2}{image#3}{image#4}{image#5}Question: When is the approval needed in order to meet overall project timing?<image> <image> <image> <image> <image> ",
+        "gt_response": "by 4/21/95",
+        "gen_kwargs": {
+            "do_sample": false,
+            "num_beams": 1,
+            "max_new_tokens": 32,
+            "eos_token_id": 92542
+        },
+        "pred_response": "The date is April 12."
+    },
+    {
+        "sample_id": 16,
+        "question": "Example Question 1:\n<image> <image> <image> <image> <image> {image#1}{image#2}{image#3}{image#4}{image#5}Question: What is the brand code?\nAnswer: CF85\n\nExample Question 2:\n<image> <image> <image> <image> {image#1}{image#2}{image#3}{image#4}Question: what is the date of goods Rec?\nAnswer: 2/13/73\n\nCurrent Question:\n{image#1}{image#2}{image#3}{image#4}{image#5}Question: what is the product PO number?<image> <image> <image> <image> <image> ",
+        "gt_response": "#072798",
+        "gen_kwargs": {
+            "do_sample": false,
+            "num_beams": 1,
+            "max_new_tokens": 32,
+            "eos_token_id": 92542
+        },
+        "pred_response": "The product is a 30\" off promotion."
+    },
+    {
+        "sample_id": 19,
+        "question": "Example Question 1:\n<image> <image> {image#1}{image#2}Question: What is the heading of the REPORT?\nAnswer: progress report 10\n\nExample Question 2:\n<image> <image> <image> <image> <image> <image> {image#1}{image#2}{image#3}{image#4}{image#5}{image#6}Question: What is the Mean of 2,4-D?\nAnswer: 0.08\n\nCurrent Question:\n{image#1}{image#2}{image#3}{image#4}{image#5}Question: what is the proposed grand total amount for the year 1976 ?<image> <image> <image> <image> <image> ",
+        "gt_response": "$ 129,576",
+        "gen_kwargs": {
+            "do_sample": false,
+            "num_beams": 1,
+            "max_new_tokens": 32,
+            "eos_token_id": 92542
+        },
+        "pred_response": "$501,000"
+    },
+    {
+        "sample_id": 21,
+        "question": "Example Question 1:\n<image> <image> <image> {image#1}{image#2}{image#3}Question: What is the Estimated Budget for Pass-through Expenses?\nAnswer: $3,000.00*\n\nExample Question 2:\n<image> <image> {image#1}{image#2}Question: Who is the author of \" The Taming of the C.A.N.D.Y. Monster\"?\nAnswer: LANSKY\n\nCurrent Question:\n{image#1}{image#2}{image#3}{image#4}{image#5}Question: What is the Profit after Taxation before Share of Results of Associates for 2008?<image> <image> <image> <image> <image> ",
+        "gt_response": "3178.17",
+        "gen_kwargs": {
+            "do_sample": false,
+            "num_beams": 1,
+            "max_new_tokens": 32,
+            "eos_token_id": 92542
+        },
+        "pred_response": "The Profit after Taxation before Share of Results of Associates for 2008 is 4,076."
+    },
+    {
+        "sample_id": 4,
+        "question": "Example Question 1:\n<image> <image> <image> {image#1}{image#2}{image#3}Question: What is the name of the project?\nAnswer: #7595 Manuscript\n\nExample Question 2:\n<image> <image> <image> {image#1}{image#2}{image#3}Question: What is the End Date of Returns ?\nAnswer: 10/10/97\n\nCurrent Question:\n{image#1}{image#2}{image#3}{image#4}{image#5}{image#6}Question: Which Class is Peter H. Raven in?<image> <image> <image> <image> <image> <image> ",
+        "gt_response": "II",
+        "gen_kwargs": {
+            "do_sample": false,
+            "num_beams": 1,
+            "max_new_tokens": 32,
+            "eos_token_id": 92542
+        },
+        "pred_response": "Peter H. Raven is in Class IV."
+    },
+    {
+        "sample_id": 6,
+        "question": "Example Question 1:\n<image> <image> <image> <image> <image> {image#1}{image#2}{image#3}{image#4}{image#5}Question: What is the Net sales of Campbell Soup Company for the year 1965?\nAnswer: $712,785,000\n\nExample Question 2:\n<image> <image> <image> {image#1}{image#2}{image#3}Question: what is the designation of Dr. F. James Levinson ?\nAnswer: director\n\nCurrent Question:\n{image#1}{image#2}{image#3}{image#4}{image#5}{image#6}Question: Which day is October 10, 1968<image> <image> <image> <image> <image> <image> ",
+        "gt_response": "Thursday",
+        "gen_kwargs": {
+            "do_sample": false,
+            "num_beams": 1,
+            "max_new_tokens": 32,
+            "eos_token_id": 92542
+        },
+        "pred_response": "Mr. Harry Darby, Chairman, The Darby Company"
+    },
+    {
+        "sample_id": 18,
+        "question": "Example Question 1:\n<image> <image> {image#1}{image#2}Question: What is the Direct materials cost (Items under $50) given in the voucher?\nAnswer: 118.14\n\nExample Question 2:\n<image> <image> <image> <image> {image#1}{image#2}{image#3}{image#4}Question: what is the date mentioned in the given page ?\nAnswer: 2 nov 1967\n\nCurrent Question:\n{image#1}{image#2}{image#3}{image#4}{image#5}{image#6}Question: What is the name of the Store?<image> <image> <image> <image> <image> <image> ",
+        "gt_response": "Sunoco, Inc. (R&M)",
+        "gen_kwargs": {
+            "do_sample": false,
+            "num_beams": 1,
+            "max_new_tokens": 32,
+            "eos_token_id": 92542
+        },
+        "pred_response": "The name of the store is Camel."
+    },
+    {
+        "sample_id": 32,
+        "question": "Example Question 1:\n<image> <image> {image#1}{image#2}Question: What is the cellular number of Gigi M. Chen?\nAnswer: 716.725.7100\n\nExample Question 2:\n<image> <image> {image#1}{image#2}Question: what is the emp. no. of Ivano N Rivers ?\nAnswer: 751035\n\nCurrent Question:\n{image#1}{image#2}{image#3}{image#4}{image#5}{image#6}Question: what is the unit of pension for Actuarial Gains/(Losses)  for the year ended in 2010?<image> <image> <image> <image> <image> <image> ",
+        "gt_response": "7.50",
+        "gen_kwargs": {
+            "do_sample": false,
+            "num_beams": 1,
+            "max_new_tokens": 32,
+            "eos_token_id": 92542
+        },
+        "pred_response": "The unit of pension for Actuarial Gains/(Losses) for the year ended in 2010 is the percentage of the average salary of the"
+    },
+    {
+        "sample_id": 40,
+        "question": "Example Question 1:\n<image> <image> <image> {image#1}{image#2}{image#3}Question: Which topic is handled at 1:30 PM?\nAnswer: Opening Remarks/Introduction\n\nExample Question 2:\n<image> <image> <image> <image> <image> <image> {image#1}{image#2}{image#3}{image#4}{image#5}{image#6}Question: what is the total amount mentioned in the given form ?\nAnswer: 574.49\n\nCurrent Question:\n{image#1}{image#2}Question: What is the Name?<image> <image> ",
+        "gt_response": "Dr. Robert E. Shank",
+        "gen_kwargs": {
+            "do_sample": false,
+            "num_beams": 1,
+            "max_new_tokens": 32,
+            "eos_token_id": 92542
+        },
+        "pred_response": "The name is Dr. Robert E. Shank."
+    },
+    {
+        "sample_id": 42,
+        "question": "Example Question 1:\n<image> <image> <image> <image> {image#1}{image#2}{image#3}{image#4}Question: What kind of \"studies\" have ITC commenced for few of their products?\nAnswer: life cycle assessment studies\n\nExample Question 2:\n<image> <image> <image> <image> <image> <image> {image#1}{image#2}{image#3}{image#4}{image#5}{image#6}Question: What is th last Holding Date of Equity Owner  mentioned for \"Dalmia Housing Finance Ltd\"?\nAnswer: 31-Dec-08\n\nCurrent Question:\n{image#1}{image#2}Question: When is the Third day ?<image> <image> ",
+        "gt_response": "Wednesday 22nd",
+        "gen_kwargs": {
+            "do_sample": false,
+            "num_beams": 1,
+            "max_new_tokens": 32,
+            "eos_token_id": 92542
+        },
+        "pred_response": "Third day"
+    },
+    {
+        "sample_id": 43,
+        "question": "Example Question 1:\n<image> <image> <image> {image#1}{image#2}{image#3}Question: What is the first line of the address mentioned at the top?\nAnswer: Reynolds Building\n\nExample Question 2:\n<image> <image> <image> {image#1}{image#2}{image#3}Question: What is the designation of Dr. William J. Darby?\nAnswer: president\n\nCurrent Question:\n{image#1}{image#2}Question: By how much has the cement industry reduced energy use?<image> <image> ",
+        "gt_response": "nearly 30 percent",
+        "gen_kwargs": {
+            "do_sample": false,
+            "num_beams": 1,
+            "max_new_tokens": 32,
+            "eos_token_id": 92542
+        },
+        "pred_response": "The cement industry has reduced energy use by 74%."
+    },
+    {
+        "sample_id": 45,
+        "question": "Example Question 1:\n<image> <image> {image#1}{image#2}Question: what is amount of Potassium mg./100g. of Figs (R)?\nAnswer: 290\n\nExample Question 2:\n<image> <image> <image> <image> <image> <image> {image#1}{image#2}{image#3}{image#4}{image#5}{image#6}Question: what is the total amount mentioned in the given form ?\nAnswer: 574.49\n\nCurrent Question:\n{image#1}{image#2}Question: what is the total voucher amount ?<image> <image> ",
+        "gt_response": "$1,295.87",
+        "gen_kwargs": {
+            "do_sample": false,
+            "num_beams": 1,
+            "max_new_tokens": 32,
+            "eos_token_id": 92542
+        },
+        "pred_response": "44.23"
+    },
+    {
+        "sample_id": 46,
+        "question": "Example Question 1:\n<image> <image> <image> <image> <image> <image> {image#1}{image#2}{image#3}{image#4}{image#5}{image#6}Question: Which day is October 10, 1968\nAnswer: Thursday\n\nExample Question 2:\n<image> <image> {image#1}{image#2}Question: Who is the Contact Person of agency?\nAnswer: David Moore\n\nCurrent Question:\n{image#1}{image#2}Question: Who is the chairman of Environment and Public Works Committee?<image> <image> ",
+        "gt_response": "John Barrasso",
+        "gen_kwargs": {
+            "do_sample": false,
+            "num_beams": 1,
+            "max_new_tokens": 32,
+            "eos_token_id": 92542
+        },
+        "pred_response": "Dr. Dourson"
+    },
+    {
+        "sample_id": 49,
+        "question": "Example Question 1:\n<image> <image> <image> {image#1}{image#2}{image#3}Question: What is the Payee's Account No.?\nAnswer: cg721t117pb\n\nExample Question 2:\n<image> <image> <image> <image> <image> {image#1}{image#2}{image#3}{image#4}{image#5}Question: What is the Net sales of Campbell Soup Company for the year 1965?\nAnswer: $712,785,000\n\nCurrent Question:\n{image#1}{image#2}Question: Who is giving the introductory remarks?<image> <image> ",
+        "gt_response": "Dr. Dodge",
+        "gen_kwargs": {
+            "do_sample": false,
+            "num_beams": 1,
+            "max_new_tokens": 32,
+            "eos_token_id": 92542
+        },
+        "pred_response": "St. Louis Children's Hospital"
+    },
+    {
+        "sample_id": 50,
+        "question": "Example Question 1:\n<image> <image> <image> <image> <image> {image#1}{image#2}{image#3}{image#4}{image#5}Question: How many numbers of copies of the journal of nutrition?\nAnswer: 4400\n\nExample Question 2:\n<image> <image> <image> <image> <image> {image#1}{image#2}{image#3}{image#4}{image#5}Question: What is the full form of GLP?\nAnswer: Good Laboratory Practice\n\nCurrent Question:\n{image#1}{image#2}Question: What is the Timing for the Journal \"Journal of Managed Care Pharmacy\"?<image> <image> ",
+        "gt_response": "3Q98",
+        "gen_kwargs": {
+            "do_sample": false,
+            "num_beams": 1,
+            "max_new_tokens": 32,
+            "eos_token_id": 92542
+        },
+        "pred_response": "The timing for the Journal \"Journal of Managed Care Pharmacy\" is Q4 2007."
+    },
+    {
+        "sample_id": 53,
+        "question": "Example Question 1:\n<image> <image> <image> <image> <image> <image> {image#1}{image#2}{image#3}{image#4}{image#5}{image#6}Question: What is Written in the SPEC Status Field ?\nAnswer: CURRENT\n\nExample Question 2:\n<image> <image> <image> <image> <image> {image#1}{image#2}{image#3}{image#4}{image#5}Question: what is the amount of potassium present in lentils, dry(R) as mentioned in the given page ?\nAnswer: 1200\n\nCurrent Question:\n{image#1}{image#2}Question: What is the name of reviewer #2 given in the form?<image> <image> ",
+        "gt_response": "Bill Coleman",
+        "gen_kwargs": {
+            "do_sample": false,
+            "num_beams": 1,
+            "max_new_tokens": 32,
+            "eos_token_id": 92542
+        },
+        "pred_response": "The name of reviewer #2 is RJT Rado Rado."
+    },
+    {
+        "sample_id": 56,
+        "question": "Example Question 1:\n<image> <image> <image> {image#1}{image#2}{image#3}Question: How many pages are there?\nAnswer: 3\n\nExample Question 2:\n<image> <image> <image> {image#1}{image#2}{image#3}Question: what are the expenses for meals (other than those at hotel )?\nAnswer: 26.50\n\nCurrent Question:\n{image#1}{image#2}Question: What agreement is shown here?<image> <image> ",
+        "gt_response": "DORAL EDLP RETAIL PRICING AGREEMENT",
+        "gen_kwargs": {
+            "do_sample": false,
+            "num_beams": 1,
+            "max_new_tokens": 32,
+            "eos_token_id": 92542
+        },
+        "pred_response": "DORAL RETAIL PRICING AGREEMENT"
+    },
+    {
+        "sample_id": 67,
+        "question": "Example Question 1:\n<image> <image> <image> <image> {image#1}{image#2}{image#3}{image#4}Question: what is the date of goods Rec?\nAnswer: 2/13/73\n\nExample Question 2:\n<image> <image> <image> {image#1}{image#2}{image#3}Question: What is the first line of the address mentioned at the top?\nAnswer: Reynolds Building\n\nCurrent Question:\n{image#1}{image#2}Question: what  is the cost of dinner on dec. 2?<image> <image> ",
+        "gt_response": "2.50",
+        "gen_kwargs": {
+            "do_sample": false,
+            "num_beams": 1,
+            "max_new_tokens": 32,
+            "eos_token_id": 92542
+        },
+        "pred_response": "1.25"
+    },
+    {
+        "sample_id": 31,
+        "question": "Example Question 1:\n<image> <image> {image#1}{image#2}Question: who has signed at the bottom of the letter ?\nAnswer: Dr. M.G. Wagh\n\nExample Question 2:\n<image> <image> <image> <image> {image#1}{image#2}{image#3}{image#4}Question: what is the name of the university mentioned in the given form ?\nAnswer: Washington university\n\nCurrent Question:\n{image#1}{image#2}{image#3}Question: what does camel crema deliver?<image> <image> <image> ",
+        "gt_response": "a creamy indulgent flavor that offers an intriguing and pleasurable smoking experience.",
+        "gen_kwargs": {
+            "do_sample": false,
+            "num_beams": 1,
+            "max_new_tokens": 32,
+            "eos_token_id": 92542
+        },
+        "pred_response": "CAMEL"
+    },
+    {
+        "sample_id": 38,
+        "question": "Example Question 1:\n<image> <image> <image> <image> {image#1}{image#2}{image#3}{image#4}Question: What is the first TARGET AUDIENCE mentioned?\nAnswer: BVS1 (AMM)\n\nExample Question 2:\n<image> <image> <image> {image#1}{image#2}{image#3}Question: What is the weight of Lactalbumin in Milk protein - 75g?\nAnswer: 7.60\n\nCurrent Question:\n{image#1}{image#2}{image#3}Question: In table XIV how many total abnormalities in hospital K?<image> <image> <image> ",
+        "gt_response": "63",
+        "gen_kwargs": {
+            "do_sample": false,
+            "num_beams": 1,
+            "max_new_tokens": 32,
+            "eos_token_id": 92542
+        },
+        "pred_response": "The total number of abnormalities in hospital K is 3."
+    },
+    {
+        "sample_id": 52,
+        "question": "Example Question 1:\n<image> <image> {image#1}{image#2}Question: Which institution is mentioned at the top of the page?\nAnswer: MEDICAL RESEARCH FOUNDATION OF OREGON\n\nExample Question 2:\n<image> <image> <image> <image> <image> {image#1}{image#2}{image#3}{image#4}{image#5}Question: Who is the author for \"Physiology of Vitamin A\"?\nAnswer: o. a. roels\n\nCurrent Question:\n{image#1}{image#2}{image#3}Question: In table II what is the total period of observation of Man-years in hospital K?<image> <image> <image> ",
+        "gt_response": "1,088.8",
+        "gen_kwargs": {
+            "do_sample": false,
+            "num_beams": 1,
+            "max_new_tokens": 32,
+            "eos_token_id": 92542
+        },
+        "pred_response": "The total period of observation of man-years in hospital K is 4."
+    },
+    {
+        "sample_id": 54,
+        "question": "Example Question 1:\n<image> <image> <image> {image#1}{image#2}{image#3}Question: How many pages are there?\nAnswer: 3\n\nExample Question 2:\n<image> <image> <image> <image> <image> <image> {image#1}{image#2}{image#3}{image#4}{image#5}{image#6}Question: What is shown in Y axis of the graph in Capital letters?\nAnswer: SPECIFIC ACTIVITY\n\nCurrent Question:\n{image#1}{image#2}{image#3}Question: what is the nickname given for thiamine ?<image> <image> <image> ",
+        "gt_response": "morale vitamin",
+        "gen_kwargs": {
+            "do_sample": false,
+            "num_beams": 1,
+            "max_new_tokens": 32,
+            "eos_token_id": 92542
+        },
+        "pred_response": "vitamin a"
+    },
+    {
+        "sample_id": 59,
+        "question": "Example Question 1:\n<image> <image> <image> <image> <image> {image#1}{image#2}{image#3}{image#4}{image#5}Question: How many numbers of copies of the journal of nutrition?\nAnswer: 4400\n\nExample Question 2:\n<image> <image> <image> <image> {image#1}{image#2}{image#3}{image#4}Question: what is the date of goods Rec?\nAnswer: 2/13/73\n\nCurrent Question:\n{image#1}{image#2}{image#3}Question: what is the address of the business office of the company?<image> <image> <image> ",
+        "gt_response": "108 Depot Avenue, N. E., Knoxville, Tennessee",
+        "gen_kwargs": {
+            "do_sample": false,
+            "num_beams": 1,
+            "max_new_tokens": 32,
+            "eos_token_id": 92542
+        },
+        "pred_response": "The regular quarterly meeting of the board of directors of the Great Western Sugar Company was held at the business office of the company, 401 East 9th Street"
+    },
+    {
+        "sample_id": 60,
+        "question": "Example Question 1:\n<image> <image> {image#1}{image#2}Question: When did Charles E. Hirsch promoted as Chief Engineer?\nAnswer: September 1, 1949\n\nExample Question 2:\n<image> <image> <image> <image> <image> {image#1}{image#2}{image#3}{image#4}{image#5}Question: What is the brand code?\nAnswer: CF85\n\nCurrent Question:\n{image#1}{image#2}{image#3}Question: How many pages are there?<image> <image> <image> ",
+        "gt_response": "3",
+        "gen_kwargs": {
+            "do_sample": false,
+            "num_beams": 1,
+            "max_new_tokens": 32,
+            "eos_token_id": 92542
+        },
+        "pred_response": "3"
+    },
+    {
+        "sample_id": 33,
+        "question": "Example Question 1:\n<image> <image> {image#1}{image#2}Question: what is the name of the university mentioned in the given form ?\nAnswer: Washington university\n\nExample Question 2:\n<image> <image> <image> <image> {image#1}{image#2}{image#3}{image#4}Question: \"wisdom and art,strength and wealth are of no avail if health is lacking \" was written by ?\nAnswer: Herophilus\n\nCurrent Question:\n{image#1}{image#2}{image#3}{image#4}Question: what is the date mentioned in the given page ?<image> <image> <image> <image> ",
+        "gt_response": "2 nov 1967",
+        "gen_kwargs": {
+            "do_sample": false,
+            "num_beams": 1,
+            "max_new_tokens": 32,
+            "eos_token_id": 92542
+        },
+        "pred_response": "The date is August 12, 1968."
+    },
+    {
+        "sample_id": 41,
+        "question": "Example Question 1:\n<image> <image> <image> <image> {image#1}{image#2}{image#3}{image#4}Question: what is the program endorsed by the committee ?\nAnswer: home economics program\n\nExample Question 2:\n<image> <image> <image> <image> <image> {image#1}{image#2}{image#3}{image#4}{image#5}Question: What is the brand code?\nAnswer: CF85\n\nCurrent Question:\n{image#1}{image#2}{image#3}{image#4}Question: what is the cat.no?<image> <image> <image> <image> ",
+        "gt_response": "0612-80-505",
+        "gen_kwargs": {
+            "do_sample": false,
+            "num_beams": 1,
+            "max_new_tokens": 32,
+            "eos_token_id": 92542
+        },
+        "pred_response": "The project name is \"Preliminary Audit Cup Summary Results\"."
+    },
+    {
+        "sample_id": 48,
+        "question": "Example Question 1:\n<image> <image> {image#1}{image#2}Question: When is the Third day ?\nAnswer: Wednesday 22nd\n\nExample Question 2:\n<image> <image> {image#1}{image#2}Question: what is the demo number mentioned?\nAnswer: 03760\n\nCurrent Question:\n{image#1}{image#2}{image#3}{image#4}Question: What is the File No.?<image> <image> <image> <image> ",
+        "gt_response": "185-58361",
+        "gen_kwargs": {
+            "do_sample": false,
+            "num_beams": 1,
+            "max_new_tokens": 32,
+            "eos_token_id": 92542
+        },
+        "pred_response": "The total amount is $465.30."
+    },
+    {
+        "sample_id": 51,
+        "question": "Example Question 1:\n<image> <image> {image#1}{image#2}Question: To whom this is addressed\nAnswer: Dr.K.S.Houghton\n\nExample Question 2:\n<image> <image> <image> <image> <image> {image#1}{image#2}{image#3}{image#4}{image#5}Question: What is the full form of GLP?\nAnswer: Good Laboratory Practice\n\nCurrent Question:\n{image#1}{image#2}{image#3}{image#4}Question: How much is the time and mileage charge given?<image> <image> <image> <image> ",
+        "gt_response": "22.85",
+        "gen_kwargs": {
+            "do_sample": false,
+            "num_beams": 1,
+            "max_new_tokens": 32,
+            "eos_token_id": 92542
+        },
+        "pred_response": "The amount due is 24.85."
+    },
+    {
+        "sample_id": 22,
+        "question": "Example Question 1:\n<image> <image> <image> {image#1}{image#2}{image#3}Question: What is the weight of Lactalbumin in Milk protein - 75g?\nAnswer: 7.60\n\nExample Question 2:\n<image> <image> {image#1}{image#2}Question: what is the given schedule at the time of 10:30 on monday, june 20 ?\nAnswer: orientation\n\nCurrent Question:\n{image#1}{image#2}{image#3}{image#4}{image#5}Question: What is the project name written this sheet<image> <image> <image> <image> <image> ",
+        "gt_response": "Project \"NN\"",
+        "gen_kwargs": {
+            "do_sample": false,
+            "num_beams": 1,
+            "max_new_tokens": 32,
+            "eos_token_id": 92542
+        },
+        "pred_response": "The project name is R.J. Reynolds Tobacco Company."
+    },
+    {
+        "sample_id": 24,
+        "question": "Example Question 1:\n<image> <image> {image#1}{image#2}Question: what is the payee's name ?\nAnswer: Robert E. Shank\n\nExample Question 2:\n<image> <image> <image> <image> {image#1}{image#2}{image#3}{image#4}Question: \"wisdom and art,strength and wealth are of no avail if health is lacking \" was written by ?\nAnswer: Herophilus\n\nCurrent Question:\n{image#1}{image#2}{image#3}{image#4}{image#5}Question: How much mg of potassium per 100 grams is contained in Kale (R)?<image> <image> <image> <image> <image> ",
+        "gt_response": "401",
+        "gen_kwargs": {
+            "do_sample": false,
+            "num_beams": 1,
+            "max_new_tokens": 32,
+            "eos_token_id": 92542
+        },
+        "pred_response": "The amount of potassium in 100 grams of kale (R) is 1,000 milligrams."
+    },
+    {
+        "sample_id": 29,
+        "question": "Example Question 1:\n<image> <image> <image> <image> <image> {image#1}{image#2}{image#3}{image#4}{image#5}Question: What is the Page Number?\nAnswer: 4\n\nExample Question 2:\n<image> <image> {image#1}{image#2}Question: What agreement is shown here?\nAnswer: DORAL EDLP RETAIL PRICING AGREEMENT\n\nCurrent Question:\n{image#1}{image#2}{image#3}{image#4}{image#5}Question: what is the cost of the parking at hotel in daytime ?<image> <image> <image> <image> <image> ",
+        "gt_response": "$12",
+        "gen_kwargs": {
+            "do_sample": false,
+            "num_beams": 1,
+            "max_new_tokens": 32,
+            "eos_token_id": 92542
+        },
+        "pred_response": "The cost of parking at the hotel in the daytime is $15."
+    },
+    {
+        "sample_id": 37,
+        "question": "Example Question 1:\n<image> <image> <image> <image> <image> {image#1}{image#2}{image#3}{image#4}{image#5}Question: what is the product PO number?\nAnswer: #072798\n\nExample Question 2:\n<image> <image> {image#1}{image#2}Question: What is the first entity of the \"TABLE 1:\"?\nAnswer: PM Code\n\nCurrent Question:\n{image#1}{image#2}{image#3}{image#4}{image#5}Question: What is the Page Number?<image> <image> <image> <image> <image> ",
+        "gt_response": "4",
+        "gen_kwargs": {
+            "do_sample": false,
+            "num_beams": 1,
+            "max_new_tokens": 32,
+            "eos_token_id": 92542
+        },
+        "pred_response": "The client is Hoechst Marion Roussel."
+    },
+    {
+        "sample_id": 44,
+        "question": "Example Question 1:\n<image> <image> <image> <image> {image#1}{image#2}{image#3}{image#4}Question: Who is Donald K. Tressler?\nAnswer: Scientific Director of the Institute\n\nExample Question 2:\n<image> <image> <image> <image> <image> <image> {image#1}{image#2}{image#3}{image#4}{image#5}{image#6}Question: Who requested Response Code ?\nAnswer: Drew Huyett\n\nCurrent Question:\n{image#1}{image#2}{image#3}{image#4}{image#5}Question: What was the amount of the total grants in 1962-63?<image> <image> <image> <image> <image> ",
+        "gt_response": "586,950",
+        "gen_kwargs": {
+            "do_sample": false,
+            "num_beams": 1,
+            "max_new_tokens": 32,
+            "eos_token_id": 92542
+        },
+        "pred_response": "The total grants in 1962-63 were $1,500,000."
+    },
+    {
+        "sample_id": 39,
+        "question": "Example Question 1:\n<image> <image> <image> <image> {image#1}{image#2}{image#3}{image#4}Question: \"wisdom and art,strength and wealth are of no avail if health is lacking \" was written by ?\nAnswer: Herophilus\n\nExample Question 2:\n<image> <image> <image> <image> {image#1}{image#2}{image#3}{image#4}Question: what is the cat.no?\nAnswer: 0612-80-505\n\nCurrent Question:\n{image#1}{image#2}{image#3}{image#4}{image#5}{image#6}Question: what is title on the y axis of fig.1?<image> <image> <image> <image> <image> <image> ",
+        "gt_response": "PLANT DRY WT(% OF CONTROL)",
+        "gen_kwargs": {
+            "do_sample": false,
+            "num_beams": 1,
+            "max_new_tokens": 32,
+            "eos_token_id": 92542
+        },
+        "pred_response": "The herbicide was applied at a rate of 1.5 lbs of desmodium per acre."
+    },
+    {
+        "sample_id": 55,
+        "question": "Example Question 1:\n<image> <image> <image> <image> {image#1}{image#2}{image#3}{image#4}Question: what is the date mentioned in the given page ?\nAnswer: december 6-8, 1958\n\nExample Question 2:\n<image> <image> {image#1}{image#2}Question: When did Charles E. Hirsch promoted as Chief Engineer?\nAnswer: September 1, 1949\n\nCurrent Question:\n{image#1}{image#2}{image#3}{image#4}{image#5}{image#6}Question: What is the Percentage of loyalty according to CDF measures?<image> <image> <image> <image> <image> <image> ",
+        "gt_response": "36.9%",
+        "gen_kwargs": {
+            "do_sample": false,
+            "num_beams": 1,
+            "max_new_tokens": 32,
+            "eos_token_id": 92542
+        },
+        "pred_response": "The percentage of loyalty according to CDF measures is 7."
+    },
+    {
+        "sample_id": 57,
+        "question": "Example Question 1:\n<image> <image> <image> {image#1}{image#2}{image#3}Question: What is the designation of Mrs. J. Heather Etheridge?\nAnswer: Administrative Assistant\n\nExample Question 2:\n<image> <image> {image#1}{image#2}Question: who is the chairman of nutrition program , penn state\nAnswer: Helen A. guthrie\n\nCurrent Question:\n{image#1}{image#2}{image#3}{image#4}{image#5}{image#6}Question: What is shown in Y axis of the graph in Capital letters?<image> <image> <image> <image> <image> <image> ",
+        "gt_response": "SPECIFIC ACTIVITY",
+        "gen_kwargs": {
+            "do_sample": false,
+            "num_beams": 1,
+            "max_new_tokens": 32,
+            "eos_token_id": 92542
+        },
+        "pred_response": "The increase in LDL activity is comparable to the change noted in glucocorticoid therapy (Weber et al., 1964). Whether this is"
+    },
+    {
+        "sample_id": 62,
+        "question": "Example Question 1:\n<image> <image> {image#1}{image#2}Question: What is the place of meeting ?\nAnswer: Winston-Salem\n\nExample Question 2:\n<image> <image> {image#1}{image#2}Question: What is the Name of the Foundation?\nAnswer: Swedish Nutrition Foundation\n\nCurrent Question:\n{image#1}{image#2}{image#3}{image#4}{image#5}{image#6}Question: Who requested Response Code ?<image> <image> <image> <image> <image> <image> ",
+        "gt_response": "Drew Huyett",
+        "gen_kwargs": {
+            "do_sample": false,
+            "num_beams": 1,
+            "max_new_tokens": 32,
+            "eos_token_id": 92542
+        },
+        "pred_response": "The person who requested the response code is Jack Bellis."
+    },
+    {
+        "sample_id": 68,
+        "question": "Example Question 1:\n<image> <image> {image#1}{image#2}Question: What is the first entity of the \"TABLE 1:\"?\nAnswer: PM Code\n\nExample Question 2:\n<image> <image> <image> {image#1}{image#2}{image#3}Question: Who is the recipient ?\nAnswer: K. P. Dubrovin\n\nCurrent Question:\n{image#1}{image#2}Question: who has signed at the bottom of the letter ?<image> <image> ",
+        "gt_response": "Dr. M.G. Wagh",
+        "gen_kwargs": {
+            "do_sample": false,
+            "num_beams": 1,
+            "max_new_tokens": 32,
+            "eos_token_id": 92542
+        },
+        "pred_response": "dr. m. g. wagh"
+    },
+    {
+        "sample_id": 73,
+        "question": "Example Question 1:\n<image> <image> {image#1}{image#2}Question: what is amount of Potassium mg./100g. of Figs (R)?\nAnswer: 290\n\nExample Question 2:\n<image> <image> {image#1}{image#2}Question: who has signed at the bottom of the letter ?\nAnswer: Dr. M.G. Wagh\n\nCurrent Question:\n{image#1}{image#2}Question: what is the price of iron analysis in atomic absorption methodology ?<image> <image> ",
+        "gt_response": "8.00",
+        "gen_kwargs": {
+            "do_sample": false,
+            "num_beams": 1,
+            "max_new_tokens": 32,
+            "eos_token_id": 92542
+        },
+        "pred_response": "$ 5.00"
+    },
+    {
+        "sample_id": 78,
+        "question": "Example Question 1:\n<image> <image> <image> {image#1}{image#2}{image#3}Question: what should be able to be modified-expanded or contracted ?\nAnswer: low priority designations\n\nExample Question 2:\n<image> <image> {image#1}{image#2}Question: What is the annual total in the year 1995-96?\nAnswer: 1,713,000\n\nCurrent Question:\n{image#1}{image#2}Question: what is the total population under 21 years in 1950?<image> <image> ",
+        "gt_response": "139,132",
+        "gen_kwargs": {
+            "do_sample": false,
+            "num_beams": 1,
+            "max_new_tokens": 32,
+            "eos_token_id": 92542
+        },
+        "pred_response": "3,150"
+    },
+    {
+        "sample_id": 82,
+        "question": "Example Question 1:\n<image> <image> <image> {image#1}{image#2}{image#3}Question: in which state is Washington University at?\nAnswer: Missouri\n\nExample Question 2:\n<image> <image> <image> <image> {image#1}{image#2}{image#3}{image#4}Question: what is the cat.no?\nAnswer: 0612-80-505\n\nCurrent Question:\n{image#1}{image#2}Question: What is the annual total in the year 1995-96?<image> <image> ",
+        "gt_response": "1,713,000",
+        "gen_kwargs": {
+            "do_sample": false,
+            "num_beams": 1,
+            "max_new_tokens": 32,
+            "eos_token_id": 92542
+        },
+        "pred_response": "$1,713,000"
+    },
+    {
+        "sample_id": 88,
+        "question": "Example Question 1:\n<image> <image> {image#1}{image#2}Question: what is the name of the university mentioned in the given form ?\nAnswer: Washington university\n\nExample Question 2:\n<image> <image> <image> <image> <image> {image#1}{image#2}{image#3}{image#4}{image#5}Question: what is the cost of the parking at hotel in daytime ?\nAnswer: $12\n\nCurrent Question:\n{image#1}{image#2}Question: Which university is mentioned in the letter head?<image> <image> ",
+        "gt_response": "THE ALBANY MEDICAL COLLEGE OF UNION UNIVERSITY",
+        "gen_kwargs": {
+            "do_sample": false,
+            "num_beams": 1,
+            "max_new_tokens": 32,
+            "eos_token_id": 92542
+        },
+        "pred_response": "The Albany Medical College of Union University was founded in 1790."
+    },
+    {
+        "sample_id": 92,
+        "question": "Example Question 1:\n<image> <image> {image#1}{image#2}Question: What is the date mentioned in this letter?\nAnswer: September 9, 1963\n\nExample Question 2:\n<image> <image> <image> <image> <image> <image> {image#1}{image#2}{image#3}{image#4}{image#5}{image#6}Question: What is the Percentage of loyalty according to CDF measures?\nAnswer: 36.9%\n\nCurrent Question:\n{image#1}{image#2}Question: What is the Fullform of SCM ?<image> <image> ",
+        "gt_response": "Supply chain Management (SCM)",
+        "gen_kwargs": {
+            "do_sample": false,
+            "num_beams": 1,
+            "max_new_tokens": 32,
+            "eos_token_id": 92542
+        },
+        "pred_response": "SCM stands for Supply Chain Management."
+    },
+    {
+        "sample_id": 94,
+        "question": "Example Question 1:\n<image> <image> <image> <image> <image> {image#1}{image#2}{image#3}{image#4}{image#5}Question: What is the amount of 2nd Quarter check mentioned in the form?\nAnswer: 150,204.79\n\nExample Question 2:\n<image> <image> {image#1}{image#2}Question: What is the Name?\nAnswer: Dr. Robert E. Shank\n\nCurrent Question:\n{image#1}{image#2}Question: What are the sizes of Turquoise or navy?<image> <image> ",
+        "gt_response": "12-20 and 141/2-241/2.",
+        "gen_kwargs": {
+            "do_sample": false,
+            "num_beams": 1,
+            "max_new_tokens": 32,
+            "eos_token_id": 92542
+        },
+        "pred_response": "The sizes of Turquoise or navy are 2.75\" and 1.75\"."
+    },
+    {
+        "sample_id": 99,
+        "question": "Example Question 1:\n<image> <image> <image> <image> {image#1}{image#2}{image#3}{image#4}Question: What is the File No.?\nAnswer: 185-58361\n\nExample Question 2:\n<image> <image> <image> <image> <image> {image#1}{image#2}{image#3}{image#4}{image#5}Question: How much Total Income ?\nAnswer: $12,000 to $15,000\n\nCurrent Question:\n{image#1}{image#2}Question: What is the Name of the Foundation?<image> <image> ",
+        "gt_response": "Swedish Nutrition Foundation",
+        "gen_kwargs": {
+            "do_sample": false,
+            "num_beams": 1,
+            "max_new_tokens": 32,
+            "eos_token_id": 92542
+        },
+        "pred_response": "Svenska Närings- och Svenska Nutritionfonden"
+    },
+    {
+        "sample_id": 100,
+        "question": "Example Question 1:\n<image> <image> <image> <image> {image#1}{image#2}{image#3}{image#4}Question: what is the name of the university mentioned ?\nAnswer: Vanderbilt University\n\nExample Question 2:\n<image> <image> {image#1}{image#2}Question: What is the first entity of the \"TABLE 1:\"?\nAnswer: PM Code\n\nCurrent Question:\n{image#1}{image#2}Question: How much Mg/Day iron for 6-8 years?<image> <image> ",
+        "gt_response": "10",
+        "gen_kwargs": {
+            "do_sample": false,
+            "num_beams": 1,
+            "max_new_tokens": 32,
+            "eos_token_id": 92542
+        },
+        "pred_response": "400"
+    },
+    {
+        "sample_id": 101,
+        "question": "Example Question 1:\n<image> <image> {image#1}{image#2}Question: what  is the cost of dinner on dec. 2?\nAnswer: 2.50\n\nExample Question 2:\n<image> <image> {image#1}{image#2}Question: what is the given schedule at the time of 10:30 on monday, june 20 ?\nAnswer: orientation\n\nCurrent Question:\n{image#1}{image#2}Question: to whom the letter was written ?<image> <image> ",
+        "gt_response": "members of the U.S. medical advisory committee",
+        "gen_kwargs": {
+            "do_sample": false,
+            "num_beams": 1,
+            "max_new_tokens": 32,
+            "eos_token_id": 92542
+        },
+        "pred_response": "united states brewers association, inc."
+    },
+    {
+        "sample_id": 61,
+        "question": "Example Question 1:\n<image> <image> <image> <image> <image> <image> {image#1}{image#2}{image#3}{image#4}{image#5}{image#6}Question: What is the Percentage of loyalty according to CDF measures?\nAnswer: 36.9%\n\nExample Question 2:\n<image> <image> <image> <image> {image#1}{image#2}{image#3}{image#4}Question: what is the cat.no?\nAnswer: 0612-80-505\n\nCurrent Question:\n{image#1}{image#2}{image#3}Question: in which state is Washington University at?<image> <image> <image> ",
+        "gt_response": "Missouri",
+        "gen_kwargs": {
+            "do_sample": false,
+            "num_beams": 1,
+            "max_new_tokens": 32,
+            "eos_token_id": 92542
+        },
+        "pred_response": "The university is in St. Louis, Missouri."
+    },
+    {
+        "sample_id": 63,
+        "question": "Example Question 1:\n<image> <image> {image#1}{image#2}Question: to whom the letter was written ?\nAnswer: members of the U.S. medical advisory committee\n\nExample Question 2:\n<image> <image> <image> <image> <image> {image#1}{image#2}{image#3}{image#4}{image#5}Question: When is the approval needed in order to meet overall project timing?\nAnswer: by 4/21/95\n\nCurrent Question:\n{image#1}{image#2}{image#3}Question: Which topic is handled at 1:30 PM?<image> <image> <image> ",
+        "gt_response": "Opening Remarks/Introduction",
+        "gen_kwargs": {
+            "do_sample": false,
+            "num_beams": 1,
+            "max_new_tokens": 32,
+            "eos_token_id": 92542
+        },
+        "pred_response": "The topic handled at 1:30 PM is \"Worldwide Business Overview\"."
+    },
+    {
+        "sample_id": 64,
+        "question": "Example Question 1:\n<image> <image> {image#1}{image#2}Question: what is the emp. no. of herman w arnett jr ?\nAnswer: 052008\n\nExample Question 2:\n<image> <image> <image> <image> {image#1}{image#2}{image#3}{image#4}Question: what is the candidate name for promotion ?\nAnswer: George Murdoch Saunders\n\nCurrent Question:\n{image#1}{image#2}{image#3}Question: what is the amount of total voucher as mentioned in the given form ?<image> <image> <image> ",
+        "gt_response": "1,516.86",
+        "gen_kwargs": {
+            "do_sample": false,
+            "num_beams": 1,
+            "max_new_tokens": 32,
+            "eos_token_id": 92542
+        },
+        "pred_response": "the amount of total voucher is 1,516.86"
+    },
+    {
+        "sample_id": 65,
+        "question": "Example Question 1:\n<image> <image> {image#1}{image#2}Question: What is the value of 'Deposits' ?\nAnswer: $535.66\n\nExample Question 2:\n<image> <image> {image#1}{image#2}Question: what is the total voucher amount ?\nAnswer: $1,295.87\n\nCurrent Question:\n{image#1}{image#2}{image#3}Question: When is the date of departure?<image> <image> <image> ",
+        "gt_response": "July 10th, 1950",
+        "gen_kwargs": {
+            "do_sample": false,
+            "num_beams": 1,
+            "max_new_tokens": 32,
+            "eos_token_id": 92542
+        },
+        "pred_response": "The date of departure is July 13, 1990."
+    },
+    {
+        "sample_id": 71,
+        "question": "Example Question 1:\n<image> <image> <image> <image> <image> {image#1}{image#2}{image#3}{image#4}{image#5}Question: How much mg of potassium per 100 grams is contained in Kale (R)?\nAnswer: 401\n\nExample Question 2:\n<image> <image> <image> <image> <image> {image#1}{image#2}{image#3}{image#4}{image#5}Question: what is the product PO number?\nAnswer: #072798\n\nCurrent Question:\n{image#1}{image#2}{image#3}Question: what is the office phone number ?<image> <image> <image> ",
+        "gt_response": "282-2511",
+        "gen_kwargs": {
+            "do_sample": false,
+            "num_beams": 1,
+            "max_new_tokens": 32,
+            "eos_token_id": 92542
+        },
+        "pred_response": "The office phone number is 935-7086."
+    },
+    {
+        "sample_id": 76,
+        "question": "Example Question 1:\n<image> <image> {image#1}{image#2}Question: who has signed at the bottom of the letter ?\nAnswer: Dr. M.G. Wagh\n\nExample Question 2:\n<image> <image> {image#1}{image#2}Question: what is the title for the name robert kauk ?\nAnswer: PRESIDENT, BRUSH BEET GROWERS ASS'N\n\nCurrent Question:\n{image#1}{image#2}{image#3}Question: what is estimated population in poverty in Lewis ?<image> <image> <image> ",
+        "gt_response": "2,299",
+        "gen_kwargs": {
+            "do_sample": false,
+            "num_beams": 1,
+            "max_new_tokens": 32,
+            "eos_token_id": 92542
+        },
+        "pred_response": "3,377"
+    },
+    {
+        "sample_id": 58,
+        "question": "Example Question 1:\n<image> <image> {image#1}{image#2}Question: What is the Order No. ?\nAnswer: 32709\n\nExample Question 2:\n<image> <image> {image#1}{image#2}Question: What is the electronic signature code number?\nAnswer: 266-524-9\n\nCurrent Question:\n{image#1}{image#2}{image#3}{image#4}Question: \"wisdom and art,strength and wealth are of no avail if health is lacking \" was written by ?<image> <image> <image> <image> ",
+        "gt_response": "Herophilus",
+        "gen_kwargs": {
+            "do_sample": false,
+            "num_beams": 1,
+            "max_new_tokens": 32,
+            "eos_token_id": 92542
+        },
+        "pred_response": "\" If you lack doctors, these will be for you a cheerful prognosis. \" Charles Darwin"
+    },
+    {
+        "sample_id": 70,
+        "question": "Example Question 1:\n<image> <image> {image#1}{image#2}Question: What is the heading of the REPORT?\nAnswer: progress report 10\n\nExample Question 2:\n<image> <image> {image#1}{image#2}Question: what is the total voucher amount ?\nAnswer: $1,295.87\n\nCurrent Question:\n{image#1}{image#2}{image#3}{image#4}Question: what is the candidate name for promotion ?<image> <image> <image> <image> ",
+        "gt_response": "George Murdoch Saunders",
+        "gen_kwargs": {
+            "do_sample": false,
+            "num_beams": 1,
+            "max_new_tokens": 32,
+            "eos_token_id": 92542
+        },
+        "pred_response": "S. M. Saunders"
+    },
+    {
+        "sample_id": 90,
+        "question": "Example Question 1:\n<image> <image> <image> {image#1}{image#2}{image#3}Question: what are the expenses for meals (other than those at hotel )?\nAnswer: 26.50\n\nExample Question 2:\n<image> <image> <image> <image> <image> {image#1}{image#2}{image#3}{image#4}{image#5}Question: What is the project name written this sheet\nAnswer: Project \"NN\"\n\nCurrent Question:\n{image#1}{image#2}{image#3}{image#4}Question: What is the Timing of Conference Reminder ?<image> <image> <image> <image> ",
+        "gt_response": "1.30 to 3:00 p.m",
+        "gen_kwargs": {
+            "do_sample": false,
+            "num_beams": 1,
+            "max_new_tokens": 32,
+            "eos_token_id": 92542
+        },
+        "pred_response": "The date of the conference is Friday, May 5, 1972."
+    },
+    {
+        "sample_id": 105,
+        "question": "Example Question 1:\n<image> <image> <image> <image> <image> {image#1}{image#2}{image#3}{image#4}{image#5}Question: what is the month mentioned in the date of birth in the given form ?\nAnswer: september\n\nExample Question 2:\n<image> <image> {image#1}{image#2}Question: What is the date mentioned in this letter?\nAnswer: September 9, 1963\n\nCurrent Question:\n{image#1}{image#2}{image#3}{image#4}Question: what is the heading at top of the page ?<image> <image> <image> <image> ",
+        "gt_response": "material safety data sheet",
+        "gen_kwargs": {
+            "do_sample": false,
+            "num_beams": 1,
+            "max_new_tokens": 32,
+            "eos_token_id": 92542
+        },
+        "pred_response": "The data on this page is protected by a copyright. Any unauthorized duplication or distribution of this data may result in civil liability and criminal prosecution."
+    },
+    {
+        "sample_id": 47,
+        "question": "Example Question 1:\n<image> <image> <image> <image> {image#1}{image#2}{image#3}{image#4}Question: what is the name of the university mentioned ?\nAnswer: Vanderbilt University\n\nExample Question 2:\n<image> <image> <image> <image> {image#1}{image#2}{image#3}{image#4}Question: What is the first TARGET AUDIENCE mentioned?\nAnswer: BVS1 (AMM)\n\nCurrent Question:\n{image#1}{image#2}{image#3}{image#4}{image#5}Question: what is the amount of potassium mg./100g.  for Gelatin, Plain ?<image> <image> <image> <image> <image> ",
+        "gt_response": "22",
+        "gen_kwargs": {
+            "do_sample": false,
+            "num_beams": 1,
+            "max_new_tokens": 32,
+            "eos_token_id": 92542
+        },
+        "pred_response": "The amount of potassium mg./100g.  for Gelatin, Plain is 320."
+    },
+    {
+        "sample_id": 66,
+        "question": "Example Question 1:\n<image> <image> <image> <image> <image> {image#1}{image#2}{image#3}{image#4}{image#5}Question: what is the amount of potassium mg./100g.  for Gelatin, Plain ?\nAnswer: 22\n\nExample Question 2:\n<image> <image> {image#1}{image#2}Question: what is the emp. no. of Ivano N Rivers ?\nAnswer: 751035\n\nCurrent Question:\n{image#1}{image#2}{image#3}{image#4}{image#5}Question: What is the brand code?<image> <image> <image> <image> <image> ",
+        "gt_response": "CF85",
+        "gen_kwargs": {
+            "do_sample": false,
+            "num_beams": 1,
+            "max_new_tokens": 32,
+            "eos_token_id": 92542
+        },
+        "pred_response": "The consumer name is Freeman Ellenberg."
+    },
+    {
+        "sample_id": 72,
+        "question": "Example Question 1:\n<image> <image> <image> {image#1}{image#2}{image#3}Question: Which topic is handled at 1:30 PM?\nAnswer: Opening Remarks/Introduction\n\nExample Question 2:\n<image> <image> <image> <image> <image> {image#1}{image#2}{image#3}{image#4}{image#5}Question: What is the Net sales of Campbell Soup Company for the year 1965?\nAnswer: $712,785,000\n\nCurrent Question:\n{image#1}{image#2}{image#3}{image#4}{image#5}Question: Which is the institution or agency of ALEXANDER, E. Russell, M.D.?<image> <image> <image> <image> <image> ",
+        "gt_response": "Washington",
+        "gen_kwargs": {
+            "do_sample": false,
+            "num_beams": 1,
+            "max_new_tokens": 32,
+            "eos_token_id": 92542
+        },
+        "pred_response": "BOSTON, MASSACHUSETTS"
+    },
+    {
+        "sample_id": 83,
+        "question": "Example Question 1:\n<image> <image> <image> {image#1}{image#2}{image#3}Question: what is estimated population in poverty in Lewis ?\nAnswer: 2,299\n\nExample Question 2:\n<image> <image> <image> {image#1}{image#2}{image#3}Question: Whats Lab name on the form?\nAnswer: ABBOTT LABORATORIES\n\nCurrent Question:\n{image#1}{image#2}{image#3}{image#4}{image#5}Question: what is the month mentioned in the date of birth in the given form ?<image> <image> <image> <image> <image> ",
+        "gt_response": "september",
+        "gen_kwargs": {
+            "do_sample": false,
+            "num_beams": 1,
+            "max_new_tokens": 32,
+            "eos_token_id": 92542
+        },
+        "pred_response": "The American Society for Clinical Investigation, Inc."
+    },
+    {
+        "sample_id": 85,
+        "question": "Example Question 1:\n<image> <image> <image> {image#1}{image#2}{image#3}Question: When is the date of departure?\nAnswer: July 10th, 1950\n\nExample Question 2:\n<image> <image> <image> <image> {image#1}{image#2}{image#3}{image#4}Question: What are the reporting dates?\nAnswer: 10/5 -10/30/98\n\nCurrent Question:\n{image#1}{image#2}{image#3}{image#4}{image#5}Question: what is the amount of potassium present in lentils, dry(R) as mentioned in the given page ?<image> <image> <image> <image> <image> ",
+        "gt_response": "1200",
+        "gen_kwargs": {
+            "do_sample": false,
+            "num_beams": 1,
+            "max_new_tokens": 32,
+            "eos_token_id": 92542
+        },
+        "pred_response": "1.0"
+    },
+    {
+        "sample_id": 69,
+        "question": "Example Question 1:\n<image> <image> {image#1}{image#2}Question: what is the subject of the inter-office memorandum?\nAnswer: LASZLO TOTH\n\nExample Question 2:\n<image> <image> {image#1}{image#2}Question: what is the general budget total for Medical Coordinator?\nAnswer: $3,000\n\nCurrent Question:\n{image#1}{image#2}{image#3}{image#4}{image#5}{image#6}Question: What is written within parentheses, just below the title?<image> <image> <image> <image> <image> <image> ",
+        "gt_response": "Calories per day",
+        "gen_kwargs": {
+            "do_sample": false,
+            "num_beams": 1,
+            "max_new_tokens": 32,
+            "eos_token_id": 92542
+        },
+        "pred_response": "The title of the graph is \"CHART 27 -- PER CAPITA CONSUMPTION OF GRAIN PRODUCTS, ALL OTHER GOODS, AND CAL"
+    },
+    {
+        "sample_id": 74,
+        "question": "Example Question 1:\n<image> <image> <image> {image#1}{image#2}{image#3}Question: Who is the recipient ?\nAnswer: K. P. Dubrovin\n\nExample Question 2:\n<image> <image> <image> {image#1}{image#2}{image#3}Question: what is number 2 priority as approved by the AHA board of directors?\nAnswer: Atherosclerosis\n\nCurrent Question:\n{image#1}{image#2}{image#3}{image#4}{image#5}{image#6}Question: What is the Institution?<image> <image> <image> <image> <image> <image> ",
+        "gt_response": "William Marsh rice University",
+        "gen_kwargs": {
+            "do_sample": false,
+            "num_beams": 1,
+            "max_new_tokens": 32,
+            "eos_token_id": 92542
+        },
+        "pred_response": "The institution is William Marsh rice university."
+    },
+    {
+        "sample_id": 75,
+        "question": "Example Question 1:\n<image> <image> {image#1}{image#2}Question: what is the account to be charged as mentioned in the given page ?\nAnswer: PA73WBC44\n\nExample Question 2:\n<image> <image> <image> {image#1}{image#2}{image#3}Question: Which company's name is mentioned?\nAnswer: GOLDEN TOBACCO LIMITED\n\nCurrent Question:\n{image#1}{image#2}{image#3}{image#4}{image#5}{image#6}Question: what is the total amount mentioned in the given form ?<image> <image> <image> <image> <image> <image> ",
+        "gt_response": "574.49",
+        "gen_kwargs": {
+            "do_sample": false,
+            "num_beams": 1,
+            "max_new_tokens": 32,
+            "eos_token_id": 92542
+        },
+        "pred_response": "The total amount mentioned in the given form is $ 92.49."
+    },
+    {
+        "sample_id": 89,
+        "question": "Example Question 1:\n<image> <image> <image> {image#1}{image#2}{image#3}Question: what is estimated population in poverty in Lewis ?\nAnswer: 2,299\n\nExample Question 2:\n<image> <image> <image> <image> <image> <image> {image#1}{image#2}{image#3}{image#4}{image#5}{image#6}Question: what are the number of professionals mentioned in the given form ?\nAnswer: 12 Professionals\n\nCurrent Question:\n{image#1}{image#2}{image#3}{image#4}{image#5}{image#6}Question: who is the whole-time director (from August 14,2009) ?<image> <image> <image> <image> <image> <image> ",
+        "gt_response": "Mr. R Ramamurthy",
+        "gen_kwargs": {
+            "do_sample": false,
+            "num_beams": 1,
+            "max_new_tokens": 32,
+            "eos_token_id": 92542
+        },
+        "pred_response": "The whole-time director is Mr. K. M. Modi."
+    },
+    {
+        "sample_id": 102,
+        "question": "Example Question 1:\n<image> <image> <image> {image#1}{image#2}{image#3}Question: Which topic is handled at 1:30 PM?\nAnswer: Opening Remarks/Introduction\n\nExample Question 2:\n<image> <image> <image> {image#1}{image#2}{image#3}Question: What is the End Date of Returns ?\nAnswer: 10/10/97\n\nCurrent Question:\n{image#1}{image#2}Question: what is the demo number mentioned?<image> <image> ",
+        "gt_response": "03760",
+        "gen_kwargs": {
+            "do_sample": false,
+            "num_beams": 1,
+            "max_new_tokens": 32,
+            "eos_token_id": 92542
+        },
+        "pred_response": "what is the demo number mentioned?"
+    },
+    {
+        "sample_id": 104,
+        "question": "Example Question 1:\n<image> <image> <image> <image> <image> {image#1}{image#2}{image#3}{image#4}{image#5}Question: who is chief, Processing and Records Unit, PERS. MGMT. DIV. ?\nAnswer: Marie C. Newman\n\nExample Question 2:\n<image> <image> <image> {image#1}{image#2}{image#3}Question: When is the date of departure?\nAnswer: July 10th, 1950\n\nCurrent Question:\n{image#1}{image#2}Question: What is the due date(outline)?<image> <image> ",
+        "gt_response": "February 25, 2002",
+        "gen_kwargs": {
+            "do_sample": false,
+            "num_beams": 1,
+            "max_new_tokens": 32,
+            "eos_token_id": 92542
+        },
+        "pred_response": "January 31, 2005"
+    },
+    {
+        "sample_id": 107,
+        "question": "Example Question 1:\n<image> <image> <image> <image> <image> {image#1}{image#2}{image#3}{image#4}{image#5}Question: What is the project name written this sheet\nAnswer: Project \"NN\"\n\nExample Question 2:\n<image> <image> <image> {image#1}{image#2}{image#3}Question: what is the designation of Dr. F. James Levinson ?\nAnswer: director\n\nCurrent Question:\n{image#1}{image#2}Question: what is the emp. no. of Ivano N Rivers ?<image> <image> ",
+        "gt_response": "751035",
+        "gen_kwargs": {
+            "do_sample": false,
+            "num_beams": 1,
+            "max_new_tokens": 32,
+            "eos_token_id": 92542
+        },
+        "pred_response": "ivano n rivers"
+    },
+    {
+        "sample_id": 108,
+        "question": "Example Question 1:\n<image> <image> <image> {image#1}{image#2}{image#3}Question: what is the nickname given for thiamine ?\nAnswer: morale vitamin\n\nExample Question 2:\n<image> <image> <image> {image#1}{image#2}{image#3}Question: what is the program number ?\nAnswer: 601270\n\nCurrent Question:\n{image#1}{image#2}Question: In how many countries global company is operating ?<image> <image> ",
+        "gt_response": "more than 220",
+        "gen_kwargs": {
+            "do_sample": false,
+            "num_beams": 1,
+            "max_new_tokens": 32,
+            "eos_token_id": 92542
+        },
+        "pred_response": "The American company is operating in 180 countries."
+    },
+    {
+        "sample_id": 112,
+        "question": "Example Question 1:\n<image> <image> <image> <image> <image> {image#1}{image#2}{image#3}{image#4}{image#5}Question: What is the Profit after Taxation before Share of Results of Associates for 2008?\nAnswer: 3178.17\n\nExample Question 2:\n<image> <image> {image#1}{image#2}Question: Which department is involved?\nAnswer: CHEMICAL DEPARTMENT\n\nCurrent Question:\n{image#1}{image#2}Question: What is the Order No. ?<image> <image> ",
+        "gt_response": "32709",
+        "gen_kwargs": {
+            "do_sample": false,
+            "num_beams": 1,
+            "max_new_tokens": 32,
+            "eos_token_id": 92542
+        },
+        "pred_response": "The order number is 32709."
+    },
+    {
+        "sample_id": 113,
+        "question": "Example Question 1:\n<image> <image> {image#1}{image#2}Question: Which institution is mentioned at the top of the page?\nAnswer: MEDICAL RESEARCH FOUNDATION OF OREGON\n\nExample Question 2:\n<image> <image> {image#1}{image#2}Question: What are the sizes of Turquoise or navy?\nAnswer: 12-20 and 141/2-241/2.\n\nCurrent Question:\n{image#1}{image#2}Question: what is the emp. no. of herman w arnett jr ?<image> <image> ",
+        "gt_response": "052008",
+        "gen_kwargs": {
+            "do_sample": false,
+            "num_beams": 1,
+            "max_new_tokens": 32,
+            "eos_token_id": 92542
+        },
+        "pred_response": "22"
+    },
+    {
+        "sample_id": 114,
+        "question": "Example Question 1:\n<image> <image> <image> <image> <image> {image#1}{image#2}{image#3}{image#4}{image#5}Question: When is the approval needed in order to meet overall project timing?\nAnswer: by 4/21/95\n\nExample Question 2:\n<image> <image> <image> <image> {image#1}{image#2}{image#3}{image#4}Question: what is the candidate name for promotion ?\nAnswer: George Murdoch Saunders\n\nCurrent Question:\n{image#1}{image#2}Question: what is the account to be charged as mentioned in the given page ?<image> <image> ",
+        "gt_response": "PA73WBC44",
+        "gen_kwargs": {
+            "do_sample": false,
+            "num_beams": 1,
+            "max_new_tokens": 32,
+            "eos_token_id": 92542
+        },
+        "pred_response": "the account to be charged is quad shop"
+    },
+    {
+        "sample_id": 116,
+        "question": "Example Question 1:\n<image> <image> <image> {image#1}{image#2}{image#3}Question: what is the brand mentioned in the confirmation?\nAnswer: WINSTON\n\nExample Question 2:\n<image> <image> <image> <image> <image> <image> {image#1}{image#2}{image#3}{image#4}{image#5}{image#6}Question: what is the title of position for charles L. Paxson ?\nAnswer: investigator\n\nCurrent Question:\n{image#1}{image#2}Question: what is the payee's name ?<image> <image> ",
+        "gt_response": "Robert E. Shank",
+        "gen_kwargs": {
+            "do_sample": false,
+            "num_beams": 1,
+            "max_new_tokens": 32,
+            "eos_token_id": 92542
+        },
+        "pred_response": "standard oil"
+    },
+    {
+        "sample_id": 117,
+        "question": "Example Question 1:\n<image> <image> <image> {image#1}{image#2}{image#3}Question: what is the program number ?\nAnswer: 601270\n\nExample Question 2:\n<image> <image> <image> <image> <image> {image#1}{image#2}{image#3}{image#4}{image#5}Question: what is the cost of the parking at hotel in daytime ?\nAnswer: $12\n\nCurrent Question:\n{image#1}{image#2}Question: what is the contact number of The Visiting Nurse Association of Greater St. Louis, St. Louis County  ?<image> <image> ",
+        "gt_response": "314-533-9680",
+        "gen_kwargs": {
+            "do_sample": false,
+            "num_beams": 1,
+            "max_new_tokens": 32,
+            "eos_token_id": 92542
+        },
+        "pred_response": "The contact number is 314-367-4300."
+    },
+    {
+        "sample_id": 129,
+        "question": "Example Question 1:\n<image> <image> <image> <image> <image> {image#1}{image#2}{image#3}{image#4}{image#5}Question: When is the approval needed in order to meet overall project timing?\nAnswer: by 4/21/95\n\nExample Question 2:\n<image> <image> {image#1}{image#2}Question: What is the Order No. ?\nAnswer: 32709\n\nCurrent Question:\n{image#1}{image#2}Question: What is the Days offer open?<image> <image> ",
+        "gt_response": "91",
+        "gen_kwargs": {
+            "do_sample": false,
+            "num_beams": 1,
+            "max_new_tokens": 32,
+            "eos_token_id": 92542
+        },
+        "pred_response": "The days offer open is 30."
+    },
+    {
+        "sample_id": 77,
+        "question": "Example Question 1:\n<image> <image> <image> <image> <image> {image#1}{image#2}{image#3}{image#4}{image#5}Question: What is the amount of 2nd Quarter check mentioned in the form?\nAnswer: 150,204.79\n\nExample Question 2:\n<image> <image> <image> <image> {image#1}{image#2}{image#3}{image#4}Question: what is the candidate name for promotion ?\nAnswer: George Murdoch Saunders\n\nCurrent Question:\n{image#1}{image#2}{image#3}Question: What is the expiration date?<image> <image> <image> ",
+        "gt_response": "09/30/97",
+        "gen_kwargs": {
+            "do_sample": false,
+            "num_beams": 1,
+            "max_new_tokens": 32,
+            "eos_token_id": 92542
+        },
+        "pred_response": "The expiration date is May 29, 1997."
+    },
+    {
+        "sample_id": 79,
+        "question": "Example Question 1:\n<image> <image> <image> <image> {image#1}{image#2}{image#3}{image#4}Question: Who is Donald K. Tressler?\nAnswer: Scientific Director of the Institute\n\nExample Question 2:\n<image> <image> {image#1}{image#2}Question: What is the date mentioned in this letter?\nAnswer: September 9, 1963\n\nCurrent Question:\n{image#1}{image#2}{image#3}Question: what is the brand mentioned in the confirmation?<image> <image> <image> ",
+        "gt_response": "WINSTON",
+        "gen_kwargs": {
+            "do_sample": false,
+            "num_beams": 1,
+            "max_new_tokens": 32,
+            "eos_token_id": 92542
+        },
+        "pred_response": "The brand mentioned in the confirmation is \"WINSTON\"."
+    },
+    {
+        "sample_id": 80,
+        "question": "Example Question 1:\n<image> <image> <image> {image#1}{image#2}{image#3}Question: What is the End Date of Returns ?\nAnswer: 10/10/97\n\nExample Question 2:\n<image> <image> <image> <image> <image> <image> {image#1}{image#2}{image#3}{image#4}{image#5}{image#6}Question: How much is the EFT $ Amount?\nAnswer: 3327.78\n\nCurrent Question:\n{image#1}{image#2}{image#3}Question: what is the program number ?<image> <image> <image> ",
+        "gt_response": "601270",
+        "gen_kwargs": {
+            "do_sample": false,
+            "num_beams": 1,
+            "max_new_tokens": 32,
+            "eos_token_id": 92542
+        },
+        "pred_response": "The program number is 60170."
+    },
+    {
+        "sample_id": 81,
+        "question": "Example Question 1:\n<image> <image> <image> <image> <image> <image> {image#1}{image#2}{image#3}{image#4}{image#5}{image#6}Question: How much is the EFT $ Amount?\nAnswer: 3327.78\n\nExample Question 2:\n<image> <image> <image> <image> <image> <image> {image#1}{image#2}{image#3}{image#4}{image#5}{image#6}Question: What is th last Holding Date of Equity Owner  mentioned for \"Dalmia Housing Finance Ltd\"?\nAnswer: 31-Dec-08\n\nCurrent Question:\n{image#1}{image#2}{image#3}Question: What is the Estimated Budget for Pass-through Expenses?<image> <image> <image> ",
+        "gt_response": "$3,000.00*",
+        "gen_kwargs": {
+            "do_sample": false,
+            "num_beams": 1,
+            "max_new_tokens": 32,
+            "eos_token_id": 92542
+        },
+        "pred_response": "$150"
+    },
+    {
+        "sample_id": 84,
+        "question": "Example Question 1:\n<image> <image> <image> <image> <image> <image> {image#1}{image#2}{image#3}{image#4}{image#5}{image#6}Question: what is the lounge booked for United States Brewers Association Medical Advisory Group?\nAnswer: South Lounge\n\nExample Question 2:\n<image> <image> {image#1}{image#2}Question: who is the chairman of nutrition program , penn state\nAnswer: Helen A. guthrie\n\nCurrent Question:\n{image#1}{image#2}{image#3}Question: what is the name of marketing ?<image> <image> <image> ",
+        "gt_response": "Targetbase",
+        "gen_kwargs": {
+            "do_sample": false,
+            "num_beams": 1,
+            "max_new_tokens": 32,
+            "eos_token_id": 92542
+        },
+        "pred_response": "Clubhouse Attendance Record for smokers attending a clubhouse event in Charlotte."
+    },
+    {
+        "sample_id": 86,
+        "question": "Example Question 1:\n<image> <image> <image> <image> <image> {image#1}{image#2}{image#3}{image#4}{image#5}Question: what is the amount of Potassium mg./100g. for Squash, Winter, seeds removed ?\nAnswer: 407\n\nExample Question 2:\n<image> <image> <image> <image> <image> {image#1}{image#2}{image#3}{image#4}{image#5}Question: what is the name of the university mentioned in the given address ?\nAnswer: thomas jefferson university\n\nCurrent Question:\n{image#1}{image#2}{image#3}Question: what is the area code mentioned in the given page ?<image> <image> <image> ",
+        "gt_response": "814",
+        "gen_kwargs": {
+            "do_sample": false,
+            "num_beams": 1,
+            "max_new_tokens": 32,
+            "eos_token_id": 92542
+        },
+        "pred_response": "814"
+    },
+    {
+        "sample_id": 111,
+        "question": "Example Question 1:\n<image> <image> <image> {image#1}{image#2}{image#3}Question: what is the address of the business office of the company?\nAnswer: 108 Depot Avenue, N. E., Knoxville, Tennessee\n\nExample Question 2:\n<image> <image> <image> {image#1}{image#2}{image#3}Question: what is the title of Irene Karl?\nAnswer: Res. Asst.\n\nCurrent Question:\n{image#1}{image#2}{image#3}{image#4}Question: What kind of \"studies\" have ITC commenced for few of their products?<image> <image> <image> <image> ",
+        "gt_response": "life cycle assessment studies",
+        "gen_kwargs": {
+            "do_sample": false,
+            "num_beams": 1,
+            "max_new_tokens": 32,
+            "eos_token_id": 92542
+        },
+        "pred_response": "ITC has commenced studies for few of their products to assess the impact of their products on the environment."
+    },
+    {
+        "sample_id": 119,
+        "question": "Example Question 1:\n<image> <image> <image> <image> <image> {image#1}{image#2}{image#3}{image#4}{image#5}Question: What is the date on the form  ?\nAnswer: september 27, 1989\n\nExample Question 2:\n<image> <image> {image#1}{image#2}Question: What is the Name?\nAnswer: Dr. Robert E. Shank\n\nCurrent Question:\n{image#1}{image#2}{image#3}{image#4}Question: How much is the hotel cost?<image> <image> <image> <image> ",
+        "gt_response": "$ 10.00",
+        "gen_kwargs": {
+            "do_sample": false,
+            "num_beams": 1,
+            "max_new_tokens": 32,
+            "eos_token_id": 92542
+        },
+        "pred_response": "The hotel cost is $81.60."
+    },
+    {
+        "sample_id": 120,
+        "question": "Example Question 1:\n<image> <image> <image> <image> <image> {image#1}{image#2}{image#3}{image#4}{image#5}Question: What is the full form of GLP?\nAnswer: Good Laboratory Practice\n\nExample Question 2:\n<image> <image> {image#1}{image#2}Question: What is the product designation?\nAnswer: Sugar-cane\n\nCurrent Question:\n{image#1}{image#2}{image#3}{image#4}Question: What is the full form of POV?<image> <image> <image> <image> ",
+        "gt_response": "Privately-Owned Vehicle",
+        "gen_kwargs": {
+            "do_sample": false,
+            "num_beams": 1,
+            "max_new_tokens": 32,
+            "eos_token_id": 92542
+        },
+        "pred_response": "The full form of POV is Point of View."
+    },
+    {
+        "sample_id": 121,
+        "question": "Example Question 1:\n<image> <image> <image> <image> <image> <image> {image#1}{image#2}{image#3}{image#4}{image#5}{image#6}Question: what is the unit of pension for Actuarial Gains/(Losses)  for the year ended in 2010?\nAnswer: 7.50\n\nExample Question 2:\n<image> <image> <image> {image#1}{image#2}{image#3}Question: what is the title of Irene Karl?\nAnswer: Res. Asst.\n\nCurrent Question:\n{image#1}{image#2}{image#3}{image#4}Question: what is the name of the university mentioned in the given form ?<image> <image> <image> <image> ",
+        "gt_response": "Washington university",
+        "gen_kwargs": {
+            "do_sample": false,
+            "num_beams": 1,
+            "max_new_tokens": 32,
+            "eos_token_id": 92542
+        },
+        "pred_response": "The American Society for Clinical Investigation has received a proposal concerning Dr. C. Kirk Osterland."
+    },
+    {
+        "sample_id": 93,
+        "question": "Example Question 1:\n<image> <image> <image> <image> {image#1}{image#2}{image#3}{image#4}Question: What is the minimal volume for GH RRA?\nAnswer: 3.0 cc\n\nExample Question 2:\n<image> <image> {image#1}{image#2}Question: When is the Third day ?\nAnswer: Wednesday 22nd\n\nCurrent Question:\n{image#1}{image#2}{image#3}{image#4}{image#5}Question: What is the G/L account code mentioned in the voucher?<image> <image> <image> <image> <image> ",
+        "gt_response": "04 08 1100 9143 821",
+        "gen_kwargs": {
+            "do_sample": false,
+            "num_beams": 1,
+            "max_new_tokens": 32,
+            "eos_token_id": 92542
+        },
+        "pred_response": "The G/L account code mentioned in the voucher is 019062."
+    },
+    {
+        "sample_id": 95,
+        "question": "Example Question 1:\n<image> <image> <image> <image> <image> <image> {image#1}{image#2}{image#3}{image#4}{image#5}{image#6}Question: Which Class is Peter H. Raven in?\nAnswer: II\n\nExample Question 2:\n<image> <image> <image> <image> <image> <image> {image#1}{image#2}{image#3}{image#4}{image#5}{image#6}Question: who is the whole -time director( up to July 31,2009) ?\nAnswer: Mr. S.V.Shanbhag\n\nCurrent Question:\n{image#1}{image#2}{image#3}{image#4}{image#5}Question: What is the name of the Hotel where the reservation is done ?<image> <image> <image> <image> <image> ",
+        "gt_response": "Naples Beach Hotel & Golf Club",
+        "gen_kwargs": {
+            "do_sample": false,
+            "num_beams": 1,
+            "max_new_tokens": 32,
+            "eos_token_id": 92542
+        },
+        "pred_response": "The name of the hotel is the Naples Beach Hotel & Golf Club."
+    },
+    {
+        "sample_id": 98,
+        "question": "Example Question 1:\n<image> <image> <image> {image#1}{image#2}{image#3}Question: what is the program number ?\nAnswer: 601270\n\nExample Question 2:\n<image> <image> <image> <image> <image> <image> {image#1}{image#2}{image#3}{image#4}{image#5}{image#6}Question: What is the designation of the person undersigned?\nAnswer: Chief Chemist.\n\nCurrent Question:\n{image#1}{image#2}{image#3}{image#4}{image#5}Question: who is chief, Processing and Records Unit, PERS. MGMT. DIV. ?<image> <image> <image> <image> <image> ",
+        "gt_response": "Marie C. Newman",
+        "gen_kwargs": {
+            "do_sample": false,
+            "num_beams": 1,
+            "max_new_tokens": 32,
+            "eos_token_id": 92542
+        },
+        "pred_response": "The date of the notification is July 27, 1979."
+    },
+    {
+        "sample_id": 106,
+        "question": "Example Question 1:\n<image> <image> <image> <image> <image> {image#1}{image#2}{image#3}{image#4}{image#5}Question: To which department does Stephen Molnar belong to ?\nAnswer: Anthropology\n\nExample Question 2:\n<image> <image> <image> {image#1}{image#2}{image#3}Question: To where the approved invoice sent to?\nAnswer: Sponsoring Members\n\nCurrent Question:\n{image#1}{image#2}{image#3}{image#4}{image#5}Question: What is the date on the form  ?<image> <image> <image> <image> <image> ",
+        "gt_response": "september 27, 1989",
+        "gen_kwargs": {
+            "do_sample": false,
+            "num_beams": 1,
+            "max_new_tokens": 32,
+            "eos_token_id": 92542
+        },
+        "pred_response": "The date on the form is September 27, 1999."
+    },
+    {
+        "sample_id": 110,
+        "question": "Example Question 1:\n<image> <image> <image> {image#1}{image#2}{image#3}Question: Whats Lab name on the form?\nAnswer: ABBOTT LABORATORIES\n\nExample Question 2:\n<image> <image> <image> <image> <image> {image#1}{image#2}{image#3}{image#4}{image#5}Question: What is the amount of 2nd Quarter check mentioned in the form?\nAnswer: 150,204.79\n\nCurrent Question:\n{image#1}{image#2}{image#3}{image#4}{image#5}Question: what is the middle name mentioned in the given form ?<image> <image> <image> <image> <image> ",
+        "gt_response": "Kirk",
+        "gen_kwargs": {
+            "do_sample": false,
+            "num_beams": 1,
+            "max_new_tokens": 32,
+            "eos_token_id": 92542
+        },
+        "pred_response": "Kirkland, Oterland, M.D."
+    },
+    {
+        "sample_id": 91,
+        "question": "Example Question 1:\n<image> <image> <image> <image> <image> <image> {image#1}{image#2}{image#3}{image#4}{image#5}{image#6}Question: Where is  Mr.James Briggs working as an Editor?\nAnswer: Greeley Daily Tribune\n\nExample Question 2:\n<image> <image> {image#1}{image#2}Question: what is the given schedule at the time of 10:30 on monday, june 20 ?\nAnswer: orientation\n\nCurrent Question:\n{image#1}{image#2}{image#3}{image#4}{image#5}{image#6}Question: What is the Mean of 2,4-D?<image> <image> <image> <image> <image> <image> ",
+        "gt_response": "0.08",
+        "gen_kwargs": {
+            "do_sample": false,
+            "num_beams": 1,
+            "max_new_tokens": 32,
+            "eos_token_id": 92542
+        },
+        "pred_response": "The mean of 2,4-D is 1."
+    },
+    {
+        "sample_id": 97,
+        "question": "Example Question 1:\n<image> <image> <image> {image#1}{image#2}{image#3}Question: What is the weight of Lactalbumin in Milk protein - 75g?\nAnswer: 7.60\n\nExample Question 2:\n<image> <image> <image> <image> <image> <image> {image#1}{image#2}{image#3}{image#4}{image#5}{image#6}Question: What is the Home Phone?\nAnswer: 744-5106\n\nCurrent Question:\n{image#1}{image#2}{image#3}{image#4}{image#5}{image#6}Question: what is the lounge booked for United States Brewers Association Medical Advisory Group?<image> <image> <image> <image> <image> <image> ",
+        "gt_response": "South Lounge",
+        "gen_kwargs": {
+            "do_sample": false,
+            "num_beams": 1,
+            "max_new_tokens": 32,
+            "eos_token_id": 92542
+        },
+        "pred_response": "The conference was held at the Welcome Hotel, Stratford-upon-Avon."
+    },
+    {
+        "sample_id": 103,
+        "question": "Example Question 1:\n<image> <image> <image> <image> {image#1}{image#2}{image#3}{image#4}Question: what is the program endorsed by the committee ?\nAnswer: home economics program\n\nExample Question 2:\n<image> <image> {image#1}{image#2}Question: what is the subject of the inter-office memorandum?\nAnswer: LASZLO TOTH\n\nCurrent Question:\n{image#1}{image#2}{image#3}{image#4}{image#5}{image#6}Question: What is the Daily Quantity for Turnip Greens?<image> <image> <image> <image> <image> <image> ",
+        "gt_response": "1/3 lb.",
+        "gen_kwargs": {
+            "do_sample": false,
+            "num_beams": 1,
+            "max_new_tokens": 32,
+            "eos_token_id": 92542
+        },
+        "pred_response": "The cost of 1 quart of milk is 0.49."
+    },
+    {
+        "sample_id": 130,
+        "question": "Example Question 1:\n<image> <image> <image> <image> <image> {image#1}{image#2}{image#3}{image#4}{image#5}Question: When is the approval needed in order to meet overall project timing?\nAnswer: by 4/21/95\n\nExample Question 2:\n<image> <image> {image#1}{image#2}Question: When is the Third day ?\nAnswer: Wednesday 22nd\n\nCurrent Question:\n{image#1}{image#2}Question: What is the date of arrival at Greensboro Airport?<image> <image> ",
+        "gt_response": "SUNDAY / January 4th",
+        "gen_kwargs": {
+            "do_sample": false,
+            "num_beams": 1,
+            "max_new_tokens": 32,
+            "eos_token_id": 92542
+        },
+        "pred_response": "The date of arrival at Greensboro Airport is December 15, 1997."
+    },
+    {
+        "sample_id": 132,
+        "question": "Example Question 1:\n<image> <image> <image> {image#1}{image#2}{image#3}Question: What is the designation of Dr. William J. Darby?\nAnswer: president\n\nExample Question 2:\n<image> <image> <image> <image> <image> {image#1}{image#2}{image#3}{image#4}{image#5}Question: How much mg of potassium per 100 grams is contained in Kale (R)?\nAnswer: 401\n\nCurrent Question:\n{image#1}{image#2}Question: what is the general budget total for Medical Coordinator?<image> <image> ",
+        "gt_response": "$3,000",
+        "gen_kwargs": {
+            "do_sample": false,
+            "num_beams": 1,
+            "max_new_tokens": 32,
+            "eos_token_id": 92542
+        },
+        "pred_response": "$1,000"
+    },
+    {
+        "sample_id": 133,
+        "question": "Example Question 1:\n<image> <image> <image> {image#1}{image#2}{image#3}Question: what is the estimated population in poverty in Macon county ?\nAnswer: 3,363\n\nExample Question 2:\n<image> <image> <image> <image> <image> {image#1}{image#2}{image#3}{image#4}{image#5}Question: What is the name of the Hotel where the reservation is done ?\nAnswer: Naples Beach Hotel & Golf Club\n\nCurrent Question:\n{image#1}{image#2}Question: Which department is involved?<image> <image> ",
+        "gt_response": "CHEMICAL DEPARTMENT",
+        "gen_kwargs": {
+            "do_sample": false,
+            "num_beams": 1,
+            "max_new_tokens": 32,
+            "eos_token_id": 92542
+        },
+        "pred_response": "TRAVELING EXPENSE REPORT"
+    },
+    {
+        "sample_id": 140,
+        "question": "Example Question 1:\n<image> <image> <image> <image> {image#1}{image#2}{image#3}{image#4}Question: What kind of \"studies\" have ITC commenced for few of their products?\nAnswer: life cycle assessment studies\n\nExample Question 2:\n<image> <image> <image> {image#1}{image#2}{image#3}Question: what is the brand mentioned in the confirmation?\nAnswer: WINSTON\n\nCurrent Question:\n{image#1}{image#2}Question: What is the date mentioned in this letter?<image> <image> ",
+        "gt_response": "September 9, 1963",
+        "gen_kwargs": {
+            "do_sample": false,
+            "num_beams": 1,
+            "max_new_tokens": 32,
+            "eos_token_id": 92542
+        },
+        "pred_response": "September 9, 1963"
+    },
+    {
+        "sample_id": 143,
+        "question": "Example Question 1:\n<image> <image> {image#1}{image#2}Question: Under which department , The Cleveland Clinic Foundation operates?\nAnswer: Department of Cardiovascular Medicine.\n\nExample Question 2:\n<image> <image> <image> <image> <image> {image#1}{image#2}{image#3}{image#4}{image#5}Question: What was the amount of the total grants in 1962-63?\nAnswer: 586,950\n\nCurrent Question:\n{image#1}{image#2}Question: what is the name of heart association ?<image> <image> ",
+        "gt_response": "American",
+        "gen_kwargs": {
+            "do_sample": false,
+            "num_beams": 1,
+            "max_new_tokens": 32,
+            "eos_token_id": 92542
+        },
+        "pred_response": "the american heart association"
+    },
+    {
+        "sample_id": 144,
+        "question": "Example Question 1:\n<image> <image> <image> <image> <image> <image> {image#1}{image#2}{image#3}{image#4}{image#5}{image#6}Question: what is the unit of pension for Actuarial Gains/(Losses)  for the year ended in 2010?\nAnswer: 7.50\n\nExample Question 2:\n<image> <image> {image#1}{image#2}Question: what is the name of the cashier mentioned ?\nAnswer: Mr. Ralph T. Smith\n\nCurrent Question:\n{image#1}{image#2}Question: what is the subject of the inter-office memorandum?<image> <image> ",
+        "gt_response": "LASZLO TOTH",
+        "gen_kwargs": {
+            "do_sample": false,
+            "num_beams": 1,
+            "max_new_tokens": 32,
+            "eos_token_id": 92542
+        },
+        "pred_response": "DISTRIBUTION LIST"
+    },
+    {
+        "sample_id": 148,
+        "question": "Example Question 1:\n<image> <image> {image#1}{image#2}Question: what is the emp. no. of herman w arnett jr ?\nAnswer: 052008\n\nExample Question 2:\n<image> <image> <image> {image#1}{image#2}{image#3}Question: When is the date of departure?\nAnswer: July 10th, 1950\n\nCurrent Question:\n{image#1}{image#2}Question: when is the Report of Travel dated?<image> <image> ",
+        "gt_response": "Sept. 20, 1971",
+        "gen_kwargs": {
+            "do_sample": false,
+            "num_beams": 1,
+            "max_new_tokens": 32,
+            "eos_token_id": 92542
+        },
+        "pred_response": "9/18/1971"
+    },
+    {
+        "sample_id": 151,
+        "question": "Example Question 1:\n<image> <image> <image> <image> {image#1}{image#2}{image#3}{image#4}Question: How much is the time and mileage charge given?\nAnswer: 22.85\n\nExample Question 2:\n<image> <image> <image> {image#1}{image#2}{image#3}Question: Who is the marketing person responsible for the project?\nAnswer: Lucinda Sheer\n\nCurrent Question:\n{image#1}{image#2}Question: what is the name of the university mentioned in the given form ?<image> <image> ",
+        "gt_response": "Washington university",
+        "gen_kwargs": {
+            "do_sample": false,
+            "num_beams": 1,
+            "max_new_tokens": 32,
+            "eos_token_id": 92542
+        },
+        "pred_response": "washington university"
+    },
+    {
+        "sample_id": 154,
+        "question": "Example Question 1:\n<image> <image> <image> {image#1}{image#2}{image#3}Question: To where the approved invoice sent to?\nAnswer: Sponsoring Members\n\nExample Question 2:\n<image> <image> {image#1}{image#2}Question: what is the name of the university mentioned in the given form ?\nAnswer: Washington university\n\nCurrent Question:\n{image#1}{image#2}Question: what is the contract no.?<image> <image> ",
+        "gt_response": "DA-49-007-MD-1024",
+        "gen_kwargs": {
+            "do_sample": false,
+            "num_beams": 1,
+            "max_new_tokens": 32,
+            "eos_token_id": 92542
+        },
+        "pred_response": "6417 3235"
+    },
+    {
+        "sample_id": 155,
+        "question": "Example Question 1:\n<image> <image> <image> <image> <image> {image#1}{image#2}{image#3}{image#4}{image#5}Question: What is the full form of GLP?\nAnswer: Good Laboratory Practice\n\nExample Question 2:\n<image> <image> <image> {image#1}{image#2}{image#3}Question: What is the position title of William M. Grosvenor, Jr.?\nAnswer: Director of Research and Development\n\nCurrent Question:\n{image#1}{image#2}Question: To whom is the confirmation addressed?<image> <image> ",
+        "gt_response": "Kirk Hinshaw",
+        "gen_kwargs": {
+            "do_sample": false,
+            "num_beams": 1,
+            "max_new_tokens": 32,
+            "eos_token_id": 92542
+        },
+        "pred_response": "Kirk Hinshaw"
+    },
+    {
+        "sample_id": 87,
+        "question": "Example Question 1:\n<image> <image> <image> <image> <image> {image#1}{image#2}{image#3}{image#4}{image#5}Question: To which department does Stephen Molnar belong to ?\nAnswer: Anthropology\n\nExample Question 2:\n<image> <image> <image> {image#1}{image#2}{image#3}Question: what does camel crema deliver?\nAnswer: a creamy indulgent flavor that offers an intriguing and pleasurable smoking experience.\n\nCurrent Question:\n{image#1}{image#2}{image#3}Question: To where the approved invoice sent to?<image> <image> <image> ",
+        "gt_response": "Sponsoring Members",
+        "gen_kwargs": {
+            "do_sample": false,
+            "num_beams": 1,
+            "max_new_tokens": 32,
+            "eos_token_id": 92542
+        },
+        "pred_response": "C. FUNDRAISING"
+    },
+    {
+        "sample_id": 96,
+        "question": "Example Question 1:\n<image> <image> <image> <image> <image> {image#1}{image#2}{image#3}{image#4}{image#5}Question: What is the G/L account code mentioned in the voucher?\nAnswer: 04 08 1100 9143 821\n\nExample Question 2:\n<image> <image> <image> <image> <image> {image#1}{image#2}{image#3}{image#4}{image#5}Question: What is the name of the Hotel where the reservation is done ?\nAnswer: Naples Beach Hotel & Golf Club\n\nCurrent Question:\n{image#1}{image#2}{image#3}Question: what is the estimated population in poverty in Macon county ?<image> <image> <image> ",
+        "gt_response": "3,363",
+        "gen_kwargs": {
+            "do_sample": false,
+            "num_beams": 1,
+            "max_new_tokens": 32,
+            "eos_token_id": 92542
+        },
+        "pred_response": "1,460"
+    },
+    {
+        "sample_id": 109,
+        "question": "Example Question 1:\n<image> <image> {image#1}{image#2}Question: Who conducted the paper on the topic \" Iron in Human Nutrition \" on Friday ?\nAnswer: Gilbert B. Forbes\n\nExample Question 2:\n<image> <image> {image#1}{image#2}Question: what is the price of iron analysis in atomic absorption methodology ?\nAnswer: 8.00\n\nCurrent Question:\n{image#1}{image#2}{image#3}Question: what is number 2 priority as approved by the AHA board of directors?<image> <image> <image> ",
+        "gt_response": "Atherosclerosis",
+        "gen_kwargs": {
+            "do_sample": false,
+            "num_beams": 1,
+            "max_new_tokens": 32,
+            "eos_token_id": 92542
+        },
+        "pred_response": "1"
+    },
+    {
+        "sample_id": 128,
+        "question": "Example Question 1:\n<image> <image> <image> <image> <image> {image#1}{image#2}{image#3}{image#4}{image#5}Question: How much mg of potassium per 100 grams is contained in Kale (R)?\nAnswer: 401\n\nExample Question 2:\n<image> <image> <image> {image#1}{image#2}{image#3}Question: what is the amount of total voucher as mentioned in the given form ?\nAnswer: 1,516.86\n\nCurrent Question:\n{image#1}{image#2}{image#3}Question: What is the position title of William M. Grosvenor, Jr.?<image> <image> <image> ",
+        "gt_response": "Director of Research and Development",
+        "gen_kwargs": {
+            "do_sample": false,
+            "num_beams": 1,
+            "max_new_tokens": 32,
+            "eos_token_id": 92542
+        },
+        "pred_response": "The American Sugar Refining Company is located at 270 Kent Avenue, Brooklyn, N. Y."
+    },
+    {
+        "sample_id": 141,
+        "question": "Example Question 1:\n<image> <image> <image> <image> {image#1}{image#2}{image#3}{image#4}Question: what is the date of goods Rec?\nAnswer: 2/13/73\n\nExample Question 2:\n<image> <image> <image> <image> <image> {image#1}{image#2}{image#3}{image#4}{image#5}Question: what is the issue date ?\nAnswer: October 26, 1998\n\nCurrent Question:\n{image#1}{image#2}{image#3}Question: Who is the marketing person responsible for the project?<image> <image> <image> ",
+        "gt_response": "Lucinda Sheer",
+        "gen_kwargs": {
+            "do_sample": false,
+            "num_beams": 1,
+            "max_new_tokens": 32,
+            "eos_token_id": 92542
+        },
+        "pred_response": "The marketing person responsible for the project is Janice Myers."
+    },
+    {
+        "sample_id": 152,
+        "question": "Example Question 1:\n<image> <image> {image#1}{image#2}Question: What is the product designation?\nAnswer: Sugar-cane\n\nExample Question 2:\n<image> <image> <image> <image> <image> <image> {image#1}{image#2}{image#3}{image#4}{image#5}{image#6}Question: what is title on the y axis of fig.1?\nAnswer: PLANT DRY WT(% OF CONTROL)\n\nCurrent Question:\n{image#1}{image#2}{image#3}Question: What is the Payee's Account No.?<image> <image> <image> ",
+        "gt_response": "cg721t117pb",
+        "gen_kwargs": {
+            "do_sample": false,
+            "num_beams": 1,
+            "max_new_tokens": 32,
+            "eos_token_id": 92542
+        },
+        "pred_response": "The Payee's Account No. is 12."
+    },
+    {
+        "sample_id": 122,
+        "question": "Example Question 1:\n<image> <image> <image> {image#1}{image#2}{image#3}Question: What is the first line of the address mentioned at the top?\nAnswer: Reynolds Building\n\nExample Question 2:\n<image> <image> {image#1}{image#2}Question: what is the title for the name robert kauk ?\nAnswer: PRESIDENT, BRUSH BEET GROWERS ASS'N\n\nCurrent Question:\n{image#1}{image#2}{image#3}{image#4}Question: what is the amount of Calories under Chemical Analyses ?<image> <image> <image> <image> ",
+        "gt_response": "2,872 cal",
+        "gen_kwargs": {
+            "do_sample": false,
+            "num_beams": 1,
+            "max_new_tokens": 32,
+            "eos_token_id": 92542
+        },
+        "pred_response": "The amount of calories under chemical analyses is 1,040."
+    },
+    {
+        "sample_id": 131,
+        "question": "Example Question 1:\n<image> <image> <image> <image> {image#1}{image#2}{image#3}{image#4}Question: what is the heading at top of the page ?\nAnswer: material safety data sheet\n\nExample Question 2:\n<image> <image> <image> <image> <image> {image#1}{image#2}{image#3}{image#4}{image#5}Question: What is the brand code?\nAnswer: CF85\n\nCurrent Question:\n{image#1}{image#2}{image#3}{image#4}Question: what is the name of the passenger mentioned in the given page ?<image> <image> <image> <image> ",
+        "gt_response": "Dr. W . J. Darby",
+        "gen_kwargs": {
+            "do_sample": false,
+            "num_beams": 1,
+            "max_new_tokens": 32,
+            "eos_token_id": 92542
+        },
+        "pred_response": "the name of the passenger is paul check alix"
+    },
+    {
+        "sample_id": 134,
+        "question": "Example Question 1:\n<image> <image> <image> {image#1}{image#2}{image#3}Question: what is the area code mentioned in the given page ?\nAnswer: 814\n\nExample Question 2:\n<image> <image> {image#1}{image#2}Question: What is the product designation?\nAnswer: Sugar-cane\n\nCurrent Question:\n{image#1}{image#2}{image#3}{image#4}Question: Who is the Discussion chairman for application of the morning session on Wednesday, June 23?<image> <image> <image> <image> ",
+        "gt_response": "John H. Browe",
+        "gen_kwargs": {
+            "do_sample": false,
+            "num_beams": 1,
+            "max_new_tokens": 32,
+            "eos_token_id": 92542
+        },
+        "pred_response": "The application of the morning session on Wednesday, June 23, is chaired by Joanne H. Brown, M.D."
+    },
+    {
+        "sample_id": 135,
+        "question": "Example Question 1:\n<image> <image> {image#1}{image#2}Question: what is the name of the university mentioned in the given form ?\nAnswer: Washington university\n\nExample Question 2:\n<image> <image> <image> <image> {image#1}{image#2}{image#3}{image#4}Question: Who is Donald K. Tressler?\nAnswer: Scientific Director of the Institute\n\nCurrent Question:\n{image#1}{image#2}{image#3}{image#4}Question: what is the date mentioned in the given page ?<image> <image> <image> <image> ",
+        "gt_response": "december 6-8, 1958",
+        "gen_kwargs": {
+            "do_sample": false,
+            "num_beams": 1,
+            "max_new_tokens": 32,
+            "eos_token_id": 92542
+        },
+        "pred_response": "december 6-8, 1958"
+    },
+    {
+        "sample_id": 123,
+        "question": "Example Question 1:\n<image> <image> {image#1}{image#2}Question: To whom this is addressed\nAnswer: Dr.K.S.Houghton\n\nExample Question 2:\n<image> <image> <image> <image> <image> {image#1}{image#2}{image#3}{image#4}{image#5}Question: When is the approval needed in order to meet overall project timing?\nAnswer: by 4/21/95\n\nCurrent Question:\n{image#1}{image#2}{image#3}{image#4}{image#5}Question: What is the Region Operations Office FAX?<image> <image> <image> <image> <image> ",
+        "gt_response": "651-686-6016",
+        "gen_kwargs": {
+            "do_sample": false,
+            "num_beams": 1,
+            "max_new_tokens": 32,
+            "eos_token_id": 92542
+        },
+        "pred_response": "The document is a National Worksheet - PRP Period Summary."
+    },
+    {
+        "sample_id": 124,
+        "question": "Example Question 1:\n<image> <image> <image> <image> <image> {image#1}{image#2}{image#3}{image#4}{image#5}Question: what is amount of composition for Printer number I ?\nAnswer: $ 3,436.98\n\nExample Question 2:\n<image> <image> {image#1}{image#2}Question: Who has the assignment for \"Plant Clean up\"?\nAnswer: Corsberg\n\nCurrent Question:\n{image#1}{image#2}{image#3}{image#4}{image#5}Question: What is the Total cost?<image> <image> <image> <image> <image> ",
+        "gt_response": "$14.55",
+        "gen_kwargs": {
+            "do_sample": false,
+            "num_beams": 1,
+            "max_new_tokens": 32,
+            "eos_token_id": 92542
+        },
+        "pred_response": "The total cost is $9.40."
+    },
+    {
+        "sample_id": 127,
+        "question": "Example Question 1:\n<image> <image> <image> <image> <image> {image#1}{image#2}{image#3}{image#4}{image#5}Question: What is the date on the form  ?\nAnswer: september 27, 1989\n\nExample Question 2:\n<image> <image> <image> <image> <image> {image#1}{image#2}{image#3}{image#4}{image#5}Question: Which is the institution or agency of ALEXANDER, E. Russell, M.D.?\nAnswer: Washington\n\nCurrent Question:\n{image#1}{image#2}{image#3}{image#4}{image#5}Question: what is the EST response % ?<image> <image> <image> <image> <image> ",
+        "gt_response": "5.00%",
+        "gen_kwargs": {
+            "do_sample": false,
+            "num_beams": 1,
+            "max_new_tokens": 32,
+            "eos_token_id": 92542
+        },
+        "pred_response": "The address is 1200 N. Smith St., Wilmington, NC 28401."
+    },
+    {
+        "sample_id": 137,
+        "question": "Example Question 1:\n<image> <image> <image> {image#1}{image#2}{image#3}Question: What is the first line of the address mentioned at the top?\nAnswer: Reynolds Building\n\nExample Question 2:\n<image> <image> {image#1}{image#2}Question: what is the general budget total for Medical Coordinator?\nAnswer: $3,000\n\nCurrent Question:\n{image#1}{image#2}{image#3}{image#4}{image#5}Question: what is the name of the university mentioned in the given address ?<image> <image> <image> <image> <image> ",
+        "gt_response": "thomas jefferson university",
+        "gen_kwargs": {
+            "do_sample": false,
+            "num_beams": 1,
+            "max_new_tokens": 32,
+            "eos_token_id": 92542
+        },
+        "pred_response": "The name of the university is The Pennsylvania State University."
+    },
+    {
+        "sample_id": 142,
+        "question": "Example Question 1:\n<image> <image> <image> <image> <image> {image#1}{image#2}{image#3}{image#4}{image#5}Question: what is the amount of potassium mg./100g.  for Gelatin, Plain ?\nAnswer: 22\n\nExample Question 2:\n<image> <image> {image#1}{image#2}Question: What agreement is shown here?\nAnswer: DORAL EDLP RETAIL PRICING AGREEMENT\n\nCurrent Question:\n{image#1}{image#2}{image#3}{image#4}{image#5}Question: What is the full form of GLP?<image> <image> <image> <image> <image> ",
+        "gt_response": "Good Laboratory Practice",
+        "gen_kwargs": {
+            "do_sample": false,
+            "num_beams": 1,
+            "max_new_tokens": 32,
+            "eos_token_id": 92542
+        },
+        "pred_response": "The full form of GLP is Good Laboratory Practice."
+    },
+    {
+        "sample_id": 115,
+        "question": "Example Question 1:\n<image> <image> <image> <image> <image> <image> {image#1}{image#2}{image#3}{image#4}{image#5}{image#6}Question: What is th last Holding Date of Equity Owner  mentioned for \"Dalmia Housing Finance Ltd\"?\nAnswer: 31-Dec-08\n\nExample Question 2:\n<image> <image> <image> <image> <image> <image> {image#1}{image#2}{image#3}{image#4}{image#5}{image#6}Question: What is the name of the Store?\nAnswer: Sunoco, Inc. (R&M)\n\nCurrent Question:\n{image#1}{image#2}{image#3}{image#4}{image#5}{image#6}Question: Where is  Mr.James Briggs working as an Editor?<image> <image> <image> <image> <image> <image> ",
+        "gt_response": "Greeley Daily Tribune",
+        "gen_kwargs": {
+            "do_sample": false,
+            "num_beams": 1,
+            "max_new_tokens": 32,
+            "eos_token_id": 92542
+        },
+        "pred_response": "Mr. James Briggs is working as an Editor in Denver, Colorado."
+    },
+    {
+        "sample_id": 118,
+        "question": "Example Question 1:\n<image> <image> {image#1}{image#2}Question: What is the value of 'Deposits' ?\nAnswer: $535.66\n\nExample Question 2:\n<image> <image> <image> {image#1}{image#2}{image#3}Question: What is the issued date of this letter?\nAnswer: July 16, 1999\n\nCurrent Question:\n{image#1}{image#2}{image#3}{image#4}{image#5}{image#6}Question: How much is the EFT $ Amount?<image> <image> <image> <image> <image> <image> ",
+        "gt_response": "3327.78",
+        "gen_kwargs": {
+            "do_sample": false,
+            "num_beams": 1,
+            "max_new_tokens": 32,
+            "eos_token_id": 92542
+        },
+        "pred_response": "The EFT $ Amount is $3,297.78."
+    },
+    {
+        "sample_id": 125,
+        "question": "Example Question 1:\n<image> <image> <image> <image> <image> {image#1}{image#2}{image#3}{image#4}{image#5}Question: what is the amount of potassium mg./100g.  for Gelatin, Plain ?\nAnswer: 22\n\nExample Question 2:\n<image> <image> {image#1}{image#2}Question: what is the name of the university mentioned in the given form ?\nAnswer: Washington university\n\nCurrent Question:\n{image#1}{image#2}{image#3}{image#4}{image#5}{image#6}Question: who is the whole -time director( up to July 31,2009) ?<image> <image> <image> <image> <image> <image> ",
+        "gt_response": "Mr. S.V.Shanbhag",
+        "gen_kwargs": {
+            "do_sample": false,
+            "num_beams": 1,
+            "max_new_tokens": 32,
+            "eos_token_id": 92542
+        },
+        "pred_response": "The whole-time director (up to July 31, 2009) is Mr. K. K. Modi."
+    },
+    {
+        "sample_id": 157,
+        "question": "Example Question 1:\n<image> <image> <image> <image> {image#1}{image#2}{image#3}{image#4}Question: what is the name of the university mentioned in the given form ?\nAnswer: Washington university\n\nExample Question 2:\n<image> <image> <image> {image#1}{image#2}{image#3}Question: what is the brand mentioned in the confirmation?\nAnswer: WINSTON\n\nCurrent Question:\n{image#1}{image#2}Question: What is the first entity of the \"TABLE 1:\"?<image> <image> ",
+        "gt_response": "PM Code",
+        "gen_kwargs": {
+            "do_sample": false,
+            "num_beams": 1,
+            "max_new_tokens": 32,
+            "eos_token_id": 92542
+        },
+        "pred_response": "The first entity of the \"TABLE 1:\" is \"PZ Code\"."
+    },
+    {
+        "sample_id": 158,
+        "question": "Example Question 1:\n<image> <image> {image#1}{image#2}Question: What is the value of 'Deposits' ?\nAnswer: $535.66\n\nExample Question 2:\n<image> <image> <image> <image> <image> <image> {image#1}{image#2}{image#3}{image#4}{image#5}{image#6}Question: what is the title of position for charles L. Paxson ?\nAnswer: investigator\n\nCurrent Question:\n{image#1}{image#2}Question: what is amount of Potassium mg./100g. of Figs (R)?<image> <image> ",
+        "gt_response": "290",
+        "gen_kwargs": {
+            "do_sample": false,
+            "num_beams": 1,
+            "max_new_tokens": 32,
+            "eos_token_id": 92542
+        },
+        "pred_response": "1"
+    },
+    {
+        "sample_id": 159,
+        "question": "Example Question 1:\n<image> <image> <image> <image> <image> <image> {image#1}{image#2}{image#3}{image#4}{image#5}{image#6}Question: What is the Institution?\nAnswer: William Marsh rice University\n\nExample Question 2:\n<image> <image> <image> <image> <image> {image#1}{image#2}{image#3}{image#4}{image#5}Question: what is the amount of potassium present in liver (R) as mentioned in the given page ?\nAnswer: 296\n\nCurrent Question:\n{image#1}{image#2}Question: The number mentioned on the right of the leftside margin?<image> <image> ",
+        "gt_response": "314002838",
+        "gen_kwargs": {
+            "do_sample": false,
+            "num_beams": 1,
+            "max_new_tokens": 32,
+            "eos_token_id": 92542
+        },
+        "pred_response": "97"
+    },
+    {
+        "sample_id": 160,
+        "question": "Example Question 1:\n<image> <image> <image> <image> {image#1}{image#2}{image#3}{image#4}Question: what is the cat.no?\nAnswer: 0612-80-505\n\nExample Question 2:\n<image> <image> <image> <image> <image> <image> {image#1}{image#2}{image#3}{image#4}{image#5}{image#6}Question: Which day is October 10, 1968\nAnswer: Thursday\n\nCurrent Question:\n{image#1}{image#2}Question: Who is the author of \" The Taming of the C.A.N.D.Y. Monster\"?<image> <image> ",
+        "gt_response": "LANSKY",
+        "gen_kwargs": {
+            "do_sample": false,
+            "num_beams": 1,
+            "max_new_tokens": 32,
+            "eos_token_id": 92542
+        },
+        "pred_response": "JACKSON"
+    },
+    {
+        "sample_id": 164,
+        "question": "Example Question 1:\n<image> <image> {image#1}{image#2}Question: what is the total voucher amount ?\nAnswer: $1,295.87\n\nExample Question 2:\n<image> <image> <image> {image#1}{image#2}{image#3}Question: In table XIV how many total abnormalities in hospital K?\nAnswer: 63\n\nCurrent Question:\n{image#1}{image#2}Question: Who is the Contact Person of agency?<image> <image> ",
+        "gt_response": "David Moore",
+        "gen_kwargs": {
+            "do_sample": false,
+            "num_beams": 1,
+            "max_new_tokens": 32,
+            "eos_token_id": 92542
+        },
+        "pred_response": "Lucy Russell"
+    },
+    {
+        "sample_id": 165,
+        "question": "Example Question 1:\n<image> <image> <image> {image#1}{image#2}{image#3}Question: what is the brand mentioned in the confirmation?\nAnswer: WINSTON\n\nExample Question 2:\n<image> <image> <image> <image> <image> {image#1}{image#2}{image#3}{image#4}{image#5}Question: Which is the institution or agency of ALEXANDER, E. Russell, M.D.?\nAnswer: Washington\n\nCurrent Question:\n{image#1}{image#2}Question: what is the origin ?<image> <image> ",
+        "gt_response": "BEY",
+        "gen_kwargs": {
+            "do_sample": false,
+            "num_beams": 1,
+            "max_new_tokens": 32,
+            "eos_token_id": 92542
+        },
+        "pred_response": "prepaid"
+    },
+    {
+        "sample_id": 166,
+        "question": "Example Question 1:\n<image> <image> <image> {image#1}{image#2}{image#3}Question: What is the weight of Lactalbumin in Milk protein - 75g?\nAnswer: 7.60\n\nExample Question 2:\n<image> <image> {image#1}{image#2}Question: what is the subject of the inter-office memorandum?\nAnswer: LASZLO TOTH\n\nCurrent Question:\n{image#1}{image#2}Question: What is the value of 'Deposits' ?<image> <image> ",
+        "gt_response": "$535.66",
+        "gen_kwargs": {
+            "do_sample": false,
+            "num_beams": 1,
+            "max_new_tokens": 32,
+            "eos_token_id": 92542
+        },
+        "pred_response": "The value of 'Deposits' is 470.71."
+    },
+    {
+        "sample_id": 169,
+        "question": "Example Question 1:\n<image> <image> <image> <image> {image#1}{image#2}{image#3}{image#4}Question: what is the name of the passenger mentioned in the given page ?\nAnswer: Dr. W . J. Darby\n\nExample Question 2:\n<image> <image> <image> <image> <image> <image> {image#1}{image#2}{image#3}{image#4}{image#5}{image#6}Question: who is the whole -time director( up to July 31,2009) ?\nAnswer: Mr. S.V.Shanbhag\n\nCurrent Question:\n{image#1}{image#2}Question: what is the name of the cashier mentioned ?<image> <image> ",
+        "gt_response": "Mr. Ralph T. Smith",
+        "gen_kwargs": {
+            "do_sample": false,
+            "num_beams": 1,
+            "max_new_tokens": 32,
+            "eos_token_id": 92542
+        },
+        "pred_response": "Mr. LeRoy C. Henry, Manager, Goodland, Kansas ( 7752 )"
+    },
+    {
+        "sample_id": 172,
+        "question": "Example Question 1:\n<image> <image> <image> {image#1}{image#2}{image#3}Question: what is the designation of Dr. F. James Levinson ?\nAnswer: director\n\nExample Question 2:\n<image> <image> <image> {image#1}{image#2}{image#3}Question: When is the date of departure?\nAnswer: July 10th, 1950\n\nCurrent Question:\n{image#1}{image#2}Question: What is the heading of the REPORT?<image> <image> ",
+        "gt_response": "progress report 10",
+        "gen_kwargs": {
+            "do_sample": false,
+            "num_beams": 1,
+            "max_new_tokens": 32,
+            "eos_token_id": 92542
+        },
+        "pred_response": "PROGRESS REPORT 10"
+    },
+    {
+        "sample_id": 174,
+        "question": "Example Question 1:\n<image> <image> {image#1}{image#2}Question: what is the contact number of The Visiting Nurse Association of Greater St. Louis, St. Louis County  ?\nAnswer: 314-533-9680\n\nExample Question 2:\n<image> <image> <image> {image#1}{image#2}{image#3}Question: To where the approved invoice sent to?\nAnswer: Sponsoring Members\n\nCurrent Question:\n{image#1}{image#2}Question: What is a major source of sodium?<image> <image> ",
+        "gt_response": "Salt is a major source of sodium.",
+        "gen_kwargs": {
+            "do_sample": false,
+            "num_beams": 1,
+            "max_new_tokens": 32,
+            "eos_token_id": 92542
+        },
+        "pred_response": "Sodium is a major source of sodium."
+    },
+    {
+        "sample_id": 161,
+        "question": "Example Question 1:\n<image> <image> <image> <image> <image> {image#1}{image#2}{image#3}{image#4}{image#5}Question: what is amount of composition for Printer number I ?\nAnswer: $ 3,436.98\n\nExample Question 2:\n<image> <image> <image> {image#1}{image#2}{image#3}Question: What is the position title of William M. Grosvenor, Jr.?\nAnswer: Director of Research and Development\n\nCurrent Question:\n{image#1}{image#2}{image#3}Question: Which company's name is mentioned?<image> <image> <image> ",
+        "gt_response": "GOLDEN TOBACCO LIMITED",
+        "gen_kwargs": {
+            "do_sample": false,
+            "num_beams": 1,
+            "max_new_tokens": 32,
+            "eos_token_id": 92542
+        },
+        "pred_response": "The company name is San Dama."
+    },
+    {
+        "sample_id": 162,
+        "question": "Example Question 1:\n<image> <image> {image#1}{image#2}Question: what is the demo number mentioned?\nAnswer: 03760\n\nExample Question 2:\n<image> <image> <image> <image> <image> {image#1}{image#2}{image#3}{image#4}{image#5}Question: What is the Profit after Taxation before Share of Results of Associates for 2008?\nAnswer: 3178.17\n\nCurrent Question:\n{image#1}{image#2}{image#3}Question: what are the expenses for meals (other than those at hotel )?<image> <image> <image> ",
+        "gt_response": "26.50",
+        "gen_kwargs": {
+            "do_sample": false,
+            "num_beams": 1,
+            "max_new_tokens": 32,
+            "eos_token_id": 92542
+        },
+        "pred_response": "The total amount of the meals expense is $133."
+    },
+    {
+        "sample_id": 167,
+        "question": "Example Question 1:\n<image> <image> <image> <image> <image> <image> {image#1}{image#2}{image#3}{image#4}{image#5}{image#6}Question: What is the designation of the person undersigned?\nAnswer: Chief Chemist.\n\nExample Question 2:\n<image> <image> <image> <image> <image> {image#1}{image#2}{image#3}{image#4}{image#5}Question: what is the location code?\nAnswer: 11-0010-001\n\nCurrent Question:\n{image#1}{image#2}{image#3}Question: What is the designation of Dr. William J. Darby?<image> <image> <image> ",
+        "gt_response": "president",
+        "gen_kwargs": {
+            "do_sample": false,
+            "num_beams": 1,
+            "max_new_tokens": 32,
+            "eos_token_id": 92542
+        },
+        "pred_response": "The Nutrition Foundation, Inc."
+    },
+    {
+        "sample_id": 171,
+        "question": "Example Question 1:\n<image> <image> {image#1}{image#2}Question: what  is the cost of dinner on dec. 2?\nAnswer: 2.50\n\nExample Question 2:\n<image> <image> <image> <image> <image> {image#1}{image#2}{image#3}{image#4}{image#5}Question: what is the cost of the parking at hotel in daytime ?\nAnswer: $12\n\nCurrent Question:\n{image#1}{image#2}{image#3}Question: what should be able to be modified-expanded or contracted ?<image> <image> <image> ",
+        "gt_response": "low priority designations",
+        "gen_kwargs": {
+            "do_sample": false,
+            "num_beams": 1,
+            "max_new_tokens": 32,
+            "eos_token_id": 92542
+        },
+        "pred_response": "E. Repopulation Priorities In urging EPA to address high priority substances, EPCA emphasizes the need to prioritize chemicals that pose the greatest risk"
+    },
+    {
+        "sample_id": 177,
+        "question": "Example Question 1:\n<image> <image> {image#1}{image#2}Question: what is the quantity mentioned in the given page  ?\nAnswer: 1\n\nExample Question 2:\n<image> <image> <image> <image> <image> {image#1}{image#2}{image#3}{image#4}{image#5}Question: what is the product PO number?\nAnswer: #072798\n\nCurrent Question:\n{image#1}{image#2}{image#3}Question: What is the issued date of this letter?<image> <image> <image> ",
+        "gt_response": "July 16, 1999",
+        "gen_kwargs": {
+            "do_sample": false,
+            "num_beams": 1,
+            "max_new_tokens": 32,
+            "eos_token_id": 92542
+        },
+        "pred_response": "The letter was issued on July 16, 1999."
+    },
+    {
+        "sample_id": 145,
+        "question": "Example Question 1:\n<image> <image> {image#1}{image#2}Question: Who is the author of \" The Taming of the C.A.N.D.Y. Monster\"?\nAnswer: LANSKY\n\nExample Question 2:\n<image> <image> {image#1}{image#2}Question: what is the emp. no. of Ivano N Rivers ?\nAnswer: 751035\n\nCurrent Question:\n{image#1}{image#2}{image#3}{image#4}Question: What is the Voucher Amount ?<image> <image> <image> <image> ",
+        "gt_response": "$210,391.00",
+        "gen_kwargs": {
+            "do_sample": false,
+            "num_beams": 1,
+            "max_new_tokens": 32,
+            "eos_token_id": 92542
+        },
+        "pred_response": "The Voucher Amount is $18,206."
+    },
+    {
+        "sample_id": 150,
+        "question": "Example Question 1:\n<image> <image> <image> <image> <image> {image#1}{image#2}{image#3}{image#4}{image#5}Question: What is the Page Number?\nAnswer: 4\n\nExample Question 2:\n<image> <image> {image#1}{image#2}Question: To whom this is addressed\nAnswer: Dr.K.S.Houghton\n\nCurrent Question:\n{image#1}{image#2}{image#3}{image#4}Question: what is the program endorsed by the committee ?<image> <image> <image> <image> ",
+        "gt_response": "home economics program",
+        "gen_kwargs": {
+            "do_sample": false,
+            "num_beams": 1,
+            "max_new_tokens": 32,
+            "eos_token_id": 92542
+        },
+        "pred_response": "the sugar industry had earned the right to be heard"
+    },
+    {
+        "sample_id": 163,
+        "question": "Example Question 1:\n<image> <image> <image> <image> <image> {image#1}{image#2}{image#3}{image#4}{image#5}Question: what is the name of the university mentioned in the given address ?\nAnswer: thomas jefferson university\n\nExample Question 2:\n<image> <image> {image#1}{image#2}Question: what is the contact number of The Visiting Nurse Association of Greater St. Louis, St. Louis County  ?\nAnswer: 314-533-9680\n\nCurrent Question:\n{image#1}{image#2}{image#3}{image#4}Question: When is the Memorandum dated on ?<image> <image> <image> <image> ",
+        "gt_response": "August 30, 1994",
+        "gen_kwargs": {
+            "do_sample": false,
+            "num_beams": 1,
+            "max_new_tokens": 32,
+            "eos_token_id": 92542
+        },
+        "pred_response": "The date is August 30, 1994."
+    },
+    {
+        "sample_id": 168,
+        "question": "Example Question 1:\n<image> <image> {image#1}{image#2}Question: Which university is mentioned in the letter head?\nAnswer: THE ALBANY MEDICAL COLLEGE OF UNION UNIVERSITY\n\nExample Question 2:\n<image> <image> <image> <image> {image#1}{image#2}{image#3}{image#4}Question: What is the Voucher Amount ?\nAnswer: $210,391.00\n\nCurrent Question:\n{image#1}{image#2}{image#3}{image#4}Question: Who is Donald K. Tressler?<image> <image> <image> <image> ",
+        "gt_response": "Scientific Director of the Institute",
+        "gen_kwargs": {
+            "do_sample": false,
+            "num_beams": 1,
+            "max_new_tokens": 32,
+            "eos_token_id": 92542
+        },
+        "pred_response": "The Food Industries Advisory Committee, Inc. Skytop, Pennsylvania"
+    },
+    {
+        "sample_id": 146,
+        "question": "Example Question 1:\n<image> <image> {image#1}{image#2}Question: What is the Timing for the Journal \"Journal of Managed Care Pharmacy\"?\nAnswer: 3Q98\n\nExample Question 2:\n<image> <image> {image#1}{image#2}Question: What is the Expiration Date ?\nAnswer: 12/31/96\n\nCurrent Question:\n{image#1}{image#2}{image#3}{image#4}{image#5}Question: How many numbers of copies of the journal of nutrition?<image> <image> <image> <image> <image> ",
+        "gt_response": "4400",
+        "gen_kwargs": {
+            "do_sample": false,
+            "num_beams": 1,
+            "max_new_tokens": 32,
+            "eos_token_id": 92542
+        },
+        "pred_response": "The total cost of the journal is $41.86."
+    },
+    {
+        "sample_id": 147,
+        "question": "Example Question 1:\n<image> <image> {image#1}{image#2}Question: what is the title for the name robert kauk ?\nAnswer: PRESIDENT, BRUSH BEET GROWERS ASS'N\n\nExample Question 2:\n<image> <image> <image> {image#1}{image#2}{image#3}Question: what is the office phone number ?\nAnswer: 282-2511\n\nCurrent Question:\n{image#1}{image#2}{image#3}{image#4}{image#5}Question: What is the Total for Rent Paid for 2008?<image> <image> <image> <image> <image> ",
+        "gt_response": "0.55",
+        "gen_kwargs": {
+            "do_sample": false,
+            "num_beams": 1,
+            "max_new_tokens": 32,
+            "eos_token_id": 92542
+        },
+        "pred_response": "The total for Rent Paid for 2008 is 1,29,87,695."
+    },
+    {
+        "sample_id": 149,
+        "question": "Example Question 1:\n<image> <image> <image> <image> <image> <image> {image#1}{image#2}{image#3}{image#4}{image#5}{image#6}Question: What is written within parentheses, just below the title?\nAnswer: Calories per day\n\nExample Question 2:\n<image> <image> <image> <image> <image> {image#1}{image#2}{image#3}{image#4}{image#5}Question: what is the product PO number?\nAnswer: #072798\n\nCurrent Question:\n{image#1}{image#2}{image#3}{image#4}{image#5}Question: what is the amount of potassium present in liver (R) as mentioned in the given page ?<image> <image> <image> <image> <image> ",
+        "gt_response": "296",
+        "gen_kwargs": {
+            "do_sample": false,
+            "num_beams": 1,
+            "max_new_tokens": 32,
+            "eos_token_id": 92542
+        },
+        "pred_response": "1"
+    },
+    {
+        "sample_id": 153,
+        "question": "Example Question 1:\n<image> <image> {image#1}{image#2}Question: Who is the chairman of Environment and Public Works Committee?\nAnswer: John Barrasso\n\nExample Question 2:\n<image> <image> <image> <image> {image#1}{image#2}{image#3}{image#4}Question: what is the name of the university mentioned in the given form ?\nAnswer: Washington university\n\nCurrent Question:\n{image#1}{image#2}{image#3}{image#4}{image#5}Question: what is the amount of Potassium mg./100g. for Squash, Winter, seeds removed ?<image> <image> <image> <image> <image> ",
+        "gt_response": "407",
+        "gen_kwargs": {
+            "do_sample": false,
+            "num_beams": 1,
+            "max_new_tokens": 32,
+            "eos_token_id": 92542
+        },
+        "pred_response": "The amount of Potassium mg./100g. for Squash, Winter, seeds removed is 120."
+    },
+    {
+        "sample_id": 156,
+        "question": "Example Question 1:\n<image> <image> <image> {image#1}{image#2}{image#3}Question: In table XIV how many total abnormalities in hospital K?\nAnswer: 63\n\nExample Question 2:\n<image> <image> <image> <image> <image> {image#1}{image#2}{image#3}{image#4}{image#5}Question: How much Total Income ?\nAnswer: $12,000 to $15,000\n\nCurrent Question:\n{image#1}{image#2}{image#3}{image#4}{image#5}Question: Who is the author for \"Physiology of Vitamin A\"?<image> <image> <image> <image> <image> ",
+        "gt_response": "o. a. roels",
+        "gen_kwargs": {
+            "do_sample": false,
+            "num_beams": 1,
+            "max_new_tokens": 32,
+            "eos_token_id": 92542
+        },
+        "pred_response": "Coun. Sec."
+    },
+    {
+        "sample_id": 126,
+        "question": "Example Question 1:\n<image> <image> <image> <image> {image#1}{image#2}{image#3}{image#4}Question: what is the heading at top of the page ?\nAnswer: material safety data sheet\n\nExample Question 2:\n<image> <image> <image> <image> {image#1}{image#2}{image#3}{image#4}Question: When is the Memorandum dated on ?\nAnswer: August 30, 1994\n\nCurrent Question:\n{image#1}{image#2}{image#3}{image#4}{image#5}{image#6}Question: What is Written in the SPEC Status Field ?<image> <image> <image> <image> <image> <image> ",
+        "gt_response": "CURRENT",
+        "gen_kwargs": {
+            "do_sample": false,
+            "num_beams": 1,
+            "max_new_tokens": 32,
+            "eos_token_id": 92542
+        },
+        "pred_response": "The date is 10/31/89."
+    },
+    {
+        "sample_id": 136,
+        "question": "Example Question 1:\n<image> <image> <image> <image> <image> {image#1}{image#2}{image#3}{image#4}{image#5}Question: How many numbers of copies of the journal of nutrition?\nAnswer: 4400\n\nExample Question 2:\n<image> <image> <image> <image> <image> {image#1}{image#2}{image#3}{image#4}{image#5}Question: Who is the author for \"Physiology of Vitamin A\"?\nAnswer: o. a. roels\n\nCurrent Question:\n{image#1}{image#2}{image#3}{image#4}{image#5}{image#6}Question: What is the designation of the person undersigned?<image> <image> <image> <image> <image> <image> ",
+        "gt_response": "Chief Chemist.",
+        "gen_kwargs": {
+            "do_sample": false,
+            "num_beams": 1,
+            "max_new_tokens": 32,
+            "eos_token_id": 92542
+        },
+        "pred_response": "The kind of water is \"Water in Boilermaker Tank\"."
+    },
+    {
+        "sample_id": 138,
+        "question": "Example Question 1:\n<image> <image> {image#1}{image#2}Question: What is J. Brozek's topic from 9:30-10:00?\nAnswer: CHARACTERIZATION OF MAN'S PHYSIQUE\n\nExample Question 2:\n<image> <image> {image#1}{image#2}Question: Who is the Contact Person of agency?\nAnswer: David Moore\n\nCurrent Question:\n{image#1}{image#2}{image#3}{image#4}{image#5}{image#6}Question: what are the number of professionals mentioned in the given form ?<image> <image> <image> <image> <image> <image> ",
+        "gt_response": "12 Professionals",
+        "gen_kwargs": {
+            "do_sample": false,
+            "num_beams": 1,
+            "max_new_tokens": 32,
+            "eos_token_id": 92542
+        },
+        "pred_response": "1"
+    },
+    {
+        "sample_id": 176,
+        "question": "Example Question 1:\n<image> <image> <image> <image> <image> {image#1}{image#2}{image#3}{image#4}{image#5}Question: what is the EST response % ?\nAnswer: 5.00%\n\nExample Question 2:\n<image> <image> <image> {image#1}{image#2}{image#3}Question: what does camel crema deliver?\nAnswer: a creamy indulgent flavor that offers an intriguing and pleasurable smoking experience.\n\nCurrent Question:\n{image#1}{image#2}Question: What is the electronic signature code number?<image> <image> ",
+        "gt_response": "266-524-9",
+        "gen_kwargs": {
+            "do_sample": false,
+            "num_beams": 1,
+            "max_new_tokens": 32,
+            "eos_token_id": 92542
+        },
+        "pred_response": "The electronic signature code number is 266-524-9."
+    },
+    {
+        "sample_id": 178,
+        "question": "Example Question 1:\n<image> <image> <image> <image> <image> {image#1}{image#2}{image#3}{image#4}{image#5}Question: what is the EST response % ?\nAnswer: 5.00%\n\nExample Question 2:\n<image> <image> {image#1}{image#2}Question: What is the Days offer open?\nAnswer: 91\n\nCurrent Question:\n{image#1}{image#2}Question: Under which department , The Cleveland Clinic Foundation operates?<image> <image> ",
+        "gt_response": "Department of Cardiovascular Medicine.",
+        "gen_kwargs": {
+            "do_sample": false,
+            "num_beams": 1,
+            "max_new_tokens": 32,
+            "eos_token_id": 92542
+        },
+        "pred_response": "The Cleveland Clinic Foundation operates under the Department of Cardiovascular Medicine."
+    },
+    {
+        "sample_id": 179,
+        "question": "Example Question 1:\n<image> <image> <image> <image> <image> <image> {image#1}{image#2}{image#3}{image#4}{image#5}{image#6}Question: what is the lounge booked for United States Brewers Association Medical Advisory Group?\nAnswer: South Lounge\n\nExample Question 2:\n<image> <image> <image> {image#1}{image#2}{image#3}Question: what is the designation of Dr. F. James Levinson ?\nAnswer: director\n\nCurrent Question:\n{image#1}{image#2}Question: What is the product designation?<image> <image> ",
+        "gt_response": "Sugar-cane",
+        "gen_kwargs": {
+            "do_sample": false,
+            "num_beams": 1,
+            "max_new_tokens": 32,
+            "eos_token_id": 92542
+        },
+        "pred_response": "9569"
+    },
+    {
+        "sample_id": 182,
+        "question": "Example Question 1:\n<image> <image> <image> {image#1}{image#2}{image#3}Question: what is the brand mentioned in the confirmation?\nAnswer: WINSTON\n\nExample Question 2:\n<image> <image> <image> <image> <image> {image#1}{image#2}{image#3}{image#4}{image#5}Question: What is the date on the form  ?\nAnswer: september 27, 1989\n\nCurrent Question:\n{image#1}{image#2}Question: What is the cellular number of Gigi M. Chen?<image> <image> ",
+        "gt_response": "716.725.7100",
+        "gen_kwargs": {
+            "do_sample": false,
+            "num_beams": 1,
+            "max_new_tokens": 32,
+            "eos_token_id": 92542
+        },
+        "pred_response": "Gigi M. Chen's cellular number is 212-924-7373."
+    },
+    {
+        "sample_id": 185,
+        "question": "Example Question 1:\n<image> <image> {image#1}{image#2}Question: what is the flight no. mentioned in the given page ?\nAnswer: 407  ($48.30)\n\nExample Question 2:\n<image> <image> <image> {image#1}{image#2}{image#3}Question: What is the expiration date?\nAnswer: 09/30/97\n\nCurrent Question:\n{image#1}{image#2}Question: How many biographical data forms are attached?<image> <image> ",
+        "gt_response": "6 biographical data forms",
+        "gen_kwargs": {
+            "do_sample": false,
+            "num_beams": 1,
+            "max_new_tokens": 32,
+            "eos_token_id": 92542
+        },
+        "pred_response": "6"
+    },
+    {
+        "sample_id": 187,
+        "question": "Example Question 1:\n<image> <image> {image#1}{image#2}Question: Who is the author of \" The Taming of the C.A.N.D.Y. Monster\"?\nAnswer: LANSKY\n\nExample Question 2:\n<image> <image> <image> <image> {image#1}{image#2}{image#3}{image#4}Question: Who is Donald K. Tressler?\nAnswer: Scientific Director of the Institute\n\nCurrent Question:\n{image#1}{image#2}Question: What is the proposed end date for Action # 11?<image> <image> ",
+        "gt_response": "3/24/03",
+        "gen_kwargs": {
+            "do_sample": false,
+            "num_beams": 1,
+            "max_new_tokens": 32,
+            "eos_token_id": 92542
+        },
+        "pred_response": "3/24/03"
+    },
+    {
+        "sample_id": 191,
+        "question": "Example Question 1:\n<image> <image> <image> <image> <image> <image> {image#1}{image#2}{image#3}{image#4}{image#5}{image#6}Question: How much is the EFT $ Amount?\nAnswer: 3327.78\n\nExample Question 2:\n<image> <image> <image> <image> {image#1}{image#2}{image#3}{image#4}Question: How much is the time and mileage charge given?\nAnswer: 22.85\n\nCurrent Question:\n{image#1}{image#2}Question: what is the given schedule at the time of 10:30 on monday, june 20 ?<image> <image> ",
+        "gt_response": "orientation",
+        "gen_kwargs": {
+            "do_sample": false,
+            "num_beams": 1,
+            "max_new_tokens": 32,
+            "eos_token_id": 92542
+        },
+        "pred_response": "\"Nutrition Aspects of Blood Formation\""
+    },
+    {
+        "sample_id": 192,
+        "question": "Example Question 1:\n<image> <image> {image#1}{image#2}Question: Which university is mentioned in the letter head?\nAnswer: THE ALBANY MEDICAL COLLEGE OF UNION UNIVERSITY\n\nExample Question 2:\n<image> <image> <image> <image> <image> <image> {image#1}{image#2}{image#3}{image#4}{image#5}{image#6}Question: what is the title of position for charles L. Paxson ?\nAnswer: investigator\n\nCurrent Question:\n{image#1}{image#2}Question: What is the Expiration Date ?<image> <image> ",
+        "gt_response": "12/31/96",
+        "gen_kwargs": {
+            "do_sample": false,
+            "num_beams": 1,
+            "max_new_tokens": 32,
+            "eos_token_id": 92542
+        },
+        "pred_response": "The Expiration Date is August 31, 1996."
+    },
+    {
+        "sample_id": 194,
+        "question": "Example Question 1:\n<image> <image> {image#1}{image#2}Question: Which university is mentioned in the letter head?\nAnswer: THE ALBANY MEDICAL COLLEGE OF UNION UNIVERSITY\n\nExample Question 2:\n<image> <image> <image> <image> <image> {image#1}{image#2}{image#3}{image#4}{image#5}Question: What is the full form of GLP?\nAnswer: Good Laboratory Practice\n\nCurrent Question:\n{image#1}{image#2}Question: What is J. Brozek's topic from 9:30-10:00?<image> <image> ",
+        "gt_response": "CHARACTERIZATION OF MAN'S PHYSIQUE",
+        "gen_kwargs": {
+            "do_sample": false,
+            "num_beams": 1,
+            "max_new_tokens": 32,
+            "eos_token_id": 92542
+        },
+        "pred_response": "J. Brozek's topic is \"Nutritional Status of Adult Interstate Problem of Body Weight\"."
+    },
+    {
+        "sample_id": 195,
+        "question": "Example Question 1:\n<image> <image> <image> <image> <image> {image#1}{image#2}{image#3}{image#4}{image#5}Question: What is the name of the Hotel where the reservation is done ?\nAnswer: Naples Beach Hotel & Golf Club\n\nExample Question 2:\n<image> <image> <image> {image#1}{image#2}{image#3}Question: what is the office phone number ?\nAnswer: 282-2511\n\nCurrent Question:\n{image#1}{image#2}Question: what is the quantity mentioned in the given page  ?<image> <image> ",
+        "gt_response": "1",
+        "gen_kwargs": {
+            "do_sample": false,
+            "num_beams": 1,
+            "max_new_tokens": 32,
+            "eos_token_id": 92542
+        },
+        "pred_response": "1"
+    },
+    {
+        "sample_id": 181,
+        "question": "Example Question 1:\n<image> <image> <image> <image> <image> <image> {image#1}{image#2}{image#3}{image#4}{image#5}{image#6}Question: What is written within parentheses, just below the title?\nAnswer: Calories per day\n\nExample Question 2:\n<image> <image> <image> <image> {image#1}{image#2}{image#3}{image#4}Question: what is the name of the passenger mentioned in the given page ?\nAnswer: Dr. W . J. Darby\n\nCurrent Question:\n{image#1}{image#2}{image#3}Question: Whats Lab name on the form?<image> <image> <image> ",
+        "gt_response": "ABBOTT LABORATORIES",
+        "gen_kwargs": {
+            "do_sample": false,
+            "num_beams": 1,
+            "max_new_tokens": 32,
+            "eos_token_id": 92542
+        },
+        "pred_response": "The lab name on the form is Abbott Laboratories."
+    },
+    {
+        "sample_id": 183,
+        "question": "Example Question 1:\n<image> <image> {image#1}{image#2}Question: what is the name of the university mentioned in the given form ?\nAnswer: Washington university\n\nExample Question 2:\n<image> <image> <image> <image> <image> {image#1}{image#2}{image#3}{image#4}{image#5}Question: What is the name of the Hotel where the reservation is done ?\nAnswer: Naples Beach Hotel & Golf Club\n\nCurrent Question:\n{image#1}{image#2}{image#3}Question: What is the name of the project?<image> <image> <image> ",
+        "gt_response": "#7595 Manuscript",
+        "gen_kwargs": {
+            "do_sample": false,
+            "num_beams": 1,
+            "max_new_tokens": 32,
+            "eos_token_id": 92542
+        },
+        "pred_response": "Jule Larsen"
+    },
+    {
+        "sample_id": 184,
+        "question": "Example Question 1:\n<image> <image> <image> {image#1}{image#2}{image#3}Question: In table II what is the total period of observation of Man-years in hospital K?\nAnswer: 1,088.8\n\nExample Question 2:\n<image> <image> {image#1}{image#2}Question: What agreement is shown here?\nAnswer: DORAL EDLP RETAIL PRICING AGREEMENT\n\nCurrent Question:\n{image#1}{image#2}{image#3}Question: What is the designation of Mrs. J. Heather Etheridge?<image> <image> <image> ",
+        "gt_response": "Administrative Assistant",
+        "gen_kwargs": {
+            "do_sample": false,
+            "num_beams": 1,
+            "max_new_tokens": 32,
+            "eos_token_id": 92542
+        },
+        "pred_response": "Mrs. J. Heather Etheridge is the wife of Dr. William J. Darbyshire."
+    },
+    {
+        "sample_id": 196,
+        "question": "Example Question 1:\n<image> <image> <image> <image> <image> <image> {image#1}{image#2}{image#3}{image#4}{image#5}{image#6}Question: who is the whole-time director (from August 14,2009) ?\nAnswer: Mr. R Ramamurthy\n\nExample Question 2:\n<image> <image> <image> <image> {image#1}{image#2}{image#3}{image#4}Question: Who is Donald K. Tressler?\nAnswer: Scientific Director of the Institute\n\nCurrent Question:\n{image#1}{image#2}{image#3}Question: What is the first line of the address mentioned at the top?<image> <image> <image> ",
+        "gt_response": "Reynolds Building",
+        "gen_kwargs": {
+            "do_sample": false,
+            "num_beams": 1,
+            "max_new_tokens": 32,
+            "eos_token_id": 92542
+        },
+        "pred_response": "CAMEL EXCLUSIVE SHEET"
+    },
+    {
+        "sample_id": 199,
+        "question": "Example Question 1:\n<image> <image> <image> <image> {image#1}{image#2}{image#3}{image#4}Question: What kind of \"studies\" have ITC commenced for few of their products?\nAnswer: life cycle assessment studies\n\nExample Question 2:\n<image> <image> <image> {image#1}{image#2}{image#3}Question: what is the program number ?\nAnswer: 601270\n\nCurrent Question:\n{image#1}{image#2}{image#3}Question: what is the estimated population in poverty in Putnam county ?<image> <image> <image> ",
+        "gt_response": "3,926",
+        "gen_kwargs": {
+            "do_sample": false,
+            "num_beams": 1,
+            "max_new_tokens": 32,
+            "eos_token_id": 92542
+        },
+        "pred_response": "1,000"
+    },
+    {
+        "sample_id": 170,
+        "question": "Example Question 1:\n<image> <image> <image> {image#1}{image#2}{image#3}Question: What is the Payee's Account No.?\nAnswer: cg721t117pb\n\nExample Question 2:\n<image> <image> <image> {image#1}{image#2}{image#3}Question: What is the End Date of Returns ?\nAnswer: 10/10/97\n\nCurrent Question:\n{image#1}{image#2}{image#3}{image#4}Question: What is the minimal volume for GH RRA?<image> <image> <image> <image> ",
+        "gt_response": "3.0 cc",
+        "gen_kwargs": {
+            "do_sample": false,
+            "num_beams": 1,
+            "max_new_tokens": 32,
+            "eos_token_id": 92542
+        },
+        "pred_response": "The minimal volume for GH RRA is 0.5 cc."
+    },
+    {
+        "sample_id": 189,
+        "question": "Example Question 1:\n<image> <image> <image> {image#1}{image#2}{image#3}Question: Which company's name is mentioned?\nAnswer: GOLDEN TOBACCO LIMITED\n\nExample Question 2:\n<image> <image> <image> {image#1}{image#2}{image#3}Question: what is the designation of Dr. F. James Levinson ?\nAnswer: director\n\nCurrent Question:\n{image#1}{image#2}{image#3}{image#4}Question: what is the date of goods Rec?<image> <image> <image> <image> ",
+        "gt_response": "2/13/73",
+        "gen_kwargs": {
+            "do_sample": false,
+            "num_beams": 1,
+            "max_new_tokens": 32,
+            "eos_token_id": 92542
+        },
+        "pred_response": "The date of goods receipt is June 25, 1971."
+    },
+    {
+        "sample_id": 190,
+        "question": "Example Question 1:\n<image> <image> <image> <image> <image> {image#1}{image#2}{image#3}{image#4}{image#5}Question: what is the amount of Potassium mg./100g. for Squash, Winter, seeds removed ?\nAnswer: 407\n\nExample Question 2:\n<image> <image> {image#1}{image#2}Question: When did Charles E. Hirsch promoted as Chief Engineer?\nAnswer: September 1, 1949\n\nCurrent Question:\n{image#1}{image#2}{image#3}{image#4}Question: what is the name of the university mentioned ?<image> <image> <image> <image> ",
+        "gt_response": "Vanderbilt University",
+        "gen_kwargs": {
+            "do_sample": false,
+            "num_beams": 1,
+            "max_new_tokens": 32,
+            "eos_token_id": 92542
+        },
+        "pred_response": "The Nutrition Foundation, Inc."
+    },
+    {
+        "sample_id": 197,
+        "question": "Example Question 1:\n<image> <image> <image> {image#1}{image#2}{image#3}Question: How many pages are there?\nAnswer: 3\n\nExample Question 2:\n<image> <image> <image> {image#1}{image#2}{image#3}Question: what is the designation of Dr. F. James Levinson ?\nAnswer: director\n\nCurrent Question:\n{image#1}{image#2}{image#3}{image#4}Question: what is the invoice number?<image> <image> <image> <image> ",
+        "gt_response": "#154-0071",
+        "gen_kwargs": {
+            "do_sample": false,
+            "num_beams": 1,
+            "max_new_tokens": 32,
+            "eos_token_id": 92542
+        },
+        "pred_response": "The date of the invoice is June 17, 1998."
+    },
+    {
+        "sample_id": 175,
+        "question": "Example Question 1:\n<image> <image> <image> <image> {image#1}{image#2}{image#3}{image#4}Question: \"wisdom and art,strength and wealth are of no avail if health is lacking \" was written by ?\nAnswer: Herophilus\n\nExample Question 2:\n<image> <image> <image> <image> <image> {image#1}{image#2}{image#3}{image#4}{image#5}Question: What is the project name written this sheet\nAnswer: Project \"NN\"\n\nCurrent Question:\n{image#1}{image#2}{image#3}{image#4}{image#5}Question: what is amount of composition for Printer number I ?<image> <image> <image> <image> <image> ",
+        "gt_response": "$ 3,436.98",
+        "gen_kwargs": {
+            "do_sample": false,
+            "num_beams": 1,
+            "max_new_tokens": 32,
+            "eos_token_id": 92542
+        },
+        "pred_response": "The amount of composition for printer number 1 is $6,820.21."
+    },
+    {
+        "sample_id": 180,
+        "question": "Example Question 1:\n<image> <image> {image#1}{image#2}Question: what is the contract no.?\nAnswer: DA-49-007-MD-1024\n\nExample Question 2:\n<image> <image> <image> <image> {image#1}{image#2}{image#3}{image#4}Question: What is the full form of POV?\nAnswer: Privately-Owned Vehicle\n\nCurrent Question:\n{image#1}{image#2}{image#3}{image#4}{image#5}Question: What is the amount of 2nd Quarter check mentioned in the form?<image> <image> <image> <image> <image> ",
+        "gt_response": "150,204.79",
+        "gen_kwargs": {
+            "do_sample": false,
+            "num_beams": 1,
+            "max_new_tokens": 32,
+            "eos_token_id": 92542
+        },
+        "pred_response": "The amount of the 2nd Quarter check is $1,750.51."
+    },
+    {
+        "sample_id": 186,
+        "question": "Example Question 1:\n<image> <image> <image> <image> {image#1}{image#2}{image#3}{image#4}Question: what is the heading at top of the page ?\nAnswer: material safety data sheet\n\nExample Question 2:\n<image> <image> <image> <image> <image> <image> {image#1}{image#2}{image#3}{image#4}{image#5}{image#6}Question: who is the whole-time director (from August 14,2009) ?\nAnswer: Mr. R Ramamurthy\n\nCurrent Question:\n{image#1}{image#2}{image#3}{image#4}{image#5}Question: what is the issue date ?<image> <image> <image> <image> <image> ",
+        "gt_response": "October 26, 1998",
+        "gen_kwargs": {
+            "do_sample": false,
+            "num_beams": 1,
+            "max_new_tokens": 32,
+            "eos_token_id": 92542
+        },
+        "pred_response": "The issue date is August 26, 1998."
+    },
+    {
+        "sample_id": 193,
+        "question": "Example Question 1:\n<image> <image> {image#1}{image#2}Question: what is amount of Potassium mg./100g. of Figs (R)?\nAnswer: 290\n\nExample Question 2:\n<image> <image> <image> <image> <image> <image> {image#1}{image#2}{image#3}{image#4}{image#5}{image#6}Question: what is title on the y axis of fig.1?\nAnswer: PLANT DRY WT(% OF CONTROL)\n\nCurrent Question:\n{image#1}{image#2}{image#3}{image#4}{image#5}Question: what is the location code?<image> <image> <image> <image> <image> ",
+        "gt_response": "11-0010-001",
+        "gen_kwargs": {
+            "do_sample": false,
+            "num_beams": 1,
+            "max_new_tokens": 32,
+            "eos_token_id": 92542
+        },
+        "pred_response": "A3"
+    },
+    {
+        "sample_id": 198,
+        "question": "Example Question 1:\n<image> <image> <image> {image#1}{image#2}{image#3}Question: Which company's name is mentioned?\nAnswer: GOLDEN TOBACCO LIMITED\n\nExample Question 2:\n<image> <image> {image#1}{image#2}Question: To whom is the confirmation addressed?\nAnswer: Kirk Hinshaw\n\nCurrent Question:\n{image#1}{image#2}{image#3}{image#4}{image#5}Question: To which department does Stephen Molnar belong to ?<image> <image> <image> <image> <image> ",
+        "gt_response": "Anthropology",
+        "gen_kwargs": {
+            "do_sample": false,
+            "num_beams": 1,
+            "max_new_tokens": 32,
+            "eos_token_id": 92542
+        },
+        "pred_response": "Stephen Molnar belongs to the Department of Mathematics."
+    },
+    {
+        "sample_id": 139,
+        "question": "Example Question 1:\n<image> <image> <image> {image#1}{image#2}{image#3}Question: what is estimated population in poverty in Lewis ?\nAnswer: 2,299\n\nExample Question 2:\n<image> <image> <image> <image> {image#1}{image#2}{image#3}{image#4}Question: How much is the time and mileage charge given?\nAnswer: 22.85\n\nCurrent Question:\n{image#1}{image#2}{image#3}{image#4}{image#5}{image#6}Question: What is the Home Phone?<image> <image> <image> <image> <image> <image> ",
+        "gt_response": "744-5106",
+        "gen_kwargs": {
+            "do_sample": false,
+            "num_beams": 1,
+            "max_new_tokens": 32,
+            "eos_token_id": 92542
+        },
+        "pred_response": "The Home Phone is 7500."
+    },
+    {
+        "sample_id": 173,
+        "question": "Example Question 1:\n<image> <image> <image> <image> {image#1}{image#2}{image#3}{image#4}Question: Who is the Discussion chairman for application of the morning session on Wednesday, June 23?\nAnswer: John H. Browe\n\nExample Question 2:\n<image> <image> <image> <image> <image> {image#1}{image#2}{image#3}{image#4}{image#5}Question: what is the proposed grand total amount for the year 1976 ?\nAnswer: $ 129,576\n\nCurrent Question:\n{image#1}{image#2}{image#3}{image#4}{image#5}{image#6}Question: what is the title of position for charles L. Paxson ?<image> <image> <image> <image> <image> <image> ",
+        "gt_response": "investigator",
+        "gen_kwargs": {
+            "do_sample": false,
+            "num_beams": 1,
+            "max_new_tokens": 32,
+            "eos_token_id": 92542
+        },
+        "pred_response": "The title of position for Charles L. Paxson is assistant professor of pediatrics."
+    },
+    {
+        "sample_id": 188,
+        "question": "Example Question 1:\n<image> <image> <image> <image> <image> {image#1}{image#2}{image#3}{image#4}{image#5}Question: What is the full form of GLP?\nAnswer: Good Laboratory Practice\n\nExample Question 2:\n<image> <image> <image> <image> {image#1}{image#2}{image#3}{image#4}Question: what is the amount of Calories under Chemical Analyses ?\nAnswer: 2,872 cal\n\nCurrent Question:\n{image#1}{image#2}{image#3}{image#4}{image#5}{image#6}Question: What is th last Holding Date of Equity Owner  mentioned for \"Dalmia Housing Finance Ltd\"?<image> <image> <image> <image> <image> <image> ",
+        "gt_response": "31-Dec-08",
+        "gen_kwargs": {
+            "do_sample": false,
+            "num_beams": 1,
+            "max_new_tokens": 32,
+            "eos_token_id": 92542
+        },
+        "pred_response": "The last holding date of equity owner is 31/12/2015."
+    }
+]

@@ -290,8 +290,19 @@ class V2PE(nn.Module):
             inv_freq = 1.0 / (self.base ** (torch.arange(0, self.dim, 2, device=device, dtype=torch.float32) / self.dim))
             del self.inv_freq
             self.register_buffer('inv_freq', inv_freq, persistent=False)
-
-        pos_id=pos_id.squeeze(0)
+        if pos_id.dim() > 1 and pos_id.size(0) > 1:
+            identical = True
+            first_beam = pos_id[0]
+            for i in range(1, pos_id.size(0)):
+                if not torch.allclose(first_beam, pos_id[i], rtol=1e-05, atol=1e-08):
+                    identical = False
+                    break
+            if not identical:
+                print("[WARNING] pos_id beams are not identical. Using the first beam for rotary encoding.")
+            pos_id = first_beam
+        else:
+            pos_id = pos_id.squeeze(0)
+        # pos_id=pos_id.squeeze(0)
         freqs = torch.outer(pos_id, self.inv_freq.to(device=pos_id.device))
 
         # Different from paper, but it uses a different permutation in order to obtain the same calculation
@@ -713,6 +724,8 @@ class InternLM2FlashAttention2(InternLM2Attention):
         query_states = query_states.transpose(1, 2)
         key_states = key_states.transpose(1, 2)
         value_states = value_states.transpose(1, 2)
+        # print("[5] Before InternLM2FlashAttention2 attn_output = self._flash_attention_forward(")
+        # print(attention_mask)
         attn_output = self._flash_attention_forward(
             query_states, key_states, value_states, attention_mask, q_len
         )
@@ -750,6 +763,9 @@ class InternLM2FlashAttention2(InternLM2Attention):
         """
         # Contains at least one padding token in the sequence
         causal = self.is_causal and query_length != 1
+        # print(attention_mask is not None)
+        # print("[6] After InternLM2FlashAttention2")
+        # print(attention_mask)
         if attention_mask is not None:
             batch_size = query_states.shape[0]
             query_states, key_states, value_states, indices_q, cu_seq_lens, max_seq_lens = self._unpad_input(
@@ -1434,7 +1450,9 @@ class InternLM2DecoderLayer(nn.Module):
                 compressed_pos_id=torch.arange(0,compressed_data.shape[1]).unsqueeze(0).repeat(B,1).cuda()
                 compressed_data = self.interaction(compressed_data, new_cu_seq_lens, compressed_pos_id, None, output_attentions, use_cache)[0] # 1， 4*100， E
                 chunk_num=compressed_data.size(1)//N
-        
+        # print('[4] InternLM2DecoderLayer hidden_states, self_attn_weights, present_key_value = self.attention(')
+        # print(attention_mask)
+        # print(f"[DEBUG] in self.attention() forward, position_ids={position_ids.shape}")
         hidden_states, self_attn_weights, present_key_value = self.attention(
             hidden_states=hidden_states,
             attention_mask=attention_mask,
@@ -1674,6 +1692,9 @@ class InternLM2Model(InternLM2PreTrainedModel):
             interaction: Optional[bool] = True,
             selected: Optional[torch.tensor] = None,
     ) -> Union[Tuple, BaseModelOutputWithPast]:
+        
+        # print('Before InternLM2Model')
+        # print(attention_mask)
         # origin_cu_seq_lens: B,N
         global local_group
         if group_list is not None:
@@ -1762,6 +1783,8 @@ class InternLM2Model(InternLM2PreTrainedModel):
                         return module(*inputs, output_attentions, None)
 
                     return custom_forward
+                # print('[3] Before create_custom_forward')
+                # print(attention_mask)
                 layer_outputs = torch.utils.checkpoint.checkpoint(
                     create_custom_forward(decoder_layer),
                     hidden_states,
@@ -1773,6 +1796,7 @@ class InternLM2Model(InternLM2PreTrainedModel):
                     selected,
                 )
             else:
+                # print(f"[DEBUG] in decoder_layer forward(), position_ids={position_ids.shape}")
                 layer_outputs = decoder_layer(
                     hidden_states,
                     attention_mask=attention_mask,
@@ -1927,6 +1951,11 @@ class InternLM2ForCausalLM(InternLM2PreTrainedModel):
         )
         return_dict = return_dict if return_dict is not None else self.config.use_return_dict
         # decoder outputs consists of (dec_features, layer_state, dec_hidden, dec_attn)
+        # print('[2] Before InternLM2ForCausalLM')
+        # print(attention_mask)
+        # print(f"[DEBUG] in self.model(), position_ids.shape={position_ids.shape if position_ids is not None else None}")
+        # print(f"[DEBUG] input_ids.shape={input_ids.shape if input_ids is not None else None}")
+        # print(f"[DEBUG] attention_mask.shape={attention_mask.shape if attention_mask is not None else None}")
         outputs = self.model(
             input_ids=input_ids,
             attention_mask=attention_mask,
@@ -2067,7 +2096,7 @@ class InternLM2ForCausalLM(InternLM2PreTrainedModel):
             eos_token_id=eos_token_id,
             **kwargs,
         )
-        outputs = outputs[0].cpu().tolist()[len(inputs['input_ids'][0]) :]
+        outputs = outputs[0].cpu().tolist()[len(inputs['input_ids'][0]):]
         response = tokenizer.decode(outputs, skip_special_tokens=True)
         response = response.split('<|im_end|>')[0]
         history = history + [(query, response)]

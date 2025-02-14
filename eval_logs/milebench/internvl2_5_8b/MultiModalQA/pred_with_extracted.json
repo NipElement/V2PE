@@ -600,106 +600,6 @@
         "result": 1
     },
     {
-        "sample_id": 24,
-        "question": "Using the array of information, including imagery, textual data, and tables, could you provide an accurate answer to the posed question? You must choose your answer from the Choice List. \nGlobal Table: <image> Context: <image> Question: Does Vitali Gudiyev's 2014-15 club have green and white colors?\nChoice list: \nA. yes\nB. yellow and black\nC. blue and white\nD. no\nAnswer with the option's letter from the given choices directly.",
-        "gt_response": "yes",
-        "gen_kwargs": {
-            "do_sample": false,
-            "num_beams": 1,
-            "max_new_tokens": 32,
-            "eos_token_id": 0
-        },
-        "pred_response": "a2014 15",
-        "choice_list": [
-            "yes",
-            "yellow and black",
-            "blue and white",
-            "no"
-        ],
-        "image_quantity_level": "Few",
-        "image": [
-            "48.png",
-            "49.png"
-        ],
-        "extracted": "A",
-        "result": 1
-    },
-    {
-        "sample_id": 25,
-        "question": "Utilizing the information, including images, text, and tables that I provide, could you provide a correct answer to the following question? You must choose your answer from the Choice List. \nGlobal Table: <image> Context: <image> Question: Are the colors for FC Akhmat Grozny green and white?\nChoice list: \nA. blue and yellow\nB. red and white\nC. no\nD. yes\nAnswer with the option's letter from the given choices directly.",
-        "gt_response": "yes",
-        "gen_kwargs": {
-            "do_sample": false,
-            "num_beams": 1,
-            "max_new_tokens": 32,
-            "eos_token_id": 0
-        },
-        "pred_response": "dpfl00000",
-        "choice_list": [
-            "blue and yellow",
-            "red and white",
-            "no",
-            "yes"
-        ],
-        "image_quantity_level": "Few",
-        "image": [
-            "50.png",
-            "51.png"
-        ],
-        "extracted": "D",
-        "result": 1
-    },
-    {
-        "sample_id": 26,
-        "question": "Relying on the furnished information, which includes graphics, text, and tabular data, could you provide an accurate response to the following question? You must choose your answer from the Choice List. \nGlobal Table: <image> Context: <image> Question: When the home team was the New Zealand Warriors, what was the color of the away team's logo in Round 20 of the 2020 NRL season?\nChoice list: \nA. black\nB. blue\nC. white\nD. green\nAnswer with the option's letter from the given choices directly.",
-        "gt_response": "black",
-        "gen_kwargs": {
-            "do_sample": false,
-            "num_beams": 1,
-            "max_new_tokens": 32,
-            "eos_token_id": 0
-        },
-        "pred_response": "a black:",
-        "choice_list": [
-            "black",
-            "blue",
-            "white",
-            "green"
-        ],
-        "image_quantity_level": "Few",
-        "image": [
-            "52.png",
-            "53.png"
-        ],
-        "extracted": "A",
-        "result": 1
-    },
-    {
-        "sample_id": 27,
-        "question": "With the amalgam of information provided, encompassing images, texts, and tables, please construct a correct answer to the following question. You must choose your answer from the Choice List. \nGlobal Table: <image> Context: <image> Question: What is the figure lifting in the 2015 World Weightlifting Championships icon?\nChoice list: \nA. barbell\nB. weight plate\nC. dumbbell\nD. kettlebell\nAnswer with the option's letter from the given choices directly.",
-        "gt_response": "barbell",
-        "gen_kwargs": {
-            "do_sample": false,
-            "num_beams": 1,
-            "max_new_tokens": 32,
-            "eos_token_id": 0
-        },
-        "pred_response": "a",
-        "choice_list": [
-            "barbell",
-            "weight plate",
-            "dumbbell",
-            "kettlebell"
-        ],
-        "image_quantity_level": "Few",
-        "image": [
-            "54.png",
-            "55.png"
-        ],
-        "extracted": "A",
-        "result": 1
-    },
-    {
         "sample_id": 158,
         "question": "Based on the data provided, which includes various forms like images, text, and tables, please respond to the following query. You must choose your answer from the Choice List. \nGlobal Table: <image> Context: <image> <image> Question: Which Driver(s), in Top 10 results of 2000 DirecTV 500, have a mustache?\nChoice list: \nA. Jimmie Johnson. Jeff Gordon.\nB. Kyle Busch.\nC. Terry LabonteDale Earnhardt\nAnswer with the option's letter from the given choices directly.",
         "gt_response": "terry labontedale earnhardt",
@@ -838,6 +738,106 @@
         ],
         "extracted": "CDDDCCAACADCACAC",
         "result": 0
+    },
+    {
+        "sample_id": 24,
+        "question": "Using the array of information, including imagery, textual data, and tables, could you provide an accurate answer to the posed question? You must choose your answer from the Choice List. \nGlobal Table: <image> Context: <image> Question: Does Vitali Gudiyev's 2014-15 club have green and white colors?\nChoice list: \nA. yes\nB. yellow and black\nC. blue and white\nD. no\nAnswer with the option's letter from the given choices directly.",
+        "gt_response": "yes",
+        "gen_kwargs": {
+            "do_sample": false,
+            "num_beams": 1,
+            "max_new_tokens": 32,
+            "eos_token_id": 0
+        },
+        "pred_response": "a2014 15",
+        "choice_list": [
+            "yes",
+            "yellow and black",
+            "blue and white",
+            "no"
+        ],
+        "image_quantity_level": "Few",
+        "image": [
+            "48.png",
+            "49.png"
+        ],
+        "extracted": "A",
+        "result": 1
+    },
+    {
+        "sample_id": 25,
+        "question": "Utilizing the information, including images, text, and tables that I provide, could you provide a correct answer to the following question? You must choose your answer from the Choice List. \nGlobal Table: <image> Context: <image> Question: Are the colors for FC Akhmat Grozny green and white?\nChoice list: \nA. blue and yellow\nB. red and white\nC. no\nD. yes\nAnswer with the option's letter from the given choices directly.",
+        "gt_response": "yes",
+        "gen_kwargs": {
+            "do_sample": false,
+            "num_beams": 1,
+            "max_new_tokens": 32,
+            "eos_token_id": 0
+        },
+        "pred_response": "dpfl00000",
+        "choice_list": [
+            "blue and yellow",
+            "red and white",
+            "no",
+            "yes"
+        ],
+        "image_quantity_level": "Few",
+        "image": [
+            "50.png",
+            "51.png"
+        ],
+        "extracted": "D",
+        "result": 1
+    },
+    {
+        "sample_id": 26,
+        "question": "Relying on the furnished information, which includes graphics, text, and tabular data, could you provide an accurate response to the following question? You must choose your answer from the Choice List. \nGlobal Table: <image> Context: <image> Question: When the home team was the New Zealand Warriors, what was the color of the away team's logo in Round 20 of the 2020 NRL season?\nChoice list: \nA. black\nB. blue\nC. white\nD. green\nAnswer with the option's letter from the given choices directly.",
+        "gt_response": "black",
+        "gen_kwargs": {
+            "do_sample": false,
+            "num_beams": 1,
+            "max_new_tokens": 32,
+            "eos_token_id": 0
+        },
+        "pred_response": "a black:",
+        "choice_list": [
+            "black",
+            "blue",
+            "white",
+            "green"
+        ],
+        "image_quantity_level": "Few",
+        "image": [
+            "52.png",
+            "53.png"
+        ],
+        "extracted": "A",
+        "result": 1
+    },
+    {
+        "sample_id": 27,
+        "question": "With the amalgam of information provided, encompassing images, texts, and tables, please construct a correct answer to the following question. You must choose your answer from the Choice List. \nGlobal Table: <image> Context: <image> Question: What is the figure lifting in the 2015 World Weightlifting Championships icon?\nChoice list: \nA. barbell\nB. weight plate\nC. dumbbell\nD. kettlebell\nAnswer with the option's letter from the given choices directly.",
+        "gt_response": "barbell",
+        "gen_kwargs": {
+            "do_sample": false,
+            "num_beams": 1,
+            "max_new_tokens": 32,
+            "eos_token_id": 0
+        },
+        "pred_response": "a",
+        "choice_list": [
+            "barbell",
+            "weight plate",
+            "dumbbell",
+            "kettlebell"
+        ],
+        "image_quantity_level": "Few",
+        "image": [
+            "54.png",
+            "55.png"
+        ],
+        "extracted": "A",
+        "result": 1
     },
     {
         "sample_id": 28,
@@ -1340,6 +1340,61 @@
         "result": 0
     },
     {
+        "sample_id": 190,
+        "question": "With the amalgam of information provided, encompassing images, texts, and tables, please construct a correct answer to the following question. You must choose your answer from the Choice List. \nGlobal Table: <image> Context: <image> <image> Question: Which Conference(s), in Football conferences of List of NAIA conferences, has stars in logo?\nChoice list: \nA. Sooner Athletic Conference. Kansas Collegiate Athletic Conference.\nB. Great Plains Athletic ConferenceMid-South Conference\nC. Heart of America Athletic Conference.\nAnswer with the option's letter from the given choices directly.",
+        "gt_response": "great plains athletic conferencemid south conference",
+        "gen_kwargs": {
+            "do_sample": false,
+            "num_beams": 1,
+            "max_new_tokens": 32,
+            "eos_token_id": 0
+        },
+        "pred_response": "bgpac",
+        "choice_list": [
+            "sooner athletic conference kansas collegiate athletic conference",
+            "great plains athletic conferencemid south conference",
+            "heart of america athletic conference"
+        ],
+        "image_quantity_level": "Few",
+        "image": [
+            "408.png",
+            "409.jpg",
+            "410.png"
+        ],
+        "extracted": "BAC",
+        "result": 0
+    },
+    {
+        "sample_id": 186,
+        "question": "Utilizing the information, including images, text, and tables that I provide, could you provide a correct answer to the following question? You must choose your answer from the Choice List. \nGlobal Table: <image> Context: <image> <image> <image> <image> <image> <image> Question: Which Cover model(s), in 1998 of List of Allure cover models, have blonde hair?\nChoice list: \nA. Gisele B\u00fcndchen\nB. Drew Barrymore\nC. Eva Herzigov\u00e1Rebecca RomijnJennifer AnistonHelen HuntNiki TaylorClaudia Schiffer\nD. Cameron Diaz\nAnswer with the option's letter from the given choices directly.",
+        "gt_response": "eva herzigov\u00e1rebecca romijnjennifer anistonhelen huntniki taylorclaudia schiffer",
+        "gen_kwargs": {
+            "do_sample": false,
+            "num_beams": 1,
+            "max_new_tokens": 32,
+            "eos_token_id": 0
+        },
+        "pred_response": "c1998",
+        "choice_list": [
+            "gisele b\u00fcndchen",
+            "drew barrymore",
+            "eva herzigov\u00e1rebecca romijnjennifer anistonhelen huntniki taylorclaudia schiffer",
+            "cameron diaz"
+        ],
+        "image_quantity_level": "Medium",
+        "image": [
+            "390.png",
+            "391.jpg",
+            "392.jpg",
+            "393.jpg",
+            "394.jpg",
+            "395.jpg",
+            "396.jpg"
+        ],
+        "extracted": "C",
+        "result": 1
+    },
+    {
         "sample_id": 48,
         "question": "Using the relevant information I provide, which encompasses images, text, and tables, please accurately answer the question. You must choose your answer from the Choice List. \nGlobal Table: <image> Context: <image> Question: Which team that has a man with feathers in his hair on its logo played the New York Rangers in the 1945-46 season?\nChoice list: \nA. Montreal Canadiens\nB. Boston Bruins\nC. Chicago Blackhawks\nD. Detroit Red Wings\nAnswer with the option's letter from the given choices directly.",
         "gt_response": "chicago blackhawks",
@@ -1538,61 +1593,6 @@
         ],
         "extracted": "B",
         "result": 0
-    },
-    {
-        "sample_id": 190,
-        "question": "With the amalgam of information provided, encompassing images, texts, and tables, please construct a correct answer to the following question. You must choose your answer from the Choice List. \nGlobal Table: <image> Context: <image> <image> Question: Which Conference(s), in Football conferences of List of NAIA conferences, has stars in logo?\nChoice list: \nA. Sooner Athletic Conference. Kansas Collegiate Athletic Conference.\nB. Great Plains Athletic ConferenceMid-South Conference\nC. Heart of America Athletic Conference.\nAnswer with the option's letter from the given choices directly.",
-        "gt_response": "great plains athletic conferencemid south conference",
-        "gen_kwargs": {
-            "do_sample": false,
-            "num_beams": 1,
-            "max_new_tokens": 32,
-            "eos_token_id": 0
-        },
-        "pred_response": "bgpac",
-        "choice_list": [
-            "sooner athletic conference kansas collegiate athletic conference",
-            "great plains athletic conferencemid south conference",
-            "heart of america athletic conference"
-        ],
-        "image_quantity_level": "Few",
-        "image": [
-            "408.png",
-            "409.jpg",
-            "410.png"
-        ],
-        "extracted": "BAC",
-        "result": 0
-    },
-    {
-        "sample_id": 186,
-        "question": "Utilizing the information, including images, text, and tables that I provide, could you provide a correct answer to the following question? You must choose your answer from the Choice List. \nGlobal Table: <image> Context: <image> <image> <image> <image> <image> <image> Question: Which Cover model(s), in 1998 of List of Allure cover models, have blonde hair?\nChoice list: \nA. Gisele B\u00fcndchen\nB. Drew Barrymore\nC. Eva Herzigov\u00e1Rebecca RomijnJennifer AnistonHelen HuntNiki TaylorClaudia Schiffer\nD. Cameron Diaz\nAnswer with the option's letter from the given choices directly.",
-        "gt_response": "eva herzigov\u00e1rebecca romijnjennifer anistonhelen huntniki taylorclaudia schiffer",
-        "gen_kwargs": {
-            "do_sample": false,
-            "num_beams": 1,
-            "max_new_tokens": 32,
-            "eos_token_id": 0
-        },
-        "pred_response": "c1998",
-        "choice_list": [
-            "gisele b\u00fcndchen",
-            "drew barrymore",
-            "eva herzigov\u00e1rebecca romijnjennifer anistonhelen huntniki taylorclaudia schiffer",
-            "cameron diaz"
-        ],
-        "image_quantity_level": "Medium",
-        "image": [
-            "390.png",
-            "391.jpg",
-            "392.jpg",
-            "393.jpg",
-            "394.jpg",
-            "395.jpg",
-            "396.jpg"
-        ],
-        "extracted": "C",
-        "result": 1
     },
     {
         "sample_id": 56,
@@ -1995,6 +1995,35 @@
         "result": 1
     },
     {
+        "sample_id": 188,
+        "question": "With the aid of provided information like images, text, and tables, your assignment is to respond correctly to the question. You must choose your answer from the Choice List. \nGlobal Table: <image> Context: <image> <image> <image> <image> <image> <image> Question: When looking at the opening ceremonies of 2019's PBA season, which of the teams listed there have a basketball on their logo?\nChoice list: \nA. Talk 'N Text Tropang Giga.\nB. Phoenix Pulse Fuel Masters. San Miguel Beermen. Barangay Ginebra San Miguel.\nC. Rain or Shine Elasto PaintersMeralco BoltsNLEX Road WarriorsAlaska Aces (PBA)Phoenix Pulse Fuel MastersSan Miguel Beermen\nAnswer with the option's letter from the given choices directly.",
+        "gt_response": "rain or shine elasto paintersmeralco boltsnlex road warriorsalaska aces pba phoenix pulse fuel masterssan miguel beermen",
+        "gen_kwargs": {
+            "do_sample": false,
+            "num_beams": 1,
+            "max_new_tokens": 32,
+            "eos_token_id": 0
+        },
+        "pred_response": "c rain or shine elasto paintersmeralco boltsnlex road warriorsalaska aces pba phoenix",
+        "choice_list": [
+            "talk 'n text tropang giga",
+            "phoenix pulse fuel masters san miguel beermen barangay ginebra san miguel",
+            "rain or shine elasto paintersmeralco boltsnlex road warriorsalaska aces pba phoenix pulse fuel masterssan miguel beermen"
+        ],
+        "image_quantity_level": "Medium",
+        "image": [
+            "399.png",
+            "400.png",
+            "401.jpg",
+            "402.png",
+            "403.jpg",
+            "404.png",
+            "405.jpg"
+        ],
+        "extracted": "C",
+        "result": 1
+    },
+    {
         "sample_id": 72,
         "question": "Considering the information in different formats I've provided you, could you formulate a correct response to the ensuing query? You must choose your answer from the Choice List. \nGlobal Table: <image> Context: <image> Question: In the logo for the television program that Mel Martinez was in in 2019, what is the color in the background?\nChoice list: \nA. blue\nB. red\nC. green\nD. yellow\nAnswer with the option's letter from the given choices directly.",
         "gt_response": "blue",
@@ -2292,35 +2321,6 @@
             "167.jpg"
         ],
         "extracted": "A",
-        "result": 1
-    },
-    {
-        "sample_id": 188,
-        "question": "With the aid of provided information like images, text, and tables, your assignment is to respond correctly to the question. You must choose your answer from the Choice List. \nGlobal Table: <image> Context: <image> <image> <image> <image> <image> <image> Question: When looking at the opening ceremonies of 2019's PBA season, which of the teams listed there have a basketball on their logo?\nChoice list: \nA. Talk 'N Text Tropang Giga.\nB. Phoenix Pulse Fuel Masters. San Miguel Beermen. Barangay Ginebra San Miguel.\nC. Rain or Shine Elasto PaintersMeralco BoltsNLEX Road WarriorsAlaska Aces (PBA)Phoenix Pulse Fuel MastersSan Miguel Beermen\nAnswer with the option's letter from the given choices directly.",
-        "gt_response": "rain or shine elasto paintersmeralco boltsnlex road warriorsalaska aces pba phoenix pulse fuel masterssan miguel beermen",
-        "gen_kwargs": {
-            "do_sample": false,
-            "num_beams": 1,
-            "max_new_tokens": 32,
-            "eos_token_id": 0
-        },
-        "pred_response": "c rain or shine elasto paintersmeralco boltsnlex road warriorsalaska aces pba phoenix",
-        "choice_list": [
-            "talk 'n text tropang giga",
-            "phoenix pulse fuel masters san miguel beermen barangay ginebra san miguel",
-            "rain or shine elasto paintersmeralco boltsnlex road warriorsalaska aces pba phoenix pulse fuel masterssan miguel beermen"
-        ],
-        "image_quantity_level": "Medium",
-        "image": [
-            "399.png",
-            "400.png",
-            "401.jpg",
-            "402.png",
-            "403.jpg",
-            "404.png",
-            "405.jpg"
-        ],
-        "extracted": "C",
         "result": 1
     },
     {

@@ -1,0 +1,5143 @@
+[
+    {
+        "sample_id": 0,
+        "question": "Example Question 1:\n<image> <image> <image> {image#1}Psalms of Lament (Large Print Edition){image#2}Oman{image#3}Mix 'n' Match Meals in Minutes for People with Diabetes: A No-Brainer Solution to Meal PreparationQuestion: Please give the correct text order corresponding to each bookchoose\nAnswer: 0,2,1\n\nCurrent Question:\n{image#1}{image#2}Question: Are these two books in the same field?<image> <image> ",
+        "gt_response": "medical books",
+        "gen_kwargs": {
+            "do_sample": false,
+            "num_beams": 1,
+            "max_new_tokens": 32,
+            "eos_token_id": 92542
+        },
+        "pred_response": "no",
+        "choice_list": [
+            "humor & entertainment",
+            "medical books",
+            "not the same",
+            "travel"
+        ],
+        "image_quantity_level": "Few",
+        "image": [
+            "0.jpg",
+            "1.jpg"
+        ],
+        "extracted": "",
+        "result": 0
+    },
+    {
+        "sample_id": 1,
+        "question": "Example Question 1:\n<image> <image> {image#1}{image#2}Question: Are the authors of these two books the same?\nAnswer: Tyler Omoth\n\nCurrent Question:\n{image#1}{image#2}Question: Are these two books in the same field?<image> <image> ",
+        "gt_response": "children's books",
+        "gen_kwargs": {
+            "do_sample": false,
+            "num_beams": 1,
+            "max_new_tokens": 32,
+            "eos_token_id": 92542
+        },
+        "pred_response": "no",
+        "choice_list": [
+            "health fitness & dieting",
+            "not the same",
+            "children's books",
+            "computers & technology"
+        ],
+        "image_quantity_level": "Few",
+        "image": [
+            "2.jpg",
+            "3.jpg"
+        ],
+        "extracted": "",
+        "result": 0
+    },
+    {
+        "sample_id": 2,
+        "question": "Example Question 1:\n<image> <image> {image#1}{image#2}Question: Are the following two books published in the same year?\nAnswer: 2016\n\nCurrent Question:\n{image#1}{image#2}Question: Are the following two books published in the same year?<image> <image> ",
+        "gt_response": "2016",
+        "gen_kwargs": {
+            "do_sample": false,
+            "num_beams": 1,
+            "max_new_tokens": 32,
+            "eos_token_id": 92542
+        },
+        "pred_response": "yes both books are published in the same year 2016",
+        "choice_list": [
+            "2016",
+            "2015",
+            "not the same",
+            "2017"
+        ],
+        "image_quantity_level": "Few",
+        "image": [
+            "4.jpg",
+            "5.jpg"
+        ],
+        "extracted": "A",
+        "result": 1
+    },
+    {
+        "sample_id": 3,
+        "question": "Example Question 1:\n<image> <image> {image#1}{image#2}Question: Are the authors of these two books the same?\nAnswer: Lonely Planet\n\nCurrent Question:\n{image#1}{image#2}Question: Are the following two books published in the same year?<image> <image> ",
+        "gt_response": "2016",
+        "gen_kwargs": {
+            "do_sample": false,
+            "num_beams": 1,
+            "max_new_tokens": 32,
+            "eos_token_id": 92542
+        },
+        "pred_response": "yes both books are published in the same year",
+        "choice_list": [
+            "2017",
+            "2015",
+            "2016",
+            "not the same"
+        ],
+        "image_quantity_level": "Few",
+        "image": [
+            "6.jpg",
+            "7.jpg"
+        ],
+        "extracted": "BBABDAA",
+        "result": 0
+    },
+    {
+        "sample_id": 4,
+        "question": "Example Question 1:\n<image> <image> {image#1}{image#2}Question: Are the following two books published in the same year?\nAnswer: 2016\n\nCurrent Question:\n{image#1}{image#2}Question: Are the following two books published in the same year?<image> <image> ",
+        "gt_response": "2016",
+        "gen_kwargs": {
+            "do_sample": false,
+            "num_beams": 1,
+            "max_new_tokens": 32,
+            "eos_token_id": 92542
+        },
+        "pred_response": "yes both books are published in the same year 2016",
+        "choice_list": [
+            "2016",
+            "not the same",
+            "2017",
+            "2015"
+        ],
+        "image_quantity_level": "Few",
+        "image": [
+            "8.jpg",
+            "9.jpg"
+        ],
+        "extracted": "A",
+        "result": 1
+    },
+    {
+        "sample_id": 5,
+        "question": "Example Question 1:\n<image> <image> {image#1}{image#2}Question: Are these two books in the same field?\nAnswer: Travel\n\nCurrent Question:\n{image#1}{image#2}Question: Are the authors of these two books the same?<image> <image> ",
+        "gt_response": "steven l emanuel",
+        "gen_kwargs": {
+            "do_sample": false,
+            "num_beams": 1,
+            "max_new_tokens": 32,
+            "eos_token_id": 92542
+        },
+        "pred_response": "no",
+        "choice_list": [
+            "not the same",
+            "steven l emanuel",
+            "clive cussler",
+            "parragon books"
+        ],
+        "image_quantity_level": "Few",
+        "image": [
+            "10.jpg",
+            "11.jpg"
+        ],
+        "extracted": "",
+        "result": 0
+    },
+    {
+        "sample_id": 9,
+        "question": "Example Question 1:\n<image> <image> {image#1}{image#2}Question: Are the following two books published in the same year?\nAnswer: 2016\n\nCurrent Question:\n{image#1}{image#2}Question: Are the authors of these two books the same?<image> <image> ",
+        "gt_response": "william shakespeare",
+        "gen_kwargs": {
+            "do_sample": false,
+            "num_beams": 1,
+            "max_new_tokens": 32,
+            "eos_token_id": 92542
+        },
+        "pred_response": "no",
+        "choice_list": [
+            "william shakespeare",
+            "not the same",
+            "michelin travel & lifestyle",
+            "dk publishing"
+        ],
+        "image_quantity_level": "Few",
+        "image": [
+            "21.jpg",
+            "22.jpg"
+        ],
+        "extracted": "",
+        "result": 0
+    },
+    {
+        "sample_id": 10,
+        "question": "Example Question 1:\n<image> <image> {image#1}{image#2}Question: Are these two books in the same field?\nAnswer: Science & Math\n\nCurrent Question:\n{image#1}{image#2}Question: Are these two books in the same field?<image> <image> ",
+        "gt_response": "health fitness & dieting",
+        "gen_kwargs": {
+            "do_sample": false,
+            "num_beams": 1,
+            "max_new_tokens": 32,
+            "eos_token_id": 92542
+        },
+        "pred_response": "no",
+        "choice_list": [
+            "not the same",
+            "health fitness & dieting",
+            "christian books & bibles",
+            "children's books"
+        ],
+        "image_quantity_level": "Few",
+        "image": [
+            "23.jpg",
+            "24.jpg"
+        ],
+        "extracted": "",
+        "result": 0
+    },
+    {
+        "sample_id": 13,
+        "question": "Example Question 1:\n<image> <image> {image#1}{image#2}Question: Are the following two books published in the same year?\nAnswer: 2016\n\nCurrent Question:\n{image#1}{image#2}Question: Are the authors of these two books the same?<image> <image> ",
+        "gt_response": "michael connelly",
+        "gen_kwargs": {
+            "do_sample": false,
+            "num_beams": 1,
+            "max_new_tokens": 32,
+            "eos_token_id": 92542
+        },
+        "pred_response": "no",
+        "choice_list": [
+            "jane o'connor",
+            "not the same",
+            "michael connelly",
+            "jack canfield"
+        ],
+        "image_quantity_level": "Few",
+        "image": [
+            "31.jpg",
+            "32.jpg"
+        ],
+        "extracted": "",
+        "result": 0
+    },
+    {
+        "sample_id": 14,
+        "question": "Example Question 1:\n<image> <image> <image> {image#1}Above Top Secret: Uncover the Mysteries of the Digital Age{image#2}All You Need for a Snowman{image#3}Comrades to the End: The 4th SS Panzer-Grenadier Regiment \"Der F\u00fchrer\" 1938-1945: The History of a German-Austrian Fighting Unit (Schiffer Military History)Question: Please give the correct text order corresponding to each bookchoose\nAnswer: 0,2,1\n\nCurrent Question:\n{image#1}{image#2}Question: Are the following two books published in the same year?<image> <image> ",
+        "gt_response": "2016",
+        "gen_kwargs": {
+            "do_sample": false,
+            "num_beams": 1,
+            "max_new_tokens": 32,
+            "eos_token_id": 92542
+        },
+        "pred_response": "no",
+        "choice_list": [
+            "2017",
+            "not the same",
+            "2015",
+            "2016"
+        ],
+        "image_quantity_level": "Few",
+        "image": [
+            "33.jpg",
+            "34.jpg"
+        ],
+        "extracted": "",
+        "result": 0
+    },
+    {
+        "sample_id": 17,
+        "question": "Example Question 1:\n<image> <image> <image> {image#1}Menopause: Manage Its Symptoms with the Blood Type Diet: The Individualized Plan for Preventing and Treating Hot Flashes, Lossof Libido, Mood Changes, Osteoporosis, and Related Conditions{image#2}A Color Atlas of Histology{image#3}Consumer Law in the Global Economy: National and International DimensionsQuestion: Please give the correct text order corresponding to each bookchoose\nAnswer: 0,2,1\n\nCurrent Question:\n{image#1}{image#2}Question: Are these two books in the same field?<image> <image> ",
+        "gt_response": "travel",
+        "gen_kwargs": {
+            "do_sample": false,
+            "num_beams": 1,
+            "max_new_tokens": 32,
+            "eos_token_id": 92542
+        },
+        "pred_response": "no",
+        "choice_list": [
+            "humor & entertainment",
+            "travel",
+            "health fitness & dieting",
+            "not the same"
+        ],
+        "image_quantity_level": "Few",
+        "image": [
+            "41.jpg",
+            "42.jpg"
+        ],
+        "extracted": "",
+        "result": 0
+    },
+    {
+        "sample_id": 18,
+        "question": "Example Question 1:\n<image> <image> {image#1}{image#2}Question: Are the following two books published in the same year?\nAnswer: 2016\n\nCurrent Question:\n{image#1}{image#2}Question: Are these two books in the same field?<image> <image> ",
+        "gt_response": "medical books",
+        "gen_kwargs": {
+            "do_sample": false,
+            "num_beams": 1,
+            "max_new_tokens": 32,
+            "eos_token_id": 92542
+        },
+        "pred_response": "no",
+        "choice_list": [
+            "medical books",
+            "business & money",
+            "sports & outdoors",
+            "not the same"
+        ],
+        "image_quantity_level": "Few",
+        "image": [
+            "43.jpg",
+            "44.jpg"
+        ],
+        "extracted": "",
+        "result": 0
+    },
+    {
+        "sample_id": 20,
+        "question": "Example Question 1:\n<image> <image> <image> {image#1}1. Kilimanjaro & Tanzania North Travel Map 1: 62,500/1,370,000{image#2}2016 National Parks Wall Calendar{image#3}Simply Modern: Contemporary Designs for Hooked RugsQuestion: Please give the correct text order corresponding to each bookchoose\nAnswer: 1,0,2\n\nCurrent Question:\n{image#1}{image#2}Question: Are these two books in the same field?<image> <image> ",
+        "gt_response": "humor & entertainment",
+        "gen_kwargs": {
+            "do_sample": false,
+            "num_beams": 1,
+            "max_new_tokens": 32,
+            "eos_token_id": 92542
+        },
+        "pred_response": "no",
+        "choice_list": [
+            "humor & entertainment",
+            "not the same",
+            "crafts hobbies & home",
+            "cookbooks food & wine"
+        ],
+        "image_quantity_level": "Few",
+        "image": [
+            "48.jpg",
+            "49.jpg"
+        ],
+        "extracted": "",
+        "result": 0
+    },
+    {
+        "sample_id": 22,
+        "question": "Example Question 1:\n<image> <image> {image#1}{image#2}Question: Are these two books in the same field?\nAnswer: Medical Books\n\nCurrent Question:\n{image#1}{image#2}Question: Are these two books in the same field?<image> <image> ",
+        "gt_response": "business & money",
+        "gen_kwargs": {
+            "do_sample": false,
+            "num_beams": 1,
+            "max_new_tokens": 32,
+            "eos_token_id": 92542
+        },
+        "pred_response": "no",
+        "choice_list": [
+            "business & money",
+            "literature & fiction",
+            "not the same",
+            "children's books"
+        ],
+        "image_quantity_level": "Few",
+        "image": [
+            "53.jpg",
+            "54.jpg"
+        ],
+        "extracted": "",
+        "result": 0
+    },
+    {
+        "sample_id": 23,
+        "question": "Example Question 1:\n<image> <image> {image#1}{image#2}Question: Are these two books in the same field?\nAnswer: Travel\n\nCurrent Question:\n{image#1}{image#2}Question: Are the authors of these two books the same?<image> <image> ",
+        "gt_response": "chilton",
+        "gen_kwargs": {
+            "do_sample": false,
+            "num_beams": 1,
+            "max_new_tokens": 32,
+            "eos_token_id": 92542
+        },
+        "pred_response": "no the authors of these two books are not the same",
+        "choice_list": [
+            "william shakespeare",
+            "inc barcharts",
+            "chilton",
+            "not the same"
+        ],
+        "image_quantity_level": "Few",
+        "image": [
+            "55.jpg",
+            "56.jpg"
+        ],
+        "extracted": "D",
+        "result": 0
+    },
+    {
+        "sample_id": 25,
+        "question": "Example Question 1:\n<image> <image> {image#1}{image#2}Question: Are the following two books published in the same year?\nAnswer: 2016\n\nCurrent Question:\n{image#1}{image#2}Question: Are the following two books published in the same year?<image> <image> ",
+        "gt_response": "2016",
+        "gen_kwargs": {
+            "do_sample": false,
+            "num_beams": 1,
+            "max_new_tokens": 32,
+            "eos_token_id": 92542
+        },
+        "pred_response": "yes both books are published in the same year 2016",
+        "choice_list": [
+            "2015",
+            "2016",
+            "not the same",
+            "2017"
+        ],
+        "image_quantity_level": "Few",
+        "image": [
+            "60.jpg",
+            "61.jpg"
+        ],
+        "extracted": "B",
+        "result": 1
+    },
+    {
+        "sample_id": 26,
+        "question": "Example Question 1:\n<image> <image> {image#1}{image#2}Question: Are these two books in the same field?\nAnswer: Health, Fitness & Dieting\n\nCurrent Question:\n{image#1}{image#2}Question: Are these two books in the same field?<image> <image> ",
+        "gt_response": "medical books",
+        "gen_kwargs": {
+            "do_sample": false,
+            "num_beams": 1,
+            "max_new_tokens": 32,
+            "eos_token_id": 92542
+        },
+        "pred_response": "no",
+        "choice_list": [
+            "not the same",
+            "children's books",
+            "health fitness & dieting",
+            "medical books"
+        ],
+        "image_quantity_level": "Few",
+        "image": [
+            "62.jpg",
+            "63.jpg"
+        ],
+        "extracted": "",
+        "result": 0
+    },
+    {
+        "sample_id": 27,
+        "question": "Example Question 1:\n<image> <image> {image#1}{image#2}Question: Are the authors of these two books the same?\nAnswer: Dr. Seuss\n\nCurrent Question:\n{image#1}{image#2}Question: Are the authors of these two books the same?<image> <image> ",
+        "gt_response": "streetwise maps",
+        "gen_kwargs": {
+            "do_sample": false,
+            "num_beams": 1,
+            "max_new_tokens": 32,
+            "eos_token_id": 92542
+        },
+        "pred_response": "yes the authors of these two books are the same",
+        "choice_list": [
+            "not the same",
+            "streetwise maps",
+            "rand mcnally",
+            "dk publishing"
+        ],
+        "image_quantity_level": "Few",
+        "image": [
+            "64.jpg",
+            "65.jpg"
+        ],
+        "extracted": "ABAA",
+        "result": 0
+    },
+    {
+        "sample_id": 28,
+        "question": "Example Question 1:\n<image> <image> {image#1}{image#2}Question: Are these two books in the same field?\nAnswer: Medical Books\n\nCurrent Question:\n{image#1}{image#2}Question: Are the following two books published in the same year?<image> <image> ",
+        "gt_response": "2016",
+        "gen_kwargs": {
+            "do_sample": false,
+            "num_beams": 1,
+            "max_new_tokens": 32,
+            "eos_token_id": 92542
+        },
+        "pred_response": "no",
+        "choice_list": [
+            "2016",
+            "2015",
+            "2017",
+            "not the same"
+        ],
+        "image_quantity_level": "Few",
+        "image": [
+            "66.jpg",
+            "67.jpg"
+        ],
+        "extracted": "",
+        "result": 0
+    },
+    {
+        "sample_id": 29,
+        "question": "Example Question 1:\n<image> <image> {image#1}{image#2}Question: Are the authors of these two books the same?\nAnswer: Fodor's\n\nCurrent Question:\n{image#1}{image#2}Question: Are the authors of these two books the same?<image> <image> ",
+        "gt_response": "james lee anderson",
+        "gen_kwargs": {
+            "do_sample": false,
+            "num_beams": 1,
+            "max_new_tokens": 32,
+            "eos_token_id": 92542
+        },
+        "pred_response": "yes the authors of these two books are the same",
+        "choice_list": [
+            "giovanni maciocia cac nanjing",
+            "not the same",
+            "james lee anderson",
+            "jeff savage"
+        ],
+        "image_quantity_level": "Few",
+        "image": [
+            "68.jpg",
+            "69.jpg"
+        ],
+        "extracted": "ABAA",
+        "result": 0
+    },
+    {
+        "sample_id": 6,
+        "question": "Example Question 1:\n<image> <image> {image#1}{image#2}Question: Are these two books in the same field?\nAnswer: Health, Fitness & Dieting\n\nCurrent Question:\n{image#1}Above Top Secret: Uncover the Mysteries of the Digital Age{image#2}All You Need for a Snowman{image#3}Comrades to the End: The 4th SS Panzer-Grenadier Regiment \"Der F\u00fchrer\" 1938-1945: The History of a German-Austrian Fighting Unit (Schiffer Military History)Question: Please give the correct text order corresponding to each bookchoose<image> <image> <image> ",
+        "gt_response": "021",
+        "gen_kwargs": {
+            "do_sample": false,
+            "num_beams": 1,
+            "max_new_tokens": 32,
+            "eos_token_id": 92542
+        },
+        "pred_response": "alice schertle",
+        "choice_list": [
+            "012",
+            "021",
+            "102",
+            "120",
+            "201",
+            "210"
+        ],
+        "image_quantity_level": "Few",
+        "image": [
+            "12.jpg",
+            "13.jpg",
+            "14.jpg"
+        ],
+        "extracted": "ACECEE",
+        "result": 0
+    },
+    {
+        "sample_id": 7,
+        "question": "Example Question 1:\n<image> <image> {image#1}{image#2}Question: Are these two books in the same field?\nAnswer: History\n\nCurrent Question:\n{image#1}Day of the Dead Activity Book{image#2}Nutrition and Disease Management for Veterinary Technicians and Nurses{image#3}I Regret Everything: A Love StoryQuestion: Please give the correct text order corresponding to each bookchoose<image> <image> <image> ",
+        "gt_response": "210",
+        "gen_kwargs": {
+            "do_sample": false,
+            "num_beams": 1,
+            "max_new_tokens": 32,
+            "eos_token_id": 92542
+        },
+        "pred_response": "no",
+        "choice_list": [
+            "012",
+            "021",
+            "102",
+            "120",
+            "201",
+            "210"
+        ],
+        "image_quantity_level": "Few",
+        "image": [
+            "15.jpg",
+            "16.jpg",
+            "17.jpg"
+        ],
+        "extracted": "",
+        "result": 0
+    },
+    {
+        "sample_id": 8,
+        "question": "Example Question 1:\n<image> <image> {image#1}{image#2}Question: Are the authors of these two books the same?\nAnswer: William Shakespeare\n\nCurrent Question:\n{image#1}Freedom Bound{image#2}Historical Theology: An Introduction to the History of Christian Thought{image#3}Applied Principles of Horticultural ScienceQuestion: Please give the correct text order corresponding to each bookchoose<image> <image> <image> ",
+        "gt_response": "102",
+        "gen_kwargs": {
+            "do_sample": false,
+            "num_beams": 1,
+            "max_new_tokens": 32,
+            "eos_token_id": 92542
+        },
+        "pred_response": "no",
+        "choice_list": [
+            "012",
+            "021",
+            "102",
+            "120",
+            "201",
+            "210"
+        ],
+        "image_quantity_level": "Few",
+        "image": [
+            "18.jpg",
+            "19.jpg",
+            "20.jpg"
+        ],
+        "extracted": "",
+        "result": 0
+    },
+    {
+        "sample_id": 11,
+        "question": "Example Question 1:\n<image> <image> {image#1}{image#2}Question: Are the following two books published in the same year?\nAnswer: 2015\n\nCurrent Question:\n{image#1}Qatar: Securing the Global Ambitions of a City-State{image#2}Downton Abbey 2015 Page-A-Day Calendar{image#3}Lithography; a complete handbook of modern techniques of lithographyQuestion: Please give the correct text order corresponding to each bookchoose<image> <image> <image> ",
+        "gt_response": "201",
+        "gen_kwargs": {
+            "do_sample": false,
+            "num_beams": 1,
+            "max_new_tokens": 32,
+            "eos_token_id": 92542
+        },
+        "pred_response": "2015",
+        "choice_list": [
+            "012",
+            "021",
+            "102",
+            "120",
+            "201",
+            "210"
+        ],
+        "image_quantity_level": "Few",
+        "image": [
+            "25.jpg",
+            "26.jpg",
+            "27.jpg"
+        ],
+        "extracted": "E",
+        "result": 1
+    },
+    {
+        "sample_id": 12,
+        "question": "Example Question 1:\n<image> <image> {image#1}{image#2}Question: Are the authors of these two books the same?\nAnswer: Nelles Verlag\n\nCurrent Question:\n{image#1}Magical Mazes{image#2}The Return: A Titan Novel{image#3}Kriya Secrets Revealed: Complete Lessons and TechniquesQuestion: Please give the correct text order corresponding to each bookchoose<image> <image> <image> ",
+        "gt_response": "102",
+        "gen_kwargs": {
+            "do_sample": false,
+            "num_beams": 1,
+            "max_new_tokens": 32,
+            "eos_token_id": 92542
+        },
+        "pred_response": "kriya secrets revealed: complete lessons and techniques",
+        "choice_list": [
+            "012",
+            "021",
+            "102",
+            "120",
+            "201",
+            "210"
+        ],
+        "image_quantity_level": "Few",
+        "image": [
+            "28.jpg",
+            "29.jpg",
+            "30.jpg"
+        ],
+        "extracted": "AECEEEAEDCEEEADECE",
+        "result": 0
+    },
+    {
+        "sample_id": 15,
+        "question": "Example Question 1:\n<image> <image> {image#1}{image#2}Question: Are the authors of these two books the same?\nAnswer: David F. Marx\n\nCurrent Question:\n{image#1}Tahiti & French Polynesia Guide{image#2}Pokemon Colosseum (Prima's Official Strategy Guide){image#3}The Marxism of Che Guevara: Philosophy, Economics, Revolutionary Warfare (Critical Currents in Latin American Perspective Series)Question: Please give the correct text order corresponding to each bookchoose<image> <image> <image> ",
+        "gt_response": "210",
+        "gen_kwargs": {
+            "do_sample": false,
+            "num_beams": 1,
+            "max_new_tokens": 32,
+            "eos_token_id": 92542
+        },
+        "pred_response": "david f marx",
+        "choice_list": [
+            "012",
+            "021",
+            "102",
+            "120",
+            "201",
+            "210"
+        ],
+        "image_quantity_level": "Few",
+        "image": [
+            "35.jpg",
+            "36.jpg",
+            "37.jpg"
+        ],
+        "extracted": "DADFA",
+        "result": 0
+    },
+    {
+        "sample_id": 30,
+        "question": "Example Question 1:\n<image> <image> {image#1}{image#2}Question: Are the following two books published in the same year?\nAnswer: 2016\n\nCurrent Question:\n{image#1}{image#2}Question: Are the authors of these two books the same?<image> <image> ",
+        "gt_response": "julia alvarez",
+        "gen_kwargs": {
+            "do_sample": false,
+            "num_beams": 1,
+            "max_new_tokens": 32,
+            "eos_token_id": 92542
+        },
+        "pred_response": "no",
+        "choice_list": [
+            "not the same",
+            "catalyst game labs",
+            "william shakespeare",
+            "julia alvarez"
+        ],
+        "image_quantity_level": "Few",
+        "image": [
+            "70.jpg",
+            "71.jpg"
+        ],
+        "extracted": "",
+        "result": 0
+    },
+    {
+        "sample_id": 31,
+        "question": "Example Question 1:\n<image> <image> {image#1}{image#2}Question: Are these two books in the same field?\nAnswer: Travel\n\nCurrent Question:\n{image#1}{image#2}Question: Are the authors of these two books the same?<image> <image> ",
+        "gt_response": "inc barcharts",
+        "gen_kwargs": {
+            "do_sample": false,
+            "num_beams": 1,
+            "max_new_tokens": 32,
+            "eos_token_id": 92542
+        },
+        "pred_response": "yes the authors of these two books are the same",
+        "choice_list": [
+            "dk publishing",
+            "inc barcharts",
+            "national geographic",
+            "not the same"
+        ],
+        "image_quantity_level": "Few",
+        "image": [
+            "72.jpg",
+            "73.jpg"
+        ],
+        "extracted": "ABAA",
+        "result": 0
+    },
+    {
+        "sample_id": 34,
+        "question": "Example Question 1:\n<image> <image> <image> {image#1}The Wisdom of a Meaningful Life: The Essence of Mindfulness{image#2}Choose Yourself!{image#3}Steeplejacking: How the Christian Right is Hijacking Mainstream ReligionQuestion: Please give the correct text order corresponding to each bookchoose\nAnswer: 2,1,0\n\nCurrent Question:\n{image#1}{image#2}Question: Are these two books in the same field?<image> <image> ",
+        "gt_response": "medical books",
+        "gen_kwargs": {
+            "do_sample": false,
+            "num_beams": 1,
+            "max_new_tokens": 32,
+            "eos_token_id": 92542
+        },
+        "pred_response": "no",
+        "choice_list": [
+            "travel",
+            "reference",
+            "not the same",
+            "medical books"
+        ],
+        "image_quantity_level": "Few",
+        "image": [
+            "80.jpg",
+            "81.jpg"
+        ],
+        "extracted": "",
+        "result": 0
+    },
+    {
+        "sample_id": 35,
+        "question": "Example Question 1:\n<image> <image> {image#1}{image#2}Question: Are the authors of these two books the same?\nAnswer: Trends International\n\nCurrent Question:\n{image#1}{image#2}Question: Are these two books in the same field?<image> <image> ",
+        "gt_response": "children's books",
+        "gen_kwargs": {
+            "do_sample": false,
+            "num_beams": 1,
+            "max_new_tokens": 32,
+            "eos_token_id": 92542
+        },
+        "pred_response": "no",
+        "choice_list": [
+            "not the same",
+            "children's books",
+            "science & math",
+            "law"
+        ],
+        "image_quantity_level": "Few",
+        "image": [
+            "82.jpg",
+            "83.jpg"
+        ],
+        "extracted": "",
+        "result": 0
+    },
+    {
+        "sample_id": 37,
+        "question": "Example Question 1:\n<image> <image> {image#1}{image#2}Question: Are these two books in the same field?\nAnswer: Humor & Entertainment\n\nCurrent Question:\n{image#1}{image#2}Question: Are the authors of these two books the same?<image> <image> ",
+        "gt_response": "noam chomsky",
+        "gen_kwargs": {
+            "do_sample": false,
+            "num_beams": 1,
+            "max_new_tokens": 32,
+            "eos_token_id": 92542
+        },
+        "pred_response": "no",
+        "choice_list": [
+            "knopf guides",
+            "mary oliver",
+            "not the same",
+            "noam chomsky"
+        ],
+        "image_quantity_level": "Few",
+        "image": [
+            "87.jpg",
+            "88.jpg"
+        ],
+        "extracted": "",
+        "result": 0
+    },
+    {
+        "sample_id": 38,
+        "question": "Example Question 1:\n<image> <image> {image#1}{image#2}Question: Are the following two books published in the same year?\nAnswer: 2016\n\nCurrent Question:\n{image#1}{image#2}Question: Are the authors of these two books the same?<image> <image> ",
+        "gt_response": "michelin travel & lifestyle",
+        "gen_kwargs": {
+            "do_sample": false,
+            "num_beams": 1,
+            "max_new_tokens": 32,
+            "eos_token_id": 92542
+        },
+        "pred_response": "no",
+        "choice_list": [
+            "philip m parker",
+            "michelin travel & lifestyle",
+            "lonely planet",
+            "not the same"
+        ],
+        "image_quantity_level": "Few",
+        "image": [
+            "89.jpg",
+            "90.jpg"
+        ],
+        "extracted": "",
+        "result": 0
+    },
+    {
+        "sample_id": 39,
+        "question": "Example Question 1:\n<image> <image> {image#1}{image#2}Question: Are these two books in the same field?\nAnswer: Travel\n\nCurrent Question:\n{image#1}{image#2}Question: Are the following two books published in the same year?<image> <image> ",
+        "gt_response": "2016",
+        "gen_kwargs": {
+            "do_sample": false,
+            "num_beams": 1,
+            "max_new_tokens": 32,
+            "eos_token_id": 92542
+        },
+        "pred_response": "no",
+        "choice_list": [
+            "2016",
+            "2015",
+            "2017",
+            "not the same"
+        ],
+        "image_quantity_level": "Few",
+        "image": [
+            "91.jpg",
+            "92.jpg"
+        ],
+        "extracted": "",
+        "result": 0
+    },
+    {
+        "sample_id": 40,
+        "question": "Example Question 1:\n<image> <image> {image#1}{image#2}Question: Are the following two books published in the same year?\nAnswer: 2016\n\nCurrent Question:\n{image#1}{image#2}Question: Are the following two books published in the same year?<image> <image> ",
+        "gt_response": "2016",
+        "gen_kwargs": {
+            "do_sample": false,
+            "num_beams": 1,
+            "max_new_tokens": 32,
+            "eos_token_id": 92542
+        },
+        "pred_response": "yes",
+        "choice_list": [
+            "2016",
+            "not the same",
+            "2015",
+            "2017"
+        ],
+        "image_quantity_level": "Few",
+        "image": [
+            "93.jpg",
+            "94.jpg"
+        ],
+        "extracted": "",
+        "result": 0
+    },
+    {
+        "sample_id": 41,
+        "question": "Example Question 1:\n<image> <image> {image#1}{image#2}Question: Are these two books in the same field?\nAnswer: Health, Fitness & Dieting\n\nCurrent Question:\n{image#1}{image#2}Question: Are the authors of these two books the same?<image> <image> ",
+        "gt_response": "hcpro",
+        "gen_kwargs": {
+            "do_sample": false,
+            "num_beams": 1,
+            "max_new_tokens": 32,
+            "eos_token_id": 92542
+        },
+        "pred_response": "no",
+        "choice_list": [
+            "hcpro",
+            "james kavanagh",
+            "not the same",
+            "clive cussler"
+        ],
+        "image_quantity_level": "Few",
+        "image": [
+            "95.jpg",
+            "96.jpg"
+        ],
+        "extracted": "",
+        "result": 0
+    },
+    {
+        "sample_id": 42,
+        "question": "Example Question 1:\n<image> <image> {image#1}{image#2}Question: Are the following two books published in the same year?\nAnswer: 2016\n\nCurrent Question:\n{image#1}{image#2}Question: Are these two books in the same field?<image> <image> ",
+        "gt_response": "teen & young adult",
+        "gen_kwargs": {
+            "do_sample": false,
+            "num_beams": 1,
+            "max_new_tokens": 32,
+            "eos_token_id": 92542
+        },
+        "pred_response": "yes both books are published in the same year 2016",
+        "choice_list": [
+            "children's books",
+            "not the same",
+            "teen & young adult",
+            "travel"
+        ],
+        "image_quantity_level": "Few",
+        "image": [
+            "97.jpg",
+            "98.jpg"
+        ],
+        "extracted": "BBABDAA",
+        "result": 0
+    },
+    {
+        "sample_id": 43,
+        "question": "Example Question 1:\n<image> <image> {image#1}{image#2}Question: Are these two books in the same field?\nAnswer: Business & Money\n\nCurrent Question:\n{image#1}{image#2}Question: Are these two books in the same field?<image> <image> ",
+        "gt_response": "medical books",
+        "gen_kwargs": {
+            "do_sample": false,
+            "num_beams": 1,
+            "max_new_tokens": 32,
+            "eos_token_id": 92542
+        },
+        "pred_response": "medical",
+        "choice_list": [
+            "christian books & bibles",
+            "medical books",
+            "children's books",
+            "not the same"
+        ],
+        "image_quantity_level": "Few",
+        "image": [
+            "99.jpg",
+            "100.jpg"
+        ],
+        "extracted": "DCA",
+        "result": 0
+    },
+    {
+        "sample_id": 44,
+        "question": "Example Question 1:\n<image> <image> {image#1}{image#2}Question: Are the authors of these two books the same?\nAnswer: David F. Marx\n\nCurrent Question:\n{image#1}{image#2}Question: Are the following two books published in the same year?<image> <image> ",
+        "gt_response": "2016",
+        "gen_kwargs": {
+            "do_sample": false,
+            "num_beams": 1,
+            "max_new_tokens": 32,
+            "eos_token_id": 92542
+        },
+        "pred_response": "yes the two books are published in the same year",
+        "choice_list": [
+            "2017",
+            "2015",
+            "not the same",
+            "2016"
+        ],
+        "image_quantity_level": "Few",
+        "image": [
+            "101.jpg",
+            "102.jpg"
+        ],
+        "extracted": "BABDAA",
+        "result": 0
+    },
+    {
+        "sample_id": 46,
+        "question": "Example Question 1:\n<image> <image> {image#1}{image#2}Question: Are the following two books published in the same year?\nAnswer: 2016\n\nCurrent Question:\n{image#1}{image#2}Question: Are the following two books published in the same year?<image> <image> ",
+        "gt_response": "2016",
+        "gen_kwargs": {
+            "do_sample": false,
+            "num_beams": 1,
+            "max_new_tokens": 32,
+            "eos_token_id": 92542
+        },
+        "pred_response": "yes both books are published in the same year 2016",
+        "choice_list": [
+            "2015",
+            "2017",
+            "not the same",
+            "2016"
+        ],
+        "image_quantity_level": "Few",
+        "image": [
+            "106.jpg",
+            "107.jpg"
+        ],
+        "extracted": "D",
+        "result": 1
+    },
+    {
+        "sample_id": 47,
+        "question": "Example Question 1:\n<image> <image> {image#1}{image#2}Question: Are these two books in the same field?\nAnswer: Calendars\n\nCurrent Question:\n{image#1}{image#2}Question: Are the authors of these two books the same?<image> <image> ",
+        "gt_response": "us government",
+        "gen_kwargs": {
+            "do_sample": false,
+            "num_beams": 1,
+            "max_new_tokens": 32,
+            "eos_token_id": 92542
+        },
+        "pred_response": "no",
+        "choice_list": [
+            "philipp winterberg",
+            "not the same",
+            "us government",
+            "browntrout publishers"
+        ],
+        "image_quantity_level": "Few",
+        "image": [
+            "108.jpg",
+            "109.jpg"
+        ],
+        "extracted": "",
+        "result": 0
+    },
+    {
+        "sample_id": 49,
+        "question": "Example Question 1:\n<image> <image> {image#1}{image#2}Question: Are these two books in the same field?\nAnswer: Health, Fitness & Dieting\n\nCurrent Question:\n{image#1}{image#2}Question: Are the following two books published in the same year?<image> <image> ",
+        "gt_response": "2016",
+        "gen_kwargs": {
+            "do_sample": false,
+            "num_beams": 1,
+            "max_new_tokens": 32,
+            "eos_token_id": 92542
+        },
+        "pred_response": "no",
+        "choice_list": [
+            "2017",
+            "2015",
+            "not the same",
+            "2016"
+        ],
+        "image_quantity_level": "Few",
+        "image": [
+            "113.jpg",
+            "114.jpg"
+        ],
+        "extracted": "",
+        "result": 0
+    },
+    {
+        "sample_id": 50,
+        "question": "Example Question 1:\n<image> <image> {image#1}{image#2}Question: Are the authors of these two books the same?\nAnswer: Gooseberry Patch\n\nCurrent Question:\n{image#1}{image#2}Question: Are the authors of these two books the same?<image> <image> ",
+        "gt_response": "fodor's",
+        "gen_kwargs": {
+            "do_sample": false,
+            "num_beams": 1,
+            "max_new_tokens": 32,
+            "eos_token_id": 92542
+        },
+        "pred_response": "yes the authors of these two books are the same",
+        "choice_list": [
+            "fodor's",
+            "not the same",
+            "takehiko inoue",
+            "michael h hoffheimer"
+        ],
+        "image_quantity_level": "Few",
+        "image": [
+            "115.jpg",
+            "116.jpg"
+        ],
+        "extracted": "ABAA",
+        "result": 0
+    },
+    {
+        "sample_id": 51,
+        "question": "Example Question 1:\n<image> <image> <image> {image#1}Dragon Ball Z, Vol. 4{image#2}The Total Money Makeover Workbook{image#3}The Late Talker: What to Do If Your Child Isn't Talking YetQuestion: Please give the correct text order corresponding to each bookchoose\nAnswer: 2,0,1\n\nCurrent Question:\n{image#1}{image#2}Question: Are the following two books published in the same year?<image> <image> ",
+        "gt_response": "2016",
+        "gen_kwargs": {
+            "do_sample": false,
+            "num_beams": 1,
+            "max_new_tokens": 32,
+            "eos_token_id": 92542
+        },
+        "pred_response": "no",
+        "choice_list": [
+            "2015",
+            "2017",
+            "not the same",
+            "2016"
+        ],
+        "image_quantity_level": "Few",
+        "image": [
+            "117.jpg",
+            "118.jpg"
+        ],
+        "extracted": "",
+        "result": 0
+    },
+    {
+        "sample_id": 52,
+        "question": "Example Question 1:\n<image> <image> {image#1}{image#2}Question: Are these two books in the same field?\nAnswer: Teen & Young Adult\n\nCurrent Question:\n{image#1}{image#2}Question: Are the authors of these two books the same?<image> <image> ",
+        "gt_response": "various",
+        "gen_kwargs": {
+            "do_sample": false,
+            "num_beams": 1,
+            "max_new_tokens": 32,
+            "eos_token_id": 92542
+        },
+        "pred_response": "no",
+        "choice_list": [
+            "not the same",
+            "younghusband world travel journals",
+            "various",
+            "fodor's"
+        ],
+        "image_quantity_level": "Few",
+        "image": [
+            "119.jpg",
+            "120.jpg"
+        ],
+        "extracted": "",
+        "result": 0
+    },
+    {
+        "sample_id": 53,
+        "question": "Example Question 1:\n<image> <image> {image#1}{image#2}Question: Are the following two books published in the same year?\nAnswer: 2013\n\nCurrent Question:\n{image#1}{image#2}Question: Are the authors of these two books the same?<image> <image> ",
+        "gt_response": "fodor's",
+        "gen_kwargs": {
+            "do_sample": false,
+            "num_beams": 1,
+            "max_new_tokens": 32,
+            "eos_token_id": 92542
+        },
+        "pred_response": "no",
+        "choice_list": [
+            "lonely planet",
+            "not the same",
+            "fodor's",
+            "michelin travel & lifestyle"
+        ],
+        "image_quantity_level": "Few",
+        "image": [
+            "121.jpg",
+            "122.jpg"
+        ],
+        "extracted": "",
+        "result": 0
+    },
+    {
+        "sample_id": 16,
+        "question": "Example Question 1:\n<image> <image> <image> {image#1}Equine Veterinary Nursing Manual{image#2}The Grinnell Beowulf{image#3}Airbrush - Complete Studio HandbookQuestion: Please give the correct text order corresponding to each bookchoose\nAnswer: 0,2,1\n\nCurrent Question:\n{image#1}How to Coach Youth Baseball: A Step-By-Step Approach{image#2}Michelin Green Guide: Causses (French Edition){image#3}Nuthin' But MechQuestion: Please give the correct text order corresponding to each bookchoose<image> <image> <image> ",
+        "gt_response": "102",
+        "gen_kwargs": {
+            "do_sample": false,
+            "num_beams": 1,
+            "max_new_tokens": 32,
+            "eos_token_id": 92542
+        },
+        "pred_response": "312",
+        "choice_list": [
+            "012",
+            "021",
+            "102",
+            "120",
+            "201",
+            "210"
+        ],
+        "image_quantity_level": "Few",
+        "image": [
+            "38.jpg",
+            "39.jpg",
+            "40.jpg"
+        ],
+        "extracted": "",
+        "result": 0
+    },
+    {
+        "sample_id": 19,
+        "question": "Example Question 1:\n<image> <image> {image#1}{image#2}Question: Are these two books in the same field?\nAnswer: Calendars\n\nCurrent Question:\n{image#1}Menopause: Manage Its Symptoms with the Blood Type Diet: The Individualized Plan for Preventing and Treating Hot Flashes, Lossof Libido, Mood Changes, Osteoporosis, and Related Conditions{image#2}A Color Atlas of Histology{image#3}Consumer Law in the Global Economy: National and International DimensionsQuestion: Please give the correct text order corresponding to each bookchoose<image> <image> <image> ",
+        "gt_response": "021",
+        "gen_kwargs": {
+            "do_sample": false,
+            "num_beams": 1,
+            "max_new_tokens": 32,
+            "eos_token_id": 92542
+        },
+        "pred_response": "no",
+        "choice_list": [
+            "012",
+            "021",
+            "102",
+            "120",
+            "201",
+            "210"
+        ],
+        "image_quantity_level": "Few",
+        "image": [
+            "45.jpg",
+            "46.jpg",
+            "47.jpg"
+        ],
+        "extracted": "",
+        "result": 0
+    },
+    {
+        "sample_id": 21,
+        "question": "Example Question 1:\n<image> <image> {image#1}{image#2}Question: Are the following two books published in the same year?\nAnswer: 2016\n\nCurrent Question:\n{image#1}An Occupational Perspective on Leadership: Theoretical and Practical Dimensions{image#2}Miss Passport City Guides Presents:  Mini 3 day Unforgettable Vacation Itinerary to Nassau, Bahamas (Miss Passport Travel Guides Book ){image#3}Horse Health and Nutrition For DummiesQuestion: Please give the correct text order corresponding to each bookchoose<image> <image> <image> ",
+        "gt_response": "102",
+        "gen_kwargs": {
+            "do_sample": false,
+            "num_beams": 1,
+            "max_new_tokens": 32,
+            "eos_token_id": 92542
+        },
+        "pred_response": "no",
+        "choice_list": [
+            "012",
+            "021",
+            "102",
+            "120",
+            "201",
+            "210"
+        ],
+        "image_quantity_level": "Few",
+        "image": [
+            "50.jpg",
+            "51.jpg",
+            "52.jpg"
+        ],
+        "extracted": "",
+        "result": 0
+    },
+    {
+        "sample_id": 24,
+        "question": "Example Question 1:\n<image> <image> {image#1}{image#2}Question: Are the following two books published in the same year?\nAnswer: 2016\n\nCurrent Question:\n{image#1}A. Wong Cookbook{image#2}Molecular Engineering Thermodynamics (Cambridge Series in Chemical Engineering){image#3}The Secret Language of Your Body: The Essential Guide to Health and WellnessQuestion: Please give the correct text order corresponding to each bookchoose<image> <image> <image> ",
+        "gt_response": "021",
+        "gen_kwargs": {
+            "do_sample": false,
+            "num_beams": 1,
+            "max_new_tokens": 32,
+            "eos_token_id": 92542
+        },
+        "pred_response": "2016",
+        "choice_list": [
+            "012",
+            "021",
+            "102",
+            "120",
+            "201",
+            "210"
+        ],
+        "image_quantity_level": "Few",
+        "image": [
+            "57.jpg",
+            "58.jpg",
+            "59.jpg"
+        ],
+        "extracted": "E",
+        "result": 0
+    },
+    {
+        "sample_id": 32,
+        "question": "Example Question 1:\n<image> <image> {image#1}{image#2}Question: Are these two books in the same field?\nAnswer: Health, Fitness & Dieting\n\nCurrent Question:\n{image#1}Dressed to Kill: A Biblical Approach to Spiritual Warfare and Armor{image#2}Connection Culture: The Competitive Advantage of Shared Identity, Empathy, and Understanding at Work{image#3}Basic Clinical Neuroanatomy (Periodicals) 1st edition by Young, Paul A.; Young, Paul H. published by Lippincott Williams & Wilkins HardcoverQuestion: Please give the correct text order corresponding to each bookchoose<image> <image> <image> ",
+        "gt_response": "201",
+        "gen_kwargs": {
+            "do_sample": false,
+            "num_beams": 1,
+            "max_new_tokens": 32,
+            "eos_token_id": 92542
+        },
+        "pred_response": "rick renner",
+        "choice_list": [
+            "012",
+            "021",
+            "102",
+            "120",
+            "201",
+            "210"
+        ],
+        "image_quantity_level": "Few",
+        "image": [
+            "74.jpg",
+            "75.jpg",
+            "76.jpg"
+        ],
+        "extracted": "CEE",
+        "result": 0
+    },
+    {
+        "sample_id": 33,
+        "question": "Example Question 1:\n<image> <image> {image#1}{image#2}Question: Are these two books in the same field?\nAnswer: Travel\n\nCurrent Question:\n{image#1}Pen{image#2}PipsqueaksItsy-Bitsy Felt Creations to Stitch & Love: 30+ Easy-to-Make Animals & Accessories{image#3}The Woven Bag: 30+ Projects from Small LoomsQuestion: Please give the correct text order corresponding to each bookchoose<image> <image> <image> ",
+        "gt_response": "021",
+        "gen_kwargs": {
+            "do_sample": false,
+            "num_beams": 1,
+            "max_new_tokens": 32,
+            "eos_token_id": 92542
+        },
+        "pred_response": "travel",
+        "choice_list": [
+            "012",
+            "021",
+            "102",
+            "120",
+            "201",
+            "210"
+        ],
+        "image_quantity_level": "Few",
+        "image": [
+            "77.jpg",
+            "78.jpg",
+            "79.jpg"
+        ],
+        "extracted": "AE",
+        "result": 0
+    },
+    {
+        "sample_id": 54,
+        "question": "Example Question 1:\n<image> <image> {image#1}{image#2}Question: Are the following two books published in the same year?\nAnswer: 2016\n\nCurrent Question:\n{image#1}{image#2}Question: Are these two books in the same field?<image> <image> ",
+        "gt_response": "travel",
+        "gen_kwargs": {
+            "do_sample": false,
+            "num_beams": 1,
+            "max_new_tokens": 32,
+            "eos_token_id": 92542
+        },
+        "pred_response": "no",
+        "choice_list": [
+            "science & math",
+            "not the same",
+            "calendars",
+            "travel"
+        ],
+        "image_quantity_level": "Few",
+        "image": [
+            "123.jpg",
+            "124.jpg"
+        ],
+        "extracted": "",
+        "result": 0
+    },
+    {
+        "sample_id": 55,
+        "question": "Example Question 1:\n<image> <image> {image#1}{image#2}Question: Are the authors of these two books the same?\nAnswer: Rand McNally\n\nCurrent Question:\n{image#1}{image#2}Question: Are the following two books published in the same year?<image> <image> ",
+        "gt_response": "2016",
+        "gen_kwargs": {
+            "do_sample": false,
+            "num_beams": 1,
+            "max_new_tokens": 32,
+            "eos_token_id": 92542
+        },
+        "pred_response": "no the two books are not published in the same year",
+        "choice_list": [
+            "not the same",
+            "2015",
+            "2017",
+            "2016"
+        ],
+        "image_quantity_level": "Few",
+        "image": [
+            "125.jpg",
+            "126.jpg"
+        ],
+        "extracted": "BABDAA",
+        "result": 0
+    },
+    {
+        "sample_id": 56,
+        "question": "Example Question 1:\n<image> <image> {image#1}{image#2}Question: Are these two books in the same field?\nAnswer: Health, Fitness & Dieting\n\nCurrent Question:\n{image#1}{image#2}Question: Are the following two books published in the same year?<image> <image> ",
+        "gt_response": "2015",
+        "gen_kwargs": {
+            "do_sample": false,
+            "num_beams": 1,
+            "max_new_tokens": 32,
+            "eos_token_id": 92542
+        },
+        "pred_response": "no",
+        "choice_list": [
+            "2016",
+            "not the same",
+            "2015",
+            "2017"
+        ],
+        "image_quantity_level": "Few",
+        "image": [
+            "127.jpg",
+            "128.jpg"
+        ],
+        "extracted": "",
+        "result": 0
+    },
+    {
+        "sample_id": 57,
+        "question": "Example Question 1:\n<image> <image> <image> {image#1}Local Government Law (American Casebook Series){image#2}Beyond Chutzpah: On the Misuse of Anti-Semitism and the Abuse of History{image#3}The Ultimate Hair Loss Survival GuideQuestion: Please give the correct text order corresponding to each bookchoose\nAnswer: 2,0,1\n\nCurrent Question:\n{image#1}{image#2}Question: Are the authors of these two books the same?<image> <image> ",
+        "gt_response": "dk",
+        "gen_kwargs": {
+            "do_sample": false,
+            "num_beams": 1,
+            "max_new_tokens": 32,
+            "eos_token_id": 92542
+        },
+        "pred_response": "no",
+        "choice_list": [
+            "fodor's",
+            "lonely planet",
+            "not the same",
+            "dk"
+        ],
+        "image_quantity_level": "Few",
+        "image": [
+            "129.jpg",
+            "130.jpg"
+        ],
+        "extracted": "",
+        "result": 0
+    },
+    {
+        "sample_id": 59,
+        "question": "Example Question 1:\n<image> <image> {image#1}{image#2}Question: Are the authors of these two books the same?\nAnswer: Clive Cussler\n\nCurrent Question:\n{image#1}{image#2}Question: Are these two books in the same field?<image> <image> ",
+        "gt_response": "travel",
+        "gen_kwargs": {
+            "do_sample": false,
+            "num_beams": 1,
+            "max_new_tokens": 32,
+            "eos_token_id": 92542
+        },
+        "pred_response": "yes both books are in the same field",
+        "choice_list": [
+            "children's books",
+            "comics & graphic novels",
+            "not the same",
+            "travel"
+        ],
+        "image_quantity_level": "Few",
+        "image": [
+            "134.jpg",
+            "135.jpg"
+        ],
+        "extracted": "BBAAD",
+        "result": 0
+    },
+    {
+        "sample_id": 60,
+        "question": "Example Question 1:\n<image> <image> <image> {image#1}Big Nate's Greatest Hits{image#2}Flying{image#3}My Nepenthe: Bohemian Tales of Food, Family, and Big SurQuestion: Please give the correct text order corresponding to each bookchoose\nAnswer: 2,0,1\n\nCurrent Question:\n{image#1}{image#2}Question: Are the following two books published in the same year?<image> <image> ",
+        "gt_response": "2016",
+        "gen_kwargs": {
+            "do_sample": false,
+            "num_beams": 1,
+            "max_new_tokens": 32,
+            "eos_token_id": 92542
+        },
+        "pred_response": "no",
+        "choice_list": [
+            "2015",
+            "2016",
+            "not the same",
+            "2017"
+        ],
+        "image_quantity_level": "Few",
+        "image": [
+            "136.jpg",
+            "137.jpg"
+        ],
+        "extracted": "",
+        "result": 0
+    },
+    {
+        "sample_id": 62,
+        "question": "Example Question 1:\n<image> <image> {image#1}{image#2}Question: Are these two books in the same field?\nAnswer: Humor & Entertainment\n\nCurrent Question:\n{image#1}{image#2}Question: Are these two books in the same field?<image> <image> ",
+        "gt_response": "cookbooks food & wine",
+        "gen_kwargs": {
+            "do_sample": false,
+            "num_beams": 1,
+            "max_new_tokens": 32,
+            "eos_token_id": 92542
+        },
+        "pred_response": "cooking & food",
+        "choice_list": [
+            "not the same",
+            "cookbooks food & wine",
+            "crafts hobbies & home",
+            "business & money"
+        ],
+        "image_quantity_level": "Few",
+        "image": [
+            "141.jpg",
+            "142.jpg"
+        ],
+        "extracted": "CD",
+        "result": 0
+    },
+    {
+        "sample_id": 63,
+        "question": "Example Question 1:\n<image> <image> <image> {image#1}Qatar: Securing the Global Ambitions of a City-State{image#2}Downton Abbey 2015 Page-A-Day Calendar{image#3}Lithography; a complete handbook of modern techniques of lithographyQuestion: Please give the correct text order corresponding to each bookchoose\nAnswer: 2,0,1\n\nCurrent Question:\n{image#1}{image#2}Question: Are the following two books published in the same year?<image> <image> ",
+        "gt_response": "2016",
+        "gen_kwargs": {
+            "do_sample": false,
+            "num_beams": 1,
+            "max_new_tokens": 32,
+            "eos_token_id": 92542
+        },
+        "pred_response": "no",
+        "choice_list": [
+            "not the same",
+            "2017",
+            "2016",
+            "2015"
+        ],
+        "image_quantity_level": "Few",
+        "image": [
+            "143.jpg",
+            "144.jpg"
+        ],
+        "extracted": "",
+        "result": 0
+    },
+    {
+        "sample_id": 64,
+        "question": "Example Question 1:\n<image> <image> {image#1}{image#2}Question: Are the following two books published in the same year?\nAnswer: 2016\n\nCurrent Question:\n{image#1}{image#2}Question: Are the authors of these two books the same?<image> <image> ",
+        "gt_response": "jack smith",
+        "gen_kwargs": {
+            "do_sample": false,
+            "num_beams": 1,
+            "max_new_tokens": 32,
+            "eos_token_id": 92542
+        },
+        "pred_response": "no",
+        "choice_list": [
+            "not the same",
+            "rand mcnally",
+            "jack smith",
+            "dk publishing"
+        ],
+        "image_quantity_level": "Few",
+        "image": [
+            "145.jpg",
+            "146.jpg"
+        ],
+        "extracted": "",
+        "result": 0
+    },
+    {
+        "sample_id": 68,
+        "question": "Example Question 1:\n<image> <image> {image#1}{image#2}Question: Are these two books in the same field?\nAnswer: Medical Books\n\nCurrent Question:\n{image#1}{image#2}Question: Are the authors of these two books the same?<image> <image> ",
+        "gt_response": "inc barcharts",
+        "gen_kwargs": {
+            "do_sample": false,
+            "num_beams": 1,
+            "max_new_tokens": 32,
+            "eos_token_id": 92542
+        },
+        "pred_response": "no the authors of these two books are not the same",
+        "choice_list": [
+            "inc barcharts",
+            "william shakespeare",
+            "chilton",
+            "not the same"
+        ],
+        "image_quantity_level": "Few",
+        "image": [
+            "156.jpg",
+            "157.jpg"
+        ],
+        "extracted": "D",
+        "result": 0
+    },
+    {
+        "sample_id": 70,
+        "question": "Example Question 1:\n<image> <image> {image#1}{image#2}Question: Are the authors of these two books the same?\nAnswer: Tyler Omoth\n\nCurrent Question:\n{image#1}{image#2}Question: Are these two books in the same field?<image> <image> ",
+        "gt_response": "medical books",
+        "gen_kwargs": {
+            "do_sample": false,
+            "num_beams": 1,
+            "max_new_tokens": 32,
+            "eos_token_id": 92542
+        },
+        "pred_response": "no these two books are not in the same field",
+        "choice_list": [
+            "romance",
+            "medical books",
+            "sports & outdoors",
+            "not the same"
+        ],
+        "image_quantity_level": "Few",
+        "image": [
+            "161.jpg",
+            "162.jpg"
+        ],
+        "extracted": "BAAD",
+        "result": 0
+    },
+    {
+        "sample_id": 71,
+        "question": "Example Question 1:\n<image> <image> {image#1}{image#2}Question: Are the authors of these two books the same?\nAnswer: HCPro\n\nCurrent Question:\n{image#1}{image#2}Question: Are these two books in the same field?<image> <image> ",
+        "gt_response": "travel",
+        "gen_kwargs": {
+            "do_sample": false,
+            "num_beams": 1,
+            "max_new_tokens": 32,
+            "eos_token_id": 92542
+        },
+        "pred_response": "yes the authors of these two books are the same",
+        "choice_list": [
+            "law",
+            "not the same",
+            "travel",
+            "history"
+        ],
+        "image_quantity_level": "Few",
+        "image": [
+            "163.jpg",
+            "164.jpg"
+        ],
+        "extracted": "ABAA",
+        "result": 0
+    },
+    {
+        "sample_id": 72,
+        "question": "Example Question 1:\n<image> <image> {image#1}{image#2}Question: Are the authors of these two books the same?\nAnswer: Gooseberry Patch\n\nCurrent Question:\n{image#1}{image#2}Question: Are the following two books published in the same year?<image> <image> ",
+        "gt_response": "2016",
+        "gen_kwargs": {
+            "do_sample": false,
+            "num_beams": 1,
+            "max_new_tokens": 32,
+            "eos_token_id": 92542
+        },
+        "pred_response": "yes both books are published in the same year",
+        "choice_list": [
+            "2015",
+            "2017",
+            "not the same",
+            "2016"
+        ],
+        "image_quantity_level": "Few",
+        "image": [
+            "165.jpg",
+            "166.jpg"
+        ],
+        "extracted": "BBABDAA",
+        "result": 0
+    },
+    {
+        "sample_id": 73,
+        "question": "Example Question 1:\n<image> <image> <image> {image#1}Slovakia (Bartholomew World Travel Map){image#2}G. W. Leibniz's Monadology : An Edition for Students{image#3}I Just Don't Like the Sound of No! My Story About Accepting No for an Answer and Disagreeing the Right Way! (Best Me I Can Be)Question: Please give the correct text order corresponding to each bookchoose\nAnswer: 2,1,0\n\nCurrent Question:\n{image#1}{image#2}Question: Are the authors of these two books the same?<image> <image> ",
+        "gt_response": "nelles verlag",
+        "gen_kwargs": {
+            "do_sample": false,
+            "num_beams": 1,
+            "max_new_tokens": 32,
+            "eos_token_id": 92542
+        },
+        "pred_response": "no",
+        "choice_list": [
+            "fodor's",
+            "nelles verlag",
+            "not the same",
+            "dk publishing"
+        ],
+        "image_quantity_level": "Few",
+        "image": [
+            "167.jpg",
+            "168.jpg"
+        ],
+        "extracted": "",
+        "result": 0
+    },
+    {
+        "sample_id": 74,
+        "question": "Example Question 1:\n<image> <image> {image#1}{image#2}Question: Are these two books in the same field?\nAnswer: Travel\n\nCurrent Question:\n{image#1}{image#2}Question: Are the following two books published in the same year?<image> <image> ",
+        "gt_response": "2016",
+        "gen_kwargs": {
+            "do_sample": false,
+            "num_beams": 1,
+            "max_new_tokens": 32,
+            "eos_token_id": 92542
+        },
+        "pred_response": "no",
+        "choice_list": [
+            "2015",
+            "2017",
+            "2016",
+            "not the same"
+        ],
+        "image_quantity_level": "Few",
+        "image": [
+            "169.jpg",
+            "170.jpg"
+        ],
+        "extracted": "",
+        "result": 0
+    },
+    {
+        "sample_id": 75,
+        "question": "Example Question 1:\n<image> <image> {image#1}{image#2}Question: Are the following two books published in the same year?\nAnswer: 2016\n\nCurrent Question:\n{image#1}{image#2}Question: Are the authors of these two books the same?<image> <image> ",
+        "gt_response": "dk publishing",
+        "gen_kwargs": {
+            "do_sample": false,
+            "num_beams": 1,
+            "max_new_tokens": 32,
+            "eos_token_id": 92542
+        },
+        "pred_response": "no",
+        "choice_list": [
+            "mark g papich dvm  ms  dacvcp",
+            "not the same",
+            "dk publishing",
+            "william shakespeare"
+        ],
+        "image_quantity_level": "Few",
+        "image": [
+            "171.jpg",
+            "172.jpg"
+        ],
+        "extracted": "",
+        "result": 0
+    },
+    {
+        "sample_id": 76,
+        "question": "Example Question 1:\n<image> <image> {image#1}{image#2}Question: Are the authors of these two books the same?\nAnswer: Gooseberry Patch\n\nCurrent Question:\n{image#1}{image#2}Question: Are these two books in the same field?<image> <image> ",
+        "gt_response": "travel",
+        "gen_kwargs": {
+            "do_sample": false,
+            "num_beams": 1,
+            "max_new_tokens": 32,
+            "eos_token_id": 92542
+        },
+        "pred_response": "yes both books are in the same field",
+        "choice_list": [
+            "children's books",
+            "travel",
+            "christian books & bibles",
+            "not the same"
+        ],
+        "image_quantity_level": "Few",
+        "image": [
+            "173.jpg",
+            "174.jpg"
+        ],
+        "extracted": "BBAAD",
+        "result": 0
+    },
+    {
+        "sample_id": 77,
+        "question": "Example Question 1:\n<image> <image> {image#1}{image#2}Question: Are the following two books published in the same year?\nAnswer: 2016\n\nCurrent Question:\n{image#1}{image#2}Question: Are the following two books published in the same year?<image> <image> ",
+        "gt_response": "2016",
+        "gen_kwargs": {
+            "do_sample": false,
+            "num_beams": 1,
+            "max_new_tokens": 32,
+            "eos_token_id": 92542
+        },
+        "pred_response": "yes both books are published in the same year",
+        "choice_list": [
+            "not the same",
+            "2017",
+            "2016",
+            "2015"
+        ],
+        "image_quantity_level": "Few",
+        "image": [
+            "175.jpg",
+            "176.jpg"
+        ],
+        "extracted": "BBABDAA",
+        "result": 0
+    },
+    {
+        "sample_id": 79,
+        "question": "Example Question 1:\n<image> <image> {image#1}{image#2}Question: Are the following two books published in the same year?\nAnswer: 2016\n\nCurrent Question:\n{image#1}{image#2}Question: Are the following two books published in the same year?<image> <image> ",
+        "gt_response": "2016",
+        "gen_kwargs": {
+            "do_sample": false,
+            "num_beams": 1,
+            "max_new_tokens": 32,
+            "eos_token_id": 92542
+        },
+        "pred_response": "yes both books are published in the same year 2016",
+        "choice_list": [
+            "2017",
+            "2015",
+            "not the same",
+            "2016"
+        ],
+        "image_quantity_level": "Few",
+        "image": [
+            "180.jpg",
+            "181.jpg"
+        ],
+        "extracted": "D",
+        "result": 1
+    },
+    {
+        "sample_id": 36,
+        "question": "Example Question 1:\n<image> <image> {image#1}{image#2}Question: Are the following two books published in the same year?\nAnswer: 2016\n\nCurrent Question:\n{image#1}Big Nate's Greatest Hits{image#2}Flying{image#3}My Nepenthe: Bohemian Tales of Food, Family, and Big SurQuestion: Please give the correct text order corresponding to each bookchoose<image> <image> <image> ",
+        "gt_response": "201",
+        "gen_kwargs": {
+            "do_sample": false,
+            "num_beams": 1,
+            "max_new_tokens": 32,
+            "eos_token_id": 92542
+        },
+        "pred_response": "no",
+        "choice_list": [
+            "012",
+            "021",
+            "102",
+            "120",
+            "201",
+            "210"
+        ],
+        "image_quantity_level": "Few",
+        "image": [
+            "84.jpg",
+            "85.jpg",
+            "86.jpg"
+        ],
+        "extracted": "",
+        "result": 0
+    },
+    {
+        "sample_id": 45,
+        "question": "Example Question 1:\n<image> <image> {image#1}{image#2}Question: Are the authors of these two books the same?\nAnswer: DK Publishing\n\nCurrent Question:\n{image#1}Psalms of Lament (Large Print Edition){image#2}Oman{image#3}Mix 'n' Match Meals in Minutes for People with Diabetes: A No-Brainer Solution to Meal PreparationQuestion: Please give the correct text order corresponding to each bookchoose<image> <image> <image> ",
+        "gt_response": "021",
+        "gen_kwargs": {
+            "do_sample": false,
+            "num_beams": 1,
+            "max_new_tokens": 32,
+            "eos_token_id": 92542
+        },
+        "pred_response": "dk publishing",
+        "choice_list": [
+            "012",
+            "021",
+            "102",
+            "120",
+            "201",
+            "210"
+        ],
+        "image_quantity_level": "Few",
+        "image": [
+            "103.jpg",
+            "104.jpg",
+            "105.jpg"
+        ],
+        "extracted": "DB",
+        "result": 0
+    },
+    {
+        "sample_id": 48,
+        "question": "Example Question 1:\n<image> <image> {image#1}{image#2}Question: Are these two books in the same field?\nAnswer: Teen & Young Adult\n\nCurrent Question:\n{image#1}Sacred Fire, Holy Well: A Druid's Grimoire{image#2}Numerical and Analytical Methods with MATLAB (Computational Mechanics and Applied Analysis){image#3}I Wear the Black Hat: Grappling with Villains (Real and Imagined)Question: Please give the correct text order corresponding to each bookchoose<image> <image> <image> ",
+        "gt_response": "120",
+        "gen_kwargs": {
+            "do_sample": false,
+            "num_beams": 1,
+            "max_new_tokens": 32,
+            "eos_token_id": 92542
+        },
+        "pred_response": "numerical and analytical methods with matlab",
+        "choice_list": [
+            "012",
+            "021",
+            "102",
+            "120",
+            "201",
+            "210"
+        ],
+        "image_quantity_level": "Few",
+        "image": [
+            "110.jpg",
+            "111.jpg",
+            "112.jpg"
+        ],
+        "extracted": "ECAADAACAEDAAB",
+        "result": 0
+    },
+    {
+        "sample_id": 58,
+        "question": "Example Question 1:\n<image> <image> {image#1}{image#2}Question: Are the authors of these two books the same?\nAnswer: Alexander Elder\n\nCurrent Question:\n{image#1}Under Our Skin: Getting Real about Race--and Getting Free from the Fears and Frustrations that Divide Us{image#2}Level 1 - Lesson Book: Piano Adventures{image#3}Practical Camellia Culture: A Treatise on the Propagation and Culture of the Camellia Japonica (Gardening in America)Question: Please give the correct text order corresponding to each bookchoose<image> <image> <image> ",
+        "gt_response": "201",
+        "gen_kwargs": {
+            "do_sample": false,
+            "num_beams": 1,
+            "max_new_tokens": 32,
+            "eos_token_id": 92542
+        },
+        "pred_response": "no",
+        "choice_list": [
+            "012",
+            "021",
+            "102",
+            "120",
+            "201",
+            "210"
+        ],
+        "image_quantity_level": "Few",
+        "image": [
+            "131.jpg",
+            "132.jpg",
+            "133.jpg"
+        ],
+        "extracted": "",
+        "result": 0
+    },
+    {
+        "sample_id": 61,
+        "question": "Example Question 1:\n<image> <image> {image#1}{image#2}Question: Are the following two books published in the same year?\nAnswer: 2016\n\nCurrent Question:\n{image#1}Macroeconomics (6th Edition){image#2}Program of Priestly Formation{image#3}The Official Harry Potter 2016 Square CalendarQuestion: Please give the correct text order corresponding to each bookchoose<image> <image> <image> ",
+        "gt_response": "120",
+        "gen_kwargs": {
+            "do_sample": false,
+            "num_beams": 1,
+            "max_new_tokens": 32,
+            "eos_token_id": 92542
+        },
+        "pred_response": "yes both books are published in the same year 2016",
+        "choice_list": [
+            "012",
+            "021",
+            "102",
+            "120",
+            "201",
+            "210"
+        ],
+        "image_quantity_level": "Few",
+        "image": [
+            "138.jpg",
+            "139.jpg",
+            "140.jpg"
+        ],
+        "extracted": "E",
+        "result": 0
+    },
+    {
+        "sample_id": 65,
+        "question": "Example Question 1:\n<image> <image> <image> {image#1}Psalms of Lament (Large Print Edition){image#2}Oman{image#3}Mix 'n' Match Meals in Minutes for People with Diabetes: A No-Brainer Solution to Meal PreparationQuestion: Please give the correct text order corresponding to each bookchoose\nAnswer: 0,2,1\n\nCurrent Question:\n{image#1}Cape Refuge (Cape Refuge, No. 1){image#2}Retirement on a Shoestring, 5th (Choose Retirement Series){image#3}Tales of the Greek Heroes (Puffin Classics)Question: Please give the correct text order corresponding to each bookchoose<image> <image> <image> ",
+        "gt_response": "210",
+        "gen_kwargs": {
+            "do_sample": false,
+            "num_beams": 1,
+            "max_new_tokens": 32,
+            "eos_token_id": 92542
+        },
+        "pred_response": "021",
+        "choice_list": [
+            "012",
+            "021",
+            "102",
+            "120",
+            "201",
+            "210"
+        ],
+        "image_quantity_level": "Few",
+        "image": [
+            "147.jpg",
+            "148.jpg",
+            "149.jpg"
+        ],
+        "extracted": "B",
+        "result": 0
+    },
+    {
+        "sample_id": 80,
+        "question": "Example Question 1:\n<image> <image> {image#1}{image#2}Question: Are the following two books published in the same year?\nAnswer: 2016\n\nCurrent Question:\n{image#1}{image#2}Question: Are the authors of these two books the same?<image> <image> ",
+        "gt_response": "william shakespeare",
+        "gen_kwargs": {
+            "do_sample": false,
+            "num_beams": 1,
+            "max_new_tokens": 32,
+            "eos_token_id": 92542
+        },
+        "pred_response": "no",
+        "choice_list": [
+            "sara king",
+            "dk publishing",
+            "william shakespeare",
+            "not the same"
+        ],
+        "image_quantity_level": "Few",
+        "image": [
+            "182.jpg",
+            "183.jpg"
+        ],
+        "extracted": "",
+        "result": 0
+    },
+    {
+        "sample_id": 81,
+        "question": "Example Question 1:\n<image> <image> {image#1}{image#2}Question: Are the following two books published in the same year?\nAnswer: 2016\n\nCurrent Question:\n{image#1}{image#2}Question: Are these two books in the same field?<image> <image> ",
+        "gt_response": "travel",
+        "gen_kwargs": {
+            "do_sample": false,
+            "num_beams": 1,
+            "max_new_tokens": 32,
+            "eos_token_id": 92542
+        },
+        "pred_response": "no",
+        "choice_list": [
+            "not the same",
+            "travel",
+            "science & math",
+            "humor & entertainment"
+        ],
+        "image_quantity_level": "Few",
+        "image": [
+            "184.jpg",
+            "185.jpg"
+        ],
+        "extracted": "",
+        "result": 0
+    },
+    {
+        "sample_id": 83,
+        "question": "Example Question 1:\n<image> <image> {image#1}{image#2}Question: Are the following two books published in the same year?\nAnswer: 2016\n\nCurrent Question:\n{image#1}{image#2}Question: Are the following two books published in the same year?<image> <image> ",
+        "gt_response": "2016",
+        "gen_kwargs": {
+            "do_sample": false,
+            "num_beams": 1,
+            "max_new_tokens": 32,
+            "eos_token_id": 92542
+        },
+        "pred_response": "yes both books are published in the same year",
+        "choice_list": [
+            "2015",
+            "not the same",
+            "2016",
+            "2017"
+        ],
+        "image_quantity_level": "Few",
+        "image": [
+            "189.jpg",
+            "190.jpg"
+        ],
+        "extracted": "BBABDAA",
+        "result": 0
+    },
+    {
+        "sample_id": 85,
+        "question": "Example Question 1:\n<image> <image> {image#1}{image#2}Question: Are the following two books published in the same year?\nAnswer: 2016\n\nCurrent Question:\n{image#1}{image#2}Question: Are the following two books published in the same year?<image> <image> ",
+        "gt_response": "2016",
+        "gen_kwargs": {
+            "do_sample": false,
+            "num_beams": 1,
+            "max_new_tokens": 32,
+            "eos_token_id": 92542
+        },
+        "pred_response": "yes both books are published in the same year 2016",
+        "choice_list": [
+            "2015",
+            "2016",
+            "not the same",
+            "2017"
+        ],
+        "image_quantity_level": "Few",
+        "image": [
+            "194.jpg",
+            "195.jpg"
+        ],
+        "extracted": "B",
+        "result": 1
+    },
+    {
+        "sample_id": 87,
+        "question": "Example Question 1:\n<image> <image> {image#1}{image#2}Question: Are the following two books published in the same year?\nAnswer: 2016\n\nCurrent Question:\n{image#1}{image#2}Question: Are these two books in the same field?<image> <image> ",
+        "gt_response": "travel",
+        "gen_kwargs": {
+            "do_sample": false,
+            "num_beams": 1,
+            "max_new_tokens": 32,
+            "eos_token_id": 92542
+        },
+        "pred_response": "yes both books are published in the same year 2016",
+        "choice_list": [
+            "law",
+            "not the same",
+            "history",
+            "travel"
+        ],
+        "image_quantity_level": "Few",
+        "image": [
+            "199.jpg",
+            "200.jpg"
+        ],
+        "extracted": "BBABDAA",
+        "result": 0
+    },
+    {
+        "sample_id": 88,
+        "question": "Example Question 1:\n<image> <image> {image#1}{image#2}Question: Are the authors of these two books the same?\nAnswer: James Lee Anderson\n\nCurrent Question:\n{image#1}{image#2}Question: Are these two books in the same field?<image> <image> ",
+        "gt_response": "crafts hobbies & home",
+        "gen_kwargs": {
+            "do_sample": false,
+            "num_beams": 1,
+            "max_new_tokens": 32,
+            "eos_token_id": 92542
+        },
+        "pred_response": "yes the authors of these two books are the same",
+        "choice_list": [
+            "comics & graphic novels",
+            "not the same",
+            "crafts hobbies & home",
+            "children's books"
+        ],
+        "image_quantity_level": "Few",
+        "image": [
+            "201.jpg",
+            "202.jpg"
+        ],
+        "extracted": "ABAA",
+        "result": 0
+    },
+    {
+        "sample_id": 90,
+        "question": "Example Question 1:\n<image> <image> {image#1}{image#2}Question: Are these two books in the same field?\nAnswer: Business & Money\n\nCurrent Question:\n{image#1}{image#2}Question: Are these two books in the same field?<image> <image> ",
+        "gt_response": "biographies & memoirs",
+        "gen_kwargs": {
+            "do_sample": false,
+            "num_beams": 1,
+            "max_new_tokens": 32,
+            "eos_token_id": 92542
+        },
+        "pred_response": "no",
+        "choice_list": [
+            "business & money",
+            "christian books & bibles",
+            "biographies & memoirs",
+            "not the same"
+        ],
+        "image_quantity_level": "Few",
+        "image": [
+            "206.jpg",
+            "207.jpg"
+        ],
+        "extracted": "",
+        "result": 0
+    },
+    {
+        "sample_id": 91,
+        "question": "Example Question 1:\n<image> <image> {image#1}{image#2}Question: Are the following two books published in the same year?\nAnswer: 2016\n\nCurrent Question:\n{image#1}{image#2}Question: Are these two books in the same field?<image> <image> ",
+        "gt_response": "education & teaching",
+        "gen_kwargs": {
+            "do_sample": false,
+            "num_beams": 1,
+            "max_new_tokens": 32,
+            "eos_token_id": 92542
+        },
+        "pred_response": "yes both books are published in the same year 2016",
+        "choice_list": [
+            "comics & graphic novels",
+            "education & teaching",
+            "children's books",
+            "not the same"
+        ],
+        "image_quantity_level": "Few",
+        "image": [
+            "208.jpg",
+            "209.jpg"
+        ],
+        "extracted": "BBABDAA",
+        "result": 0
+    },
+    {
+        "sample_id": 92,
+        "question": "Example Question 1:\n<image> <image> {image#1}{image#2}Question: Are the following two books published in the same year?\nAnswer: 2016\n\nCurrent Question:\n{image#1}{image#2}Question: Are the following two books published in the same year?<image> <image> ",
+        "gt_response": "2016",
+        "gen_kwargs": {
+            "do_sample": false,
+            "num_beams": 1,
+            "max_new_tokens": 32,
+            "eos_token_id": 92542
+        },
+        "pred_response": "yes both books are published in the same year 2016",
+        "choice_list": [
+            "2017",
+            "2015",
+            "not the same",
+            "2016"
+        ],
+        "image_quantity_level": "Few",
+        "image": [
+            "210.jpg",
+            "211.jpg"
+        ],
+        "extracted": "D",
+        "result": 1
+    },
+    {
+        "sample_id": 93,
+        "question": "Example Question 1:\n<image> <image> {image#1}{image#2}Question: Are these two books in the same field?\nAnswer: Computers & Technology\n\nCurrent Question:\n{image#1}{image#2}Question: Are these two books in the same field?<image> <image> ",
+        "gt_response": "religion & spirituality",
+        "gen_kwargs": {
+            "do_sample": false,
+            "num_beams": 1,
+            "max_new_tokens": 32,
+            "eos_token_id": 92542
+        },
+        "pred_response": "no",
+        "choice_list": [
+            "medical books",
+            "religion & spirituality",
+            "science & math",
+            "not the same"
+        ],
+        "image_quantity_level": "Few",
+        "image": [
+            "212.jpg",
+            "213.jpg"
+        ],
+        "extracted": "",
+        "result": 0
+    },
+    {
+        "sample_id": 94,
+        "question": "Example Question 1:\n<image> <image> {image#1}{image#2}Question: Are the following two books published in the same year?\nAnswer: 2016\n\nCurrent Question:\n{image#1}{image#2}Question: Are the authors of these two books the same?<image> <image> ",
+        "gt_response": "lonely planet",
+        "gen_kwargs": {
+            "do_sample": false,
+            "num_beams": 1,
+            "max_new_tokens": 32,
+            "eos_token_id": 92542
+        },
+        "pred_response": "no",
+        "choice_list": [
+            "not the same",
+            "william shakespeare",
+            "fodor's",
+            "lonely planet"
+        ],
+        "image_quantity_level": "Few",
+        "image": [
+            "214.jpg",
+            "215.jpg"
+        ],
+        "extracted": "",
+        "result": 0
+    },
+    {
+        "sample_id": 95,
+        "question": "Example Question 1:\n<image> <image> {image#1}{image#2}Question: Are these two books in the same field?\nAnswer: History\n\nCurrent Question:\n{image#1}{image#2}Question: Are the authors of these two books the same?<image> <image> ",
+        "gt_response": "national geographic maps  adventure",
+        "gen_kwargs": {
+            "do_sample": false,
+            "num_beams": 1,
+            "max_new_tokens": 32,
+            "eos_token_id": 92542
+        },
+        "pred_response": "no",
+        "choice_list": [
+            "sandra hill",
+            "national geographic maps  adventure",
+            "megacalendars",
+            "not the same"
+        ],
+        "image_quantity_level": "Few",
+        "image": [
+            "216.jpg",
+            "217.jpg"
+        ],
+        "extracted": "",
+        "result": 0
+    },
+    {
+        "sample_id": 97,
+        "question": "Example Question 1:\n<image> <image> {image#1}{image#2}Question: Are these two books in the same field?\nAnswer: Teen & Young Adult\n\nCurrent Question:\n{image#1}{image#2}Question: Are these two books in the same field?<image> <image> ",
+        "gt_response": "science & math",
+        "gen_kwargs": {
+            "do_sample": false,
+            "num_beams": 1,
+            "max_new_tokens": 32,
+            "eos_token_id": 92542
+        },
+        "pred_response": "no",
+        "choice_list": [
+            "science & math",
+            "travel",
+            "children's books",
+            "not the same"
+        ],
+        "image_quantity_level": "Few",
+        "image": [
+            "221.jpg",
+            "222.jpg"
+        ],
+        "extracted": "",
+        "result": 0
+    },
+    {
+        "sample_id": 98,
+        "question": "Example Question 1:\n<image> <image> {image#1}{image#2}Question: Are the following two books published in the same year?\nAnswer: 2016\n\nCurrent Question:\n{image#1}{image#2}Question: Are these two books in the same field?<image> <image> ",
+        "gt_response": "travel",
+        "gen_kwargs": {
+            "do_sample": false,
+            "num_beams": 1,
+            "max_new_tokens": 32,
+            "eos_token_id": 92542
+        },
+        "pred_response": "no",
+        "choice_list": [
+            "not the same",
+            "law",
+            "travel",
+            "teen & young adult"
+        ],
+        "image_quantity_level": "Few",
+        "image": [
+            "223.jpg",
+            "224.jpg"
+        ],
+        "extracted": "",
+        "result": 0
+    },
+    {
+        "sample_id": 99,
+        "question": "Example Question 1:\n<image> <image> {image#1}{image#2}Question: Are the following two books published in the same year?\nAnswer: 2014\n\nCurrent Question:\n{image#1}{image#2}Question: Are the following two books published in the same year?<image> <image> ",
+        "gt_response": "2015",
+        "gen_kwargs": {
+            "do_sample": false,
+            "num_beams": 1,
+            "max_new_tokens": 32,
+            "eos_token_id": 92542
+        },
+        "pred_response": "yes both books are published in the same year",
+        "choice_list": [
+            "2016",
+            "2017",
+            "2015",
+            "not the same"
+        ],
+        "image_quantity_level": "Few",
+        "image": [
+            "225.jpg",
+            "226.jpg"
+        ],
+        "extracted": "BBABDAA",
+        "result": 0
+    },
+    {
+        "sample_id": 101,
+        "question": "Example Question 1:\n<image> <image> {image#1}{image#2}Question: Are the authors of these two books the same?\nAnswer: Sarah Fabiny\n\nCurrent Question:\n{image#1}{image#2}Question: Are the following two books published in the same year?<image> <image> ",
+        "gt_response": "2015",
+        "gen_kwargs": {
+            "do_sample": false,
+            "num_beams": 1,
+            "max_new_tokens": 32,
+            "eos_token_id": 92542
+        },
+        "pred_response": "no the two books are not published in the same year",
+        "choice_list": [
+            "not the same",
+            "2017",
+            "2015",
+            "2016"
+        ],
+        "image_quantity_level": "Few",
+        "image": [
+            "230.jpg",
+            "231.jpg"
+        ],
+        "extracted": "BABDAA",
+        "result": 0
+    },
+    {
+        "sample_id": 102,
+        "question": "Example Question 1:\n<image> <image> {image#1}{image#2}Question: Are these two books in the same field?\nAnswer: Teen & Young Adult\n\nCurrent Question:\n{image#1}{image#2}Question: Are these two books in the same field?<image> <image> ",
+        "gt_response": "health fitness & dieting",
+        "gen_kwargs": {
+            "do_sample": false,
+            "num_beams": 1,
+            "max_new_tokens": 32,
+            "eos_token_id": 92542
+        },
+        "pred_response": "medical marriages",
+        "choice_list": [
+            "teen & young adult",
+            "health fitness & dieting",
+            "children's books",
+            "not the same"
+        ],
+        "image_quantity_level": "Few",
+        "image": [
+            "232.jpg",
+            "233.jpg"
+        ],
+        "extracted": "DCAAA",
+        "result": 0
+    },
+    {
+        "sample_id": 105,
+        "question": "Example Question 1:\n<image> <image> {image#1}{image#2}Question: Are the authors of these two books the same?\nAnswer: Rob Price\n\nCurrent Question:\n{image#1}{image#2}Question: Are these two books in the same field?<image> <image> ",
+        "gt_response": "crafts hobbies & home",
+        "gen_kwargs": {
+            "do_sample": false,
+            "num_beams": 1,
+            "max_new_tokens": 32,
+            "eos_token_id": 92542
+        },
+        "pred_response": "yes the authors of these two books are the same",
+        "choice_list": [
+            "mystery thriller & suspense",
+            "children's books",
+            "crafts hobbies & home",
+            "not the same"
+        ],
+        "image_quantity_level": "Few",
+        "image": [
+            "240.jpg",
+            "241.jpg"
+        ],
+        "extracted": "ABAA",
+        "result": 0
+    },
+    {
+        "sample_id": 106,
+        "question": "Example Question 1:\n<image> <image> {image#1}{image#2}Question: Are the following two books published in the same year?\nAnswer: 2016\n\nCurrent Question:\n{image#1}{image#2}Question: Are the authors of these two books the same?<image> <image> ",
+        "gt_response": "sara king",
+        "gen_kwargs": {
+            "do_sample": false,
+            "num_beams": 1,
+            "max_new_tokens": 32,
+            "eos_token_id": 92542
+        },
+        "pred_response": "no",
+        "choice_list": [
+            "lonely planet",
+            "paul theroux",
+            "sara king",
+            "not the same"
+        ],
+        "image_quantity_level": "Few",
+        "image": [
+            "242.jpg",
+            "243.jpg"
+        ],
+        "extracted": "",
+        "result": 0
+    },
+    {
+        "sample_id": 66,
+        "question": "Example Question 1:\n<image> <image> <image> {image#1}Sacred Fire, Holy Well: A Druid's Grimoire{image#2}Numerical and Analytical Methods with MATLAB (Computational Mechanics and Applied Analysis){image#3}I Wear the Black Hat: Grappling with Villains (Real and Imagined)Question: Please give the correct text order corresponding to each bookchoose\nAnswer: 1,2,0\n\nCurrent Question:\n{image#1}Star Wars Workbook: 1st Grade Math (Star Wars Workbooks){image#2}Life Through a Different Lens: Reflections and Lessons from the Horn of Africa{image#3}Wreck Beach (Transmontanus)Question: Please give the correct text order corresponding to each bookchoose<image> <image> <image> ",
+        "gt_response": "021",
+        "gen_kwargs": {
+            "do_sample": false,
+            "num_beams": 1,
+            "max_new_tokens": 32,
+            "eos_token_id": 92542
+        },
+        "pred_response": "312",
+        "choice_list": [
+            "012",
+            "021",
+            "102",
+            "120",
+            "201",
+            "210"
+        ],
+        "image_quantity_level": "Few",
+        "image": [
+            "150.jpg",
+            "151.jpg",
+            "152.jpg"
+        ],
+        "extracted": "",
+        "result": 0
+    },
+    {
+        "sample_id": 67,
+        "question": "Example Question 1:\n<image> <image> {image#1}{image#2}Question: Are these two books in the same field?\nAnswer: Business & Money\n\nCurrent Question:\n{image#1}Equine Veterinary Nursing Manual{image#2}The Grinnell Beowulf{image#3}Airbrush - Complete Studio HandbookQuestion: Please give the correct text order corresponding to each bookchoose<image> <image> <image> ",
+        "gt_response": "021",
+        "gen_kwargs": {
+            "do_sample": false,
+            "num_beams": 1,
+            "max_new_tokens": 32,
+            "eos_token_id": 92542
+        },
+        "pred_response": "the grinnell beowulf",
+        "choice_list": [
+            "012",
+            "021",
+            "102",
+            "120",
+            "201",
+            "210"
+        ],
+        "image_quantity_level": "Few",
+        "image": [
+            "153.jpg",
+            "154.jpg",
+            "155.jpg"
+        ],
+        "extracted": "EEBEF",
+        "result": 0
+    },
+    {
+        "sample_id": 69,
+        "question": "Example Question 1:\n<image> <image> {image#1}{image#2}Question: Are the following two books published in the same year?\nAnswer: 2016\n\nCurrent Question:\n{image#1}Alimentos Geneticamente Modificados: Cambiando la Naturaleza de la Naturaleza: Que necesita saber para proteger a usted mismo, a su familia y a nuestro planeta{image#2}Bible Cover: Exlarge Black Genuine Leather{image#3}Fifty Jewish Women Who Changed The WorldQuestion: Please give the correct text order corresponding to each bookchoose<image> <image> <image> ",
+        "gt_response": "021",
+        "gen_kwargs": {
+            "do_sample": false,
+            "num_beams": 1,
+            "max_new_tokens": 32,
+            "eos_token_id": 92542
+        },
+        "pred_response": "no",
+        "choice_list": [
+            "012",
+            "021",
+            "102",
+            "120",
+            "201",
+            "210"
+        ],
+        "image_quantity_level": "Few",
+        "image": [
+            "158.jpg",
+            "159.jpg",
+            "160.jpg"
+        ],
+        "extracted": "",
+        "result": 0
+    },
+    {
+        "sample_id": 78,
+        "question": "Example Question 1:\n<image> <image> {image#1}{image#2}Question: Are the following two books published in the same year?\nAnswer: 2016\n\nCurrent Question:\n{image#1}1. Kilimanjaro & Tanzania North Travel Map 1: 62,500/1,370,000{image#2}2016 National Parks Wall Calendar{image#3}Simply Modern: Contemporary Designs for Hooked RugsQuestion: Please give the correct text order corresponding to each bookchoose<image> <image> <image> ",
+        "gt_response": "102",
+        "gen_kwargs": {
+            "do_sample": false,
+            "num_beams": 1,
+            "max_new_tokens": 32,
+            "eos_token_id": 92542
+        },
+        "pred_response": "yes both books are published in the same year 2016",
+        "choice_list": [
+            "012",
+            "021",
+            "102",
+            "120",
+            "201",
+            "210"
+        ],
+        "image_quantity_level": "Few",
+        "image": [
+            "177.jpg",
+            "178.jpg",
+            "179.jpg"
+        ],
+        "extracted": "E",
+        "result": 0
+    },
+    {
+        "sample_id": 82,
+        "question": "Example Question 1:\n<image> <image> <image> {image#1}Macroeconomics (6th Edition){image#2}Program of Priestly Formation{image#3}The Official Harry Potter 2016 Square CalendarQuestion: Please give the correct text order corresponding to each bookchoose\nAnswer: 1,2,0\n\nCurrent Question:\n{image#1}The Way of Men{image#2}Teen Goddess: How to Look, Love & Live Like a Goddess{image#3}The Grand Strategy of Classical Sparta: The Persian Challenge (Yale Library of Military History)Question: Please give the correct text order corresponding to each bookchoose<image> <image> <image> ",
+        "gt_response": "201",
+        "gen_kwargs": {
+            "do_sample": false,
+            "num_beams": 1,
+            "max_new_tokens": 32,
+            "eos_token_id": 92542
+        },
+        "pred_response": "120",
+        "choice_list": [
+            "012",
+            "021",
+            "102",
+            "120",
+            "201",
+            "210"
+        ],
+        "image_quantity_level": "Few",
+        "image": [
+            "186.jpg",
+            "187.jpg",
+            "188.jpg"
+        ],
+        "extracted": "D",
+        "result": 0
+    },
+    {
+        "sample_id": 84,
+        "question": "Example Question 1:\n<image> <image> {image#1}{image#2}Question: Are these two books in the same field?\nAnswer: Science & Math\n\nCurrent Question:\n{image#1}The Daytona 500: The Thrill and Thunder of the Great American Race (Spectacular Sports){image#2}Strong: Nine Workout Programs for Women to Burn Fat, Boost Metabolism, and Build Strength for Life{image#3}Ballet 2016 Square 12x12 (ST-Silver Foil) (Multilingual Edition)Question: Please give the correct text order corresponding to each bookchoose<image> <image> <image> ",
+        "gt_response": "021",
+        "gen_kwargs": {
+            "do_sample": false,
+            "num_beams": 1,
+            "max_new_tokens": 32,
+            "eos_token_id": 92542
+        },
+        "pred_response": "no",
+        "choice_list": [
+            "012",
+            "021",
+            "102",
+            "120",
+            "201",
+            "210"
+        ],
+        "image_quantity_level": "Few",
+        "image": [
+            "191.jpg",
+            "192.jpg",
+            "193.jpg"
+        ],
+        "extracted": "",
+        "result": 0
+    },
+    {
+        "sample_id": 107,
+        "question": "Example Question 1:\n<image> <image> {image#1}{image#2}Question: Are these two books in the same field?\nAnswer: Health, Fitness & Dieting\n\nCurrent Question:\n{image#1}{image#2}Question: Are these two books in the same field?<image> <image> ",
+        "gt_response": "health fitness & dieting",
+        "gen_kwargs": {
+            "do_sample": false,
+            "num_beams": 1,
+            "max_new_tokens": 32,
+            "eos_token_id": 92542
+        },
+        "pred_response": "no",
+        "choice_list": [
+            "health fitness & dieting",
+            "medical books",
+            "not the same",
+            "history"
+        ],
+        "image_quantity_level": "Few",
+        "image": [
+            "244.jpg",
+            "245.jpg"
+        ],
+        "extracted": "",
+        "result": 0
+    },
+    {
+        "sample_id": 108,
+        "question": "Example Question 1:\n<image> <image> {image#1}{image#2}Question: Are the following two books published in the same year?\nAnswer: 2016\n\nCurrent Question:\n{image#1}{image#2}Question: Are these two books in the same field?<image> <image> ",
+        "gt_response": "crafts hobbies & home",
+        "gen_kwargs": {
+            "do_sample": false,
+            "num_beams": 1,
+            "max_new_tokens": 32,
+            "eos_token_id": 92542
+        },
+        "pred_response": "yes both books are published in the same year",
+        "choice_list": [
+            "crafts hobbies & home",
+            "arts & photography",
+            "children's books",
+            "not the same"
+        ],
+        "image_quantity_level": "Few",
+        "image": [
+            "246.jpg",
+            "247.jpg"
+        ],
+        "extracted": "BBABDAA",
+        "result": 0
+    },
+    {
+        "sample_id": 109,
+        "question": "Example Question 1:\n<image> <image> {image#1}{image#2}Question: Are these two books in the same field?\nAnswer: Children's Books\n\nCurrent Question:\n{image#1}{image#2}Question: Are the authors of these two books the same?<image> <image> ",
+        "gt_response": "inc barcharts",
+        "gen_kwargs": {
+            "do_sample": false,
+            "num_beams": 1,
+            "max_new_tokens": 32,
+            "eos_token_id": 92542
+        },
+        "pred_response": "no",
+        "choice_list": [
+            "inc barcharts",
+            "princeton review",
+            "national geographic maps  adventure",
+            "not the same"
+        ],
+        "image_quantity_level": "Few",
+        "image": [
+            "248.jpg",
+            "249.jpg"
+        ],
+        "extracted": "",
+        "result": 0
+    },
+    {
+        "sample_id": 110,
+        "question": "Example Question 1:\n<image> <image> {image#1}{image#2}Question: Are the following two books published in the same year?\nAnswer: 2016\n\nCurrent Question:\n{image#1}{image#2}Question: Are the following two books published in the same year?<image> <image> ",
+        "gt_response": "2016",
+        "gen_kwargs": {
+            "do_sample": false,
+            "num_beams": 1,
+            "max_new_tokens": 32,
+            "eos_token_id": 92542
+        },
+        "pred_response": "yes both books are published in the same year 2016",
+        "choice_list": [
+            "not the same",
+            "2015",
+            "2016",
+            "2017"
+        ],
+        "image_quantity_level": "Few",
+        "image": [
+            "250.jpg",
+            "251.jpg"
+        ],
+        "extracted": "C",
+        "result": 1
+    },
+    {
+        "sample_id": 113,
+        "question": "Example Question 1:\n<image> <image> {image#1}{image#2}Question: Are the authors of these two books the same?\nAnswer: Steven L. Emanuel\n\nCurrent Question:\n{image#1}{image#2}Question: Are the following two books published in the same year?<image> <image> ",
+        "gt_response": "2016",
+        "gen_kwargs": {
+            "do_sample": false,
+            "num_beams": 1,
+            "max_new_tokens": 32,
+            "eos_token_id": 92542
+        },
+        "pred_response": "no",
+        "choice_list": [
+            "2016",
+            "2015",
+            "2017",
+            "not the same"
+        ],
+        "image_quantity_level": "Few",
+        "image": [
+            "258.jpg",
+            "259.jpg"
+        ],
+        "extracted": "",
+        "result": 0
+    },
+    {
+        "sample_id": 114,
+        "question": "Example Question 1:\n<image> <image> {image#1}{image#2}Question: Are these two books in the same field?\nAnswer: Medical Books\n\nCurrent Question:\n{image#1}{image#2}Question: Are these two books in the same field?<image> <image> ",
+        "gt_response": "travel",
+        "gen_kwargs": {
+            "do_sample": false,
+            "num_beams": 1,
+            "max_new_tokens": 32,
+            "eos_token_id": 92542
+        },
+        "pred_response": "travel",
+        "choice_list": [
+            "not the same",
+            "computers & technology",
+            "travel",
+            "medical books"
+        ],
+        "image_quantity_level": "Few",
+        "image": [
+            "260.jpg",
+            "261.jpg"
+        ],
+        "extracted": "C",
+        "result": 1
+    },
+    {
+        "sample_id": 115,
+        "question": "Example Question 1:\n<image> <image> {image#1}{image#2}Question: Are the following two books published in the same year?\nAnswer: 2016\n\nCurrent Question:\n{image#1}{image#2}Question: Are the authors of these two books the same?<image> <image> ",
+        "gt_response": "browntrout publishers",
+        "gen_kwargs": {
+            "do_sample": false,
+            "num_beams": 1,
+            "max_new_tokens": 32,
+            "eos_token_id": 92542
+        },
+        "pred_response": "no",
+        "choice_list": [
+            "not the same",
+            "dk publishing",
+            "browntrout publishers",
+            "lonely planet"
+        ],
+        "image_quantity_level": "Few",
+        "image": [
+            "262.jpg",
+            "263.jpg"
+        ],
+        "extracted": "",
+        "result": 0
+    },
+    {
+        "sample_id": 116,
+        "question": "Example Question 1:\n<image> <image> {image#1}{image#2}Question: Are these two books in the same field?\nAnswer: Travel\n\nCurrent Question:\n{image#1}{image#2}Question: Are the following two books published in the same year?<image> <image> ",
+        "gt_response": "2016",
+        "gen_kwargs": {
+            "do_sample": false,
+            "num_beams": 1,
+            "max_new_tokens": 32,
+            "eos_token_id": 92542
+        },
+        "pred_response": "no",
+        "choice_list": [
+            "not the same",
+            "2015",
+            "2017",
+            "2016"
+        ],
+        "image_quantity_level": "Few",
+        "image": [
+            "264.jpg",
+            "265.jpg"
+        ],
+        "extracted": "",
+        "result": 0
+    },
+    {
+        "sample_id": 117,
+        "question": "Example Question 1:\n<image> <image> {image#1}{image#2}Question: Are the authors of these two books the same?\nAnswer: William Shakespeare\n\nCurrent Question:\n{image#1}{image#2}Question: Are the authors of these two books the same?<image> <image> ",
+        "gt_response": "browntrout publishers",
+        "gen_kwargs": {
+            "do_sample": false,
+            "num_beams": 1,
+            "max_new_tokens": 32,
+            "eos_token_id": 92542
+        },
+        "pred_response": "no",
+        "choice_list": [
+            "wendell berry",
+            "lonely planet",
+            "browntrout publishers",
+            "not the same"
+        ],
+        "image_quantity_level": "Few",
+        "image": [
+            "266.jpg",
+            "267.jpg"
+        ],
+        "extracted": "",
+        "result": 0
+    },
+    {
+        "sample_id": 118,
+        "question": "Example Question 1:\n<image> <image> <image> {image#1}Under Our Skin: Getting Real about Race--and Getting Free from the Fears and Frustrations that Divide Us{image#2}Level 1 - Lesson Book: Piano Adventures{image#3}Practical Camellia Culture: A Treatise on the Propagation and Culture of the Camellia Japonica (Gardening in America)Question: Please give the correct text order corresponding to each bookchoose\nAnswer: 2,0,1\n\nCurrent Question:\n{image#1}{image#2}Question: Are these two books in the same field?<image> <image> ",
+        "gt_response": "teen & young adult",
+        "gen_kwargs": {
+            "do_sample": false,
+            "num_beams": 1,
+            "max_new_tokens": 32,
+            "eos_token_id": 92542
+        },
+        "pred_response": "no",
+        "choice_list": [
+            "not the same",
+            "travel",
+            "children's books",
+            "teen & young adult"
+        ],
+        "image_quantity_level": "Few",
+        "image": [
+            "268.jpg",
+            "269.jpg"
+        ],
+        "extracted": "",
+        "result": 0
+    },
+    {
+        "sample_id": 120,
+        "question": "Example Question 1:\n<image> <image> {image#1}{image#2}Question: Are the following two books published in the same year?\nAnswer: 2016\n\nCurrent Question:\n{image#1}{image#2}Question: Are the authors of these two books the same?<image> <image> ",
+        "gt_response": "tricia brown",
+        "gen_kwargs": {
+            "do_sample": false,
+            "num_beams": 1,
+            "max_new_tokens": 32,
+            "eos_token_id": 92542
+        },
+        "pred_response": "no",
+        "choice_list": [
+            "nella larsen",
+            "not the same",
+            "inc barcharts",
+            "tricia brown"
+        ],
+        "image_quantity_level": "Few",
+        "image": [
+            "273.jpg",
+            "274.jpg"
+        ],
+        "extracted": "",
+        "result": 0
+    },
+    {
+        "sample_id": 121,
+        "question": "Example Question 1:\n<image> <image> <image> {image#1}An Occupational Perspective on Leadership: Theoretical and Practical Dimensions{image#2}Miss Passport City Guides Presents:  Mini 3 day Unforgettable Vacation Itinerary to Nassau, Bahamas (Miss Passport Travel Guides Book ){image#3}Horse Health and Nutrition For DummiesQuestion: Please give the correct text order corresponding to each bookchoose\nAnswer: 1,0,2\n\nCurrent Question:\n{image#1}{image#2}Question: Are the authors of these two books the same?<image> <image> ",
+        "gt_response": "kaplan",
+        "gen_kwargs": {
+            "do_sample": false,
+            "num_beams": 1,
+            "max_new_tokens": 32,
+            "eos_token_id": 92542
+        },
+        "pred_response": "no",
+        "choice_list": [
+            "not the same",
+            "james lee anderson",
+            "kaplan",
+            "dk publishing"
+        ],
+        "image_quantity_level": "Few",
+        "image": [
+            "275.jpg",
+            "276.jpg"
+        ],
+        "extracted": "",
+        "result": 0
+    },
+    {
+        "sample_id": 122,
+        "question": "Example Question 1:\n<image> <image> {image#1}{image#2}Question: Are these two books in the same field?\nAnswer: Medical Books\n\nCurrent Question:\n{image#1}{image#2}Question: Are these two books in the same field?<image> <image> ",
+        "gt_response": "travel",
+        "gen_kwargs": {
+            "do_sample": false,
+            "num_beams": 1,
+            "max_new_tokens": 32,
+            "eos_token_id": 92542
+        },
+        "pred_response": "travel",
+        "choice_list": [
+            "not the same",
+            "travel",
+            "cookbooks food & wine",
+            "humor & entertainment"
+        ],
+        "image_quantity_level": "Few",
+        "image": [
+            "277.jpg",
+            "278.jpg"
+        ],
+        "extracted": "B",
+        "result": 1
+    },
+    {
+        "sample_id": 123,
+        "question": "Example Question 1:\n<image> <image> {image#1}{image#2}Question: Are the following two books published in the same year?\nAnswer: 2016\n\nCurrent Question:\n{image#1}{image#2}Question: Are the authors of these two books the same?<image> <image> ",
+        "gt_response": "trends international",
+        "gen_kwargs": {
+            "do_sample": false,
+            "num_beams": 1,
+            "max_new_tokens": 32,
+            "eos_token_id": 92542
+        },
+        "pred_response": "no",
+        "choice_list": [
+            "not the same",
+            "disney book group",
+            "dk publishing",
+            "trends international"
+        ],
+        "image_quantity_level": "Few",
+        "image": [
+            "279.jpg",
+            "280.jpg"
+        ],
+        "extracted": "",
+        "result": 0
+    },
+    {
+        "sample_id": 124,
+        "question": "Example Question 1:\n<image> <image> <image> {image#1}Magical Mazes{image#2}The Return: A Titan Novel{image#3}Kriya Secrets Revealed: Complete Lessons and TechniquesQuestion: Please give the correct text order corresponding to each bookchoose\nAnswer: 1,0,2\n\nCurrent Question:\n{image#1}{image#2}Question: Are the following two books published in the same year?<image> <image> ",
+        "gt_response": "2016",
+        "gen_kwargs": {
+            "do_sample": false,
+            "num_beams": 1,
+            "max_new_tokens": 32,
+            "eos_token_id": 92542
+        },
+        "pred_response": "no",
+        "choice_list": [
+            "not the same",
+            "2017",
+            "2016",
+            "2015"
+        ],
+        "image_quantity_level": "Few",
+        "image": [
+            "281.jpg",
+            "282.jpg"
+        ],
+        "extracted": "",
+        "result": 0
+    },
+    {
+        "sample_id": 126,
+        "question": "Example Question 1:\n<image> <image> {image#1}{image#2}Question: Are these two books in the same field?\nAnswer: Christian Books & Bibles\n\nCurrent Question:\n{image#1}{image#2}Question: Are the following two books published in the same year?<image> <image> ",
+        "gt_response": "2016",
+        "gen_kwargs": {
+            "do_sample": false,
+            "num_beams": 1,
+            "max_new_tokens": 32,
+            "eos_token_id": 92542
+        },
+        "pred_response": "no",
+        "choice_list": [
+            "not the same",
+            "2016",
+            "2017",
+            "2015"
+        ],
+        "image_quantity_level": "Few",
+        "image": [
+            "286.jpg",
+            "287.jpg"
+        ],
+        "extracted": "",
+        "result": 0
+    },
+    {
+        "sample_id": 127,
+        "question": "Example Question 1:\n<image> <image> {image#1}{image#2}Question: Are these two books in the same field?\nAnswer: History\n\nCurrent Question:\n{image#1}{image#2}Question: Are these two books in the same field?<image> <image> ",
+        "gt_response": "travel",
+        "gen_kwargs": {
+            "do_sample": false,
+            "num_beams": 1,
+            "max_new_tokens": 32,
+            "eos_token_id": 92542
+        },
+        "pred_response": "travel",
+        "choice_list": [
+            "not the same",
+            "teen & young adult",
+            "travel",
+            "medical books"
+        ],
+        "image_quantity_level": "Few",
+        "image": [
+            "288.jpg",
+            "289.jpg"
+        ],
+        "extracted": "C",
+        "result": 1
+    },
+    {
+        "sample_id": 128,
+        "question": "Example Question 1:\n<image> <image> {image#1}{image#2}Question: Are the authors of these two books the same?\nAnswer: Nelles Verlag\n\nCurrent Question:\n{image#1}{image#2}Question: Are the authors of these two books the same?<image> <image> ",
+        "gt_response": "knopf guides",
+        "gen_kwargs": {
+            "do_sample": false,
+            "num_beams": 1,
+            "max_new_tokens": 32,
+            "eos_token_id": 92542
+        },
+        "pred_response": "yes the authors of these two books are the same",
+        "choice_list": [
+            "lonely planet",
+            "not the same",
+            "fodor's",
+            "knopf guides"
+        ],
+        "image_quantity_level": "Few",
+        "image": [
+            "290.jpg",
+            "291.jpg"
+        ],
+        "extracted": "ABAA",
+        "result": 0
+    },
+    {
+        "sample_id": 129,
+        "question": "Example Question 1:\n<image> <image> {image#1}{image#2}Question: Are the authors of these two books the same?\nAnswer: Lonely Planet\n\nCurrent Question:\n{image#1}{image#2}Question: Are the authors of these two books the same?<image> <image> ",
+        "gt_response": "fodor's",
+        "gen_kwargs": {
+            "do_sample": false,
+            "num_beams": 1,
+            "max_new_tokens": 32,
+            "eos_token_id": 92542
+        },
+        "pred_response": "yes the authors of these two books are the same",
+        "choice_list": [
+            "fodor's",
+            "rand mcnally",
+            "kenneth e hagin",
+            "not the same"
+        ],
+        "image_quantity_level": "Few",
+        "image": [
+            "292.jpg",
+            "293.jpg"
+        ],
+        "extracted": "ABAA",
+        "result": 0
+    },
+    {
+        "sample_id": 86,
+        "question": "Example Question 1:\n<image> <image> {image#1}{image#2}Question: Are the authors of these two books the same?\nAnswer: Rob Price\n\nCurrent Question:\n{image#1}Why Do Christians Shoot Their Wounded?: Helping (Not Hurting) Those with Emotional Difficulties{image#2}Belly Fat Effect: The Real Secret About How Your Diet, Intestinal Health, and Gut Bacteria Help You Burn Fat{image#3}Wilderness and Travel MedicineQuestion: Please give the correct text order corresponding to each bookchoose<image> <image> <image> ",
+        "gt_response": "210",
+        "gen_kwargs": {
+            "do_sample": false,
+            "num_beams": 1,
+            "max_new_tokens": 32,
+            "eos_token_id": 92542
+        },
+        "pred_response": "no",
+        "choice_list": [
+            "012",
+            "021",
+            "102",
+            "120",
+            "201",
+            "210"
+        ],
+        "image_quantity_level": "Few",
+        "image": [
+            "196.jpg",
+            "197.jpg",
+            "198.jpg"
+        ],
+        "extracted": "",
+        "result": 0
+    },
+    {
+        "sample_id": 89,
+        "question": "Example Question 1:\n<image> <image> {image#1}{image#2}Question: Are these two books in the same field?\nAnswer: Travel\n\nCurrent Question:\n{image#1}Enchanted Fairy Tales Storybook and Gemstone Necklace (Barbie){image#2}Mozambique (Globetrotter Travel Map){image#3}Ford Explorer, 1991-2001: Explorer Sport Thru 2003, Sport Trac 2005 (Haynes Repair Manual)Question: Please give the correct text order corresponding to each bookchoose<image> <image> <image> ",
+        "gt_response": "210",
+        "gen_kwargs": {
+            "do_sample": false,
+            "num_beams": 1,
+            "max_new_tokens": 32,
+            "eos_token_id": 92542
+        },
+        "pred_response": "travel",
+        "choice_list": [
+            "012",
+            "021",
+            "102",
+            "120",
+            "201",
+            "210"
+        ],
+        "image_quantity_level": "Few",
+        "image": [
+            "203.jpg",
+            "204.jpg",
+            "205.jpg"
+        ],
+        "extracted": "AE",
+        "result": 0
+    },
+    {
+        "sample_id": 96,
+        "question": "Example Question 1:\n<image> <image> {image#1}{image#2}Question: Are the authors of these two books the same?\nAnswer: National Geographic Maps - Adventure\n\nCurrent Question:\n{image#1}A History of the Ancient Near East ca. 3000 - 323 BC, 2nd Edition{image#2}Really RELAXING Colouring Book 2: Colour Me Calm (Really RELAXING Colouring Books) (Volume 2){image#3}The Selfish CrocodileQuestion: Please give the correct text order corresponding to each bookchoose<image> <image> <image> ",
+        "gt_response": "210",
+        "gen_kwargs": {
+            "do_sample": false,
+            "num_beams": 1,
+            "max_new_tokens": 32,
+            "eos_token_id": 92542
+        },
+        "pred_response": "marc van de mieroop",
+        "choice_list": [
+            "012",
+            "021",
+            "102",
+            "120",
+            "201",
+            "210"
+        ],
+        "image_quantity_level": "Few",
+        "image": [
+            "218.jpg",
+            "219.jpg",
+            "220.jpg"
+        ],
+        "extracted": "ACADEE",
+        "result": 0
+    },
+    {
+        "sample_id": 100,
+        "question": "Example Question 1:\n<image> <image> {image#1}{image#2}Question: Are the authors of these two books the same?\nAnswer: Inc. BarCharts\n\nCurrent Question:\n{image#1}The Wisdom of a Meaningful Life: The Essence of Mindfulness{image#2}Choose Yourself!{image#3}Steeplejacking: How the Christian Right is Hijacking Mainstream ReligionQuestion: Please give the correct text order corresponding to each bookchoose<image> <image> <image> ",
+        "gt_response": "210",
+        "gen_kwargs": {
+            "do_sample": false,
+            "num_beams": 1,
+            "max_new_tokens": 32,
+            "eos_token_id": 92542
+        },
+        "pred_response": "inc barcharts",
+        "choice_list": [
+            "012",
+            "021",
+            "102",
+            "120",
+            "201",
+            "210"
+        ],
+        "image_quantity_level": "Few",
+        "image": [
+            "227.jpg",
+            "228.jpg",
+            "229.jpg"
+        ],
+        "extracted": "CBACA",
+        "result": 0
+    },
+    {
+        "sample_id": 103,
+        "question": "Example Question 1:\n<image> <image> {image#1}{image#2}Question: Are these two books in the same field?\nAnswer: Travel\n\nCurrent Question:\n{image#1}Burkina Faso 1:1,000,000 & Niger Travel Map ITMB{image#2}Dark Space (Book 4): Revenge{image#3}Fodor's Pacific Northwest: with Oregon, Washington & Vancouver (Full-color Travel Guide)Question: Please give the correct text order corresponding to each bookchoose<image> <image> <image> ",
+        "gt_response": "120",
+        "gen_kwargs": {
+            "do_sample": false,
+            "num_beams": 1,
+            "max_new_tokens": 32,
+            "eos_token_id": 92542
+        },
+        "pred_response": "no",
+        "choice_list": [
+            "012",
+            "021",
+            "102",
+            "120",
+            "201",
+            "210"
+        ],
+        "image_quantity_level": "Few",
+        "image": [
+            "234.jpg",
+            "235.jpg",
+            "236.jpg"
+        ],
+        "extracted": "",
+        "result": 0
+    },
+    {
+        "sample_id": 104,
+        "question": "Example Question 1:\n<image> <image> {image#1}{image#2}Question: Are the following two books published in the same year?\nAnswer: 2015\n\nCurrent Question:\n{image#1}The Advanced Professional Pastry Chef{image#2}Peak performance: Sports, science, and the body in action (Novabook){image#3}Peterson Field Guide to Birds of Western North America, Fourth Edition (Peterson Field Guides)Question: Please give the correct text order corresponding to each bookchoose<image> <image> <image> ",
+        "gt_response": "120",
+        "gen_kwargs": {
+            "do_sample": false,
+            "num_beams": 1,
+            "max_new_tokens": 32,
+            "eos_token_id": 92542
+        },
+        "pred_response": "no",
+        "choice_list": [
+            "012",
+            "021",
+            "102",
+            "120",
+            "201",
+            "210"
+        ],
+        "image_quantity_level": "Few",
+        "image": [
+            "237.jpg",
+            "238.jpg",
+            "239.jpg"
+        ],
+        "extracted": "",
+        "result": 0
+    },
+    {
+        "sample_id": 130,
+        "question": "Example Question 1:\n<image> <image> {image#1}{image#2}Question: Are these two books in the same field?\nAnswer: Teen & Young Adult\n\nCurrent Question:\n{image#1}{image#2}Question: Are the following two books published in the same year?<image> <image> ",
+        "gt_response": "2014",
+        "gen_kwargs": {
+            "do_sample": false,
+            "num_beams": 1,
+            "max_new_tokens": 32,
+            "eos_token_id": 92542
+        },
+        "pred_response": "no",
+        "choice_list": [
+            "2014",
+            "2015",
+            "2016",
+            "not the same"
+        ],
+        "image_quantity_level": "Few",
+        "image": [
+            "294.jpg",
+            "295.jpg"
+        ],
+        "extracted": "",
+        "result": 0
+    },
+    {
+        "sample_id": 131,
+        "question": "Example Question 1:\n<image> <image> {image#1}{image#2}Question: Are the authors of these two books the same?\nAnswer: Sara King\n\nCurrent Question:\n{image#1}{image#2}Question: Are the following two books published in the same year?<image> <image> ",
+        "gt_response": "2016",
+        "gen_kwargs": {
+            "do_sample": false,
+            "num_beams": 1,
+            "max_new_tokens": 32,
+            "eos_token_id": 92542
+        },
+        "pred_response": "no",
+        "choice_list": [
+            "2017",
+            "2015",
+            "not the same",
+            "2016"
+        ],
+        "image_quantity_level": "Few",
+        "image": [
+            "296.jpg",
+            "297.jpg"
+        ],
+        "extracted": "",
+        "result": 0
+    },
+    {
+        "sample_id": 132,
+        "question": "Example Question 1:\n<image> <image> {image#1}{image#2}Question: Are these two books in the same field?\nAnswer: Travel\n\nCurrent Question:\n{image#1}{image#2}Question: Are these two books in the same field?<image> <image> ",
+        "gt_response": "business & money",
+        "gen_kwargs": {
+            "do_sample": false,
+            "num_beams": 1,
+            "max_new_tokens": 32,
+            "eos_token_id": 92542
+        },
+        "pred_response": "no",
+        "choice_list": [
+            "health fitness & dieting",
+            "not the same",
+            "business & money",
+            "children's books"
+        ],
+        "image_quantity_level": "Few",
+        "image": [
+            "298.jpg",
+            "299.jpg"
+        ],
+        "extracted": "",
+        "result": 0
+    },
+    {
+        "sample_id": 133,
+        "question": "Example Question 1:\n<image> <image> {image#1}{image#2}Question: Are these two books in the same field?\nAnswer: Science & Math\n\nCurrent Question:\n{image#1}{image#2}Question: Are the following two books published in the same year?<image> <image> ",
+        "gt_response": "2015",
+        "gen_kwargs": {
+            "do_sample": false,
+            "num_beams": 1,
+            "max_new_tokens": 32,
+            "eos_token_id": 92542
+        },
+        "pred_response": "no",
+        "choice_list": [
+            "2016",
+            "2017",
+            "2015",
+            "not the same"
+        ],
+        "image_quantity_level": "Few",
+        "image": [
+            "300.jpg",
+            "301.jpg"
+        ],
+        "extracted": "",
+        "result": 0
+    },
+    {
+        "sample_id": 135,
+        "question": "Example Question 1:\n<image> <image> {image#1}{image#2}Question: Are the following two books published in the same year?\nAnswer: 2016\n\nCurrent Question:\n{image#1}{image#2}Question: Are the authors of these two books the same?<image> <image> ",
+        "gt_response": "tyler omoth",
+        "gen_kwargs": {
+            "do_sample": false,
+            "num_beams": 1,
+            "max_new_tokens": 32,
+            "eos_token_id": 92542
+        },
+        "pred_response": "no",
+        "choice_list": [
+            "tyler omoth",
+            "streetwise maps",
+            "megacalendars",
+            "not the same"
+        ],
+        "image_quantity_level": "Few",
+        "image": [
+            "305.jpg",
+            "306.jpg"
+        ],
+        "extracted": "",
+        "result": 0
+    },
+    {
+        "sample_id": 136,
+        "question": "Example Question 1:\n<image> <image> {image#1}{image#2}Question: Are the authors of these two books the same?\nAnswer: Esther Hicks\n\nCurrent Question:\n{image#1}{image#2}Question: Are the authors of these two books the same?<image> <image> ",
+        "gt_response": "rand mcnally",
+        "gen_kwargs": {
+            "do_sample": false,
+            "num_beams": 1,
+            "max_new_tokens": 32,
+            "eos_token_id": 92542
+        },
+        "pred_response": "no the authors of these two books are not the same the authors of the first book are esther hicks and jerry hicks while the authors",
+        "choice_list": [
+            "autumn libal",
+            "not the same",
+            "rand mcnally",
+            "dk publishing"
+        ],
+        "image_quantity_level": "Few",
+        "image": [
+            "307.jpg",
+            "308.jpg"
+        ],
+        "extracted": "B",
+        "result": 0
+    },
+    {
+        "sample_id": 137,
+        "question": "Example Question 1:\n<image> <image> {image#1}{image#2}Question: Are the following two books published in the same year?\nAnswer: 2015\n\nCurrent Question:\n{image#1}{image#2}Question: Are the following two books published in the same year?<image> <image> ",
+        "gt_response": "2016",
+        "gen_kwargs": {
+            "do_sample": false,
+            "num_beams": 1,
+            "max_new_tokens": 32,
+            "eos_token_id": 92542
+        },
+        "pred_response": "no",
+        "choice_list": [
+            "2016",
+            "2015",
+            "not the same",
+            "2017"
+        ],
+        "image_quantity_level": "Few",
+        "image": [
+            "309.jpg",
+            "310.jpg"
+        ],
+        "extracted": "",
+        "result": 0
+    },
+    {
+        "sample_id": 139,
+        "question": "Example Question 1:\n<image> <image> {image#1}{image#2}Question: Are the following two books published in the same year?\nAnswer: 2016\n\nCurrent Question:\n{image#1}{image#2}Question: Are these two books in the same field?<image> <image> ",
+        "gt_response": "teen & young adult",
+        "gen_kwargs": {
+            "do_sample": false,
+            "num_beams": 1,
+            "max_new_tokens": 32,
+            "eos_token_id": 92542
+        },
+        "pred_response": "no",
+        "choice_list": [
+            "teen & young adult",
+            "christian books & bibles",
+            "not the same",
+            "biographies & memoirs"
+        ],
+        "image_quantity_level": "Few",
+        "image": [
+            "314.jpg",
+            "315.jpg"
+        ],
+        "extracted": "",
+        "result": 0
+    },
+    {
+        "sample_id": 140,
+        "question": "Example Question 1:\n<image> <image> {image#1}{image#2}Question: Are the authors of these two books the same?\nAnswer: Rand McNally\n\nCurrent Question:\n{image#1}{image#2}Question: Are the following two books published in the same year?<image> <image> ",
+        "gt_response": "2016",
+        "gen_kwargs": {
+            "do_sample": false,
+            "num_beams": 1,
+            "max_new_tokens": 32,
+            "eos_token_id": 92542
+        },
+        "pred_response": "yes they are published in the same year",
+        "choice_list": [
+            "2016",
+            "not the same",
+            "2015",
+            "2017"
+        ],
+        "image_quantity_level": "Few",
+        "image": [
+            "316.jpg",
+            "317.jpg"
+        ],
+        "extracted": "ABDAA",
+        "result": 0
+    },
+    {
+        "sample_id": 141,
+        "question": "Example Question 1:\n<image> <image> {image#1}{image#2}Question: Are the following two books published in the same year?\nAnswer: 2016\n\nCurrent Question:\n{image#1}{image#2}Question: Are the following two books published in the same year?<image> <image> ",
+        "gt_response": "2016",
+        "gen_kwargs": {
+            "do_sample": false,
+            "num_beams": 1,
+            "max_new_tokens": 32,
+            "eos_token_id": 92542
+        },
+        "pred_response": "yes",
+        "choice_list": [
+            "2016",
+            "2015",
+            "not the same",
+            "2017"
+        ],
+        "image_quantity_level": "Few",
+        "image": [
+            "318.jpg",
+            "319.jpg"
+        ],
+        "extracted": "",
+        "result": 0
+    },
+    {
+        "sample_id": 142,
+        "question": "Example Question 1:\n<image> <image> {image#1}{image#2}Question: Are the following two books published in the same year?\nAnswer: 2016\n\nCurrent Question:\n{image#1}{image#2}Question: Are the authors of these two books the same?<image> <image> ",
+        "gt_response": "david f marx",
+        "gen_kwargs": {
+            "do_sample": false,
+            "num_beams": 1,
+            "max_new_tokens": 32,
+            "eos_token_id": 92542
+        },
+        "pred_response": "no",
+        "choice_list": [
+            "not the same",
+            "jeffrey brown",
+            "david f marx",
+            "william shakespeare"
+        ],
+        "image_quantity_level": "Few",
+        "image": [
+            "320.jpg",
+            "321.jpg"
+        ],
+        "extracted": "",
+        "result": 0
+    },
+    {
+        "sample_id": 143,
+        "question": "Example Question 1:\n<image> <image> {image#1}{image#2}Question: Are the following two books published in the same year?\nAnswer: 2016\n\nCurrent Question:\n{image#1}{image#2}Question: Are the following two books published in the same year?<image> <image> ",
+        "gt_response": "2016",
+        "gen_kwargs": {
+            "do_sample": false,
+            "num_beams": 1,
+            "max_new_tokens": 32,
+            "eos_token_id": 92542
+        },
+        "pred_response": "yes both books are published in the same year 2016",
+        "choice_list": [
+            "2015",
+            "not the same",
+            "2017",
+            "2016"
+        ],
+        "image_quantity_level": "Few",
+        "image": [
+            "322.jpg",
+            "323.jpg"
+        ],
+        "extracted": "D",
+        "result": 1
+    },
+    {
+        "sample_id": 144,
+        "question": "Example Question 1:\n<image> <image> {image#1}{image#2}Question: Are the following two books published in the same year?\nAnswer: 2016\n\nCurrent Question:\n{image#1}{image#2}Question: Are the following two books published in the same year?<image> <image> ",
+        "gt_response": "2013",
+        "gen_kwargs": {
+            "do_sample": false,
+            "num_beams": 1,
+            "max_new_tokens": 32,
+            "eos_token_id": 92542
+        },
+        "pred_response": "yes both books are published in the same year 2016",
+        "choice_list": [
+            "2013",
+            "not the same",
+            "2016",
+            "2015"
+        ],
+        "image_quantity_level": "Few",
+        "image": [
+            "324.jpg",
+            "325.jpg"
+        ],
+        "extracted": "C",
+        "result": 0
+    },
+    {
+        "sample_id": 145,
+        "question": "Example Question 1:\n<image> <image> {image#1}{image#2}Question: Are the following two books published in the same year?\nAnswer: 2016\n\nCurrent Question:\n{image#1}{image#2}Question: Are the following two books published in the same year?<image> <image> ",
+        "gt_response": "2016",
+        "gen_kwargs": {
+            "do_sample": false,
+            "num_beams": 1,
+            "max_new_tokens": 32,
+            "eos_token_id": 92542
+        },
+        "pred_response": "yes both books are published in the same year 2016",
+        "choice_list": [
+            "2016",
+            "2015",
+            "2017",
+            "not the same"
+        ],
+        "image_quantity_level": "Few",
+        "image": [
+            "326.jpg",
+            "327.jpg"
+        ],
+        "extracted": "A",
+        "result": 1
+    },
+    {
+        "sample_id": 146,
+        "question": "Example Question 1:\n<image> <image> {image#1}{image#2}Question: Are the authors of these two books the same?\nAnswer: Rand McNally\n\nCurrent Question:\n{image#1}{image#2}Question: Are these two books in the same field?<image> <image> ",
+        "gt_response": "travel",
+        "gen_kwargs": {
+            "do_sample": false,
+            "num_beams": 1,
+            "max_new_tokens": 32,
+            "eos_token_id": 92542
+        },
+        "pred_response": "yes both books are in the same field",
+        "choice_list": [
+            "humor & entertainment",
+            "children's books",
+            "travel",
+            "not the same"
+        ],
+        "image_quantity_level": "Few",
+        "image": [
+            "328.jpg",
+            "329.jpg"
+        ],
+        "extracted": "BBAAD",
+        "result": 0
+    },
+    {
+        "sample_id": 150,
+        "question": "Example Question 1:\n<image> <image> {image#1}{image#2}Question: Are the authors of these two books the same?\nAnswer: Sarah Fabiny\n\nCurrent Question:\n{image#1}{image#2}Question: Are these two books in the same field?<image> <image> ",
+        "gt_response": "science & math",
+        "gen_kwargs": {
+            "do_sample": false,
+            "num_beams": 1,
+            "max_new_tokens": 32,
+            "eos_token_id": 92542
+        },
+        "pred_response": "no these two books are not in the same field",
+        "choice_list": [
+            "medical books",
+            "science & math",
+            "travel",
+            "not the same"
+        ],
+        "image_quantity_level": "Few",
+        "image": [
+            "339.jpg",
+            "340.jpg"
+        ],
+        "extracted": "BAAD",
+        "result": 0
+    },
+    {
+        "sample_id": 151,
+        "question": "Example Question 1:\n<image> <image> {image#1}{image#2}Question: Are the following two books published in the same year?\nAnswer: 2015\n\nCurrent Question:\n{image#1}{image#2}Question: Are these two books in the same field?<image> <image> ",
+        "gt_response": "travel",
+        "gen_kwargs": {
+            "do_sample": false,
+            "num_beams": 1,
+            "max_new_tokens": 32,
+            "eos_token_id": 92542
+        },
+        "pred_response": "no",
+        "choice_list": [
+            "not the same",
+            "crafts hobbies & home",
+            "children's books",
+            "travel"
+        ],
+        "image_quantity_level": "Few",
+        "image": [
+            "341.jpg",
+            "342.jpg"
+        ],
+        "extracted": "",
+        "result": 0
+    },
+    {
+        "sample_id": 152,
+        "question": "Example Question 1:\n<image> <image> {image#1}{image#2}Question: Are the following two books published in the same year?\nAnswer: 2016\n\nCurrent Question:\n{image#1}{image#2}Question: Are the following two books published in the same year?<image> <image> ",
+        "gt_response": "2016",
+        "gen_kwargs": {
+            "do_sample": false,
+            "num_beams": 1,
+            "max_new_tokens": 32,
+            "eos_token_id": 92542
+        },
+        "pred_response": "yes both books are published in the same year 2016",
+        "choice_list": [
+            "2015",
+            "2017",
+            "not the same",
+            "2016"
+        ],
+        "image_quantity_level": "Few",
+        "image": [
+            "343.jpg",
+            "344.jpg"
+        ],
+        "extracted": "D",
+        "result": 1
+    },
+    {
+        "sample_id": 153,
+        "question": "Example Question 1:\n<image> <image> <image> {image#1}Freedom Bound{image#2}Historical Theology: An Introduction to the History of Christian Thought{image#3}Applied Principles of Horticultural ScienceQuestion: Please give the correct text order corresponding to each bookchoose\nAnswer: 1,0,2\n\nCurrent Question:\n{image#1}{image#2}Question: Are the following two books published in the same year?<image> <image> ",
+        "gt_response": "2016",
+        "gen_kwargs": {
+            "do_sample": false,
+            "num_beams": 1,
+            "max_new_tokens": 32,
+            "eos_token_id": 92542
+        },
+        "pred_response": "no",
+        "choice_list": [
+            "2016",
+            "2017",
+            "2015",
+            "not the same"
+        ],
+        "image_quantity_level": "Few",
+        "image": [
+            "345.jpg",
+            "346.jpg"
+        ],
+        "extracted": "",
+        "result": 0
+    },
+    {
+        "sample_id": 111,
+        "question": "Example Question 1:\n<image> <image> {image#1}{image#2}Question: Are the following two books published in the same year?\nAnswer: 2016\n\nCurrent Question:\n{image#1}A Statistical Validation of Raindrop Technique{image#2}Venezuela 1:1,200,000 Travel Map (International Travel Maps){image#3}American Map Rhode Island State Road AtlasQuestion: Please give the correct text order corresponding to each bookchoose<image> <image> <image> ",
+        "gt_response": "201",
+        "gen_kwargs": {
+            "do_sample": false,
+            "num_beams": 1,
+            "max_new_tokens": 32,
+            "eos_token_id": 92542
+        },
+        "pred_response": "no",
+        "choice_list": [
+            "012",
+            "021",
+            "102",
+            "120",
+            "201",
+            "210"
+        ],
+        "image_quantity_level": "Few",
+        "image": [
+            "252.jpg",
+            "253.jpg",
+            "254.jpg"
+        ],
+        "extracted": "",
+        "result": 0
+    },
+    {
+        "sample_id": 112,
+        "question": "Example Question 1:\n<image> <image> {image#1}{image#2}Question: Are the following two books published in the same year?\nAnswer: 2015\n\nCurrent Question:\n{image#1}Basics of Biblical Greek Grammar{image#2}The Complete Book of Camaro: Every Model Since 1967{image#3}Ergot: The Genus Claviceps (Medicinal and Aromatic Plants - Industrial Profiles)Question: Please give the correct text order corresponding to each bookchoose<image> <image> <image> ",
+        "gt_response": "201",
+        "gen_kwargs": {
+            "do_sample": false,
+            "num_beams": 1,
+            "max_new_tokens": 32,
+            "eos_token_id": 92542
+        },
+        "pred_response": "no",
+        "choice_list": [
+            "012",
+            "021",
+            "102",
+            "120",
+            "201",
+            "210"
+        ],
+        "image_quantity_level": "Few",
+        "image": [
+            "255.jpg",
+            "256.jpg",
+            "257.jpg"
+        ],
+        "extracted": "",
+        "result": 0
+    },
+    {
+        "sample_id": 119,
+        "question": "Example Question 1:\n<image> <image> {image#1}{image#2}Question: Are the following two books published in the same year?\nAnswer: 2016\n\nCurrent Question:\n{image#1}Ford Trucks Since 1905 (Crestline Series){image#2}Mourad: New Moroccan{image#3}Field Book of the Shore Fishes of Bermuda and the West IndiesQuestion: Please give the correct text order corresponding to each bookchoose<image> <image> <image> ",
+        "gt_response": "120",
+        "gen_kwargs": {
+            "do_sample": false,
+            "num_beams": 1,
+            "max_new_tokens": 32,
+            "eos_token_id": 92542
+        },
+        "pred_response": "no",
+        "choice_list": [
+            "012",
+            "021",
+            "102",
+            "120",
+            "201",
+            "210"
+        ],
+        "image_quantity_level": "Few",
+        "image": [
+            "270.jpg",
+            "271.jpg",
+            "272.jpg"
+        ],
+        "extracted": "",
+        "result": 0
+    },
+    {
+        "sample_id": 125,
+        "question": "Example Question 1:\n<image> <image> {image#1}{image#2}Question: Are the authors of these two books the same?\nAnswer: U.S. Government\n\nCurrent Question:\n{image#1}Instrument Engineers Handbook, Fourth Edition, Three Volume Set{image#2}A Sunlit Absence: Silence, Awareness, and Contemplation{image#3}The Rough Guide to Iceland 4Question: Please give the correct text order corresponding to each bookchoose<image> <image> <image> ",
+        "gt_response": "120",
+        "gen_kwargs": {
+            "do_sample": false,
+            "num_beams": 1,
+            "max_new_tokens": 32,
+            "eos_token_id": 92542
+        },
+        "pred_response": "martin laird",
+        "choice_list": [
+            "012",
+            "021",
+            "102",
+            "120",
+            "201",
+            "210"
+        ],
+        "image_quantity_level": "Few",
+        "image": [
+            "283.jpg",
+            "284.jpg",
+            "285.jpg"
+        ],
+        "extracted": "AAD",
+        "result": 0
+    },
+    {
+        "sample_id": 134,
+        "question": "Example Question 1:\n<image> <image> <image> {image#1}Why Do Christians Shoot Their Wounded?: Helping (Not Hurting) Those with Emotional Difficulties{image#2}Belly Fat Effect: The Real Secret About How Your Diet, Intestinal Health, and Gut Bacteria Help You Burn Fat{image#3}Wilderness and Travel MedicineQuestion: Please give the correct text order corresponding to each bookchoose\nAnswer: 2,1,0\n\nCurrent Question:\n{image#1}Stations of the Cross{image#2}Living with Crohn's & Colitis: A Comprehensive Naturopathic Guide for Complete Digestive Wellness{image#3}The Triathlete's Training BibleQuestion: Please give the correct text order corresponding to each bookchoose<image> <image> <image> ",
+        "gt_response": "210",
+        "gen_kwargs": {
+            "do_sample": false,
+            "num_beams": 1,
+            "max_new_tokens": 32,
+            "eos_token_id": 92542
+        },
+        "pred_response": "0",
+        "choice_list": [
+            "012",
+            "021",
+            "102",
+            "120",
+            "201",
+            "210"
+        ],
+        "image_quantity_level": "Few",
+        "image": [
+            "302.jpg",
+            "303.jpg",
+            "304.jpg"
+        ],
+        "extracted": "",
+        "result": 0
+    },
+    {
+        "sample_id": 138,
+        "question": "Example Question 1:\n<image> <image> {image#1}{image#2}Question: Are the authors of these two books the same?\nAnswer: Dr. Seuss\n\nCurrent Question:\n{image#1}The Educator's Guide to Texas School Law: Eighth Edition{image#2}Tasting Colorado: Favorite Recipes from the Centennial State{image#3}It's No Accident: Breakthrough Solutions To Your Child's Wetting, Constipation, Utis, And Other Potty ProblemsQuestion: Please give the correct text order corresponding to each bookchoose<image> <image> <image> ",
+        "gt_response": "120",
+        "gen_kwargs": {
+            "do_sample": false,
+            "num_beams": 1,
+            "max_new_tokens": 32,
+            "eos_token_id": 92542
+        },
+        "pred_response": "michele morris",
+        "choice_list": [
+            "012",
+            "021",
+            "102",
+            "120",
+            "201",
+            "210"
+        ],
+        "image_quantity_level": "Few",
+        "image": [
+            "311.jpg",
+            "312.jpg",
+            "313.jpg"
+        ],
+        "extracted": "CEE",
+        "result": 0
+    },
+    {
+        "sample_id": 154,
+        "question": "Example Question 1:\n<image> <image> {image#1}{image#2}Question: Are the following two books published in the same year?\nAnswer: 2016\n\nCurrent Question:\n{image#1}{image#2}Question: Are the authors of these two books the same?<image> <image> ",
+        "gt_response": "rob price",
+        "gen_kwargs": {
+            "do_sample": false,
+            "num_beams": 1,
+            "max_new_tokens": 32,
+            "eos_token_id": 92542
+        },
+        "pred_response": "no",
+        "choice_list": [
+            "rob price",
+            "megacalendars",
+            "not the same",
+            "browntrout publishers"
+        ],
+        "image_quantity_level": "Few",
+        "image": [
+            "347.jpg",
+            "348.jpg"
+        ],
+        "extracted": "",
+        "result": 0
+    },
+    {
+        "sample_id": 155,
+        "question": "Example Question 1:\n<image> <image> {image#1}{image#2}Question: Are the authors of these two books the same?\nAnswer: Chilton\n\nCurrent Question:\n{image#1}{image#2}Question: Are these two books in the same field?<image> <image> ",
+        "gt_response": "history",
+        "gen_kwargs": {
+            "do_sample": false,
+            "num_beams": 1,
+            "max_new_tokens": 32,
+            "eos_token_id": 92542
+        },
+        "pred_response": "yes both books are in the same field",
+        "choice_list": [
+            "crafts hobbies & home",
+            "not the same",
+            "history",
+            "children's books"
+        ],
+        "image_quantity_level": "Few",
+        "image": [
+            "349.jpg",
+            "350.jpg"
+        ],
+        "extracted": "BBAAD",
+        "result": 0
+    },
+    {
+        "sample_id": 156,
+        "question": "Example Question 1:\n<image> <image> {image#1}{image#2}Question: Are these two books in the same field?\nAnswer: Children's Books\n\nCurrent Question:\n{image#1}{image#2}Question: Are the following two books published in the same year?<image> <image> ",
+        "gt_response": "2016",
+        "gen_kwargs": {
+            "do_sample": false,
+            "num_beams": 1,
+            "max_new_tokens": 32,
+            "eos_token_id": 92542
+        },
+        "pred_response": "no",
+        "choice_list": [
+            "2015",
+            "2016",
+            "not the same",
+            "2017"
+        ],
+        "image_quantity_level": "Few",
+        "image": [
+            "351.jpg",
+            "352.jpg"
+        ],
+        "extracted": "",
+        "result": 0
+    },
+    {
+        "sample_id": 157,
+        "question": "Example Question 1:\n<image> <image> {image#1}{image#2}Question: Are the following two books published in the same year?\nAnswer: 2016\n\nCurrent Question:\n{image#1}{image#2}Question: Are the authors of these two books the same?<image> <image> ",
+        "gt_response": "esther hicks",
+        "gen_kwargs": {
+            "do_sample": false,
+            "num_beams": 1,
+            "max_new_tokens": 32,
+            "eos_token_id": 92542
+        },
+        "pred_response": "no",
+        "choice_list": [
+            "not the same",
+            "day dream",
+            "esther hicks",
+            "dk publishing"
+        ],
+        "image_quantity_level": "Few",
+        "image": [
+            "353.jpg",
+            "354.jpg"
+        ],
+        "extracted": "",
+        "result": 0
+    },
+    {
+        "sample_id": 158,
+        "question": "Example Question 1:\n<image> <image> {image#1}{image#2}Question: Are the authors of these two books the same?\nAnswer: Day Dream\n\nCurrent Question:\n{image#1}{image#2}Question: Are these two books in the same field?<image> <image> ",
+        "gt_response": "humor & entertainment",
+        "gen_kwargs": {
+            "do_sample": false,
+            "num_beams": 1,
+            "max_new_tokens": 32,
+            "eos_token_id": 92542
+        },
+        "pred_response": "no",
+        "choice_list": [
+            "business & money",
+            "cookbooks food & wine",
+            "humor & entertainment",
+            "not the same"
+        ],
+        "image_quantity_level": "Few",
+        "image": [
+            "355.jpg",
+            "356.jpg"
+        ],
+        "extracted": "",
+        "result": 0
+    },
+    {
+        "sample_id": 159,
+        "question": "Example Question 1:\n<image> <image> {image#1}{image#2}Question: Are these two books in the same field?\nAnswer: Science & Math\n\nCurrent Question:\n{image#1}{image#2}Question: Are these two books in the same field?<image> <image> ",
+        "gt_response": "christian books & bibles",
+        "gen_kwargs": {
+            "do_sample": false,
+            "num_beams": 1,
+            "max_new_tokens": 32,
+            "eos_token_id": 92542
+        },
+        "pred_response": "christianity",
+        "choice_list": [
+            "christian books & bibles",
+            "travel",
+            "teen & young adult",
+            "not the same"
+        ],
+        "image_quantity_level": "Few",
+        "image": [
+            "357.jpg",
+            "358.jpg"
+        ],
+        "extracted": "CA",
+        "result": 0
+    },
+    {
+        "sample_id": 160,
+        "question": "Example Question 1:\n<image> <image> <image> {image#1}Above Top Secret: Uncover the Mysteries of the Digital Age{image#2}All You Need for a Snowman{image#3}Comrades to the End: The 4th SS Panzer-Grenadier Regiment \"Der F\u00fchrer\" 1938-1945: The History of a German-Austrian Fighting Unit (Schiffer Military History)Question: Please give the correct text order corresponding to each bookchoose\nAnswer: 0,2,1\n\nCurrent Question:\n{image#1}{image#2}Question: Are these two books in the same field?<image> <image> ",
+        "gt_response": "computers & technology",
+        "gen_kwargs": {
+            "do_sample": false,
+            "num_beams": 1,
+            "max_new_tokens": 32,
+            "eos_token_id": 92542
+        },
+        "pred_response": "no",
+        "choice_list": [
+            "children's books",
+            "not the same",
+            "computers & technology",
+            "travel"
+        ],
+        "image_quantity_level": "Few",
+        "image": [
+            "359.jpg",
+            "360.jpg"
+        ],
+        "extracted": "",
+        "result": 0
+    },
+    {
+        "sample_id": 161,
+        "question": "Example Question 1:\n<image> <image> {image#1}{image#2}Question: Are the authors of these two books the same?\nAnswer: Fodor's\n\nCurrent Question:\n{image#1}{image#2}Question: Are the following two books published in the same year?<image> <image> ",
+        "gt_response": "2016",
+        "gen_kwargs": {
+            "do_sample": false,
+            "num_beams": 1,
+            "max_new_tokens": 32,
+            "eos_token_id": 92542
+        },
+        "pred_response": "no",
+        "choice_list": [
+            "2016",
+            "2017",
+            "not the same",
+            "2015"
+        ],
+        "image_quantity_level": "Few",
+        "image": [
+            "361.jpg",
+            "362.jpg"
+        ],
+        "extracted": "",
+        "result": 0
+    },
+    {
+        "sample_id": 163,
+        "question": "Example Question 1:\n<image> <image> {image#1}{image#2}Question: Are these two books in the same field?\nAnswer: Travel\n\nCurrent Question:\n{image#1}{image#2}Question: Are the authors of these two books the same?<image> <image> ",
+        "gt_response": "scholastic",
+        "gen_kwargs": {
+            "do_sample": false,
+            "num_beams": 1,
+            "max_new_tokens": 32,
+            "eos_token_id": 92542
+        },
+        "pred_response": "no",
+        "choice_list": [
+            "willow creek press",
+            "noah berlatsky",
+            "not the same",
+            "scholastic"
+        ],
+        "image_quantity_level": "Few",
+        "image": [
+            "366.jpg",
+            "367.jpg"
+        ],
+        "extracted": "",
+        "result": 0
+    },
+    {
+        "sample_id": 164,
+        "question": "Example Question 1:\n<image> <image> {image#1}{image#2}Question: Are these two books in the same field?\nAnswer: Children's Books\n\nCurrent Question:\n{image#1}{image#2}Question: Are the authors of these two books the same?<image> <image> ",
+        "gt_response": "michael h hoffheimer",
+        "gen_kwargs": {
+            "do_sample": false,
+            "num_beams": 1,
+            "max_new_tokens": 32,
+            "eos_token_id": 92542
+        },
+        "pred_response": "no",
+        "choice_list": [
+            "michael h hoffheimer",
+            "jane o'connor",
+            "lonely planet",
+            "not the same"
+        ],
+        "image_quantity_level": "Few",
+        "image": [
+            "368.jpg",
+            "369.jpg"
+        ],
+        "extracted": "",
+        "result": 0
+    },
+    {
+        "sample_id": 166,
+        "question": "Example Question 1:\n<image> <image> {image#1}{image#2}Question: Are these two books in the same field?\nAnswer: Teen & Young Adult\n\nCurrent Question:\n{image#1}{image#2}Question: Are the following two books published in the same year?<image> <image> ",
+        "gt_response": "2016",
+        "gen_kwargs": {
+            "do_sample": false,
+            "num_beams": 1,
+            "max_new_tokens": 32,
+            "eos_token_id": 92542
+        },
+        "pred_response": "no",
+        "choice_list": [
+            "2015",
+            "2016",
+            "not the same",
+            "2017"
+        ],
+        "image_quantity_level": "Few",
+        "image": [
+            "373.jpg",
+            "374.jpg"
+        ],
+        "extracted": "",
+        "result": 0
+    },
+    {
+        "sample_id": 167,
+        "question": "Example Question 1:\n<image> <image> {image#1}{image#2}Question: Are these two books in the same field?\nAnswer: Children's Books\n\nCurrent Question:\n{image#1}{image#2}Question: Are the authors of these two books the same?<image> <image> ",
+        "gt_response": "day dream",
+        "gen_kwargs": {
+            "do_sample": false,
+            "num_beams": 1,
+            "max_new_tokens": 32,
+            "eos_token_id": 92542
+        },
+        "pred_response": "no",
+        "choice_list": [
+            "day dream",
+            "not the same",
+            "rand mcnally",
+            "fodor's"
+        ],
+        "image_quantity_level": "Few",
+        "image": [
+            "375.jpg",
+            "376.jpg"
+        ],
+        "extracted": "",
+        "result": 0
+    },
+    {
+        "sample_id": 168,
+        "question": "Example Question 1:\n<image> <image> {image#1}{image#2}Question: Are the following two books published in the same year?\nAnswer: 2015\n\nCurrent Question:\n{image#1}{image#2}Question: Are these two books in the same field?<image> <image> ",
+        "gt_response": "travel",
+        "gen_kwargs": {
+            "do_sample": false,
+            "num_beams": 1,
+            "max_new_tokens": 32,
+            "eos_token_id": 92542
+        },
+        "pred_response": "no",
+        "choice_list": [
+            "not the same",
+            "travel",
+            "crafts hobbies & home",
+            "business & money"
+        ],
+        "image_quantity_level": "Few",
+        "image": [
+            "377.jpg",
+            "378.jpg"
+        ],
+        "extracted": "",
+        "result": 0
+    },
+    {
+        "sample_id": 172,
+        "question": "Example Question 1:\n<image> <image> <image> {image#1}Cape Refuge (Cape Refuge, No. 1){image#2}Retirement on a Shoestring, 5th (Choose Retirement Series){image#3}Tales of the Greek Heroes (Puffin Classics)Question: Please give the correct text order corresponding to each bookchoose\nAnswer: 2,1,0\n\nCurrent Question:\n{image#1}{image#2}Question: Are the following two books published in the same year?<image> <image> ",
+        "gt_response": "2016",
+        "gen_kwargs": {
+            "do_sample": false,
+            "num_beams": 1,
+            "max_new_tokens": 32,
+            "eos_token_id": 92542
+        },
+        "pred_response": "no",
+        "choice_list": [
+            "not the same",
+            "2017",
+            "2015",
+            "2016"
+        ],
+        "image_quantity_level": "Few",
+        "image": [
+            "388.jpg",
+            "389.jpg"
+        ],
+        "extracted": "",
+        "result": 0
+    },
+    {
+        "sample_id": 173,
+        "question": "Example Question 1:\n<image> <image> {image#1}{image#2}Question: Are the following two books published in the same year?\nAnswer: 2016\n\nCurrent Question:\n{image#1}{image#2}Question: Are these two books in the same field?<image> <image> ",
+        "gt_response": "calendars",
+        "gen_kwargs": {
+            "do_sample": false,
+            "num_beams": 1,
+            "max_new_tokens": 32,
+            "eos_token_id": 92542
+        },
+        "pred_response": "no",
+        "choice_list": [
+            "not the same",
+            "calendars",
+            "christian books & bibles",
+            "cookbooks food & wine"
+        ],
+        "image_quantity_level": "Few",
+        "image": [
+            "390.jpg",
+            "391.jpg"
+        ],
+        "extracted": "",
+        "result": 0
+    },
+    {
+        "sample_id": 174,
+        "question": "Example Question 1:\n<image> <image> {image#1}{image#2}Question: Are these two books in the same field?\nAnswer: Travel\n\nCurrent Question:\n{image#1}{image#2}Question: Are these two books in the same field?<image> <image> ",
+        "gt_response": "travel",
+        "gen_kwargs": {
+            "do_sample": false,
+            "num_beams": 1,
+            "max_new_tokens": 32,
+            "eos_token_id": 92542
+        },
+        "pred_response": "travel",
+        "choice_list": [
+            "travel",
+            "not the same",
+            "arts & photography",
+            "children's books"
+        ],
+        "image_quantity_level": "Few",
+        "image": [
+            "392.jpg",
+            "393.jpg"
+        ],
+        "extracted": "A",
+        "result": 1
+    },
+    {
+        "sample_id": 175,
+        "question": "Example Question 1:\n<image> <image> {image#1}{image#2}Question: Are the following two books published in the same year?\nAnswer: 2016\n\nCurrent Question:\n{image#1}{image#2}Question: Are the authors of these two books the same?<image> <image> ",
+        "gt_response": "charles snee",
+        "gen_kwargs": {
+            "do_sample": false,
+            "num_beams": 1,
+            "max_new_tokens": 32,
+            "eos_token_id": 92542
+        },
+        "pred_response": "no",
+        "choice_list": [
+            "charles snee",
+            "not the same",
+            "various",
+            "l ron hubbard"
+        ],
+        "image_quantity_level": "Few",
+        "image": [
+            "394.jpg",
+            "395.jpg"
+        ],
+        "extracted": "",
+        "result": 0
+    },
+    {
+        "sample_id": 176,
+        "question": "Example Question 1:\n<image> <image> {image#1}{image#2}Question: Are the authors of these two books the same?\nAnswer: Sara King\n\nCurrent Question:\n{image#1}{image#2}Question: Are the following two books published in the same year?<image> <image> ",
+        "gt_response": "2016",
+        "gen_kwargs": {
+            "do_sample": false,
+            "num_beams": 1,
+            "max_new_tokens": 32,
+            "eos_token_id": 92542
+        },
+        "pred_response": "no the two books are not published in the same year",
+        "choice_list": [
+            "2016",
+            "2017",
+            "2015",
+            "not the same"
+        ],
+        "image_quantity_level": "Few",
+        "image": [
+            "396.jpg",
+            "397.jpg"
+        ],
+        "extracted": "BABDAA",
+        "result": 0
+    },
+    {
+        "sample_id": 177,
+        "question": "Example Question 1:\n<image> <image> {image#1}{image#2}Question: Are these two books in the same field?\nAnswer: Health, Fitness & Dieting\n\nCurrent Question:\n{image#1}{image#2}Question: Are the authors of these two books the same?<image> <image> ",
+        "gt_response": "alexander elder",
+        "gen_kwargs": {
+            "do_sample": false,
+            "num_beams": 1,
+            "max_new_tokens": 32,
+            "eos_token_id": 92542
+        },
+        "pred_response": "no the authors of these two books are not the same",
+        "choice_list": [
+            "roger price",
+            "alexander elder",
+            "not the same",
+            "dk publishing"
+        ],
+        "image_quantity_level": "Few",
+        "image": [
+            "398.jpg",
+            "399.jpg"
+        ],
+        "extracted": "C",
+        "result": 0
+    },
+    {
+        "sample_id": 147,
+        "question": "Example Question 1:\n<image> <image> {image#1}{image#2}Question: Are these two books in the same field?\nAnswer: Medical Books\n\nCurrent Question:\n{image#1}Molecular Mechanics Across Chemistry{image#2}The Art of Memory Forensics: Detecting Malware and Threats in Windows, Linux, and Mac Memory{image#3}Finding Nemo Little Golden BookQuestion: Please give the correct text order corresponding to each bookchoose<image> <image> <image> ",
+        "gt_response": "120",
+        "gen_kwargs": {
+            "do_sample": false,
+            "num_beams": 1,
+            "max_new_tokens": 32,
+            "eos_token_id": 92542
+        },
+        "pred_response": "computers & technology",
+        "choice_list": [
+            "012",
+            "021",
+            "102",
+            "120",
+            "201",
+            "210"
+        ],
+        "image_quantity_level": "Few",
+        "image": [
+            "330.jpg",
+            "331.jpg",
+            "332.jpg"
+        ],
+        "extracted": "CEEC",
+        "result": 0
+    },
+    {
+        "sample_id": 148,
+        "question": "Example Question 1:\n<image> <image> <image> {image#1}Cape Refuge (Cape Refuge, No. 1){image#2}Retirement on a Shoestring, 5th (Choose Retirement Series){image#3}Tales of the Greek Heroes (Puffin Classics)Question: Please give the correct text order corresponding to each bookchoose\nAnswer: 2,1,0\n\nCurrent Question:\n{image#1}The Hall: A Celebration of Baseball's Greats: In Stories and Images, the Complete Roster of Inductees{image#2}Dark Winter: How the Sun Is Causing a 30-Year Cold Spell{image#3}Boomerangs: How to Make and Throw ThemQuestion: Please give the correct text order corresponding to each bookchoose<image> <image> <image> ",
+        "gt_response": "102",
+        "gen_kwargs": {
+            "do_sample": false,
+            "num_beams": 1,
+            "max_new_tokens": 32,
+            "eos_token_id": 92542
+        },
+        "pred_response": "310",
+        "choice_list": [
+            "012",
+            "021",
+            "102",
+            "120",
+            "201",
+            "210"
+        ],
+        "image_quantity_level": "Few",
+        "image": [
+            "333.jpg",
+            "334.jpg",
+            "335.jpg"
+        ],
+        "extracted": "",
+        "result": 0
+    },
+    {
+        "sample_id": 149,
+        "question": "Example Question 1:\n<image> <image> <image> {image#1}Alimentos Geneticamente Modificados: Cambiando la Naturaleza de la Naturaleza: Que necesita saber para proteger a usted mismo, a su familia y a nuestro planeta{image#2}Bible Cover: Exlarge Black Genuine Leather{image#3}Fifty Jewish Women Who Changed The WorldQuestion: Please give the correct text order corresponding to each bookchoose\nAnswer: 0,2,1\n\nCurrent Question:\n{image#1}The Mozza Cookbook: Recipes from Los Angeles's Favorite Italian Restaurant and Pizzeria{image#2}The Star Wars Cookbook II -Darth Malt and More Galactic Recipes{image#3}Diversity Amid Globalization: World Regions, Environment, Development (5th Edition)Question: Please give the correct text order corresponding to each bookchoose<image> <image> <image> ",
+        "gt_response": "210",
+        "gen_kwargs": {
+            "do_sample": false,
+            "num_beams": 1,
+            "max_new_tokens": 32,
+            "eos_token_id": 92542
+        },
+        "pred_response": "1",
+        "choice_list": [
+            "012",
+            "021",
+            "102",
+            "120",
+            "201",
+            "210"
+        ],
+        "image_quantity_level": "Few",
+        "image": [
+            "336.jpg",
+            "337.jpg",
+            "338.jpg"
+        ],
+        "extracted": "",
+        "result": 0
+    },
+    {
+        "sample_id": 162,
+        "question": "Example Question 1:\n<image> <image> {image#1}{image#2}Question: Are these two books in the same field?\nAnswer: Business & Money\n\nCurrent Question:\n{image#1}Slovakia (Bartholomew World Travel Map){image#2}G. W. Leibniz's Monadology : An Edition for Students{image#3}I Just Don't Like the Sound of No! My Story About Accepting No for an Answer and Disagreeing the Right Way! (Best Me I Can Be)Question: Please give the correct text order corresponding to each bookchoose<image> <image> <image> ",
+        "gt_response": "210",
+        "gen_kwargs": {
+            "do_sample": false,
+            "num_beams": 1,
+            "max_new_tokens": 32,
+            "eos_token_id": 92542
+        },
+        "pred_response": "no",
+        "choice_list": [
+            "012",
+            "021",
+            "102",
+            "120",
+            "201",
+            "210"
+        ],
+        "image_quantity_level": "Few",
+        "image": [
+            "363.jpg",
+            "364.jpg",
+            "365.jpg"
+        ],
+        "extracted": "",
+        "result": 0
+    },
+    {
+        "sample_id": 165,
+        "question": "Example Question 1:\n<image> <image> {image#1}{image#2}Question: Are the following two books published in the same year?\nAnswer: 2016\n\nCurrent Question:\n{image#1}Dragon Ball Z, Vol. 4{image#2}The Total Money Makeover Workbook{image#3}The Late Talker: What to Do If Your Child Isn't Talking YetQuestion: Please give the correct text order corresponding to each bookchoose<image> <image> <image> ",
+        "gt_response": "201",
+        "gen_kwargs": {
+            "do_sample": false,
+            "num_beams": 1,
+            "max_new_tokens": 32,
+            "eos_token_id": 92542
+        },
+        "pred_response": "4",
+        "choice_list": [
+            "012",
+            "021",
+            "102",
+            "120",
+            "201",
+            "210"
+        ],
+        "image_quantity_level": "Few",
+        "image": [
+            "370.jpg",
+            "371.jpg",
+            "372.jpg"
+        ],
+        "extracted": "",
+        "result": 0
+    },
+    {
+        "sample_id": 169,
+        "question": "Example Question 1:\n<image> <image> <image> {image#1}Instrument Engineers Handbook, Fourth Edition, Three Volume Set{image#2}A Sunlit Absence: Silence, Awareness, and Contemplation{image#3}The Rough Guide to Iceland 4Question: Please give the correct text order corresponding to each bookchoose\nAnswer: 1,2,0\n\nCurrent Question:\n{image#1}Defying ISIS: Preserving Christianity in the Place of Its Birth and in Your Own Backyard{image#2}Alaskan Camp Cook{image#3}Waterloo: Great Battles SeriesQuestion: Please give the correct text order corresponding to each bookchoose<image> <image> <image> ",
+        "gt_response": "201",
+        "gen_kwargs": {
+            "do_sample": false,
+            "num_beams": 1,
+            "max_new_tokens": 32,
+            "eos_token_id": 92542
+        },
+        "pred_response": "120",
+        "choice_list": [
+            "012",
+            "021",
+            "102",
+            "120",
+            "201",
+            "210"
+        ],
+        "image_quantity_level": "Few",
+        "image": [
+            "379.jpg",
+            "380.jpg",
+            "381.jpg"
+        ],
+        "extracted": "D",
+        "result": 0
+    },
+    {
+        "sample_id": 178,
+        "question": "Example Question 1:\n<image> <image> {image#1}{image#2}Question: Are the authors of these two books the same?\nAnswer: Knopf Guides\n\nCurrent Question:\n{image#1}{image#2}Question: Are the following two books published in the same year?<image> <image> ",
+        "gt_response": "2016",
+        "gen_kwargs": {
+            "do_sample": false,
+            "num_beams": 1,
+            "max_new_tokens": 32,
+            "eos_token_id": 92542
+        },
+        "pred_response": "yes both books are published by knopf guides",
+        "choice_list": [
+            "2015",
+            "2016",
+            "2017",
+            "not the same"
+        ],
+        "image_quantity_level": "Few",
+        "image": [
+            "400.jpg",
+            "401.jpg"
+        ],
+        "extracted": "BBABDBD",
+        "result": 0
+    },
+    {
+        "sample_id": 179,
+        "question": "Example Question 1:\n<image> <image> {image#1}{image#2}Question: Are these two books in the same field?\nAnswer: Health, Fitness & Dieting\n\nCurrent Question:\n{image#1}{image#2}Question: Are the following two books published in the same year?<image> <image> ",
+        "gt_response": "2016",
+        "gen_kwargs": {
+            "do_sample": false,
+            "num_beams": 1,
+            "max_new_tokens": 32,
+            "eos_token_id": 92542
+        },
+        "pred_response": "no",
+        "choice_list": [
+            "2016",
+            "not the same",
+            "2015",
+            "2017"
+        ],
+        "image_quantity_level": "Few",
+        "image": [
+            "402.jpg",
+            "403.jpg"
+        ],
+        "extracted": "",
+        "result": 0
+    },
+    {
+        "sample_id": 180,
+        "question": "Example Question 1:\n<image> <image> {image#1}{image#2}Question: Are these two books in the same field?\nAnswer: History\n\nCurrent Question:\n{image#1}{image#2}Question: Are the following two books published in the same year?<image> <image> ",
+        "gt_response": "2016",
+        "gen_kwargs": {
+            "do_sample": false,
+            "num_beams": 1,
+            "max_new_tokens": 32,
+            "eos_token_id": 92542
+        },
+        "pred_response": "no",
+        "choice_list": [
+            "2015",
+            "not the same",
+            "2017",
+            "2016"
+        ],
+        "image_quantity_level": "Few",
+        "image": [
+            "404.jpg",
+            "405.jpg"
+        ],
+        "extracted": "",
+        "result": 0
+    },
+    {
+        "sample_id": 181,
+        "question": "Example Question 1:\n<image> <image> {image#1}{image#2}Question: Are these two books in the same field?\nAnswer: Business & Money\n\nCurrent Question:\n{image#1}{image#2}Question: Are the authors of these two books the same?<image> <image> ",
+        "gt_response": "fodor's",
+        "gen_kwargs": {
+            "do_sample": false,
+            "num_beams": 1,
+            "max_new_tokens": 32,
+            "eos_token_id": 92542
+        },
+        "pred_response": "no",
+        "choice_list": [
+            "william shakespeare",
+            "fodor's",
+            "elliot aronson",
+            "not the same"
+        ],
+        "image_quantity_level": "Few",
+        "image": [
+            "406.jpg",
+            "407.jpg"
+        ],
+        "extracted": "",
+        "result": 0
+    },
+    {
+        "sample_id": 182,
+        "question": "Example Question 1:\n<image> <image> {image#1}{image#2}Question: Are the following two books published in the same year?\nAnswer: 2016\n\nCurrent Question:\n{image#1}{image#2}Question: Are the following two books published in the same year?<image> <image> ",
+        "gt_response": "2016",
+        "gen_kwargs": {
+            "do_sample": false,
+            "num_beams": 1,
+            "max_new_tokens": 32,
+            "eos_token_id": 92542
+        },
+        "pred_response": "yes both books are published in the same year",
+        "choice_list": [
+            "2016",
+            "2017",
+            "2015",
+            "not the same"
+        ],
+        "image_quantity_level": "Few",
+        "image": [
+            "408.jpg",
+            "409.jpg"
+        ],
+        "extracted": "BBABDAA",
+        "result": 0
+    },
+    {
+        "sample_id": 183,
+        "question": "Example Question 1:\n<image> <image> {image#1}{image#2}Question: Are the following two books published in the same year?\nAnswer: 2016\n\nCurrent Question:\n{image#1}{image#2}Question: Are the authors of these two books the same?<image> <image> ",
+        "gt_response": "gooseberry patch",
+        "gen_kwargs": {
+            "do_sample": false,
+            "num_beams": 1,
+            "max_new_tokens": 32,
+            "eos_token_id": 92542
+        },
+        "pred_response": "no",
+        "choice_list": [
+            "not the same",
+            "eknath easwaran",
+            "l ron hubbard",
+            "gooseberry patch"
+        ],
+        "image_quantity_level": "Few",
+        "image": [
+            "410.jpg",
+            "411.jpg"
+        ],
+        "extracted": "",
+        "result": 0
+    },
+    {
+        "sample_id": 184,
+        "question": "Example Question 1:\n<image> <image> {image#1}{image#2}Question: Are the authors of these two books the same?\nAnswer: Various\n\nCurrent Question:\n{image#1}{image#2}Question: Are these two books in the same field?<image> <image> ",
+        "gt_response": "travel",
+        "gen_kwargs": {
+            "do_sample": false,
+            "num_beams": 1,
+            "max_new_tokens": 32,
+            "eos_token_id": 92542
+        },
+        "pred_response": "yes both books are in the same field",
+        "choice_list": [
+            "not the same",
+            "christian books & bibles",
+            "travel",
+            "arts & photography"
+        ],
+        "image_quantity_level": "Few",
+        "image": [
+            "412.jpg",
+            "413.jpg"
+        ],
+        "extracted": "BBAAD",
+        "result": 0
+    },
+    {
+        "sample_id": 186,
+        "question": "Example Question 1:\n<image> <image> {image#1}{image#2}Question: Are these two books in the same field?\nAnswer: Crafts, Hobbies & Home\n\nCurrent Question:\n{image#1}{image#2}Question: Are the following two books published in the same year?<image> <image> ",
+        "gt_response": "2016",
+        "gen_kwargs": {
+            "do_sample": false,
+            "num_beams": 1,
+            "max_new_tokens": 32,
+            "eos_token_id": 92542
+        },
+        "pred_response": "no",
+        "choice_list": [
+            "not the same",
+            "2017",
+            "2016",
+            "2015"
+        ],
+        "image_quantity_level": "Few",
+        "image": [
+            "417.jpg",
+            "418.jpg"
+        ],
+        "extracted": "",
+        "result": 0
+    },
+    {
+        "sample_id": 187,
+        "question": "Example Question 1:\n<image> <image> <image> {image#1}Stations of the Cross{image#2}Living with Crohn's & Colitis: A Comprehensive Naturopathic Guide for Complete Digestive Wellness{image#3}The Triathlete's Training BibleQuestion: Please give the correct text order corresponding to each bookchoose\nAnswer: 2,1,0\n\nCurrent Question:\n{image#1}{image#2}Question: Are these two books in the same field?<image> <image> ",
+        "gt_response": "medical books",
+        "gen_kwargs": {
+            "do_sample": false,
+            "num_beams": 1,
+            "max_new_tokens": 32,
+            "eos_token_id": 92542
+        },
+        "pred_response": "no",
+        "choice_list": [
+            "reference",
+            "humor & entertainment",
+            "not the same",
+            "medical books"
+        ],
+        "image_quantity_level": "Few",
+        "image": [
+            "419.jpg",
+            "420.jpg"
+        ],
+        "extracted": "",
+        "result": 0
+    },
+    {
+        "sample_id": 188,
+        "question": "Example Question 1:\n<image> <image> {image#1}{image#2}Question: Are the following two books published in the same year?\nAnswer: 2016\n\nCurrent Question:\n{image#1}{image#2}Question: Are the authors of these two books the same?<image> <image> ",
+        "gt_response": "rand mcnally",
+        "gen_kwargs": {
+            "do_sample": false,
+            "num_beams": 1,
+            "max_new_tokens": 32,
+            "eos_token_id": 92542
+        },
+        "pred_response": "no",
+        "choice_list": [
+            "rand mcnally",
+            "luis m martinez",
+            "national geographic maps  trails illustrated",
+            "not the same"
+        ],
+        "image_quantity_level": "Few",
+        "image": [
+            "421.jpg",
+            "422.jpg"
+        ],
+        "extracted": "",
+        "result": 0
+    },
+    {
+        "sample_id": 189,
+        "question": "Example Question 1:\n<image> <image> <image> {image#1}Dressed to Kill: A Biblical Approach to Spiritual Warfare and Armor{image#2}Connection Culture: The Competitive Advantage of Shared Identity, Empathy, and Understanding at Work{image#3}Basic Clinical Neuroanatomy (Periodicals) 1st edition by Young, Paul A.; Young, Paul H. published by Lippincott Williams & Wilkins HardcoverQuestion: Please give the correct text order corresponding to each bookchoose\nAnswer: 2,0,1\n\nCurrent Question:\n{image#1}{image#2}Question: Are the following two books published in the same year?<image> <image> ",
+        "gt_response": "2016",
+        "gen_kwargs": {
+            "do_sample": false,
+            "num_beams": 1,
+            "max_new_tokens": 32,
+            "eos_token_id": 92542
+        },
+        "pred_response": "no",
+        "choice_list": [
+            "2016",
+            "not the same",
+            "2015",
+            "2017"
+        ],
+        "image_quantity_level": "Few",
+        "image": [
+            "423.jpg",
+            "424.jpg"
+        ],
+        "extracted": "",
+        "result": 0
+    },
+    {
+        "sample_id": 190,
+        "question": "Example Question 1:\n<image> <image> {image#1}{image#2}Question: Are the following two books published in the same year?\nAnswer: 2016\n\nCurrent Question:\n{image#1}{image#2}Question: Are the authors of these two books the same?<image> <image> ",
+        "gt_response": "clive cussler",
+        "gen_kwargs": {
+            "do_sample": false,
+            "num_beams": 1,
+            "max_new_tokens": 32,
+            "eos_token_id": 92542
+        },
+        "pred_response": "no",
+        "choice_list": [
+            "not the same",
+            "clive cussler",
+            "lonely planet",
+            "euripides"
+        ],
+        "image_quantity_level": "Few",
+        "image": [
+            "425.jpg",
+            "426.jpg"
+        ],
+        "extracted": "",
+        "result": 0
+    },
+    {
+        "sample_id": 192,
+        "question": "Example Question 1:\n<image> <image> {image#1}{image#2}Question: Are these two books in the same field?\nAnswer: Children's Books\n\nCurrent Question:\n{image#1}{image#2}Question: Are the authors of these two books the same?<image> <image> ",
+        "gt_response": "sarah fabiny",
+        "gen_kwargs": {
+            "do_sample": false,
+            "num_beams": 1,
+            "max_new_tokens": 32,
+            "eos_token_id": 92542
+        },
+        "pred_response": "no",
+        "choice_list": [
+            "sarah fabiny",
+            "wendell berry",
+            "various",
+            "not the same"
+        ],
+        "image_quantity_level": "Few",
+        "image": [
+            "430.jpg",
+            "431.jpg"
+        ],
+        "extracted": "",
+        "result": 0
+    },
+    {
+        "sample_id": 193,
+        "question": "Example Question 1:\n<image> <image> {image#1}{image#2}Question: Are the authors of these two books the same?\nAnswer: Knopf Guides\n\nCurrent Question:\n{image#1}{image#2}Question: Are the following two books published in the same year?<image> <image> ",
+        "gt_response": "2016",
+        "gen_kwargs": {
+            "do_sample": false,
+            "num_beams": 1,
+            "max_new_tokens": 32,
+            "eos_token_id": 92542
+        },
+        "pred_response": "yes the two books are published in the same year",
+        "choice_list": [
+            "2016",
+            "2017",
+            "2015",
+            "not the same"
+        ],
+        "image_quantity_level": "Few",
+        "image": [
+            "432.jpg",
+            "433.jpg"
+        ],
+        "extracted": "BABDAA",
+        "result": 0
+    },
+    {
+        "sample_id": 195,
+        "question": "Example Question 1:\n<image> <image> {image#1}{image#2}Question: Are these two books in the same field?\nAnswer: Travel\n\nCurrent Question:\n{image#1}{image#2}Question: Are the authors of these two books the same?<image> <image> ",
+        "gt_response": "dr seuss",
+        "gen_kwargs": {
+            "do_sample": false,
+            "num_beams": 1,
+            "max_new_tokens": 32,
+            "eos_token_id": 92542
+        },
+        "pred_response": "no",
+        "choice_list": [
+            "inc barcharts",
+            "not the same",
+            "zondervan",
+            "dr seuss"
+        ],
+        "image_quantity_level": "Few",
+        "image": [
+            "437.jpg",
+            "438.jpg"
+        ],
+        "extracted": "",
+        "result": 0
+    },
+    {
+        "sample_id": 196,
+        "question": "Example Question 1:\n<image> <image> {image#1}{image#2}Question: Are the following two books published in the same year?\nAnswer: 2016\n\nCurrent Question:\n{image#1}{image#2}Question: Are these two books in the same field?<image> <image> ",
+        "gt_response": "medical books",
+        "gen_kwargs": {
+            "do_sample": false,
+            "num_beams": 1,
+            "max_new_tokens": 32,
+            "eos_token_id": 92542
+        },
+        "pred_response": "no",
+        "choice_list": [
+            "not the same",
+            "literature & fiction",
+            "medical books",
+            "travel"
+        ],
+        "image_quantity_level": "Few",
+        "image": [
+            "439.jpg",
+            "440.jpg"
+        ],
+        "extracted": "",
+        "result": 0
+    },
+    {
+        "sample_id": 197,
+        "question": "Example Question 1:\n<image> <image> {image#1}{image#2}Question: Are the following two books published in the same year?\nAnswer: 2016\n\nCurrent Question:\n{image#1}{image#2}Question: Are these two books in the same field?<image> <image> ",
+        "gt_response": "health fitness & dieting",
+        "gen_kwargs": {
+            "do_sample": false,
+            "num_beams": 1,
+            "max_new_tokens": 32,
+            "eos_token_id": 92542
+        },
+        "pred_response": "no",
+        "choice_list": [
+            "computers & technology",
+            "health fitness & dieting",
+            "travel",
+            "not the same"
+        ],
+        "image_quantity_level": "Few",
+        "image": [
+            "441.jpg",
+            "442.jpg"
+        ],
+        "extracted": "",
+        "result": 0
+    },
+    {
+        "sample_id": 198,
+        "question": "Example Question 1:\n<image> <image> {image#1}{image#2}Question: Are these two books in the same field?\nAnswer: Health, Fitness & Dieting\n\nCurrent Question:\n{image#1}{image#2}Question: Are the following two books published in the same year?<image> <image> ",
+        "gt_response": "2016",
+        "gen_kwargs": {
+            "do_sample": false,
+            "num_beams": 1,
+            "max_new_tokens": 32,
+            "eos_token_id": 92542
+        },
+        "pred_response": "no",
+        "choice_list": [
+            "2015",
+            "2016",
+            "2017",
+            "not the same"
+        ],
+        "image_quantity_level": "Few",
+        "image": [
+            "443.jpg",
+            "444.jpg"
+        ],
+        "extracted": "",
+        "result": 0
+    },
+    {
+        "sample_id": 199,
+        "question": "Example Question 1:\n<image> <image> <image> {image#1}Enchanted Fairy Tales Storybook and Gemstone Necklace (Barbie){image#2}Mozambique (Globetrotter Travel Map){image#3}Ford Explorer, 1991-2001: Explorer Sport Thru 2003, Sport Trac 2005 (Haynes Repair Manual)Question: Please give the correct text order corresponding to each bookchoose\nAnswer: 2,1,0\n\nCurrent Question:\n{image#1}{image#2}Question: Are the following two books published in the same year?<image> <image> ",
+        "gt_response": "2016",
+        "gen_kwargs": {
+            "do_sample": false,
+            "num_beams": 1,
+            "max_new_tokens": 32,
+            "eos_token_id": 92542
+        },
+        "pred_response": "no",
+        "choice_list": [
+            "not the same",
+            "2017",
+            "2015",
+            "2016"
+        ],
+        "image_quantity_level": "Few",
+        "image": [
+            "445.jpg",
+            "446.jpg"
+        ],
+        "extracted": "",
+        "result": 0
+    },
+    {
+        "sample_id": 170,
+        "question": "Example Question 1:\n<image> <image> {image#1}{image#2}Question: Are the following two books published in the same year?\nAnswer: 2016\n\nCurrent Question:\n{image#1}The Longman Anthology of Detective Fiction{image#2}Smart Tennis: How to Play and Win the Mental Game{image#3}Nothing To It: Ten Ways to Be at Home with YourselfQuestion: Please give the correct text order corresponding to each bookchoose<image> <image> <image> ",
+        "gt_response": "021",
+        "gen_kwargs": {
+            "do_sample": false,
+            "num_beams": 1,
+            "max_new_tokens": 32,
+            "eos_token_id": 92542
+        },
+        "pred_response": "no",
+        "choice_list": [
+            "012",
+            "021",
+            "102",
+            "120",
+            "201",
+            "210"
+        ],
+        "image_quantity_level": "Few",
+        "image": [
+            "382.jpg",
+            "383.jpg",
+            "384.jpg"
+        ],
+        "extracted": "",
+        "result": 0
+    },
+    {
+        "sample_id": 171,
+        "question": "Example Question 1:\n<image> <image> {image#1}{image#2}Question: Are the authors of these two books the same?\nAnswer: James Lee Anderson\n\nCurrent Question:\n{image#1}Mr. Gumpy's Outing{image#2}Transitions: Prayers and Declarations for a Changing Life{image#3}The Little Red Hen (Paul Galdone Classics)Question: Please give the correct text order corresponding to each bookchoose<image> <image> <image> ",
+        "gt_response": "201",
+        "gen_kwargs": {
+            "do_sample": false,
+            "num_beams": 1,
+            "max_new_tokens": 32,
+            "eos_token_id": 92542
+        },
+        "pred_response": "paul galdone",
+        "choice_list": [
+            "012",
+            "021",
+            "102",
+            "120",
+            "201",
+            "210"
+        ],
+        "image_quantity_level": "Few",
+        "image": [
+            "385.jpg",
+            "386.jpg",
+            "387.jpg"
+        ],
+        "extracted": "AADE",
+        "result": 0
+    },
+    {
+        "sample_id": 185,
+        "question": "Example Question 1:\n<image> <image> {image#1}{image#2}Question: Are the authors of these two books the same?\nAnswer: Chilton\n\nCurrent Question:\n{image#1}Local Government Law (American Casebook Series){image#2}Beyond Chutzpah: On the Misuse of Anti-Semitism and the Abuse of History{image#3}The Ultimate Hair Loss Survival GuideQuestion: Please give the correct text order corresponding to each bookchoose<image> <image> <image> ",
+        "gt_response": "201",
+        "gen_kwargs": {
+            "do_sample": false,
+            "num_beams": 1,
+            "max_new_tokens": 32,
+            "eos_token_id": 92542
+        },
+        "pred_response": "chilton",
+        "choice_list": [
+            "012",
+            "021",
+            "102",
+            "120",
+            "201",
+            "210"
+        ],
+        "image_quantity_level": "Few",
+        "image": [
+            "414.jpg",
+            "415.jpg",
+            "416.jpg"
+        ],
+        "extracted": "C",
+        "result": 0
+    },
+    {
+        "sample_id": 191,
+        "question": "Example Question 1:\n<image> <image> {image#1}{image#2}Question: Are the following two books published in the same year?\nAnswer: 2016\n\nCurrent Question:\n{image#1}Thank You, Your Opinion Means Nothing to Me: A Year of Hot Flashes, Flashbacks, and Finding My Voice{image#2}Ethnocultural Factors in Substance Abuse Treatment{image#3}Howards EndQuestion: Please give the correct text order corresponding to each bookchoose<image> <image> <image> ",
+        "gt_response": "120",
+        "gen_kwargs": {
+            "do_sample": false,
+            "num_beams": 1,
+            "max_new_tokens": 32,
+            "eos_token_id": 92542
+        },
+        "pred_response": "no",
+        "choice_list": [
+            "012",
+            "021",
+            "102",
+            "120",
+            "201",
+            "210"
+        ],
+        "image_quantity_level": "Few",
+        "image": [
+            "427.jpg",
+            "428.jpg",
+            "429.jpg"
+        ],
+        "extracted": "",
+        "result": 0
+    },
+    {
+        "sample_id": 194,
+        "question": "Example Question 1:\n<image> <image> {image#1}{image#2}Question: Are these two books in the same field?\nAnswer: Science & Math\n\nCurrent Question:\n{image#1}Radio Frequency Integrated Circuits and Systems{image#2}Reflections on the Spanish Isle, Glories of the Dominican Republic{image#3}Rebellion of Stars (Starship Blackbeard) (Volume 4)Question: Please give the correct text order corresponding to each bookchoose<image> <image> <image> ",
+        "gt_response": "120",
+        "gen_kwargs": {
+            "do_sample": false,
+            "num_beams": 1,
+            "max_new_tokens": 32,
+            "eos_token_id": 92542
+        },
+        "pred_response": "radio frequency integrated circuits and systems",
+        "choice_list": [
+            "012",
+            "021",
+            "102",
+            "120",
+            "201",
+            "210"
+        ],
+        "image_quantity_level": "Few",
+        "image": [
+            "434.jpg",
+            "435.jpg",
+            "436.jpg"
+        ],
+        "extracted": "ADFEECEAEDCCADE",
+        "result": 0
+    }
+]

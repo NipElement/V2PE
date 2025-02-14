@@ -1,0 +1,2402 @@
+[
+    {
+        "sample_id": 0,
+        "question": "Example Question 1:\n<image> <image> <image> <image> <image> {image#1}{image#2}{image#3}{image#4}{image#5}Are there any rubber objects that enter the scene?\nAnswer: no\n\nCurrent Question:\n{image#1}{image#2}{image#3}{image#4}{image#5}Are there any moving green objects when the video ends?<image> <image> <image> <image> <image> ",
+        "gt_response": "yes",
+        "gen_kwargs": {
+            "do_sample": false,
+            "num_beams": 1,
+            "max_new_tokens": 32,
+            "eos_token_id": 0
+        },
+        "pred_response": "The video begins with a scene featuring a variety of objects on a flat surface. There are five distinct objects: a cyan sphere, a red sphere, a green"
+    },
+    {
+        "sample_id": 1,
+        "question": "Example Question 1:\n<image> <image> <image> <image> <image> {image#1}{image#2}{image#3}{image#4}{image#5}Are there any moving rubber objects?\nAnswer: yes\n\nCurrent Question:\n{image#1}{image#2}{image#3}{image#4}{image#5}Are there any rubber cylinders that exit the scene?<image> <image> <image> <image> <image> ",
+        "gt_response": "yes",
+        "gen_kwargs": {
+            "do_sample": false,
+            "num_beams": 1,
+            "max_new_tokens": 32,
+            "eos_token_id": 0
+        },
+        "pred_response": "The video depicts a sequence of events involving various objects in a 3D space. Initially, a single cyan cylinder is present. As the video progresses"
+    },
+    {
+        "sample_id": 2,
+        "question": "Example Question 1:\n<image> <image> <image> <image> <image> {image#1}{image#2}{image#3}{image#4}{image#5}Are there any spheres that exit the scene?\nAnswer: no\n\nCurrent Question:\n{image#1}{image#2}{image#3}{image#4}{image#5}Are there any cyan objects that enter the scene?<image> <image> <image> <image> <image> ",
+        "gt_response": "no",
+        "gen_kwargs": {
+            "do_sample": false,
+            "num_beams": 1,
+            "max_new_tokens": 32,
+            "eos_token_id": 0
+        },
+        "pred_response": "The video presents a sequence of images featuring various objects in a 3D space. The objects include spheres, cylinders, and cubes, with colors such"
+    },
+    {
+        "sample_id": 3,
+        "question": "Example Question 1:\n<image> <image> <image> <image> <image> {image#1}{image#2}{image#3}{image#4}{image#5}Are there any objects that enter the scene?\nAnswer: no\n\nCurrent Question:\n{image#1}{image#2}{image#3}{image#4}{image#5}Are there any stationary objects when the video ends?<image> <image> <image> <image> <image> ",
+        "gt_response": "yes",
+        "gen_kwargs": {
+            "do_sample": false,
+            "num_beams": 1,
+            "max_new_tokens": 32,
+            "eos_token_id": 0
+        },
+        "pred_response": "The video depicts a sequence of interactions between various objects in a three-dimensional space. Initially, we see a yellow sphere, a gray cube, and a purple"
+    },
+    {
+        "sample_id": 4,
+        "question": "Example Question 1:\n<image> <image> <image> <image> <image> {image#1}{image#2}{image#3}{image#4}{image#5}Are there any stationary objects when the video ends?\nAnswer: yes\n\nCurrent Question:\n{image#1}{image#2}{image#3}{image#4}{image#5}Are there any rubber spheres that enter the scene?<image> <image> <image> <image> <image> ",
+        "gt_response": "no",
+        "gen_kwargs": {
+            "do_sample": false,
+            "num_beams": 1,
+            "max_new_tokens": 32,
+            "eos_token_id": 0
+        },
+        "pred_response": "The video depicts a sequence of interactions between various objects, primarily focusing on the movement and arrangement of metal and rubber spheres and cubes. Here's a detailed"
+    },
+    {
+        "sample_id": 5,
+        "question": "Example Question 1:\n<image> <image> <image> <image> <image> {image#1}{image#2}{image#3}{image#4}{image#5}Are there any rubber objects that exit the scene?\nAnswer: no\n\nCurrent Question:\n{image#1}{image#2}{image#3}{image#4}{image#5}Are there any metal cubes that enter the scene?<image> <image> <image> <image> <image> ",
+        "gt_response": "no",
+        "gen_kwargs": {
+            "do_sample": false,
+            "num_beams": 1,
+            "max_new_tokens": 32,
+            "eos_token_id": 0
+        },
+        "pred_response": "The image shows a sequence of scenes with various objects. In the first scene, there are three objects: a blue cylinder, a green sphere, and a brown"
+    },
+    {
+        "sample_id": 6,
+        "question": "Example Question 1:\n<image> <image> <image> <image> <image> {image#1}{image#2}{image#3}{image#4}{image#5}Are there any moving yellow objects when the video ends?\nAnswer: yes\n\nCurrent Question:\n{image#1}{image#2}{image#3}{image#4}{image#5}Are there any stationary cubes?<image> <image> <image> <image> <image> ",
+        "gt_response": "no",
+        "gen_kwargs": {
+            "do_sample": false,
+            "num_beams": 1,
+            "max_new_tokens": 32,
+            "eos_token_id": 0
+        },
+        "pred_response": "The video begins with a scene featuring two cubes, one purple and one blue, placed on a flat surface. The purple cube is metallic, while the blue cube"
+    },
+    {
+        "sample_id": 7,
+        "question": "Example Question 1:\n<image> <image> <image> <image> <image> {image#1}{image#2}{image#3}{image#4}{image#5}Are there any stationary gray objects when the video ends?\nAnswer: no\n\nCurrent Question:\n{image#1}{image#2}{image#3}{image#4}{image#5}Are there any moving blue objects?<image> <image> <image> <image> <image> ",
+        "gt_response": "no",
+        "gen_kwargs": {
+            "do_sample": false,
+            "num_beams": 1,
+            "max_new_tokens": 32,
+            "eos_token_id": 0
+        },
+        "pred_response": "The video presents a sequence of images featuring various objects in motion on a plain surface. The objects include spheres, cubes, and cylinders, with colors such"
+    },
+    {
+        "sample_id": 8,
+        "question": "Example Question 1:\n<image> <image> <image> <image> <image> {image#1}{image#2}{image#3}{image#4}{image#5}Are there any cylinders that enter the scene?\nAnswer: no\n\nCurrent Question:\n{image#1}{image#2}{image#3}{image#4}{image#5}Are there any moving brown objects?<image> <image> <image> <image> <image> ",
+        "gt_response": "yes",
+        "gen_kwargs": {
+            "do_sample": false,
+            "num_beams": 1,
+            "max_new_tokens": 32,
+            "eos_token_id": 0
+        },
+        "pred_response": "The video depicts a sequence of events involving various objects in a 3D space. Initially, we see a green sphere, a green cube, a gray"
+    },
+    {
+        "sample_id": 9,
+        "question": "Example Question 1:\n<image> <image> <image> <image> <image> {image#1}{image#2}{image#3}{image#4}{image#5}Are there any moving blue objects?\nAnswer: yes\n\nCurrent Question:\n{image#1}{image#2}{image#3}{image#4}{image#5}Are there any cylinders that enter the scene?<image> <image> <image> <image> <image> ",
+        "gt_response": "no",
+        "gen_kwargs": {
+            "do_sample": false,
+            "num_beams": 1,
+            "max_new_tokens": 32,
+            "eos_token_id": 0
+        },
+        "pred_response": "The video depicts a sequence of events involving various objects in motion. Initially, a green cube is seen moving across the screen, followed by a blue sphere."
+    },
+    {
+        "sample_id": 10,
+        "question": "Example Question 1:\n<image> <image> <image> <image> <image> {image#1}{image#2}{image#3}{image#4}{image#5}Are there any objects that enter the scene?\nAnswer: no\n\nCurrent Question:\n{image#1}{image#2}{image#3}{image#4}{image#5}Are there any moving yellow objects when the video ends?<image> <image> <image> <image> <image> ",
+        "gt_response": "yes",
+        "gen_kwargs": {
+            "do_sample": false,
+            "num_beams": 1,
+            "max_new_tokens": 32,
+            "eos_token_id": 0
+        },
+        "pred_response": "The video depicts a sequence of interactions between various objects in a 3D space. Initially, we see a yellow sphere, a gray cube, and a"
+    },
+    {
+        "sample_id": 11,
+        "question": "Example Question 1:\n<image> <image> <image> <image> <image> {image#1}{image#2}{image#3}{image#4}{image#5}Are there any purple objects that exit the scene?\nAnswer: yes\n\nCurrent Question:\n{image#1}{image#2}{image#3}{image#4}{image#5}Are there any moving cylinders when the video ends?<image> <image> <image> <image> <image> ",
+        "gt_response": "yes",
+        "gen_kwargs": {
+            "do_sample": false,
+            "num_beams": 1,
+            "max_new_tokens": 32,
+            "eos_token_id": 0
+        },
+        "pred_response": "The video depicts a sequence of events involving various objects, including cubes, spheres, and cylinders. The objects are arranged in different configurations and positions throughout"
+    },
+    {
+        "sample_id": 12,
+        "question": "Example Question 1:\n<image> <image> <image> <image> <image> {image#1}{image#2}{image#3}{image#4}{image#5}Are there any moving brown objects when the video begins?\nAnswer: no\n\nCurrent Question:\n{image#1}{image#2}{image#3}{image#4}{image#5}Are there any moving spheres?<image> <image> <image> <image> <image> ",
+        "gt_response": "yes",
+        "gen_kwargs": {
+            "do_sample": false,
+            "num_beams": 1,
+            "max_new_tokens": 32,
+            "eos_token_id": 0
+        },
+        "pred_response": "The video presents a sequence of images featuring various objects in motion. Here's a detailed description of the video content:\n\n1. **Image 1**: The"
+    },
+    {
+        "sample_id": 13,
+        "question": "Example Question 1:\n<image> <image> <image> <image> <image> {image#1}{image#2}{image#3}{image#4}{image#5}Are there any blue objects that enter the scene?\nAnswer: yes\n\nCurrent Question:\n{image#1}{image#2}{image#3}{image#4}{image#5}Are there any purple spheres that enter the scene?<image> <image> <image> <image> <image> ",
+        "gt_response": "yes",
+        "gen_kwargs": {
+            "do_sample": false,
+            "num_beams": 1,
+            "max_new_tokens": 32,
+            "eos_token_id": 0
+        },
+        "pred_response": "The video presents a sequence of images featuring various objects in a simple, uncluttered environment. Initially, the scene includes a purple rubber cylinder and a te"
+    },
+    {
+        "sample_id": 14,
+        "question": "Example Question 1:\n<image> <image> <image> <image> <image> {image#1}{image#2}{image#3}{image#4}{image#5}Are there any stationary cubes?\nAnswer: no\n\nCurrent Question:\n{image#1}{image#2}{image#3}{image#4}{image#5}Are there any moving blue objects?<image> <image> <image> <image> <image> ",
+        "gt_response": "yes",
+        "gen_kwargs": {
+            "do_sample": false,
+            "num_beams": 1,
+            "max_new_tokens": 32,
+            "eos_token_id": 0
+        },
+        "pred_response": "The video presents a sequence of images featuring various objects in motion. Here's a detailed description of the video content:\n\n1. **Image 1**: The"
+    },
+    {
+        "sample_id": 15,
+        "question": "Example Question 1:\n<image> <image> <image> <image> <image> {image#1}{image#2}{image#3}{image#4}{image#5}Are there any moving cubes?\nAnswer: no\n\nCurrent Question:\n{image#1}{image#2}{image#3}{image#4}{image#5}Are there any moving cylinders?<image> <image> <image> <image> <image> ",
+        "gt_response": "no",
+        "gen_kwargs": {
+            "do_sample": false,
+            "num_beams": 1,
+            "max_new_tokens": 32,
+            "eos_token_id": 0
+        },
+        "pred_response": "The video depicts a sequence of events involving various objects in motion. Initially, a red sphere is seen moving towards the right side of the frame. Shortly"
+    },
+    {
+        "sample_id": 16,
+        "question": "Example Question 1:\n<image> <image> <image> <image> <image> {image#1}{image#2}{image#3}{image#4}{image#5}Are there any yellow objects that exit the scene?\nAnswer: yes\n\nCurrent Question:\n{image#1}{image#2}{image#3}{image#4}{image#5}Are there any rubber cylinders that enter the scene?<image> <image> <image> <image> <image> ",
+        "gt_response": "yes",
+        "gen_kwargs": {
+            "do_sample": false,
+            "num_beams": 1,
+            "max_new_tokens": 32,
+            "eos_token_id": 0
+        },
+        "pred_response": "The image depicts a scene with various objects, including spheres, cylinders, and cubes. The objects are arranged in a somewhat scattered manner, with some"
+    },
+    {
+        "sample_id": 17,
+        "question": "Example Question 1:\n<image> <image> <image> <image> <image> {image#1}{image#2}{image#3}{image#4}{image#5}Are there any blue objects that enter the scene?\nAnswer: yes\n\nCurrent Question:\n{image#1}{image#2}{image#3}{image#4}{image#5}Are there any moving purple objects when the video begins?<image> <image> <image> <image> <image> ",
+        "gt_response": "no",
+        "gen_kwargs": {
+            "do_sample": false,
+            "num_beams": 1,
+            "max_new_tokens": 32,
+            "eos_token_id": 0
+        },
+        "pred_response": "The video begins with a scene featuring three objects: a purple sphere, a gray cube, and a cyan cube. The purple sphere is positioned on the left side"
+    },
+    {
+        "sample_id": 18,
+        "question": "Example Question 1:\n<image> <image> <image> <image> <image> {image#1}{image#2}{image#3}{image#4}{image#5}Are there any moving purple objects when the video begins?\nAnswer: no\n\nCurrent Question:\n{image#1}{image#2}{image#3}{image#4}{image#5}Are there any rubber spheres that exit the scene?<image> <image> <image> <image> <image> ",
+        "gt_response": "yes",
+        "gen_kwargs": {
+            "do_sample": false,
+            "num_beams": 1,
+            "max_new_tokens": 32,
+            "eos_token_id": 0
+        },
+        "pred_response": "The video presents a sequence of images featuring various objects in a 3D space. The objects include spheres, cubes, and cylinders, all rendered in"
+    },
+    {
+        "sample_id": 19,
+        "question": "Example Question 1:\n<image> <image> <image> <image> <image> {image#1}{image#2}{image#3}{image#4}{image#5}Are there collisions?\nAnswer: yes\n\nCurrent Question:\n{image#1}{image#2}{image#3}{image#4}{image#5}Are there any stationary green objects?<image> <image> <image> <image> <image> ",
+        "gt_response": "no",
+        "gen_kwargs": {
+            "do_sample": false,
+            "num_beams": 1,
+            "max_new_tokens": 32,
+            "eos_token_id": 0
+        },
+        "pred_response": "The video depicts a sequence of interactions between various objects in a 3D space. Initially, we see a green sphere, a red sphere, a yellow"
+    },
+    {
+        "sample_id": 20,
+        "question": "Example Question 1:\n<image> <image> <image> <image> <image> {image#1}{image#2}{image#3}{image#4}{image#5}Are there any yellow objects that enter the scene?\nAnswer: yes\n\nCurrent Question:\n{image#1}{image#2}{image#3}{image#4}{image#5}Are there any stationary cyan objects when the video ends?<image> <image> <image> <image> <image> ",
+        "gt_response": "yes",
+        "gen_kwargs": {
+            "do_sample": false,
+            "num_beams": 1,
+            "max_new_tokens": 32,
+            "eos_token_id": 0
+        },
+        "pred_response": "The video depicts a sequence of interactions between various objects in a 3D space. Initially, we see a blue cube, a yellow sphere, a brown"
+    },
+    {
+        "sample_id": 21,
+        "question": "Example Question 1:\n<image> <image> <image> <image> <image> {image#1}{image#2}{image#3}{image#4}{image#5}Are there any moving cylinders when the video ends?\nAnswer: yes\n\nCurrent Question:\n{image#1}{image#2}{image#3}{image#4}{image#5}Are there any moving red objects when the video ends?<image> <image> <image> <image> <image> ",
+        "gt_response": "yes",
+        "gen_kwargs": {
+            "do_sample": false,
+            "num_beams": 1,
+            "max_new_tokens": 32,
+            "eos_token_id": 0
+        },
+        "pred_response": "The video depicts a sequence of events involving various objects in motion. Initially, we see a yellow rubber cylinder and a green metal cylinder. As the video progress"
+    },
+    {
+        "sample_id": 22,
+        "question": "Example Question 1:\n<image> <image> <image> <image> <image> {image#1}{image#2}{image#3}{image#4}{image#5}Are there any spheres that enter the scene?\nAnswer: no\n\nCurrent Question:\n{image#1}{image#2}{image#3}{image#4}{image#5}Are there any rubber cylinders that exit the scene?<image> <image> <image> <image> <image> ",
+        "gt_response": "yes",
+        "gen_kwargs": {
+            "do_sample": false,
+            "num_beams": 1,
+            "max_new_tokens": 32,
+            "eos_token_id": 0
+        },
+        "pred_response": "The video presents a sequence of images featuring various objects in motion on a plain surface. Here is a detailed description of the sequence:\n\n1. **First Image**"
+    },
+    {
+        "sample_id": 23,
+        "question": "Example Question 1:\n<image> <image> <image> <image> <image> {image#1}{image#2}{image#3}{image#4}{image#5}Are there any moving gray objects?\nAnswer: yes\n\nCurrent Question:\n{image#1}{image#2}{image#3}{image#4}{image#5}Are there any cubes that enter the scene?<image> <image> <image> <image> <image> ",
+        "gt_response": "no",
+        "gen_kwargs": {
+            "do_sample": false,
+            "num_beams": 1,
+            "max_new_tokens": 32,
+            "eos_token_id": 0
+        },
+        "pred_response": "The video presents a sequence of images featuring various objects in motion. Here's a detailed description of the video content:\n\n1. **Image 1**: The"
+    },
+    {
+        "sample_id": 24,
+        "question": "Example Question 1:\n<image> <image> <image> <image> <image> {image#1}{image#2}{image#3}{image#4}{image#5}Are there any moving brown objects?\nAnswer: no\n\nCurrent Question:\n{image#1}{image#2}{image#3}{image#4}{image#5}Are there any red spheres that enter the scene?<image> <image> <image> <image> <image> ",
+        "gt_response": "no",
+        "gen_kwargs": {
+            "do_sample": false,
+            "num_beams": 1,
+            "max_new_tokens": 32,
+            "eos_token_id": 0
+        },
+        "pred_response": "The video presents a sequence of images featuring various objects in a 3D space. The objects include spheres, cubes, and a cylinder. The colors of"
+    },
+    {
+        "sample_id": 25,
+        "question": "Example Question 1:\n<image> <image> <image> <image> <image> {image#1}{image#2}{image#3}{image#4}{image#5}Are there any stationary gray objects?\nAnswer: no\n\nCurrent Question:\n{image#1}{image#2}{image#3}{image#4}{image#5}Are there any moving spheres?<image> <image> <image> <image> <image> ",
+        "gt_response": "yes",
+        "gen_kwargs": {
+            "do_sample": false,
+            "num_beams": 1,
+            "max_new_tokens": 32,
+            "eos_token_id": 0
+        },
+        "pred_response": "The image shows a collection of objects on a flat surface. There are two green cylinders, one blue cube, and a yellow cube. The objects are arranged"
+    },
+    {
+        "sample_id": 26,
+        "question": "Example Question 1:\n<image> <image> <image> <image> <image> {image#1}{image#2}{image#3}{image#4}{image#5}Are there any moving objects when the video begins?\nAnswer: yes\n\nCurrent Question:\n{image#1}{image#2}{image#3}{image#4}{image#5}Are there any stationary spheres?<image> <image> <image> <image> <image> ",
+        "gt_response": "no",
+        "gen_kwargs": {
+            "do_sample": false,
+            "num_beams": 1,
+            "max_new_tokens": 32,
+            "eos_token_id": 0
+        },
+        "pred_response": "The video begins with a scene featuring three objects: a red sphere, a purple cylinder, and a gray cylinder, all positioned on a flat surface. The red"
+    },
+    {
+        "sample_id": 27,
+        "question": "Example Question 1:\n<image> <image> <image> <image> <image> {image#1}{image#2}{image#3}{image#4}{image#5}Are there any cylinders that enter the scene?\nAnswer: no\n\nCurrent Question:\n{image#1}{image#2}{image#3}{image#4}{image#5}Are there any moving purple objects when the video begins?<image> <image> <image> <image> <image> ",
+        "gt_response": "yes",
+        "gen_kwargs": {
+            "do_sample": false,
+            "num_beams": 1,
+            "max_new_tokens": 32,
+            "eos_token_id": 0
+        },
+        "pred_response": "The video depicts a sequence of events involving various objects in motion. Initially, we see a green sphere, a green cube, a gray cylinder, and a"
+    },
+    {
+        "sample_id": 28,
+        "question": "Example Question 1:\n<image> <image> <image> <image> <image> {image#1}{image#2}{image#3}{image#4}{image#5}Are there any metal spheres that exit the scene?\nAnswer: no\n\nCurrent Question:\n{image#1}{image#2}{image#3}{image#4}{image#5}Are there collisions?<image> <image> <image> <image> <image> ",
+        "gt_response": "yes",
+        "gen_kwargs": {
+            "do_sample": false,
+            "num_beams": 1,
+            "max_new_tokens": 32,
+            "eos_token_id": 0
+        },
+        "pred_response": "The image shows a collection of objects on a flat surface. There are two yellow spheres, one purple sphere, and two blue cylinders. The yellow sph"
+    },
+    {
+        "sample_id": 29,
+        "question": "Example Question 1:\n<image> <image> <image> <image> <image> {image#1}{image#2}{image#3}{image#4}{image#5}Are there any moving cylinders when the video begins?\nAnswer: yes\n\nCurrent Question:\n{image#1}{image#2}{image#3}{image#4}{image#5}Are there any stationary brown objects when the video begins?<image> <image> <image> <image> <image> ",
+        "gt_response": "no",
+        "gen_kwargs": {
+            "do_sample": false,
+            "num_beams": 1,
+            "max_new_tokens": 32,
+            "eos_token_id": 0
+        },
+        "pred_response": "The video begins with a scene featuring various objects, including a red sphere, a gray sphere, a green cylinder, a brown sphere, and two gray cylinders"
+    },
+    {
+        "sample_id": 30,
+        "question": "Example Question 1:\n<image> <image> <image> <image> <image> {image#1}{image#2}{image#3}{image#4}{image#5}Are there any metal cylinders that enter the scene?\nAnswer: no\n\nCurrent Question:\n{image#1}{image#2}{image#3}{image#4}{image#5}Are there any green spheres that enter the scene?<image> <image> <image> <image> <image> ",
+        "gt_response": "no",
+        "gen_kwargs": {
+            "do_sample": false,
+            "num_beams": 1,
+            "max_new_tokens": 32,
+            "eos_token_id": 0
+        },
+        "pred_response": "The video presents a sequence of images featuring various objects in motion. Here's a detailed description of the video content:\n\n1. **Image 1**: The"
+    },
+    {
+        "sample_id": 31,
+        "question": "Example Question 1:\n<image> <image> <image> <image> <image> {image#1}{image#2}{image#3}{image#4}{image#5}Are there any stationary metal objects when the video begins?\nAnswer: no\n\nCurrent Question:\n{image#1}{image#2}{image#3}{image#4}{image#5}Are there any objects that enter the scene?<image> <image> <image> <image> <image> ",
+        "gt_response": "no",
+        "gen_kwargs": {
+            "do_sample": false,
+            "num_beams": 1,
+            "max_new_tokens": 32,
+            "eos_token_id": 0
+        },
+        "pred_response": "The video depicts a sequence of events involving various objects in a 3D space. Initially, we see a yellow cylinder, a red cube, and a"
+    },
+    {
+        "sample_id": 32,
+        "question": "Example Question 1:\n<image> <image> <image> <image> <image> {image#1}{image#2}{image#3}{image#4}{image#5}Are there any cyan cylinders that enter the scene?\nAnswer: yes\n\nCurrent Question:\n{image#1}{image#2}{image#3}{image#4}{image#5}Are there any moving spheres?<image> <image> <image> <image> <image> ",
+        "gt_response": "no",
+        "gen_kwargs": {
+            "do_sample": false,
+            "num_beams": 1,
+            "max_new_tokens": 32,
+            "eos_token_id": 0
+        },
+        "pred_response": "The video presents a sequence of images featuring various objects in motion on a plain surface. Here's a detailed description of the sequence:\n\n1. **First Image**"
+    },
+    {
+        "sample_id": 33,
+        "question": "Example Question 1:\n<image> <image> <image> <image> <image> {image#1}{image#2}{image#3}{image#4}{image#5}Are there any moving cylinders?\nAnswer: no\n\nCurrent Question:\n{image#1}{image#2}{image#3}{image#4}{image#5}Are there any moving brown objects when the video begins?<image> <image> <image> <image> <image> ",
+        "gt_response": "no",
+        "gen_kwargs": {
+            "do_sample": false,
+            "num_beams": 1,
+            "max_new_tokens": 32,
+            "eos_token_id": 0
+        },
+        "pred_response": "The video begins with a yellow rubber sphere positioned in the center of the frame. Shortly after, a gray metal cube appears to the left of the sphere."
+    },
+    {
+        "sample_id": 34,
+        "question": "Example Question 1:\n<image> <image> <image> <image> <image> {image#1}{image#2}{image#3}{image#4}{image#5}Are there any yellow objects that enter the scene?\nAnswer: yes\n\nCurrent Question:\n{image#1}{image#2}{image#3}{image#4}{image#5}Are there any green cubes that enter the scene?<image> <image> <image> <image> <image> ",
+        "gt_response": "yes",
+        "gen_kwargs": {
+            "do_sample": false,
+            "num_beams": 1,
+            "max_new_tokens": 32,
+            "eos_token_id": 0
+        },
+        "pred_response": "The video depicts a sequence of events involving various objects in a 3D space. Initially, we see a blue cube, a yellow sphere, a brown"
+    },
+    {
+        "sample_id": 35,
+        "question": "Example Question 1:\n<image> <image> <image> <image> <image> {image#1}{image#2}{image#3}{image#4}{image#5}Are there any moving green objects when the video ends?\nAnswer: yes\n\nCurrent Question:\n{image#1}{image#2}{image#3}{image#4}{image#5}Are there any metal cubes that enter the scene?<image> <image> <image> <image> <image> ",
+        "gt_response": "no",
+        "gen_kwargs": {
+            "do_sample": false,
+            "num_beams": 1,
+            "max_new_tokens": 32,
+            "eos_token_id": 0
+        },
+        "pred_response": "The video presents a sequence of images featuring various objects in motion. Here's a detailed description of the video content:\n\n1. **Image 1**: The"
+    },
+    {
+        "sample_id": 36,
+        "question": "Example Question 1:\n<image> <image> <image> <image> <image> {image#1}{image#2}{image#3}{image#4}{image#5}Are there any moving rubber objects?\nAnswer: yes\n\nCurrent Question:\n{image#1}{image#2}{image#3}{image#4}{image#5}Are there any moving spheres when the video ends?<image> <image> <image> <image> <image> ",
+        "gt_response": "no",
+        "gen_kwargs": {
+            "do_sample": false,
+            "num_beams": 1,
+            "max_new_tokens": 32,
+            "eos_token_id": 0
+        },
+        "pred_response": "The video begins with a single cyan rubber cylinder positioned on a flat, neutral-colored surface. As the video progresses, a purple cube appears in the background,"
+    },
+    {
+        "sample_id": 37,
+        "question": "Example Question 1:\n<image> <image> <image> <image> <image> {image#1}{image#2}{image#3}{image#4}{image#5}Are there any cylinders that enter the scene?\nAnswer: no\n\nCurrent Question:\n{image#1}{image#2}{image#3}{image#4}{image#5}Are there any moving red objects when the video ends?<image> <image> <image> <image> <image> ",
+        "gt_response": "no",
+        "gen_kwargs": {
+            "do_sample": false,
+            "num_beams": 1,
+            "max_new_tokens": 32,
+            "eos_token_id": 0
+        },
+        "pred_response": "The video depicts a sequence of events involving various objects in a 3D space. Initially, we see a green sphere, a green cube, a gray"
+    },
+    {
+        "sample_id": 38,
+        "question": "Example Question 1:\n<image> <image> <image> <image> <image> {image#1}{image#2}{image#3}{image#4}{image#5}Are there any cylinders that enter the scene?\nAnswer: no\n\nCurrent Question:\n{image#1}{image#2}{image#3}{image#4}{image#5}Are there any objects that exit the scene?<image> <image> <image> <image> <image> ",
+        "gt_response": "no",
+        "gen_kwargs": {
+            "do_sample": false,
+            "num_beams": 1,
+            "max_new_tokens": 32,
+            "eos_token_id": 0
+        },
+        "pred_response": "The video depicts a sequence of events involving various objects in a 3D space. Initially, we see a collection of objects including a red sphere, a"
+    },
+    {
+        "sample_id": 39,
+        "question": "Example Question 1:\n<image> <image> <image> <image> <image> {image#1}{image#2}{image#3}{image#4}{image#5}Are there any moving purple objects when the video begins?\nAnswer: yes\n\nCurrent Question:\n{image#1}{image#2}{image#3}{image#4}{image#5}Are there any moving gray objects?<image> <image> <image> <image> <image> ",
+        "gt_response": "yes",
+        "gen_kwargs": {
+            "do_sample": false,
+            "num_beams": 1,
+            "max_new_tokens": 32,
+            "eos_token_id": 0
+        },
+        "pred_response": "The video begins with a scene featuring two metallic spheres, one cyan and one blue, positioned on a plain surface. The cyan sphere is slightly to the left"
+    },
+    {
+        "sample_id": 40,
+        "question": "Example Question 1:\n<image> <image> <image> <image> <image> {image#1}{image#2}{image#3}{image#4}{image#5}Are there any cylinders that enter the scene?\nAnswer: no\n\nCurrent Question:\n{image#1}{image#2}{image#3}{image#4}{image#5}Are there any moving cylinders when the video ends?<image> <image> <image> <image> <image> ",
+        "gt_response": "yes",
+        "gen_kwargs": {
+            "do_sample": false,
+            "num_beams": 1,
+            "max_new_tokens": 32,
+            "eos_token_id": 0
+        },
+        "pred_response": "The video begins with a scene featuring three objects: a red cube, a cyan cube, and a cyan cylinder. The red cube and the cyan cube are positioned"
+    },
+    {
+        "sample_id": 41,
+        "question": "Example Question 1:\n<image> <image> <image> <image> <image> {image#1}{image#2}{image#3}{image#4}{image#5}Are there any gray objects that enter the scene?\nAnswer: yes\n\nCurrent Question:\n{image#1}{image#2}{image#3}{image#4}{image#5}Are there any stationary cylinders when the video begins?<image> <image> <image> <image> <image> ",
+        "gt_response": "no",
+        "gen_kwargs": {
+            "do_sample": false,
+            "num_beams": 1,
+            "max_new_tokens": 32,
+            "eos_token_id": 0
+        },
+        "pred_response": "The video presents a sequence of images featuring various objects in motion on a flat surface. The objects include cylinders, spheres, and cubes, all of which"
+    },
+    {
+        "sample_id": 42,
+        "question": "Example Question 1:\n<image> <image> <image> <image> <image> {image#1}{image#2}{image#3}{image#4}{image#5}Are there any cubes that exit the scene?\nAnswer: no\n\nCurrent Question:\n{image#1}{image#2}{image#3}{image#4}{image#5}Are there any blue objects that enter the scene?<image> <image> <image> <image> <image> ",
+        "gt_response": "no",
+        "gen_kwargs": {
+            "do_sample": false,
+            "num_beams": 1,
+            "max_new_tokens": 32,
+            "eos_token_id": 0
+        },
+        "pred_response": "The image shows a sequence of objects in a 3D space. Initially, there is a green sphere and a brown cube. As the sequence progresses,"
+    },
+    {
+        "sample_id": 43,
+        "question": "Example Question 1:\n<image> <image> <image> <image> <image> {image#1}{image#2}{image#3}{image#4}{image#5}Are there any stationary rubber objects when the video ends?\nAnswer: no\n\nCurrent Question:\n{image#1}{image#2}{image#3}{image#4}{image#5}Are there any moving blue objects?<image> <image> <image> <image> <image> ",
+        "gt_response": "no",
+        "gen_kwargs": {
+            "do_sample": false,
+            "num_beams": 1,
+            "max_new_tokens": 32,
+            "eos_token_id": 0
+        },
+        "pred_response": "The video presents a sequence of images featuring various objects, primarily focusing on the movement and interaction of cylindrical and spherical objects. Here is a detailed description"
+    },
+    {
+        "sample_id": 44,
+        "question": "Example Question 1:\n<image> <image> <image> <image> <image> {image#1}{image#2}{image#3}{image#4}{image#5}Are there any moving green objects when the video ends?\nAnswer: yes\n\nCurrent Question:\n{image#1}{image#2}{image#3}{image#4}{image#5}Are there any rubber spheres that exit the scene?<image> <image> <image> <image> <image> ",
+        "gt_response": "yes",
+        "gen_kwargs": {
+            "do_sample": false,
+            "num_beams": 1,
+            "max_new_tokens": 32,
+            "eos_token_id": 0
+        },
+        "pred_response": "The video depicts a sequence of movements involving various objects on a flat surface. Initially, there are five objects: a red cylinder, a red cube, a"
+    },
+    {
+        "sample_id": 45,
+        "question": "Example Question 1:\n<image> <image> <image> <image> <image> {image#1}{image#2}{image#3}{image#4}{image#5}Are there any moving brown objects?\nAnswer: yes\n\nCurrent Question:\n{image#1}{image#2}{image#3}{image#4}{image#5}Are there any rubber objects that enter the scene?<image> <image> <image> <image> <image> ",
+        "gt_response": "no",
+        "gen_kwargs": {
+            "do_sample": false,
+            "num_beams": 1,
+            "max_new_tokens": 32,
+            "eos_token_id": 0
+        },
+        "pred_response": "The video depicts a sequence of interactions between various objects on a flat surface. Initially, there are three objects: a red cylinder, a green rubber sphere,"
+    },
+    {
+        "sample_id": 46,
+        "question": "Example Question 1:\n<image> <image> <image> <image> <image> {image#1}{image#2}{image#3}{image#4}{image#5}Are there any stationary red objects when the video begins?\nAnswer: yes\n\nCurrent Question:\n{image#1}{image#2}{image#3}{image#4}{image#5}Are there any blue objects that enter the scene?<image> <image> <image> <image> <image> ",
+        "gt_response": "yes",
+        "gen_kwargs": {
+            "do_sample": false,
+            "num_beams": 1,
+            "max_new_tokens": 32,
+            "eos_token_id": 0
+        },
+        "pred_response": "The video begins with a scene featuring a red rubber sphere, a gray rubber cylinder, and a brown metallic cube on a plain surface. The red sphere is positioned"
+    },
+    {
+        "sample_id": 47,
+        "question": "Example Question 1:\n<image> <image> <image> <image> <image> {image#1}{image#2}{image#3}{image#4}{image#5}Are there any stationary spheres?\nAnswer: yes\n\nCurrent Question:\n{image#1}{image#2}{image#3}{image#4}{image#5}Are there any metal spheres that exit the scene?<image> <image> <image> <image> <image> ",
+        "gt_response": "no",
+        "gen_kwargs": {
+            "do_sample": false,
+            "num_beams": 1,
+            "max_new_tokens": 32,
+            "eos_token_id": 0
+        },
+        "pred_response": "The image depicts a scene with various objects arranged on a flat surface. There are several objects, including spheres, cubes, and cylinders. The sph"
+    },
+    {
+        "sample_id": 48,
+        "question": "Example Question 1:\n<image> <image> <image> <image> <image> {image#1}{image#2}{image#3}{image#4}{image#5}Are there any stationary spheres?\nAnswer: no\n\nCurrent Question:\n{image#1}{image#2}{image#3}{image#4}{image#5}Are there any yellow objects that exit the scene?<image> <image> <image> <image> <image> ",
+        "gt_response": "yes",
+        "gen_kwargs": {
+            "do_sample": false,
+            "num_beams": 1,
+            "max_new_tokens": 32,
+            "eos_token_id": 0
+        },
+        "pred_response": "The image depicts a scene with various objects, including cylinders, spheres, and cubes. The objects are arranged in a somewhat scattered manner, with some"
+    },
+    {
+        "sample_id": 49,
+        "question": "Example Question 1:\n<image> <image> <image> <image> <image> {image#1}{image#2}{image#3}{image#4}{image#5}Are there any moving blue objects when the video ends?\nAnswer: no\n\nCurrent Question:\n{image#1}{image#2}{image#3}{image#4}{image#5}Are there any moving red objects when the video ends?<image> <image> <image> <image> <image> ",
+        "gt_response": "no",
+        "gen_kwargs": {
+            "do_sample": false,
+            "num_beams": 1,
+            "max_new_tokens": 32,
+            "eos_token_id": 0
+        },
+        "pred_response": "The video depicts a sequence of events involving various objects in a 3D space. Initially, we see a brown sphere, a red cylinder, a brown"
+    },
+    {
+        "sample_id": 50,
+        "question": "Example Question 1:\n<image> <image> <image> <image> <image> {image#1}{image#2}{image#3}{image#4}{image#5}Are there any metal cylinders that enter the scene?\nAnswer: no\n\nCurrent Question:\n{image#1}{image#2}{image#3}{image#4}{image#5}Are there any moving cylinders?<image> <image> <image> <image> <image> ",
+        "gt_response": "yes",
+        "gen_kwargs": {
+            "do_sample": false,
+            "num_beams": 1,
+            "max_new_tokens": 32,
+            "eos_token_id": 0
+        },
+        "pred_response": "The video presents a sequence of images featuring various objects in motion. Here's a detailed description of the video content:\n\n1. **Image 1**: The"
+    },
+    {
+        "sample_id": 51,
+        "question": "Example Question 1:\n<image> <image> <image> <image> <image> {image#1}{image#2}{image#3}{image#4}{image#5}Are there any metal cylinders that enter the scene?\nAnswer: no\n\nCurrent Question:\n{image#1}{image#2}{image#3}{image#4}{image#5}Are there any moving red objects?<image> <image> <image> <image> <image> ",
+        "gt_response": "no",
+        "gen_kwargs": {
+            "do_sample": false,
+            "num_beams": 1,
+            "max_new_tokens": 32,
+            "eos_token_id": 0
+        },
+        "pred_response": "The video presents a sequence of images featuring various objects in motion on a plain surface. The objects include spheres, cubes, and cylinders, with colors such"
+    },
+    {
+        "sample_id": 52,
+        "question": "Example Question 1:\n<image> <image> <image> <image> <image> {image#1}{image#2}{image#3}{image#4}{image#5}Are there any cyan objects that enter the scene?\nAnswer: yes\n\nCurrent Question:\n{image#1}{image#2}{image#3}{image#4}{image#5}Are there any stationary cylinders when the video ends?<image> <image> <image> <image> <image> ",
+        "gt_response": "no",
+        "gen_kwargs": {
+            "do_sample": false,
+            "num_beams": 1,
+            "max_new_tokens": 32,
+            "eos_token_id": 0
+        },
+        "pred_response": "The video depicts a sequence of interactions between various objects in a 3D space. Initially, a yellow cylinder and a brown cube are present. As the"
+    },
+    {
+        "sample_id": 53,
+        "question": "Example Question 1:\n<image> <image> <image> <image> <image> {image#1}{image#2}{image#3}{image#4}{image#5}Are there any stationary cylinders?\nAnswer: no\n\nCurrent Question:\n{image#1}{image#2}{image#3}{image#4}{image#5}Are there any stationary gray objects when the video begins?<image> <image> <image> <image> <image> ",
+        "gt_response": "yes",
+        "gen_kwargs": {
+            "do_sample": false,
+            "num_beams": 1,
+            "max_new_tokens": 32,
+            "eos_token_id": 0
+        },
+        "pred_response": "The video depicts a sequence of interactions between various objects in a 3D space. Initially, a cyan sphere and a cyan cube are present. As the"
+    },
+    {
+        "sample_id": 54,
+        "question": "Example Question 1:\n<image> <image> <image> <image> <image> {image#1}{image#2}{image#3}{image#4}{image#5}Are there any stationary metal objects when the video begins?\nAnswer: yes\n\nCurrent Question:\n{image#1}{image#2}{image#3}{image#4}{image#5}Are there any moving gray objects?<image> <image> <image> <image> <image> ",
+        "gt_response": "no",
+        "gen_kwargs": {
+            "do_sample": false,
+            "num_beams": 1,
+            "max_new_tokens": 32,
+            "eos_token_id": 0
+        },
+        "pred_response": "The video begins with a scene featuring a purple metal cylinder, a brown rubber cylinder, a red rubber cylinder, a green rubber sphere, and a purple metal sphere"
+    },
+    {
+        "sample_id": 55,
+        "question": "Example Question 1:\n<image> <image> <image> <image> <image> {image#1}{image#2}{image#3}{image#4}{image#5}Are there any stationary red objects?\nAnswer: no\n\nCurrent Question:\n{image#1}{image#2}{image#3}{image#4}{image#5}Are there any moving blue objects when the video ends?<image> <image> <image> <image> <image> ",
+        "gt_response": "no",
+        "gen_kwargs": {
+            "do_sample": false,
+            "num_beams": 1,
+            "max_new_tokens": 32,
+            "eos_token_id": 0
+        },
+        "pred_response": "The video presents a sequence of images featuring various objects in motion. Here's a detailed description of the video content:\n\n1. **First Image:**\n   -"
+    },
+    {
+        "sample_id": 56,
+        "question": "Example Question 1:\n<image> <image> <image> <image> <image> {image#1}{image#2}{image#3}{image#4}{image#5}Are there any moving yellow objects when the video ends?\nAnswer: yes\n\nCurrent Question:\n{image#1}{image#2}{image#3}{image#4}{image#5}Are there any moving cylinders when the video begins?<image> <image> <image> <image> <image> ",
+        "gt_response": "yes",
+        "gen_kwargs": {
+            "do_sample": false,
+            "num_beams": 1,
+            "max_new_tokens": 32,
+            "eos_token_id": 0
+        },
+        "pred_response": "The video begins with two objects: a purple cube and a blue cube. The purple cube is positioned to the left, while the blue cube is to the right"
+    },
+    {
+        "sample_id": 57,
+        "question": "Example Question 1:\n<image> <image> <image> <image> <image> {image#1}{image#2}{image#3}{image#4}{image#5}Are there any moving brown objects when the video begins?\nAnswer: no\n\nCurrent Question:\n{image#1}{image#2}{image#3}{image#4}{image#5}Are there any metal objects that exit the scene?<image> <image> <image> <image> <image> ",
+        "gt_response": "yes",
+        "gen_kwargs": {
+            "do_sample": false,
+            "num_beams": 1,
+            "max_new_tokens": 32,
+            "eos_token_id": 0
+        },
+        "pred_response": "The video depicts a sequence of events involving various objects, including spheres, cubes, and cylinders. Initially, there are two purple spheres, a"
+    },
+    {
+        "sample_id": 58,
+        "question": "Example Question 1:\n<image> <image> <image> <image> <image> {image#1}{image#2}{image#3}{image#4}{image#5}Are there any stationary red objects when the video ends?\nAnswer: no\n\nCurrent Question:\n{image#1}{image#2}{image#3}{image#4}{image#5}Are there any moving yellow objects when the video ends?<image> <image> <image> <image> <image> ",
+        "gt_response": "no",
+        "gen_kwargs": {
+            "do_sample": false,
+            "num_beams": 1,
+            "max_new_tokens": 32,
+            "eos_token_id": 0
+        },
+        "pred_response": "The video depicts a sequence of interactions between various colored spheres and a small blue cube. Initially, the scene features a green sphere, a purple sphere,"
+    },
+    {
+        "sample_id": 59,
+        "question": "Example Question 1:\n<image> <image> <image> <image> <image> {image#1}{image#2}{image#3}{image#4}{image#5}Are there any gray cubes that enter the scene?\nAnswer: yes\n\nCurrent Question:\n{image#1}{image#2}{image#3}{image#4}{image#5}Are there any stationary metal objects?<image> <image> <image> <image> <image> ",
+        "gt_response": "yes",
+        "gen_kwargs": {
+            "do_sample": false,
+            "num_beams": 1,
+            "max_new_tokens": 32,
+            "eos_token_id": 0
+        },
+        "pred_response": "The video presents a sequence of images featuring various objects in a 3D space. The objects include spheres, cubes, and cylinders, with different colors"
+    },
+    {
+        "sample_id": 60,
+        "question": "Example Question 1:\n<image> <image> <image> <image> <image> {image#1}{image#2}{image#3}{image#4}{image#5}Are there any objects that exit the scene?\nAnswer: no\n\nCurrent Question:\n{image#1}{image#2}{image#3}{image#4}{image#5}Are there any stationary metal objects when the video begins?<image> <image> <image> <image> <image> ",
+        "gt_response": "yes",
+        "gen_kwargs": {
+            "do_sample": false,
+            "num_beams": 1,
+            "max_new_tokens": 32,
+            "eos_token_id": 0
+        },
+        "pred_response": "The video begins with a scene featuring a brown sphere and a red cylinder on a plain background. As the video progresses, a cyan cylinder is introduced, followed"
+    },
+    {
+        "sample_id": 61,
+        "question": "Example Question 1:\n<image> <image> <image> <image> <image> {image#1}{image#2}{image#3}{image#4}{image#5}Are there any rubber cylinders that exit the scene?\nAnswer: yes\n\nCurrent Question:\n{image#1}{image#2}{image#3}{image#4}{image#5}Are there any gray cubes that exit the scene?<image> <image> <image> <image> <image> ",
+        "gt_response": "yes",
+        "gen_kwargs": {
+            "do_sample": false,
+            "num_beams": 1,
+            "max_new_tokens": 32,
+            "eos_token_id": 0
+        },
+        "pred_response": "The video presents a sequence of images featuring various objects on a plain surface. Initially, we see a red sphere, a gray cube, and a gray sphere."
+    },
+    {
+        "sample_id": 62,
+        "question": "Example Question 1:\n<image> <image> <image> <image> <image> {image#1}{image#2}{image#3}{image#4}{image#5}Are there any moving metal objects when the video ends?\nAnswer: yes\n\nCurrent Question:\n{image#1}{image#2}{image#3}{image#4}{image#5}Are there any spheres that enter the scene?<image> <image> <image> <image> <image> ",
+        "gt_response": "no",
+        "gen_kwargs": {
+            "do_sample": false,
+            "num_beams": 1,
+            "max_new_tokens": 32,
+            "eos_token_id": 0
+        },
+        "pred_response": "The video depicts a sequence of events involving various objects in a 3D space. Initially, we see a green cylinder, a gray cylinder, a purple"
+    },
+    {
+        "sample_id": 63,
+        "question": "Example Question 1:\n<image> <image> <image> <image> <image> {image#1}{image#2}{image#3}{image#4}{image#5}Are there any cyan cubes that enter the scene?\nAnswer: no\n\nCurrent Question:\n{image#1}{image#2}{image#3}{image#4}{image#5}Are there any stationary brown objects when the video begins?<image> <image> <image> <image> <image> ",
+        "gt_response": "yes",
+        "gen_kwargs": {
+            "do_sample": false,
+            "num_beams": 1,
+            "max_new_tokens": 32,
+            "eos_token_id": 0
+        },
+        "pred_response": "The video begins with a scene featuring a green sphere and a cyan cube on a plain surface. As the video progresses, a red cube and a yellow sphere"
+    },
+    {
+        "sample_id": 64,
+        "question": "Example Question 1:\n<image> <image> <image> <image> <image> {image#1}{image#2}{image#3}{image#4}{image#5}Are there any metal cubes that enter the scene?\nAnswer: no\n\nCurrent Question:\n{image#1}{image#2}{image#3}{image#4}{image#5}Are there any cylinders that enter the scene?<image> <image> <image> <image> <image> ",
+        "gt_response": "no",
+        "gen_kwargs": {
+            "do_sample": false,
+            "num_beams": 1,
+            "max_new_tokens": 32,
+            "eos_token_id": 0
+        },
+        "pred_response": "The image shows a sequence of objects in a 3D space. Initially, there is a green cube and a cyan cylinder. As the sequence progresses,"
+    },
+    {
+        "sample_id": 65,
+        "question": "Example Question 1:\n<image> <image> <image> <image> <image> {image#1}{image#2}{image#3}{image#4}{image#5}Are there any cyan objects that enter the scene?\nAnswer: yes\n\nCurrent Question:\n{image#1}{image#2}{image#3}{image#4}{image#5}Are there any stationary brown objects?<image> <image> <image> <image> <image> ",
+        "gt_response": "yes",
+        "gen_kwargs": {
+            "do_sample": false,
+            "num_beams": 1,
+            "max_new_tokens": 32,
+            "eos_token_id": 0
+        },
+        "pred_response": "The image depicts a scene with various objects, including a yellow cylinder, a brown cube, a cyan cube, and a gray sphere. The objects are arranged"
+    },
+    {
+        "sample_id": 66,
+        "question": "Example Question 1:\n<image> <image> <image> <image> <image> {image#1}{image#2}{image#3}{image#4}{image#5}Are there any moving spheres?\nAnswer: yes\n\nCurrent Question:\n{image#1}{image#2}{image#3}{image#4}{image#5}Are there any stationary purple objects when the video begins?<image> <image> <image> <image> <image> ",
+        "gt_response": "no",
+        "gen_kwargs": {
+            "do_sample": false,
+            "num_beams": 1,
+            "max_new_tokens": 32,
+            "eos_token_id": 0
+        },
+        "pred_response": "The video presents a sequence of images featuring various objects in motion. Here's a detailed description of the video content:\n\n1. **First Image:**\n   -"
+    },
+    {
+        "sample_id": 67,
+        "question": "Example Question 1:\n<image> <image> <image> <image> <image> {image#1}{image#2}{image#3}{image#4}{image#5}Are there any metal cubes that enter the scene?\nAnswer: no\n\nCurrent Question:\n{image#1}{image#2}{image#3}{image#4}{image#5}Are there any stationary cyan objects when the video ends?<image> <image> <image> <image> <image> ",
+        "gt_response": "no",
+        "gen_kwargs": {
+            "do_sample": false,
+            "num_beams": 1,
+            "max_new_tokens": 32,
+            "eos_token_id": 0
+        },
+        "pred_response": "The video presents a sequence of images featuring various objects in motion. Here is a detailed description of the video content:\n\n1. **Initial Scene (Image 1"
+    },
+    {
+        "sample_id": 68,
+        "question": "Example Question 1:\n<image> <image> <image> <image> <image> {image#1}{image#2}{image#3}{image#4}{image#5}Are there any yellow objects that exit the scene?\nAnswer: yes\n\nCurrent Question:\n{image#1}{image#2}{image#3}{image#4}{image#5}Are there any stationary red objects when the video ends?<image> <image> <image> <image> <image> ",
+        "gt_response": "no",
+        "gen_kwargs": {
+            "do_sample": false,
+            "num_beams": 1,
+            "max_new_tokens": 32,
+            "eos_token_id": 0
+        },
+        "pred_response": "The video depicts a sequence of events involving various objects, primarily focusing on the movement and interaction of spheres and cylinders. Here's a detailed breakdown of"
+    },
+    {
+        "sample_id": 69,
+        "question": "Example Question 1:\n<image> <image> <image> <image> <image> {image#1}{image#2}{image#3}{image#4}{image#5}Are there any moving cylinders when the video ends?\nAnswer: yes\n\nCurrent Question:\n{image#1}{image#2}{image#3}{image#4}{image#5}Are there any moving metal objects?<image> <image> <image> <image> <image> ",
+        "gt_response": "yes",
+        "gen_kwargs": {
+            "do_sample": false,
+            "num_beams": 1,
+            "max_new_tokens": 32,
+            "eos_token_id": 0
+        },
+        "pred_response": "The video presents a sequence of images featuring various objects in motion. Here's a detailed description of the video content:\n\n1. **Initial Scene (Image 1"
+    },
+    {
+        "sample_id": 70,
+        "question": "Example Question 1:\n<image> <image> <image> <image> <image> {image#1}{image#2}{image#3}{image#4}{image#5}Are there any yellow cylinders that exit the scene?\nAnswer: yes\n\nCurrent Question:\n{image#1}{image#2}{image#3}{image#4}{image#5}Are there any moving purple objects?<image> <image> <image> <image> <image> ",
+        "gt_response": "no",
+        "gen_kwargs": {
+            "do_sample": false,
+            "num_beams": 1,
+            "max_new_tokens": 32,
+            "eos_token_id": 0
+        },
+        "pred_response": "The image depicts a scene with various objects arranged on a flat surface. The objects include a purple sphere, a green sphere, a cyan sphere, a brown"
+    },
+    {
+        "sample_id": 71,
+        "question": "Example Question 1:\n<image> <image> <image> <image> <image> {image#1}{image#2}{image#3}{image#4}{image#5}Are there any metal objects that enter the scene?\nAnswer: yes\n\nCurrent Question:\n{image#1}{image#2}{image#3}{image#4}{image#5}Are there any rubber objects that exit the scene?<image> <image> <image> <image> <image> ",
+        "gt_response": "no",
+        "gen_kwargs": {
+            "do_sample": false,
+            "num_beams": 1,
+            "max_new_tokens": 32,
+            "eos_token_id": 0
+        },
+        "pred_response": "The video depicts a sequence of interactions between various objects, primarily focusing on the movement and arrangement of cylindrical objects and a green sphere. Here is a"
+    },
+    {
+        "sample_id": 72,
+        "question": "Example Question 1:\n<image> <image> <image> <image> <image> {image#1}{image#2}{image#3}{image#4}{image#5}Are there any cubes that exit the scene?\nAnswer: no\n\nCurrent Question:\n{image#1}{image#2}{image#3}{image#4}{image#5}Are there any moving spheres when the video begins?<image> <image> <image> <image> <image> ",
+        "gt_response": "yes",
+        "gen_kwargs": {
+            "do_sample": false,
+            "num_beams": 1,
+            "max_new_tokens": 32,
+            "eos_token_id": 0
+        },
+        "pred_response": "The video begins with a scene featuring a green sphere and a brown cube on a plain surface. The green sphere is positioned slightly to the left of the brown cube"
+    },
+    {
+        "sample_id": 73,
+        "question": "Example Question 1:\n<image> <image> <image> <image> <image> {image#1}{image#2}{image#3}{image#4}{image#5}Are there any moving brown objects when the video begins?\nAnswer: no\n\nCurrent Question:\n{image#1}{image#2}{image#3}{image#4}{image#5}Are there any spheres that exit the scene?<image> <image> <image> <image> <image> ",
+        "gt_response": "no",
+        "gen_kwargs": {
+            "do_sample": false,
+            "num_beams": 1,
+            "max_new_tokens": 32,
+            "eos_token_id": 0
+        },
+        "pred_response": "The video begins with three objects: a red cylinder, a gray cylinder, and a cyan cylinder. The red cylinder and the gray cylinder are positioned close to each"
+    },
+    {
+        "sample_id": 74,
+        "question": "Example Question 1:\n<image> <image> <image> <image> <image> {image#1}{image#2}{image#3}{image#4}{image#5}Are there any rubber objects that enter the scene?\nAnswer: no\n\nCurrent Question:\n{image#1}{image#2}{image#3}{image#4}{image#5}Are there any moving brown objects when the video begins?<image> <image> <image> <image> <image> ",
+        "gt_response": "yes",
+        "gen_kwargs": {
+            "do_sample": false,
+            "num_beams": 1,
+            "max_new_tokens": 32,
+            "eos_token_id": 0
+        },
+        "pred_response": "The video depicts a sequence of interactions between various objects on a flat surface. Initially, two rubber spheres, one brown and one gray, are present."
+    },
+    {
+        "sample_id": 75,
+        "question": "Example Question 1:\n<image> <image> <image> <image> <image> {image#1}{image#2}{image#3}{image#4}{image#5}Are there any spheres that exit the scene?\nAnswer: no\n\nCurrent Question:\n{image#1}{image#2}{image#3}{image#4}{image#5}Are there any stationary purple objects when the video ends?<image> <image> <image> <image> <image> ",
+        "gt_response": "yes",
+        "gen_kwargs": {
+            "do_sample": false,
+            "num_beams": 1,
+            "max_new_tokens": 32,
+            "eos_token_id": 0
+        },
+        "pred_response": "The video begins with a single purple sphere on a plain background. As the video progresses, a red sphere and a brown cube enter the scene, positioned near"
+    },
+    {
+        "sample_id": 76,
+        "question": "Example Question 1:\n<image> <image> <image> <image> <image> {image#1}{image#2}{image#3}{image#4}{image#5}Are there any moving green objects when the video ends?\nAnswer: yes\n\nCurrent Question:\n{image#1}{image#2}{image#3}{image#4}{image#5}Are there any stationary green objects?<image> <image> <image> <image> <image> ",
+        "gt_response": "yes",
+        "gen_kwargs": {
+            "do_sample": false,
+            "num_beams": 1,
+            "max_new_tokens": 32,
+            "eos_token_id": 0
+        },
+        "pred_response": "The video depicts a sequence of interactions between various objects on a flat surface. Initially, a yellow cylinder and a green cylinder are present. A gray cylinder then"
+    },
+    {
+        "sample_id": 77,
+        "question": "Example Question 1:\n<image> <image> <image> <image> <image> {image#1}{image#2}{image#3}{image#4}{image#5}Are there any metal objects that exit the scene?\nAnswer: yes\n\nCurrent Question:\n{image#1}{image#2}{image#3}{image#4}{image#5}Are there any stationary gray objects when the video ends?<image> <image> <image> <image> <image> ",
+        "gt_response": "no",
+        "gen_kwargs": {
+            "do_sample": false,
+            "num_beams": 1,
+            "max_new_tokens": 32,
+            "eos_token_id": 0
+        },
+        "pred_response": "The video presents a sequence of images featuring various objects, including spheres, cubes, and a cylinder, arranged in different configurations. Here is a detailed description of"
+    },
+    {
+        "sample_id": 78,
+        "question": "Example Question 1:\n<image> <image> <image> <image> <image> {image#1}{image#2}{image#3}{image#4}{image#5}Are there any cylinders that enter the scene?\nAnswer: yes\n\nCurrent Question:\n{image#1}{image#2}{image#3}{image#4}{image#5}Are there any stationary cubes?<image> <image> <image> <image> <image> ",
+        "gt_response": "no",
+        "gen_kwargs": {
+            "do_sample": false,
+            "num_beams": 1,
+            "max_new_tokens": 32,
+            "eos_token_id": 0
+        },
+        "pred_response": "The video depicts a sequence of events involving various objects in a neutral, light-colored environment. Initially, a red cylinder is present. As the video progresses"
+    },
+    {
+        "sample_id": 79,
+        "question": "Example Question 1:\n<image> <image> <image> <image> <image> {image#1}{image#2}{image#3}{image#4}{image#5}Are there any stationary objects?\nAnswer: no\n\nCurrent Question:\n{image#1}{image#2}{image#3}{image#4}{image#5}Are there any moving spheres when the video ends?<image> <image> <image> <image> <image> ",
+        "gt_response": "yes",
+        "gen_kwargs": {
+            "do_sample": false,
+            "num_beams": 1,
+            "max_new_tokens": 32,
+            "eos_token_id": 0
+        },
+        "pred_response": "The video depicts a sequence of interactions between various objects, primarily focusing on the movement and collision of a red sphere, blue cubes, and a green cylinder."
+    },
+    {
+        "sample_id": 80,
+        "question": "Example Question 1:\n<image> <image> <image> <image> <image> {image#1}{image#2}{image#3}{image#4}{image#5}Are there any stationary objects when the video ends?\nAnswer: yes\n\nCurrent Question:\n{image#1}{image#2}{image#3}{image#4}{image#5}Are there any stationary rubber objects when the video ends?<image> <image> <image> <image> <image> ",
+        "gt_response": "no",
+        "gen_kwargs": {
+            "do_sample": false,
+            "num_beams": 1,
+            "max_new_tokens": 32,
+            "eos_token_id": 0
+        },
+        "pred_response": "The video begins with a scene featuring a cyan sphere and a cyan cube on a plain background. The sphere is positioned to the left, while the cube is to"
+    },
+    {
+        "sample_id": 81,
+        "question": "Example Question 1:\n<image> <image> <image> <image> <image> {image#1}{image#2}{image#3}{image#4}{image#5}Are there any moving green objects when the video ends?\nAnswer: yes\n\nCurrent Question:\n{image#1}{image#2}{image#3}{image#4}{image#5}Are there any spheres that enter the scene?<image> <image> <image> <image> <image> ",
+        "gt_response": "no",
+        "gen_kwargs": {
+            "do_sample": false,
+            "num_beams": 1,
+            "max_new_tokens": 32,
+            "eos_token_id": 0
+        },
+        "pred_response": "The video presents a sequence of images featuring various objects in motion. Here's a detailed description of the video content:\n\n1. **Image 1**: The"
+    },
+    {
+        "sample_id": 82,
+        "question": "Example Question 1:\n<image> <image> <image> <image> <image> {image#1}{image#2}{image#3}{image#4}{image#5}Are there any gray cubes that exit the scene?\nAnswer: yes\n\nCurrent Question:\n{image#1}{image#2}{image#3}{image#4}{image#5}Are there any metal objects that enter the scene?<image> <image> <image> <image> <image> ",
+        "gt_response": "yes",
+        "gen_kwargs": {
+            "do_sample": false,
+            "num_beams": 1,
+            "max_new_tokens": 32,
+            "eos_token_id": 0
+        },
+        "pred_response": "The image shows a sequence of objects in a 3D space. Initially, there are two objects: a gray cube and a green cylinder. As the sequence"
+    },
+    {
+        "sample_id": 83,
+        "question": "Example Question 1:\n<image> <image> <image> <image> <image> {image#1}{image#2}{image#3}{image#4}{image#5}Are there any moving spheres?\nAnswer: no\n\nCurrent Question:\n{image#1}{image#2}{image#3}{image#4}{image#5}Are there any moving cubes?<image> <image> <image> <image> <image> ",
+        "gt_response": "no",
+        "gen_kwargs": {
+            "do_sample": false,
+            "num_beams": 1,
+            "max_new_tokens": 32,
+            "eos_token_id": 0
+        },
+        "pred_response": "The video depicts a sequence of events involving various objects, primarily focusing on the movement and interaction of cylinders and a sphere. Here is a detailed description of"
+    },
+    {
+        "sample_id": 84,
+        "question": "Example Question 1:\n<image> <image> <image> <image> <image> {image#1}{image#2}{image#3}{image#4}{image#5}Are there any stationary cubes?\nAnswer: no\n\nCurrent Question:\n{image#1}{image#2}{image#3}{image#4}{image#5}Are there any yellow spheres that enter the scene?<image> <image> <image> <image> <image> ",
+        "gt_response": "no",
+        "gen_kwargs": {
+            "do_sample": false,
+            "num_beams": 1,
+            "max_new_tokens": 32,
+            "eos_token_id": 0
+        },
+        "pred_response": "The video presents a sequence of images featuring various objects in motion on a plain surface. Here is a detailed description of the sequence:\n\n1. **First Image**"
+    },
+    {
+        "sample_id": 85,
+        "question": "Example Question 1:\n<image> <image> <image> <image> <image> {image#1}{image#2}{image#3}{image#4}{image#5}Are there any metal objects that enter the scene?\nAnswer: no\n\nCurrent Question:\n{image#1}{image#2}{image#3}{image#4}{image#5}Are there any stationary cylinders?<image> <image> <image> <image> <image> ",
+        "gt_response": "no",
+        "gen_kwargs": {
+            "do_sample": false,
+            "num_beams": 1,
+            "max_new_tokens": 32,
+            "eos_token_id": 0
+        },
+        "pred_response": "The video depicts a sequence of events involving various objects on a flat surface. Initially, there are five objects: a blue sphere, a yellow sphere, a"
+    },
+    {
+        "sample_id": 86,
+        "question": "Example Question 1:\n<image> <image> <image> <image> <image> {image#1}{image#2}{image#3}{image#4}{image#5}Are there any stationary brown objects?\nAnswer: yes\n\nCurrent Question:\n{image#1}{image#2}{image#3}{image#4}{image#5}Are there any stationary red objects when the video ends?<image> <image> <image> <image> <image> ",
+        "gt_response": "no",
+        "gen_kwargs": {
+            "do_sample": false,
+            "num_beams": 1,
+            "max_new_tokens": 32,
+            "eos_token_id": 0
+        },
+        "pred_response": "The video presents a sequence of images featuring various objects in a 3D space. The objects include spheres, cubes, and cylinders, with colors such"
+    },
+    {
+        "sample_id": 87,
+        "question": "Example Question 1:\n<image> <image> <image> <image> <image> {image#1}{image#2}{image#3}{image#4}{image#5}Are there any moving gray objects when the video begins?\nAnswer: no\n\nCurrent Question:\n{image#1}{image#2}{image#3}{image#4}{image#5}Are there any metal cubes that enter the scene?<image> <image> <image> <image> <image> ",
+        "gt_response": "no",
+        "gen_kwargs": {
+            "do_sample": false,
+            "num_beams": 1,
+            "max_new_tokens": 32,
+            "eos_token_id": 0
+        },
+        "pred_response": "The video presents a sequence of images featuring various objects in motion. Here's a detailed description of the video content:\n\n1. **Image 1**: The"
+    },
+    {
+        "sample_id": 88,
+        "question": "Example Question 1:\n<image> <image> <image> <image> <image> {image#1}{image#2}{image#3}{image#4}{image#5}Are there any moving red objects when the video ends?\nAnswer: yes\n\nCurrent Question:\n{image#1}{image#2}{image#3}{image#4}{image#5}Are there any yellow cylinders that exit the scene?<image> <image> <image> <image> <image> ",
+        "gt_response": "yes",
+        "gen_kwargs": {
+            "do_sample": false,
+            "num_beams": 1,
+            "max_new_tokens": 32,
+            "eos_token_id": 0
+        },
+        "pred_response": "The video depicts a sequence of events involving various objects in motion. Initially, we see a yellow sphere, a green sphere, a purple sphere, and a"
+    },
+    {
+        "sample_id": 89,
+        "question": "Example Question 1:\n<image> <image> <image> <image> <image> {image#1}{image#2}{image#3}{image#4}{image#5}Are there any moving red objects when the video ends?\nAnswer: no\n\nCurrent Question:\n{image#1}{image#2}{image#3}{image#4}{image#5}Are there any gray objects that enter the scene?<image> <image> <image> <image> <image> ",
+        "gt_response": "yes",
+        "gen_kwargs": {
+            "do_sample": false,
+            "num_beams": 1,
+            "max_new_tokens": 32,
+            "eos_token_id": 0
+        },
+        "pred_response": "The video depicts a sequence of events involving various objects in a 3D space. Initially, we see a gray sphere, a purple cylinder, and a"
+    },
+    {
+        "sample_id": 90,
+        "question": "Example Question 1:\n<image> <image> <image> <image> <image> {image#1}{image#2}{image#3}{image#4}{image#5}Are there any stationary brown objects when the video begins?\nAnswer: yes\n\nCurrent Question:\n{image#1}{image#2}{image#3}{image#4}{image#5}Are there any gray cubes that enter the scene?<image> <image> <image> <image> <image> ",
+        "gt_response": "yes",
+        "gen_kwargs": {
+            "do_sample": false,
+            "num_beams": 1,
+            "max_new_tokens": 32,
+            "eos_token_id": 0
+        },
+        "pred_response": "The video begins with a scene featuring three objects: a brown cylinder, a blue cylinder, and a gray sphere. The brown cylinder is positioned on the left side"
+    },
+    {
+        "sample_id": 91,
+        "question": "Example Question 1:\n<image> <image> <image> <image> <image> {image#1}{image#2}{image#3}{image#4}{image#5}Are there any stationary red objects?\nAnswer: yes\n\nCurrent Question:\n{image#1}{image#2}{image#3}{image#4}{image#5}Are there any stationary objects when the video ends?<image> <image> <image> <image> <image> ",
+        "gt_response": "no",
+        "gen_kwargs": {
+            "do_sample": false,
+            "num_beams": 1,
+            "max_new_tokens": 32,
+            "eos_token_id": 0
+        },
+        "pred_response": "The video begins with a scene featuring a red sphere, a red cube, a blue cube, a blue cylinder, and a red sphere. The red sphere is"
+    },
+    {
+        "sample_id": 92,
+        "question": "Example Question 1:\n<image> <image> <image> <image> <image> {image#1}{image#2}{image#3}{image#4}{image#5}Are there any moving gray objects?\nAnswer: yes\n\nCurrent Question:\n{image#1}{image#2}{image#3}{image#4}{image#5}Are there any blue cubes that exit the scene?<image> <image> <image> <image> <image> ",
+        "gt_response": "yes",
+        "gen_kwargs": {
+            "do_sample": false,
+            "num_beams": 1,
+            "max_new_tokens": 32,
+            "eos_token_id": 0
+        },
+        "pred_response": "The image shows a sequence of scenes with various objects. In the first scene, there are three objects: a green sphere, a blue cube, and a gray"
+    },
+    {
+        "sample_id": 93,
+        "question": "Example Question 1:\n<image> <image> <image> <image> <image> {image#1}{image#2}{image#3}{image#4}{image#5}Are there any moving cylinders?\nAnswer: yes\n\nCurrent Question:\n{image#1}{image#2}{image#3}{image#4}{image#5}Are there any gray objects that enter the scene?<image> <image> <image> <image> <image> ",
+        "gt_response": "yes",
+        "gen_kwargs": {
+            "do_sample": false,
+            "num_beams": 1,
+            "max_new_tokens": 32,
+            "eos_token_id": 0
+        },
+        "pred_response": "The video presents a sequence of images featuring various objects in motion. Here is a detailed description of the video content:\n\n1. **Image 1**: The"
+    },
+    {
+        "sample_id": 94,
+        "question": "Example Question 1:\n<image> <image> <image> <image> <image> {image#1}{image#2}{image#3}{image#4}{image#5}Are there collisions?\nAnswer: yes\n\nCurrent Question:\n{image#1}{image#2}{image#3}{image#4}{image#5}Are there any objects that enter the scene?<image> <image> <image> <image> <image> ",
+        "gt_response": "no",
+        "gen_kwargs": {
+            "do_sample": false,
+            "num_beams": 1,
+            "max_new_tokens": 32,
+            "eos_token_id": 0
+        },
+        "pred_response": "The video depicts a sequence of events involving various objects in a 3D space. Initially, we see a green sphere, a red sphere, a yellow"
+    },
+    {
+        "sample_id": 95,
+        "question": "Example Question 1:\n<image> <image> <image> <image> <image> {image#1}{image#2}{image#3}{image#4}{image#5}Are there any moving gray objects?\nAnswer: yes\n\nCurrent Question:\n{image#1}{image#2}{image#3}{image#4}{image#5}Are there any moving purple objects when the video begins?<image> <image> <image> <image> <image> ",
+        "gt_response": "yes",
+        "gen_kwargs": {
+            "do_sample": false,
+            "num_beams": 1,
+            "max_new_tokens": 32,
+            "eos_token_id": 0
+        },
+        "pred_response": "The video begins with a scene featuring a yellow cube and a gray cylinder on a plain surface. The yellow cube is positioned above the gray cylinder, and both objects"
+    },
+    {
+        "sample_id": 96,
+        "question": "Example Question 1:\n<image> <image> <image> <image> <image> {image#1}{image#2}{image#3}{image#4}{image#5}Are there any moving green objects?\nAnswer: yes\n\nCurrent Question:\n{image#1}{image#2}{image#3}{image#4}{image#5}Are there any green objects that enter the scene?<image> <image> <image> <image> <image> ",
+        "gt_response": "yes",
+        "gen_kwargs": {
+            "do_sample": false,
+            "num_beams": 1,
+            "max_new_tokens": 32,
+            "eos_token_id": 0
+        },
+        "pred_response": "The video depicts a sequence of events involving various objects in a 3D space. Initially, we see a purple cube, a brown cube, and a"
+    },
+    {
+        "sample_id": 97,
+        "question": "Example Question 1:\n<image> <image> <image> <image> <image> {image#1}{image#2}{image#3}{image#4}{image#5}Are there any stationary metal objects when the video begins?\nAnswer: no\n\nCurrent Question:\n{image#1}{image#2}{image#3}{image#4}{image#5}Are there any stationary cylinders?<image> <image> <image> <image> <image> ",
+        "gt_response": "yes",
+        "gen_kwargs": {
+            "do_sample": false,
+            "num_beams": 1,
+            "max_new_tokens": 32,
+            "eos_token_id": 0
+        },
+        "pred_response": "The video depicts a sequence of interactions between various objects in a 3D space. Initially, we see a yellow cylinder, a blue cylinder, and a"
+    },
+    {
+        "sample_id": 98,
+        "question": "Example Question 1:\n<image> <image> <image> <image> <image> {image#1}{image#2}{image#3}{image#4}{image#5}Are there any cubes that exit the scene?\nAnswer: no\n\nCurrent Question:\n{image#1}{image#2}{image#3}{image#4}{image#5}Are there any moving metal objects when the video ends?<image> <image> <image> <image> <image> ",
+        "gt_response": "yes",
+        "gen_kwargs": {
+            "do_sample": false,
+            "num_beams": 1,
+            "max_new_tokens": 32,
+            "eos_token_id": 0
+        },
+        "pred_response": "The video depicts a sequence of events involving various objects in motion. Initially, a green sphere and a brown cube are present. As the video progresses,"
+    },
+    {
+        "sample_id": 99,
+        "question": "Example Question 1:\n<image> <image> <image> <image> <image> {image#1}{image#2}{image#3}{image#4}{image#5}Are there any stationary spheres?\nAnswer: no\n\nCurrent Question:\n{image#1}{image#2}{image#3}{image#4}{image#5}Are there any metal objects that enter the scene?<image> <image> <image> <image> <image> ",
+        "gt_response": "yes",
+        "gen_kwargs": {
+            "do_sample": false,
+            "num_beams": 1,
+            "max_new_tokens": 32,
+            "eos_token_id": 0
+        },
+        "pred_response": "The video presents a sequence of images featuring various objects in different arrangements. Here's a detailed description of each image:\n\n1. **Image 1**: The"
+    },
+    {
+        "sample_id": 100,
+        "question": "Example Question 1:\n<image> <image> <image> <image> <image> {image#1}{image#2}{image#3}{image#4}{image#5}Are there any moving blue objects?\nAnswer: yes\n\nCurrent Question:\n{image#1}{image#2}{image#3}{image#4}{image#5}Are there any cylinders that enter the scene?<image> <image> <image> <image> <image> ",
+        "gt_response": "no",
+        "gen_kwargs": {
+            "do_sample": false,
+            "num_beams": 1,
+            "max_new_tokens": 32,
+            "eos_token_id": 0
+        },
+        "pred_response": "The video depicts a sequence of interactions between various objects on a plain surface. Initially, a blue sphere and a green cube are present. As the video progress"
+    },
+    {
+        "sample_id": 101,
+        "question": "Example Question 1:\n<image> <image> <image> <image> <image> {image#1}{image#2}{image#3}{image#4}{image#5}Are there any rubber objects that exit the scene?\nAnswer: no\n\nCurrent Question:\n{image#1}{image#2}{image#3}{image#4}{image#5}Are there any moving rubber objects when the video ends?<image> <image> <image> <image> <image> ",
+        "gt_response": "yes",
+        "gen_kwargs": {
+            "do_sample": false,
+            "num_beams": 1,
+            "max_new_tokens": 32,
+            "eos_token_id": 0
+        },
+        "pred_response": "The video depicts a sequence of interactions between various objects in a 3D space. Initially, we see a blue cylinder, a green sphere, and a"
+    },
+    {
+        "sample_id": 102,
+        "question": "Example Question 1:\n<image> <image> <image> <image> <image> {image#1}{image#2}{image#3}{image#4}{image#5}Are there any stationary brown objects when the video begins?\nAnswer: yes\n\nCurrent Question:\n{image#1}{image#2}{image#3}{image#4}{image#5}Are there any moving yellow objects?<image> <image> <image> <image> <image> ",
+        "gt_response": "yes",
+        "gen_kwargs": {
+            "do_sample": false,
+            "num_beams": 1,
+            "max_new_tokens": 32,
+            "eos_token_id": 0
+        },
+        "pred_response": "The video begins with a scene featuring three objects: a brown cylinder, a blue cylinder, and a gray sphere. The brown cylinder is positioned on the left side"
+    },
+    {
+        "sample_id": 103,
+        "question": "Example Question 1:\n<image> <image> <image> <image> <image> {image#1}{image#2}{image#3}{image#4}{image#5}Are there any rubber spheres that enter the scene?\nAnswer: yes\n\nCurrent Question:\n{image#1}{image#2}{image#3}{image#4}{image#5}Are there any metal objects that exit the scene?<image> <image> <image> <image> <image> ",
+        "gt_response": "yes",
+        "gen_kwargs": {
+            "do_sample": false,
+            "num_beams": 1,
+            "max_new_tokens": 32,
+            "eos_token_id": 0
+        },
+        "pred_response": "The video presents a sequence of images featuring various objects in a 3D space. The objects include cubes, a yellow cylinder, and a gray sphere. The"
+    },
+    {
+        "sample_id": 104,
+        "question": "Example Question 1:\n<image> <image> <image> <image> <image> {image#1}{image#2}{image#3}{image#4}{image#5}Are there any metal objects that enter the scene?\nAnswer: yes\n\nCurrent Question:\n{image#1}{image#2}{image#3}{image#4}{image#5}Are there any rubber cylinders that enter the scene?<image> <image> <image> <image> <image> ",
+        "gt_response": "yes",
+        "gen_kwargs": {
+            "do_sample": false,
+            "num_beams": 1,
+            "max_new_tokens": 32,
+            "eos_token_id": 0
+        },
+        "pred_response": "The image shows a sequence of objects on a plain background. Initially, there is a single brown sphere. As the sequence progresses, two additional objects appear:"
+    },
+    {
+        "sample_id": 105,
+        "question": "Example Question 1:\n<image> <image> <image> <image> <image> {image#1}{image#2}{image#3}{image#4}{image#5}Are there any stationary cubes when the video ends?\nAnswer: yes\n\nCurrent Question:\n{image#1}{image#2}{image#3}{image#4}{image#5}Are there any spheres that enter the scene?<image> <image> <image> <image> <image> ",
+        "gt_response": "no",
+        "gen_kwargs": {
+            "do_sample": false,
+            "num_beams": 1,
+            "max_new_tokens": 32,
+            "eos_token_id": 0
+        },
+        "pred_response": "The video depicts a sequence of interactions between various objects in a 3D space. Initially, we see a purple cylinder, a brown cylinder, a gray"
+    },
+    {
+        "sample_id": 106,
+        "question": "Example Question 1:\n<image> <image> <image> <image> <image> {image#1}{image#2}{image#3}{image#4}{image#5}Are there any metal cubes that enter the scene?\nAnswer: no\n\nCurrent Question:\n{image#1}{image#2}{image#3}{image#4}{image#5}Are there any green spheres that enter the scene?<image> <image> <image> <image> <image> ",
+        "gt_response": "yes",
+        "gen_kwargs": {
+            "do_sample": false,
+            "num_beams": 1,
+            "max_new_tokens": 32,
+            "eos_token_id": 0
+        },
+        "pred_response": "The image shows a collection of objects arranged on a flat surface. There are two cubes, one blue and one purple, positioned near the center of the image."
+    },
+    {
+        "sample_id": 107,
+        "question": "Example Question 1:\n<image> <image> <image> <image> <image> {image#1}{image#2}{image#3}{image#4}{image#5}Are there any moving yellow objects when the video ends?\nAnswer: yes\n\nCurrent Question:\n{image#1}{image#2}{image#3}{image#4}{image#5}Are there any cyan cylinders that enter the scene?<image> <image> <image> <image> <image> ",
+        "gt_response": "yes",
+        "gen_kwargs": {
+            "do_sample": false,
+            "num_beams": 1,
+            "max_new_tokens": 32,
+            "eos_token_id": 0
+        },
+        "pred_response": "The video begins with a scene featuring two objects: a purple cube and a blue cube, both placed on a flat, neutral-colored surface. The purple cube is"
+    },
+    {
+        "sample_id": 108,
+        "question": "Example Question 1:\n<image> <image> <image> <image> <image> {image#1}{image#2}{image#3}{image#4}{image#5}Are there any moving objects when the video begins?\nAnswer: yes\n\nCurrent Question:\n{image#1}{image#2}{image#3}{image#4}{image#5}Are there any stationary metal objects when the video ends?<image> <image> <image> <image> <image> ",
+        "gt_response": "yes",
+        "gen_kwargs": {
+            "do_sample": false,
+            "num_beams": 1,
+            "max_new_tokens": 32,
+            "eos_token_id": 0
+        },
+        "pred_response": "The video begins with a scene featuring three objects: a red sphere, a purple cylinder, and a gray cylinder, all positioned on a flat surface. The red"
+    },
+    {
+        "sample_id": 109,
+        "question": "Example Question 1:\n<image> <image> <image> <image> <image> {image#1}{image#2}{image#3}{image#4}{image#5}Are there any moving brown objects when the video begins?\nAnswer: no\n\nCurrent Question:\n{image#1}{image#2}{image#3}{image#4}{image#5}Are there any moving blue objects?<image> <image> <image> <image> <image> ",
+        "gt_response": "yes",
+        "gen_kwargs": {
+            "do_sample": false,
+            "num_beams": 1,
+            "max_new_tokens": 32,
+            "eos_token_id": 0
+        },
+        "pred_response": "The video depicts a sequence of events involving various objects in motion. Initially, we see a green cylinder, a purple sphere, a yellow sphere, and a"
+    },
+    {
+        "sample_id": 110,
+        "question": "Example Question 1:\n<image> <image> <image> <image> <image> {image#1}{image#2}{image#3}{image#4}{image#5}Are there any moving cubes?\nAnswer: no\n\nCurrent Question:\n{image#1}{image#2}{image#3}{image#4}{image#5}Are there any moving blue objects when the video ends?<image> <image> <image> <image> <image> ",
+        "gt_response": "yes",
+        "gen_kwargs": {
+            "do_sample": false,
+            "num_beams": 1,
+            "max_new_tokens": 32,
+            "eos_token_id": 0
+        },
+        "pred_response": "The video depicts a sequence of interactions between various objects in a 3D space. Initially, a red sphere and a red cylinder are present. The red"
+    },
+    {
+        "sample_id": 111,
+        "question": "Example Question 1:\n<image> <image> <image> <image> <image> {image#1}{image#2}{image#3}{image#4}{image#5}Are there any stationary gray objects when the video begins?\nAnswer: yes\n\nCurrent Question:\n{image#1}{image#2}{image#3}{image#4}{image#5}Are there any moving red objects?<image> <image> <image> <image> <image> ",
+        "gt_response": "no",
+        "gen_kwargs": {
+            "do_sample": false,
+            "num_beams": 1,
+            "max_new_tokens": 32,
+            "eos_token_id": 0
+        },
+        "pred_response": "The video depicts a sequence of events involving various objects in motion. Initially, we see a yellow cylinder, a gray cube, a purple cube, and a"
+    },
+    {
+        "sample_id": 112,
+        "question": "Example Question 1:\n<image> <image> <image> <image> <image> {image#1}{image#2}{image#3}{image#4}{image#5}Are there any spheres that enter the scene?\nAnswer: no\n\nCurrent Question:\n{image#1}{image#2}{image#3}{image#4}{image#5}Are there any spheres that enter the scene?<image> <image> <image> <image> <image> ",
+        "gt_response": "no",
+        "gen_kwargs": {
+            "do_sample": false,
+            "num_beams": 1,
+            "max_new_tokens": 32,
+            "eos_token_id": 0
+        },
+        "pred_response": "The video depicts a sequence of events involving various objects on a flat surface. Initially, there are three objects: a green sphere, a brown cylinder, and"
+    },
+    {
+        "sample_id": 113,
+        "question": "Example Question 1:\n<image> <image> <image> <image> <image> {image#1}{image#2}{image#3}{image#4}{image#5}Are there any objects that enter the scene?\nAnswer: no\n\nCurrent Question:\n{image#1}{image#2}{image#3}{image#4}{image#5}Are there any moving green objects?<image> <image> <image> <image> <image> ",
+        "gt_response": "yes",
+        "gen_kwargs": {
+            "do_sample": false,
+            "num_beams": 1,
+            "max_new_tokens": 32,
+            "eos_token_id": 0
+        },
+        "pred_response": "The sequence of images depicts a series of interactions between various objects in a 3D space. Here's a detailed description of the changes and movements:\n\n1"
+    },
+    {
+        "sample_id": 114,
+        "question": "Example Question 1:\n<image> <image> <image> <image> <image> {image#1}{image#2}{image#3}{image#4}{image#5}Are there any cyan cubes that enter the scene?\nAnswer: yes\n\nCurrent Question:\n{image#1}{image#2}{image#3}{image#4}{image#5}Are there any stationary red objects?<image> <image> <image> <image> <image> ",
+        "gt_response": "yes",
+        "gen_kwargs": {
+            "do_sample": false,
+            "num_beams": 1,
+            "max_new_tokens": 32,
+            "eos_token_id": 0
+        },
+        "pred_response": "The image depicts a scene with various objects, including a yellow rubber sphere, a green rubber sphere, a green cube, a yellow metal cylinder, a blue"
+    },
+    {
+        "sample_id": 115,
+        "question": "Example Question 1:\n<image> <image> <image> <image> <image> {image#1}{image#2}{image#3}{image#4}{image#5}Are there any moving cyan objects?\nAnswer: no\n\nCurrent Question:\n{image#1}{image#2}{image#3}{image#4}{image#5}Are there any spheres that exit the scene?<image> <image> <image> <image> <image> ",
+        "gt_response": "no",
+        "gen_kwargs": {
+            "do_sample": false,
+            "num_beams": 1,
+            "max_new_tokens": 32,
+            "eos_token_id": 0
+        },
+        "pred_response": "The video begins with a scene featuring two green spheres, one matte and one metallic, positioned on a plain surface. The scene transitions to include a yellow"
+    },
+    {
+        "sample_id": 116,
+        "question": "Example Question 1:\n<image> <image> <image> <image> <image> {image#1}{image#2}{image#3}{image#4}{image#5}Are there any stationary red objects when the video ends?\nAnswer: no\n\nCurrent Question:\n{image#1}{image#2}{image#3}{image#4}{image#5}Are there any purple objects that exit the scene?<image> <image> <image> <image> <image> ",
+        "gt_response": "yes",
+        "gen_kwargs": {
+            "do_sample": false,
+            "num_beams": 1,
+            "max_new_tokens": 32,
+            "eos_token_id": 0
+        },
+        "pred_response": "The video presents a sequence of images featuring various objects in motion on a plain surface. Here is a detailed description of the sequence:\n\n1. **Initial Scene**"
+    },
+    {
+        "sample_id": 117,
+        "question": "Example Question 1:\n<image> <image> <image> <image> <image> {image#1}{image#2}{image#3}{image#4}{image#5}Are there any green cubes that enter the scene?\nAnswer: yes\n\nCurrent Question:\n{image#1}{image#2}{image#3}{image#4}{image#5}Are there any stationary spheres when the video begins?<image> <image> <image> <image> <image> ",
+        "gt_response": "yes",
+        "gen_kwargs": {
+            "do_sample": false,
+            "num_beams": 1,
+            "max_new_tokens": 32,
+            "eos_token_id": 0
+        },
+        "pred_response": "The video begins with a scene featuring a yellow rubber sphere, a yellow rubber cylinder, and a cyan rubber cube. The yellow sphere is positioned to the left,"
+    },
+    {
+        "sample_id": 118,
+        "question": "Example Question 1:\n<image> <image> <image> <image> <image> {image#1}{image#2}{image#3}{image#4}{image#5}Are there any metal objects that enter the scene?\nAnswer: yes\n\nCurrent Question:\n{image#1}{image#2}{image#3}{image#4}{image#5}Are there any moving brown objects?<image> <image> <image> <image> <image> ",
+        "gt_response": "no",
+        "gen_kwargs": {
+            "do_sample": false,
+            "num_beams": 1,
+            "max_new_tokens": 32,
+            "eos_token_id": 0
+        },
+        "pred_response": "The image shows a sequence of objects in motion. Initially, there is a single cyan sphere and a yellow cylinder. As the sequence progresses, a blue sphere"
+    },
+    {
+        "sample_id": 119,
+        "question": "Example Question 1:\n<image> <image> <image> <image> <image> {image#1}{image#2}{image#3}{image#4}{image#5}Are there any stationary spheres?\nAnswer: yes\n\nCurrent Question:\n{image#1}{image#2}{image#3}{image#4}{image#5}Are there any moving cylinders when the video begins?<image> <image> <image> <image> <image> ",
+        "gt_response": "yes",
+        "gen_kwargs": {
+            "do_sample": false,
+            "num_beams": 1,
+            "max_new_tokens": 32,
+            "eos_token_id": 0
+        },
+        "pred_response": "The video presents a sequence of images featuring various objects in motion on a flat surface. The objects include spheres, cubes, and cylinders, with some being"
+    },
+    {
+        "sample_id": 120,
+        "question": "Example Question 1:\n<image> <image> <image> <image> <image> {image#1}{image#2}{image#3}{image#4}{image#5}Are there any stationary red objects?\nAnswer: yes\n\nCurrent Question:\n{image#1}{image#2}{image#3}{image#4}{image#5}Are there any red objects that enter the scene?<image> <image> <image> <image> <image> ",
+        "gt_response": "yes",
+        "gen_kwargs": {
+            "do_sample": false,
+            "num_beams": 1,
+            "max_new_tokens": 32,
+            "eos_token_id": 0
+        },
+        "pred_response": "The image depicts a scene with various objects, including red and blue cubes, red and blue spheres, and cylindrical objects in different colors. The"
+    },
+    {
+        "sample_id": 121,
+        "question": "Example Question 1:\n<image> <image> <image> <image> <image> {image#1}{image#2}{image#3}{image#4}{image#5}Are there any stationary cyan objects when the video ends?\nAnswer: yes\n\nCurrent Question:\n{image#1}{image#2}{image#3}{image#4}{image#5}Are there any gray cubes that enter the scene?<image> <image> <image> <image> <image> ",
+        "gt_response": "yes",
+        "gen_kwargs": {
+            "do_sample": false,
+            "num_beams": 1,
+            "max_new_tokens": 32,
+            "eos_token_id": 0
+        },
+        "pred_response": "The video begins with a scene featuring four objects: a purple cube, a yellow cylinder, a brown cylinder, and a cyan cylinder. The purple cube is positioned"
+    },
+    {
+        "sample_id": 122,
+        "question": "Example Question 1:\n<image> <image> <image> <image> <image> {image#1}{image#2}{image#3}{image#4}{image#5}Are there any stationary cubes?\nAnswer: no\n\nCurrent Question:\n{image#1}{image#2}{image#3}{image#4}{image#5}Are there any stationary metal objects when the video begins?<image> <image> <image> <image> <image> ",
+        "gt_response": "no",
+        "gen_kwargs": {
+            "do_sample": false,
+            "num_beams": 1,
+            "max_new_tokens": 32,
+            "eos_token_id": 0
+        },
+        "pred_response": "The video begins with a scene featuring three objects: a red cylinder, a brown cube, and a gray cube. The red cylinder is positioned on the left side"
+    },
+    {
+        "sample_id": 123,
+        "question": "Example Question 1:\n<image> <image> <image> <image> <image> {image#1}{image#2}{image#3}{image#4}{image#5}Are there any rubber spheres that enter the scene?\nAnswer: yes\n\nCurrent Question:\n{image#1}{image#2}{image#3}{image#4}{image#5}Are there any stationary purple objects?<image> <image> <image> <image> <image> ",
+        "gt_response": "no",
+        "gen_kwargs": {
+            "do_sample": false,
+            "num_beams": 1,
+            "max_new_tokens": 32,
+            "eos_token_id": 0
+        },
+        "pred_response": "The video presents a sequence of images featuring various objects in motion. Here's a detailed description of the video content:\n\n1. **Image 1**: The"
+    },
+    {
+        "sample_id": 124,
+        "question": "Example Question 1:\n<image> <image> <image> <image> <image> {image#1}{image#2}{image#3}{image#4}{image#5}Are there any objects that enter the scene?\nAnswer: no\n\nCurrent Question:\n{image#1}{image#2}{image#3}{image#4}{image#5}Are there any metal objects that enter the scene?<image> <image> <image> <image> <image> ",
+        "gt_response": "yes",
+        "gen_kwargs": {
+            "do_sample": false,
+            "num_beams": 1,
+            "max_new_tokens": 32,
+            "eos_token_id": 0
+        },
+        "pred_response": "The video depicts a sequence of events involving various objects in a 3D space. Initially, we see a scene with a purple cylinder, a cyan sphere"
+    },
+    {
+        "sample_id": 125,
+        "question": "Example Question 1:\n<image> <image> <image> <image> <image> {image#1}{image#2}{image#3}{image#4}{image#5}Are there any metal spheres that exit the scene?\nAnswer: no\n\nCurrent Question:\n{image#1}{image#2}{image#3}{image#4}{image#5}Are there any cyan spheres that enter the scene?<image> <image> <image> <image> <image> ",
+        "gt_response": "no",
+        "gen_kwargs": {
+            "do_sample": false,
+            "num_beams": 1,
+            "max_new_tokens": 32,
+            "eos_token_id": 0
+        },
+        "pred_response": "The video depicts a sequence of events involving various objects in a 3D space. Initially, we see a purple sphere, a yellow sphere, a yellow"
+    },
+    {
+        "sample_id": 126,
+        "question": "Example Question 1:\n<image> <image> <image> <image> <image> {image#1}{image#2}{image#3}{image#4}{image#5}Are there any blue objects that enter the scene?\nAnswer: yes\n\nCurrent Question:\n{image#1}{image#2}{image#3}{image#4}{image#5}Are there any yellow objects that enter the scene?<image> <image> <image> <image> <image> ",
+        "gt_response": "yes",
+        "gen_kwargs": {
+            "do_sample": false,
+            "num_beams": 1,
+            "max_new_tokens": 32,
+            "eos_token_id": 0
+        },
+        "pred_response": "The video depicts a sequence of events involving various objects in a three-dimensional space. Initially, we see a purple sphere, a blue sphere, a gray cube"
+    },
+    {
+        "sample_id": 127,
+        "question": "Example Question 1:\n<image> <image> <image> <image> <image> {image#1}{image#2}{image#3}{image#4}{image#5}Are there any moving spheres when the video begins?\nAnswer: yes\n\nCurrent Question:\n{image#1}{image#2}{image#3}{image#4}{image#5}Are there any stationary cylinders when the video ends?<image> <image> <image> <image> <image> ",
+        "gt_response": "yes",
+        "gen_kwargs": {
+            "do_sample": false,
+            "num_beams": 1,
+            "max_new_tokens": 32,
+            "eos_token_id": 0
+        },
+        "pred_response": "The video begins with a scene featuring four objects: a gray rubber cylinder, a purple metal cylinder, a green metal sphere, and a cyan metal cylinder. The"
+    },
+    {
+        "sample_id": 128,
+        "question": "Example Question 1:\n<image> <image> <image> <image> <image> {image#1}{image#2}{image#3}{image#4}{image#5}Are there any stationary brown objects?\nAnswer: yes\n\nCurrent Question:\n{image#1}{image#2}{image#3}{image#4}{image#5}Are there any objects that enter the scene?<image> <image> <image> <image> <image> ",
+        "gt_response": "yes",
+        "gen_kwargs": {
+            "do_sample": false,
+            "num_beams": 1,
+            "max_new_tokens": 32,
+            "eos_token_id": 0
+        },
+        "pred_response": "The image shows a collection of objects on a flat surface. There are two purple spheres, one cube, and two brown cylinders. The objects are arranged"
+    },
+    {
+        "sample_id": 129,
+        "question": "Example Question 1:\n<image> <image> <image> <image> <image> {image#1}{image#2}{image#3}{image#4}{image#5}Are there any spheres that exit the scene?\nAnswer: no\n\nCurrent Question:\n{image#1}{image#2}{image#3}{image#4}{image#5}Are there any cubes that exit the scene?<image> <image> <image> <image> <image> ",
+        "gt_response": "no",
+        "gen_kwargs": {
+            "do_sample": false,
+            "num_beams": 1,
+            "max_new_tokens": 32,
+            "eos_token_id": 0
+        },
+        "pred_response": "The image shows a scene with various objects. There are two green cylinders, one purple cube, and a green cube. The objects are arranged on a flat"
+    },
+    {
+        "sample_id": 130,
+        "question": "Example Question 1:\n<image> <image> <image> <image> <image> {image#1}{image#2}{image#3}{image#4}{image#5}Are there any blue objects that enter the scene?\nAnswer: no\n\nCurrent Question:\n{image#1}{image#2}{image#3}{image#4}{image#5}Are there any brown cylinders that enter the scene?<image> <image> <image> <image> <image> ",
+        "gt_response": "no",
+        "gen_kwargs": {
+            "do_sample": false,
+            "num_beams": 1,
+            "max_new_tokens": 32,
+            "eos_token_id": 0
+        },
+        "pred_response": "The video presents a sequence of images featuring a variety of objects, including spheres, cubes, and cylinders, in different arrangements and colors. Here is a"
+    },
+    {
+        "sample_id": 131,
+        "question": "Example Question 1:\n<image> <image> <image> <image> <image> {image#1}{image#2}{image#3}{image#4}{image#5}Are there any green spheres that enter the scene?\nAnswer: yes\n\nCurrent Question:\n{image#1}{image#2}{image#3}{image#4}{image#5}Are there any moving brown objects when the video ends?<image> <image> <image> <image> <image> ",
+        "gt_response": "yes",
+        "gen_kwargs": {
+            "do_sample": false,
+            "num_beams": 1,
+            "max_new_tokens": 32,
+            "eos_token_id": 0
+        },
+        "pred_response": "The video presents a sequence of images featuring various objects in motion. Here is a detailed description of the video content:\n\n1. **Image 1**: The"
+    },
+    {
+        "sample_id": 132,
+        "question": "Example Question 1:\n<image> <image> <image> <image> <image> {image#1}{image#2}{image#3}{image#4}{image#5}Are there any moving brown objects?\nAnswer: yes\n\nCurrent Question:\n{image#1}{image#2}{image#3}{image#4}{image#5}Are there any moving brown objects?<image> <image> <image> <image> <image> ",
+        "gt_response": "no",
+        "gen_kwargs": {
+            "do_sample": false,
+            "num_beams": 1,
+            "max_new_tokens": 32,
+            "eos_token_id": 0
+        },
+        "pred_response": "The video depicts a sequence of interactions between various objects on a flat surface. Initially, a brown cylinder and a blue-green cube are present. As the video"
+    },
+    {
+        "sample_id": 133,
+        "question": "Example Question 1:\n<image> <image> <image> <image> <image> {image#1}{image#2}{image#3}{image#4}{image#5}Are there any red objects that enter the scene?\nAnswer: yes\n\nCurrent Question:\n{image#1}{image#2}{image#3}{image#4}{image#5}Are there any gray cubes that enter the scene?<image> <image> <image> <image> <image> ",
+        "gt_response": "no",
+        "gen_kwargs": {
+            "do_sample": false,
+            "num_beams": 1,
+            "max_new_tokens": 32,
+            "eos_token_id": 0
+        },
+        "pred_response": "The image shows a sequence of objects on a plain surface. Initially, there is a red rubber cylinder and a gold sphere. In the next frame, the red"
+    },
+    {
+        "sample_id": 134,
+        "question": "Example Question 1:\n<image> <image> <image> <image> <image> {image#1}{image#2}{image#3}{image#4}{image#5}Are there any rubber spheres that exit the scene?\nAnswer: yes\n\nCurrent Question:\n{image#1}{image#2}{image#3}{image#4}{image#5}Are there any moving yellow objects?<image> <image> <image> <image> <image> ",
+        "gt_response": "yes",
+        "gen_kwargs": {
+            "do_sample": false,
+            "num_beams": 1,
+            "max_new_tokens": 32,
+            "eos_token_id": 0
+        },
+        "pred_response": "The video depicts a sequence of events involving various objects in a 3D space. Initially, we see a green cube, a blue cube, a blue"
+    },
+    {
+        "sample_id": 135,
+        "question": "Example Question 1:\n<image> <image> <image> <image> <image> {image#1}{image#2}{image#3}{image#4}{image#5}Are there any objects that enter the scene?\nAnswer: no\n\nCurrent Question:\n{image#1}{image#2}{image#3}{image#4}{image#5}Are there any moving rubber objects?<image> <image> <image> <image> <image> ",
+        "gt_response": "yes",
+        "gen_kwargs": {
+            "do_sample": false,
+            "num_beams": 1,
+            "max_new_tokens": 32,
+            "eos_token_id": 0
+        },
+        "pred_response": "The video presents a sequence of images featuring various objects in motion. Here's a detailed description of the video content:\n\n1. **Image 1**: The"
+    },
+    {
+        "sample_id": 136,
+        "question": "Example Question 1:\n<image> <image> <image> <image> <image> {image#1}{image#2}{image#3}{image#4}{image#5}Are there any gray objects that enter the scene?\nAnswer: yes\n\nCurrent Question:\n{image#1}{image#2}{image#3}{image#4}{image#5}Are there any stationary red objects?<image> <image> <image> <image> <image> ",
+        "gt_response": "no",
+        "gen_kwargs": {
+            "do_sample": false,
+            "num_beams": 1,
+            "max_new_tokens": 32,
+            "eos_token_id": 0
+        },
+        "pred_response": "The video presents a sequence of images featuring various objects in motion. Here is a detailed description of the video content:\n\n1. **Image 1**: The"
+    },
+    {
+        "sample_id": 137,
+        "question": "Example Question 1:\n<image> <image> <image> <image> <image> {image#1}{image#2}{image#3}{image#4}{image#5}Are there any rubber objects that enter the scene?\nAnswer: no\n\nCurrent Question:\n{image#1}{image#2}{image#3}{image#4}{image#5}Are there any cylinders that enter the scene?<image> <image> <image> <image> <image> ",
+        "gt_response": "yes",
+        "gen_kwargs": {
+            "do_sample": false,
+            "num_beams": 1,
+            "max_new_tokens": 32,
+            "eos_token_id": 0
+        },
+        "pred_response": "The video depicts a sequence of events involving various objects on a plain surface. Initially, there are two rubber spheres, one brown and one gray, positioned"
+    },
+    {
+        "sample_id": 138,
+        "question": "Example Question 1:\n<image> <image> <image> <image> <image> {image#1}{image#2}{image#3}{image#4}{image#5}Are there any rubber spheres that exit the scene?\nAnswer: yes\n\nCurrent Question:\n{image#1}{image#2}{image#3}{image#4}{image#5}Are there any moving yellow objects when the video begins?<image> <image> <image> <image> <image> ",
+        "gt_response": "yes",
+        "gen_kwargs": {
+            "do_sample": false,
+            "num_beams": 1,
+            "max_new_tokens": 32,
+            "eos_token_id": 0
+        },
+        "pred_response": "The video begins with a scene featuring a variety of objects, including a gray metal sphere, a gray metal cube, a yellow rubber cube, a brown rubber sphere"
+    },
+    {
+        "sample_id": 139,
+        "question": "Example Question 1:\n<image> <image> <image> <image> <image> {image#1}{image#2}{image#3}{image#4}{image#5}Are there any stationary brown objects when the video begins?\nAnswer: no\n\nCurrent Question:\n{image#1}{image#2}{image#3}{image#4}{image#5}Are there any cyan cubes that enter the scene?<image> <image> <image> <image> <image> ",
+        "gt_response": "yes",
+        "gen_kwargs": {
+            "do_sample": false,
+            "num_beams": 1,
+            "max_new_tokens": 32,
+            "eos_token_id": 0
+        },
+        "pred_response": "The video begins with a green cube positioned on the right side of the frame. As the video progresses, the green cube moves slightly to the left, and"
+    },
+    {
+        "sample_id": 140,
+        "question": "Example Question 1:\n<image> <image> <image> <image> <image> {image#1}{image#2}{image#3}{image#4}{image#5}Are there any green objects that exit the scene?\nAnswer: yes\n\nCurrent Question:\n{image#1}{image#2}{image#3}{image#4}{image#5}Are there any blue objects that enter the scene?<image> <image> <image> <image> <image> ",
+        "gt_response": "yes",
+        "gen_kwargs": {
+            "do_sample": false,
+            "num_beams": 1,
+            "max_new_tokens": 32,
+            "eos_token_id": 0
+        },
+        "pred_response": "The image depicts a scene with various objects arranged on a flat surface. The objects include a green cylinder, a yellow cube, a gray sphere, a green"
+    },
+    {
+        "sample_id": 141,
+        "question": "Example Question 1:\n<image> <image> <image> <image> <image> {image#1}{image#2}{image#3}{image#4}{image#5}Are there any brown objects that enter the scene?\nAnswer: no\n\nCurrent Question:\n{image#1}{image#2}{image#3}{image#4}{image#5}Are there any stationary cubes when the video ends?<image> <image> <image> <image> <image> ",
+        "gt_response": "yes",
+        "gen_kwargs": {
+            "do_sample": false,
+            "num_beams": 1,
+            "max_new_tokens": 32,
+            "eos_token_id": 0
+        },
+        "pred_response": "The video depicts a sequence of events involving various objects in a 3D space. Initially, we see a brown cube, a gray cylinder, and a"
+    },
+    {
+        "sample_id": 142,
+        "question": "Example Question 1:\n<image> <image> <image> <image> <image> {image#1}{image#2}{image#3}{image#4}{image#5}Are there any stationary cubes?\nAnswer: no\n\nCurrent Question:\n{image#1}{image#2}{image#3}{image#4}{image#5}Are there any stationary cyan objects when the video ends?<image> <image> <image> <image> <image> ",
+        "gt_response": "no",
+        "gen_kwargs": {
+            "do_sample": false,
+            "num_beams": 1,
+            "max_new_tokens": 32,
+            "eos_token_id": 0
+        },
+        "pred_response": "The video presents a sequence of images featuring various objects in motion. Here's a detailed description of the video content:\n\n1. **Image 1**: The"
+    },
+    {
+        "sample_id": 143,
+        "question": "Example Question 1:\n<image> <image> <image> <image> <image> {image#1}{image#2}{image#3}{image#4}{image#5}Are there any stationary spheres?\nAnswer: yes\n\nCurrent Question:\n{image#1}{image#2}{image#3}{image#4}{image#5}Are there any metal cylinders that enter the scene?<image> <image> <image> <image> <image> ",
+        "gt_response": "no",
+        "gen_kwargs": {
+            "do_sample": false,
+            "num_beams": 1,
+            "max_new_tokens": 32,
+            "eos_token_id": 0
+        },
+        "pred_response": "The image depicts a scene with various objects arranged on a flat surface. The objects include a purple sphere, a gray sphere, a red cube, a red"
+    },
+    {
+        "sample_id": 144,
+        "question": "Example Question 1:\n<image> <image> <image> <image> <image> {image#1}{image#2}{image#3}{image#4}{image#5}Are there any moving cubes?\nAnswer: no\n\nCurrent Question:\n{image#1}{image#2}{image#3}{image#4}{image#5}Are there any metal objects that enter the scene?<image> <image> <image> <image> <image> ",
+        "gt_response": "no",
+        "gen_kwargs": {
+            "do_sample": false,
+            "num_beams": 1,
+            "max_new_tokens": 32,
+            "eos_token_id": 0
+        },
+        "pred_response": "The video presents a sequence of images featuring various objects in motion. Here's a detailed description of the video content:\n\n1. **Image 1**: The"
+    },
+    {
+        "sample_id": 145,
+        "question": "Example Question 1:\n<image> <image> <image> <image> <image> {image#1}{image#2}{image#3}{image#4}{image#5}Are there any rubber cubes that enter the scene?\nAnswer: yes\n\nCurrent Question:\n{image#1}{image#2}{image#3}{image#4}{image#5}Are there any moving gray objects when the video begins?<image> <image> <image> <image> <image> ",
+        "gt_response": "no",
+        "gen_kwargs": {
+            "do_sample": false,
+            "num_beams": 1,
+            "max_new_tokens": 32,
+            "eos_token_id": 0
+        },
+        "pred_response": "The video presents a sequence of images featuring various objects in motion. Here's a detailed description of the video content:\n\n1. **Image 1**: The"
+    },
+    {
+        "sample_id": 146,
+        "question": "Example Question 1:\n<image> <image> <image> <image> <image> {image#1}{image#2}{image#3}{image#4}{image#5}Are there any yellow spheres that enter the scene?\nAnswer: yes\n\nCurrent Question:\n{image#1}{image#2}{image#3}{image#4}{image#5}Are there any moving red objects when the video ends?<image> <image> <image> <image> <image> ",
+        "gt_response": "no",
+        "gen_kwargs": {
+            "do_sample": false,
+            "num_beams": 1,
+            "max_new_tokens": 32,
+            "eos_token_id": 0
+        },
+        "pred_response": "The video depicts a sequence of events involving various objects in a 3D space. Initially, we see a red cube and a blue cube on a flat"
+    },
+    {
+        "sample_id": 147,
+        "question": "Example Question 1:\n<image> <image> <image> <image> <image> {image#1}{image#2}{image#3}{image#4}{image#5}Are there any moving metal objects?\nAnswer: yes\n\nCurrent Question:\n{image#1}{image#2}{image#3}{image#4}{image#5}Are there any stationary yellow objects when the video ends?<image> <image> <image> <image> <image> ",
+        "gt_response": "no",
+        "gen_kwargs": {
+            "do_sample": false,
+            "num_beams": 1,
+            "max_new_tokens": 32,
+            "eos_token_id": 0
+        },
+        "pred_response": "The video depicts a sequence of events involving various objects in a 3D space. Initially, we see a blue cube, a cyan cylinder, a cyan"
+    },
+    {
+        "sample_id": 148,
+        "question": "Example Question 1:\n<image> <image> <image> <image> <image> {image#1}{image#2}{image#3}{image#4}{image#5}Are there any stationary cylinders when the video ends?\nAnswer: yes\n\nCurrent Question:\n{image#1}{image#2}{image#3}{image#4}{image#5}Are there any stationary cubes?<image> <image> <image> <image> <image> ",
+        "gt_response": "no",
+        "gen_kwargs": {
+            "do_sample": false,
+            "num_beams": 1,
+            "max_new_tokens": 32,
+            "eos_token_id": 0
+        },
+        "pred_response": "The video presents a sequence of images featuring various objects in motion on a plain surface. Here is a detailed description of the sequence:\n\n1. **Initial Scene**"
+    },
+    {
+        "sample_id": 149,
+        "question": "Example Question 1:\n<image> <image> <image> <image> <image> {image#1}{image#2}{image#3}{image#4}{image#5}Are there any yellow spheres that enter the scene?\nAnswer: yes\n\nCurrent Question:\n{image#1}{image#2}{image#3}{image#4}{image#5}Are there any cyan cubes that enter the scene?<image> <image> <image> <image> <image> ",
+        "gt_response": "no",
+        "gen_kwargs": {
+            "do_sample": false,
+            "num_beams": 1,
+            "max_new_tokens": 32,
+            "eos_token_id": 0
+        },
+        "pred_response": "The video depicts a sequence of events involving various objects in a 3D space. Initially, we see a red cube and a blue cube on a flat"
+    },
+    {
+        "sample_id": 150,
+        "question": "Example Question 1:\n<image> <image> <image> <image> <image> {image#1}{image#2}{image#3}{image#4}{image#5}Are there any moving red objects when the video ends?\nAnswer: no\n\nCurrent Question:\n{image#1}{image#2}{image#3}{image#4}{image#5}Are there any moving rubber objects when the video begins?<image> <image> <image> <image> <image> ",
+        "gt_response": "no",
+        "gen_kwargs": {
+            "do_sample": false,
+            "num_beams": 1,
+            "max_new_tokens": 32,
+            "eos_token_id": 0
+        },
+        "pred_response": "The video begins with a scene featuring a gray sphere, a purple cylinder, and a brown cylinder. The gray sphere is positioned in the center, while the purple"
+    },
+    {
+        "sample_id": 151,
+        "question": "Example Question 1:\n<image> <image> <image> <image> <image> {image#1}{image#2}{image#3}{image#4}{image#5}Are there any stationary cyan objects when the video ends?\nAnswer: no\n\nCurrent Question:\n{image#1}{image#2}{image#3}{image#4}{image#5}Are there any rubber spheres that enter the scene?<image> <image> <image> <image> <image> ",
+        "gt_response": "yes",
+        "gen_kwargs": {
+            "do_sample": false,
+            "num_beams": 1,
+            "max_new_tokens": 32,
+            "eos_token_id": 0
+        },
+        "pred_response": "The video presents a sequence of images featuring various objects in a 3D space. The objects include spheres, cubes, and cylinders, with colors such"
+    },
+    {
+        "sample_id": 152,
+        "question": "Example Question 1:\n<image> <image> <image> <image> <image> {image#1}{image#2}{image#3}{image#4}{image#5}Are there any moving cylinders when the video ends?\nAnswer: yes\n\nCurrent Question:\n{image#1}{image#2}{image#3}{image#4}{image#5}Are there any metal cubes that enter the scene?<image> <image> <image> <image> <image> ",
+        "gt_response": "no",
+        "gen_kwargs": {
+            "do_sample": false,
+            "num_beams": 1,
+            "max_new_tokens": 32,
+            "eos_token_id": 0
+        },
+        "pred_response": "The video begins with a scene featuring two objects: a yellow rubber cylinder and a green metal cylinder. The yellow cylinder is positioned to the left, while the green"
+    },
+    {
+        "sample_id": 153,
+        "question": "Example Question 1:\n<image> <image> <image> <image> <image> {image#1}{image#2}{image#3}{image#4}{image#5}Are there any blue objects that enter the scene?\nAnswer: yes\n\nCurrent Question:\n{image#1}{image#2}{image#3}{image#4}{image#5}Are there any stationary gray objects?<image> <image> <image> <image> <image> ",
+        "gt_response": "yes",
+        "gen_kwargs": {
+            "do_sample": false,
+            "num_beams": 1,
+            "max_new_tokens": 32,
+            "eos_token_id": 0
+        },
+        "pred_response": "The image shows a collection of objects on a flat surface. There are two blue spheres, one red sphere, a gray cube, and a red cube."
+    },
+    {
+        "sample_id": 154,
+        "question": "Example Question 1:\n<image> <image> <image> <image> <image> {image#1}{image#2}{image#3}{image#4}{image#5}Are there any moving brown objects when the video begins?\nAnswer: yes\n\nCurrent Question:\n{image#1}{image#2}{image#3}{image#4}{image#5}Are there any stationary yellow objects when the video begins?<image> <image> <image> <image> <image> ",
+        "gt_response": "no",
+        "gen_kwargs": {
+            "do_sample": false,
+            "num_beams": 1,
+            "max_new_tokens": 32,
+            "eos_token_id": 0
+        },
+        "pred_response": "The video begins with a scene featuring three objects: a green cube, a brown sphere, and a cyan sphere. The green cube is positioned in the upper right"
+    },
+    {
+        "sample_id": 155,
+        "question": "Example Question 1:\n<image> <image> <image> <image> <image> {image#1}{image#2}{image#3}{image#4}{image#5}Are there any cubes that enter the scene?\nAnswer: no\n\nCurrent Question:\n{image#1}{image#2}{image#3}{image#4}{image#5}Are there any stationary gray objects when the video ends?<image> <image> <image> <image> <image> ",
+        "gt_response": "no",
+        "gen_kwargs": {
+            "do_sample": false,
+            "num_beams": 1,
+            "max_new_tokens": 32,
+            "eos_token_id": 0
+        },
+        "pred_response": "The video presents a sequence of images featuring various objects in motion. Here's a detailed description of the video content:\n\n1. **Initial Scene (Image 1"
+    },
+    {
+        "sample_id": 156,
+        "question": "Example Question 1:\n<image> <image> <image> <image> <image> {image#1}{image#2}{image#3}{image#4}{image#5}Are there any rubber cylinders that exit the scene?\nAnswer: yes\n\nCurrent Question:\n{image#1}{image#2}{image#3}{image#4}{image#5}Are there any cyan objects that enter the scene?<image> <image> <image> <image> <image> ",
+        "gt_response": "yes",
+        "gen_kwargs": {
+            "do_sample": false,
+            "num_beams": 1,
+            "max_new_tokens": 32,
+            "eos_token_id": 0
+        },
+        "pred_response": "The video depicts a sequence of events involving various objects in a 3D space. Initially, we see a collection of objects including a blue cube, a"
+    },
+    {
+        "sample_id": 157,
+        "question": "Example Question 1:\n<image> <image> <image> <image> <image> {image#1}{image#2}{image#3}{image#4}{image#5}Are there any moving spheres when the video ends?\nAnswer: yes\n\nCurrent Question:\n{image#1}{image#2}{image#3}{image#4}{image#5}Are there any yellow spheres that enter the scene?<image> <image> <image> <image> <image> ",
+        "gt_response": "yes",
+        "gen_kwargs": {
+            "do_sample": false,
+            "num_beams": 1,
+            "max_new_tokens": 32,
+            "eos_token_id": 0
+        },
+        "pred_response": "The video begins with a scene featuring a blue cube and a purple sphere on a plain background. The blue cube is positioned slightly to the right of the purple sphere"
+    },
+    {
+        "sample_id": 158,
+        "question": "Example Question 1:\n<image> <image> <image> <image> <image> {image#1}{image#2}{image#3}{image#4}{image#5}Are there any metal cubes that enter the scene?\nAnswer: no\n\nCurrent Question:\n{image#1}{image#2}{image#3}{image#4}{image#5}Are there any brown objects that enter the scene?<image> <image> <image> <image> <image> ",
+        "gt_response": "no",
+        "gen_kwargs": {
+            "do_sample": false,
+            "num_beams": 1,
+            "max_new_tokens": 32,
+            "eos_token_id": 0
+        },
+        "pred_response": "The video presents a sequence of images featuring various objects in motion. Here is a detailed description of the content:\n\n1. **Image 1**: The scene"
+    },
+    {
+        "sample_id": 159,
+        "question": "Example Question 1:\n<image> <image> <image> <image> <image> {image#1}{image#2}{image#3}{image#4}{image#5}Are there any stationary green objects?\nAnswer: yes\n\nCurrent Question:\n{image#1}{image#2}{image#3}{image#4}{image#5}Are there any cylinders that enter the scene?<image> <image> <image> <image> <image> ",
+        "gt_response": "no",
+        "gen_kwargs": {
+            "do_sample": false,
+            "num_beams": 1,
+            "max_new_tokens": 32,
+            "eos_token_id": 0
+        },
+        "pred_response": "The image depicts a scene with various objects, including spheres, cubes, and cylinders. The objects are arranged in a somewhat scattered manner, with some"
+    },
+    {
+        "sample_id": 160,
+        "question": "Example Question 1:\n<image> <image> <image> <image> <image> {image#1}{image#2}{image#3}{image#4}{image#5}Are there any rubber cubes that enter the scene?\nAnswer: yes\n\nCurrent Question:\n{image#1}{image#2}{image#3}{image#4}{image#5}Are there any metal cylinders that enter the scene?<image> <image> <image> <image> <image> ",
+        "gt_response": "yes",
+        "gen_kwargs": {
+            "do_sample": false,
+            "num_beams": 1,
+            "max_new_tokens": 32,
+            "eos_token_id": 0
+        },
+        "pred_response": "The image depicts a scene with various objects arranged on a flat surface. There are two blue spheres, one larger and one smaller, positioned near the center"
+    },
+    {
+        "sample_id": 161,
+        "question": "Example Question 1:\n<image> <image> <image> <image> <image> {image#1}{image#2}{image#3}{image#4}{image#5}Are there any cylinders that enter the scene?\nAnswer: no\n\nCurrent Question:\n{image#1}{image#2}{image#3}{image#4}{image#5}Are there any stationary spheres?<image> <image> <image> <image> <image> ",
+        "gt_response": "yes",
+        "gen_kwargs": {
+            "do_sample": false,
+            "num_beams": 1,
+            "max_new_tokens": 32,
+            "eos_token_id": 0
+        },
+        "pred_response": "The video depicts a sequence of events involving various objects in a 3D space. Initially, we see a green sphere, a green cube, a gray"
+    },
+    {
+        "sample_id": 162,
+        "question": "Example Question 1:\n<image> <image> <image> <image> <image> {image#1}{image#2}{image#3}{image#4}{image#5}Are there any green spheres that enter the scene?\nAnswer: no\n\nCurrent Question:\n{image#1}{image#2}{image#3}{image#4}{image#5}Are there any red objects that enter the scene?<image> <image> <image> <image> <image> ",
+        "gt_response": "yes",
+        "gen_kwargs": {
+            "do_sample": false,
+            "num_beams": 1,
+            "max_new_tokens": 32,
+            "eos_token_id": 0
+        },
+        "pred_response": "The image depicts a scene with various objects arranged on a flat surface. The objects include:\n\n1. A green sphere on the left side of the image."
+    },
+    {
+        "sample_id": 163,
+        "question": "Example Question 1:\n<image> <image> <image> <image> <image> {image#1}{image#2}{image#3}{image#4}{image#5}Are there any stationary cylinders when the video ends?\nAnswer: yes\n\nCurrent Question:\n{image#1}{image#2}{image#3}{image#4}{image#5}Are there any blue objects that enter the scene?<image> <image> <image> <image> <image> ",
+        "gt_response": "yes",
+        "gen_kwargs": {
+            "do_sample": false,
+            "num_beams": 1,
+            "max_new_tokens": 32,
+            "eos_token_id": 0
+        },
+        "pred_response": "The video begins with two yellow rubber cylinders and a gray rubber cylinder on a plain surface. A red metal cube and a blue metal sphere are introduced, followed"
+    },
+    {
+        "sample_id": 164,
+        "question": "Example Question 1:\n<image> <image> <image> <image> <image> {image#1}{image#2}{image#3}{image#4}{image#5}Are there any metal cubes that enter the scene?\nAnswer: no\n\nCurrent Question:\n{image#1}{image#2}{image#3}{image#4}{image#5}Are there any stationary spheres?<image> <image> <image> <image> <image> ",
+        "gt_response": "no",
+        "gen_kwargs": {
+            "do_sample": false,
+            "num_beams": 1,
+            "max_new_tokens": 32,
+            "eos_token_id": 0
+        },
+        "pred_response": "The video depicts a sequence of events involving various objects in a 3D space. Initially, we see a blue cube, a blue sphere, a cyan"
+    },
+    {
+        "sample_id": 165,
+        "question": "Example Question 1:\n<image> <image> <image> <image> <image> {image#1}{image#2}{image#3}{image#4}{image#5}Are there any rubber cubes that enter the scene?\nAnswer: yes\n\nCurrent Question:\n{image#1}{image#2}{image#3}{image#4}{image#5}Are there any rubber objects that enter the scene?<image> <image> <image> <image> <image> ",
+        "gt_response": "no",
+        "gen_kwargs": {
+            "do_sample": false,
+            "num_beams": 1,
+            "max_new_tokens": 32,
+            "eos_token_id": 0
+        },
+        "pred_response": "The video depicts a sequence of events involving various objects in a 3D space. Initially, we see a blue cube, a blue sphere, a green"
+    },
+    {
+        "sample_id": 166,
+        "question": "Example Question 1:\n<image> <image> <image> <image> <image> {image#1}{image#2}{image#3}{image#4}{image#5}Are there any metal cubes that enter the scene?\nAnswer: no\n\nCurrent Question:\n{image#1}{image#2}{image#3}{image#4}{image#5}Are there any moving green objects when the video ends?<image> <image> <image> <image> <image> ",
+        "gt_response": "yes",
+        "gen_kwargs": {
+            "do_sample": false,
+            "num_beams": 1,
+            "max_new_tokens": 32,
+            "eos_token_id": 0
+        },
+        "pred_response": "The video begins with a green cube on a plain background. The cube moves to the right, and a blue cylinder appears next to it. The scene transitions to"
+    },
+    {
+        "sample_id": 167,
+        "question": "Example Question 1:\n<image> <image> <image> <image> <image> {image#1}{image#2}{image#3}{image#4}{image#5}Are there any blue objects that enter the scene?\nAnswer: yes\n\nCurrent Question:\n{image#1}{image#2}{image#3}{image#4}{image#5}Are there any moving objects when the video begins?<image> <image> <image> <image> <image> ",
+        "gt_response": "yes",
+        "gen_kwargs": {
+            "do_sample": false,
+            "num_beams": 1,
+            "max_new_tokens": 32,
+            "eos_token_id": 0
+        },
+        "pred_response": "The video begins with a scene featuring three objects: a purple sphere, a gray cube, and a cyan cube. The purple sphere is positioned on the left side"
+    },
+    {
+        "sample_id": 168,
+        "question": "Example Question 1:\n<image> <image> <image> <image> <image> {image#1}{image#2}{image#3}{image#4}{image#5}Are there any brown cubes that exit the scene?\nAnswer: no\n\nCurrent Question:\n{image#1}{image#2}{image#3}{image#4}{image#5}Are there any moving brown objects?<image> <image> <image> <image> <image> ",
+        "gt_response": "yes",
+        "gen_kwargs": {
+            "do_sample": false,
+            "num_beams": 1,
+            "max_new_tokens": 32,
+            "eos_token_id": 0
+        },
+        "pred_response": "The video presents a sequence of images featuring various objects in motion. Here's a detailed description of the video content:\n\n1. **Image 1**: The"
+    },
+    {
+        "sample_id": 169,
+        "question": "Example Question 1:\n<image> <image> <image> <image> <image> {image#1}{image#2}{image#3}{image#4}{image#5}Are there any rubber objects that enter the scene?\nAnswer: no\n\nCurrent Question:\n{image#1}{image#2}{image#3}{image#4}{image#5}Are there any stationary objects?<image> <image> <image> <image> <image> ",
+        "gt_response": "no",
+        "gen_kwargs": {
+            "do_sample": false,
+            "num_beams": 1,
+            "max_new_tokens": 32,
+            "eos_token_id": 0
+        },
+        "pred_response": "The video presents a sequence of images featuring various objects in motion. Here is a detailed description of the video content:\n\n1. **Image 1**: The"
+    },
+    {
+        "sample_id": 170,
+        "question": "Example Question 1:\n<image> <image> <image> <image> <image> {image#1}{image#2}{image#3}{image#4}{image#5}Are there any rubber cylinders that enter the scene?\nAnswer: yes\n\nCurrent Question:\n{image#1}{image#2}{image#3}{image#4}{image#5}Are there any purple spheres that enter the scene?<image> <image> <image> <image> <image> ",
+        "gt_response": "yes",
+        "gen_kwargs": {
+            "do_sample": false,
+            "num_beams": 1,
+            "max_new_tokens": 32,
+            "eos_token_id": 0
+        },
+        "pred_response": "The video depicts a sequence of events involving various objects, including cylinders, a cube, and spheres. Initially, we see a collection of objects on"
+    },
+    {
+        "sample_id": 171,
+        "question": "Example Question 1:\n<image> <image> <image> <image> <image> {image#1}{image#2}{image#3}{image#4}{image#5}Are there any metal cubes that enter the scene?\nAnswer: no\n\nCurrent Question:\n{image#1}{image#2}{image#3}{image#4}{image#5}Are there any rubber cylinders that enter the scene?<image> <image> <image> <image> <image> ",
+        "gt_response": "yes",
+        "gen_kwargs": {
+            "do_sample": false,
+            "num_beams": 1,
+            "max_new_tokens": 32,
+            "eos_token_id": 0
+        },
+        "pred_response": "The image depicts a scene with various objects arranged on a flat surface. There are two blue spheres, one of which is metallic and the other is mat"
+    },
+    {
+        "sample_id": 172,
+        "question": "Example Question 1:\n<image> <image> <image> <image> <image> {image#1}{image#2}{image#3}{image#4}{image#5}Are there any purple spheres that enter the scene?\nAnswer: yes\n\nCurrent Question:\n{image#1}{image#2}{image#3}{image#4}{image#5}Are there any cylinders that enter the scene?<image> <image> <image> <image> <image> ",
+        "gt_response": "yes",
+        "gen_kwargs": {
+            "do_sample": false,
+            "num_beams": 1,
+            "max_new_tokens": 32,
+            "eos_token_id": 0
+        },
+        "pred_response": "The video depicts a sequence of events involving various objects in a 3D space. Initially, we see a yellow sphere, a purple cube, a gray"
+    },
+    {
+        "sample_id": 173,
+        "question": "Example Question 1:\n<image> <image> <image> <image> <image> {image#1}{image#2}{image#3}{image#4}{image#5}Are there any stationary objects when the video ends?\nAnswer: no\n\nCurrent Question:\n{image#1}{image#2}{image#3}{image#4}{image#5}Are there any moving blue objects?<image> <image> <image> <image> <image> ",
+        "gt_response": "yes",
+        "gen_kwargs": {
+            "do_sample": false,
+            "num_beams": 1,
+            "max_new_tokens": 32,
+            "eos_token_id": 0
+        },
+        "pred_response": "The video begins with a scene featuring a red sphere and a yellow cylinder on a plain surface. The red sphere is positioned to the left of the yellow cylinder."
+    },
+    {
+        "sample_id": 174,
+        "question": "Example Question 1:\n<image> <image> <image> <image> <image> {image#1}{image#2}{image#3}{image#4}{image#5}Are there any rubber cubes that enter the scene?\nAnswer: no\n\nCurrent Question:\n{image#1}{image#2}{image#3}{image#4}{image#5}Are there any stationary red objects when the video begins?<image> <image> <image> <image> <image> ",
+        "gt_response": "yes",
+        "gen_kwargs": {
+            "do_sample": false,
+            "num_beams": 1,
+            "max_new_tokens": 32,
+            "eos_token_id": 0
+        },
+        "pred_response": "The video presents a sequence of images featuring various objects in motion on a flat surface. Here is a detailed description of the objects and their movements:\n\n1. **"
+    },
+    {
+        "sample_id": 175,
+        "question": "Example Question 1:\n<image> <image> <image> <image> <image> {image#1}{image#2}{image#3}{image#4}{image#5}Are there any cubes that enter the scene?\nAnswer: no\n\nCurrent Question:\n{image#1}{image#2}{image#3}{image#4}{image#5}Are there any moving cylinders?<image> <image> <image> <image> <image> ",
+        "gt_response": "yes",
+        "gen_kwargs": {
+            "do_sample": false,
+            "num_beams": 1,
+            "max_new_tokens": 32,
+            "eos_token_id": 0
+        },
+        "pred_response": "The video presents a sequence of images featuring various objects in motion. Here's a detailed description of the content:\n\n1. **Image 1**: The scene"
+    },
+    {
+        "sample_id": 176,
+        "question": "Example Question 1:\n<image> <image> <image> <image> <image> {image#1}{image#2}{image#3}{image#4}{image#5}Are there any objects that enter the scene?\nAnswer: no\n\nCurrent Question:\n{image#1}{image#2}{image#3}{image#4}{image#5}Are there any spheres that exit the scene?<image> <image> <image> <image> <image> ",
+        "gt_response": "no",
+        "gen_kwargs": {
+            "do_sample": false,
+            "num_beams": 1,
+            "max_new_tokens": 32,
+            "eos_token_id": 0
+        },
+        "pred_response": "The video depicts a sequence of events involving various objects in a 3D space. Initially, we see a purple cube, a yellow sphere, a red"
+    },
+    {
+        "sample_id": 177,
+        "question": "Example Question 1:\n<image> <image> <image> <image> <image> {image#1}{image#2}{image#3}{image#4}{image#5}Are there any moving blue objects when the video begins?\nAnswer: no\n\nCurrent Question:\n{image#1}{image#2}{image#3}{image#4}{image#5}Are there any moving blue objects when the video begins?<image> <image> <image> <image> <image> ",
+        "gt_response": "yes",
+        "gen_kwargs": {
+            "do_sample": false,
+            "num_beams": 1,
+            "max_new_tokens": 32,
+            "eos_token_id": 0
+        },
+        "pred_response": "The video begins with a scene featuring a green cylinder, a yellow cube, and a brown sphere. The green cylinder and the yellow cube are positioned close to each"
+    },
+    {
+        "sample_id": 178,
+        "question": "Example Question 1:\n<image> <image> <image> <image> <image> {image#1}{image#2}{image#3}{image#4}{image#5}Are there any objects that enter the scene?\nAnswer: yes\n\nCurrent Question:\n{image#1}{image#2}{image#3}{image#4}{image#5}Are there any stationary brown objects when the video ends?<image> <image> <image> <image> <image> ",
+        "gt_response": "yes",
+        "gen_kwargs": {
+            "do_sample": false,
+            "num_beams": 1,
+            "max_new_tokens": 32,
+            "eos_token_id": 0
+        },
+        "pred_response": "The video depicts a sequence of interactions between various objects, including cubes, spheres, and cylinders. The objects are arranged on a flat surface, and"
+    },
+    {
+        "sample_id": 179,
+        "question": "Example Question 1:\n<image> <image> <image> <image> <image> {image#1}{image#2}{image#3}{image#4}{image#5}Are there any moving yellow objects when the video ends?\nAnswer: yes\n\nCurrent Question:\n{image#1}{image#2}{image#3}{image#4}{image#5}Are there any rubber cylinders that enter the scene?<image> <image> <image> <image> <image> ",
+        "gt_response": "no",
+        "gen_kwargs": {
+            "do_sample": false,
+            "num_beams": 1,
+            "max_new_tokens": 32,
+            "eos_token_id": 0
+        },
+        "pred_response": "The video depicts a sequence of events involving various objects in a 3D space. Initially, there are two cubes, one purple and one blue, positioned"
+    },
+    {
+        "sample_id": 180,
+        "question": "Example Question 1:\n<image> <image> <image> <image> <image> {image#1}{image#2}{image#3}{image#4}{image#5}Are there any stationary gray objects when the video ends?\nAnswer: no\n\nCurrent Question:\n{image#1}{image#2}{image#3}{image#4}{image#5}Are there any stationary gray objects?<image> <image> <image> <image> <image> ",
+        "gt_response": "no",
+        "gen_kwargs": {
+            "do_sample": false,
+            "num_beams": 1,
+            "max_new_tokens": 32,
+            "eos_token_id": 0
+        },
+        "pred_response": "The video presents a sequence of images featuring various objects in a 3D space. The objects include spheres, cubes, and cylinders, with different colors"
+    },
+    {
+        "sample_id": 181,
+        "question": "Example Question 1:\n<image> <image> <image> <image> <image> {image#1}{image#2}{image#3}{image#4}{image#5}Are there any moving brown objects?\nAnswer: no\n\nCurrent Question:\n{image#1}{image#2}{image#3}{image#4}{image#5}Are there any metal objects that exit the scene?<image> <image> <image> <image> <image> ",
+        "gt_response": "yes",
+        "gen_kwargs": {
+            "do_sample": false,
+            "num_beams": 1,
+            "max_new_tokens": 32,
+            "eos_token_id": 0
+        },
+        "pred_response": "The image depicts a scene with various objects arranged on a flat surface. There are several cubes of different colors and materials, including a red cube, a green"
+    },
+    {
+        "sample_id": 182,
+        "question": "Example Question 1:\n<image> <image> <image> <image> <image> {image#1}{image#2}{image#3}{image#4}{image#5}Are there any moving spheres when the video ends?\nAnswer: yes\n\nCurrent Question:\n{image#1}{image#2}{image#3}{image#4}{image#5}Are there any blue objects that enter the scene?<image> <image> <image> <image> <image> ",
+        "gt_response": "no",
+        "gen_kwargs": {
+            "do_sample": false,
+            "num_beams": 1,
+            "max_new_tokens": 32,
+            "eos_token_id": 0
+        },
+        "pred_response": "The video begins with a scene featuring a purple sphere and a blue cube on a plain background. The purple sphere is positioned to the left of the blue cube."
+    },
+    {
+        "sample_id": 183,
+        "question": "Example Question 1:\n<image> <image> <image> <image> <image> {image#1}{image#2}{image#3}{image#4}{image#5}Are there any moving metal objects?\nAnswer: yes\n\nCurrent Question:\n{image#1}{image#2}{image#3}{image#4}{image#5}Are there any metal objects that enter the scene?<image> <image> <image> <image> <image> ",
+        "gt_response": "no",
+        "gen_kwargs": {
+            "do_sample": false,
+            "num_beams": 1,
+            "max_new_tokens": 32,
+            "eos_token_id": 0
+        },
+        "pred_response": "The video presents a sequence of images featuring various objects in motion. Here's a detailed description of the video content:\n\n1. **Image 1**: The"
+    },
+    {
+        "sample_id": 184,
+        "question": "Example Question 1:\n<image> <image> <image> <image> <image> {image#1}{image#2}{image#3}{image#4}{image#5}Are there any stationary purple objects when the video ends?\nAnswer: yes\n\nCurrent Question:\n{image#1}{image#2}{image#3}{image#4}{image#5}Are there any metal objects that enter the scene?<image> <image> <image> <image> <image> ",
+        "gt_response": "yes",
+        "gen_kwargs": {
+            "do_sample": false,
+            "num_beams": 1,
+            "max_new_tokens": 32,
+            "eos_token_id": 0
+        },
+        "pred_response": "The video presents a sequence of images featuring various objects in motion. Here's a detailed description of the video content:\n\n1. **Image 1**: The"
+    },
+    {
+        "sample_id": 185,
+        "question": "Example Question 1:\n<image> <image> <image> <image> <image> {image#1}{image#2}{image#3}{image#4}{image#5}Are there any rubber spheres that enter the scene?\nAnswer: no\n\nCurrent Question:\n{image#1}{image#2}{image#3}{image#4}{image#5}Are there any moving brown objects when the video begins?<image> <image> <image> <image> <image> ",
+        "gt_response": "no",
+        "gen_kwargs": {
+            "do_sample": false,
+            "num_beams": 1,
+            "max_new_tokens": 32,
+            "eos_token_id": 0
+        },
+        "pred_response": "The video depicts a sequence of events involving various objects in a 3D space. Initially, we see a green cube, a blue sphere, and a"
+    },
+    {
+        "sample_id": 186,
+        "question": "Example Question 1:\n<image> <image> <image> <image> <image> {image#1}{image#2}{image#3}{image#4}{image#5}Are there any stationary brown objects when the video begins?\nAnswer: no\n\nCurrent Question:\n{image#1}{image#2}{image#3}{image#4}{image#5}Are there any moving cyan objects?<image> <image> <image> <image> <image> ",
+        "gt_response": "no",
+        "gen_kwargs": {
+            "do_sample": false,
+            "num_beams": 1,
+            "max_new_tokens": 32,
+            "eos_token_id": 0
+        },
+        "pred_response": "The video begins with a green cube positioned on the right side of the frame. As the video progresses, a cyan cylinder appears to the left of the green"
+    },
+    {
+        "sample_id": 187,
+        "question": "Example Question 1:\n<image> <image> <image> <image> <image> {image#1}{image#2}{image#3}{image#4}{image#5}Are there any moving yellow objects?\nAnswer: yes\n\nCurrent Question:\n{image#1}{image#2}{image#3}{image#4}{image#5}Are there any moving gray objects?<image> <image> <image> <image> <image> ",
+        "gt_response": "yes",
+        "gen_kwargs": {
+            "do_sample": false,
+            "num_beams": 1,
+            "max_new_tokens": 32,
+            "eos_token_id": 0
+        },
+        "pred_response": "The video depicts a sequence of events involving various objects in motion. Initially, we see a yellow sphere, a blue cylinder, a red cube, and a"
+    },
+    {
+        "sample_id": 188,
+        "question": "Example Question 1:\n<image> <image> <image> <image> <image> {image#1}{image#2}{image#3}{image#4}{image#5}Are there any moving spheres when the video begins?\nAnswer: yes\n\nCurrent Question:\n{image#1}{image#2}{image#3}{image#4}{image#5}Are there any green objects that exit the scene?<image> <image> <image> <image> <image> ",
+        "gt_response": "yes",
+        "gen_kwargs": {
+            "do_sample": false,
+            "num_beams": 1,
+            "max_new_tokens": 32,
+            "eos_token_id": 0
+        },
+        "pred_response": "The video depicts a sequence of events involving various objects in a 3D space. Initially, there are four objects: a green sphere, a purple cylinder"
+    },
+    {
+        "sample_id": 189,
+        "question": "Example Question 1:\n<image> <image> <image> <image> <image> {image#1}{image#2}{image#3}{image#4}{image#5}Are there any moving spheres?\nAnswer: no\n\nCurrent Question:\n{image#1}{image#2}{image#3}{image#4}{image#5}Are there any moving green objects when the video ends?<image> <image> <image> <image> <image> ",
+        "gt_response": "yes",
+        "gen_kwargs": {
+            "do_sample": false,
+            "num_beams": 1,
+            "max_new_tokens": 32,
+            "eos_token_id": 0
+        },
+        "pred_response": "The video presents a sequence of images featuring various objects in motion. Here's a detailed description of the video content:\n\n1. **Image 1**: The"
+    },
+    {
+        "sample_id": 190,
+        "question": "Example Question 1:\n<image> <image> <image> <image> <image> {image#1}{image#2}{image#3}{image#4}{image#5}Are there any stationary gray objects?\nAnswer: yes\n\nCurrent Question:\n{image#1}{image#2}{image#3}{image#4}{image#5}Are there any rubber cubes that enter the scene?<image> <image> <image> <image> <image> ",
+        "gt_response": "yes",
+        "gen_kwargs": {
+            "do_sample": false,
+            "num_beams": 1,
+            "max_new_tokens": 32,
+            "eos_token_id": 0
+        },
+        "pred_response": "The image depicts a scene with various objects, including spheres, cubes, and a cylinder. The objects are arranged in a way that suggests a dynamic interaction"
+    },
+    {
+        "sample_id": 191,
+        "question": "Example Question 1:\n<image> <image> <image> <image> <image> {image#1}{image#2}{image#3}{image#4}{image#5}Are there any stationary purple objects when the video begins?\nAnswer: no\n\nCurrent Question:\n{image#1}{image#2}{image#3}{image#4}{image#5}Are there any metal cubes that enter the scene?<image> <image> <image> <image> <image> ",
+        "gt_response": "yes",
+        "gen_kwargs": {
+            "do_sample": false,
+            "num_beams": 1,
+            "max_new_tokens": 32,
+            "eos_token_id": 0
+        },
+        "pred_response": "The video begins with a scene featuring four cylinders: a yellow cylinder, a cyan cylinder, a green cylinder, and a brown cylinder. The yellow and cyan"
+    },
+    {
+        "sample_id": 192,
+        "question": "Example Question 1:\n<image> <image> <image> <image> <image> {image#1}{image#2}{image#3}{image#4}{image#5}Are there any spheres that enter the scene?\nAnswer: no\n\nCurrent Question:\n{image#1}{image#2}{image#3}{image#4}{image#5}Are there any brown cubes that exit the scene?<image> <image> <image> <image> <image> ",
+        "gt_response": "no",
+        "gen_kwargs": {
+            "do_sample": false,
+            "num_beams": 1,
+            "max_new_tokens": 32,
+            "eos_token_id": 0
+        },
+        "pred_response": "The image depicts a scene with various objects, including a purple cube, a gray sphere, a blue sphere, a green cylinder, a brown cylinder, and"
+    },
+    {
+        "sample_id": 193,
+        "question": "Example Question 1:\n<image> <image> <image> <image> <image> {image#1}{image#2}{image#3}{image#4}{image#5}Are there any stationary green objects?\nAnswer: yes\n\nCurrent Question:\n{image#1}{image#2}{image#3}{image#4}{image#5}Are there any purple cubes that enter the scene?<image> <image> <image> <image> <image> ",
+        "gt_response": "yes",
+        "gen_kwargs": {
+            "do_sample": false,
+            "num_beams": 1,
+            "max_new_tokens": 32,
+            "eos_token_id": 0
+        },
+        "pred_response": "The image shows a collection of small objects on a flat surface. There are several cubes in different colors, including green, brown, gray, purple, and blue"
+    },
+    {
+        "sample_id": 194,
+        "question": "Example Question 1:\n<image> <image> <image> <image> <image> {image#1}{image#2}{image#3}{image#4}{image#5}Are there any metal objects that enter the scene?\nAnswer: yes\n\nCurrent Question:\n{image#1}{image#2}{image#3}{image#4}{image#5}Are there any rubber objects that enter the scene?<image> <image> <image> <image> <image> ",
+        "gt_response": "no",
+        "gen_kwargs": {
+            "do_sample": false,
+            "num_beams": 1,
+            "max_new_tokens": 32,
+            "eos_token_id": 0
+        },
+        "pred_response": "The video depicts a sequence of events involving various objects in a 3D space. Initially, a blue rubber cylinder and a purple metal cube are present."
+    },
+    {
+        "sample_id": 195,
+        "question": "Example Question 1:\n<image> <image> <image> <image> <image> {image#1}{image#2}{image#3}{image#4}{image#5}Are there any stationary cylinders?\nAnswer: no\n\nCurrent Question:\n{image#1}{image#2}{image#3}{image#4}{image#5}Are there any moving rubber objects?<image> <image> <image> <image> <image> ",
+        "gt_response": "no",
+        "gen_kwargs": {
+            "do_sample": false,
+            "num_beams": 1,
+            "max_new_tokens": 32,
+            "eos_token_id": 0
+        },
+        "pred_response": "The image depicts a scene with various objects, including a green cylinder, a purple cube, a green sphere, a cyan sphere, a brown cube, a"
+    },
+    {
+        "sample_id": 196,
+        "question": "Example Question 1:\n<image> <image> <image> <image> <image> {image#1}{image#2}{image#3}{image#4}{image#5}Are there any moving red objects?\nAnswer: no\n\nCurrent Question:\n{image#1}{image#2}{image#3}{image#4}{image#5}Are there any moving blue objects when the video begins?<image> <image> <image> <image> <image> ",
+        "gt_response": "no",
+        "gen_kwargs": {
+            "do_sample": false,
+            "num_beams": 1,
+            "max_new_tokens": 32,
+            "eos_token_id": 0
+        },
+        "pred_response": "The video depicts a sequence of interactions between various objects in a 3D space. Initially, we see a green cylinder, a blue sphere, a blue"
+    },
+    {
+        "sample_id": 197,
+        "question": "Example Question 1:\n<image> <image> <image> <image> <image> {image#1}{image#2}{image#3}{image#4}{image#5}Are there any moving cylinders when the video ends?\nAnswer: yes\n\nCurrent Question:\n{image#1}{image#2}{image#3}{image#4}{image#5}Are there any stationary red objects when the video ends?<image> <image> <image> <image> <image> ",
+        "gt_response": "yes",
+        "gen_kwargs": {
+            "do_sample": false,
+            "num_beams": 1,
+            "max_new_tokens": 32,
+            "eos_token_id": 0
+        },
+        "pred_response": "The video depicts a sequence of interactions between various objects, including cylinders, a cube, and a sphere. Here is a detailed description of the events:"
+    },
+    {
+        "sample_id": 198,
+        "question": "Example Question 1:\n<image> <image> <image> <image> <image> {image#1}{image#2}{image#3}{image#4}{image#5}Are there any moving yellow objects when the video ends?\nAnswer: yes\n\nCurrent Question:\n{image#1}{image#2}{image#3}{image#4}{image#5}Are there any rubber cubes that enter the scene?<image> <image> <image> <image> <image> ",
+        "gt_response": "no",
+        "gen_kwargs": {
+            "do_sample": false,
+            "num_beams": 1,
+            "max_new_tokens": 32,
+            "eos_token_id": 0
+        },
+        "pred_response": "The video depicts a sequence of events involving various objects in a 3D space. Initially, there are two cubes, one purple and one blue, positioned"
+    },
+    {
+        "sample_id": 199,
+        "question": "Example Question 1:\n<image> <image> <image> <image> <image> {image#1}{image#2}{image#3}{image#4}{image#5}Are there any yellow spheres that enter the scene?\nAnswer: yes\n\nCurrent Question:\n{image#1}{image#2}{image#3}{image#4}{image#5}Are there any moving cylinders?<image> <image> <image> <image> <image> ",
+        "gt_response": "yes",
+        "gen_kwargs": {
+            "do_sample": false,
+            "num_beams": 1,
+            "max_new_tokens": 32,
+            "eos_token_id": 0
+        },
+        "pred_response": "The video depicts a sequence of events involving various objects in motion. Initially, we see a red cube and a blue cube on a flat surface. A purple"
+    }
+]

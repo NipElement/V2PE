@@ -2,7 +2,7 @@ import json
 import argparse
 import os
 import pandas as pd
-
+FOLDER='milebench'
 def dict_mean(dict_list):
     mean_dict = {}
     for key in dict_list[0].keys():
@@ -31,7 +31,7 @@ def main(args):
         print(f'\nProcessing {model_name}...')
 
         # Check if the result file already exists
-        json_path = os.path.join(result_dir, 'milebench', model_name, 'milebench_result.json')
+        json_path = os.path.join(result_dir, FOLDER, model_name, 'milebench_result.json')
         if os.path.exists(json_path):
             print(f'Results for {model_name} already exist. Skipping...')
             continue
@@ -46,7 +46,7 @@ def main(args):
             for dataset in dataset_names:
                 # print(f'Processing dataset: {dataset}')
                 try:
-                    eval_path = os.path.join(result_dir, 'milebench', model_name, dataset, 'eval.json')
+                    eval_path = os.path.join(result_dir, FOLDER, model_name, dataset, 'eval.json')
                     if not os.path.exists(eval_path):
                         print(f'\t{model_name}--{dataset}  No evaluation file found')
                         task_result[dataset] = {}
@@ -114,7 +114,7 @@ def main(args):
             return pd.DataFrame(parsed_data)
 
         df = parse_json_to_df(model_result)
-        csv_path = os.path.join(result_dir, 'milebench', model_name, 'milebench_result.csv')
+        csv_path = os.path.join(result_dir, FOLDER, model_name, 'milebench_result.csv')
         df.to_csv(csv_path, index=False)
         # print(f'CSV written to {csv_path}')
 
@@ -122,30 +122,51 @@ if __name__ == '__main__':
     parser = argparse.ArgumentParser()
     parser.add_argument('--result-dir', type=str, required=True)
     args = parser.parse_args()
+    # args.models = [
+    #     'internvl2_5_8b_stage1_mammoth-default',
+    #     'internvl2_5_8b_stage1_mammoth-v2pe-stride1',
+    #     'internvl2_5_8b_stage1_mammoth-v2pe-stride2',
+    #     'internvl2_5_8b_stage1_mammoth-v2pe-stride4',
+    #     'internvl2_5_8b_stage1_mammoth-v2pe-stride8',
+    #     'internvl2_5_8b_stage1_mammoth-v2pe-stride16',
+    #     'internvl2_5_8b_stage1_mammoth-v2pe-stride32',
+    #     'internvl2_5_8b_stage1_mammoth-v2pe-stride64',
+    #     'internvl2_5_8b_stage1_mammoth-v2pe-stride128',
+    #     'internvl2_5_8b_stage1_mammoth-v2pe-stride256']
+    # args.models = [
+    #     'internvl2_5_8b_stage1_mammoth-baseline-default',
+    #     'internvl2_5_8b_stage1_mammoth-baseline-v2pe-stride1',
+    #     'internvl2_5_8b_stage1_mammoth-baseline-v2pe-stride2',
+    #     'internvl2_5_8b_stage1_mammoth-baseline-v2pe-stride4',
+    #     'internvl2_5_8b_stage1_mammoth-baseline-v2pe-stride8',
+    #     'internvl2_5_8b_stage1_mammoth-baseline-v2pe-stride16',
+    #     'internvl2_5_8b_stage1_mammoth-baseline-v2pe-stride32',
+    #     'internvl2_5_8b_stage1_mammoth-baseline-v2pe-stride64',
+    #     'internvl2_5_8b_stage1_mammoth-baseline-v2pe-stride128',
+    #     'internvl2_5_8b_stage1_mammoth-baseline-v2pe-stride256',]
     args.models = [
-        'internvl2_5_8b',
-        'invervl2_2b',
-        'invervl2_5_2b',
-        'invervl2_5_8b_baseline',
-        'invervl2_5_8b_stage1_mammoth-baseline-default',
-        'invervl2_5_8b_stage1_mammoth-baseline-v2pe-stride1',
-        'invervl2_5_8b_stage1_mammoth-baseline-v2pe-stride64',
-        'invervl2_5_8b_stage1_mammoth-default',
-        'invervl2_5_8b_stage1_mammoth-v2pe-stride1',
-        'invervl2_5_8b_stage1_mammoth-v2pe-stride2',
-        'invervl2_5_8b_stage1_mammoth-v2pe-stride4',
-        'invervl2_5_8b_stage1_mammoth-v2pe-stride8',
-        'invervl2_5_8b_stage1_mammoth-v2pe-stride16',
-        'invervl2_5_8b_stage1_mammoth-v2pe-stride32',
-        'invervl2_5_8b_stage1_mammoth-v2pe-stride64',
-        'invervl2_5_8b_stage1_mammoth-v2pe-stride128',
-        'invervl2_5_8b_stage1_mammoth-v2pe-stride256']
+        'internvl2_5_8b_stage2_mammoth-baseline-v2pe-stride64',]
     # args.models = [
-        # 'invervl2_5_8b_stage1_mammoth-baseline-default',
-        # 'invervl2_5_8b_stage1_mammoth-baseline-v2pe-stride1',
-        # 'invervl2_5_8b_stage1_mammoth-baseline-v2pe-stride64']
-    # args.models = [
-    #     'eval_test_internvl2_5_8b']
+    #     'internvl2_5_8b',
+    #     'internvl2_5_8b_stage1_mammoth_baseline-v2pe-stride1',
+    #     'internvl2_5_8b_stage1_mammoth_baseline-v2pe-stride2',
+    #     'internvl2_5_8b_stage1_mammoth_baseline-v2pe-stride4',
+    #     'internvl2_5_8b_stage1_mammoth_baseline-v2pe-stride8',
+    #     'internvl2_5_8b_stage1_mammoth_baseline-v2pe-stride16',
+    #     'internvl2_5_8b_stage1_mammoth_baseline-v2pe-stride32',
+    #     'internvl2_5_8b_stage1_mammoth_baseline-v2pe-stride64',
+    #     'internvl2_5_8b_stage1_mammoth_baseline-v2pe-stride128',
+    #     'internvl2_5_8b_stage1_mammoth_baseline-v2pe-stride256',
+    #     'internvl2_5_8b_stage1_mammoth-v2pe-stride1',
+    #     'internvl2_5_8b_stage1_mammoth-v2pe-stride2',
+    #     'internvl2_5_8b_stage1_mammoth-v2pe-stride4',
+    #     'internvl2_5_8b_stage1_mammoth-v2pe-stride8',
+    #     'internvl2_5_8b_stage1_mammoth-v2pe-stride16',
+    #     'internvl2_5_8b_stage1_mammoth-v2pe-stride32',
+    #     'internvl2_5_8b_stage1_mammoth-v2pe-stride64',
+    #     'internvl2_5_8b_stage1_mammoth-v2pe-stride128',
+    #     'internvl2_5_8b_stage1_mammoth-v2pe-stride256'
+    #     ]
     main(args)
 
 '''

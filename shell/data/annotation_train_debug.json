@@ -1,7 +1,7 @@
 {
-    "docmatix": {
-        "root": "/map-vepfs/yuansheng/LongContext/V2PE/dataset/image/docmatix",
-        "annotation": "/map-vepfs/yuansheng/LongContext/V2PE/dataset/annotation/docmatix/docmatix_20K_train_split.jsonl",
+    "mammoth_mix_icl": {
+        "root": "/map-vepfs/yuansheng/LongContext/V2PE/dataset/image/mammoth_mix",
+        "annotation": "/map-vepfs/yuansheng/LongContext/V2PE/dataset/annotation/mammoth_stage2/mammoth_mix_stage2_93K_icl.jsonl",
         "data_augment": true,
         "repeat_time": 1
     }

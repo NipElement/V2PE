@@ -1,0 +1,2402 @@
+[
+    {
+        "sample_id": 0,
+        "question": "Example Question 1:\n<image> <image> {image#1}{image#2}Difference:\nAnswer: the people on the stairs are no longer there. there is now a person walking near the umbrellas\n\nExample Question 2:\n<image> <image> {image#1}{image#2}Difference:\nAnswer: a gray truck is missing from the top left of the photo. a gray truck is parked in the middle of the left row of parking spaces\n\nCurrent Question:\n{image#1}{image#2}Difference:<image> <image> ",
+        "gt_response": "there is a person walking along cars in second picture",
+        "gen_kwargs": {
+            "do_sample": false,
+            "num_beams": 1,
+            "max_new_tokens": 32,
+            "eos_token_id": 92542
+        },
+        "pred_response": "The red car is missing."
+    },
+    {
+        "sample_id": 1,
+        "question": "Example Question 1:\n<image> <image> {image#1}{image#2}Difference:\nAnswer: 2nd picture doesnt have the person in a blue shirt holding a briefcase\n\nExample Question 2:\n<image> <image> {image#1}{image#2}Difference:\nAnswer: the after image has a person in a blue shirt. the after image has a woman walking before the person in a blue shirt. the after image has a dark person standing by the big tree\n\nCurrent Question:\n{image#1}{image#2}Difference:<image> <image> ",
+        "gt_response": "both pictures are identicle",
+        "gen_kwargs": {
+            "do_sample": false,
+            "num_beams": 1,
+            "max_new_tokens": 32,
+            "eos_token_id": 92542
+        },
+        "pred_response": "The left image has a car in the middle of the parking lot, while the right image does not."
+    },
+    {
+        "sample_id": 2,
+        "question": "Example Question 1:\n<image> <image> {image#1}{image#2}Difference:\nAnswer: there are more cars in the parking lot. the people in the parking lot are in different positions. the white car and dark car behind it are no longer on the road\n\nExample Question 2:\n<image> <image> {image#1}{image#2}Difference:\nAnswer: the black sedan entering the parking lot is no longer visible\n\nCurrent Question:\n{image#1}{image#2}Difference:<image> <image> ",
+        "gt_response": "there is one more person in the after photo",
+        "gen_kwargs": {
+            "do_sample": false,
+            "num_beams": 1,
+            "max_new_tokens": 32,
+            "eos_token_id": 92542
+        },
+        "pred_response": "The left image has a person walking in the parking lot, while the right image does not."
+    },
+    {
+        "sample_id": 3,
+        "question": "Example Question 1:\n<image> <image> {image#1}{image#2}Difference:\nAnswer: there is now a grey mini van in the middle of the lot\n\nExample Question 2:\n<image> <image> {image#1}{image#2}Difference:\nAnswer: the red car is not there anymore. there is another red car there now in the middle\n\nCurrent Question:\n{image#1}{image#2}Difference:<image> <image> ",
+        "gt_response": "one person walk in the parking area",
+        "gen_kwargs": {
+            "do_sample": false,
+            "num_beams": 1,
+            "max_new_tokens": 32,
+            "eos_token_id": 92542
+        },
+        "pred_response": "The person walking in the parking lot is gone."
+    },
+    {
+        "sample_id": 4,
+        "question": "Example Question 1:\n<image> <image> {image#1}{image#2}Difference:\nAnswer: the 2 people on the corner are in different positions in the pictures. the person walking by the white van is closer to the bottom of the picture in the after picture. the person on the right hand sidewalk by the silver van has moved further from the road\n\nExample Question 2:\n<image> <image> {image#1}{image#2}Difference:\nAnswer: one person walk in the parking area\n\nCurrent Question:\n{image#1}{image#2}Difference:<image> <image> ",
+        "gt_response": "person is missing from tjis image",
+        "gen_kwargs": {
+            "do_sample": false,
+            "num_beams": 1,
+            "max_new_tokens": 32,
+            "eos_token_id": 92542
+        },
+        "pred_response": "The person walking in the parking lot is gone."
+    },
+    {
+        "sample_id": 5,
+        "question": "Example Question 1:\n<image> <image> {image#1}{image#2}Difference:\nAnswer: the blue truck in the lot has left\n\nExample Question 2:\n<image> <image> {image#1}{image#2}Difference:\nAnswer: the number of people in the parking lot has decreased. the location of the people in the parking lot has changed\n\nCurrent Question:\n{image#1}{image#2}Difference:<image> <image> ",
+        "gt_response": "before there is a person walking in the parking lot but after there is not",
+        "gen_kwargs": {
+            "do_sample": false,
+            "num_beams": 1,
+            "max_new_tokens": 32,
+            "eos_token_id": 92542
+        },
+        "pred_response": "The person walking in the parking lot is gone."
+    },
+    {
+        "sample_id": 6,
+        "question": "Example Question 1:\n<image> <image> {image#1}{image#2}Difference:\nAnswer: two people are not outside the parking lot\n\nExample Question 2:\n<image> <image> {image#1}{image#2}Difference:\nAnswer: two people are standing next to the yellow concrete pillars\n\nCurrent Question:\n{image#1}{image#2}Difference:<image> <image> ",
+        "gt_response": "there are 2 people on the left image. one person at the very bottom of the right",
+        "gen_kwargs": {
+            "do_sample": false,
+            "num_beams": 1,
+            "max_new_tokens": 32,
+            "eos_token_id": 92542
+        },
+        "pred_response": "Difference:"
+    },
+    {
+        "sample_id": 7,
+        "question": "Example Question 1:\n<image> <image> {image#1}{image#2}Difference:\nAnswer: there is no people on the left\n\nExample Question 2:\n<image> <image> {image#1}{image#2}Difference:\nAnswer: there is one extra car in the after photo\n\nCurrent Question:\n{image#1}{image#2}Difference:<image> <image> ",
+        "gt_response": "the right photo contains 4 additional people",
+        "gen_kwargs": {
+            "do_sample": false,
+            "num_beams": 1,
+            "max_new_tokens": 32,
+            "eos_token_id": 92542
+        },
+        "pred_response": "The number of people in the group has increased."
+    },
+    {
+        "sample_id": 8,
+        "question": "Example Question 1:\n<image> <image> {image#1}{image#2}Difference:\nAnswer: the two people standing in the middle left of the parking lot are now gone. the person walking towards the silver car is now gone. there are now 4 people on the concrete at the bottom of the image two on the left of the light pole and two on the right. the three people on the right side of the image have shifted positions slightly\n\nExample Question 2:\n<image> <image> {image#1}{image#2}Difference:\nAnswer: car is missing on top left isle about 4 spaces down\n\nCurrent Question:\n{image#1}{image#2}Difference:<image> <image> ",
+        "gt_response": "two people are not outside the parking lot",
+        "gen_kwargs": {
+            "do_sample": false,
+            "num_beams": 1,
+            "max_new_tokens": 32,
+            "eos_token_id": 92542
+        },
+        "pred_response": "The two people are gone."
+    },
+    {
+        "sample_id": 9,
+        "question": "Example Question 1:\n<image> <image> {image#1}{image#2}Difference:\nAnswer: white van in left photo as opposed to the black car in the right photo with white truck\n\nExample Question 2:\n<image> <image> {image#1}{image#2}Difference:\nAnswer: the dark car exiting the lot is no longer there. there is now a person in a white shirt entering a dark car in the middle of the lot. the person walking behind the dark car is no longer there\n\nCurrent Question:\n{image#1}{image#2}Difference:<image> <image> ",
+        "gt_response": "van leaving not in parking lot",
+        "gen_kwargs": {
+            "do_sample": false,
+            "num_beams": 1,
+            "max_new_tokens": 32,
+            "eos_token_id": 92542
+        },
+        "pred_response": "The left image has a white van, while the right image does not."
+    },
+    {
+        "sample_id": 10,
+        "question": "Example Question 1:\n<image> <image> {image#1}{image#2}Difference:\nAnswer: the people walking are not in the same place in the after picture\n\nExample Question 2:\n<image> <image> {image#1}{image#2}Difference:\nAnswer: the person in the parking lot is no longer there. a light blue car is driving on the main road towards the intersection to the parking lot\n\nCurrent Question:\n{image#1}{image#2}Difference:<image> <image> ",
+        "gt_response": "two people are standing next to the yellow concrete pillars",
+        "gen_kwargs": {
+            "do_sample": false,
+            "num_beams": 1,
+            "max_new_tokens": 32,
+            "eos_token_id": 92542
+        },
+        "pred_response": "The two people are standing in the parking lot."
+    },
+    {
+        "sample_id": 11,
+        "question": "Example Question 1:\n<image> <image> {image#1}{image#2}Difference:\nAnswer: there aren t any people standing in front of the silver car on the sidewalk. there is no one near the door of the silver car. there is a person standing near the handicapped space. there are 2 people in the parking lot standing near the end of the building furthest from the camera\n\nExample Question 2:\n<image> <image> {image#1}{image#2}Difference:\nAnswer: the picture on the left has a blue truck in the parking lot while the picture on the right does not. the picture on the left has no human crossing the parking lot while the picture on the right does\n\nCurrent Question:\n{image#1}{image#2}Difference:<image> <image> ",
+        "gt_response": "car is missing on top left isle about 4 spaces down",
+        "gen_kwargs": {
+            "do_sample": false,
+            "num_beams": 1,
+            "max_new_tokens": 32,
+            "eos_token_id": 92542
+        },
+        "pred_response": "The left image has a white car in the middle of the parking lot, while the right image does not."
+    },
+    {
+        "sample_id": 12,
+        "question": "Example Question 1:\n<image> <image> {image#1}{image#2}Difference:\nAnswer: in the right picture people are more around the yellow pillars while on the left they stand on the sidewalk\n\nExample Question 2:\n<image> <image> {image#1}{image#2}Difference:\nAnswer: two people are standing next to the yellow concrete pillars\n\nCurrent Question:\n{image#1}{image#2}Difference:<image> <image> ",
+        "gt_response": "four new people are in the picture",
+        "gen_kwargs": {
+            "do_sample": false,
+            "num_beams": 1,
+            "max_new_tokens": 32,
+            "eos_token_id": 92542
+        },
+        "pred_response": "In the second image, there are more people than in the first image."
+    },
+    {
+        "sample_id": 13,
+        "question": "Example Question 1:\n<image> <image> {image#1}{image#2}Difference:\nAnswer: a gray truck is missing from the top left of the photo. a gray truck is parked in the middle of the left row of parking spaces\n\nExample Question 2:\n<image> <image> {image#1}{image#2}Difference:\nAnswer: there is a white car now. there is a white truck now\n\nCurrent Question:\n{image#1}{image#2}Difference:<image> <image> ",
+        "gt_response": "there are now two people in the picture whereas before there were none",
+        "gen_kwargs": {
+            "do_sample": false,
+            "num_beams": 1,
+            "max_new_tokens": 32,
+            "eos_token_id": 92542
+        },
+        "pred_response": "Two people are standing in the parking lot."
+    },
+    {
+        "sample_id": 14,
+        "question": "Example Question 1:\n<image> <image> {image#1}{image#2}Difference:\nAnswer: there are 2 people on the left image. one person at the very bottom of the right\n\nExample Question 2:\n<image> <image> {image#1}{image#2}Difference:\nAnswer: in the right picture people are more around the yellow pillars while on the left they stand on the sidewalk\n\nCurrent Question:\n{image#1}{image#2}Difference:<image> <image> ",
+        "gt_response": "the picture on the right has two people standing by the car while the one on the left there are three people by the sidewalk and one by the car",
+        "gen_kwargs": {
+            "do_sample": false,
+            "num_beams": 1,
+            "max_new_tokens": 32,
+            "eos_token_id": 92542
+        },
+        "pred_response": "The left image has a person standing by the car, while the right image does not."
+    },
+    {
+        "sample_id": 15,
+        "question": "Example Question 1:\n<image> <image> {image#1}{image#2}Difference:\nAnswer: the people walking up the stairs are different\n\nExample Question 2:\n<image> <image> {image#1}{image#2}Difference:\nAnswer: first picture has a car on the street. second picture there is someone walking on the street that same car is gone but another car is turning into a parking lot\n\nCurrent Question:\n{image#1}{image#2}Difference:<image> <image> ",
+        "gt_response": "a red car has left the scene. a person wearing red is walking out of the building",
+        "gen_kwargs": {
+            "do_sample": false,
+            "num_beams": 1,
+            "max_new_tokens": 32,
+            "eos_token_id": 92542
+        },
+        "pred_response": "The left image has a red car, while the right image does not."
+    },
+    {
+        "sample_id": 16,
+        "question": "Example Question 1:\n<image> <image> {image#1}{image#2}Difference:\nAnswer: the car on driving on the bottom of the left image is no present in the right image. there is a car on the top of the righ image that is not present in the left image\n\nExample Question 2:\n<image> <image> {image#1}{image#2}Difference:\nAnswer: before there is a person walking in the parking lot but after there is not\n\nCurrent Question:\n{image#1}{image#2}Difference:<image> <image> ",
+        "gt_response": "the picture on the right has a dark colored vehicle driving in middle lane and the left does not",
+        "gen_kwargs": {
+            "do_sample": false,
+            "num_beams": 1,
+            "max_new_tokens": 32,
+            "eos_token_id": 92542
+        },
+        "pred_response": "The left image has a red car in the middle of the parking lot, while the right image does not have a red car in the middle of the parking lot"
+    },
+    {
+        "sample_id": 17,
+        "question": "Example Question 1:\n<image> <image> {image#1}{image#2}Difference:\nAnswer: the red car is not there anymore. there is another red car there now in the middle\n\nExample Question 2:\n<image> <image> {image#1}{image#2}Difference:\nAnswer: the person nearest the building in the first picture is missing from the second. the person in the blue shirt is walking in a different direction than the first picture. the person in the white shirt is also facing a different direction. the person closest to the photographer in the first picture is facing a different way and has moved\n\nCurrent Question:\n{image#1}{image#2}Difference:<image> <image> ",
+        "gt_response": "a car is not driving through the middle of the lot",
+        "gen_kwargs": {
+            "do_sample": false,
+            "num_beams": 1,
+            "max_new_tokens": 32,
+            "eos_token_id": 92542
+        },
+        "pred_response": "The red car is missing in the second image."
+    },
+    {
+        "sample_id": 18,
+        "question": "Example Question 1:\n<image> <image> {image#1}{image#2}Difference:\nAnswer: there is a white car now. there is a white truck now\n\nExample Question 2:\n<image> <image> {image#1}{image#2}Difference:\nAnswer: a car is not driving through the middle of the lot\n\nCurrent Question:\n{image#1}{image#2}Difference:<image> <image> ",
+        "gt_response": "the car on the far back is no longer there",
+        "gen_kwargs": {
+            "do_sample": false,
+            "num_beams": 1,
+            "max_new_tokens": 32,
+            "eos_token_id": 92542
+        },
+        "pred_response": "Difference:"
+    },
+    {
+        "sample_id": 19,
+        "question": "Example Question 1:\n<image> <image> {image#1}{image#2}Difference:\nAnswer: the person walking on the bottom left covered by the tree has moved\n\nExample Question 2:\n<image> <image> {image#1}{image#2}Difference:\nAnswer: one or more people have appeared standing in the distance at the top of the green hill\n\nCurrent Question:\n{image#1}{image#2}Difference:<image> <image> ",
+        "gt_response": "the people moved locations. there is one less person",
+        "gen_kwargs": {
+            "do_sample": false,
+            "num_beams": 1,
+            "max_new_tokens": 32,
+            "eos_token_id": 92542
+        },
+        "pred_response": "The people have moved."
+    },
+    {
+        "sample_id": 20,
+        "question": "Example Question 1:\n<image> <image> {image#1}{image#2}Difference:\nAnswer: the guy in the red shirt in the middle of the picture has his his head up in the before picture and in the after picture his head is looking down\n\nExample Question 2:\n<image> <image> {image#1}{image#2}Difference:\nAnswer: there are people at the bottom of the staircase\n\nCurrent Question:\n{image#1}{image#2}Difference:<image> <image> ",
+        "gt_response": "there are more cars by the truck now",
+        "gen_kwargs": {
+            "do_sample": false,
+            "num_beams": 1,
+            "max_new_tokens": 32,
+            "eos_token_id": 92542
+        },
+        "pred_response": "The left image has a red car in the middle of the parking lot, while the right image does not have a red car in the middle of the parking lot"
+    },
+    {
+        "sample_id": 21,
+        "question": "Example Question 1:\n<image> <image> {image#1}{image#2}Difference:\nAnswer: school bus at stop sign\n\nExample Question 2:\n<image> <image> {image#1}{image#2}Difference:\nAnswer: there are no differences in the images\n\nCurrent Question:\n{image#1}{image#2}Difference:<image> <image> ",
+        "gt_response": "the red car on the far street is gone. there is a red car parked a different red car that appears near the middle of the parking lot. there is a black car parked near the previous red car",
+        "gen_kwargs": {
+            "do_sample": false,
+            "num_beams": 1,
+            "max_new_tokens": 32,
+            "eos_token_id": 92542
+        },
+        "pred_response": "Difference:"
+    },
+    {
+        "sample_id": 22,
+        "question": "Example Question 1:\n<image> <image> {image#1}{image#2}Difference:\nAnswer: 2nd picture doesnt have the person in a blue shirt holding a briefcase\n\nExample Question 2:\n<image> <image> {image#1}{image#2}Difference:\nAnswer: the pedestrians seen near the top of the image are gone but there are two new groups of pedestrians one group of two to the right of the image and two near the bottom on the image\n\nCurrent Question:\n{image#1}{image#2}Difference:<image> <image> ",
+        "gt_response": "two of the people by the yellow poles moved to the right center. there is now a third person",
+        "gen_kwargs": {
+            "do_sample": false,
+            "num_beams": 1,
+            "max_new_tokens": 32,
+            "eos_token_id": 92542
+        },
+        "pred_response": "The two people in the center of the image have moved."
+    },
+    {
+        "sample_id": 23,
+        "question": "Example Question 1:\n<image> <image> {image#1}{image#2}Difference:\nAnswer: 2 people walking under lamp. no one walking ahead in photo now\n\nExample Question 2:\n<image> <image> {image#1}{image#2}Difference:\nAnswer: the person waiting at the crosswalk is no longer in picture. the person on the sidewalk wearing red is no longer in picture. the white truck and black sedan are no longer in picture. there is a group of 3 people on the sidewalk. there is a white van on the road\n\nCurrent Question:\n{image#1}{image#2}Difference:<image> <image> ",
+        "gt_response": "there are two people standing in the street by the yellow poles",
+        "gen_kwargs": {
+            "do_sample": false,
+            "num_beams": 1,
+            "max_new_tokens": 32,
+            "eos_token_id": 92542
+        },
+        "pred_response": "Two people are standing in the parking lot."
+    },
+    {
+        "sample_id": 24,
+        "question": "Example Question 1:\n<image> <image> {image#1}{image#2}Difference:\nAnswer: the lady in the tank top is not wearing a hat. the people in the picture on the lower half are closer in relation to the first picture\n\nExample Question 2:\n<image> <image> {image#1}{image#2}Difference:\nAnswer: there appears to be no difference\n\nCurrent Question:\n{image#1}{image#2}Difference:<image> <image> ",
+        "gt_response": "grey car in the bottom right in the before. not there in the after",
+        "gen_kwargs": {
+            "do_sample": false,
+            "num_beams": 1,
+            "max_new_tokens": 32,
+            "eos_token_id": 92542
+        },
+        "pred_response": "The left image has a person walking in the parking lot, while the right image does not."
+    },
+    {
+        "sample_id": 25,
+        "question": "Example Question 1:\n<image> <image> {image#1}{image#2}Difference:\nAnswer: the blue truck in the upper right is gone in the after image\n\nExample Question 2:\n<image> <image> {image#1}{image#2}Difference:\nAnswer: the first picture dosent have a car driving toward the stop sign\n\nCurrent Question:\n{image#1}{image#2}Difference:<image> <image> ",
+        "gt_response": "there are four more people",
+        "gen_kwargs": {
+            "do_sample": false,
+            "num_beams": 1,
+            "max_new_tokens": 32,
+            "eos_token_id": 92542
+        },
+        "pred_response": "The number of people in the group has increased."
+    },
+    {
+        "sample_id": 26,
+        "question": "Example Question 1:\n<image> <image> {image#1}{image#2}Difference:\nAnswer: the person walking is no longer there. the person under the umbrella is now in a different position\n\nExample Question 2:\n<image> <image> {image#1}{image#2}Difference:\nAnswer: the person in the parking lot is no longer there. a light blue car is driving on the main road towards the intersection to the parking lot\n\nCurrent Question:\n{image#1}{image#2}Difference:<image> <image> ",
+        "gt_response": "only to people in the right image. location of the people is different",
+        "gen_kwargs": {
+            "do_sample": false,
+            "num_beams": 1,
+            "max_new_tokens": 32,
+            "eos_token_id": 92542
+        },
+        "pred_response": "The two people in the parking lot have moved."
+    },
+    {
+        "sample_id": 27,
+        "question": "Example Question 1:\n<image> <image> {image#1}{image#2}Difference:\nAnswer: the person who was walking near the trees by the black suv is gone. the silver car parked in front of the white car is gone\n\nExample Question 2:\n<image> <image> {image#1}{image#2}Difference:\nAnswer: there are people in the back now\n\nCurrent Question:\n{image#1}{image#2}Difference:<image> <image> ",
+        "gt_response": "the person walking on the bottom left covered by the tree has moved",
+        "gen_kwargs": {
+            "do_sample": false,
+            "num_beams": 1,
+            "max_new_tokens": 32,
+            "eos_token_id": 92542
+        },
+        "pred_response": "The left image has a person walking in the parking lot, while the right image does not have a person walking in the parking lot."
+    },
+    {
+        "sample_id": 28,
+        "question": "Example Question 1:\n<image> <image> {image#1}{image#2}Difference:\nAnswer: the two girls seem to be closer to the doors as if they walked backwards\n\nExample Question 2:\n<image> <image> {image#1}{image#2}Difference:\nAnswer: there are more cars by the truck now\n\nCurrent Question:\n{image#1}{image#2}Difference:<image> <image> ",
+        "gt_response": "more people on the right",
+        "gen_kwargs": {
+            "do_sample": false,
+            "num_beams": 1,
+            "max_new_tokens": 32,
+            "eos_token_id": 92542
+        },
+        "pred_response": "The number of people has increased."
+    },
+    {
+        "sample_id": 29,
+        "question": "Example Question 1:\n<image> <image> {image#1}{image#2}Difference:\nAnswer: 4 people on the left. 4 people on the right and one person pushing something away on the right\n\nExample Question 2:\n<image> <image> {image#1}{image#2}Difference:\nAnswer: the blue pickup truck is further out of the parking spot\n\nCurrent Question:\n{image#1}{image#2}Difference:<image> <image> ",
+        "gt_response": "there are no people",
+        "gen_kwargs": {
+            "do_sample": false,
+            "num_beams": 1,
+            "max_new_tokens": 32,
+            "eos_token_id": 92542
+        },
+        "pred_response": "Difference:"
+    },
+    {
+        "sample_id": 30,
+        "question": "Example Question 1:\n<image> <image> {image#1}{image#2}Difference:\nAnswer: the man on his bike is not there anymore. there are people walking now\n\nExample Question 2:\n<image> <image> {image#1}{image#2}Difference:\nAnswer: blue truck pulling into spot. person standing by tree\n\nCurrent Question:\n{image#1}{image#2}Difference:<image> <image> ",
+        "gt_response": "the people are no longer on the sidewalk",
+        "gen_kwargs": {
+            "do_sample": false,
+            "num_beams": 1,
+            "max_new_tokens": 32,
+            "eos_token_id": 92542
+        },
+        "pred_response": "The people have moved."
+    },
+    {
+        "sample_id": 31,
+        "question": "Example Question 1:\n<image> <image> {image#1}{image#2}Difference:\nAnswer: i don t see any difference in the 2 images\n\nExample Question 2:\n<image> <image> {image#1}{image#2}Difference:\nAnswer: one person sitting under an umbrella is no longer there. one person on the stairs in blue is there\n\nCurrent Question:\n{image#1}{image#2}Difference:<image> <image> ",
+        "gt_response": "there is a car in the after image that is not present in the first photo. there is extra people in the after photo that are not present in the first",
+        "gen_kwargs": {
+            "do_sample": false,
+            "num_beams": 1,
+            "max_new_tokens": 32,
+            "eos_token_id": 92542
+        },
+        "pred_response": "A car is parked in the parking lot."
+    },
+    {
+        "sample_id": 32,
+        "question": "Example Question 1:\n<image> <image> {image#1}{image#2}Difference:\nAnswer: the silver car has exited the scene\n\nExample Question 2:\n<image> <image> {image#1}{image#2}Difference:\nAnswer: there are now a couple of people standing near the red car. there is now a grey car behind the cross walk. there is now a person in red near that grey car. the car exiting the lot has either left or reversed slightly\n\nCurrent Question:\n{image#1}{image#2}Difference:<image> <image> ",
+        "gt_response": "the car in the first image is absent in the second image. there are two people walking in the second image",
+        "gen_kwargs": {
+            "do_sample": false,
+            "num_beams": 1,
+            "max_new_tokens": 32,
+            "eos_token_id": 92542
+        },
+        "pred_response": "The car is missing in the second image."
+    },
+    {
+        "sample_id": 33,
+        "question": "Example Question 1:\n<image> <image> {image#1}{image#2}Difference:\nAnswer: girl sitting far left bottom before not after. two men walking by tables before not after. people near top of stairs before not after. people near bottom of stairs after not before. different people walking around\n\nExample Question 2:\n<image> <image> {image#1}{image#2}Difference:\nAnswer: a blue truck is parked in the parking lot\n\nCurrent Question:\n{image#1}{image#2}Difference:<image> <image> ",
+        "gt_response": "there are two more people in the picture",
+        "gen_kwargs": {
+            "do_sample": false,
+            "num_beams": 1,
+            "max_new_tokens": 32,
+            "eos_token_id": 92542
+        },
+        "pred_response": "A car is parked in the parking lot."
+    },
+    {
+        "sample_id": 34,
+        "question": "Example Question 1:\n<image> <image> {image#1}{image#2}Difference:\nAnswer: the person in white dragging something is no longer there. there is now a grey car next to the red car\n\nExample Question 2:\n<image> <image> {image#1}{image#2}Difference:\nAnswer: the people moved locations. there is one less person\n\nCurrent Question:\n{image#1}{image#2}Difference:<image> <image> ",
+        "gt_response": "there is not a person standing on the sidewalk near the dividers. there is not a person in the parking lot near the building. there is an extra person in the small group",
+        "gen_kwargs": {
+            "do_sample": false,
+            "num_beams": 1,
+            "max_new_tokens": 32,
+            "eos_token_id": 92542
+        },
+        "pred_response": "The two images are the same."
+    },
+    {
+        "sample_id": 35,
+        "question": "Example Question 1:\n<image> <image> {image#1}{image#2}Difference:\nAnswer: first picture has a car on the street. second picture there is someone walking on the street that same car is gone but another car is turning into a parking lot\n\nExample Question 2:\n<image> <image> {image#1}{image#2}Difference:\nAnswer: the person under the umbrella is hunched more. the object in white is no longer there\n\nCurrent Question:\n{image#1}{image#2}Difference:<image> <image> ",
+        "gt_response": "the bluie truck appears to be backing out. there is a person near the car in the upper right corner. there is no person on the sidewalk near the pink building",
+        "gen_kwargs": {
+            "do_sample": false,
+            "num_beams": 1,
+            "max_new_tokens": 32,
+            "eos_token_id": 92542
+        },
+        "pred_response": "The blue truck is in a different place in the two images."
+    },
+    {
+        "sample_id": 36,
+        "question": "Example Question 1:\n<image> <image> {image#1}{image#2}Difference:\nAnswer: a red car is visible. a black car is visible. a person in white is no longer visible. a person is red is visible\n\nExample Question 2:\n<image> <image> {image#1}{image#2}Difference:\nAnswer: was 7 people in parking lot. now only 5\n\nCurrent Question:\n{image#1}{image#2}Difference:<image> <image> ",
+        "gt_response": "the person nearest the building in the first picture is missing from the second. the person in the blue shirt is walking in a different direction than the first picture. the person in the white shirt is also facing a different direction. the person closest to the photographer in the first picture is facing a different way and has moved",
+        "gen_kwargs": {
+            "do_sample": false,
+            "num_beams": 1,
+            "max_new_tokens": 32,
+            "eos_token_id": 92542
+        },
+        "pred_response": "The number of people in the parking lot has decreased."
+    },
+    {
+        "sample_id": 37,
+        "question": "Example Question 1:\n<image> <image> {image#1}{image#2}Difference:\nAnswer: a person is walking down the center road and a car is on the far right end of the main street\n\nExample Question 2:\n<image> <image> {image#1}{image#2}Difference:\nAnswer: the two people standing in the middle left of the parking lot are now gone. the person walking towards the silver car is now gone. there are now 4 people on the concrete at the bottom of the image two on the left of the light pole and two on the right. the three people on the right side of the image have shifted positions slightly\n\nCurrent Question:\n{image#1}{image#2}Difference:<image> <image> ",
+        "gt_response": "4 people on the left. 4 people on the right and one person pushing something away on the right",
+        "gen_kwargs": {
+            "do_sample": false,
+            "num_beams": 1,
+            "max_new_tokens": 32,
+            "eos_token_id": 92542
+        },
+        "pred_response": "The number of people in the parking lot has increased."
+    },
+    {
+        "sample_id": 38,
+        "question": "Example Question 1:\n<image> <image> {image#1}{image#2}Difference:\nAnswer: first picture has a car on the street. second picture there is someone walking on the street that same car is gone but another car is turning into a parking lot\n\nExample Question 2:\n<image> <image> {image#1}{image#2}Difference:\nAnswer: the person sitting at the table is in a different position. the person at the top of the stairs is gone. there are 2 people in front of the building with the blue windows\n\nCurrent Question:\n{image#1}{image#2}Difference:<image> <image> ",
+        "gt_response": "there is a person in a different position",
+        "gen_kwargs": {
+            "do_sample": false,
+            "num_beams": 1,
+            "max_new_tokens": 32,
+            "eos_token_id": 92542
+        },
+        "pred_response": "The second image has a person walking in the parking lot."
+    },
+    {
+        "sample_id": 39,
+        "question": "Example Question 1:\n<image> <image> {image#1}{image#2}Difference:\nAnswer: the person walking on the bottom left covered by the tree has moved\n\nExample Question 2:\n<image> <image> {image#1}{image#2}Difference:\nAnswer: the road grader has moved. the cyclist has passed the lady walking. a man and a girl are close to the crosswalk\n\nCurrent Question:\n{image#1}{image#2}Difference:<image> <image> ",
+        "gt_response": "the people crossing the street have moved slightly. the people on the sidewalk have moved slightly",
+        "gen_kwargs": {
+            "do_sample": false,
+            "num_beams": 1,
+            "max_new_tokens": 32,
+            "eos_token_id": 92542
+        },
+        "pred_response": "The left image has a person walking on the sidewalk, while the right image does not."
+    },
+    {
+        "sample_id": 40,
+        "question": "Example Question 1:\n<image> <image> {image#1}{image#2}Difference:\nAnswer: person walking on sidewalk\n\nExample Question 2:\n<image> <image> {image#1}{image#2}Difference:\nAnswer: the right photo contains 4 additional people\n\nCurrent Question:\n{image#1}{image#2}Difference:<image> <image> ",
+        "gt_response": "there are no differences in the images",
+        "gen_kwargs": {
+            "do_sample": false,
+            "num_beams": 1,
+            "max_new_tokens": 32,
+            "eos_token_id": 92542
+        },
+        "pred_response": "Difference:"
+    },
+    {
+        "sample_id": 41,
+        "question": "Example Question 1:\n<image> <image> {image#1}{image#2}Difference:\nAnswer: go ave form car parking\n\nExample Question 2:\n<image> <image> {image#1}{image#2}Difference:\nAnswer: black car on road\n\nCurrent Question:\n{image#1}{image#2}Difference:<image> <image> ",
+        "gt_response": "there are 4 people now standing on the sidewalk",
+        "gen_kwargs": {
+            "do_sample": false,
+            "num_beams": 1,
+            "max_new_tokens": 32,
+            "eos_token_id": 92542
+        },
+        "pred_response": "Difference:"
+    },
+    {
+        "sample_id": 42,
+        "question": "Example Question 1:\n<image> <image> {image#1}{image#2}Difference:\nAnswer: the black car towards the middle left of the picture is gone. there is a car driving behind the box truck middle right\n\nExample Question 2:\n<image> <image> {image#1}{image#2}Difference:\nAnswer: there is now a grey car to the right. there is now part of a dark car to the right\n\nCurrent Question:\n{image#1}{image#2}Difference:<image> <image> ",
+        "gt_response": "two people standing towards the back of the lot. there are no longer three peopke but two with one person walking up to them. person in the corner is no longer there",
+        "gen_kwargs": {
+            "do_sample": false,
+            "num_beams": 1,
+            "max_new_tokens": 32,
+            "eos_token_id": 92542
+        },
+        "pred_response": "The image captures a parking lot adjacent to a red building, viewed from an aerial perspective. The parking lot is marked with white lines delineating individual parking spaces"
+    },
+    {
+        "sample_id": 43,
+        "question": "Example Question 1:\n<image> <image> {image#1}{image#2}Difference:\nAnswer: there appears to be no difference\n\nExample Question 2:\n<image> <image> {image#1}{image#2}Difference:\nAnswer: two people standing towards the back of the lot. there are no longer three peopke but two with one person walking up to them. person in the corner is no longer there\n\nCurrent Question:\n{image#1}{image#2}Difference:<image> <image> ",
+        "gt_response": "there are three people in the right picture",
+        "gen_kwargs": {
+            "do_sample": false,
+            "num_beams": 1,
+            "max_new_tokens": 32,
+            "eos_token_id": 92542
+        },
+        "pred_response": "Difference:"
+    },
+    {
+        "sample_id": 44,
+        "question": "Example Question 1:\n<image> <image> {image#1}{image#2}Difference:\nAnswer: the person on the stairs on the bottom is no longer there\n\nExample Question 2:\n<image> <image> {image#1}{image#2}Difference:\nAnswer: 2nd picture doesnt have the person in a blue shirt holding a briefcase\n\nCurrent Question:\n{image#1}{image#2}Difference:<image> <image> ",
+        "gt_response": "the right image has a group of 3 boys the left has a group of two. the right image has two people towards the end of photo the right only has one walking over",
+        "gen_kwargs": {
+            "do_sample": false,
+            "num_beams": 1,
+            "max_new_tokens": 32,
+            "eos_token_id": 92542
+        },
+        "pred_response": "The left image has more people than the right image."
+    },
+    {
+        "sample_id": 45,
+        "question": "Example Question 1:\n<image> <image> {image#1}{image#2}Difference:\nAnswer: the blue truck in the lot has left\n\nExample Question 2:\n<image> <image> {image#1}{image#2}Difference:\nAnswer: two people are not outside the parking lot\n\nCurrent Question:\n{image#1}{image#2}Difference:<image> <image> ",
+        "gt_response": "a gray truck is missing from the top left of the photo. a gray truck is parked in the middle of the left row of parking spaces",
+        "gen_kwargs": {
+            "do_sample": false,
+            "num_beams": 1,
+            "max_new_tokens": 32,
+            "eos_token_id": 92542
+        },
+        "pred_response": "The image on the right has a person walking in the parking lot."
+    },
+    {
+        "sample_id": 46,
+        "question": "Example Question 1:\n<image> <image> {image#1}{image#2}Difference:\nAnswer: the woman on the left slightly moved to the right on the after picture. the two people are moved slightly backward in the after picture\n\nExample Question 2:\n<image> <image> {image#1}{image#2}Difference:\nAnswer: the silver car has moved to the exit of the parking lot in the after image. there is a black car in the parking lot of the before image that is not present in the after image\n\nCurrent Question:\n{image#1}{image#2}Difference:<image> <image> ",
+        "gt_response": "a blue truck has appeared in the parking lot. the kid in the red shirt is now longer on the sidewalk. the two guys talking on the sidewalk have started walking. the man at the curb near the black car has moved towards the light pole",
+        "gen_kwargs": {
+            "do_sample": false,
+            "num_beams": 1,
+            "max_new_tokens": 32,
+            "eos_token_id": 92542
+        },
+        "pred_response": "The blue truck is missing in the after image."
+    },
+    {
+        "sample_id": 47,
+        "question": "Example Question 1:\n<image> <image> {image#1}{image#2}Difference:\nAnswer: the white truck on the far end at the top of the picture has moved slightly\n\nExample Question 2:\n<image> <image> {image#1}{image#2}Difference:\nAnswer: there is one extra car in the after photo\n\nCurrent Question:\n{image#1}{image#2}Difference:<image> <image> ",
+        "gt_response": "there is a pick up truck in the lot",
+        "gen_kwargs": {
+            "do_sample": false,
+            "num_beams": 1,
+            "max_new_tokens": 32,
+            "eos_token_id": 92542
+        },
+        "pred_response": "The blue truck is missing in the second image."
+    },
+    {
+        "sample_id": 48,
+        "question": "Example Question 1:\n<image> <image> {image#1}{image#2}Difference:\nAnswer: there is a man in a red shirt on the sidewalk in photo 1. there are three people on the sidewalk in photo 2\n\nExample Question 2:\n<image> <image> {image#1}{image#2}Difference:\nAnswer: the right image has a group of 3 boys the left has a group of two. the right image has two people towards the end of photo the right only has one walking over\n\nCurrent Question:\n{image#1}{image#2}Difference:<image> <image> ",
+        "gt_response": "the car on driving on the bottom of the left image is no present in the right image. there is a car on the top of the righ image that is not present in the left image",
+        "gen_kwargs": {
+            "do_sample": false,
+            "num_beams": 1,
+            "max_new_tokens": 32,
+            "eos_token_id": 92542
+        },
+        "pred_response": "The left image has a brick wall in the foreground, while the right image does not."
+    },
+    {
+        "sample_id": 49,
+        "question": "Example Question 1:\n<image> <image> {image#1}{image#2}Difference:\nAnswer: two people are standing next to the yellow concrete pillars\n\nExample Question 2:\n<image> <image> {image#1}{image#2}Difference:\nAnswer: the before image shows five people walking up the staircase while the after image shows only two. the before image shows the table area to be deserted while the after image shows three people standing there\n\nCurrent Question:\n{image#1}{image#2}Difference:<image> <image> ",
+        "gt_response": "the right hand image a car has appeared in the car park",
+        "gen_kwargs": {
+            "do_sample": false,
+            "num_beams": 1,
+            "max_new_tokens": 32,
+            "eos_token_id": 92542
+        },
+        "pred_response": "The car is in the parking lot."
+    },
+    {
+        "sample_id": 50,
+        "question": "Example Question 1:\n<image> <image> {image#1}{image#2}Difference:\nAnswer: there is now a grey car exiting the lot. there is a person in a red shirt standing behind the grey car\n\nExample Question 2:\n<image> <image> {image#1}{image#2}Difference:\nAnswer: there are people at the bottom of the staircase\n\nCurrent Question:\n{image#1}{image#2}Difference:<image> <image> ",
+        "gt_response": "the image on the left shows 5 people. the image on the right shows 3 people",
+        "gen_kwargs": {
+            "do_sample": false,
+            "num_beams": 1,
+            "max_new_tokens": 32,
+            "eos_token_id": 92542
+        },
+        "pred_response": "The two images are the same."
+    },
+    {
+        "sample_id": 51,
+        "question": "Example Question 1:\n<image> <image> {image#1}{image#2}Difference:\nAnswer: the person waiting at the crosswalk is no longer in picture. the person on the sidewalk wearing red is no longer in picture. the white truck and black sedan are no longer in picture. there is a group of 3 people on the sidewalk. there is a white van on the road\n\nExample Question 2:\n<image> <image> {image#1}{image#2}Difference:\nAnswer: there is now a grey car exiting the lot. there is a person in a red shirt standing behind the grey car\n\nCurrent Question:\n{image#1}{image#2}Difference:<image> <image> ",
+        "gt_response": "after image shows a total of four people in the lot as opposed to none in the before image",
+        "gen_kwargs": {
+            "do_sample": false,
+            "num_beams": 1,
+            "max_new_tokens": 32,
+            "eos_token_id": 92542
+        },
+        "pred_response": "The image captures a parking lot adjacent to a red building, viewed from an aerial perspective. The parking lot is empty, marked with white lines delineating individual"
+    },
+    {
+        "sample_id": 52,
+        "question": "Example Question 1:\n<image> <image> {image#1}{image#2}Difference:\nAnswer: the person walking on the bottom left covered by the tree has moved\n\nExample Question 2:\n<image> <image> {image#1}{image#2}Difference:\nAnswer: the silver truck is no longer in the picture. there is no longer a person waiting at the stop sign\n\nCurrent Question:\n{image#1}{image#2}Difference:<image> <image> ",
+        "gt_response": "the people have shifted position slightly",
+        "gen_kwargs": {
+            "do_sample": false,
+            "num_beams": 1,
+            "max_new_tokens": 32,
+            "eos_token_id": 92542
+        },
+        "pred_response": "The people have moved."
+    },
+    {
+        "sample_id": 53,
+        "question": "Example Question 1:\n<image> <image> {image#1}{image#2}Difference:\nAnswer: the man on his bike is not there anymore. there are people walking now\n\nExample Question 2:\n<image> <image> {image#1}{image#2}Difference:\nAnswer: there are 2 people on the left image. one person at the very bottom of the right\n\nCurrent Question:\n{image#1}{image#2}Difference:<image> <image> ",
+        "gt_response": "there is a different traffic pattern. there are three people in the after image on the bottom right corner that are not there in the before image",
+        "gen_kwargs": {
+            "do_sample": false,
+            "num_beams": 1,
+            "max_new_tokens": 32,
+            "eos_token_id": 92542
+        },
+        "pred_response": "The left image has a person walking in the parking lot, while the right image does not have a person walking in the parking lot."
+    },
+    {
+        "sample_id": 54,
+        "question": "Example Question 1:\n<image> <image> {image#1}{image#2}Difference:\nAnswer: two people are not outside the parking lot\n\nExample Question 2:\n<image> <image> {image#1}{image#2}Difference:\nAnswer: white truck on the road. one person walking in parking lot\n\nCurrent Question:\n{image#1}{image#2}Difference:<image> <image> ",
+        "gt_response": "people with umbrellas are gone. red car s slight seems to be off. black car has moved. other black car has also moved",
+        "gen_kwargs": {
+            "do_sample": false,
+            "num_beams": 1,
+            "max_new_tokens": 32,
+            "eos_token_id": 92542
+        },
+        "pred_response": "Difference:"
+    },
+    {
+        "sample_id": 55,
+        "question": "Example Question 1:\n<image> <image> {image#1}{image#2}Difference:\nAnswer: the right image has a group of 3 boys the left has a group of two. the right image has two people towards the end of photo the right only has one walking over\n\nExample Question 2:\n<image> <image> {image#1}{image#2}Difference:\nAnswer: there are two people standing in the street by the yellow poles\n\nCurrent Question:\n{image#1}{image#2}Difference:<image> <image> ",
+        "gt_response": "left blue car leaving the car park with while nine are parked. right nine cars parked",
+        "gen_kwargs": {
+            "do_sample": false,
+            "num_beams": 1,
+            "max_new_tokens": 32,
+            "eos_token_id": 92542
+        },
+        "pred_response": "The blue truck is missing in the second image."
+    },
+    {
+        "sample_id": 56,
+        "question": "Example Question 1:\n<image> <image> {image#1}{image#2}Difference:\nAnswer: the person under the umbrella is hunched more. the object in white is no longer there\n\nExample Question 2:\n<image> <image> {image#1}{image#2}Difference:\nAnswer: the right hand image a car has appeared in the car park\n\nCurrent Question:\n{image#1}{image#2}Difference:<image> <image> ",
+        "gt_response": "the blue pickup truck is further out of the parking spot",
+        "gen_kwargs": {
+            "do_sample": false,
+            "num_beams": 1,
+            "max_new_tokens": 32,
+            "eos_token_id": 92542
+        },
+        "pred_response": "The blue truck is driving in the parking lot."
+    },
+    {
+        "sample_id": 57,
+        "question": "Example Question 1:\n<image> <image> {image#1}{image#2}Difference:\nAnswer: the silver car has moved to the exit of the parking lot in the after image. there is a black car in the parking lot of the before image that is not present in the after image\n\nExample Question 2:\n<image> <image> {image#1}{image#2}Difference:\nAnswer: the car parallel parked in front of the parked cars has reversed a few feet. there is a person possibly 2 at the crosswalk at the entrance\n\nCurrent Question:\n{image#1}{image#2}Difference:<image> <image> ",
+        "gt_response": "there is not a car in the parking lot",
+        "gen_kwargs": {
+            "do_sample": false,
+            "num_beams": 1,
+            "max_new_tokens": 32,
+            "eos_token_id": 92542
+        },
+        "pred_response": "The car is gone."
+    },
+    {
+        "sample_id": 58,
+        "question": "Example Question 1:\n<image> <image> {image#1}{image#2}Difference:\nAnswer: white truck on the road. one person walking in parking lot\n\nExample Question 2:\n<image> <image> {image#1}{image#2}Difference:\nAnswer: there is a person in a red long coat next to the red van at the top of the parking lot\n\nCurrent Question:\n{image#1}{image#2}Difference:<image> <image> ",
+        "gt_response": "a blue truck is parked in the parking lot",
+        "gen_kwargs": {
+            "do_sample": false,
+            "num_beams": 1,
+            "max_new_tokens": 32,
+            "eos_token_id": 92542
+        },
+        "pred_response": "The blue truck is no longer in the parking lot."
+    },
+    {
+        "sample_id": 59,
+        "question": "Example Question 1:\n<image> <image> {image#1}{image#2}Difference:\nAnswer: the person walking is no longer there. the person under the umbrella is now in a different position\n\nExample Question 2:\n<image> <image> {image#1}{image#2}Difference:\nAnswer: was 7 people in parking lot. now only 5\n\nCurrent Question:\n{image#1}{image#2}Difference:<image> <image> ",
+        "gt_response": "blue truck pulling into spot. person standing by tree",
+        "gen_kwargs": {
+            "do_sample": false,
+            "num_beams": 1,
+            "max_new_tokens": 32,
+            "eos_token_id": 92542
+        },
+        "pred_response": "A blue truck is driving into the parking lot."
+    },
+    {
+        "sample_id": 60,
+        "question": "Example Question 1:\n<image> <image> {image#1}{image#2}Difference:\nAnswer: the person nearest the building in the first picture is missing from the second. the person in the blue shirt is walking in a different direction than the first picture. the person in the white shirt is also facing a different direction. the person closest to the photographer in the first picture is facing a different way and has moved\n\nExample Question 2:\n<image> <image> {image#1}{image#2}Difference:\nAnswer: in the after image there is a vehicle and an additional person in the lot\n\nCurrent Question:\n{image#1}{image#2}Difference:<image> <image> ",
+        "gt_response": "a man has appeared in front of the black cars",
+        "gen_kwargs": {
+            "do_sample": false,
+            "num_beams": 1,
+            "max_new_tokens": 32,
+            "eos_token_id": 92542
+        },
+        "pred_response": "The second image has a person walking in the parking lot."
+    },
+    {
+        "sample_id": 61,
+        "question": "Example Question 1:\n<image> <image> {image#1}{image#2}Difference:\nAnswer: left blue car leaving the car park with while nine are parked. right nine cars parked\n\nExample Question 2:\n<image> <image> {image#1}{image#2}Difference:\nAnswer: there are 4 people now standing on the sidewalk\n\nCurrent Question:\n{image#1}{image#2}Difference:<image> <image> ",
+        "gt_response": "there aren t any people standing in front of the silver car on the sidewalk. there is no one near the door of the silver car. there is a person standing near the handicapped space. there are 2 people in the parking lot standing near the end of the building furthest from the camera",
+        "gen_kwargs": {
+            "do_sample": false,
+            "num_beams": 1,
+            "max_new_tokens": 32,
+            "eos_token_id": 92542
+        },
+        "pred_response": "The left image has more people than the right image."
+    },
+    {
+        "sample_id": 62,
+        "question": "Example Question 1:\n<image> <image> {image#1}{image#2}Difference:\nAnswer: there are more cars by the truck now\n\nExample Question 2:\n<image> <image> {image#1}{image#2}Difference:\nAnswer: the person in white dragging something is no longer there. there is now a grey car next to the red car\n\nCurrent Question:\n{image#1}{image#2}Difference:<image> <image> ",
+        "gt_response": "left two people in the picture. right six people in the picture",
+        "gen_kwargs": {
+            "do_sample": false,
+            "num_beams": 1,
+            "max_new_tokens": 32,
+            "eos_token_id": 92542
+        },
+        "pred_response": "The number of people in the group has increased."
+    },
+    {
+        "sample_id": 63,
+        "question": "Example Question 1:\n<image> <image> {image#1}{image#2}Difference:\nAnswer: black car on road\n\nExample Question 2:\n<image> <image> {image#1}{image#2}Difference:\nAnswer: car is missing on top left isle about 4 spaces down\n\nCurrent Question:\n{image#1}{image#2}Difference:<image> <image> ",
+        "gt_response": "i can t find any differences",
+        "gen_kwargs": {
+            "do_sample": false,
+            "num_beams": 1,
+            "max_new_tokens": 32,
+            "eos_token_id": 92542
+        },
+        "pred_response": "Difference:"
+    },
+    {
+        "sample_id": 64,
+        "question": "Example Question 1:\n<image> <image> {image#1}{image#2}Difference:\nAnswer: you can see a gray car a black car and a person walking in the after picture\n\nExample Question 2:\n<image> <image> {image#1}{image#2}Difference:\nAnswer: the people was missing near by grass land. the man missing near by the light post\n\nCurrent Question:\n{image#1}{image#2}Difference:<image> <image> ",
+        "gt_response": "the two people standing in the middle left of the parking lot are now gone. the person walking towards the silver car is now gone. there are now 4 people on the concrete at the bottom of the image two on the left of the light pole and two on the right. the three people on the right side of the image have shifted positions slightly",
+        "gen_kwargs": {
+            "do_sample": false,
+            "num_beams": 1,
+            "max_new_tokens": 32,
+            "eos_token_id": 92542
+        },
+        "pred_response": "The left image has more people than the right image."
+    },
+    {
+        "sample_id": 65,
+        "question": "Example Question 1:\n<image> <image> {image#1}{image#2}Difference:\nAnswer: there is a person by a white car in the lot. there is only one person by the red car in the lot. there is a person walking in the grass. there is a parked car in the road. there is a person by the parked car. there is one white car in the road. there are no dark cars in the road\n\nExample Question 2:\n<image> <image> {image#1}{image#2}Difference:\nAnswer: a gray truck is missing from the top left of the photo. a gray truck is parked in the middle of the left row of parking spaces\n\nCurrent Question:\n{image#1}{image#2}Difference:<image> <image> ",
+        "gt_response": "the guy in the red shirt in the middle of the picture has his his head up in the before picture and in the after picture his head is looking down",
+        "gen_kwargs": {
+            "do_sample": false,
+            "num_beams": 1,
+            "max_new_tokens": 32,
+            "eos_token_id": 92542
+        },
+        "pred_response": "The two images are the same."
+    },
+    {
+        "sample_id": 66,
+        "question": "Example Question 1:\n<image> <image> {image#1}{image#2}Difference:\nAnswer: more people on the right\n\nExample Question 2:\n<image> <image> {image#1}{image#2}Difference:\nAnswer: there is a car in the after image that is not present in the first photo. there is extra people in the after photo that are not present in the first\n\nCurrent Question:\n{image#1}{image#2}Difference:<image> <image> ",
+        "gt_response": "in the after image there is a vehicle and an additional person in the lot",
+        "gen_kwargs": {
+            "do_sample": false,
+            "num_beams": 1,
+            "max_new_tokens": 32,
+            "eos_token_id": 92542
+        },
+        "pred_response": "Difference:"
+    },
+    {
+        "sample_id": 67,
+        "question": "Example Question 1:\n<image> <image> {image#1}{image#2}Difference:\nAnswer: was 7 people in parking lot. now only 5\n\nExample Question 2:\n<image> <image> {image#1}{image#2}Difference:\nAnswer: the silver car in the before image is entering the place of business. the silver car in the after image is exiting the place of business\n\nCurrent Question:\n{image#1}{image#2}Difference:<image> <image> ",
+        "gt_response": "a person is walking across the parking lot in the second picture. one of the three men on the sidewalk has moved a bit",
+        "gen_kwargs": {
+            "do_sample": false,
+            "num_beams": 1,
+            "max_new_tokens": 32,
+            "eos_token_id": 92542
+        },
+        "pred_response": "The person in the center of the image is walking."
+    },
+    {
+        "sample_id": 68,
+        "question": "Example Question 1:\n<image> <image> {image#1}{image#2}Difference:\nAnswer: the blue truck is now in the lot\n\nExample Question 2:\n<image> <image> {image#1}{image#2}Difference:\nAnswer: the car on the far back is no longer there\n\nCurrent Question:\n{image#1}{image#2}Difference:<image> <image> ",
+        "gt_response": "i don t see any difference in the 2 images",
+        "gen_kwargs": {
+            "do_sample": false,
+            "num_beams": 1,
+            "max_new_tokens": 32,
+            "eos_token_id": 92542
+        },
+        "pred_response": "The image on the right has a tent in the parking lot, while the image on the left does not."
+    },
+    {
+        "sample_id": 69,
+        "question": "Example Question 1:\n<image> <image> {image#1}{image#2}Difference:\nAnswer: there is now a grey car exiting the lot. there is a person in a red shirt standing behind the grey car\n\nExample Question 2:\n<image> <image> {image#1}{image#2}Difference:\nAnswer: the blue truck that was next to the cars in the parking lot in on the opposite side of the median\n\nCurrent Question:\n{image#1}{image#2}Difference:<image> <image> ",
+        "gt_response": "the person is no longer near the blue truck. the person pulling a wagon is gone",
+        "gen_kwargs": {
+            "do_sample": false,
+            "num_beams": 1,
+            "max_new_tokens": 32,
+            "eos_token_id": 92542
+        },
+        "pred_response": "The person walking in the parking lot is gone."
+    },
+    {
+        "sample_id": 70,
+        "question": "Example Question 1:\n<image> <image> {image#1}{image#2}Difference:\nAnswer: there is more people. there is less umbrellas\n\nExample Question 2:\n<image> <image> {image#1}{image#2}Difference:\nAnswer: car is missing on top left isle about 4 spaces down\n\nCurrent Question:\n{image#1}{image#2}Difference:<image> <image> ",
+        "gt_response": "the people was missing near by grass land. the man missing near by the light post",
+        "gen_kwargs": {
+            "do_sample": false,
+            "num_beams": 1,
+            "max_new_tokens": 32,
+            "eos_token_id": 92542
+        },
+        "pred_response": "The number of people in the parking lot has increased."
+    },
+    {
+        "sample_id": 71,
+        "question": "Example Question 1:\n<image> <image> {image#1}{image#2}Difference:\nAnswer: blue truck is outside of the parking lot. person is stand in front of the suv\n\nExample Question 2:\n<image> <image> {image#1}{image#2}Difference:\nAnswer: there are 4 people now standing on the sidewalk\n\nCurrent Question:\n{image#1}{image#2}Difference:<image> <image> ",
+        "gt_response": "the number of people in the parking lot has decreased. the location of the people in the parking lot has changed",
+        "gen_kwargs": {
+            "do_sample": false,
+            "num_beams": 1,
+            "max_new_tokens": 32,
+            "eos_token_id": 92542
+        },
+        "pred_response": "The number of people in the parking lot has increased."
+    },
+    {
+        "sample_id": 72,
+        "question": "Example Question 1:\n<image> <image> {image#1}{image#2}Difference:\nAnswer: the silver car has exited the scene\n\nExample Question 2:\n<image> <image> {image#1}{image#2}Difference:\nAnswer: the person near the umbrella is not there anymore\n\nCurrent Question:\n{image#1}{image#2}Difference:<image> <image> ",
+        "gt_response": "the blue car has pulled out of the parking spot and is leaving the parking lot",
+        "gen_kwargs": {
+            "do_sample": false,
+            "num_beams": 1,
+            "max_new_tokens": 32,
+            "eos_token_id": 92542
+        },
+        "pred_response": "The blue truck is now in the middle of the parking lot."
+    },
+    {
+        "sample_id": 73,
+        "question": "Example Question 1:\n<image> <image> {image#1}{image#2}Difference:\nAnswer: the after image has a person in a blue shirt. the after image has a woman walking before the person in a blue shirt. the after image has a dark person standing by the big tree\n\nExample Question 2:\n<image> <image> {image#1}{image#2}Difference:\nAnswer: a man at the far right gone. a man walking in the parking lot\n\nCurrent Question:\n{image#1}{image#2}Difference:<image> <image> ",
+        "gt_response": "there are people behind the cars in the back",
+        "gen_kwargs": {
+            "do_sample": false,
+            "num_beams": 1,
+            "max_new_tokens": 32,
+            "eos_token_id": 92542
+        },
+        "pred_response": "The after image has a person walking."
+    },
+    {
+        "sample_id": 74,
+        "question": "Example Question 1:\n<image> <image> {image#1}{image#2}Difference:\nAnswer: there is not a car in the parking lot\n\nExample Question 2:\n<image> <image> {image#1}{image#2}Difference:\nAnswer: there is an individual under the umbrella in the bottom center. there are more individuals on the stairs and they are now on the right side instead of the left\n\nCurrent Question:\n{image#1}{image#2}Difference:<image> <image> ",
+        "gt_response": "there is a new car parked at the top of the screen with three people at it. the person on the sidewalk has left. there is a man on the corner of the after image walking in the road",
+        "gen_kwargs": {
+            "do_sample": false,
+            "num_beams": 1,
+            "max_new_tokens": 32,
+            "eos_token_id": 92542
+        },
+        "pred_response": "Difference:"
+    },
+    {
+        "sample_id": 75,
+        "question": "Example Question 1:\n<image> <image> {image#1}{image#2}Difference:\nAnswer: the black car on the road is farther down. the blue truck has moved onto the road\n\nExample Question 2:\n<image> <image> {image#1}{image#2}Difference:\nAnswer: the person on the stairs on the bottom is no longer there\n\nCurrent Question:\n{image#1}{image#2}Difference:<image> <image> ",
+        "gt_response": "two person in the bottom third of the photo have left the screen. one person is walking across the parking lot mid screen right to left",
+        "gen_kwargs": {
+            "do_sample": false,
+            "num_beams": 1,
+            "max_new_tokens": 32,
+            "eos_token_id": 92542
+        },
+        "pred_response": "The number of people in the parking lot has decreased."
+    },
+    {
+        "sample_id": 76,
+        "question": "Example Question 1:\n<image> <image> {image#1}{image#2}Difference:\nAnswer: the silver car has exited the scene\n\nExample Question 2:\n<image> <image> {image#1}{image#2}Difference:\nAnswer: the blue truck in the lot has left\n\nCurrent Question:\n{image#1}{image#2}Difference:<image> <image> ",
+        "gt_response": "the blue truck in the upper right is gone in the after image",
+        "gen_kwargs": {
+            "do_sample": false,
+            "num_beams": 1,
+            "max_new_tokens": 32,
+            "eos_token_id": 92542
+        },
+        "pred_response": "The blue truck is gone."
+    },
+    {
+        "sample_id": 77,
+        "question": "Example Question 1:\n<image> <image> {image#1}{image#2}Difference:\nAnswer: more people on the right\n\nExample Question 2:\n<image> <image> {image#1}{image#2}Difference:\nAnswer: the right hand image a car has appeared in the car park\n\nCurrent Question:\n{image#1}{image#2}Difference:<image> <image> ",
+        "gt_response": "the road grader has moved. the cyclist has passed the lady walking. a man and a girl are close to the crosswalk",
+        "gen_kwargs": {
+            "do_sample": false,
+            "num_beams": 1,
+            "max_new_tokens": 32,
+            "eos_token_id": 92542
+        },
+        "pred_response": "The left image has a car that is not present in the right image."
+    },
+    {
+        "sample_id": 78,
+        "question": "Example Question 1:\n<image> <image> {image#1}{image#2}Difference:\nAnswer: the picture on the left has a blue truck in the parking lot while the picture on the right does not. the picture on the left has no human crossing the parking lot while the picture on the right does\n\nExample Question 2:\n<image> <image> {image#1}{image#2}Difference:\nAnswer: there are 2 people on the left image. one person at the very bottom of the right\n\nCurrent Question:\n{image#1}{image#2}Difference:<image> <image> ",
+        "gt_response": "there is one extra car in the after photo",
+        "gen_kwargs": {
+            "do_sample": false,
+            "num_beams": 1,
+            "max_new_tokens": 32,
+            "eos_token_id": 92542
+        },
+        "pred_response": "The left image has a red car in the parking lot, while the right image does not."
+    },
+    {
+        "sample_id": 79,
+        "question": "Example Question 1:\n<image> <image> {image#1}{image#2}Difference:\nAnswer: a man at the far right gone. a man walking in the parking lot\n\nExample Question 2:\n<image> <image> {image#1}{image#2}Difference:\nAnswer: there is a person in a red long coat next to the red van at the top of the parking lot\n\nCurrent Question:\n{image#1}{image#2}Difference:<image> <image> ",
+        "gt_response": "the man in the blue shirt is gone. there are two new people in the middle of the sidewalk area. the car in the distance has turned. there are 2 people standing in the distance",
+        "gen_kwargs": {
+            "do_sample": false,
+            "num_beams": 1,
+            "max_new_tokens": 32,
+            "eos_token_id": 92542
+        },
+        "pred_response": "The number of people in the parking lot has decreased."
+    },
+    {
+        "sample_id": 80,
+        "question": "Example Question 1:\n<image> <image> {image#1}{image#2}Difference:\nAnswer: the people on the stairs are no longer there. there is now a person walking near the umbrellas\n\nExample Question 2:\n<image> <image> {image#1}{image#2}Difference:\nAnswer: blue truck pulling into spot. person standing by tree\n\nCurrent Question:\n{image#1}{image#2}Difference:<image> <image> ",
+        "gt_response": "go ave form car parking",
+        "gen_kwargs": {
+            "do_sample": false,
+            "num_beams": 1,
+            "max_new_tokens": 32,
+            "eos_token_id": 92542
+        },
+        "pred_response": "The blue truck is now in the parking lot."
+    },
+    {
+        "sample_id": 81,
+        "question": "Example Question 1:\n<image> <image> {image#1}{image#2}Difference:\nAnswer: the person near the umbrella is not there anymore\n\nExample Question 2:\n<image> <image> {image#1}{image#2}Difference:\nAnswer: person is missing from tjis image\n\nCurrent Question:\n{image#1}{image#2}Difference:<image> <image> ",
+        "gt_response": "the people walking are not in the same place in the after picture",
+        "gen_kwargs": {
+            "do_sample": false,
+            "num_beams": 1,
+            "max_new_tokens": 32,
+            "eos_token_id": 92542
+        },
+        "pred_response": "The person walking in the parking lot is gone."
+    },
+    {
+        "sample_id": 82,
+        "question": "Example Question 1:\n<image> <image> {image#1}{image#2}Difference:\nAnswer: the pedestrians seen near the top of the image are gone but there are two new groups of pedestrians one group of two to the right of the image and two near the bottom on the image\n\nExample Question 2:\n<image> <image> {image#1}{image#2}Difference:\nAnswer: the image on the left shows 5 people. the image on the right shows 3 people\n\nCurrent Question:\n{image#1}{image#2}Difference:<image> <image> ",
+        "gt_response": "first picture has a car on the street. second picture there is someone walking on the street that same car is gone but another car is turning into a parking lot",
+        "gen_kwargs": {
+            "do_sample": false,
+            "num_beams": 1,
+            "max_new_tokens": 32,
+            "eos_token_id": 92542
+        },
+        "pred_response": "The left image has a car in the parking lot, while the right image does not."
+    },
+    {
+        "sample_id": 83,
+        "question": "Example Question 1:\n<image> <image> {image#1}{image#2}Difference:\nAnswer: a man at the far right gone. a man walking in the parking lot\n\nExample Question 2:\n<image> <image> {image#1}{image#2}Difference:\nAnswer: two pepole where walking now there not there anymore\n\nCurrent Question:\n{image#1}{image#2}Difference:<image> <image> ",
+        "gt_response": "the black car in front of the two parked cars is facing the opposite direction in the after image. there is not a person outside the black car in the after image",
+        "gen_kwargs": {
+            "do_sample": false,
+            "num_beams": 1,
+            "max_new_tokens": 32,
+            "eos_token_id": 92542
+        },
+        "pred_response": "The left image has a car in the parking lot, while the right image does not."
+    },
+    {
+        "sample_id": 84,
+        "question": "Example Question 1:\n<image> <image> {image#1}{image#2}Difference:\nAnswer: there appears to be no difference\n\nExample Question 2:\n<image> <image> {image#1}{image#2}Difference:\nAnswer: there are people in the back now\n\nCurrent Question:\n{image#1}{image#2}Difference:<image> <image> ",
+        "gt_response": "a person is walking down the center road and a car is on the far right end of the main street",
+        "gen_kwargs": {
+            "do_sample": false,
+            "num_beams": 1,
+            "max_new_tokens": 32,
+            "eos_token_id": 92542
+        },
+        "pred_response": "Difference:"
+    },
+    {
+        "sample_id": 85,
+        "question": "Example Question 1:\n<image> <image> {image#1}{image#2}Difference:\nAnswer: the car parallel parked in front of the parked cars has reversed a few feet. there is a person possibly 2 at the crosswalk at the entrance\n\nExample Question 2:\n<image> <image> {image#1}{image#2}Difference:\nAnswer: there are no people\n\nCurrent Question:\n{image#1}{image#2}Difference:<image> <image> ",
+        "gt_response": "there is a gray car in the parking lot",
+        "gen_kwargs": {
+            "do_sample": false,
+            "num_beams": 1,
+            "max_new_tokens": 32,
+            "eos_token_id": 92542
+        },
+        "pred_response": "The person in the red shirt is missing."
+    },
+    {
+        "sample_id": 86,
+        "question": "Example Question 1:\n<image> <image> {image#1}{image#2}Difference:\nAnswer: the people walking have moved\n\nExample Question 2:\n<image> <image> {image#1}{image#2}Difference:\nAnswer: the blue truck in the street is no longer there\n\nCurrent Question:\n{image#1}{image#2}Difference:<image> <image> ",
+        "gt_response": "there is no silver car pulling into the parking lot. there are people walking on the side walk along side the parking lot",
+        "gen_kwargs": {
+            "do_sample": false,
+            "num_beams": 1,
+            "max_new_tokens": 32,
+            "eos_token_id": 92542
+        },
+        "pred_response": "The car is no longer in the parking lot."
+    },
+    {
+        "sample_id": 87,
+        "question": "Example Question 1:\n<image> <image> {image#1}{image#2}Difference:\nAnswer: the people walking up the stairs are different\n\nExample Question 2:\n<image> <image> {image#1}{image#2}Difference:\nAnswer: there is a car in the after image that is not present in the first photo. there is extra people in the after photo that are not present in the first\n\nCurrent Question:\n{image#1}{image#2}Difference:<image> <image> ",
+        "gt_response": "the blue truck in the street is no longer there",
+        "gen_kwargs": {
+            "do_sample": false,
+            "num_beams": 1,
+            "max_new_tokens": 32,
+            "eos_token_id": 92542
+        },
+        "pred_response": "The blue truck is missing in the second image."
+    },
+    {
+        "sample_id": 88,
+        "question": "Example Question 1:\n<image> <image> {image#1}{image#2}Difference:\nAnswer: girl sitting far left bottom before not after. two men walking by tables before not after. people near top of stairs before not after. people near bottom of stairs after not before. different people walking around\n\nExample Question 2:\n<image> <image> {image#1}{image#2}Difference:\nAnswer: there are no people\n\nCurrent Question:\n{image#1}{image#2}Difference:<image> <image> ",
+        "gt_response": "the grey car is pulling into the lot",
+        "gen_kwargs": {
+            "do_sample": false,
+            "num_beams": 1,
+            "max_new_tokens": 32,
+            "eos_token_id": 92542
+        },
+        "pred_response": "Difference:"
+    },
+    {
+        "sample_id": 89,
+        "question": "Example Question 1:\n<image> <image> {image#1}{image#2}Difference:\nAnswer: the blue truck in the upper right is gone in the after image\n\nExample Question 2:\n<image> <image> {image#1}{image#2}Difference:\nAnswer: there are two cars missing near the back left\n\nCurrent Question:\n{image#1}{image#2}Difference:<image> <image> ",
+        "gt_response": "there is a car on the street and someone on the crosswalk in the after picture",
+        "gen_kwargs": {
+            "do_sample": false,
+            "num_beams": 1,
+            "max_new_tokens": 32,
+            "eos_token_id": 92542
+        },
+        "pred_response": "The left image has a car in the parking lot, while the right image does not."
+    },
+    {
+        "sample_id": 90,
+        "question": "Example Question 1:\n<image> <image> {image#1}{image#2}Difference:\nAnswer: traffic has changed in the picture leaving a clearing on the right\n\nExample Question 2:\n<image> <image> {image#1}{image#2}Difference:\nAnswer: two of the people by the yellow poles moved to the right center. there is now a third person\n\nCurrent Question:\n{image#1}{image#2}Difference:<image> <image> ",
+        "gt_response": "the silver car has moved to the exit of the parking lot in the after image. there is a black car in the parking lot of the before image that is not present in the after image",
+        "gen_kwargs": {
+            "do_sample": false,
+            "num_beams": 1,
+            "max_new_tokens": 32,
+            "eos_token_id": 92542
+        },
+        "pred_response": "Difference:"
+    },
+    {
+        "sample_id": 91,
+        "question": "Example Question 1:\n<image> <image> {image#1}{image#2}Difference:\nAnswer: the silver van is present. the white truck is missing\n\nExample Question 2:\n<image> <image> {image#1}{image#2}Difference:\nAnswer: there are lots of people walking on the stairs\n\nCurrent Question:\n{image#1}{image#2}Difference:<image> <image> ",
+        "gt_response": "the blue truck that was next to the cars in the parking lot in on the opposite side of the median",
+        "gen_kwargs": {
+            "do_sample": false,
+            "num_beams": 1,
+            "max_new_tokens": 32,
+            "eos_token_id": 92542
+        },
+        "pred_response": "The blue truck is in a different place in the two images."
+    },
+    {
+        "sample_id": 92,
+        "question": "Example Question 1:\n<image> <image> {image#1}{image#2}Difference:\nAnswer: there is a white car now. there is a white truck now\n\nExample Question 2:\n<image> <image> {image#1}{image#2}Difference:\nAnswer: left blue car leaving the car park with while nine are parked. right nine cars parked\n\nCurrent Question:\n{image#1}{image#2}Difference:<image> <image> ",
+        "gt_response": "there is now a grey car to the right. there is now part of a dark car to the right",
+        "gen_kwargs": {
+            "do_sample": false,
+            "num_beams": 1,
+            "max_new_tokens": 32,
+            "eos_token_id": 92542
+        },
+        "pred_response": "{image#1}{image#2}Difference:"
+    },
+    {
+        "sample_id": 93,
+        "question": "Example Question 1:\n<image> <image> {image#1}{image#2}Difference:\nAnswer: the right image displays 2 cars parked in the parking lot that wasn t there before. also there are two cars driving in opposite directions on the picture to the right that is not in the left. finally there are 2 people walking away from the camera on the right that were not there on the left\n\nExample Question 2:\n<image> <image> {image#1}{image#2}Difference:\nAnswer: two people standing towards the back of the lot. there are no longer three peopke but two with one person walking up to them. person in the corner is no longer there\n\nCurrent Question:\n{image#1}{image#2}Difference:<image> <image> ",
+        "gt_response": "there is now a grey mini van in the middle of the lot",
+        "gen_kwargs": {
+            "do_sample": false,
+            "num_beams": 1,
+            "max_new_tokens": 32,
+            "eos_token_id": 92542
+        },
+        "pred_response": "The left image has a car in the parking lot, while the right image does not."
+    },
+    {
+        "sample_id": 94,
+        "question": "Example Question 1:\n<image> <image> {image#1}{image#2}Difference:\nAnswer: the car parallel parked in front of the parked cars has reversed a few feet. there is a person possibly 2 at the crosswalk at the entrance\n\nExample Question 2:\n<image> <image> {image#1}{image#2}Difference:\nAnswer: there are no differences in the images\n\nCurrent Question:\n{image#1}{image#2}Difference:<image> <image> ",
+        "gt_response": "the person in the parking lot is no longer there. a light blue car is driving on the main road towards the intersection to the parking lot",
+        "gen_kwargs": {
+            "do_sample": false,
+            "num_beams": 1,
+            "max_new_tokens": 32,
+            "eos_token_id": 92542
+        },
+        "pred_response": "The car is not in the parking lot."
+    },
+    {
+        "sample_id": 95,
+        "question": "Example Question 1:\n<image> <image> {image#1}{image#2}Difference:\nAnswer: there is now a grey car exiting the lot. there is a person in a red shirt standing behind the grey car\n\nExample Question 2:\n<image> <image> {image#1}{image#2}Difference:\nAnswer: there is no people on the left\n\nCurrent Question:\n{image#1}{image#2}Difference:<image> <image> ",
+        "gt_response": "the twosome near the bollards is gone. the threesome on the right is gone. there is now a person in white with a cart standing in the foreground",
+        "gen_kwargs": {
+            "do_sample": false,
+            "num_beams": 1,
+            "max_new_tokens": 32,
+            "eos_token_id": 92542
+        },
+        "pred_response": "The left image has more people than the right image."
+    },
+    {
+        "sample_id": 96,
+        "question": "Example Question 1:\n<image> <image> {image#1}{image#2}Difference:\nAnswer: a grey or silver car has appeared next to the white trailer in the back of the parking lot. the person in black walking towards a silver car is no longer there\n\nExample Question 2:\n<image> <image> {image#1}{image#2}Difference:\nAnswer: there is a car turning into the parking lot. there is a blue car in the middle right\n\nCurrent Question:\n{image#1}{image#2}Difference:<image> <image> ",
+        "gt_response": "the silver car at the intersection is gone. the black car behind the silver car is gone",
+        "gen_kwargs": {
+            "do_sample": false,
+            "num_beams": 1,
+            "max_new_tokens": 32,
+            "eos_token_id": 92542
+        },
+        "pred_response": "The black car is no longer in the parking lot."
+    },
+    {
+        "sample_id": 97,
+        "question": "Example Question 1:\n<image> <image> {image#1}{image#2}Difference:\nAnswer: there are two cars missing near the back left\n\nExample Question 2:\n<image> <image> {image#1}{image#2}Difference:\nAnswer: grey car in the bottom right in the before. not there in the after\n\nCurrent Question:\n{image#1}{image#2}Difference:<image> <image> ",
+        "gt_response": "the first picture dosent have a car driving toward the stop sign",
+        "gen_kwargs": {
+            "do_sample": false,
+            "num_beams": 1,
+            "max_new_tokens": 32,
+            "eos_token_id": 92542
+        },
+        "pred_response": "The car is in a different place."
+    },
+    {
+        "sample_id": 98,
+        "question": "Example Question 1:\n<image> <image> {image#1}{image#2}Difference:\nAnswer: the lady in the tank top is not wearing a hat. the people in the picture on the lower half are closer in relation to the first picture\n\nExample Question 2:\n<image> <image> {image#1}{image#2}Difference:\nAnswer: person is missing from tjis image\n\nCurrent Question:\n{image#1}{image#2}Difference:<image> <image> ",
+        "gt_response": "the white van has left the scene. the green car has disappeared. a gray car is moving to the right",
+        "gen_kwargs": {
+            "do_sample": false,
+            "num_beams": 1,
+            "max_new_tokens": 32,
+            "eos_token_id": 92542
+        },
+        "pred_response": "The white car is missing in the second image."
+    },
+    {
+        "sample_id": 99,
+        "question": "Example Question 1:\n<image> <image> {image#1}{image#2}Difference:\nAnswer: there are more cars in the parking lot. the people in the parking lot are in different positions. the white car and dark car behind it are no longer on the road\n\nExample Question 2:\n<image> <image> {image#1}{image#2}Difference:\nAnswer: two people by tables\n\nCurrent Question:\n{image#1}{image#2}Difference:<image> <image> ",
+        "gt_response": "the person in white dragging something is no longer there. there is now a grey car next to the red car",
+        "gen_kwargs": {
+            "do_sample": false,
+            "num_beams": 1,
+            "max_new_tokens": 32,
+            "eos_token_id": 92542
+        },
+        "pred_response": "The person walking in the parking lot is gone."
+    },
+    {
+        "sample_id": 100,
+        "question": "Example Question 1:\n<image> <image> {image#1}{image#2}Difference:\nAnswer: the people in the lot have moved slightly and a car in the spot has left\n\nExample Question 2:\n<image> <image> {image#1}{image#2}Difference:\nAnswer: there is a bus in the after image\n\nCurrent Question:\n{image#1}{image#2}Difference:<image> <image> ",
+        "gt_response": "person walking on sidewalk",
+        "gen_kwargs": {
+            "do_sample": false,
+            "num_beams": 1,
+            "max_new_tokens": 32,
+            "eos_token_id": 92542
+        },
+        "pred_response": "The left image has a car in the parking lot, while the right image does not."
+    },
+    {
+        "sample_id": 101,
+        "question": "Example Question 1:\n<image> <image> {image#1}{image#2}Difference:\nAnswer: a person is walking across the parking lot in the second picture. one of the three men on the sidewalk has moved a bit\n\nExample Question 2:\n<image> <image> {image#1}{image#2}Difference:\nAnswer: there are lots of people walking on the stairs\n\nCurrent Question:\n{image#1}{image#2}Difference:<image> <image> ",
+        "gt_response": "black car on road",
+        "gen_kwargs": {
+            "do_sample": false,
+            "num_beams": 1,
+            "max_new_tokens": 32,
+            "eos_token_id": 92542
+        },
+        "pred_response": "The left image has a car in the parking lot, while the right image does not."
+    },
+    {
+        "sample_id": 102,
+        "question": "Example Question 1:\n<image> <image> {image#1}{image#2}Difference:\nAnswer: the white truck on the far end at the top of the picture has moved slightly\n\nExample Question 2:\n<image> <image> {image#1}{image#2}Difference:\nAnswer: the right image has a group of 3 boys the left has a group of two. the right image has two people towards the end of photo the right only has one walking over\n\nCurrent Question:\n{image#1}{image#2}Difference:<image> <image> ",
+        "gt_response": "in the first picture there are people walking on the side walking further left in the picture. in picture two there is someone standing on the sidewalk that is in front of the parked cars. there is also a car driving down the street left to right",
+        "gen_kwargs": {
+            "do_sample": false,
+            "num_beams": 1,
+            "max_new_tokens": 32,
+            "eos_token_id": 92542
+        },
+        "pred_response": "The left image has a car in the parking lot, while the right image does not."
+    },
+    {
+        "sample_id": 103,
+        "question": "Example Question 1:\n<image> <image> {image#1}{image#2}Difference:\nAnswer: the person near the umbrella is not there anymore\n\nExample Question 2:\n<image> <image> {image#1}{image#2}Difference:\nAnswer: was 7 people in parking lot. now only 5\n\nCurrent Question:\n{image#1}{image#2}Difference:<image> <image> ",
+        "gt_response": "a black car is in the street approaching the main road",
+        "gen_kwargs": {
+            "do_sample": false,
+            "num_beams": 1,
+            "max_new_tokens": 32,
+            "eos_token_id": 92542
+        },
+        "pred_response": "The car is not in the parking lot."
+    },
+    {
+        "sample_id": 104,
+        "question": "Example Question 1:\n<image> <image> {image#1}{image#2}Difference:\nAnswer: the car on the far back is no longer there\n\nExample Question 2:\n<image> <image> {image#1}{image#2}Difference:\nAnswer: the people walking have moved\n\nCurrent Question:\n{image#1}{image#2}Difference:<image> <image> ",
+        "gt_response": "the black sedan entering the parking lot is no longer visible",
+        "gen_kwargs": {
+            "do_sample": false,
+            "num_beams": 1,
+            "max_new_tokens": 32,
+            "eos_token_id": 92542
+        },
+        "pred_response": "The car is no longer in the parking lot."
+    },
+    {
+        "sample_id": 105,
+        "question": "Example Question 1:\n<image> <image> {image#1}{image#2}Difference:\nAnswer: the person near the umbrellas is not there anymore\n\nExample Question 2:\n<image> <image> {image#1}{image#2}Difference:\nAnswer: there are no differences in the images\n\nCurrent Question:\n{image#1}{image#2}Difference:<image> <image> ",
+        "gt_response": "the pedestrians seen near the top of the image are gone but there are two new groups of pedestrians one group of two to the right of the image and two near the bottom on the image",
+        "gen_kwargs": {
+            "do_sample": false,
+            "num_beams": 1,
+            "max_new_tokens": 32,
+            "eos_token_id": 92542
+        },
+        "pred_response": "The left image has more people than the right image."
+    },
+    {
+        "sample_id": 106,
+        "question": "Example Question 1:\n<image> <image> {image#1}{image#2}Difference:\nAnswer: there is no blue vehicle existing the parking lot\n\nExample Question 2:\n<image> <image> {image#1}{image#2}Difference:\nAnswer: girl sitting far left bottom before not after. two men walking by tables before not after. people near top of stairs before not after. people near bottom of stairs after not before. different people walking around\n\nCurrent Question:\n{image#1}{image#2}Difference:<image> <image> ",
+        "gt_response": "the black car on the road is farther down. the blue truck has moved onto the road",
+        "gen_kwargs": {
+            "do_sample": false,
+            "num_beams": 1,
+            "max_new_tokens": 32,
+            "eos_token_id": 92542
+        },
+        "pred_response": "The blue truck is in a different place in the two images."
+    },
+    {
+        "sample_id": 107,
+        "question": "Example Question 1:\n<image> <image> {image#1}{image#2}Difference:\nAnswer: the person on the stairs on the bottom is no longer there\n\nExample Question 2:\n<image> <image> {image#1}{image#2}Difference:\nAnswer: both pictures are identicle\n\nCurrent Question:\n{image#1}{image#2}Difference:<image> <image> ",
+        "gt_response": "there are now a couple of people standing near the red car. there is now a grey car behind the cross walk. there is now a person in red near that grey car. the car exiting the lot has either left or reversed slightly",
+        "gen_kwargs": {
+            "do_sample": false,
+            "num_beams": 1,
+            "max_new_tokens": 32,
+            "eos_token_id": 92542
+        },
+        "pred_response": "The car is in a different place in the two images."
+    },
+    {
+        "sample_id": 108,
+        "question": "Example Question 1:\n<image> <image> {image#1}{image#2}Difference:\nAnswer: the grey car is pulling into the lot\n\nExample Question 2:\n<image> <image> {image#1}{image#2}Difference:\nAnswer: the red car on the far street is gone. there is a red car parked a different red car that appears near the middle of the parking lot. there is a black car parked near the previous red car\n\nCurrent Question:\n{image#1}{image#2}Difference:<image> <image> ",
+        "gt_response": "the dark car exiting the lot is no longer there. there is now a person in a white shirt entering a dark car in the middle of the lot. the person walking behind the dark car is no longer there",
+        "gen_kwargs": {
+            "do_sample": false,
+            "num_beams": 1,
+            "max_new_tokens": 32,
+            "eos_token_id": 92542
+        },
+        "pred_response": "The car is not in the parking lot."
+    },
+    {
+        "sample_id": 109,
+        "question": "Example Question 1:\n<image> <image> {image#1}{image#2}Difference:\nAnswer: two people walking near pole are not in second image. four additional people are walking in the second image\n\nExample Question 2:\n<image> <image> {image#1}{image#2}Difference:\nAnswer: in the first picture there are people walking on the side walking further left in the picture. in picture two there is someone standing on the sidewalk that is in front of the parked cars. there is also a car driving down the street left to right\n\nCurrent Question:\n{image#1}{image#2}Difference:<image> <image> ",
+        "gt_response": "blue truck is outside of the parking lot. person is stand in front of the suv",
+        "gen_kwargs": {
+            "do_sample": false,
+            "num_beams": 1,
+            "max_new_tokens": 32,
+            "eos_token_id": 92542
+        },
+        "pred_response": "The blue truck is in a different place in the two images."
+    },
+    {
+        "sample_id": 110,
+        "question": "Example Question 1:\n<image> <image> {image#1}{image#2}Difference:\nAnswer: one or more people have appeared standing in the distance at the top of the green hill\n\nExample Question 2:\n<image> <image> {image#1}{image#2}Difference:\nAnswer: a man at the far right gone. a man walking in the parking lot\n\nCurrent Question:\n{image#1}{image#2}Difference:<image> <image> ",
+        "gt_response": "there is a grey car. a black car is present in the road",
+        "gen_kwargs": {
+            "do_sample": false,
+            "num_beams": 1,
+            "max_new_tokens": 32,
+            "eos_token_id": 92542
+        },
+        "pred_response": "Difference:"
+    },
+    {
+        "sample_id": 111,
+        "question": "Example Question 1:\n<image> <image> {image#1}{image#2}Difference:\nAnswer: there are no people\n\nExample Question 2:\n<image> <image> {image#1}{image#2}Difference:\nAnswer: the right hand image a car has appeared in the car park\n\nCurrent Question:\n{image#1}{image#2}Difference:<image> <image> ",
+        "gt_response": "the dark car in the middle of the lot has changed position slightly. there is now a person in a white shirt by the dark car",
+        "gen_kwargs": {
+            "do_sample": false,
+            "num_beams": 1,
+            "max_new_tokens": 32,
+            "eos_token_id": 92542
+        },
+        "pred_response": "The left image has a car in the parking lot, while the right image does not."
+    },
+    {
+        "sample_id": 112,
+        "question": "Example Question 1:\n<image> <image> {image#1}{image#2}Difference:\nAnswer: the people walking up the stairs are different\n\nExample Question 2:\n<image> <image> {image#1}{image#2}Difference:\nAnswer: there is one extra car in the after photo\n\nCurrent Question:\n{image#1}{image#2}Difference:<image> <image> ",
+        "gt_response": "white truck on the road. one person walking in parking lot",
+        "gen_kwargs": {
+            "do_sample": false,
+            "num_beams": 1,
+            "max_new_tokens": 32,
+            "eos_token_id": 92542
+        },
+        "pred_response": "The left image has a white car in the parking lot, while the right image does not."
+    },
+    {
+        "sample_id": 113,
+        "question": "Example Question 1:\n<image> <image> {image#1}{image#2}Difference:\nAnswer: there is a person walking along cars in second picture\n\nExample Question 2:\n<image> <image> {image#1}{image#2}Difference:\nAnswer: more people on the right\n\nCurrent Question:\n{image#1}{image#2}Difference:<image> <image> ",
+        "gt_response": "you can see a gray car a black car and a person walking in the after picture",
+        "gen_kwargs": {
+            "do_sample": false,
+            "num_beams": 1,
+            "max_new_tokens": 32,
+            "eos_token_id": 92542
+        },
+        "pred_response": "Difference:"
+    },
+    {
+        "sample_id": 114,
+        "question": "Example Question 1:\n<image> <image> {image#1}{image#2}Difference:\nAnswer: the blue car has pulled out of the parking spot and is leaving the parking lot\n\nExample Question 2:\n<image> <image> {image#1}{image#2}Difference:\nAnswer: there are people at the bottom of the staircase\n\nCurrent Question:\n{image#1}{image#2}Difference:<image> <image> ",
+        "gt_response": "there is a car on the street in the after picture",
+        "gen_kwargs": {
+            "do_sample": false,
+            "num_beams": 1,
+            "max_new_tokens": 32,
+            "eos_token_id": 92542
+        },
+        "pred_response": "The car is driving on the road."
+    },
+    {
+        "sample_id": 115,
+        "question": "Example Question 1:\n<image> <image> {image#1}{image#2}Difference:\nAnswer: there are people in the back now\n\nExample Question 2:\n<image> <image> {image#1}{image#2}Difference:\nAnswer: there are several people visible in the distance in the upper right. the person under the umbrella in the center has moved\n\nCurrent Question:\n{image#1}{image#2}Difference:<image> <image> ",
+        "gt_response": "the silver van is present. the white truck is missing",
+        "gen_kwargs": {
+            "do_sample": false,
+            "num_beams": 1,
+            "max_new_tokens": 32,
+            "eos_token_id": 92542
+        },
+        "pred_response": "The white van is gone."
+    },
+    {
+        "sample_id": 116,
+        "question": "Example Question 1:\n<image> <image> {image#1}{image#2}Difference:\nAnswer: the man in the blue shirt is gone. there are two new people in the middle of the sidewalk area. the car in the distance has turned. there are 2 people standing in the distance\n\nExample Question 2:\n<image> <image> {image#1}{image#2}Difference:\nAnswer: the woman on the left slightly moved to the right on the after picture. the two people are moved slightly backward in the after picture\n\nCurrent Question:\n{image#1}{image#2}Difference:<image> <image> ",
+        "gt_response": "the picture on the left has a blue truck in the parking lot while the picture on the right does not. the picture on the left has no human crossing the parking lot while the picture on the right does",
+        "gen_kwargs": {
+            "do_sample": false,
+            "num_beams": 1,
+            "max_new_tokens": 32,
+            "eos_token_id": 92542
+        },
+        "pred_response": "The blue truck is gone."
+    },
+    {
+        "sample_id": 117,
+        "question": "Example Question 1:\n<image> <image> {image#1}{image#2}Difference:\nAnswer: there is a different traffic pattern. there are three people in the after image on the bottom right corner that are not there in the before image\n\nExample Question 2:\n<image> <image> {image#1}{image#2}Difference:\nAnswer: there are 4 people now standing on the sidewalk\n\nCurrent Question:\n{image#1}{image#2}Difference:<image> <image> ",
+        "gt_response": "the silver truck is no longer in the picture. there is no longer a person waiting at the stop sign",
+        "gen_kwargs": {
+            "do_sample": false,
+            "num_beams": 1,
+            "max_new_tokens": 32,
+            "eos_token_id": 92542
+        },
+        "pred_response": "The left image has a car in the parking lot, while the right image does not."
+    },
+    {
+        "sample_id": 118,
+        "question": "Example Question 1:\n<image> <image> {image#1}{image#2}Difference:\nAnswer: there is a person by a white car in the lot. there is only one person by the red car in the lot. there is a person walking in the grass. there is a parked car in the road. there is a person by the parked car. there is one white car in the road. there are no dark cars in the road\n\nExample Question 2:\n<image> <image> {image#1}{image#2}Difference:\nAnswer: four people are visible near the parking lot\n\nCurrent Question:\n{image#1}{image#2}Difference:<image> <image> ",
+        "gt_response": "there is now a grey car exiting the lot. there is a person in a red shirt standing behind the grey car",
+        "gen_kwargs": {
+            "do_sample": false,
+            "num_beams": 1,
+            "max_new_tokens": 32,
+            "eos_token_id": 92542
+        },
+        "pred_response": "The left image has a car in the parking lot, while the right image does not."
+    },
+    {
+        "sample_id": 119,
+        "question": "Example Question 1:\n<image> <image> {image#1}{image#2}Difference:\nAnswer: the black car on the road is farther down. the blue truck has moved onto the road\n\nExample Question 2:\n<image> <image> {image#1}{image#2}Difference:\nAnswer: there are no differences in the images\n\nCurrent Question:\n{image#1}{image#2}Difference:<image> <image> ",
+        "gt_response": "a car is in the street",
+        "gen_kwargs": {
+            "do_sample": false,
+            "num_beams": 1,
+            "max_new_tokens": 32,
+            "eos_token_id": 92542
+        },
+        "pred_response": "The blue truck is gone."
+    },
+    {
+        "sample_id": 120,
+        "question": "Example Question 1:\n<image> <image> {image#1}{image#2}Difference:\nAnswer: the man on his bike is not there anymore. there are people walking now\n\nExample Question 2:\n<image> <image> {image#1}{image#2}Difference:\nAnswer: there are several people visible in the distance in the upper right. the person under the umbrella in the center has moved\n\nCurrent Question:\n{image#1}{image#2}Difference:<image> <image> ",
+        "gt_response": "two people walking near pole are not in second image. four additional people are walking in the second image",
+        "gen_kwargs": {
+            "do_sample": false,
+            "num_beams": 1,
+            "max_new_tokens": 32,
+            "eos_token_id": 92542
+        },
+        "pred_response": "The two people walking in the first image are not present in the second image."
+    },
+    {
+        "sample_id": 121,
+        "question": "Example Question 1:\n<image> <image> {image#1}{image#2}Difference:\nAnswer: the car in the first image is absent in the second image. there are two people walking in the second image\n\nExample Question 2:\n<image> <image> {image#1}{image#2}Difference:\nAnswer: there is one more person in the after photo\n\nCurrent Question:\n{image#1}{image#2}Difference:<image> <image> ",
+        "gt_response": "one person sitting under an umbrella is no longer there. one person on the stairs in blue is there",
+        "gen_kwargs": {
+            "do_sample": false,
+            "num_beams": 1,
+            "max_new_tokens": 32,
+            "eos_token_id": 92542
+        },
+        "pred_response": "The person on the stairs is gone."
+    },
+    {
+        "sample_id": 122,
+        "question": "Example Question 1:\n<image> <image> {image#1}{image#2}Difference:\nAnswer: the silver car in the before image is entering the place of business. the silver car in the after image is exiting the place of business\n\nExample Question 2:\n<image> <image> {image#1}{image#2}Difference:\nAnswer: there is a person walking along cars in second picture\n\nCurrent Question:\n{image#1}{image#2}Difference:<image> <image> ",
+        "gt_response": "the person under the umbrella is hunched more. the object in white is no longer there",
+        "gen_kwargs": {
+            "do_sample": false,
+            "num_beams": 1,
+            "max_new_tokens": 32,
+            "eos_token_id": 92542
+        },
+        "pred_response": "The person sitting down has changed positions."
+    },
+    {
+        "sample_id": 123,
+        "question": "Example Question 1:\n<image> <image> {image#1}{image#2}Difference:\nAnswer: the picture on the right has two people standing by the car while the one on the left there are three people by the sidewalk and one by the car\n\nExample Question 2:\n<image> <image> {image#1}{image#2}Difference:\nAnswer: car is missing on top left isle about 4 spaces down\n\nCurrent Question:\n{image#1}{image#2}Difference:<image> <image> ",
+        "gt_response": "there is an individual under the umbrella in the bottom center. there are more individuals on the stairs and they are now on the right side instead of the left",
+        "gen_kwargs": {
+            "do_sample": false,
+            "num_beams": 1,
+            "max_new_tokens": 32,
+            "eos_token_id": 92542
+        },
+        "pred_response": "The left image has more people than the right image."
+    },
+    {
+        "sample_id": 124,
+        "question": "Example Question 1:\n<image> <image> {image#1}{image#2}Difference:\nAnswer: four new people are in the picture\n\nExample Question 2:\n<image> <image> {image#1}{image#2}Difference:\nAnswer: the woman on the left slightly moved to the right on the after picture. the two people are moved slightly backward in the after picture\n\nCurrent Question:\n{image#1}{image#2}Difference:<image> <image> ",
+        "gt_response": "in the before there are two women on the left of the image near the picnic tables. in the after picture there appears to be a woman on the stairs. in the after picture there appears to be a man at the top of the stairs. in the after picture there appears to be two or three people in the upper picnic area near the upper right corner of the picture",
+        "gen_kwargs": {
+            "do_sample": false,
+            "num_beams": 1,
+            "max_new_tokens": 32,
+            "eos_token_id": 92542
+        },
+        "pred_response": "The person walking on the stairs is gone."
+    },
+    {
+        "sample_id": 125,
+        "question": "Example Question 1:\n<image> <image> {image#1}{image#2}Difference:\nAnswer: left two people in the picture. right six people in the picture\n\nExample Question 2:\n<image> <image> {image#1}{image#2}Difference:\nAnswer: the two girls seem to be closer to the doors as if they walked backwards\n\nCurrent Question:\n{image#1}{image#2}Difference:<image> <image> ",
+        "gt_response": "there are people at the bottom of the staircase",
+        "gen_kwargs": {
+            "do_sample": false,
+            "num_beams": 1,
+            "max_new_tokens": 32,
+            "eos_token_id": 92542
+        },
+        "pred_response": "The image captures a vibrant outdoor scene at a university or college campus, where a series of red umbrellas are neatly arranged over picnic tables, providing a"
+    },
+    {
+        "sample_id": 126,
+        "question": "Example Question 1:\n<image> <image> {image#1}{image#2}Difference:\nAnswer: a gray truck is missing from the top left of the photo. a gray truck is parked in the middle of the left row of parking spaces\n\nExample Question 2:\n<image> <image> {image#1}{image#2}Difference:\nAnswer: person in before image not in the after image\n\nCurrent Question:\n{image#1}{image#2}Difference:<image> <image> ",
+        "gt_response": "the before image shows five people walking up the staircase while the after image shows only two. the before image shows the table area to be deserted while the after image shows three people standing there",
+        "gen_kwargs": {
+            "do_sample": false,
+            "num_beams": 1,
+            "max_new_tokens": 32,
+            "eos_token_id": 92542
+        },
+        "pred_response": "Difference:"
+    },
+    {
+        "sample_id": 127,
+        "question": "Example Question 1:\n<image> <image> {image#1}{image#2}Difference:\nAnswer: there is a car on the street and someone on the crosswalk in the after picture\n\nExample Question 2:\n<image> <image> {image#1}{image#2}Difference:\nAnswer: the blue car has pulled out of the parking spot and is leaving the parking lot\n\nCurrent Question:\n{image#1}{image#2}Difference:<image> <image> ",
+        "gt_response": "a person is walking down the walkway between the two buildings at the top of the frame. people are descending the stairs on the right hand side of the staircase. the person at the table has straightened their posture. there is a person in a white top that is walking near the building in the upper right near the building",
+        "gen_kwargs": {
+            "do_sample": false,
+            "num_beams": 1,
+            "max_new_tokens": 32,
+            "eos_token_id": 92542
+        },
+        "pred_response": "The person sitting down has changed positions."
+    },
+    {
+        "sample_id": 128,
+        "question": "Example Question 1:\n<image> <image> {image#1}{image#2}Difference:\nAnswer: two people walking near pole are not in second image. four additional people are walking in the second image\n\nExample Question 2:\n<image> <image> {image#1}{image#2}Difference:\nAnswer: the person nearest the building in the first picture is missing from the second. the person in the blue shirt is walking in a different direction than the first picture. the person in the white shirt is also facing a different direction. the person closest to the photographer in the first picture is facing a different way and has moved\n\nCurrent Question:\n{image#1}{image#2}Difference:<image> <image> ",
+        "gt_response": "addition of individuals moving across pavement to and fro",
+        "gen_kwargs": {
+            "do_sample": false,
+            "num_beams": 1,
+            "max_new_tokens": 32,
+            "eos_token_id": 92542
+        },
+        "pred_response": "The two images are the same."
+    },
+    {
+        "sample_id": 129,
+        "question": "Example Question 1:\n<image> <image> {image#1}{image#2}Difference:\nAnswer: car is missing on top left isle about 4 spaces down\n\nExample Question 2:\n<image> <image> {image#1}{image#2}Difference:\nAnswer: white truck on the road. one person walking in parking lot\n\nCurrent Question:\n{image#1}{image#2}Difference:<image> <image> ",
+        "gt_response": "two people by tables",
+        "gen_kwargs": {
+            "do_sample": false,
+            "num_beams": 1,
+            "max_new_tokens": 32,
+            "eos_token_id": 92542
+        },
+        "pred_response": "Difference:"
+    },
+    {
+        "sample_id": 130,
+        "question": "Example Question 1:\n<image> <image> {image#1}{image#2}Difference:\nAnswer: there is three people in the right im on the sidewalk. there is now people on the lower side of the image that were not there on the before picture\n\nExample Question 2:\n<image> <image> {image#1}{image#2}Difference:\nAnswer: the blue truck in the lot has left\n\nCurrent Question:\n{image#1}{image#2}Difference:<image> <image> ",
+        "gt_response": "the person who was walking near the trees by the black suv is gone. the silver car parked in front of the white car is gone",
+        "gen_kwargs": {
+            "do_sample": false,
+            "num_beams": 1,
+            "max_new_tokens": 32,
+            "eos_token_id": 92542
+        },
+        "pred_response": "Difference:"
+    },
+    {
+        "sample_id": 131,
+        "question": "Example Question 1:\n<image> <image> {image#1}{image#2}Difference:\nAnswer: person walking on sidewalk\n\nExample Question 2:\n<image> <image> {image#1}{image#2}Difference:\nAnswer: the picture on the right has two people standing by the car while the one on the left there are three people by the sidewalk and one by the car\n\nCurrent Question:\n{image#1}{image#2}Difference:<image> <image> ",
+        "gt_response": "there appears to be no difference",
+        "gen_kwargs": {
+            "do_sample": false,
+            "num_beams": 1,
+            "max_new_tokens": 32,
+            "eos_token_id": 92542
+        },
+        "pred_response": "Difference:"
+    },
+    {
+        "sample_id": 132,
+        "question": "Example Question 1:\n<image> <image> {image#1}{image#2}Difference:\nAnswer: one or more people have appeared standing in the distance at the top of the green hill\n\nExample Question 2:\n<image> <image> {image#1}{image#2}Difference:\nAnswer: 2 people walking under lamp. no one walking ahead in photo now\n\nCurrent Question:\n{image#1}{image#2}Difference:<image> <image> ",
+        "gt_response": "the lady in the tank top is not wearing a hat. the people in the picture on the lower half are closer in relation to the first picture",
+        "gen_kwargs": {
+            "do_sample": false,
+            "num_beams": 1,
+            "max_new_tokens": 32,
+            "eos_token_id": 92542
+        },
+        "pred_response": "The two images are the same."
+    },
+    {
+        "sample_id": 133,
+        "question": "Example Question 1:\n<image> <image> {image#1}{image#2}Difference:\nAnswer: after image shows a total of four people in the lot as opposed to none in the before image\n\nExample Question 2:\n<image> <image> {image#1}{image#2}Difference:\nAnswer: a car is in the street\n\nCurrent Question:\n{image#1}{image#2}Difference:<image> <image> ",
+        "gt_response": "there are three guys staying in the parking lot",
+        "gen_kwargs": {
+            "do_sample": false,
+            "num_beams": 1,
+            "max_new_tokens": 32,
+            "eos_token_id": 92542
+        },
+        "pred_response": "Difference:"
+    },
+    {
+        "sample_id": 134,
+        "question": "Example Question 1:\n<image> <image> {image#1}{image#2}Difference:\nAnswer: in the after image there is a vehicle and an additional person in the lot\n\nExample Question 2:\n<image> <image> {image#1}{image#2}Difference:\nAnswer: the bluie truck appears to be backing out. there is a person near the car in the upper right corner. there is no person on the sidewalk near the pink building\n\nCurrent Question:\n{image#1}{image#2}Difference:<image> <image> ",
+        "gt_response": "there is more people. there is less umbrellas",
+        "gen_kwargs": {
+            "do_sample": false,
+            "num_beams": 1,
+            "max_new_tokens": 32,
+            "eos_token_id": 92542
+        },
+        "pred_response": "The person sitting down has changed positions."
+    },
+    {
+        "sample_id": 135,
+        "question": "Example Question 1:\n<image> <image> {image#1}{image#2}Difference:\nAnswer: i don t see any difference in the 2 images\n\nExample Question 2:\n<image> <image> {image#1}{image#2}Difference:\nAnswer: grey car in the bottom right in the before. not there in the after\n\nCurrent Question:\n{image#1}{image#2}Difference:<image> <image> ",
+        "gt_response": "2nd picture doesnt have the person in a blue shirt holding a briefcase",
+        "gen_kwargs": {
+            "do_sample": false,
+            "num_beams": 1,
+            "max_new_tokens": 32,
+            "eos_token_id": 92542
+        },
+        "pred_response": "Difference:"
+    },
+    {
+        "sample_id": 136,
+        "question": "Example Question 1:\n<image> <image> {image#1}{image#2}Difference:\nAnswer: the person in the bike is not there anymore. the people by the car are not there anymore\n\nExample Question 2:\n<image> <image> {image#1}{image#2}Difference:\nAnswer: traffic has changed in the picture leaving a clearing on the right\n\nCurrent Question:\n{image#1}{image#2}Difference:<image> <image> ",
+        "gt_response": "a grey or silver car has appeared next to the white trailer in the back of the parking lot. the person in black walking towards a silver car is no longer there",
+        "gen_kwargs": {
+            "do_sample": false,
+            "num_beams": 1,
+            "max_new_tokens": 32,
+            "eos_token_id": 92542
+        },
+        "pred_response": "The left image has a person walking in the parking lot, while the right image does not."
+    },
+    {
+        "sample_id": 137,
+        "question": "Example Question 1:\n<image> <image> {image#1}{image#2}Difference:\nAnswer: there are more cars by the truck now\n\nExample Question 2:\n<image> <image> {image#1}{image#2}Difference:\nAnswer: the man in a white shirt is gone. the blue and red man are farther apart from each other\n\nCurrent Question:\n{image#1}{image#2}Difference:<image> <image> ",
+        "gt_response": "the after image has a person in a blue shirt. the after image has a woman walking before the person in a blue shirt. the after image has a dark person standing by the big tree",
+        "gen_kwargs": {
+            "do_sample": false,
+            "num_beams": 1,
+            "max_new_tokens": 32,
+            "eos_token_id": 92542
+        },
+        "pred_response": "The people in the images have moved."
+    },
+    {
+        "sample_id": 138,
+        "question": "Example Question 1:\n<image> <image> {image#1}{image#2}Difference:\nAnswer: a person is walking down the walkway between the two buildings at the top of the frame. people are descending the stairs on the right hand side of the staircase. the person at the table has straightened their posture. there is a person in a white top that is walking near the building in the upper right near the building\n\nExample Question 2:\n<image> <image> {image#1}{image#2}Difference:\nAnswer: there is not a car in the parking lot\n\nCurrent Question:\n{image#1}{image#2}Difference:<image> <image> ",
+        "gt_response": "there are two cars missing near the back left",
+        "gen_kwargs": {
+            "do_sample": false,
+            "num_beams": 1,
+            "max_new_tokens": 32,
+            "eos_token_id": 92542
+        },
+        "pred_response": "Difference:"
+    },
+    {
+        "sample_id": 139,
+        "question": "Example Question 1:\n<image> <image> {image#1}{image#2}Difference:\nAnswer: the people walking up the stairs are different\n\nExample Question 2:\n<image> <image> {image#1}{image#2}Difference:\nAnswer: the blue car has pulled out of the parking spot and is leaving the parking lot\n\nCurrent Question:\n{image#1}{image#2}Difference:<image> <image> ",
+        "gt_response": "the red car is not there anymore. there is another red car there now in the middle",
+        "gen_kwargs": {
+            "do_sample": false,
+            "num_beams": 1,
+            "max_new_tokens": 32,
+            "eos_token_id": 92542
+        },
+        "pred_response": "The left image has a red car in the parking lot, while the right image does not."
+    },
+    {
+        "sample_id": 140,
+        "question": "Example Question 1:\n<image> <image> {image#1}{image#2}Difference:\nAnswer: the car parallel parked in front of the parked cars has reversed a few feet. there is a person possibly 2 at the crosswalk at the entrance\n\nExample Question 2:\n<image> <image> {image#1}{image#2}Difference:\nAnswer: there are two people standing in the street by the yellow poles\n\nCurrent Question:\n{image#1}{image#2}Difference:<image> <image> ",
+        "gt_response": "there is a white car now. there is a white truck now",
+        "gen_kwargs": {
+            "do_sample": false,
+            "num_beams": 1,
+            "max_new_tokens": 32,
+            "eos_token_id": 92542
+        },
+        "pred_response": "The left image has a car in the parking lot, while the right image does not."
+    },
+    {
+        "sample_id": 141,
+        "question": "Example Question 1:\n<image> <image> {image#1}{image#2}Difference:\nAnswer: the black car on the road is farther down. the blue truck has moved onto the road\n\nExample Question 2:\n<image> <image> {image#1}{image#2}Difference:\nAnswer: the first picture dosent have a car driving toward the stop sign\n\nCurrent Question:\n{image#1}{image#2}Difference:<image> <image> ",
+        "gt_response": "the person on the stairs on the bottom is no longer there",
+        "gen_kwargs": {
+            "do_sample": false,
+            "num_beams": 1,
+            "max_new_tokens": 32,
+            "eos_token_id": 92542
+        },
+        "pred_response": "The person on the stairs is gone."
+    },
+    {
+        "sample_id": 142,
+        "question": "Example Question 1:\n<image> <image> {image#1}{image#2}Difference:\nAnswer: the person on the stairs on the bottom is no longer there\n\nExample Question 2:\n<image> <image> {image#1}{image#2}Difference:\nAnswer: two people are not outside the parking lot\n\nCurrent Question:\n{image#1}{image#2}Difference:<image> <image> ",
+        "gt_response": "the man on his bike is not there anymore. there are people walking now",
+        "gen_kwargs": {
+            "do_sample": false,
+            "num_beams": 1,
+            "max_new_tokens": 32,
+            "eos_token_id": 92542
+        },
+        "pred_response": "The person walking in the parking lot is gone."
+    },
+    {
+        "sample_id": 143,
+        "question": "Example Question 1:\n<image> <image> {image#1}{image#2}Difference:\nAnswer: i don t see any difference in the 2 images\n\nExample Question 2:\n<image> <image> {image#1}{image#2}Difference:\nAnswer: there are two people standing in the street by the yellow poles\n\nCurrent Question:\n{image#1}{image#2}Difference:<image> <image> ",
+        "gt_response": "the people on the stairs are no longer there. there is now a person walking near the umbrellas",
+        "gen_kwargs": {
+            "do_sample": false,
+            "num_beams": 1,
+            "max_new_tokens": 32,
+            "eos_token_id": 92542
+        },
+        "pred_response": "The left image has more people than the right image."
+    },
+    {
+        "sample_id": 144,
+        "question": "Example Question 1:\n<image> <image> {image#1}{image#2}Difference:\nAnswer: the car in the first image is absent in the second image. there are two people walking in the second image\n\nExample Question 2:\n<image> <image> {image#1}{image#2}Difference:\nAnswer: the white car is no longer entering the parking lot. the person leaving the parking lot is no longer there. the two people standing by the car have changed positions\n\nCurrent Question:\n{image#1}{image#2}Difference:<image> <image> ",
+        "gt_response": "there is more cars",
+        "gen_kwargs": {
+            "do_sample": false,
+            "num_beams": 1,
+            "max_new_tokens": 32,
+            "eos_token_id": 92542
+        },
+        "pred_response": "The left image has a car in the parking lot, while the right image does not."
+    },
+    {
+        "sample_id": 145,
+        "question": "Example Question 1:\n<image> <image> {image#1}{image#2}Difference:\nAnswer: the white truck on the far end at the top of the picture has moved slightly\n\nExample Question 2:\n<image> <image> {image#1}{image#2}Difference:\nAnswer: there are now a couple of people standing near the red car. there is now a grey car behind the cross walk. there is now a person in red near that grey car. the car exiting the lot has either left or reversed slightly\n\nCurrent Question:\n{image#1}{image#2}Difference:<image> <image> ",
+        "gt_response": "one or more people have appeared standing in the distance at the top of the green hill",
+        "gen_kwargs": {
+            "do_sample": false,
+            "num_beams": 1,
+            "max_new_tokens": 32,
+            "eos_token_id": 92542
+        },
+        "pred_response": "The left image has a yellow sign in the top left corner, while the right image does not."
+    },
+    {
+        "sample_id": 146,
+        "question": "Example Question 1:\n<image> <image> {image#1}{image#2}Difference:\nAnswer: the image on the left shows 5 people. the image on the right shows 3 people\n\nExample Question 2:\n<image> <image> {image#1}{image#2}Difference:\nAnswer: there is no blue vehicle existing the parking lot\n\nCurrent Question:\n{image#1}{image#2}Difference:<image> <image> ",
+        "gt_response": "the person walking is no longer there. the person under the umbrella is now in a different position",
+        "gen_kwargs": {
+            "do_sample": false,
+            "num_beams": 1,
+            "max_new_tokens": 32,
+            "eos_token_id": 92542
+        },
+        "pred_response": "The image on the right has a person walking up the stairs."
+    },
+    {
+        "sample_id": 147,
+        "question": "Example Question 1:\n<image> <image> {image#1}{image#2}Difference:\nAnswer: there is a person walking along cars in second picture\n\nExample Question 2:\n<image> <image> {image#1}{image#2}Difference:\nAnswer: the number of people in the parking lot has decreased. the location of the people in the parking lot has changed\n\nCurrent Question:\n{image#1}{image#2}Difference:<image> <image> ",
+        "gt_response": "there are people in the back now",
+        "gen_kwargs": {
+            "do_sample": false,
+            "num_beams": 1,
+            "max_new_tokens": 32,
+            "eos_token_id": 92542
+        },
+        "pred_response": "The second image has more people than the first image."
+    },
+    {
+        "sample_id": 148,
+        "question": "Example Question 1:\n<image> <image> {image#1}{image#2}Difference:\nAnswer: you can see a gray car a black car and a person walking in the after picture\n\nExample Question 2:\n<image> <image> {image#1}{image#2}Difference:\nAnswer: the guy in the red shirt in the middle of the picture has his his head up in the before picture and in the after picture his head is looking down\n\nCurrent Question:\n{image#1}{image#2}Difference:<image> <image> ",
+        "gt_response": "the person in the bike is not there anymore. the people by the car are not there anymore",
+        "gen_kwargs": {
+            "do_sample": false,
+            "num_beams": 1,
+            "max_new_tokens": 32,
+            "eos_token_id": 92542
+        },
+        "pred_response": "The bicyclist is missing in the second image."
+    },
+    {
+        "sample_id": 149,
+        "question": "Example Question 1:\n<image> <image> {image#1}{image#2}Difference:\nAnswer: the person is no longer near the blue truck. the person pulling a wagon is gone\n\nExample Question 2:\n<image> <image> {image#1}{image#2}Difference:\nAnswer: the picture on the right has a dark colored vehicle driving in middle lane and the left does not\n\nCurrent Question:\n{image#1}{image#2}Difference:<image> <image> ",
+        "gt_response": "the person near the umbrella is not there anymore",
+        "gen_kwargs": {
+            "do_sample": false,
+            "num_beams": 1,
+            "max_new_tokens": 32,
+            "eos_token_id": 92542
+        },
+        "pred_response": "The person sitting down has changed positions."
+    },
+    {
+        "sample_id": 150,
+        "question": "Example Question 1:\n<image> <image> {image#1}{image#2}Difference:\nAnswer: 4 people on the left. 4 people on the right and one person pushing something away on the right\n\nExample Question 2:\n<image> <image> {image#1}{image#2}Difference:\nAnswer: the picture on the right has two people standing by the car while the one on the left there are three people by the sidewalk and one by the car\n\nCurrent Question:\n{image#1}{image#2}Difference:<image> <image> ",
+        "gt_response": "the people walking have moved",
+        "gen_kwargs": {
+            "do_sample": false,
+            "num_beams": 1,
+            "max_new_tokens": 32,
+            "eos_token_id": 92542
+        },
+        "pred_response": "The two people walking in the first image are not present in the second image."
+    },
+    {
+        "sample_id": 151,
+        "question": "Example Question 1:\n<image> <image> {image#1}{image#2}Difference:\nAnswer: after image shows a total of four people in the lot as opposed to none in the before image\n\nExample Question 2:\n<image> <image> {image#1}{image#2}Difference:\nAnswer: the person on the stairs on the bottom is no longer there\n\nCurrent Question:\n{image#1}{image#2}Difference:<image> <image> ",
+        "gt_response": "girl sitting far left bottom before not after. two men walking by tables before not after. people near top of stairs before not after. people near bottom of stairs after not before. different people walking around",
+        "gen_kwargs": {
+            "do_sample": false,
+            "num_beams": 1,
+            "max_new_tokens": 32,
+            "eos_token_id": 92542
+        },
+        "pred_response": "Difference:"
+    },
+    {
+        "sample_id": 152,
+        "question": "Example Question 1:\n<image> <image> {image#1}{image#2}Difference:\nAnswer: there are no people\n\nExample Question 2:\n<image> <image> {image#1}{image#2}Difference:\nAnswer: the blue car has pulled out of the parking spot and is leaving the parking lot\n\nCurrent Question:\n{image#1}{image#2}Difference:<image> <image> ",
+        "gt_response": "the people on the stairs are not there anymore",
+        "gen_kwargs": {
+            "do_sample": false,
+            "num_beams": 1,
+            "max_new_tokens": 32,
+            "eos_token_id": 92542
+        },
+        "pred_response": "The left image has more people than the right image."
+    },
+    {
+        "sample_id": 153,
+        "question": "Example Question 1:\n<image> <image> {image#1}{image#2}Difference:\nAnswer: the person in white dragging something is no longer there. there is now a grey car next to the red car\n\nExample Question 2:\n<image> <image> {image#1}{image#2}Difference:\nAnswer: there is a car in the after image that is not present in the first photo. there is extra people in the after photo that are not present in the first\n\nCurrent Question:\n{image#1}{image#2}Difference:<image> <image> ",
+        "gt_response": "the person near the umbrellas is not there anymore",
+        "gen_kwargs": {
+            "do_sample": false,
+            "num_beams": 1,
+            "max_new_tokens": 32,
+            "eos_token_id": 92542
+        },
+        "pred_response": "The left image has a person on the stairs, while the right image does not."
+    },
+    {
+        "sample_id": 154,
+        "question": "Example Question 1:\n<image> <image> {image#1}{image#2}Difference:\nAnswer: the blue truck in the street is no longer there\n\nExample Question 2:\n<image> <image> {image#1}{image#2}Difference:\nAnswer: girl sitting far left bottom before not after. two men walking by tables before not after. people near top of stairs before not after. people near bottom of stairs after not before. different people walking around\n\nCurrent Question:\n{image#1}{image#2}Difference:<image> <image> ",
+        "gt_response": "there is no people on the left",
+        "gen_kwargs": {
+            "do_sample": false,
+            "num_beams": 1,
+            "max_new_tokens": 32,
+            "eos_token_id": 92542
+        },
+        "pred_response": "The image captures a vibrant outdoor seating area adjacent to a modern building, with a backdrop of lush green hills. The scene is populated with multiple red umbrellas"
+    },
+    {
+        "sample_id": 155,
+        "question": "Example Question 1:\n<image> <image> {image#1}{image#2}Difference:\nAnswer: the man on his bike is not there anymore. there are people walking now\n\nExample Question 2:\n<image> <image> {image#1}{image#2}Difference:\nAnswer: addition of individuals moving across pavement to and fro\n\nCurrent Question:\n{image#1}{image#2}Difference:<image> <image> ",
+        "gt_response": "two pepole where walking now there not there anymore",
+        "gen_kwargs": {
+            "do_sample": false,
+            "num_beams": 1,
+            "max_new_tokens": 32,
+            "eos_token_id": 92542
+        },
+        "pred_response": "The main difference between the two images is the presence of people in the second image. In the first image, there are no people, while in the second image"
+    },
+    {
+        "sample_id": 156,
+        "question": "Example Question 1:\n<image> <image> {image#1}{image#2}Difference:\nAnswer: person in before image not in the after image\n\nExample Question 2:\n<image> <image> {image#1}{image#2}Difference:\nAnswer: there is a person walking along cars in second picture\n\nCurrent Question:\n{image#1}{image#2}Difference:<image> <image> ",
+        "gt_response": "the man leaning against the light pole near the open red umbrellas is gone. the person sitting at the table is in a different position",
+        "gen_kwargs": {
+            "do_sample": false,
+            "num_beams": 1,
+            "max_new_tokens": 32,
+            "eos_token_id": 92542
+        },
+        "pred_response": "Difference:"
+    },
+    {
+        "sample_id": 157,
+        "question": "Example Question 1:\n<image> <image> {image#1}{image#2}Difference:\nAnswer: the bluie truck appears to be backing out. there is a person near the car in the upper right corner. there is no person on the sidewalk near the pink building\n\nExample Question 2:\n<image> <image> {image#1}{image#2}Difference:\nAnswer: person is missing from tjis image\n\nCurrent Question:\n{image#1}{image#2}Difference:<image> <image> ",
+        "gt_response": "there is a bus in the after image",
+        "gen_kwargs": {
+            "do_sample": false,
+            "num_beams": 1,
+            "max_new_tokens": 32,
+            "eos_token_id": 92542
+        },
+        "pred_response": "The second image has a bus in it."
+    },
+    {
+        "sample_id": 158,
+        "question": "Example Question 1:\n<image> <image> {image#1}{image#2}Difference:\nAnswer: there is a pick up truck in the lot\n\nExample Question 2:\n<image> <image> {image#1}{image#2}Difference:\nAnswer: the bluie truck appears to be backing out. there is a person near the car in the upper right corner. there is no person on the sidewalk near the pink building\n\nCurrent Question:\n{image#1}{image#2}Difference:<image> <image> ",
+        "gt_response": "the person sitting at the table is in a different position. the person at the top of the stairs is gone. there are 2 people in front of the building with the blue windows",
+        "gen_kwargs": {
+            "do_sample": false,
+            "num_beams": 1,
+            "max_new_tokens": 32,
+            "eos_token_id": 92542
+        },
+        "pred_response": "The person sitting down has changed positions."
+    },
+    {
+        "sample_id": 159,
+        "question": "Example Question 1:\n<image> <image> {image#1}{image#2}Difference:\nAnswer: two person in the bottom third of the photo have left the screen. one person is walking across the parking lot mid screen right to left\n\nExample Question 2:\n<image> <image> {image#1}{image#2}Difference:\nAnswer: white van in left photo as opposed to the black car in the right photo with white truck\n\nCurrent Question:\n{image#1}{image#2}Difference:<image> <image> ",
+        "gt_response": "person in before image not in the after image",
+        "gen_kwargs": {
+            "do_sample": false,
+            "num_beams": 1,
+            "max_new_tokens": 32,
+            "eos_token_id": 92542
+        },
+        "pred_response": "The image on the right has more people than the image on the left."
+    },
+    {
+        "sample_id": 160,
+        "question": "Example Question 1:\n<image> <image> {image#1}{image#2}Difference:\nAnswer: the person is no longer near the blue truck. the person pulling a wagon is gone\n\nExample Question 2:\n<image> <image> {image#1}{image#2}Difference:\nAnswer: the red car is not there anymore. there is another red car there now in the middle\n\nCurrent Question:\n{image#1}{image#2}Difference:<image> <image> ",
+        "gt_response": "the white truck on the far end at the top of the picture has moved slightly",
+        "gen_kwargs": {
+            "do_sample": false,
+            "num_beams": 1,
+            "max_new_tokens": 32,
+            "eos_token_id": 92542
+        },
+        "pred_response": "Difference:"
+    },
+    {
+        "sample_id": 161,
+        "question": "Example Question 1:\n<image> <image> {image#1}{image#2}Difference:\nAnswer: there are people at the bottom of the staircase\n\nExample Question 2:\n<image> <image> {image#1}{image#2}Difference:\nAnswer: there is a person walking along cars in second picture\n\nCurrent Question:\n{image#1}{image#2}Difference:<image> <image> ",
+        "gt_response": "a man at the far right gone. a man walking in the parking lot",
+        "gen_kwargs": {
+            "do_sample": false,
+            "num_beams": 1,
+            "max_new_tokens": 32,
+            "eos_token_id": 92542
+        },
+        "pred_response": "The left image has a person walking in the parking lot, while the right image does not."
+    },
+    {
+        "sample_id": 162,
+        "question": "Example Question 1:\n<image> <image> {image#1}{image#2}Difference:\nAnswer: there is more people. there is less umbrellas\n\nExample Question 2:\n<image> <image> {image#1}{image#2}Difference:\nAnswer: the person waiting at the crosswalk is no longer in picture. the person on the sidewalk wearing red is no longer in picture. the white truck and black sedan are no longer in picture. there is a group of 3 people on the sidewalk. there is a white van on the road\n\nCurrent Question:\n{image#1}{image#2}Difference:<image> <image> ",
+        "gt_response": "traffic has changed in the picture leaving a clearing on the right",
+        "gen_kwargs": {
+            "do_sample": false,
+            "num_beams": 1,
+            "max_new_tokens": 32,
+            "eos_token_id": 92542
+        },
+        "pred_response": "The left image has more cars than the right image."
+    },
+    {
+        "sample_id": 163,
+        "question": "Example Question 1:\n<image> <image> {image#1}{image#2}Difference:\nAnswer: the white car is no longer entering the parking lot. the person leaving the parking lot is no longer there. the two people standing by the car have changed positions\n\nExample Question 2:\n<image> <image> {image#1}{image#2}Difference:\nAnswer: in the first picture there are people walking on the side walking further left in the picture. in picture two there is someone standing on the sidewalk that is in front of the parked cars. there is also a car driving down the street left to right\n\nCurrent Question:\n{image#1}{image#2}Difference:<image> <image> ",
+        "gt_response": "there is a man in a red shirt on the sidewalk in photo 1. there are three people on the sidewalk in photo 2",
+        "gen_kwargs": {
+            "do_sample": false,
+            "num_beams": 1,
+            "max_new_tokens": 32,
+            "eos_token_id": 92542
+        },
+        "pred_response": "The person walking in the parking lot is gone."
+    },
+    {
+        "sample_id": 164,
+        "question": "Example Question 1:\n<image> <image> {image#1}{image#2}Difference:\nAnswer: person walking on sidewalk\n\nExample Question 2:\n<image> <image> {image#1}{image#2}Difference:\nAnswer: the blue truck is now in the lot\n\nCurrent Question:\n{image#1}{image#2}Difference:<image> <image> ",
+        "gt_response": "the car and truck on the road in the left photo are absent in the right photo",
+        "gen_kwargs": {
+            "do_sample": false,
+            "num_beams": 1,
+            "max_new_tokens": 32,
+            "eos_token_id": 92542
+        },
+        "pred_response": "The left image has a truck in the parking lot, while the right image does not."
+    },
+    {
+        "sample_id": 165,
+        "question": "Example Question 1:\n<image> <image> {image#1}{image#2}Difference:\nAnswer: the blue car has pulled out of the parking spot and is leaving the parking lot\n\nExample Question 2:\n<image> <image> {image#1}{image#2}Difference:\nAnswer: the right hand image a car has appeared in the car park\n\nCurrent Question:\n{image#1}{image#2}Difference:<image> <image> ",
+        "gt_response": "the person waiting at the crosswalk is no longer in picture. the person on the sidewalk wearing red is no longer in picture. the white truck and black sedan are no longer in picture. there is a group of 3 people on the sidewalk. there is a white van on the road",
+        "gen_kwargs": {
+            "do_sample": false,
+            "num_beams": 1,
+            "max_new_tokens": 32,
+            "eos_token_id": 92542
+        },
+        "pred_response": "The left image has more cars than the right image."
+    },
+    {
+        "sample_id": 166,
+        "question": "Example Question 1:\n<image> <image> {image#1}{image#2}Difference:\nAnswer: the white truck on the far end at the top of the picture has moved slightly\n\nExample Question 2:\n<image> <image> {image#1}{image#2}Difference:\nAnswer: the people on the stairs are not there anymore\n\nCurrent Question:\n{image#1}{image#2}Difference:<image> <image> ",
+        "gt_response": "there is a person by a white car in the lot. there is only one person by the red car in the lot. there is a person walking in the grass. there is a parked car in the road. there is a person by the parked car. there is one white car in the road. there are no dark cars in the road",
+        "gen_kwargs": {
+            "do_sample": false,
+            "num_beams": 1,
+            "max_new_tokens": 32,
+            "eos_token_id": 92542
+        },
+        "pred_response": "The left image has a person walking in the parking lot, while the right image does not have a person walking in the parking lot."
+    },
+    {
+        "sample_id": 167,
+        "question": "Example Question 1:\n<image> <image> {image#1}{image#2}Difference:\nAnswer: the picture on the right has a dark colored vehicle driving in middle lane and the left does not\n\nExample Question 2:\n<image> <image> {image#1}{image#2}Difference:\nAnswer: traffic has changed in the picture leaving a clearing on the right\n\nCurrent Question:\n{image#1}{image#2}Difference:<image> <image> ",
+        "gt_response": "there is a person walking in the parking lot on the far side in the after pic that is not in the before pic. there is a white car in the center parking spaces beside a grey one in the before pic that is not in the after pic. there is a silver car entering lot in the before pic that is not in the after pic. there is a utility truck and a car on the side street in the before pic that is not in the after pic",
+        "gen_kwargs": {
+            "do_sample": false,
+            "num_beams": 1,
+            "max_new_tokens": 32,
+            "eos_token_id": 92542
+        },
+        "pred_response": "The left image has a person walking in the parking lot, while the right image does not."
+    },
+    {
+        "sample_id": 168,
+        "question": "Example Question 1:\n<image> <image> {image#1}{image#2}Difference:\nAnswer: two people by tables\n\nExample Question 2:\n<image> <image> {image#1}{image#2}Difference:\nAnswer: the before image has a person entering a car. the after image doesn t have that person entering the car but has a person walking across the parking lot\n\nCurrent Question:\n{image#1}{image#2}Difference:<image> <image> ",
+        "gt_response": "white van in left photo as opposed to the black car in the right photo with white truck",
+        "gen_kwargs": {
+            "do_sample": false,
+            "num_beams": 1,
+            "max_new_tokens": 32,
+            "eos_token_id": 92542
+        },
+        "pred_response": "The left image has a car in the roadway, while the right image does not."
+    },
+    {
+        "sample_id": 169,
+        "question": "Example Question 1:\n<image> <image> {image#1}{image#2}Difference:\nAnswer: two pepole where walking now there not there anymore\n\nExample Question 2:\n<image> <image> {image#1}{image#2}Difference:\nAnswer: there are 4 people now standing on the sidewalk\n\nCurrent Question:\n{image#1}{image#2}Difference:<image> <image> ",
+        "gt_response": "the white car is no longer entering the parking lot. the person leaving the parking lot is no longer there. the two people standing by the car have changed positions",
+        "gen_kwargs": {
+            "do_sample": false,
+            "num_beams": 1,
+            "max_new_tokens": 32,
+            "eos_token_id": 92542
+        },
+        "pred_response": "The left image has a car in the roadway, while the right image does not."
+    },
+    {
+        "sample_id": 170,
+        "question": "Example Question 1:\n<image> <image> {image#1}{image#2}Difference:\nAnswer: van leaving not in parking lot\n\nExample Question 2:\n<image> <image> {image#1}{image#2}Difference:\nAnswer: the blue truck in the upper right is gone in the after image\n\nCurrent Question:\n{image#1}{image#2}Difference:<image> <image> ",
+        "gt_response": "the right image displays 2 cars parked in the parking lot that wasn t there before. also there are two cars driving in opposite directions on the picture to the right that is not in the left. finally there are 2 people walking away from the camera on the right that were not there on the left",
+        "gen_kwargs": {
+            "do_sample": false,
+            "num_beams": 1,
+            "max_new_tokens": 32,
+            "eos_token_id": 92542
+        },
+        "pred_response": "The left image has a car in the parking lot, while the right image does not."
+    },
+    {
+        "sample_id": 171,
+        "question": "Example Question 1:\n<image> <image> {image#1}{image#2}Difference:\nAnswer: the grey car is pulling into the lot\n\nExample Question 2:\n<image> <image> {image#1}{image#2}Difference:\nAnswer: white truck on the road. one person walking in parking lot\n\nCurrent Question:\n{image#1}{image#2}Difference:<image> <image> ",
+        "gt_response": "the two girls seem to be closer to the doors as if they walked backwards",
+        "gen_kwargs": {
+            "do_sample": false,
+            "num_beams": 1,
+            "max_new_tokens": 32,
+            "eos_token_id": 92542
+        },
+        "pred_response": "The image captures a serene outdoor scene at a university or college campus, where two individuals are walking across a paved area. The setting is characterized by a"
+    },
+    {
+        "sample_id": 172,
+        "question": "Example Question 1:\n<image> <image> {image#1}{image#2}Difference:\nAnswer: there is a person walking in the parking lot on the far side in the after pic that is not in the before pic. there is a white car in the center parking spaces beside a grey one in the before pic that is not in the after pic. there is a silver car entering lot in the before pic that is not in the after pic. there is a utility truck and a car on the side street in the before pic that is not in the after pic\n\nExample Question 2:\n<image> <image> {image#1}{image#2}Difference:\nAnswer: the man in a white shirt is gone. the blue and red man are farther apart from each other\n\nCurrent Question:\n{image#1}{image#2}Difference:<image> <image> ",
+        "gt_response": "school bus at stop sign",
+        "gen_kwargs": {
+            "do_sample": false,
+            "num_beams": 1,
+            "max_new_tokens": 32,
+            "eos_token_id": 92542
+        },
+        "pred_response": "The second image has a bus in it, which is not present in the first image."
+    },
+    {
+        "sample_id": 173,
+        "question": "Example Question 1:\n<image> <image> {image#1}{image#2}Difference:\nAnswer: there is more people. there is less umbrellas\n\nExample Question 2:\n<image> <image> {image#1}{image#2}Difference:\nAnswer: the people moved locations. there is one less person\n\nCurrent Question:\n{image#1}{image#2}Difference:<image> <image> ",
+        "gt_response": "the woman on the left slightly moved to the right on the after picture. the two people are moved slightly backward in the after picture",
+        "gen_kwargs": {
+            "do_sample": false,
+            "num_beams": 1,
+            "max_new_tokens": 32,
+            "eos_token_id": 92542
+        },
+        "pred_response": "The left image has more people than the right image."
+    },
+    {
+        "sample_id": 174,
+        "question": "Example Question 1:\n<image> <image> {image#1}{image#2}Difference:\nAnswer: go ave form car parking\n\nExample Question 2:\n<image> <image> {image#1}{image#2}Difference:\nAnswer: two people standing towards the back of the lot. there are no longer three peopke but two with one person walking up to them. person in the corner is no longer there\n\nCurrent Question:\n{image#1}{image#2}Difference:<image> <image> ",
+        "gt_response": "there are no cars on the road in photo 1. there is a pick up van on the road in photo 2",
+        "gen_kwargs": {
+            "do_sample": false,
+            "num_beams": 1,
+            "max_new_tokens": 32,
+            "eos_token_id": 92542
+        },
+        "pred_response": "The left image has a white truck in the parking lot, while the right image does not have a white truck in the parking lot."
+    },
+    {
+        "sample_id": 175,
+        "question": "Example Question 1:\n<image> <image> {image#1}{image#2}Difference:\nAnswer: a blue truck is parked in the parking lot\n\nExample Question 2:\n<image> <image> {image#1}{image#2}Difference:\nAnswer: two of the people by the yellow poles moved to the right center. there is now a third person\n\nCurrent Question:\n{image#1}{image#2}Difference:<image> <image> ",
+        "gt_response": "there are more cars in the parking lot. the people in the parking lot are in different positions. the white car and dark car behind it are no longer on the road",
+        "gen_kwargs": {
+            "do_sample": false,
+            "num_beams": 1,
+            "max_new_tokens": 32,
+            "eos_token_id": 92542
+        },
+        "pred_response": "The left image has a car in the middle of the parking lot, while the right image does not."
+    },
+    {
+        "sample_id": 176,
+        "question": "Example Question 1:\n<image> <image> {image#1}{image#2}Difference:\nAnswer: a person is walking down the walkway between the two buildings at the top of the frame. people are descending the stairs on the right hand side of the staircase. the person at the table has straightened their posture. there is a person in a white top that is walking near the building in the upper right near the building\n\nExample Question 2:\n<image> <image> {image#1}{image#2}Difference:\nAnswer: there is a car in the after image that is not present in the first photo. there is extra people in the after photo that are not present in the first\n\nCurrent Question:\n{image#1}{image#2}Difference:<image> <image> ",
+        "gt_response": "there is a person in a red long coat next to the red van at the top of the parking lot",
+        "gen_kwargs": {
+            "do_sample": false,
+            "num_beams": 1,
+            "max_new_tokens": 32,
+            "eos_token_id": 92542
+        },
+        "pred_response": "The left image has a person walking in the parking lot, while the right image does not."
+    },
+    {
+        "sample_id": 177,
+        "question": "Example Question 1:\n<image> <image> {image#1}{image#2}Difference:\nAnswer: the blue truck is now in the lot\n\nExample Question 2:\n<image> <image> {image#1}{image#2}Difference:\nAnswer: the picture on the right has a dark colored vehicle driving in middle lane and the left does not\n\nCurrent Question:\n{image#1}{image#2}Difference:<image> <image> ",
+        "gt_response": "four people are visible near the parking lot",
+        "gen_kwargs": {
+            "do_sample": false,
+            "num_beams": 1,
+            "max_new_tokens": 32,
+            "eos_token_id": 92542
+        },
+        "pred_response": "The left image has more people than the right image."
+    },
+    {
+        "sample_id": 178,
+        "question": "Example Question 1:\n<image> <image> {image#1}{image#2}Difference:\nAnswer: a person is walking down the walkway between the two buildings at the top of the frame. people are descending the stairs on the right hand side of the staircase. the person at the table has straightened their posture. there is a person in a white top that is walking near the building in the upper right near the building\n\nExample Question 2:\n<image> <image> {image#1}{image#2}Difference:\nAnswer: two people by tables\n\nCurrent Question:\n{image#1}{image#2}Difference:<image> <image> ",
+        "gt_response": "the grey car has left the car park and has turned right. the person waiting to cross the road in the middle of the picture has gone",
+        "gen_kwargs": {
+            "do_sample": false,
+            "num_beams": 1,
+            "max_new_tokens": 32,
+            "eos_token_id": 92542
+        },
+        "pred_response": "The car is not in the parking lot."
+    },
+    {
+        "sample_id": 179,
+        "question": "Example Question 1:\n<image> <image> {image#1}{image#2}Difference:\nAnswer: the first picture dosent have a car driving toward the stop sign\n\nExample Question 2:\n<image> <image> {image#1}{image#2}Difference:\nAnswer: two people are standing next to the yellow concrete pillars\n\nCurrent Question:\n{image#1}{image#2}Difference:<image> <image> ",
+        "gt_response": "there are several people visible in the distance in the upper right. the person under the umbrella in the center has moved",
+        "gen_kwargs": {
+            "do_sample": false,
+            "num_beams": 1,
+            "max_new_tokens": 32,
+            "eos_token_id": 92542
+        },
+        "pred_response": "The second image has a person on the stairs, while the first image does not."
+    },
+    {
+        "sample_id": 180,
+        "question": "Example Question 1:\n<image> <image> {image#1}{image#2}Difference:\nAnswer: the person on the stairs on the bottom is no longer there\n\nExample Question 2:\n<image> <image> {image#1}{image#2}Difference:\nAnswer: the picture on the right has a dark colored vehicle driving in middle lane and the left does not\n\nCurrent Question:\n{image#1}{image#2}Difference:<image> <image> ",
+        "gt_response": "the car parallel parked in front of the parked cars has reversed a few feet. there is a person possibly 2 at the crosswalk at the entrance",
+        "gen_kwargs": {
+            "do_sample": false,
+            "num_beams": 1,
+            "max_new_tokens": 32,
+            "eos_token_id": 92542
+        },
+        "pred_response": "The person walking in the parking lot is gone."
+    },
+    {
+        "sample_id": 181,
+        "question": "Example Question 1:\n<image> <image> {image#1}{image#2}Difference:\nAnswer: the bluie truck appears to be backing out. there is a person near the car in the upper right corner. there is no person on the sidewalk near the pink building\n\nExample Question 2:\n<image> <image> {image#1}{image#2}Difference:\nAnswer: white truck on the road. one person walking in parking lot\n\nCurrent Question:\n{image#1}{image#2}Difference:<image> <image> ",
+        "gt_response": "there is a car turning into the parking lot. there is a blue car in the middle right",
+        "gen_kwargs": {
+            "do_sample": false,
+            "num_beams": 1,
+            "max_new_tokens": 32,
+            "eos_token_id": 92542
+        },
+        "pred_response": "The blue truck is gone."
+    },
+    {
+        "sample_id": 182,
+        "question": "Example Question 1:\n<image> <image> {image#1}{image#2}Difference:\nAnswer: the people walking are not in the same place in the after picture\n\nExample Question 2:\n<image> <image> {image#1}{image#2}Difference:\nAnswer: the right hand image a car has appeared in the car park\n\nCurrent Question:\n{image#1}{image#2}Difference:<image> <image> ",
+        "gt_response": "the silver car has exited the scene",
+        "gen_kwargs": {
+            "do_sample": false,
+            "num_beams": 1,
+            "max_new_tokens": 32,
+            "eos_token_id": 92542
+        },
+        "pred_response": "The car is not in the same place in the after picture."
+    },
+    {
+        "sample_id": 183,
+        "question": "Example Question 1:\n<image> <image> {image#1}{image#2}Difference:\nAnswer: the person is no longer near the blue truck. the person pulling a wagon is gone\n\nExample Question 2:\n<image> <image> {image#1}{image#2}Difference:\nAnswer: there is no silver car pulling into the parking lot. there are people walking on the side walk along side the parking lot\n\nCurrent Question:\n{image#1}{image#2}Difference:<image> <image> ",
+        "gt_response": "the 2 people on the corner are in different positions in the pictures. the person walking by the white van is closer to the bottom of the picture in the after picture. the person on the right hand sidewalk by the silver van has moved further from the road",
+        "gen_kwargs": {
+            "do_sample": false,
+            "num_beams": 1,
+            "max_new_tokens": 32,
+            "eos_token_id": 92542
+        },
+        "pred_response": "The left image has a car that is not present in the right image."
+    },
+    {
+        "sample_id": 184,
+        "question": "Example Question 1:\n<image> <image> {image#1}{image#2}Difference:\nAnswer: there is a new car parked at the top of the screen with three people at it. the person on the sidewalk has left. there is a man on the corner of the after image walking in the road\n\nExample Question 2:\n<image> <image> {image#1}{image#2}Difference:\nAnswer: the pedestrians seen near the top of the image are gone but there are two new groups of pedestrians one group of two to the right of the image and two near the bottom on the image\n\nCurrent Question:\n{image#1}{image#2}Difference:<image> <image> ",
+        "gt_response": "in the right picture people are more around the yellow pillars while on the left they stand on the sidewalk",
+        "gen_kwargs": {
+            "do_sample": false,
+            "num_beams": 1,
+            "max_new_tokens": 32,
+            "eos_token_id": 92542
+        },
+        "pred_response": "The two images are the same."
+    },
+    {
+        "sample_id": 185,
+        "question": "Example Question 1:\n<image> <image> {image#1}{image#2}Difference:\nAnswer: a gray truck is missing from the top left of the photo. a gray truck is parked in the middle of the left row of parking spaces\n\nExample Question 2:\n<image> <image> {image#1}{image#2}Difference:\nAnswer: person is missing from tjis image\n\nCurrent Question:\n{image#1}{image#2}Difference:<image> <image> ",
+        "gt_response": "a red car is visible. a black car is visible. a person in white is no longer visible. a person is red is visible",
+        "gen_kwargs": {
+            "do_sample": false,
+            "num_beams": 1,
+            "max_new_tokens": 32,
+            "eos_token_id": 92542
+        },
+        "pred_response": "The left image has a person walking in the crosswalk, while the right image does not."
+    },
+    {
+        "sample_id": 186,
+        "question": "Example Question 1:\n<image> <image> {image#1}{image#2}Difference:\nAnswer: the silver car at the intersection is gone. the black car behind the silver car is gone\n\nExample Question 2:\n<image> <image> {image#1}{image#2}Difference:\nAnswer: there are no people\n\nCurrent Question:\n{image#1}{image#2}Difference:<image> <image> ",
+        "gt_response": "2 people walking under lamp. no one walking ahead in photo now",
+        "gen_kwargs": {
+            "do_sample": false,
+            "num_beams": 1,
+            "max_new_tokens": 32,
+            "eos_token_id": 92542
+        },
+        "pred_response": "The two people walking in the second image are not present in the first image."
+    },
+    {
+        "sample_id": 187,
+        "question": "Example Question 1:\n<image> <image> {image#1}{image#2}Difference:\nAnswer: the right photo contains 4 additional people\n\nExample Question 2:\n<image> <image> {image#1}{image#2}Difference:\nAnswer: there are three guys staying in the parking lot\n\nCurrent Question:\n{image#1}{image#2}Difference:<image> <image> ",
+        "gt_response": "four people in the image have left. the person approaching the camera is closer",
+        "gen_kwargs": {
+            "do_sample": false,
+            "num_beams": 1,
+            "max_new_tokens": 32,
+            "eos_token_id": 92542
+        },
+        "pred_response": "The left image has more people than the right image."
+    },
+    {
+        "sample_id": 188,
+        "question": "Example Question 1:\n<image> <image> {image#1}{image#2}Difference:\nAnswer: the red car is not there anymore. there is another red car there now in the middle\n\nExample Question 2:\n<image> <image> {image#1}{image#2}Difference:\nAnswer: the car on driving on the bottom of the left image is no present in the right image. there is a car on the top of the righ image that is not present in the left image\n\nCurrent Question:\n{image#1}{image#2}Difference:<image> <image> ",
+        "gt_response": "there is three people in the right im on the sidewalk. there is now people on the lower side of the image that were not there on the before picture",
+        "gen_kwargs": {
+            "do_sample": false,
+            "num_beams": 1,
+            "max_new_tokens": 32,
+            "eos_token_id": 92542
+        },
+        "pred_response": "The number of people in the parking lot has increased."
+    },
+    {
+        "sample_id": 189,
+        "question": "Example Question 1:\n<image> <image> {image#1}{image#2}Difference:\nAnswer: four people in the image have left. the person approaching the camera is closer\n\nExample Question 2:\n<image> <image> {image#1}{image#2}Difference:\nAnswer: there is no people on the left\n\nCurrent Question:\n{image#1}{image#2}Difference:<image> <image> ",
+        "gt_response": "was 7 people in parking lot. now only 5",
+        "gen_kwargs": {
+            "do_sample": false,
+            "num_beams": 1,
+            "max_new_tokens": 32,
+            "eos_token_id": 92542
+        },
+        "pred_response": "The left image has more people than the right image."
+    },
+    {
+        "sample_id": 190,
+        "question": "Example Question 1:\n<image> <image> {image#1}{image#2}Difference:\nAnswer: there are more cars in the parking lot. the people in the parking lot are in different positions. the white car and dark car behind it are no longer on the road\n\nExample Question 2:\n<image> <image> {image#1}{image#2}Difference:\nAnswer: the man in a white shirt is gone. the blue and red man are farther apart from each other\n\nCurrent Question:\n{image#1}{image#2}Difference:<image> <image> ",
+        "gt_response": "the people in the lot have moved slightly and a car in the spot has left",
+        "gen_kwargs": {
+            "do_sample": false,
+            "num_beams": 1,
+            "max_new_tokens": 32,
+            "eos_token_id": 92542
+        },
+        "pred_response": "The car is gone."
+    },
+    {
+        "sample_id": 191,
+        "question": "Example Question 1:\n<image> <image> {image#1}{image#2}Difference:\nAnswer: there is no silver car pulling into the parking lot. there are people walking on the side walk along side the parking lot\n\nExample Question 2:\n<image> <image> {image#1}{image#2}Difference:\nAnswer: in the after image there is a vehicle and an additional person in the lot\n\nCurrent Question:\n{image#1}{image#2}Difference:<image> <image> ",
+        "gt_response": "there are lots of people walking on the stairs",
+        "gen_kwargs": {
+            "do_sample": false,
+            "num_beams": 1,
+            "max_new_tokens": 32,
+            "eos_token_id": 92542
+        },
+        "pred_response": "The left image has more people than the right image."
+    },
+    {
+        "sample_id": 192,
+        "question": "Example Question 1:\n<image> <image> {image#1}{image#2}Difference:\nAnswer: the people walking are not in the same place in the after picture\n\nExample Question 2:\n<image> <image> {image#1}{image#2}Difference:\nAnswer: there is three people in the right im on the sidewalk. there is now people on the lower side of the image that were not there on the before picture\n\nCurrent Question:\n{image#1}{image#2}Difference:<image> <image> ",
+        "gt_response": "there is no blue vehicle existing the parking lot",
+        "gen_kwargs": {
+            "do_sample": false,
+            "num_beams": 1,
+            "max_new_tokens": 32,
+            "eos_token_id": 92542
+        },
+        "pred_response": "The blue truck is gone."
+    },
+    {
+        "sample_id": 193,
+        "question": "Example Question 1:\n<image> <image> {image#1}{image#2}Difference:\nAnswer: the man leaning against the light pole near the open red umbrellas is gone. the person sitting at the table is in a different position\n\nExample Question 2:\n<image> <image> {image#1}{image#2}Difference:\nAnswer: two person in the bottom third of the photo have left the screen. one person is walking across the parking lot mid screen right to left\n\nCurrent Question:\n{image#1}{image#2}Difference:<image> <image> ",
+        "gt_response": "the before image has a person entering a car. the after image doesn t have that person entering the car but has a person walking across the parking lot",
+        "gen_kwargs": {
+            "do_sample": false,
+            "num_beams": 1,
+            "max_new_tokens": 32,
+            "eos_token_id": 92542
+        },
+        "pred_response": "The blue truck is in a different place in the two images."
+    },
+    {
+        "sample_id": 194,
+        "question": "Example Question 1:\n<image> <image> {image#1}{image#2}Difference:\nAnswer: there is three people in the right im on the sidewalk. there is now people on the lower side of the image that were not there on the before picture\n\nExample Question 2:\n<image> <image> {image#1}{image#2}Difference:\nAnswer: the 2 people on the corner are in different positions in the pictures. the person walking by the white van is closer to the bottom of the picture in the after picture. the person on the right hand sidewalk by the silver van has moved further from the road\n\nCurrent Question:\n{image#1}{image#2}Difference:<image> <image> ",
+        "gt_response": "the blue truck in the lot has left",
+        "gen_kwargs": {
+            "do_sample": false,
+            "num_beams": 1,
+            "max_new_tokens": 32,
+            "eos_token_id": 92542
+        },
+        "pred_response": "The blue truck is gone."
+    },
+    {
+        "sample_id": 195,
+        "question": "Example Question 1:\n<image> <image> {image#1}{image#2}Difference:\nAnswer: there is a gray car in the parking lot\n\nExample Question 2:\n<image> <image> {image#1}{image#2}Difference:\nAnswer: blue truck pulling into spot. person standing by tree\n\nCurrent Question:\n{image#1}{image#2}Difference:<image> <image> ",
+        "gt_response": "the blue truck is now in the lot",
+        "gen_kwargs": {
+            "do_sample": false,
+            "num_beams": 1,
+            "max_new_tokens": 32,
+            "eos_token_id": 92542
+        },
+        "pred_response": "A blue truck is driving in the parking lot."
+    },
+    {
+        "sample_id": 196,
+        "question": "Example Question 1:\n<image> <image> {image#1}{image#2}Difference:\nAnswer: there is more people. there is less umbrellas\n\nExample Question 2:\n<image> <image> {image#1}{image#2}Difference:\nAnswer: the person under the umbrella is hunched more. the object in white is no longer there\n\nCurrent Question:\n{image#1}{image#2}Difference:<image> <image> ",
+        "gt_response": "the silver car in the before image is entering the place of business. the silver car in the after image is exiting the place of business",
+        "gen_kwargs": {
+            "do_sample": false,
+            "num_beams": 1,
+            "max_new_tokens": 32,
+            "eos_token_id": 92542
+        },
+        "pred_response": "The left image has a car in the parking lot, while the right image does not."
+    },
+    {
+        "sample_id": 197,
+        "question": "Example Question 1:\n<image> <image> {image#1}{image#2}Difference:\nAnswer: four people are visible near the parking lot\n\nExample Question 2:\n<image> <image> {image#1}{image#2}Difference:\nAnswer: the black car in front of the two parked cars is facing the opposite direction in the after image. there is not a person outside the black car in the after image\n\nCurrent Question:\n{image#1}{image#2}Difference:<image> <image> ",
+        "gt_response": "the man in a white shirt is gone. the blue and red man are farther apart from each other",
+        "gen_kwargs": {
+            "do_sample": false,
+            "num_beams": 1,
+            "max_new_tokens": 32,
+            "eos_token_id": 92542
+        },
+        "pred_response": "The number of people in the parking lot has increased."
+    },
+    {
+        "sample_id": 198,
+        "question": "Example Question 1:\n<image> <image> {image#1}{image#2}Difference:\nAnswer: the dark car in the middle of the lot has changed position slightly. there is now a person in a white shirt by the dark car\n\nExample Question 2:\n<image> <image> {image#1}{image#2}Difference:\nAnswer: the person sitting at the table is in a different position. the person at the top of the stairs is gone. there are 2 people in front of the building with the blue windows\n\nCurrent Question:\n{image#1}{image#2}Difference:<image> <image> ",
+        "gt_response": "the people walking up the stairs are different",
+        "gen_kwargs": {
+            "do_sample": false,
+            "num_beams": 1,
+            "max_new_tokens": 32,
+            "eos_token_id": 92542
+        },
+        "pred_response": "The person in the yellow shirt is in a different place."
+    },
+    {
+        "sample_id": 199,
+        "question": "Example Question 1:\n<image> <image> {image#1}{image#2}Difference:\nAnswer: the man leaning against the light pole near the open red umbrellas is gone. the person sitting at the table is in a different position\n\nExample Question 2:\n<image> <image> {image#1}{image#2}Difference:\nAnswer: the person on the stairs on the bottom is no longer there\n\nCurrent Question:\n{image#1}{image#2}Difference:<image> <image> ",
+        "gt_response": "the black car towards the middle left of the picture is gone. there is a car driving behind the box truck middle right",
+        "gen_kwargs": {
+            "do_sample": false,
+            "num_beams": 1,
+            "max_new_tokens": 32,
+            "eos_token_id": 92542
+        },
+        "pred_response": "The left image has a person walking in the parking lot, while the right image does not have a person walking in the parking lot."
+    }
+]

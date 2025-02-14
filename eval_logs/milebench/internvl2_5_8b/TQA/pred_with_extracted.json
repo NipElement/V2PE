@@ -77,32 +77,6 @@
         "result": 1
     },
     {
-        "sample_id": 100,
-        "question": "With a set of diagrams extracted from a textbook, your role is to answer the ensuing question correctly. You must choose your answer from the Choice List.\n<image><image><image>Question: Which label represents the mesosphere?\nChoice list: \nA. J\nB. M\nC. W\nD. P\nAnswer with the option's letter from the given choices directly.",
-        "gt_response": "m",
-        "gen_kwargs": {
-            "do_sample": false,
-            "num_beams": 1,
-            "max_new_tokens": 32,
-            "eos_token_id": 0
-        },
-        "pred_response": "a thermosphere mesosphere mesopause stratosphere troposphere",
-        "choice_list": [
-            "j",
-            "m",
-            "w",
-            "p"
-        ],
-        "image_quantity_level": "Few",
-        "image": [
-            "1068.png",
-            "1069.png",
-            "1070.png"
-        ],
-        "extracted": "B",
-        "result": 1
-    },
-    {
         "sample_id": 97,
         "question": "Using a selection of textbook diagrams, your task is to provide an accurate response to the subsequent query. You must choose your answer from the Choice List.\n<image><image><image><image>Question: Which label represents water?\nChoice list: \nA. K\nB. L\nC. D\nD. N\nAnswer with the option's letter from the given choices directly.",
         "gt_response": "l",
@@ -292,34 +266,6 @@
             "1103.png"
         ],
         "extracted": "C",
-        "result": 0
-    },
-    {
-        "sample_id": 115,
-        "question": "Given an assortment of diagrams from a textbook, please provide an accurate response to the next question. You must choose your answer from the Choice List.\n<image><image><image><image><image>Question: When is the winter solstice?\nChoice list: \nA. September 23\nB. 22-Dec\nC. June 22\nD. March 21\nAnswer with the option's letter from the given choices directly.",
-        "gt_response": "22 dec",
-        "gen_kwargs": {
-            "do_sample": false,
-            "num_beams": 1,
-            "max_new_tokens": 32,
-            "eos_token_id": 0
-        },
-        "pred_response": "b march 21",
-        "choice_list": [
-            "september 23",
-            "22 dec",
-            "june 22",
-            "march 21"
-        ],
-        "image_quantity_level": "Few",
-        "image": [
-            "1129.png",
-            "1130.png",
-            "1131.png",
-            "1132.png",
-            "1133.png"
-        ],
-        "extracted": "D",
         "result": 0
     },
     {
@@ -977,39 +923,29 @@
         "result": 0
     },
     {
-        "sample_id": 9,
-        "question": "Given a set of diagrams from a textbook, your responsibility is to provide a correct response to the next query. You must choose your answer from the Choice List.\n<image><image><image><image><image><image><image><image><image><image><image><image><image>Question: Which letter represents an acute leaf?\nChoice list: \nA. V\nB. L#\nC. U\nD. X\nAnswer with the option's letter from the given choices directly.",
-        "gt_response": "u",
+        "sample_id": 100,
+        "question": "With a set of diagrams extracted from a textbook, your role is to answer the ensuing question correctly. You must choose your answer from the Choice List.\n<image><image><image>Question: Which label represents the mesosphere?\nChoice list: \nA. J\nB. M\nC. W\nD. P\nAnswer with the option's letter from the given choices directly.",
+        "gt_response": "m",
         "gen_kwargs": {
             "do_sample": false,
             "num_beams": 1,
             "max_new_tokens": 32,
             "eos_token_id": 0
         },
-        "pred_response": "c",
+        "pred_response": "a thermosphere mesosphere mesopause stratosphere troposphere",
         "choice_list": [
-            "v",
-            "l#",
-            "u",
-            "x"
+            "j",
+            "m",
+            "w",
+            "p"
         ],
-        "image_quantity_level": "Medium",
+        "image_quantity_level": "Few",
         "image": [
-            "117.png",
-            "118.png",
-            "119.png",
-            "120.png",
-            "121.png",
-            "122.png",
-            "123.png",
-            "124.png",
-            "125.png",
-            "126.png",
-            "127.png",
-            "128.png",
-            "129.png"
+            "1068.png",
+            "1069.png",
+            "1070.png"
         ],
-        "extracted": "C",
+        "extracted": "B",
         "result": 1
     },
     {
@@ -1034,32 +970,6 @@
             "1071.png",
             "1072.png",
             "1073.png"
-        ],
-        "extracted": "B",
-        "result": 1
-    },
-    {
-        "sample_id": 102,
-        "question": "Given an assortment of diagrams from a textbook, please provide an accurate response to the next question. You must choose your answer from the Choice List.\n<image><image><image>Question: What is the innermost part of the sun called?\nChoice list: \nA. convection zone\nB. inner core\nC. subsurface flows\nD. photosphere\nAnswer with the option's letter from the given choices directly.",
-        "gt_response": "inner core",
-        "gen_kwargs": {
-            "do_sample": false,
-            "num_beams": 1,
-            "max_new_tokens": 32,
-            "eos_token_id": 0
-        },
-        "pred_response": "b",
-        "choice_list": [
-            "convection zone",
-            "inner core",
-            "subsurface flows",
-            "photosphere"
-        ],
-        "image_quantity_level": "Few",
-        "image": [
-            "1074.png",
-            "1075.png",
-            "1076.png"
         ],
         "extracted": "B",
         "result": 1
@@ -1173,6 +1083,34 @@
         "result": 0
     },
     {
+        "sample_id": 115,
+        "question": "Given an assortment of diagrams from a textbook, please provide an accurate response to the next question. You must choose your answer from the Choice List.\n<image><image><image><image><image>Question: When is the winter solstice?\nChoice list: \nA. September 23\nB. 22-Dec\nC. June 22\nD. March 21\nAnswer with the option's letter from the given choices directly.",
+        "gt_response": "22 dec",
+        "gen_kwargs": {
+            "do_sample": false,
+            "num_beams": 1,
+            "max_new_tokens": 32,
+            "eos_token_id": 0
+        },
+        "pred_response": "b march 21",
+        "choice_list": [
+            "september 23",
+            "22 dec",
+            "june 22",
+            "march 21"
+        ],
+        "image_quantity_level": "Few",
+        "image": [
+            "1129.png",
+            "1130.png",
+            "1131.png",
+            "1132.png",
+            "1133.png"
+        ],
+        "extracted": "D",
+        "result": 0
+    },
+    {
         "sample_id": 116,
         "question": "Using the textbook diagrams provided, your task is to correctly answer the ensuing query. You must choose your answer from the Choice List.\n<image><image><image><image><image>Question: What's the phenomenon that happens during winter and summer?\nChoice list: \nA. Solstice\nB. Equinox\nC. Hurricane\nD. Tornado\nAnswer with the option's letter from the given choices directly.",
         "gt_response": "solstice",
@@ -1227,62 +1165,6 @@
         ],
         "extracted": "A",
         "result": 0
-    },
-    {
-        "sample_id": 121,
-        "question": "Provided with a series of diagrams from a textbook, your responsibility is to correctly answer the following question. You must choose your answer from the Choice List.\n<image><image><image><image><image>Question: What part of the dermis secretes sebum?\nChoice list: \nA. Adipose tissue\nB. Hair root\nC. Arrector pili muscle\nD. Sebaceous gland\nAnswer with the option's letter from the given choices directly.",
-        "gt_response": "sebaceous gland",
-        "gen_kwargs": {
-            "do_sample": false,
-            "num_beams": 1,
-            "max_new_tokens": 32,
-            "eos_token_id": 0
-        },
-        "pred_response": "d    the diagram clearly shows the sebaceous gland located within the dermis which is responsible for secreting",
-        "choice_list": [
-            "adipose tissue",
-            "hair root",
-            "arrector pili muscle",
-            "sebaceous gland"
-        ],
-        "image_quantity_level": "Few",
-        "image": [
-            "1154.png",
-            "1155.png",
-            "1156.png",
-            "1157.png",
-            "1158.png"
-        ],
-        "extracted": "D",
-        "result": 1
-    },
-    {
-        "sample_id": 122,
-        "question": "Using the textbook diagrams provided, your task is to correctly answer the ensuing query. You must choose your answer from the Choice List.\n<image><image><image><image><image>Question: What lies below the hair follicle?\nChoice list: \nA. blood vessel\nB. epidermis\nC. fat\nD. sweat gland\nAnswer with the option's letter from the given choices directly.",
-        "gt_response": "fat",
-        "gen_kwargs": {
-            "do_sample": false,
-            "num_beams": 1,
-            "max_new_tokens": 32,
-            "eos_token_id": 0
-        },
-        "pred_response": "c ar",
-        "choice_list": [
-            "blood vessel",
-            "epidermis",
-            "fat",
-            "sweat gland"
-        ],
-        "image_quantity_level": "Few",
-        "image": [
-            "1159.png",
-            "1160.png",
-            "1161.png",
-            "1162.png",
-            "1163.png"
-        ],
-        "extracted": "C",
-        "result": 1
     },
     {
         "sample_id": 73,
@@ -1615,6 +1497,42 @@
         "result": 1
     },
     {
+        "sample_id": 9,
+        "question": "Given a set of diagrams from a textbook, your responsibility is to provide a correct response to the next query. You must choose your answer from the Choice List.\n<image><image><image><image><image><image><image><image><image><image><image><image><image>Question: Which letter represents an acute leaf?\nChoice list: \nA. V\nB. L#\nC. U\nD. X\nAnswer with the option's letter from the given choices directly.",
+        "gt_response": "u",
+        "gen_kwargs": {
+            "do_sample": false,
+            "num_beams": 1,
+            "max_new_tokens": 32,
+            "eos_token_id": 0
+        },
+        "pred_response": "c",
+        "choice_list": [
+            "v",
+            "l#",
+            "u",
+            "x"
+        ],
+        "image_quantity_level": "Medium",
+        "image": [
+            "117.png",
+            "118.png",
+            "119.png",
+            "120.png",
+            "121.png",
+            "122.png",
+            "123.png",
+            "124.png",
+            "125.png",
+            "126.png",
+            "127.png",
+            "128.png",
+            "129.png"
+        ],
+        "extracted": "C",
+        "result": 1
+    },
+    {
         "sample_id": 10,
         "question": "Given various diagrams sourced from a textbook, your duty is to accurately answer the subsequent question. You must choose your answer from the Choice List.\n<image><image><image><image><image><image><image><image><image><image><image><image><image>Question: Which letter represents the Pinnately compound?\nChoice list: \nA. R\nB. V\nC. U\nD. A\nAnswer with the option's letter from the given choices directly.",
         "gt_response": "v",
@@ -1903,73 +1821,27 @@
         "result": 0
     },
     {
-        "sample_id": 18,
-        "question": "Given a set of diagrams from a textbook, your responsibility is to provide a correct response to the next query. You must choose your answer from the Choice List.\n<image><image><image><image><image><image><image><image><image><image><image><image><image>Question: What is the part that connects a leaf to a branch?\nChoice list: \nA. petiole\nB. vein\nC. tip\nD. margin\nAnswer with the option's letter from the given choices directly.",
-        "gt_response": "petiole",
+        "sample_id": 102,
+        "question": "Given an assortment of diagrams from a textbook, please provide an accurate response to the next question. You must choose your answer from the Choice List.\n<image><image><image>Question: What is the innermost part of the sun called?\nChoice list: \nA. convection zone\nB. inner core\nC. subsurface flows\nD. photosphere\nAnswer with the option's letter from the given choices directly.",
+        "gt_response": "inner core",
         "gen_kwargs": {
             "do_sample": false,
             "num_beams": 1,
             "max_new_tokens": 32,
             "eos_token_id": 0
         },
-        "pred_response": "a bud",
+        "pred_response": "b",
         "choice_list": [
-            "petiole",
-            "vein",
-            "tip",
-            "margin"
+            "convection zone",
+            "inner core",
+            "subsurface flows",
+            "photosphere"
         ],
-        "image_quantity_level": "Medium",
+        "image_quantity_level": "Few",
         "image": [
-            "234.png",
-            "235.png",
-            "236.png",
-            "237.png",
-            "238.png",
-            "239.png",
-            "240.png",
-            "241.png",
-            "242.png",
-            "243.png",
-            "244.png",
-            "245.png",
-            "246.png"
-        ],
-        "extracted": "A",
-        "result": 1
-    },
-    {
-        "sample_id": 19,
-        "question": "Using the textbook diagrams provided, your task is to correctly answer the ensuing query. You must choose your answer from the Choice List.\n<image><image><image><image><image><image><image><image><image><image><image><image><image>Question: How many parts of a leaf are identified in the diagram?\nChoice list: \nA. 4\nB. 6\nC. 5\nD. 3\nAnswer with the option's letter from the given choices directly.",
-        "gt_response": "6",
-        "gen_kwargs": {
-            "do_sample": false,
-            "num_beams": 1,
-            "max_new_tokens": 32,
-            "eos_token_id": 0
-        },
-        "pred_response": "b plant structures",
-        "choice_list": [
-            "4",
-            "6",
-            "5",
-            "3"
-        ],
-        "image_quantity_level": "Medium",
-        "image": [
-            "247.png",
-            "248.png",
-            "249.png",
-            "250.png",
-            "251.png",
-            "252.png",
-            "253.png",
-            "254.png",
-            "255.png",
-            "256.png",
-            "257.png",
-            "258.png",
-            "259.png"
+            "1074.png",
+            "1075.png",
+            "1076.png"
         ],
         "extracted": "B",
         "result": 1
@@ -1999,32 +1871,6 @@
         ],
         "extracted": "C",
         "result": 1
-    },
-    {
-        "sample_id": 113,
-        "question": "Provided with a series of diagrams from a textbook, your responsibility is to correctly answer the following question. You must choose your answer from the Choice List.\n<image><image><image>Question: By what letter is the equator represented in the diagram?\nChoice list: \nA. D\nB. C\nC. U\nD. T\nAnswer with the option's letter from the given choices directly.",
-        "gt_response": "t",
-        "gen_kwargs": {
-            "do_sample": false,
-            "num_beams": 1,
-            "max_new_tokens": 32,
-            "eos_token_id": 0
-        },
-        "pred_response": "d north pole",
-        "choice_list": [
-            "d",
-            "c",
-            "u",
-            "t"
-        ],
-        "image_quantity_level": "Few",
-        "image": [
-            "1123.png",
-            "1124.png",
-            "1125.png"
-        ],
-        "extracted": "A",
-        "result": 0
     },
     {
         "sample_id": 139,
@@ -2135,6 +1981,62 @@
         "result": 0
     },
     {
+        "sample_id": 121,
+        "question": "Provided with a series of diagrams from a textbook, your responsibility is to correctly answer the following question. You must choose your answer from the Choice List.\n<image><image><image><image><image>Question: What part of the dermis secretes sebum?\nChoice list: \nA. Adipose tissue\nB. Hair root\nC. Arrector pili muscle\nD. Sebaceous gland\nAnswer with the option's letter from the given choices directly.",
+        "gt_response": "sebaceous gland",
+        "gen_kwargs": {
+            "do_sample": false,
+            "num_beams": 1,
+            "max_new_tokens": 32,
+            "eos_token_id": 0
+        },
+        "pred_response": "d    the diagram clearly shows the sebaceous gland located within the dermis which is responsible for secreting",
+        "choice_list": [
+            "adipose tissue",
+            "hair root",
+            "arrector pili muscle",
+            "sebaceous gland"
+        ],
+        "image_quantity_level": "Few",
+        "image": [
+            "1154.png",
+            "1155.png",
+            "1156.png",
+            "1157.png",
+            "1158.png"
+        ],
+        "extracted": "D",
+        "result": 1
+    },
+    {
+        "sample_id": 122,
+        "question": "Using the textbook diagrams provided, your task is to correctly answer the ensuing query. You must choose your answer from the Choice List.\n<image><image><image><image><image>Question: What lies below the hair follicle?\nChoice list: \nA. blood vessel\nB. epidermis\nC. fat\nD. sweat gland\nAnswer with the option's letter from the given choices directly.",
+        "gt_response": "fat",
+        "gen_kwargs": {
+            "do_sample": false,
+            "num_beams": 1,
+            "max_new_tokens": 32,
+            "eos_token_id": 0
+        },
+        "pred_response": "c ar",
+        "choice_list": [
+            "blood vessel",
+            "epidermis",
+            "fat",
+            "sweat gland"
+        ],
+        "image_quantity_level": "Few",
+        "image": [
+            "1159.png",
+            "1160.png",
+            "1161.png",
+            "1162.png",
+            "1163.png"
+        ],
+        "extracted": "C",
+        "result": 1
+    },
+    {
         "sample_id": 127,
         "question": "Using a selection of textbook diagrams, your task is to provide an accurate response to the subsequent query. You must choose your answer from the Choice List.\n<image><image><image><image><image>Question: What part of the body houses the vocal cords?\nChoice list: \nA. X\nB. P\nC. ARTERIES\nD. LARYNX\nAnswer with the option's letter from the given choices directly.",
         "gt_response": "x",
@@ -2161,62 +2063,6 @@
         ],
         "extracted": "D",
         "result": 0
-    },
-    {
-        "sample_id": 128,
-        "question": "Upon reviewing a collection of diagrams from a textbook, your job is to accurately respond to the following question. You must choose your answer from the Choice List.\n<image><image><image><image><image>Question: After entering the mouth, where does food go next?\nChoice list: \nA. The esophagus\nB. the stomach\nC. the liver\nD. the large intestine\nAnswer with the option's letter from the given choices directly.",
-        "gt_response": "the esophagus",
-        "gen_kwargs": {
-            "do_sample": false,
-            "num_beams": 1,
-            "max_new_tokens": 32,
-            "eos_token_id": 0
-        },
-        "pred_response": "a the stomach",
-        "choice_list": [
-            "the esophagus",
-            "the stomach",
-            "the liver",
-            "the large intestine"
-        ],
-        "image_quantity_level": "Few",
-        "image": [
-            "1191.png",
-            "1192.png",
-            "1193.png",
-            "1194.png",
-            "1195.png"
-        ],
-        "extracted": "B",
-        "result": 0
-    },
-    {
-        "sample_id": 129,
-        "question": "Using the textbook diagrams provided, your task is to correctly answer the ensuing query. You must choose your answer from the Choice List.\n<image><image><image><image><image>Question: What does C refer to in the diagram?\nChoice list: \nA. Large Intestine\nB. Colon\nC. Stomach\nD. Small Intestine\nAnswer with the option's letter from the given choices directly.",
-        "gt_response": "small intestine",
-        "gen_kwargs": {
-            "do_sample": false,
-            "num_beams": 1,
-            "max_new_tokens": 32,
-            "eos_token_id": 0
-        },
-        "pred_response": "d digestive system",
-        "choice_list": [
-            "large intestine",
-            "colon",
-            "stomach",
-            "small intestine"
-        ],
-        "image_quantity_level": "Few",
-        "image": [
-            "1196.png",
-            "1197.png",
-            "1198.png",
-            "1199.png",
-            "1200.png"
-        ],
-        "extracted": "D",
-        "result": 1
     },
     {
         "sample_id": 78,
@@ -2335,35 +2181,6 @@
         "result": 0
     },
     {
-        "sample_id": 82,
-        "question": "Given a set of diagrams from a textbook, your responsibility is to provide a correct response to the next query. You must choose your answer from the Choice List.\n<image><image><image><image><image><image>Question: What do raptors and owls feed on?\nChoice list: \nA. reptiles and long-tailed weasel\nB. bobcat\nC. cougar\nD. coyote\nAnswer with the option's letter from the given choices directly.",
-        "gt_response": "reptiles and long tailed weasel",
-        "gen_kwargs": {
-            "do_sample": false,
-            "num_beams": 1,
-            "max_new_tokens": 32,
-            "eos_token_id": 0
-        },
-        "pred_response": "a mouse",
-        "choice_list": [
-            "reptiles and long tailed weasel",
-            "bobcat",
-            "cougar",
-            "coyote"
-        ],
-        "image_quantity_level": "Medium",
-        "image": [
-            "968.png",
-            "969.png",
-            "970.png",
-            "971.png",
-            "972.png",
-            "973.png"
-        ],
-        "extracted": "A",
-        "result": 1
-    },
-    {
         "sample_id": 147,
         "question": "Given various diagrams sourced from a textbook, your duty is to accurately answer the subsequent question. You must choose your answer from the Choice List.\n<image><image><image><image><image><image><image>Question: How many lobes are there in the brain?\nChoice list: \nA. 3\nB. 4\nC. 2\nD. 5\nAnswer with the option's letter from the given choices directly.",
         "gt_response": "4",
@@ -2421,36 +2238,6 @@
             "1309.png"
         ],
         "extracted": "A",
-        "result": 1
-    },
-    {
-        "sample_id": 149,
-        "question": "With a set of diagrams extracted from a textbook, your role is to answer the ensuing question correctly. You must choose your answer from the Choice List.\n<image><image><image><image><image><image><image>Question: Pons is part of the brain stem, what is the other part called?\nChoice list: \nA. Ventricles\nB. Pineal gland\nC. Medulla\nD. Hypothalamus\nAnswer with the option's letter from the given choices directly.",
-        "gt_response": "medulla",
-        "gen_kwargs": {
-            "do_sample": false,
-            "num_beams": 1,
-            "max_new_tokens": 32,
-            "eos_token_id": 0
-        },
-        "pred_response": "c neuron cell body cell body neuron",
-        "choice_list": [
-            "ventricles",
-            "pineal gland",
-            "medulla",
-            "hypothalamus"
-        ],
-        "image_quantity_level": "Medium",
-        "image": [
-            "1310.png",
-            "1311.png",
-            "1312.png",
-            "1313.png",
-            "1314.png",
-            "1315.png",
-            "1316.png"
-        ],
-        "extracted": "C",
         "result": 1
     },
     {
@@ -2513,6 +2300,78 @@
             "1515.png",
             "1516.png",
             "1517.png"
+        ],
+        "extracted": "B",
+        "result": 1
+    },
+    {
+        "sample_id": 18,
+        "question": "Given a set of diagrams from a textbook, your responsibility is to provide a correct response to the next query. You must choose your answer from the Choice List.\n<image><image><image><image><image><image><image><image><image><image><image><image><image>Question: What is the part that connects a leaf to a branch?\nChoice list: \nA. petiole\nB. vein\nC. tip\nD. margin\nAnswer with the option's letter from the given choices directly.",
+        "gt_response": "petiole",
+        "gen_kwargs": {
+            "do_sample": false,
+            "num_beams": 1,
+            "max_new_tokens": 32,
+            "eos_token_id": 0
+        },
+        "pred_response": "a bud",
+        "choice_list": [
+            "petiole",
+            "vein",
+            "tip",
+            "margin"
+        ],
+        "image_quantity_level": "Medium",
+        "image": [
+            "234.png",
+            "235.png",
+            "236.png",
+            "237.png",
+            "238.png",
+            "239.png",
+            "240.png",
+            "241.png",
+            "242.png",
+            "243.png",
+            "244.png",
+            "245.png",
+            "246.png"
+        ],
+        "extracted": "A",
+        "result": 1
+    },
+    {
+        "sample_id": 19,
+        "question": "Using the textbook diagrams provided, your task is to correctly answer the ensuing query. You must choose your answer from the Choice List.\n<image><image><image><image><image><image><image><image><image><image><image><image><image>Question: How many parts of a leaf are identified in the diagram?\nChoice list: \nA. 4\nB. 6\nC. 5\nD. 3\nAnswer with the option's letter from the given choices directly.",
+        "gt_response": "6",
+        "gen_kwargs": {
+            "do_sample": false,
+            "num_beams": 1,
+            "max_new_tokens": 32,
+            "eos_token_id": 0
+        },
+        "pred_response": "b plant structures",
+        "choice_list": [
+            "4",
+            "6",
+            "5",
+            "3"
+        ],
+        "image_quantity_level": "Medium",
+        "image": [
+            "247.png",
+            "248.png",
+            "249.png",
+            "250.png",
+            "251.png",
+            "252.png",
+            "253.png",
+            "254.png",
+            "255.png",
+            "256.png",
+            "257.png",
+            "258.png",
+            "259.png"
         ],
         "extracted": "B",
         "result": 1
@@ -2770,6 +2629,463 @@
         "result": 1
     },
     {
+        "sample_id": 113,
+        "question": "Provided with a series of diagrams from a textbook, your responsibility is to correctly answer the following question. You must choose your answer from the Choice List.\n<image><image><image>Question: By what letter is the equator represented in the diagram?\nChoice list: \nA. D\nB. C\nC. U\nD. T\nAnswer with the option's letter from the given choices directly.",
+        "gt_response": "t",
+        "gen_kwargs": {
+            "do_sample": false,
+            "num_beams": 1,
+            "max_new_tokens": 32,
+            "eos_token_id": 0
+        },
+        "pred_response": "d north pole",
+        "choice_list": [
+            "d",
+            "c",
+            "u",
+            "t"
+        ],
+        "image_quantity_level": "Few",
+        "image": [
+            "1123.png",
+            "1124.png",
+            "1125.png"
+        ],
+        "extracted": "A",
+        "result": 0
+    },
+    {
+        "sample_id": 114,
+        "question": "Provided with a series of diagrams from a textbook, your responsibility is to correctly answer the following question. You must choose your answer from the Choice List.\n<image><image><image>Question: How many degrees is the arctic circle located at?\nChoice list: \nA. 66.5 N\nB. 65 W\nC. 55 W\nD. 67S\nAnswer with the option's letter from the given choices directly.",
+        "gt_response": "66.5 n",
+        "gen_kwargs": {
+            "do_sample": false,
+            "num_beams": 1,
+            "max_new_tokens": 32,
+            "eos_token_id": 0
+        },
+        "pred_response": "a arctic circle",
+        "choice_list": [
+            "66.5 n",
+            "65 w",
+            "55 w",
+            "67s"
+        ],
+        "image_quantity_level": "Few",
+        "image": [
+            "1126.png",
+            "1127.png",
+            "1128.png"
+        ],
+        "extracted": "A",
+        "result": 1
+    },
+    {
+        "sample_id": 162,
+        "question": "With a set of diagrams extracted from a textbook, your role is to answer the ensuing question correctly. You must choose your answer from the Choice List.\n<image><image><image><image>Question: Which part carries sperm and urine out of the body?\nChoice list: \nA. Epididymis\nB. Testis\nC. Scrotum\nD. Urethra\nAnswer with the option's letter from the given choices directly.",
+        "gt_response": "urethra",
+        "gen_kwargs": {
+            "do_sample": false,
+            "num_beams": 1,
+            "max_new_tokens": 32,
+            "eos_token_id": 0
+        },
+        "pred_response": "d figure 22 1",
+        "choice_list": [
+            "epididymis",
+            "testis",
+            "scrotum",
+            "urethra"
+        ],
+        "image_quantity_level": "Few",
+        "image": [
+            "1392.png",
+            "1393.png",
+            "1394.png",
+            "1395.png"
+        ],
+        "extracted": "D",
+        "result": 1
+    },
+    {
+        "sample_id": 163,
+        "question": "Given a set of diagrams from a textbook, your responsibility is to provide a correct response to the next query. You must choose your answer from the Choice List.\n<image><image><image><image>Question: What would happen if the cells during the development divided at a rate twice as slow as normal?\nChoice list: \nA. It would take 8 days for the blastocyst to develop.\nB. The morula would develop in 48 hours.\nC. The pregnancy would take half the time that it normally does.\nD. The blastocyst would develop in 10 days.\nAnswer with the option's letter from the given choices directly.",
+        "gt_response": "it would take 8 days for the blastocyst to develop",
+        "gen_kwargs": {
+            "do_sample": false,
+            "num_beams": 1,
+            "max_new_tokens": 32,
+            "eos_token_id": 0
+        },
+        "pred_response": "d trophoblast",
+        "choice_list": [
+            "it would take 8 days for the blastocyst to develop",
+            "the morula would develop in 48 hours",
+            "the pregnancy would take half the time that it normally does",
+            "the blastocyst would develop in 10 days"
+        ],
+        "image_quantity_level": "Few",
+        "image": [
+            "1396.png",
+            "1397.png",
+            "1398.png",
+            "1399.png"
+        ],
+        "extracted": "D",
+        "result": 0
+    },
+    {
+        "sample_id": 164,
+        "question": "Using a collection of textbook diagrams as your reference, please respond accurately to the following query. You must choose your answer from the Choice List.\n<image><image><image><image>Question: By what letter is the transpiration represented in the diagram?\nChoice list: \nA. L\nB. A\nC. X\nD. C\nAnswer with the option's letter from the given choices directly.",
+        "gt_response": "x",
+        "gen_kwargs": {
+            "do_sample": false,
+            "num_beams": 1,
+            "max_new_tokens": 32,
+            "eos_token_id": 0
+        },
+        "pred_response": "c evaporation",
+        "choice_list": [
+            "l",
+            "a",
+            "x",
+            "c"
+        ],
+        "image_quantity_level": "Few",
+        "image": [
+            "1400.png",
+            "1401.png",
+            "1402.png",
+            "1403.png"
+        ],
+        "extracted": "D",
+        "result": 0
+    },
+    {
+        "sample_id": 128,
+        "question": "Upon reviewing a collection of diagrams from a textbook, your job is to accurately respond to the following question. You must choose your answer from the Choice List.\n<image><image><image><image><image>Question: After entering the mouth, where does food go next?\nChoice list: \nA. The esophagus\nB. the stomach\nC. the liver\nD. the large intestine\nAnswer with the option's letter from the given choices directly.",
+        "gt_response": "the esophagus",
+        "gen_kwargs": {
+            "do_sample": false,
+            "num_beams": 1,
+            "max_new_tokens": 32,
+            "eos_token_id": 0
+        },
+        "pred_response": "a the stomach",
+        "choice_list": [
+            "the esophagus",
+            "the stomach",
+            "the liver",
+            "the large intestine"
+        ],
+        "image_quantity_level": "Few",
+        "image": [
+            "1191.png",
+            "1192.png",
+            "1193.png",
+            "1194.png",
+            "1195.png"
+        ],
+        "extracted": "B",
+        "result": 0
+    },
+    {
+        "sample_id": 129,
+        "question": "Using the textbook diagrams provided, your task is to correctly answer the ensuing query. You must choose your answer from the Choice List.\n<image><image><image><image><image>Question: What does C refer to in the diagram?\nChoice list: \nA. Large Intestine\nB. Colon\nC. Stomach\nD. Small Intestine\nAnswer with the option's letter from the given choices directly.",
+        "gt_response": "small intestine",
+        "gen_kwargs": {
+            "do_sample": false,
+            "num_beams": 1,
+            "max_new_tokens": 32,
+            "eos_token_id": 0
+        },
+        "pred_response": "d digestive system",
+        "choice_list": [
+            "large intestine",
+            "colon",
+            "stomach",
+            "small intestine"
+        ],
+        "image_quantity_level": "Few",
+        "image": [
+            "1196.png",
+            "1197.png",
+            "1198.png",
+            "1199.png",
+            "1200.png"
+        ],
+        "extracted": "D",
+        "result": 1
+    },
+    {
+        "sample_id": 130,
+        "question": "Given an assortment of diagrams from a textbook, please provide an accurate response to the next question. You must choose your answer from the Choice List.\n<image><image><image><image><image>Question: Which organ is connected to the superior vena cava?\nChoice list: \nA. The liver\nB. The pancreas\nC. The heart\nD. The diaphragm\nAnswer with the option's letter from the given choices directly.",
+        "gt_response": "the heart",
+        "gen_kwargs": {
+            "do_sample": false,
+            "num_beams": 1,
+            "max_new_tokens": 32,
+            "eos_token_id": 0
+        },
+        "pred_response": "ca",
+        "choice_list": [
+            "the liver",
+            "the pancreas",
+            "the heart",
+            "the diaphragm"
+        ],
+        "image_quantity_level": "Few",
+        "image": [
+            "1201.png",
+            "1202.png",
+            "1203.png",
+            "1204.png",
+            "1205.png"
+        ],
+        "extracted": "CA",
+        "result": 0
+    },
+    {
+        "sample_id": 82,
+        "question": "Given a set of diagrams from a textbook, your responsibility is to provide a correct response to the next query. You must choose your answer from the Choice List.\n<image><image><image><image><image><image>Question: What do raptors and owls feed on?\nChoice list: \nA. reptiles and long-tailed weasel\nB. bobcat\nC. cougar\nD. coyote\nAnswer with the option's letter from the given choices directly.",
+        "gt_response": "reptiles and long tailed weasel",
+        "gen_kwargs": {
+            "do_sample": false,
+            "num_beams": 1,
+            "max_new_tokens": 32,
+            "eos_token_id": 0
+        },
+        "pred_response": "a mouse",
+        "choice_list": [
+            "reptiles and long tailed weasel",
+            "bobcat",
+            "cougar",
+            "coyote"
+        ],
+        "image_quantity_level": "Medium",
+        "image": [
+            "968.png",
+            "969.png",
+            "970.png",
+            "971.png",
+            "972.png",
+            "973.png"
+        ],
+        "extracted": "A",
+        "result": 1
+    },
+    {
+        "sample_id": 83,
+        "question": "Upon reviewing a collection of diagrams from a textbook, your job is to accurately respond to the following question. You must choose your answer from the Choice List.\n<image><image><image><image><image><image>Question: Which organism consumes the zooplankton?\nChoice list: \nA. barnacle and oyster\nB. sea anemone and oyster\nC. mussel, shrimp and oyster\nD. mussel and barnacle\nAnswer with the option's letter from the given choices directly.",
+        "gt_response": "mussel shrimp and oyster",
+        "gen_kwargs": {
+            "do_sample": false,
+            "num_beams": 1,
+            "max_new_tokens": 32,
+            "eos_token_id": 0
+        },
+        "pred_response": "boysteroysteroysteroysteroysteroyster",
+        "choice_list": [
+            "barnacle and oyster",
+            "sea anemone and oyster",
+            "mussel shrimp and oyster",
+            "mussel and barnacle"
+        ],
+        "image_quantity_level": "Medium",
+        "image": [
+            "974.png",
+            "975.png",
+            "976.png",
+            "977.png",
+            "978.png",
+            "979.png"
+        ],
+        "extracted": "B",
+        "result": 0
+    },
+    {
+        "sample_id": 84,
+        "question": "With a set of diagrams extracted from a textbook, your role is to answer the ensuing question correctly. You must choose your answer from the Choice List.\n<image><image><image><image><image><image>Question: How many ospreys are shown in the picture?\nChoice list: \nA. 3\nB. 1\nC. 2\nD. 4\nAnswer with the option's letter from the given choices directly.",
+        "gt_response": "1",
+        "gen_kwargs": {
+            "do_sample": false,
+            "num_beams": 1,
+            "max_new_tokens": 32,
+            "eos_token_id": 0
+        },
+        "pred_response": "b seed eating birds herbivorous insects",
+        "choice_list": [
+            "3",
+            "1",
+            "2",
+            "4"
+        ],
+        "image_quantity_level": "Medium",
+        "image": [
+            "980.png",
+            "981.png",
+            "982.png",
+            "983.png",
+            "984.png",
+            "985.png"
+        ],
+        "extracted": "B",
+        "result": 1
+    },
+    {
+        "sample_id": 85,
+        "question": "Using a selection of textbook diagrams, your task is to provide an accurate response to the subsequent query. You must choose your answer from the Choice List.\n<image><image><image><image><image><image>Question: How many animals are there in the picture?\nChoice list: \nA. 4\nB. 3\nC. 1\nD. 2\nAnswer with the option's letter from the given choices directly.",
+        "gt_response": "4",
+        "gen_kwargs": {
+            "do_sample": false,
+            "num_beams": 1,
+            "max_new_tokens": 32,
+            "eos_token_id": 0
+        },
+        "pred_response": "a5",
+        "choice_list": [
+            "4",
+            "3",
+            "1",
+            "2"
+        ],
+        "image_quantity_level": "Medium",
+        "image": [
+            "986.png",
+            "987.png",
+            "988.png",
+            "989.png",
+            "990.png",
+            "991.png"
+        ],
+        "extracted": "A",
+        "result": 1
+    },
+    {
+        "sample_id": 149,
+        "question": "With a set of diagrams extracted from a textbook, your role is to answer the ensuing question correctly. You must choose your answer from the Choice List.\n<image><image><image><image><image><image><image>Question: Pons is part of the brain stem, what is the other part called?\nChoice list: \nA. Ventricles\nB. Pineal gland\nC. Medulla\nD. Hypothalamus\nAnswer with the option's letter from the given choices directly.",
+        "gt_response": "medulla",
+        "gen_kwargs": {
+            "do_sample": false,
+            "num_beams": 1,
+            "max_new_tokens": 32,
+            "eos_token_id": 0
+        },
+        "pred_response": "c neuron cell body cell body neuron",
+        "choice_list": [
+            "ventricles",
+            "pineal gland",
+            "medulla",
+            "hypothalamus"
+        ],
+        "image_quantity_level": "Medium",
+        "image": [
+            "1310.png",
+            "1311.png",
+            "1312.png",
+            "1313.png",
+            "1314.png",
+            "1315.png",
+            "1316.png"
+        ],
+        "extracted": "C",
+        "result": 1
+    },
+    {
+        "sample_id": 150,
+        "question": "Given various diagrams sourced from a textbook, your duty is to accurately answer the subsequent question. You must choose your answer from the Choice List.\n<image><image><image><image><image><image><image>Question: What happens if a clot forms in the temporal lobe?\nChoice list: \nA. Reasoning is affected\nB. Sense of touch is affected\nC. Hearing is affected\nD. Sight is affected\nAnswer with the option's letter from the given choices directly.",
+        "gt_response": "hearing is affected",
+        "gen_kwargs": {
+            "do_sample": false,
+            "num_beams": 1,
+            "max_new_tokens": 32,
+            "eos_token_id": 0
+        },
+        "pred_response": "c reasoning is affected",
+        "choice_list": [
+            "reasoning is affected",
+            "sense of touch is affected",
+            "hearing is affected",
+            "sight is affected"
+        ],
+        "image_quantity_level": "Medium",
+        "image": [
+            "1317.png",
+            "1318.png",
+            "1319.png",
+            "1320.png",
+            "1321.png",
+            "1322.png",
+            "1323.png"
+        ],
+        "extracted": "A",
+        "result": 0
+    },
+    {
+        "sample_id": 185,
+        "question": "Given a set of diagrams from a textbook, your responsibility is to provide a correct response to the next query. You must choose your answer from the Choice List.\n<image><image><image><image><image><image><image><image><image>Question: Which particles can be found in the nucleus?\nChoice list: \nA. Protons and neutrons\nB. Electrons and Neutrons\nC. Electrons and protones\nD. Neutrons only\nAnswer with the option's letter from the given choices directly.",
+        "gt_response": "protons and neutrons",
+        "gen_kwargs": {
+            "do_sample": false,
+            "num_beams": 1,
+            "max_new_tokens": 32,
+            "eos_token_id": 0
+        },
+        "pred_response": "a orbits the nucleus",
+        "choice_list": [
+            "protons and neutrons",
+            "electrons and neutrons",
+            "electrons and protones",
+            "neutrons only"
+        ],
+        "image_quantity_level": "Medium",
+        "image": [
+            "1518.png",
+            "1519.png",
+            "1520.png",
+            "1521.png",
+            "1522.png",
+            "1523.png",
+            "1524.png",
+            "1525.png",
+            "1526.png"
+        ],
+        "extracted": "A",
+        "result": 1
+    },
+    {
+        "sample_id": 186,
+        "question": "Given various diagrams sourced from a textbook, your duty is to accurately answer the subsequent question. You must choose your answer from the Choice List.\n<image><image><image><image><image><image><image><image><image>Question: How many protons do the two atoms have in total?\nChoice list: \nA. 10\nB. 16\nC. 18\nD. 8\nAnswer with the option's letter from the given choices directly.",
+        "gt_response": "16",
+        "gen_kwargs": {
+            "do_sample": false,
+            "num_beams": 1,
+            "max_new_tokens": 32,
+            "eos_token_id": 0
+        },
+        "pred_response": "b8",
+        "choice_list": [
+            "10",
+            "16",
+            "18",
+            "8"
+        ],
+        "image_quantity_level": "Medium",
+        "image": [
+            "1527.png",
+            "1528.png",
+            "1529.png",
+            "1530.png",
+            "1531.png",
+            "1532.png",
+            "1533.png",
+            "1534.png",
+            "1535.png"
+        ],
+        "extracted": "D",
+        "result": 0
+    },
+    {
         "sample_id": 27,
         "question": "Provided with a series of diagrams from a textbook, your responsibility is to correctly answer the following question. You must choose your answer from the Choice List.\n<image><image><image><image><image><image><image><image><image><image><image><image><image>Question: What is the part that connects a leaf to a stem?\nChoice list: \nA. petiole\nB. tip\nC. vein\nD. axil\nAnswer with the option's letter from the given choices directly.",
         "gt_response": "petiole",
@@ -2876,549 +3192,6 @@
         ],
         "extracted": "D",
         "result": 1
-    },
-    {
-        "sample_id": 114,
-        "question": "Provided with a series of diagrams from a textbook, your responsibility is to correctly answer the following question. You must choose your answer from the Choice List.\n<image><image><image>Question: How many degrees is the arctic circle located at?\nChoice list: \nA. 66.5 N\nB. 65 W\nC. 55 W\nD. 67S\nAnswer with the option's letter from the given choices directly.",
-        "gt_response": "66.5 n",
-        "gen_kwargs": {
-            "do_sample": false,
-            "num_beams": 1,
-            "max_new_tokens": 32,
-            "eos_token_id": 0
-        },
-        "pred_response": "a arctic circle",
-        "choice_list": [
-            "66.5 n",
-            "65 w",
-            "55 w",
-            "67s"
-        ],
-        "image_quantity_level": "Few",
-        "image": [
-            "1126.png",
-            "1127.png",
-            "1128.png"
-        ],
-        "extracted": "A",
-        "result": 1
-    },
-    {
-        "sample_id": 118,
-        "question": "With a set of diagrams extracted from a textbook, your role is to answer the ensuing question correctly. You must choose your answer from the Choice List.\n<image><image><image>Question: How many types of fins does a fish have?\nChoice list: \nA. 3\nB. 4\nC. 5\nD. 6\nAnswer with the option's letter from the given choices directly.",
-        "gt_response": "5",
-        "gen_kwargs": {
-            "do_sample": false,
-            "num_beams": 1,
-            "max_new_tokens": 32,
-            "eos_token_id": 0
-        },
-        "pred_response": "c soft dorsal fin lateral line pectoral fin pelvic fin anal fin caudal fin",
-        "choice_list": [
-            "3",
-            "4",
-            "5",
-            "6"
-        ],
-        "image_quantity_level": "Few",
-        "image": [
-            "1143.png",
-            "1144.png",
-            "1145.png"
-        ],
-        "extracted": "C",
-        "result": 1
-    },
-    {
-        "sample_id": 162,
-        "question": "With a set of diagrams extracted from a textbook, your role is to answer the ensuing question correctly. You must choose your answer from the Choice List.\n<image><image><image><image>Question: Which part carries sperm and urine out of the body?\nChoice list: \nA. Epididymis\nB. Testis\nC. Scrotum\nD. Urethra\nAnswer with the option's letter from the given choices directly.",
-        "gt_response": "urethra",
-        "gen_kwargs": {
-            "do_sample": false,
-            "num_beams": 1,
-            "max_new_tokens": 32,
-            "eos_token_id": 0
-        },
-        "pred_response": "d figure 22 1",
-        "choice_list": [
-            "epididymis",
-            "testis",
-            "scrotum",
-            "urethra"
-        ],
-        "image_quantity_level": "Few",
-        "image": [
-            "1392.png",
-            "1393.png",
-            "1394.png",
-            "1395.png"
-        ],
-        "extracted": "D",
-        "result": 1
-    },
-    {
-        "sample_id": 163,
-        "question": "Given a set of diagrams from a textbook, your responsibility is to provide a correct response to the next query. You must choose your answer from the Choice List.\n<image><image><image><image>Question: What would happen if the cells during the development divided at a rate twice as slow as normal?\nChoice list: \nA. It would take 8 days for the blastocyst to develop.\nB. The morula would develop in 48 hours.\nC. The pregnancy would take half the time that it normally does.\nD. The blastocyst would develop in 10 days.\nAnswer with the option's letter from the given choices directly.",
-        "gt_response": "it would take 8 days for the blastocyst to develop",
-        "gen_kwargs": {
-            "do_sample": false,
-            "num_beams": 1,
-            "max_new_tokens": 32,
-            "eos_token_id": 0
-        },
-        "pred_response": "d trophoblast",
-        "choice_list": [
-            "it would take 8 days for the blastocyst to develop",
-            "the morula would develop in 48 hours",
-            "the pregnancy would take half the time that it normally does",
-            "the blastocyst would develop in 10 days"
-        ],
-        "image_quantity_level": "Few",
-        "image": [
-            "1396.png",
-            "1397.png",
-            "1398.png",
-            "1399.png"
-        ],
-        "extracted": "D",
-        "result": 0
-    },
-    {
-        "sample_id": 164,
-        "question": "Using a collection of textbook diagrams as your reference, please respond accurately to the following query. You must choose your answer from the Choice List.\n<image><image><image><image>Question: By what letter is the transpiration represented in the diagram?\nChoice list: \nA. L\nB. A\nC. X\nD. C\nAnswer with the option's letter from the given choices directly.",
-        "gt_response": "x",
-        "gen_kwargs": {
-            "do_sample": false,
-            "num_beams": 1,
-            "max_new_tokens": 32,
-            "eos_token_id": 0
-        },
-        "pred_response": "c evaporation",
-        "choice_list": [
-            "l",
-            "a",
-            "x",
-            "c"
-        ],
-        "image_quantity_level": "Few",
-        "image": [
-            "1400.png",
-            "1401.png",
-            "1402.png",
-            "1403.png"
-        ],
-        "extracted": "D",
-        "result": 0
-    },
-    {
-        "sample_id": 165,
-        "question": "Given an assortment of diagrams from a textbook, please provide an accurate response to the next question. You must choose your answer from the Choice List.\n<image><image><image><image>Question: What is the term for any form of water that falls from the atmosphere?\nChoice list: \nA. Condensation\nB. Precipitation\nC. Transpiration\nD. Evaporation\nAnswer with the option's letter from the given choices directly.",
-        "gt_response": "precipitation",
-        "gen_kwargs": {
-            "do_sample": false,
-            "num_beams": 1,
-            "max_new_tokens": 32,
-            "eos_token_id": 0
-        },
-        "pred_response": "b",
-        "choice_list": [
-            "condensation",
-            "precipitation",
-            "transpiration",
-            "evaporation"
-        ],
-        "image_quantity_level": "Few",
-        "image": [
-            "1404.png",
-            "1405.png",
-            "1406.png",
-            "1407.png"
-        ],
-        "extracted": "B",
-        "result": 1
-    },
-    {
-        "sample_id": 130,
-        "question": "Given an assortment of diagrams from a textbook, please provide an accurate response to the next question. You must choose your answer from the Choice List.\n<image><image><image><image><image>Question: Which organ is connected to the superior vena cava?\nChoice list: \nA. The liver\nB. The pancreas\nC. The heart\nD. The diaphragm\nAnswer with the option's letter from the given choices directly.",
-        "gt_response": "the heart",
-        "gen_kwargs": {
-            "do_sample": false,
-            "num_beams": 1,
-            "max_new_tokens": 32,
-            "eos_token_id": 0
-        },
-        "pred_response": "ca",
-        "choice_list": [
-            "the liver",
-            "the pancreas",
-            "the heart",
-            "the diaphragm"
-        ],
-        "image_quantity_level": "Few",
-        "image": [
-            "1201.png",
-            "1202.png",
-            "1203.png",
-            "1204.png",
-            "1205.png"
-        ],
-        "extracted": "CA",
-        "result": 0
-    },
-    {
-        "sample_id": 131,
-        "question": "Based on a series of diagrams from a textbook, your job is to correctly answer the forthcoming question. You must choose your answer from the Choice List.\n<image><image><image><image><image>Question: Which organ surrounds the heart?\nChoice list: \nA. stomach\nB. liver\nC. spleen\nD. lung\nAnswer with the option's letter from the given choices directly.",
-        "gt_response": "lung",
-        "gen_kwargs": {
-            "do_sample": false,
-            "num_beams": 1,
-            "max_new_tokens": 32,
-            "eos_token_id": 0
-        },
-        "pred_response": "d diagrams",
-        "choice_list": [
-            "stomach",
-            "liver",
-            "spleen",
-            "lung"
-        ],
-        "image_quantity_level": "Few",
-        "image": [
-            "1206.png",
-            "1207.png",
-            "1208.png",
-            "1209.png",
-            "1210.png"
-        ],
-        "extracted": "D",
-        "result": 1
-    },
-    {
-        "sample_id": 132,
-        "question": "Provided with a series of diagrams from a textbook, your responsibility is to correctly answer the following question. You must choose your answer from the Choice List.\n<image><image><image><image><image>Question: How many types of intestines are shown?\nChoice list: \nA. 8\nB. 4\nC. 1\nD. 2\nAnswer with the option's letter from the given choices directly.",
-        "gt_response": "2",
-        "gen_kwargs": {
-            "do_sample": false,
-            "num_beams": 1,
-            "max_new_tokens": 32,
-            "eos_token_id": 0
-        },
-        "pred_response": "dsmall intestinegegegegegegege",
-        "choice_list": [
-            "8",
-            "4",
-            "1",
-            "2"
-        ],
-        "image_quantity_level": "Few",
-        "image": [
-            "1211.png",
-            "1212.png",
-            "1213.png",
-            "1214.png",
-            "1215.png"
-        ],
-        "extracted": "DA",
-        "result": 0
-    },
-    {
-        "sample_id": 83,
-        "question": "Upon reviewing a collection of diagrams from a textbook, your job is to accurately respond to the following question. You must choose your answer from the Choice List.\n<image><image><image><image><image><image>Question: Which organism consumes the zooplankton?\nChoice list: \nA. barnacle and oyster\nB. sea anemone and oyster\nC. mussel, shrimp and oyster\nD. mussel and barnacle\nAnswer with the option's letter from the given choices directly.",
-        "gt_response": "mussel shrimp and oyster",
-        "gen_kwargs": {
-            "do_sample": false,
-            "num_beams": 1,
-            "max_new_tokens": 32,
-            "eos_token_id": 0
-        },
-        "pred_response": "boysteroysteroysteroysteroysteroyster",
-        "choice_list": [
-            "barnacle and oyster",
-            "sea anemone and oyster",
-            "mussel shrimp and oyster",
-            "mussel and barnacle"
-        ],
-        "image_quantity_level": "Medium",
-        "image": [
-            "974.png",
-            "975.png",
-            "976.png",
-            "977.png",
-            "978.png",
-            "979.png"
-        ],
-        "extracted": "B",
-        "result": 0
-    },
-    {
-        "sample_id": 84,
-        "question": "With a set of diagrams extracted from a textbook, your role is to answer the ensuing question correctly. You must choose your answer from the Choice List.\n<image><image><image><image><image><image>Question: How many ospreys are shown in the picture?\nChoice list: \nA. 3\nB. 1\nC. 2\nD. 4\nAnswer with the option's letter from the given choices directly.",
-        "gt_response": "1",
-        "gen_kwargs": {
-            "do_sample": false,
-            "num_beams": 1,
-            "max_new_tokens": 32,
-            "eos_token_id": 0
-        },
-        "pred_response": "b seed eating birds herbivorous insects",
-        "choice_list": [
-            "3",
-            "1",
-            "2",
-            "4"
-        ],
-        "image_quantity_level": "Medium",
-        "image": [
-            "980.png",
-            "981.png",
-            "982.png",
-            "983.png",
-            "984.png",
-            "985.png"
-        ],
-        "extracted": "B",
-        "result": 1
-    },
-    {
-        "sample_id": 85,
-        "question": "Using a selection of textbook diagrams, your task is to provide an accurate response to the subsequent query. You must choose your answer from the Choice List.\n<image><image><image><image><image><image>Question: How many animals are there in the picture?\nChoice list: \nA. 4\nB. 3\nC. 1\nD. 2\nAnswer with the option's letter from the given choices directly.",
-        "gt_response": "4",
-        "gen_kwargs": {
-            "do_sample": false,
-            "num_beams": 1,
-            "max_new_tokens": 32,
-            "eos_token_id": 0
-        },
-        "pred_response": "a5",
-        "choice_list": [
-            "4",
-            "3",
-            "1",
-            "2"
-        ],
-        "image_quantity_level": "Medium",
-        "image": [
-            "986.png",
-            "987.png",
-            "988.png",
-            "989.png",
-            "990.png",
-            "991.png"
-        ],
-        "extracted": "A",
-        "result": 1
-    },
-    {
-        "sample_id": 86,
-        "question": "Based on a series of diagrams from a textbook, your job is to correctly answer the forthcoming question. You must choose your answer from the Choice List.\n<image><image><image><image><image><image>Question: Who are the tertiary consumers on the diagram?\nChoice list: \nA. grasshopper\nB. Shrew\nC. Owls\nD. Grass\nAnswer with the option's letter from the given choices directly.",
-        "gt_response": "owls",
-        "gen_kwargs": {
-            "do_sample": false,
-            "num_beams": 1,
-            "max_new_tokens": 32,
-            "eos_token_id": 0
-        },
-        "pred_response": "c owls",
-        "choice_list": [
-            "grasshopper",
-            "shrew",
-            "owls",
-            "grass"
-        ],
-        "image_quantity_level": "Medium",
-        "image": [
-            "992.png",
-            "993.png",
-            "994.png",
-            "995.png",
-            "996.png",
-            "997.png"
-        ],
-        "extracted": "C",
-        "result": 1
-    },
-    {
-        "sample_id": 87,
-        "question": "With a set of diagrams extracted from a textbook, your role is to answer the ensuing question correctly. You must choose your answer from the Choice List.\n<image><image><image><image><image><image>Question: Which organism consumes the tuna fish\nChoice list: \nA. zooplankton\nB. phytoplankton\nC. human and dolphin\nD. herring fish\nAnswer with the option's letter from the given choices directly.",
-        "gt_response": "human and dolphin",
-        "gen_kwargs": {
-            "do_sample": false,
-            "num_beams": 1,
-            "max_new_tokens": 32,
-            "eos_token_id": 0
-        },
-        "pred_response": "c sparrow",
-        "choice_list": [
-            "zooplankton",
-            "phytoplankton",
-            "human and dolphin",
-            "herring fish"
-        ],
-        "image_quantity_level": "Medium",
-        "image": [
-            "998.png",
-            "999.png",
-            "1000.png",
-            "1001.png",
-            "1002.png",
-            "1003.png"
-        ],
-        "extracted": "C",
-        "result": 1
-    },
-    {
-        "sample_id": 150,
-        "question": "Given various diagrams sourced from a textbook, your duty is to accurately answer the subsequent question. You must choose your answer from the Choice List.\n<image><image><image><image><image><image><image>Question: What happens if a clot forms in the temporal lobe?\nChoice list: \nA. Reasoning is affected\nB. Sense of touch is affected\nC. Hearing is affected\nD. Sight is affected\nAnswer with the option's letter from the given choices directly.",
-        "gt_response": "hearing is affected",
-        "gen_kwargs": {
-            "do_sample": false,
-            "num_beams": 1,
-            "max_new_tokens": 32,
-            "eos_token_id": 0
-        },
-        "pred_response": "c reasoning is affected",
-        "choice_list": [
-            "reasoning is affected",
-            "sense of touch is affected",
-            "hearing is affected",
-            "sight is affected"
-        ],
-        "image_quantity_level": "Medium",
-        "image": [
-            "1317.png",
-            "1318.png",
-            "1319.png",
-            "1320.png",
-            "1321.png",
-            "1322.png",
-            "1323.png"
-        ],
-        "extracted": "A",
-        "result": 0
-    },
-    {
-        "sample_id": 151,
-        "question": "Given a set of diagrams from a textbook, your responsibility is to provide a correct response to the next query. You must choose your answer from the Choice List.\n<image><image><image><image><image><image><image>Question: Where is located the spinal cord?\nChoice list: \nA. neck\nB. head\nC. legs\nD. back\nAnswer with the option's letter from the given choices directly.",
-        "gt_response": "neck",
-        "gen_kwargs": {
-            "do_sample": false,
-            "num_beams": 1,
-            "max_new_tokens": 32,
-            "eos_token_id": 0
-        },
-        "pred_response": "a cerebellum",
-        "choice_list": [
-            "neck",
-            "head",
-            "legs",
-            "back"
-        ],
-        "image_quantity_level": "Medium",
-        "image": [
-            "1324.png",
-            "1325.png",
-            "1326.png",
-            "1327.png",
-            "1328.png",
-            "1329.png",
-            "1330.png"
-        ],
-        "extracted": "A",
-        "result": 1
-    },
-    {
-        "sample_id": 152,
-        "question": "Given an assortment of diagrams from a textbook, please provide an accurate response to the next question. You must choose your answer from the Choice List.\n<image><image><image><image><image><image><image>Question: How many types of nerves are in the diagram of the nervous system?\nChoice list: \nA. 12\nB. 11\nC. 9\nD. 10\nAnswer with the option's letter from the given choices directly.",
-        "gt_response": "10",
-        "gen_kwargs": {
-            "do_sample": false,
-            "num_beams": 1,
-            "max_new_tokens": 32,
-            "eos_token_id": 0
-        },
-        "pred_response": "a detailed",
-        "choice_list": [
-            "12",
-            "11",
-            "9",
-            "10"
-        ],
-        "image_quantity_level": "Medium",
-        "image": [
-            "1331.png",
-            "1332.png",
-            "1333.png",
-            "1334.png",
-            "1335.png",
-            "1336.png",
-            "1337.png"
-        ],
-        "extracted": "A",
-        "result": 0
-    },
-    {
-        "sample_id": 185,
-        "question": "Given a set of diagrams from a textbook, your responsibility is to provide a correct response to the next query. You must choose your answer from the Choice List.\n<image><image><image><image><image><image><image><image><image>Question: Which particles can be found in the nucleus?\nChoice list: \nA. Protons and neutrons\nB. Electrons and Neutrons\nC. Electrons and protones\nD. Neutrons only\nAnswer with the option's letter from the given choices directly.",
-        "gt_response": "protons and neutrons",
-        "gen_kwargs": {
-            "do_sample": false,
-            "num_beams": 1,
-            "max_new_tokens": 32,
-            "eos_token_id": 0
-        },
-        "pred_response": "a orbits the nucleus",
-        "choice_list": [
-            "protons and neutrons",
-            "electrons and neutrons",
-            "electrons and protones",
-            "neutrons only"
-        ],
-        "image_quantity_level": "Medium",
-        "image": [
-            "1518.png",
-            "1519.png",
-            "1520.png",
-            "1521.png",
-            "1522.png",
-            "1523.png",
-            "1524.png",
-            "1525.png",
-            "1526.png"
-        ],
-        "extracted": "A",
-        "result": 1
-    },
-    {
-        "sample_id": 186,
-        "question": "Given various diagrams sourced from a textbook, your duty is to accurately answer the subsequent question. You must choose your answer from the Choice List.\n<image><image><image><image><image><image><image><image><image>Question: How many protons do the two atoms have in total?\nChoice list: \nA. 10\nB. 16\nC. 18\nD. 8\nAnswer with the option's letter from the given choices directly.",
-        "gt_response": "16",
-        "gen_kwargs": {
-            "do_sample": false,
-            "num_beams": 1,
-            "max_new_tokens": 32,
-            "eos_token_id": 0
-        },
-        "pred_response": "b8",
-        "choice_list": [
-            "10",
-            "16",
-            "18",
-            "8"
-        ],
-        "image_quantity_level": "Medium",
-        "image": [
-            "1527.png",
-            "1528.png",
-            "1529.png",
-            "1530.png",
-            "1531.png",
-            "1532.png",
-            "1533.png",
-            "1534.png",
-            "1535.png"
-        ],
-        "extracted": "D",
-        "result": 0
     },
     {
         "sample_id": 30,
@@ -3637,6 +3410,431 @@
         "result": 1
     },
     {
+        "sample_id": 118,
+        "question": "With a set of diagrams extracted from a textbook, your role is to answer the ensuing question correctly. You must choose your answer from the Choice List.\n<image><image><image>Question: How many types of fins does a fish have?\nChoice list: \nA. 3\nB. 4\nC. 5\nD. 6\nAnswer with the option's letter from the given choices directly.",
+        "gt_response": "5",
+        "gen_kwargs": {
+            "do_sample": false,
+            "num_beams": 1,
+            "max_new_tokens": 32,
+            "eos_token_id": 0
+        },
+        "pred_response": "c soft dorsal fin lateral line pectoral fin pelvic fin anal fin caudal fin",
+        "choice_list": [
+            "3",
+            "4",
+            "5",
+            "6"
+        ],
+        "image_quantity_level": "Few",
+        "image": [
+            "1143.png",
+            "1144.png",
+            "1145.png"
+        ],
+        "extracted": "C",
+        "result": 1
+    },
+    {
+        "sample_id": 119,
+        "question": "Given various diagrams sourced from a textbook, your duty is to accurately answer the subsequent question. You must choose your answer from the Choice List.\n<image><image><image>Question: What is the purpose of the fins?\nChoice list: \nA. They help fish swim and navigate in the water\nB. to reduce water resistance\nC. for breathing\nD. for staying long under water\nAnswer with the option's letter from the given choices directly.",
+        "gt_response": "they help fish swim and navigate in the water",
+        "gen_kwargs": {
+            "do_sample": false,
+            "num_beams": 1,
+            "max_new_tokens": 32,
+            "eos_token_id": 0
+        },
+        "pred_response": "a various diagrams sourced from a textbook",
+        "choice_list": [
+            "they help fish swim and navigate in the water",
+            "to reduce water resistance",
+            "for breathing",
+            "for staying long under water"
+        ],
+        "image_quantity_level": "Few",
+        "image": [
+            "1146.png",
+            "1147.png",
+            "1148.png"
+        ],
+        "extracted": "AADAACDAB",
+        "result": 0
+    },
+    {
+        "sample_id": 165,
+        "question": "Given an assortment of diagrams from a textbook, please provide an accurate response to the next question. You must choose your answer from the Choice List.\n<image><image><image><image>Question: What is the term for any form of water that falls from the atmosphere?\nChoice list: \nA. Condensation\nB. Precipitation\nC. Transpiration\nD. Evaporation\nAnswer with the option's letter from the given choices directly.",
+        "gt_response": "precipitation",
+        "gen_kwargs": {
+            "do_sample": false,
+            "num_beams": 1,
+            "max_new_tokens": 32,
+            "eos_token_id": 0
+        },
+        "pred_response": "b",
+        "choice_list": [
+            "condensation",
+            "precipitation",
+            "transpiration",
+            "evaporation"
+        ],
+        "image_quantity_level": "Few",
+        "image": [
+            "1404.png",
+            "1405.png",
+            "1406.png",
+            "1407.png"
+        ],
+        "extracted": "B",
+        "result": 1
+    },
+    {
+        "sample_id": 166,
+        "question": "Given an assortment of diagrams from a textbook, please provide an accurate response to the next question. You must choose your answer from the Choice List.\n<image><image><image><image>Question: Name the 2 processes in the diagram in which water changes into a gas.\nChoice list: \nA. Condensation & Evaporation\nB. Evaporation & Precipitation\nC. Transpiration & Accumulation\nD. Transpiration & Evaporation\nAnswer with the option's letter from the given choices directly.",
+        "gt_response": "transpiration & evaporation",
+        "gen_kwargs": {
+            "do_sample": false,
+            "num_beams": 1,
+            "max_new_tokens": 32,
+            "eos_token_id": 0
+        },
+        "pred_response": "d",
+        "choice_list": [
+            "condensation & evaporation",
+            "evaporation & precipitation",
+            "transpiration & accumulation",
+            "transpiration & evaporation"
+        ],
+        "image_quantity_level": "Few",
+        "image": [
+            "1408.png",
+            "1409.png",
+            "1410.png",
+            "1411.png"
+        ],
+        "extracted": "D",
+        "result": 1
+    },
+    {
+        "sample_id": 167,
+        "question": "With a set of diagrams extracted from a textbook, your role is to answer the ensuing question correctly. You must choose your answer from the Choice List.\n<image><image><image><image>Question: Which gas is exhaled by the plant?\nChoice list: \nA. Carbon Monoxide\nB. Oxygen\nC. Nitrogen\nD. Carbon Dioxide\nAnswer with the option's letter from the given choices directly.",
+        "gt_response": "oxygen",
+        "gen_kwargs": {
+            "do_sample": false,
+            "num_beams": 1,
+            "max_new_tokens": 32,
+            "eos_token_id": 0
+        },
+        "pred_response": "boxygen",
+        "choice_list": [
+            "carbon monoxide",
+            "oxygen",
+            "nitrogen",
+            "carbon dioxide"
+        ],
+        "image_quantity_level": "Few",
+        "image": [
+            "1412.png",
+            "1413.png",
+            "1414.png",
+            "1415.png"
+        ],
+        "extracted": "B",
+        "result": 1
+    },
+    {
+        "sample_id": 131,
+        "question": "Based on a series of diagrams from a textbook, your job is to correctly answer the forthcoming question. You must choose your answer from the Choice List.\n<image><image><image><image><image>Question: Which organ surrounds the heart?\nChoice list: \nA. stomach\nB. liver\nC. spleen\nD. lung\nAnswer with the option's letter from the given choices directly.",
+        "gt_response": "lung",
+        "gen_kwargs": {
+            "do_sample": false,
+            "num_beams": 1,
+            "max_new_tokens": 32,
+            "eos_token_id": 0
+        },
+        "pred_response": "d diagrams",
+        "choice_list": [
+            "stomach",
+            "liver",
+            "spleen",
+            "lung"
+        ],
+        "image_quantity_level": "Few",
+        "image": [
+            "1206.png",
+            "1207.png",
+            "1208.png",
+            "1209.png",
+            "1210.png"
+        ],
+        "extracted": "D",
+        "result": 1
+    },
+    {
+        "sample_id": 132,
+        "question": "Provided with a series of diagrams from a textbook, your responsibility is to correctly answer the following question. You must choose your answer from the Choice List.\n<image><image><image><image><image>Question: How many types of intestines are shown?\nChoice list: \nA. 8\nB. 4\nC. 1\nD. 2\nAnswer with the option's letter from the given choices directly.",
+        "gt_response": "2",
+        "gen_kwargs": {
+            "do_sample": false,
+            "num_beams": 1,
+            "max_new_tokens": 32,
+            "eos_token_id": 0
+        },
+        "pred_response": "dsmall intestinegegegegegegege",
+        "choice_list": [
+            "8",
+            "4",
+            "1",
+            "2"
+        ],
+        "image_quantity_level": "Few",
+        "image": [
+            "1211.png",
+            "1212.png",
+            "1213.png",
+            "1214.png",
+            "1215.png"
+        ],
+        "extracted": "DA",
+        "result": 0
+    },
+    {
+        "sample_id": 133,
+        "question": "Provided with a series of diagrams from a textbook, your responsibility is to correctly answer the following question. You must choose your answer from the Choice List.\n<image><image><image><image><image>Question: Parts of the digestive system\nChoice list: \nA. 3\nB. 1\nC. 4\nD. 2\nAnswer with the option's letter from the given choices directly.",
+        "gt_response": "4",
+        "gen_kwargs": {
+            "do_sample": false,
+            "num_beams": 1,
+            "max_new_tokens": 32,
+            "eos_token_id": 0
+        },
+        "pred_response": "c4",
+        "choice_list": [
+            "3",
+            "1",
+            "4",
+            "2"
+        ],
+        "image_quantity_level": "Few",
+        "image": [
+            "1216.png",
+            "1217.png",
+            "1218.png",
+            "1219.png",
+            "1220.png"
+        ],
+        "extracted": "C",
+        "result": 1
+    },
+    {
+        "sample_id": 86,
+        "question": "Based on a series of diagrams from a textbook, your job is to correctly answer the forthcoming question. You must choose your answer from the Choice List.\n<image><image><image><image><image><image>Question: Who are the tertiary consumers on the diagram?\nChoice list: \nA. grasshopper\nB. Shrew\nC. Owls\nD. Grass\nAnswer with the option's letter from the given choices directly.",
+        "gt_response": "owls",
+        "gen_kwargs": {
+            "do_sample": false,
+            "num_beams": 1,
+            "max_new_tokens": 32,
+            "eos_token_id": 0
+        },
+        "pred_response": "c owls",
+        "choice_list": [
+            "grasshopper",
+            "shrew",
+            "owls",
+            "grass"
+        ],
+        "image_quantity_level": "Medium",
+        "image": [
+            "992.png",
+            "993.png",
+            "994.png",
+            "995.png",
+            "996.png",
+            "997.png"
+        ],
+        "extracted": "C",
+        "result": 1
+    },
+    {
+        "sample_id": 87,
+        "question": "With a set of diagrams extracted from a textbook, your role is to answer the ensuing question correctly. You must choose your answer from the Choice List.\n<image><image><image><image><image><image>Question: Which organism consumes the tuna fish\nChoice list: \nA. zooplankton\nB. phytoplankton\nC. human and dolphin\nD. herring fish\nAnswer with the option's letter from the given choices directly.",
+        "gt_response": "human and dolphin",
+        "gen_kwargs": {
+            "do_sample": false,
+            "num_beams": 1,
+            "max_new_tokens": 32,
+            "eos_token_id": 0
+        },
+        "pred_response": "c sparrow",
+        "choice_list": [
+            "zooplankton",
+            "phytoplankton",
+            "human and dolphin",
+            "herring fish"
+        ],
+        "image_quantity_level": "Medium",
+        "image": [
+            "998.png",
+            "999.png",
+            "1000.png",
+            "1001.png",
+            "1002.png",
+            "1003.png"
+        ],
+        "extracted": "C",
+        "result": 1
+    },
+    {
+        "sample_id": 88,
+        "question": "Given a set of diagrams from a textbook, your responsibility is to provide a correct response to the next query. You must choose your answer from the Choice List.\n<image><image><image><image><image><image>Question: Which one eats green plants?\nChoice list: \nA. hawks\nB. crickets\nC. frogs\nD. snakes\nAnswer with the option's letter from the given choices directly.",
+        "gt_response": "crickets",
+        "gen_kwargs": {
+            "do_sample": false,
+            "num_beams": 1,
+            "max_new_tokens": 32,
+            "eos_token_id": 0
+        },
+        "pred_response": "bc",
+        "choice_list": [
+            "hawks",
+            "crickets",
+            "frogs",
+            "snakes"
+        ],
+        "image_quantity_level": "Medium",
+        "image": [
+            "1004.png",
+            "1005.png",
+            "1006.png",
+            "1007.png",
+            "1008.png",
+            "1009.png"
+        ],
+        "extracted": "BC",
+        "result": 0
+    },
+    {
+        "sample_id": 89,
+        "question": "Given an assortment of diagrams from a textbook, please provide an accurate response to the next question. You must choose your answer from the Choice List.\n<image><image><image><image><image><image>Question: In the diagram, what eats deer?\nChoice list: \nA. Snake\nB. Rabbit\nC. Cougar\nD. Mouse\nAnswer with the option's letter from the given choices directly.",
+        "gt_response": "cougar",
+        "gen_kwargs": {
+            "do_sample": false,
+            "num_beams": 1,
+            "max_new_tokens": 32,
+            "eos_token_id": 0
+        },
+        "pred_response": "c cougar",
+        "choice_list": [
+            "snake",
+            "rabbit",
+            "cougar",
+            "mouse"
+        ],
+        "image_quantity_level": "Medium",
+        "image": [
+            "1010.png",
+            "1011.png",
+            "1012.png",
+            "1013.png",
+            "1014.png",
+            "1015.png"
+        ],
+        "extracted": "C",
+        "result": 1
+    },
+    {
+        "sample_id": 151,
+        "question": "Given a set of diagrams from a textbook, your responsibility is to provide a correct response to the next query. You must choose your answer from the Choice List.\n<image><image><image><image><image><image><image>Question: Where is located the spinal cord?\nChoice list: \nA. neck\nB. head\nC. legs\nD. back\nAnswer with the option's letter from the given choices directly.",
+        "gt_response": "neck",
+        "gen_kwargs": {
+            "do_sample": false,
+            "num_beams": 1,
+            "max_new_tokens": 32,
+            "eos_token_id": 0
+        },
+        "pred_response": "a cerebellum",
+        "choice_list": [
+            "neck",
+            "head",
+            "legs",
+            "back"
+        ],
+        "image_quantity_level": "Medium",
+        "image": [
+            "1324.png",
+            "1325.png",
+            "1326.png",
+            "1327.png",
+            "1328.png",
+            "1329.png",
+            "1330.png"
+        ],
+        "extracted": "A",
+        "result": 1
+    },
+    {
+        "sample_id": 152,
+        "question": "Given an assortment of diagrams from a textbook, please provide an accurate response to the next question. You must choose your answer from the Choice List.\n<image><image><image><image><image><image><image>Question: How many types of nerves are in the diagram of the nervous system?\nChoice list: \nA. 12\nB. 11\nC. 9\nD. 10\nAnswer with the option's letter from the given choices directly.",
+        "gt_response": "10",
+        "gen_kwargs": {
+            "do_sample": false,
+            "num_beams": 1,
+            "max_new_tokens": 32,
+            "eos_token_id": 0
+        },
+        "pred_response": "a detailed",
+        "choice_list": [
+            "12",
+            "11",
+            "9",
+            "10"
+        ],
+        "image_quantity_level": "Medium",
+        "image": [
+            "1331.png",
+            "1332.png",
+            "1333.png",
+            "1334.png",
+            "1335.png",
+            "1336.png",
+            "1337.png"
+        ],
+        "extracted": "A",
+        "result": 0
+    },
+    {
+        "sample_id": 187,
+        "question": "Using the textbook diagrams provided, your task is to correctly answer the ensuing query. You must choose your answer from the Choice List.\n<image><image><image><image><image><image><image><image><image>Question: Deuterium has how many electrons?\nChoice list: \nA. 4\nB. 2\nC. 1\nD. 3\nAnswer with the option's letter from the given choices directly.",
+        "gt_response": "1",
+        "gen_kwargs": {
+            "do_sample": false,
+            "num_beams": 1,
+            "max_new_tokens": 32,
+            "eos_token_id": 0
+        },
+        "pred_response": "chydrogen 1hydro",
+        "choice_list": [
+            "4",
+            "2",
+            "1",
+            "3"
+        ],
+        "image_quantity_level": "Medium",
+        "image": [
+            "1536.png",
+            "1537.png",
+            "1538.png",
+            "1539.png",
+            "1540.png",
+            "1541.png",
+            "1542.png",
+            "1543.png",
+            "1544.png"
+        ],
+        "extracted": "C",
+        "result": 1
+    },
+    {
         "sample_id": 36,
         "question": "Given various diagrams sourced from a textbook, your duty is to accurately answer the subsequent question. You must choose your answer from the Choice List.\n<image><image><image><image><image><image><image><image><image><image><image><image><image>Question: How many components does the shoot system have?\nChoice list: \nA. 8\nB. 9\nC. 6\nD. 10\nAnswer with the option's letter from the given choices directly.",
         "gt_response": "6",
@@ -3781,519 +3979,6 @@
         "result": 0
     },
     {
-        "sample_id": 119,
-        "question": "Given various diagrams sourced from a textbook, your duty is to accurately answer the subsequent question. You must choose your answer from the Choice List.\n<image><image><image>Question: What is the purpose of the fins?\nChoice list: \nA. They help fish swim and navigate in the water\nB. to reduce water resistance\nC. for breathing\nD. for staying long under water\nAnswer with the option's letter from the given choices directly.",
-        "gt_response": "they help fish swim and navigate in the water",
-        "gen_kwargs": {
-            "do_sample": false,
-            "num_beams": 1,
-            "max_new_tokens": 32,
-            "eos_token_id": 0
-        },
-        "pred_response": "a various diagrams sourced from a textbook",
-        "choice_list": [
-            "they help fish swim and navigate in the water",
-            "to reduce water resistance",
-            "for breathing",
-            "for staying long under water"
-        ],
-        "image_quantity_level": "Few",
-        "image": [
-            "1146.png",
-            "1147.png",
-            "1148.png"
-        ],
-        "extracted": "AADAACDAB",
-        "result": 0
-    },
-    {
-        "sample_id": 168,
-        "question": "Given a set of diagrams from a textbook, your responsibility is to provide a correct response to the next query. You must choose your answer from the Choice List.\n<image><image><image>Question: Which of these periods is oldest?\nChoice list: \nA. Permian\nB. Cambrian\nC. Jurassic\nD. Neogene\nAnswer with the option's letter from the given choices directly.",
-        "gt_response": "cambrian",
-        "gen_kwargs": {
-            "do_sample": false,
-            "num_beams": 1,
-            "max_new_tokens": 32,
-            "eos_token_id": 0
-        },
-        "pred_response": "bcambrian",
-        "choice_list": [
-            "permian",
-            "cambrian",
-            "jurassic",
-            "neogene"
-        ],
-        "image_quantity_level": "Few",
-        "image": [
-            "1416.png",
-            "1417.png",
-            "1418.png"
-        ],
-        "extracted": "B",
-        "result": 1
-    },
-    {
-        "sample_id": 166,
-        "question": "Given an assortment of diagrams from a textbook, please provide an accurate response to the next question. You must choose your answer from the Choice List.\n<image><image><image><image>Question: Name the 2 processes in the diagram in which water changes into a gas.\nChoice list: \nA. Condensation & Evaporation\nB. Evaporation & Precipitation\nC. Transpiration & Accumulation\nD. Transpiration & Evaporation\nAnswer with the option's letter from the given choices directly.",
-        "gt_response": "transpiration & evaporation",
-        "gen_kwargs": {
-            "do_sample": false,
-            "num_beams": 1,
-            "max_new_tokens": 32,
-            "eos_token_id": 0
-        },
-        "pred_response": "d",
-        "choice_list": [
-            "condensation & evaporation",
-            "evaporation & precipitation",
-            "transpiration & accumulation",
-            "transpiration & evaporation"
-        ],
-        "image_quantity_level": "Few",
-        "image": [
-            "1408.png",
-            "1409.png",
-            "1410.png",
-            "1411.png"
-        ],
-        "extracted": "D",
-        "result": 1
-    },
-    {
-        "sample_id": 167,
-        "question": "With a set of diagrams extracted from a textbook, your role is to answer the ensuing question correctly. You must choose your answer from the Choice List.\n<image><image><image><image>Question: Which gas is exhaled by the plant?\nChoice list: \nA. Carbon Monoxide\nB. Oxygen\nC. Nitrogen\nD. Carbon Dioxide\nAnswer with the option's letter from the given choices directly.",
-        "gt_response": "oxygen",
-        "gen_kwargs": {
-            "do_sample": false,
-            "num_beams": 1,
-            "max_new_tokens": 32,
-            "eos_token_id": 0
-        },
-        "pred_response": "boxygen",
-        "choice_list": [
-            "carbon monoxide",
-            "oxygen",
-            "nitrogen",
-            "carbon dioxide"
-        ],
-        "image_quantity_level": "Few",
-        "image": [
-            "1412.png",
-            "1413.png",
-            "1414.png",
-            "1415.png"
-        ],
-        "extracted": "B",
-        "result": 1
-    },
-    {
-        "sample_id": 170,
-        "question": "Given an assortment of diagrams from a textbook, please provide an accurate response to the next question. You must choose your answer from the Choice List.\n<image><image><image><image>Question: Can a human body function with a single kidney?\nChoice list: \nA. Yes\nB. Intermittently\nC. Cannot answer from the given information\nD. No\nAnswer with the option's letter from the given choices directly.",
-        "gt_response": "yes",
-        "gen_kwargs": {
-            "do_sample": false,
-            "num_beams": 1,
-            "max_new_tokens": 32,
-            "eos_token_id": 0
-        },
-        "pred_response": "a",
-        "choice_list": [
-            "yes",
-            "intermittently",
-            "cannot answer from the given information",
-            "no"
-        ],
-        "image_quantity_level": "Few",
-        "image": [
-            "1422.png",
-            "1423.png",
-            "1424.png",
-            "1425.png"
-        ],
-        "extracted": "A",
-        "result": 1
-    },
-    {
-        "sample_id": 171,
-        "question": "Given an assortment of diagrams from a textbook, please provide an accurate response to the next question. You must choose your answer from the Choice List.\n<image><image><image><image>Question: What's right underneath internal sphincter?\nChoice list: \nA. calyx\nB. external sphincter\nC. renal pelvis\nD. kidney\nAnswer with the option's letter from the given choices directly.",
-        "gt_response": "external sphincter",
-        "gen_kwargs": {
-            "do_sample": false,
-            "num_beams": 1,
-            "max_new_tokens": 32,
-            "eos_token_id": 0
-        },
-        "pred_response": "bb",
-        "choice_list": [
-            "calyx",
-            "external sphincter",
-            "renal pelvis",
-            "kidney"
-        ],
-        "image_quantity_level": "Few",
-        "image": [
-            "1426.png",
-            "1427.png",
-            "1428.png",
-            "1429.png"
-        ],
-        "extracted": "BB",
-        "result": 0
-    },
-    {
-        "sample_id": 133,
-        "question": "Provided with a series of diagrams from a textbook, your responsibility is to correctly answer the following question. You must choose your answer from the Choice List.\n<image><image><image><image><image>Question: Parts of the digestive system\nChoice list: \nA. 3\nB. 1\nC. 4\nD. 2\nAnswer with the option's letter from the given choices directly.",
-        "gt_response": "4",
-        "gen_kwargs": {
-            "do_sample": false,
-            "num_beams": 1,
-            "max_new_tokens": 32,
-            "eos_token_id": 0
-        },
-        "pred_response": "c4",
-        "choice_list": [
-            "3",
-            "1",
-            "4",
-            "2"
-        ],
-        "image_quantity_level": "Few",
-        "image": [
-            "1216.png",
-            "1217.png",
-            "1218.png",
-            "1219.png",
-            "1220.png"
-        ],
-        "extracted": "C",
-        "result": 1
-    },
-    {
-        "sample_id": 134,
-        "question": "Using a selection of textbook diagrams, your task is to provide an accurate response to the subsequent query. You must choose your answer from the Choice List.\n<image><image><image><image><image>Question: Which organ is connected to the Liver?\nChoice list: \nA. Salivary Glands\nB. Gallbladder\nC. Large Intestine\nD. Esophagus\nAnswer with the option's letter from the given choices directly.",
-        "gt_response": "gallbladder",
-        "gen_kwargs": {
-            "do_sample": false,
-            "num_beams": 1,
-            "max_new_tokens": 32,
-            "eos_token_id": 0
-        },
-        "pred_response": "b gallbladder",
-        "choice_list": [
-            "salivary glands",
-            "gallbladder",
-            "large intestine",
-            "esophagus"
-        ],
-        "image_quantity_level": "Few",
-        "image": [
-            "1221.png",
-            "1222.png",
-            "1223.png",
-            "1224.png",
-            "1225.png"
-        ],
-        "extracted": "B",
-        "result": 1
-    },
-    {
-        "sample_id": 135,
-        "question": "Given a set of diagrams from a textbook, your responsibility is to provide a correct response to the next query. You must choose your answer from the Choice List.\n<image><image><image><image><image>Question: What happens to food that enters the mouth?\nChoice list: \nA. it stays there\nB. it enters the stomach through the esophagus\nC. it goes straight to the anus\nD. it is digested there\nAnswer with the option's letter from the given choices directly.",
-        "gt_response": "it enters the stomach through the esophagus",
-        "gen_kwargs": {
-            "do_sample": false,
-            "num_beams": 1,
-            "max_new_tokens": 32,
-            "eos_token_id": 0
-        },
-        "pred_response": "b digestive system",
-        "choice_list": [
-            "it stays there",
-            "it enters the stomach through the esophagus",
-            "it goes straight to the anus",
-            "it is digested there"
-        ],
-        "image_quantity_level": "Few",
-        "image": [
-            "1226.png",
-            "1227.png",
-            "1228.png",
-            "1229.png",
-            "1230.png"
-        ],
-        "extracted": "B",
-        "result": 1
-    },
-    {
-        "sample_id": 88,
-        "question": "Given a set of diagrams from a textbook, your responsibility is to provide a correct response to the next query. You must choose your answer from the Choice List.\n<image><image><image><image><image><image>Question: Which one eats green plants?\nChoice list: \nA. hawks\nB. crickets\nC. frogs\nD. snakes\nAnswer with the option's letter from the given choices directly.",
-        "gt_response": "crickets",
-        "gen_kwargs": {
-            "do_sample": false,
-            "num_beams": 1,
-            "max_new_tokens": 32,
-            "eos_token_id": 0
-        },
-        "pred_response": "bc",
-        "choice_list": [
-            "hawks",
-            "crickets",
-            "frogs",
-            "snakes"
-        ],
-        "image_quantity_level": "Medium",
-        "image": [
-            "1004.png",
-            "1005.png",
-            "1006.png",
-            "1007.png",
-            "1008.png",
-            "1009.png"
-        ],
-        "extracted": "BC",
-        "result": 0
-    },
-    {
-        "sample_id": 89,
-        "question": "Given an assortment of diagrams from a textbook, please provide an accurate response to the next question. You must choose your answer from the Choice List.\n<image><image><image><image><image><image>Question: In the diagram, what eats deer?\nChoice list: \nA. Snake\nB. Rabbit\nC. Cougar\nD. Mouse\nAnswer with the option's letter from the given choices directly.",
-        "gt_response": "cougar",
-        "gen_kwargs": {
-            "do_sample": false,
-            "num_beams": 1,
-            "max_new_tokens": 32,
-            "eos_token_id": 0
-        },
-        "pred_response": "c cougar",
-        "choice_list": [
-            "snake",
-            "rabbit",
-            "cougar",
-            "mouse"
-        ],
-        "image_quantity_level": "Medium",
-        "image": [
-            "1010.png",
-            "1011.png",
-            "1012.png",
-            "1013.png",
-            "1014.png",
-            "1015.png"
-        ],
-        "extracted": "C",
-        "result": 1
-    },
-    {
-        "sample_id": 90,
-        "question": "Based on a series of diagrams from a textbook, your job is to correctly answer the forthcoming question. You must choose your answer from the Choice List.\n<image><image><image><image><image><image>Question: The water plant is being consumed by which animal?\nChoice list: \nA. Fish\nB. Producers\nC. Bird\nD. Tadpole\nAnswer with the option's letter from the given choices directly.",
-        "gt_response": "tadpole",
-        "gen_kwargs": {
-            "do_sample": false,
-            "num_beams": 1,
-            "max_new_tokens": 32,
-            "eos_token_id": 0
-        },
-        "pred_response": "d fish",
-        "choice_list": [
-            "fish",
-            "producers",
-            "bird",
-            "tadpole"
-        ],
-        "image_quantity_level": "Medium",
-        "image": [
-            "1016.png",
-            "1017.png",
-            "1018.png",
-            "1019.png",
-            "1020.png",
-            "1021.png"
-        ],
-        "extracted": "A",
-        "result": 0
-    },
-    {
-        "sample_id": 91,
-        "question": "Upon reviewing a collection of diagrams from a textbook, your job is to accurately respond to the following question. You must choose your answer from the Choice List.\n<image><image><image><image><image><image>Question: What do tadpoles feed on?\nChoice list: \nA. Fresh air\nB. Birds\nC. Fish\nD. Water plants\nAnswer with the option's letter from the given choices directly.",
-        "gt_response": "water plants",
-        "gen_kwargs": {
-            "do_sample": false,
-            "num_beams": 1,
-            "max_new_tokens": 32,
-            "eos_token_id": 0
-        },
-        "pred_response": "d seed",
-        "choice_list": [
-            "fresh air",
-            "birds",
-            "fish",
-            "water plants"
-        ],
-        "image_quantity_level": "Medium",
-        "image": [
-            "1022.png",
-            "1023.png",
-            "1024.png",
-            "1025.png",
-            "1026.png",
-            "1027.png"
-        ],
-        "extracted": "D",
-        "result": 1
-    },
-    {
-        "sample_id": 92,
-        "question": "Given various diagrams sourced from a textbook, your duty is to accurately answer the subsequent question. You must choose your answer from the Choice List.\n<image><image><image><image><image><image>Question: Identify which ARE NOT decomposers\nChoice list: \nA. Pine Borer\nB. Acorns\nC. Kinglet\nD. Squirrel\nAnswer with the option's letter from the given choices directly.",
-        "gt_response": "pine borer",
-        "gen_kwargs": {
-            "do_sample": false,
-            "num_beams": 1,
-            "max_new_tokens": 32,
-            "eos_token_id": 0
-        },
-        "pred_response": "d pine borer acorns kinglet",
-        "choice_list": [
-            "pine borer",
-            "acorns",
-            "kinglet",
-            "squirrel"
-        ],
-        "image_quantity_level": "Medium",
-        "image": [
-            "1028.png",
-            "1029.png",
-            "1030.png",
-            "1031.png",
-            "1032.png",
-            "1033.png"
-        ],
-        "extracted": "A",
-        "result": 1
-    },
-    {
-        "sample_id": 153,
-        "question": "With a set of diagrams extracted from a textbook, your role is to answer the ensuing question correctly. You must choose your answer from the Choice List.\n<image><image><image><image><image><image><image>Question: Where is the cerebellum located?\nChoice list: \nA. behind the frontal lobe\nB. front of the brain\nC. next to the lateral ventricle\nD. Behind the 4th ventricle\nAnswer with the option's letter from the given choices directly.",
-        "gt_response": "behind the 4th ventricle",
-        "gen_kwargs": {
-            "do_sample": false,
-            "num_beams": 1,
-            "max_new_tokens": 32,
-            "eos_token_id": 0
-        },
-        "pred_response": "d image  myelin sheath axon ending",
-        "choice_list": [
-            "behind the frontal lobe",
-            "front of the brain",
-            "next to the lateral ventricle",
-            "behind the 4th ventricle"
-        ],
-        "image_quantity_level": "Medium",
-        "image": [
-            "1338.png",
-            "1339.png",
-            "1340.png",
-            "1341.png",
-            "1342.png",
-            "1343.png",
-            "1344.png"
-        ],
-        "extracted": "D",
-        "result": 1
-    },
-    {
-        "sample_id": 154,
-        "question": "Provided with a series of diagrams from a textbook, your responsibility is to correctly answer the following question. You must choose your answer from the Choice List.\n<image><image><image><image><image><image><image>Question: How many nerves are labelled?\nChoice list: \nA. 22\nB. 20\nC. 18\nD. 16\nAnswer with the option's letter from the given choices directly.",
-        "gt_response": "18",
-        "gen_kwargs": {
-            "do_sample": false,
-            "num_beams": 1,
-            "max_new_tokens": 32,
-            "eos_token_id": 0
-        },
-        "pred_response": "b diagrams",
-        "choice_list": [
-            "22",
-            "20",
-            "18",
-            "16"
-        ],
-        "image_quantity_level": "Medium",
-        "image": [
-            "1345.png",
-            "1346.png",
-            "1347.png",
-            "1348.png",
-            "1349.png",
-            "1350.png",
-            "1351.png"
-        ],
-        "extracted": "B",
-        "result": 0
-    },
-    {
-        "sample_id": 187,
-        "question": "Using the textbook diagrams provided, your task is to correctly answer the ensuing query. You must choose your answer from the Choice List.\n<image><image><image><image><image><image><image><image><image>Question: Deuterium has how many electrons?\nChoice list: \nA. 4\nB. 2\nC. 1\nD. 3\nAnswer with the option's letter from the given choices directly.",
-        "gt_response": "1",
-        "gen_kwargs": {
-            "do_sample": false,
-            "num_beams": 1,
-            "max_new_tokens": 32,
-            "eos_token_id": 0
-        },
-        "pred_response": "chydrogen 1hydro",
-        "choice_list": [
-            "4",
-            "2",
-            "1",
-            "3"
-        ],
-        "image_quantity_level": "Medium",
-        "image": [
-            "1536.png",
-            "1537.png",
-            "1538.png",
-            "1539.png",
-            "1540.png",
-            "1541.png",
-            "1542.png",
-            "1543.png",
-            "1544.png"
-        ],
-        "extracted": "C",
-        "result": 1
-    },
-    {
-        "sample_id": 188,
-        "question": "Given an assortment of diagrams from a textbook, please provide an accurate response to the next question. You must choose your answer from the Choice List.\n<image><image><image><image><image><image><image><image><image>Question: What falls between carbon-12 and carbon-14?\nChoice list: \nA. carbon-13\nB. carbon-11\nC. carbon-15\nD. carbon-10\nAnswer with the option's letter from the given choices directly.",
-        "gt_response": "carbon 13",
-        "gen_kwargs": {
-            "do_sample": false,
-            "num_beams": 1,
-            "max_new_tokens": 32,
-            "eos_token_id": 0
-        },
-        "pred_response": "a7",
-        "choice_list": [
-            "carbon 13",
-            "carbon 11",
-            "carbon 15",
-            "carbon 10"
-        ],
-        "image_quantity_level": "Medium",
-        "image": [
-            "1545.png",
-            "1546.png",
-            "1547.png",
-            "1548.png",
-            "1549.png",
-            "1550.png",
-            "1551.png",
-            "1552.png",
-            "1553.png"
-        ],
-        "extracted": "A",
-        "result": 1
-    },
-    {
         "sample_id": 40,
         "question": "Given various diagrams sourced from a textbook, your duty is to accurately answer the subsequent question. You must choose your answer from the Choice List.\n<image><image><image><image><image><image><image><image><image><image><image><image><image>Question: In a structure of a plant, what is the reproductive structure found in plants that are floral?\nChoice list: \nA. Flower\nB. Fruit\nC. Seed\nD. Leaf\nAnswer with the option's letter from the given choices directly.",
         "gt_response": "flower",
@@ -4435,6 +4120,431 @@
             "571.png"
         ],
         "extracted": "C",
+        "result": 1
+    },
+    {
+        "sample_id": 168,
+        "question": "Given a set of diagrams from a textbook, your responsibility is to provide a correct response to the next query. You must choose your answer from the Choice List.\n<image><image><image>Question: Which of these periods is oldest?\nChoice list: \nA. Permian\nB. Cambrian\nC. Jurassic\nD. Neogene\nAnswer with the option's letter from the given choices directly.",
+        "gt_response": "cambrian",
+        "gen_kwargs": {
+            "do_sample": false,
+            "num_beams": 1,
+            "max_new_tokens": 32,
+            "eos_token_id": 0
+        },
+        "pred_response": "bcambrian",
+        "choice_list": [
+            "permian",
+            "cambrian",
+            "jurassic",
+            "neogene"
+        ],
+        "image_quantity_level": "Few",
+        "image": [
+            "1416.png",
+            "1417.png",
+            "1418.png"
+        ],
+        "extracted": "B",
+        "result": 1
+    },
+    {
+        "sample_id": 169,
+        "question": "Using the textbook diagrams provided, your task is to correctly answer the ensuing query. You must choose your answer from the Choice List.\n<image><image><image>Question: What dominated earth after the widespread extinctions of the dinosaurs?\nChoice list: \nA. mammals\nB. flowering plants\nC. Fishes\nD. Homo sapiens\nAnswer with the option's letter from the given choices directly.",
+        "gt_response": "mammals",
+        "gen_kwargs": {
+            "do_sample": false,
+            "num_beams": 1,
+            "max_new_tokens": 32,
+            "eos_token_id": 0
+        },
+        "pred_response": "a c",
+        "choice_list": [
+            "mammals",
+            "flowering plants",
+            "fishes",
+            "homo sapiens"
+        ],
+        "image_quantity_level": "Few",
+        "image": [
+            "1419.png",
+            "1420.png",
+            "1421.png"
+        ],
+        "extracted": "AC",
+        "result": 0
+    },
+    {
+        "sample_id": 170,
+        "question": "Given an assortment of diagrams from a textbook, please provide an accurate response to the next question. You must choose your answer from the Choice List.\n<image><image><image><image>Question: Can a human body function with a single kidney?\nChoice list: \nA. Yes\nB. Intermittently\nC. Cannot answer from the given information\nD. No\nAnswer with the option's letter from the given choices directly.",
+        "gt_response": "yes",
+        "gen_kwargs": {
+            "do_sample": false,
+            "num_beams": 1,
+            "max_new_tokens": 32,
+            "eos_token_id": 0
+        },
+        "pred_response": "a",
+        "choice_list": [
+            "yes",
+            "intermittently",
+            "cannot answer from the given information",
+            "no"
+        ],
+        "image_quantity_level": "Few",
+        "image": [
+            "1422.png",
+            "1423.png",
+            "1424.png",
+            "1425.png"
+        ],
+        "extracted": "A",
+        "result": 1
+    },
+    {
+        "sample_id": 171,
+        "question": "Given an assortment of diagrams from a textbook, please provide an accurate response to the next question. You must choose your answer from the Choice List.\n<image><image><image><image>Question: What's right underneath internal sphincter?\nChoice list: \nA. calyx\nB. external sphincter\nC. renal pelvis\nD. kidney\nAnswer with the option's letter from the given choices directly.",
+        "gt_response": "external sphincter",
+        "gen_kwargs": {
+            "do_sample": false,
+            "num_beams": 1,
+            "max_new_tokens": 32,
+            "eos_token_id": 0
+        },
+        "pred_response": "bb",
+        "choice_list": [
+            "calyx",
+            "external sphincter",
+            "renal pelvis",
+            "kidney"
+        ],
+        "image_quantity_level": "Few",
+        "image": [
+            "1426.png",
+            "1427.png",
+            "1428.png",
+            "1429.png"
+        ],
+        "extracted": "BB",
+        "result": 0
+    },
+    {
+        "sample_id": 191,
+        "question": "Given a set of diagrams from a textbook, your responsibility is to provide a correct response to the next query. You must choose your answer from the Choice List.\n<image><image><image><image>Question: What represents the blue-colored elements?\nChoice list: \nA. Nonmetals\nB. Symbols\nC. Metalloids\nD. Metals\nAnswer with the option's letter from the given choices directly.",
+        "gt_response": "nonmetals",
+        "gen_kwargs": {
+            "do_sample": false,
+            "num_beams": 1,
+            "max_new_tokens": 32,
+            "eos_token_id": 0
+        },
+        "pred_response": "a diagrams",
+        "choice_list": [
+            "nonmetals",
+            "symbols",
+            "metalloids",
+            "metals"
+        ],
+        "image_quantity_level": "Few",
+        "image": [
+            "1572.png",
+            "1573.png",
+            "1574.png",
+            "1575.png"
+        ],
+        "extracted": "A",
+        "result": 1
+    },
+    {
+        "sample_id": 134,
+        "question": "Using a selection of textbook diagrams, your task is to provide an accurate response to the subsequent query. You must choose your answer from the Choice List.\n<image><image><image><image><image>Question: Which organ is connected to the Liver?\nChoice list: \nA. Salivary Glands\nB. Gallbladder\nC. Large Intestine\nD. Esophagus\nAnswer with the option's letter from the given choices directly.",
+        "gt_response": "gallbladder",
+        "gen_kwargs": {
+            "do_sample": false,
+            "num_beams": 1,
+            "max_new_tokens": 32,
+            "eos_token_id": 0
+        },
+        "pred_response": "b gallbladder",
+        "choice_list": [
+            "salivary glands",
+            "gallbladder",
+            "large intestine",
+            "esophagus"
+        ],
+        "image_quantity_level": "Few",
+        "image": [
+            "1221.png",
+            "1222.png",
+            "1223.png",
+            "1224.png",
+            "1225.png"
+        ],
+        "extracted": "B",
+        "result": 1
+    },
+    {
+        "sample_id": 135,
+        "question": "Given a set of diagrams from a textbook, your responsibility is to provide a correct response to the next query. You must choose your answer from the Choice List.\n<image><image><image><image><image>Question: What happens to food that enters the mouth?\nChoice list: \nA. it stays there\nB. it enters the stomach through the esophagus\nC. it goes straight to the anus\nD. it is digested there\nAnswer with the option's letter from the given choices directly.",
+        "gt_response": "it enters the stomach through the esophagus",
+        "gen_kwargs": {
+            "do_sample": false,
+            "num_beams": 1,
+            "max_new_tokens": 32,
+            "eos_token_id": 0
+        },
+        "pred_response": "b digestive system",
+        "choice_list": [
+            "it stays there",
+            "it enters the stomach through the esophagus",
+            "it goes straight to the anus",
+            "it is digested there"
+        ],
+        "image_quantity_level": "Few",
+        "image": [
+            "1226.png",
+            "1227.png",
+            "1228.png",
+            "1229.png",
+            "1230.png"
+        ],
+        "extracted": "B",
+        "result": 1
+    },
+    {
+        "sample_id": 136,
+        "question": "Given an assortment of diagrams from a textbook, please provide an accurate response to the next question. You must choose your answer from the Choice List.\n<image><image><image><image><image>Question: Which part connects the Stomach to the Mouth?\nChoice list: \nA. Oesophagus\nB. Rectum\nC. Gallbladder\nD. Liver\nAnswer with the option's letter from the given choices directly.",
+        "gt_response": "oesophagus",
+        "gen_kwargs": {
+            "do_sample": false,
+            "num_beams": 1,
+            "max_new_tokens": 32,
+            "eos_token_id": 0
+        },
+        "pred_response": "aesophagus",
+        "choice_list": [
+            "oesophagus",
+            "rectum",
+            "gallbladder",
+            "liver"
+        ],
+        "image_quantity_level": "Few",
+        "image": [
+            "1231.png",
+            "1232.png",
+            "1233.png",
+            "1234.png",
+            "1235.png"
+        ],
+        "extracted": "AA",
+        "result": 0
+    },
+    {
+        "sample_id": 90,
+        "question": "Based on a series of diagrams from a textbook, your job is to correctly answer the forthcoming question. You must choose your answer from the Choice List.\n<image><image><image><image><image><image>Question: The water plant is being consumed by which animal?\nChoice list: \nA. Fish\nB. Producers\nC. Bird\nD. Tadpole\nAnswer with the option's letter from the given choices directly.",
+        "gt_response": "tadpole",
+        "gen_kwargs": {
+            "do_sample": false,
+            "num_beams": 1,
+            "max_new_tokens": 32,
+            "eos_token_id": 0
+        },
+        "pred_response": "d fish",
+        "choice_list": [
+            "fish",
+            "producers",
+            "bird",
+            "tadpole"
+        ],
+        "image_quantity_level": "Medium",
+        "image": [
+            "1016.png",
+            "1017.png",
+            "1018.png",
+            "1019.png",
+            "1020.png",
+            "1021.png"
+        ],
+        "extracted": "A",
+        "result": 0
+    },
+    {
+        "sample_id": 91,
+        "question": "Upon reviewing a collection of diagrams from a textbook, your job is to accurately respond to the following question. You must choose your answer from the Choice List.\n<image><image><image><image><image><image>Question: What do tadpoles feed on?\nChoice list: \nA. Fresh air\nB. Birds\nC. Fish\nD. Water plants\nAnswer with the option's letter from the given choices directly.",
+        "gt_response": "water plants",
+        "gen_kwargs": {
+            "do_sample": false,
+            "num_beams": 1,
+            "max_new_tokens": 32,
+            "eos_token_id": 0
+        },
+        "pred_response": "d seed",
+        "choice_list": [
+            "fresh air",
+            "birds",
+            "fish",
+            "water plants"
+        ],
+        "image_quantity_level": "Medium",
+        "image": [
+            "1022.png",
+            "1023.png",
+            "1024.png",
+            "1025.png",
+            "1026.png",
+            "1027.png"
+        ],
+        "extracted": "D",
+        "result": 1
+    },
+    {
+        "sample_id": 92,
+        "question": "Given various diagrams sourced from a textbook, your duty is to accurately answer the subsequent question. You must choose your answer from the Choice List.\n<image><image><image><image><image><image>Question: Identify which ARE NOT decomposers\nChoice list: \nA. Pine Borer\nB. Acorns\nC. Kinglet\nD. Squirrel\nAnswer with the option's letter from the given choices directly.",
+        "gt_response": "pine borer",
+        "gen_kwargs": {
+            "do_sample": false,
+            "num_beams": 1,
+            "max_new_tokens": 32,
+            "eos_token_id": 0
+        },
+        "pred_response": "d pine borer acorns kinglet",
+        "choice_list": [
+            "pine borer",
+            "acorns",
+            "kinglet",
+            "squirrel"
+        ],
+        "image_quantity_level": "Medium",
+        "image": [
+            "1028.png",
+            "1029.png",
+            "1030.png",
+            "1031.png",
+            "1032.png",
+            "1033.png"
+        ],
+        "extracted": "A",
+        "result": 1
+    },
+    {
+        "sample_id": 93,
+        "question": "Provided with a series of diagrams from a textbook, your responsibility is to correctly answer the following question. You must choose your answer from the Choice List.\n<image><image><image><image><image><image>Question: How many animal species in the diagram feed on fish?\nChoice list: \nA. 2\nB. 1\nC. 7\nD. 6\nAnswer with the option's letter from the given choices directly.",
+        "gt_response": "2",
+        "gen_kwargs": {
+            "do_sample": false,
+            "num_beams": 1,
+            "max_new_tokens": 32,
+            "eos_token_id": 0
+        },
+        "pred_response": "b kingfisher",
+        "choice_list": [
+            "2",
+            "1",
+            "7",
+            "6"
+        ],
+        "image_quantity_level": "Medium",
+        "image": [
+            "1034.png",
+            "1035.png",
+            "1036.png",
+            "1037.png",
+            "1038.png",
+            "1039.png"
+        ],
+        "extracted": "B",
+        "result": 0
+    },
+    {
+        "sample_id": 153,
+        "question": "With a set of diagrams extracted from a textbook, your role is to answer the ensuing question correctly. You must choose your answer from the Choice List.\n<image><image><image><image><image><image><image>Question: Where is the cerebellum located?\nChoice list: \nA. behind the frontal lobe\nB. front of the brain\nC. next to the lateral ventricle\nD. Behind the 4th ventricle\nAnswer with the option's letter from the given choices directly.",
+        "gt_response": "behind the 4th ventricle",
+        "gen_kwargs": {
+            "do_sample": false,
+            "num_beams": 1,
+            "max_new_tokens": 32,
+            "eos_token_id": 0
+        },
+        "pred_response": "d image  myelin sheath axon ending",
+        "choice_list": [
+            "behind the frontal lobe",
+            "front of the brain",
+            "next to the lateral ventricle",
+            "behind the 4th ventricle"
+        ],
+        "image_quantity_level": "Medium",
+        "image": [
+            "1338.png",
+            "1339.png",
+            "1340.png",
+            "1341.png",
+            "1342.png",
+            "1343.png",
+            "1344.png"
+        ],
+        "extracted": "D",
+        "result": 1
+    },
+    {
+        "sample_id": 154,
+        "question": "Provided with a series of diagrams from a textbook, your responsibility is to correctly answer the following question. You must choose your answer from the Choice List.\n<image><image><image><image><image><image><image>Question: How many nerves are labelled?\nChoice list: \nA. 22\nB. 20\nC. 18\nD. 16\nAnswer with the option's letter from the given choices directly.",
+        "gt_response": "18",
+        "gen_kwargs": {
+            "do_sample": false,
+            "num_beams": 1,
+            "max_new_tokens": 32,
+            "eos_token_id": 0
+        },
+        "pred_response": "b diagrams",
+        "choice_list": [
+            "22",
+            "20",
+            "18",
+            "16"
+        ],
+        "image_quantity_level": "Medium",
+        "image": [
+            "1345.png",
+            "1346.png",
+            "1347.png",
+            "1348.png",
+            "1349.png",
+            "1350.png",
+            "1351.png"
+        ],
+        "extracted": "B",
+        "result": 0
+    },
+    {
+        "sample_id": 188,
+        "question": "Given an assortment of diagrams from a textbook, please provide an accurate response to the next question. You must choose your answer from the Choice List.\n<image><image><image><image><image><image><image><image><image>Question: What falls between carbon-12 and carbon-14?\nChoice list: \nA. carbon-13\nB. carbon-11\nC. carbon-15\nD. carbon-10\nAnswer with the option's letter from the given choices directly.",
+        "gt_response": "carbon 13",
+        "gen_kwargs": {
+            "do_sample": false,
+            "num_beams": 1,
+            "max_new_tokens": 32,
+            "eos_token_id": 0
+        },
+        "pred_response": "a7",
+        "choice_list": [
+            "carbon 13",
+            "carbon 11",
+            "carbon 15",
+            "carbon 10"
+        ],
+        "image_quantity_level": "Medium",
+        "image": [
+            "1545.png",
+            "1546.png",
+            "1547.png",
+            "1548.png",
+            "1549.png",
+            "1550.png",
+            "1551.png",
+            "1552.png",
+            "1553.png"
+        ],
+        "extracted": "A",
         "result": 1
     },
     {
@@ -4654,29 +4764,75 @@
         "result": 0
     },
     {
-        "sample_id": 169,
-        "question": "Using the textbook diagrams provided, your task is to correctly answer the ensuing query. You must choose your answer from the Choice List.\n<image><image><image>Question: What dominated earth after the widespread extinctions of the dinosaurs?\nChoice list: \nA. mammals\nB. flowering plants\nC. Fishes\nD. Homo sapiens\nAnswer with the option's letter from the given choices directly.",
-        "gt_response": "mammals",
+        "sample_id": 50,
+        "question": "Based on a series of diagrams from a textbook, your job is to correctly answer the forthcoming question. You must choose your answer from the Choice List.\n<image><image><image><image><image><image><image><image><image><image><image><image><image>Question: What shape of a leaf is described as narrowly triangular with the acute angle toward the base?\nChoice list: \nA. Cordate\nB. Obtuse\nC. Cuneate\nD. Oblique\nAnswer with the option's letter from the given choices directly.",
+        "gt_response": "cuneate",
         "gen_kwargs": {
             "do_sample": false,
             "num_beams": 1,
             "max_new_tokens": 32,
             "eos_token_id": 0
         },
-        "pred_response": "a c",
+        "pred_response": "ct",
         "choice_list": [
-            "mammals",
-            "flowering plants",
-            "fishes",
-            "homo sapiens"
+            "cordate",
+            "obtuse",
+            "cuneate",
+            "oblique"
         ],
-        "image_quantity_level": "Few",
+        "image_quantity_level": "Medium",
         "image": [
-            "1419.png",
-            "1420.png",
-            "1421.png"
+            "650.png",
+            "651.png",
+            "652.png",
+            "653.png",
+            "654.png",
+            "655.png",
+            "656.png",
+            "657.png",
+            "658.png",
+            "659.png",
+            "660.png",
+            "661.png",
+            "662.png"
         ],
-        "extracted": "AC",
+        "extracted": "C",
+        "result": 1
+    },
+    {
+        "sample_id": 51,
+        "question": "Using the textbook diagrams provided, your task is to correctly answer the ensuing query. You must choose your answer from the Choice List.\n<image><image><image><image><image><image><image><image><image><image><image><image><image>Question: How many leaf margins are shown in the diagram below?\nChoice list: \nA. 3\nB. 4\nC. 5\nD. 6\nAnswer with the option's letter from the given choices directly.",
+        "gt_response": "5",
+        "gen_kwargs": {
+            "do_sample": false,
+            "num_beams": 1,
+            "max_new_tokens": 32,
+            "eos_token_id": 0
+        },
+        "pred_response": "cundulateentireserratecrenatelacerate",
+        "choice_list": [
+            "3",
+            "4",
+            "5",
+            "6"
+        ],
+        "image_quantity_level": "Medium",
+        "image": [
+            "663.png",
+            "664.png",
+            "665.png",
+            "666.png",
+            "667.png",
+            "668.png",
+            "669.png",
+            "670.png",
+            "671.png",
+            "672.png",
+            "673.png",
+            "674.png",
+            "675.png"
+        ],
+        "extracted": "CDAACAACA",
         "result": 0
     },
     {
@@ -4706,30 +4862,29 @@
         "result": 0
     },
     {
-        "sample_id": 191,
-        "question": "Given a set of diagrams from a textbook, your responsibility is to provide a correct response to the next query. You must choose your answer from the Choice List.\n<image><image><image><image>Question: What represents the blue-colored elements?\nChoice list: \nA. Nonmetals\nB. Symbols\nC. Metalloids\nD. Metals\nAnswer with the option's letter from the given choices directly.",
-        "gt_response": "nonmetals",
+        "sample_id": 176,
+        "question": "Using a collection of textbook diagrams as your reference, please respond accurately to the following query. You must choose your answer from the Choice List.\n<image><image><image>Question: How many crests can be seen in the diagram?\nChoice list: \nA. 1\nB. 2\nC. 3\nD. 4\nAnswer with the option's letter from the given choices directly.",
+        "gt_response": "2",
         "gen_kwargs": {
             "do_sample": false,
             "num_beams": 1,
             "max_new_tokens": 32,
             "eos_token_id": 0
         },
-        "pred_response": "a diagrams",
+        "pred_response": "b peaks",
         "choice_list": [
-            "nonmetals",
-            "symbols",
-            "metalloids",
-            "metals"
+            "1",
+            "2",
+            "3",
+            "4"
         ],
         "image_quantity_level": "Few",
         "image": [
-            "1572.png",
-            "1573.png",
-            "1574.png",
-            "1575.png"
+            "1445.png",
+            "1446.png",
+            "1447.png"
         ],
-        "extracted": "A",
+        "extracted": "B",
         "result": 1
     },
     {
@@ -4814,34 +4969,6 @@
         "result": 1
     },
     {
-        "sample_id": 136,
-        "question": "Given an assortment of diagrams from a textbook, please provide an accurate response to the next question. You must choose your answer from the Choice List.\n<image><image><image><image><image>Question: Which part connects the Stomach to the Mouth?\nChoice list: \nA. Oesophagus\nB. Rectum\nC. Gallbladder\nD. Liver\nAnswer with the option's letter from the given choices directly.",
-        "gt_response": "oesophagus",
-        "gen_kwargs": {
-            "do_sample": false,
-            "num_beams": 1,
-            "max_new_tokens": 32,
-            "eos_token_id": 0
-        },
-        "pred_response": "aesophagus",
-        "choice_list": [
-            "oesophagus",
-            "rectum",
-            "gallbladder",
-            "liver"
-        ],
-        "image_quantity_level": "Few",
-        "image": [
-            "1231.png",
-            "1232.png",
-            "1233.png",
-            "1234.png",
-            "1235.png"
-        ],
-        "extracted": "AA",
-        "result": 0
-    },
-    {
         "sample_id": 137,
         "question": "Given various diagrams sourced from a textbook, your duty is to accurately answer the subsequent question. You must choose your answer from the Choice List.\n<image><image><image><image><image>Question: A narrow tube that starts at the stomach and ends at the large intestine\nChoice list: \nA. Colon\nB. Liver\nC. Stomach\nD. small intestine\nAnswer with the option's letter from the given choices directly.",
         "gt_response": "small intestine",
@@ -4898,30 +5025,29 @@
         "result": 0
     },
     {
-        "sample_id": 93,
-        "question": "Provided with a series of diagrams from a textbook, your responsibility is to correctly answer the following question. You must choose your answer from the Choice List.\n<image><image><image><image><image><image>Question: How many animal species in the diagram feed on fish?\nChoice list: \nA. 2\nB. 1\nC. 7\nD. 6\nAnswer with the option's letter from the given choices directly.",
-        "gt_response": "2",
+        "sample_id": 172,
+        "question": "With a set of diagrams extracted from a textbook, your role is to answer the ensuing question correctly. You must choose your answer from the Choice List.\n<image><image><image><image><image>Question: Which label refers to the neutron?\nChoice list: \nA. U\nB. X\nC. F\nD. C\nAnswer with the option's letter from the given choices directly.",
+        "gt_response": "u",
         "gen_kwargs": {
             "do_sample": false,
             "num_beams": 1,
             "max_new_tokens": 32,
             "eos_token_id": 0
         },
-        "pred_response": "b kingfisher",
+        "pred_response": "ax",
         "choice_list": [
-            "2",
-            "1",
-            "7",
-            "6"
+            "u",
+            "x",
+            "f",
+            "c"
         ],
-        "image_quantity_level": "Medium",
+        "image_quantity_level": "Few",
         "image": [
-            "1034.png",
-            "1035.png",
-            "1036.png",
-            "1037.png",
-            "1038.png",
-            "1039.png"
+            "1430.png",
+            "1431.png",
+            "1432.png",
+            "1433.png",
+            "1434.png"
         ],
         "extracted": "B",
         "result": 0
@@ -5132,78 +5258,6 @@
             "1562.png"
         ],
         "extracted": "A",
-        "result": 0
-    },
-    {
-        "sample_id": 50,
-        "question": "Based on a series of diagrams from a textbook, your job is to correctly answer the forthcoming question. You must choose your answer from the Choice List.\n<image><image><image><image><image><image><image><image><image><image><image><image><image>Question: What shape of a leaf is described as narrowly triangular with the acute angle toward the base?\nChoice list: \nA. Cordate\nB. Obtuse\nC. Cuneate\nD. Oblique\nAnswer with the option's letter from the given choices directly.",
-        "gt_response": "cuneate",
-        "gen_kwargs": {
-            "do_sample": false,
-            "num_beams": 1,
-            "max_new_tokens": 32,
-            "eos_token_id": 0
-        },
-        "pred_response": "ct",
-        "choice_list": [
-            "cordate",
-            "obtuse",
-            "cuneate",
-            "oblique"
-        ],
-        "image_quantity_level": "Medium",
-        "image": [
-            "650.png",
-            "651.png",
-            "652.png",
-            "653.png",
-            "654.png",
-            "655.png",
-            "656.png",
-            "657.png",
-            "658.png",
-            "659.png",
-            "660.png",
-            "661.png",
-            "662.png"
-        ],
-        "extracted": "C",
-        "result": 1
-    },
-    {
-        "sample_id": 51,
-        "question": "Using the textbook diagrams provided, your task is to correctly answer the ensuing query. You must choose your answer from the Choice List.\n<image><image><image><image><image><image><image><image><image><image><image><image><image>Question: How many leaf margins are shown in the diagram below?\nChoice list: \nA. 3\nB. 4\nC. 5\nD. 6\nAnswer with the option's letter from the given choices directly.",
-        "gt_response": "5",
-        "gen_kwargs": {
-            "do_sample": false,
-            "num_beams": 1,
-            "max_new_tokens": 32,
-            "eos_token_id": 0
-        },
-        "pred_response": "cundulateentireserratecrenatelacerate",
-        "choice_list": [
-            "3",
-            "4",
-            "5",
-            "6"
-        ],
-        "image_quantity_level": "Medium",
-        "image": [
-            "663.png",
-            "664.png",
-            "665.png",
-            "666.png",
-            "667.png",
-            "668.png",
-            "669.png",
-            "670.png",
-            "671.png",
-            "672.png",
-            "673.png",
-            "674.png",
-            "675.png"
-        ],
-        "extracted": "CDAACAACA",
         "result": 0
     },
     {
@@ -5459,8 +5513,8 @@
         "result": 0
     },
     {
-        "sample_id": 176,
-        "question": "Using a collection of textbook diagrams as your reference, please respond accurately to the following query. You must choose your answer from the Choice List.\n<image><image><image>Question: How many crests can be seen in the diagram?\nChoice list: \nA. 1\nB. 2\nC. 3\nD. 4\nAnswer with the option's letter from the given choices directly.",
+        "sample_id": 59,
+        "question": "Given an assortment of diagrams from a textbook, please provide an accurate response to the next question. You must choose your answer from the Choice List.\n<image><image><image><image><image><image><image><image><image><image><image><image><image>Question: How many toothed-leaf types are shown?\nChoice list: \nA. 1\nB. 2\nC. 3\nD. 4\nAnswer with the option's letter from the given choices directly.",
         "gt_response": "2",
         "gen_kwargs": {
             "do_sample": false,
@@ -5468,21 +5522,31 @@
             "max_new_tokens": 32,
             "eos_token_id": 0
         },
-        "pred_response": "b peaks",
+        "pred_response": "csingly tootheddoubly toothed",
         "choice_list": [
             "1",
             "2",
             "3",
             "4"
         ],
-        "image_quantity_level": "Few",
+        "image_quantity_level": "Medium",
         "image": [
-            "1445.png",
-            "1446.png",
-            "1447.png"
+            "767.png",
+            "768.png",
+            "769.png",
+            "770.png",
+            "771.png",
+            "772.png",
+            "773.png",
+            "774.png",
+            "775.png",
+            "776.png",
+            "777.png",
+            "778.png",
+            "779.png"
         ],
-        "extracted": "B",
-        "result": 1
+        "extracted": "CDDBD",
+        "result": 0
     },
     {
         "sample_id": 198,
@@ -5589,34 +5653,6 @@
             "1607.png"
         ],
         "extracted": "DD",
-        "result": 0
-    },
-    {
-        "sample_id": 172,
-        "question": "With a set of diagrams extracted from a textbook, your role is to answer the ensuing question correctly. You must choose your answer from the Choice List.\n<image><image><image><image><image>Question: Which label refers to the neutron?\nChoice list: \nA. U\nB. X\nC. F\nD. C\nAnswer with the option's letter from the given choices directly.",
-        "gt_response": "u",
-        "gen_kwargs": {
-            "do_sample": false,
-            "num_beams": 1,
-            "max_new_tokens": 32,
-            "eos_token_id": 0
-        },
-        "pred_response": "ax",
-        "choice_list": [
-            "u",
-            "x",
-            "f",
-            "c"
-        ],
-        "image_quantity_level": "Few",
-        "image": [
-            "1430.png",
-            "1431.png",
-            "1432.png",
-            "1433.png",
-            "1434.png"
-        ],
-        "extracted": "B",
         "result": 0
     },
     {
@@ -5882,42 +5918,6 @@
         ],
         "extracted": "A",
         "result": 1
-    },
-    {
-        "sample_id": 59,
-        "question": "Given an assortment of diagrams from a textbook, please provide an accurate response to the next question. You must choose your answer from the Choice List.\n<image><image><image><image><image><image><image><image><image><image><image><image><image>Question: How many toothed-leaf types are shown?\nChoice list: \nA. 1\nB. 2\nC. 3\nD. 4\nAnswer with the option's letter from the given choices directly.",
-        "gt_response": "2",
-        "gen_kwargs": {
-            "do_sample": false,
-            "num_beams": 1,
-            "max_new_tokens": 32,
-            "eos_token_id": 0
-        },
-        "pred_response": "csingly tootheddoubly toothed",
-        "choice_list": [
-            "1",
-            "2",
-            "3",
-            "4"
-        ],
-        "image_quantity_level": "Medium",
-        "image": [
-            "767.png",
-            "768.png",
-            "769.png",
-            "770.png",
-            "771.png",
-            "772.png",
-            "773.png",
-            "774.png",
-            "775.png",
-            "776.png",
-            "777.png",
-            "778.png",
-            "779.png"
-        ],
-        "extracted": "CDDBD",
-        "result": 0
     },
     {
         "sample_id": 60,

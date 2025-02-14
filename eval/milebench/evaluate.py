@@ -228,9 +228,12 @@ class Eval:
             # if len(text) in [1,2] and text.upper() in option.keys():
             #     return text.upper()
             # only return first char
-            match = re.findall(r'\b[A-D]\b', text.upper())
-            if len(match) == 1:
-                return match[0]
+            # match = re.findall(r'\b[A-D]\b', text.upper())
+            # if len(match) == 1:
+            #     return match[0]
+            m = re.match(r'^([A-D])', text.upper().strip())
+            if m:
+                return m.group(1)
             # use gpt extract
 
         except Exception as e:

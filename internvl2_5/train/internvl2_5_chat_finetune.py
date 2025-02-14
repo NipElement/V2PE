@@ -242,7 +242,7 @@ class DataTrainingArguments:
         metadata={'help': 'The minimum number of dynamic patches. Default is 1.'},
     )
     max_dynamic_patch: Optional[int] = field(
-        default=500,
+        default=256,
         metadata={'help': 'The maximum number of dynamic patches. Default is 6.'},
     )
     min_num_frame: Optional[int] = field(
@@ -266,7 +266,7 @@ class DataTrainingArguments:
         metadata={'help': 'Whether to use packed dataset for training. Default is False.'},
     )
     num_images_expected: Optional[int] = field(
-        default=12,
+        default=256,
         metadata={'help': 'The maximum number of images per packed sample. Default is 12.'},
     )
     max_packed_tokens: Optional[int] = field(
@@ -338,7 +338,7 @@ class LazySupervisedDataset(Dataset):
             dynamic_max_patch=False,
             use_thumbnail=False,
             min_dynamic_patch=1,
-            max_dynamic_patch=500,
+            max_dynamic_patch=6,
             max_num_frame=20,
             min_num_frame=4,
             sampling_method='rand',
@@ -954,6 +954,28 @@ class LazySupervisedDataset(Dataset):
                     print(f'Failed to load video: {data_path}, the dataset is: {self.ds_name}')
                 i = random.randint(0, len(self.raw_data) - 1)
         return ret
+        # while try_cnt < max_try:
+        #     try:
+        #         data_item = json.loads(self.raw_data[i])  # 解析 JSON
+        #         if 'image' in data_item and len(data_item['image']) != 0:
+        #             if isinstance(data_item['image'], list):
+        #                 ret = self.multi_modal_multi_image_get_item(data_item)
+        #             else:
+        #                 ret = self.multi_modal_get_item(data_item)
+        #         elif 'video' in data_item and data_item['video']:
+        #             ret = self.video_get_item(data_item)
+        #         else:
+        #             ret = self.pure_text_get_item(data_item)
+        #         return ret  
+
+        #     except Exception as e:
+        #         try_cnt += 1
+        #         print(f"[ERROR] Skipping bad sample at index {i}: {e}, retrying ({try_cnt}/{max_try})")
+        #         traceback.print_exc()
+        #         i = random.randint(0, len(self.raw_data) - 1)  
+        
+        # print(f"[ERROR] Reached max retry limit ({max_try}), skipping sample at index {i}")
+        # return None  
 
     def __iter__(self):
         self._enable_worker_distributed()
@@ -1127,8 +1149,6 @@ def main():
 
     launcher = os.environ.get('LAUNCHER', 'pytorch')
     init_dist(launcher=launcher, backend='nccl')
-
-    # print("Distributed initialization completed. Exiting for debugging.")
 
     parser = HfArgumentParser((ModelArguments, DataTrainingArguments, TrainingArguments))
     if len(sys.argv) == 2 and sys.argv[1].endswith('.json'):
@@ -1463,6 +1483,7 @@ def main():
     else:
         collator = concat_pad_data_collator
     if use_chunkTrainer:
+        logger.info("\n\n\nUse Chunk Trainer!\n\n\n")
         trainer = chunkTrainer(
             model=model,
             args=training_args,
@@ -1474,6 +1495,7 @@ def main():
             group_list=group_list,
         )
     else:
+        logger.info("\n\n\nUse Default Trainer!\n\n\n")
         # training_args.dataloader_num_workers = 0
         trainer = Trainer(
             model=model,

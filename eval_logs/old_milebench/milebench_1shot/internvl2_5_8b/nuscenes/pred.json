@@ -1,0 +1,2402 @@
+[
+    {
+        "sample_id": 0,
+        "question": "Example Question 1:\n<image> <image> <image> <image> <image> <image> {image#1}{image#2}{image#3}{image#4}{image#5}{image#6}Question: are there any cars on the road?\nAnswer: yes\n\nCurrent Question:\n{image#1}{image#2}{image#3}{image#4}{image#5}{image#6}Question: what is the shirt color of the man that is on the crosswalk?<image> <image> <image> <image> <image> <image> ",
+        "gt_response": "red",
+        "gen_kwargs": {
+            "do_sample": false,
+            "num_beams": 1,
+            "max_new_tokens": 32,
+            "eos_token_id": 0
+        },
+        "pred_response": "Answer: The man is wearing a red shirt."
+    },
+    {
+        "sample_id": 1,
+        "question": "Example Question 1:\n<image> <image> <image> <image> <image> <image> {image#1}{image#2}{image#3}{image#4}{image#5}{image#6}Question: what color are the doors?\nAnswer: white\n\nCurrent Question:\n{image#1}{image#2}{image#3}{image#4}{image#5}{image#6}Question: what color is big truck?<image> <image> <image> <image> <image> <image> ",
+        "gt_response": "blue",
+        "gen_kwargs": {
+            "do_sample": false,
+            "num_beams": 1,
+            "max_new_tokens": 32,
+            "eos_token_id": 0
+        },
+        "pred_response": "The color of the big truck is white. construction site"
+    },
+    {
+        "sample_id": 2,
+        "question": "Example Question 1:\n<image> <image> <image> <image> <image> <image> {image#1}{image#2}{image#3}{image#4}{image#5}{image#6}Question: do you see trucks in the background?\nAnswer: yes\n\nCurrent Question:\n{image#1}{image#2}{image#3}{image#4}{image#5}{image#6}Question: is there a white building visible?<image> <image> <image> <image> <image> <image> ",
+        "gt_response": "yes",
+        "gen_kwargs": {
+            "do_sample": false,
+            "num_beams": 1,
+            "max_new_tokens": 32,
+            "eos_token_id": 0
+        },
+        "pred_response": "Answer: yes"
+    },
+    {
+        "sample_id": 3,
+        "question": "Example Question 1:\n<image> <image> <image> <image> <image> <image> {image#1}{image#2}{image#3}{image#4}{image#5}{image#6}Question: what colour is the traffic blocker?\nAnswer: orange and white\n\nCurrent Question:\n{image#1}{image#2}{image#3}{image#4}{image#5}{image#6}Question: what is the barrier color?<image> <image> <image> <image> <image> <image> ",
+        "gt_response": "white and orange",
+        "gen_kwargs": {
+            "do_sample": false,
+            "num_beams": 1,
+            "max_new_tokens": 32,
+            "eos_token_id": 0
+        },
+        "pred_response": "The barrier color is orange and white. excavator"
+    },
+    {
+        "sample_id": 4,
+        "question": "Example Question 1:\n<image> <image> <image> <image> <image> <image> {image#1}{image#2}{image#3}{image#4}{image#5}{image#6}Question: what is the barrier color?\nAnswer: white and orange\n\nCurrent Question:\n{image#1}{image#2}{image#3}{image#4}{image#5}{image#6}Question: are there any cars on the road?<image> <image> <image> <image> <image> <image> ",
+        "gt_response": "yes",
+        "gen_kwargs": {
+            "do_sample": false,
+            "num_beams": 1,
+            "max_new_tokens": 32,
+            "eos_token_id": 0
+        },
+        "pred_response": "The video presents a series of scenes that depict a construction site and its surroundings. It begins with a view of a white building with a covered walkway, followed"
+    },
+    {
+        "sample_id": 5,
+        "question": "Example Question 1:\n<image> <image> <image> <image> <image> <image> {image#1}{image#2}{image#3}{image#4}{image#5}{image#6}Question: what color is the van?\nAnswer: white\n\nCurrent Question:\n{image#1}{image#2}{image#3}{image#4}{image#5}{image#6}Question: are there any road works?<image> <image> <image> <image> <image> <image> ",
+        "gt_response": "yes",
+        "gen_kwargs": {
+            "do_sample": false,
+            "num_beams": 1,
+            "max_new_tokens": 32,
+            "eos_token_id": 0
+        },
+        "pred_response": "The images depict a series of urban and industrial scenes, including buildings, roads, and vehicles. The first image shows a building with a loading dock and a truck"
+    },
+    {
+        "sample_id": 6,
+        "question": "Example Question 1:\n<image> <image> <image> <image> <image> <image> {image#1}{image#2}{image#3}{image#4}{image#5}{image#6}Question: is there a vegetation at the roadside?\nAnswer: yes\n\nCurrent Question:\n{image#1}{image#2}{image#3}{image#4}{image#5}{image#6}Question: what color is the curb?<image> <image> <image> <image> <image> <image> ",
+        "gt_response": "black and white",
+        "gen_kwargs": {
+            "do_sample": false,
+            "num_beams": 1,
+            "max_new_tokens": 32,
+            "eos_token_id": 0
+        },
+        "pred_response": "The curb is white. street"
+    },
+    {
+        "sample_id": 7,
+        "question": "Example Question 1:\n<image> <image> <image> <image> <image> <image> {image#1}{image#2}{image#3}{image#4}{image#5}{image#6}Question: what is the main color of bus?\nAnswer: blue\n\nCurrent Question:\n{image#1}{image#2}{image#3}{image#4}{image#5}{image#6}Question: what color are the traffic cones?<image> <image> <image> <image> <image> <image> ",
+        "gt_response": "orange and white",
+        "gen_kwargs": {
+            "do_sample": false,
+            "num_beams": 1,
+            "max_new_tokens": 32,
+            "eos_token_id": 0
+        },
+        "pred_response": "The main color of the bus is blue.The traffic cones are orange."
+    },
+    {
+        "sample_id": 8,
+        "question": "Example Question 1:\n<image> <image> <image> <image> <image> <image> {image#1}{image#2}{image#3}{image#4}{image#5}{image#6}Question: are there any bikes parked outside the building?\nAnswer: yes\n\nCurrent Question:\n{image#1}{image#2}{image#3}{image#4}{image#5}{image#6}Question: what broad classification of plant are behind the railings?<image> <image> <image> <image> <image> <image> ",
+        "gt_response": "bushes",
+        "gen_kwargs": {
+            "do_sample": false,
+            "num_beams": 1,
+            "max_new_tokens": 32,
+            "eos_token_id": 0
+        },
+        "pred_response": "Question: are there any bikes parked outside the building?\nAnswer: yes"
+    },
+    {
+        "sample_id": 9,
+        "question": "Example Question 1:\n<image> <image> <image> <image> <image> <image> {image#1}{image#2}{image#3}{image#4}{image#5}{image#6}Question: is there a large ship and a crane?\nAnswer: yes\n\nCurrent Question:\n{image#1}{image#2}{image#3}{image#4}{image#5}{image#6}Question: what is the cone color?<image> <image> <image> <image> <image> <image> ",
+        "gt_response": "orange",
+        "gen_kwargs": {
+            "do_sample": false,
+            "num_beams": 1,
+            "max_new_tokens": 32,
+            "eos_token_id": 0
+        },
+        "pred_response": "The color of the cone is not visible in the provided images."
+    },
+    {
+        "sample_id": 10,
+        "question": "Example Question 1:\n<image> <image> <image> <image> <image> <image> {image#1}{image#2}{image#3}{image#4}{image#5}{image#6}Question: what colour is the traffic blocker?\nAnswer: orange and white\n\nCurrent Question:\n{image#1}{image#2}{image#3}{image#4}{image#5}{image#6}Question: is there a vegetation at the roadside?<image> <image> <image> <image> <image> <image> ",
+        "gt_response": "yes",
+        "gen_kwargs": {
+            "do_sample": false,
+            "num_beams": 1,
+            "max_new_tokens": 32,
+            "eos_token_id": 0
+        },
+        "pred_response": "The image shows a street scene with a large building on the left side. The building has a modern design with a combination of glass and concrete elements. There are"
+    },
+    {
+        "sample_id": 11,
+        "question": "Example Question 1:\n<image> <image> <image> <image> <image> <image> {image#1}{image#2}{image#3}{image#4}{image#5}{image#6}Question: does the truck say salmon on it?\nAnswer: yes\n\nCurrent Question:\n{image#1}{image#2}{image#3}{image#4}{image#5}{image#6}Question: is there a art mural pictured here?<image> <image> <image> <image> <image> <image> ",
+        "gt_response": "yes",
+        "gen_kwargs": {
+            "do_sample": false,
+            "num_beams": 1,
+            "max_new_tokens": 32,
+            "eos_token_id": 0
+        },
+        "pred_response": "The image does not contain any art mural. the image does not contain any art mural. the image does not"
+    },
+    {
+        "sample_id": 12,
+        "question": "Example Question 1:\n<image> <image> <image> <image> <image> <image> {image#1}{image#2}{image#3}{image#4}{image#5}{image#6}Question: what is the color of the sedan car?\nAnswer: black\n\nCurrent Question:\n{image#1}{image#2}{image#3}{image#4}{image#5}{image#6}Question: what colour shirt is the man standing beside the green sign wearing?<image> <image> <image> <image> <image> <image> ",
+        "gt_response": "white",
+        "gen_kwargs": {
+            "do_sample": false,
+            "num_beams": 1,
+            "max_new_tokens": 32,
+            "eos_token_id": 0
+        },
+        "pred_response": "Answer: black"
+    },
+    {
+        "sample_id": 13,
+        "question": "Example Question 1:\n<image> <image> <image> <image> <image> <image> {image#1}{image#2}{image#3}{image#4}{image#5}{image#6}Question: is there a stop sign?\nAnswer: yes\n\nCurrent Question:\n{image#1}{image#2}{image#3}{image#4}{image#5}{image#6}Question: what color is the bus?<image> <image> <image> <image> <image> <image> ",
+        "gt_response": "blue",
+        "gen_kwargs": {
+            "do_sample": false,
+            "num_beams": 1,
+            "max_new_tokens": 32,
+            "eos_token_id": 0
+        },
+        "pred_response": "Answer: blue"
+    },
+    {
+        "sample_id": 14,
+        "question": "Example Question 1:\n<image> <image> <image> <image> <image> <image> {image#1}{image#2}{image#3}{image#4}{image#5}{image#6}Question: what color is the curb?\nAnswer: black and white\n\nCurrent Question:\n{image#1}{image#2}{image#3}{image#4}{image#5}{image#6}Question: what color is the bus?<image> <image> <image> <image> <image> <image> ",
+        "gt_response": "blue",
+        "gen_kwargs": {
+            "do_sample": false,
+            "num_beams": 1,
+            "max_new_tokens": 32,
+            "eos_token_id": 0
+        },
+        "pred_response": "The color of the bus is blue."
+    },
+    {
+        "sample_id": 15,
+        "question": "Example Question 1:\n<image> <image> <image> <image> <image> <image> {image#1}{image#2}{image#3}{image#4}{image#5}{image#6}Question: what color are the traffic signs?\nAnswer: orange\n\nCurrent Question:\n{image#1}{image#2}{image#3}{image#4}{image#5}{image#6}Question: how many people are standing on the sidewalk behind the scene?<image> <image> <image> <image> <image> <image> ",
+        "gt_response": "three",
+        "gen_kwargs": {
+            "do_sample": false,
+            "num_beams": 1,
+            "max_new_tokens": 32,
+            "eos_token_id": 0
+        },
+        "pred_response": "Answer: 1{image#7}{image#8"
+    },
+    {
+        "sample_id": 16,
+        "question": "Example Question 1:\n<image> <image> <image> <image> <image> <image> {image#1}{image#2}{image#3}{image#4}{image#5}{image#6}Question: what color is the bottom of the fire hydrant ?\nAnswer: black\n\nCurrent Question:\n{image#1}{image#2}{image#3}{image#4}{image#5}{image#6}Question: what is the colour of the two buses?<image> <image> <image> <image> <image> <image> ",
+        "gt_response": "blue",
+        "gen_kwargs": {
+            "do_sample": false,
+            "num_beams": 1,
+            "max_new_tokens": 32,
+            "eos_token_id": 0
+        },
+        "pred_response": "The image shows a street scene with a white building on the left side, featuring a sign that reads \"PEPPERFUCHS\" and \"PUB"
+    },
+    {
+        "sample_id": 17,
+        "question": "Example Question 1:\n<image> <image> <image> <image> <image> <image> {image#1}{image#2}{image#3}{image#4}{image#5}{image#6}Question: what colors are the striped curb?\nAnswer: black and white\n\nCurrent Question:\n{image#1}{image#2}{image#3}{image#4}{image#5}{image#6}Question: does this look like a warehouse?<image> <image> <image> <image> <image> <image> ",
+        "gt_response": "yes",
+        "gen_kwargs": {
+            "do_sample": false,
+            "num_beams": 1,
+            "max_new_tokens": 32,
+            "eos_token_id": 0
+        },
+        "pred_response": "The image shows a large industrial or commercial building with a dark, corrugated metal exterior. In front of the building, there is a fenced-off area"
+    },
+    {
+        "sample_id": 18,
+        "question": "Example Question 1:\n<image> <image> <image> <image> <image> <image> {image#1}{image#2}{image#3}{image#4}{image#5}{image#6}Question: does this look like a warehouse?\nAnswer: yes\n\nCurrent Question:\n{image#1}{image#2}{image#3}{image#4}{image#5}{image#6}Question: how many yellow trucks are there?<image> <image> <image> <image> <image> <image> ",
+        "gt_response": "three",
+        "gen_kwargs": {
+            "do_sample": false,
+            "num_beams": 1,
+            "max_new_tokens": 32,
+            "eos_token_id": 0
+        },
+        "pred_response": "Answer: 2"
+    },
+    {
+        "sample_id": 19,
+        "question": "Example Question 1:\n<image> <image> <image> <image> <image> <image> {image#1}{image#2}{image#3}{image#4}{image#5}{image#6}Question: what colors are the dividers on the side of the road?\nAnswer: orange and white\n\nCurrent Question:\n{image#1}{image#2}{image#3}{image#4}{image#5}{image#6}Question: how many yellow trucks are there?<image> <image> <image> <image> <image> <image> ",
+        "gt_response": "three",
+        "gen_kwargs": {
+            "do_sample": false,
+            "num_beams": 1,
+            "max_new_tokens": 32,
+            "eos_token_id": 0
+        },
+        "pred_response": "Answer: 11"
+    },
+    {
+        "sample_id": 20,
+        "question": "Example Question 1:\n<image> <image> <image> <image> <image> <image> {image#1}{image#2}{image#3}{image#4}{image#5}{image#6}Question: is there a person crossing the street?\nAnswer: yes\n\nCurrent Question:\n{image#1}{image#2}{image#3}{image#4}{image#5}{image#6}Question: how many road cleaner trucks are present?<image> <image> <image> <image> <image> <image> ",
+        "gt_response": "one",
+        "gen_kwargs": {
+            "do_sample": false,
+            "num_beams": 1,
+            "max_new_tokens": 32,
+            "eos_token_id": 0
+        },
+        "pred_response": "Answer: 1{image#7}{"
+    },
+    {
+        "sample_id": 21,
+        "question": "Example Question 1:\n<image> <image> <image> <image> <image> <image> {image#1}{image#2}{image#3}{image#4}{image#5}{image#6}Question: what does the dumpster say?\nAnswer: harvey\n\nCurrent Question:\n{image#1}{image#2}{image#3}{image#4}{image#5}{image#6}Question: are there cars?<image> <image> <image> <image> <image> <image> ",
+        "gt_response": "yes",
+        "gen_kwargs": {
+            "do_sample": false,
+            "num_beams": 1,
+            "max_new_tokens": 32,
+            "eos_token_id": 0
+        },
+        "pred_response": "Question: are there cars?\nAnswer: yes"
+    },
+    {
+        "sample_id": 22,
+        "question": "Example Question 1:\n<image> <image> <image> <image> <image> <image> {image#1}{image#2}{image#3}{image#4}{image#5}{image#6}Question: how many orange horizontal bits on the barrier between the bollards?\nAnswer: seven\n\nCurrent Question:\n{image#1}{image#2}{image#3}{image#4}{image#5}{image#6}Question: how many pedestrians are there?<image> <image> <image> <image> <image> <image> ",
+        "gt_response": "one",
+        "gen_kwargs": {
+            "do_sample": false,
+            "num_beams": 1,
+            "max_new_tokens": 32,
+            "eos_token_id": 0
+        },
+        "pred_response": "1111111111"
+    },
+    {
+        "sample_id": 23,
+        "question": "Example Question 1:\n<image> <image> <image> <image> <image> <image> {image#1}{image#2}{image#3}{image#4}{image#5}{image#6}Question: what color car is in front of the bus?\nAnswer: red\n\nCurrent Question:\n{image#1}{image#2}{image#3}{image#4}{image#5}{image#6}Question: what color is the man walking in the road wearing?<image> <image> <image> <image> <image> <image> ",
+        "gt_response": "black",
+        "gen_kwargs": {
+            "do_sample": false,
+            "num_beams": 1,
+            "max_new_tokens": 32,
+            "eos_token_id": 0
+        },
+        "pred_response": "The man walking in the road is wearing a black shirt and black pants. construction site"
+    },
+    {
+        "sample_id": 24,
+        "question": "Example Question 1:\n<image> <image> <image> <image> <image> <image> {image#1}{image#2}{image#3}{image#4}{image#5}{image#6}Question: color of the car most showed?\nAnswer: silver\n\nCurrent Question:\n{image#1}{image#2}{image#3}{image#4}{image#5}{image#6}Question: is there any pedestrians walking on the road?<image> <image> <image> <image> <image> <image> ",
+        "gt_response": "yes",
+        "gen_kwargs": {
+            "do_sample": false,
+            "num_beams": 1,
+            "max_new_tokens": 32,
+            "eos_token_id": 0
+        },
+        "pred_response": "Answer: no person"
+    },
+    {
+        "sample_id": 25,
+        "question": "Example Question 1:\n<image> <image> <image> <image> <image> <image> {image#1}{image#2}{image#3}{image#4}{image#5}{image#6}Question: why is the road so peaceful?\nAnswer: no\n\nCurrent Question:\n{image#1}{image#2}{image#3}{image#4}{image#5}{image#6}Question: what color is the rear bumper of the van?<image> <image> <image> <image> <image> <image> ",
+        "gt_response": "black",
+        "gen_kwargs": {
+            "do_sample": false,
+            "num_beams": 1,
+            "max_new_tokens": 32,
+            "eos_token_id": 0
+        },
+        "pred_response": "The video presents a series of images depicting a tranquil, tree-lined road that appears to be in a suburban or semi-rural area. The road is"
+    },
+    {
+        "sample_id": 26,
+        "question": "Example Question 1:\n<image> <image> <image> <image> <image> <image> {image#1}{image#2}{image#3}{image#4}{image#5}{image#6}Question: does this appear to be a construction site?\nAnswer: yes\n\nCurrent Question:\n{image#1}{image#2}{image#3}{image#4}{image#5}{image#6}Question: how many pedestrians are visible?<image> <image> <image> <image> <image> <image> ",
+        "gt_response": "one",
+        "gen_kwargs": {
+            "do_sample": false,
+            "num_beams": 1,
+            "max_new_tokens": 32,
+            "eos_token_id": 0
+        },
+        "pred_response": "Answer: 1"
+    },
+    {
+        "sample_id": 27,
+        "question": "Example Question 1:\n<image> <image> <image> <image> <image> <image> {image#1}{image#2}{image#3}{image#4}{image#5}{image#6}Question: what is the cone color?\nAnswer: orange\n\nCurrent Question:\n{image#1}{image#2}{image#3}{image#4}{image#5}{image#6}Question: what is the color of the road barriers besides orange color?<image> <image> <image> <image> <image> <image> ",
+        "gt_response": "white",
+        "gen_kwargs": {
+            "do_sample": false,
+            "num_beams": 1,
+            "max_new_tokens": 32,
+            "eos_token_id": 0
+        },
+        "pred_response": "The color of the road barriers besides orange is white. an image of a road with a"
+    },
+    {
+        "sample_id": 28,
+        "question": "Example Question 1:\n<image> <image> <image> <image> <image> <image> {image#1}{image#2}{image#3}{image#4}{image#5}{image#6}Question: are we currently at a stop ?\nAnswer: yes\n\nCurrent Question:\n{image#1}{image#2}{image#3}{image#4}{image#5}{image#6}Question: what colors are the dividers on the side of the road?<image> <image> <image> <image> <image> <image> ",
+        "gt_response": "orange and white",
+        "gen_kwargs": {
+            "do_sample": false,
+            "num_beams": 1,
+            "max_new_tokens": 32,
+            "eos_token_id": 0
+        },
+        "pred_response": "The dividers on the side of the road are black and white.{image#1}{image#2}{image"
+    },
+    {
+        "sample_id": 29,
+        "question": "Example Question 1:\n<image> <image> <image> <image> <image> <image> {image#1}{image#2}{image#3}{image#4}{image#5}{image#6}Question: how many fences are there?\nAnswer: two\n\nCurrent Question:\n{image#1}{image#2}{image#3}{image#4}{image#5}{image#6}Question: what color are the construction barriers?<image> <image> <image> <image> <image> <image> ",
+        "gt_response": "orange and white",
+        "gen_kwargs": {
+            "do_sample": false,
+            "num_beams": 1,
+            "max_new_tokens": 32,
+            "eos_token_id": 0
+        },
+        "pred_response": "The construction barriers are red and white. empty"
+    },
+    {
+        "sample_id": 30,
+        "question": "Example Question 1:\n<image> <image> <image> <image> <image> <image> {image#1}{image#2}{image#3}{image#4}{image#5}{image#6}Question: how many blue cars are there?\nAnswer: one\n\nCurrent Question:\n{image#1}{image#2}{image#3}{image#4}{image#5}{image#6}Question: what is written on the green board?<image> <image> <image> <image> <image> <image> ",
+        "gt_response": "one north link",
+        "gen_kwargs": {
+            "do_sample": false,
+            "num_beams": 1,
+            "max_new_tokens": 32,
+            "eos_token_id": 0
+        },
+        "pred_response": "The green board in the image contains the following text:\n\nPROJECT TITLE: \n\"PROJECT TITLE: SUPERSTRUCTURE AND SUBSTRUCTURE OF THE NEW BUILDING OF"
+    },
+    {
+        "sample_id": 31,
+        "question": "Example Question 1:\n<image> <image> <image> <image> <image> <image> {image#1}{image#2}{image#3}{image#4}{image#5}{image#6}Question: how many men are standing together at the crosswalk?\nAnswer: three\n\nCurrent Question:\n{image#1}{image#2}{image#3}{image#4}{image#5}{image#6}Question: what street is listed on the last picture?<image> <image> <image> <image> <image> <image> ",
+        "gt_response": "one north link",
+        "gen_kwargs": {
+            "do_sample": false,
+            "num_beams": 1,
+            "max_new_tokens": 32,
+            "eos_token_id": 0
+        },
+        "pred_response": "The street listed on the last picture is \"one-north Link.\" One-north Link is a major road in"
+    },
+    {
+        "sample_id": 32,
+        "question": "Example Question 1:\n<image> <image> <image> <image> <image> <image> {image#1}{image#2}{image#3}{image#4}{image#5}{image#6}Question: is there a cow on an a car?\nAnswer: yes\n\nCurrent Question:\n{image#1}{image#2}{image#3}{image#4}{image#5}{image#6}Question: are there cones along the street?<image> <image> <image> <image> <image> <image> ",
+        "gt_response": "yes",
+        "gen_kwargs": {
+            "do_sample": false,
+            "num_beams": 1,
+            "max_new_tokens": 32,
+            "eos_token_id": 0
+        },
+        "pred_response": "Answer: no"
+    },
+    {
+        "sample_id": 33,
+        "question": "Example Question 1:\n<image> <image> <image> <image> <image> <image> {image#1}{image#2}{image#3}{image#4}{image#5}{image#6}Question: how many people are standing on the sidewalk behind the scene?\nAnswer: three\n\nCurrent Question:\n{image#1}{image#2}{image#3}{image#4}{image#5}{image#6}Question: what color is the bulldozer?<image> <image> <image> <image> <image> <image> ",
+        "gt_response": "yellow",
+        "gen_kwargs": {
+            "do_sample": false,
+            "num_beams": 1,
+            "max_new_tokens": 32,
+            "eos_token_id": 0
+        },
+        "pred_response": "The color of the bulldozer is yellow."
+    },
+    {
+        "sample_id": 34,
+        "question": "Example Question 1:\n<image> <image> <image> <image> <image> <image> {image#1}{image#2}{image#3}{image#4}{image#5}{image#6}Question: is there a person crossing the street?\nAnswer: yes\n\nCurrent Question:\n{image#1}{image#2}{image#3}{image#4}{image#5}{image#6}Question: is this a one or two way street?<image> <image> <image> <image> <image> <image> ",
+        "gt_response": "one way",
+        "gen_kwargs": {
+            "do_sample": false,
+            "num_beams": 1,
+            "max_new_tokens": 32,
+            "eos_token_id": 0
+        },
+        "pred_response": "The street is a two-way street. lanes are clearly marked with white arrows."
+    },
+    {
+        "sample_id": 35,
+        "question": "Example Question 1:\n<image> <image> <image> <image> <image> <image> {image#1}{image#2}{image#3}{image#4}{image#5}{image#6}Question: can a black and white curb be seen in our two left side pictures?\nAnswer: no\n\nCurrent Question:\n{image#1}{image#2}{image#3}{image#4}{image#5}{image#6}Question: can you see concrete circles ?<image> <image> <image> <image> <image> <image> ",
+        "gt_response": "yes",
+        "gen_kwargs": {
+            "do_sample": false,
+            "num_beams": 1,
+            "max_new_tokens": 32,
+            "eos_token_id": 0
+        },
+        "pred_response": "Answer: no modern"
+    },
+    {
+        "sample_id": 36,
+        "question": "Example Question 1:\n<image> <image> <image> <image> <image> <image> {image#1}{image#2}{image#3}{image#4}{image#5}{image#6}Question: what color are the doors?\nAnswer: white\n\nCurrent Question:\n{image#1}{image#2}{image#3}{image#4}{image#5}{image#6}Question: what is the color of the shirt of the man that is talking on the phone?<image> <image> <image> <image> <image> <image> ",
+        "gt_response": "white",
+        "gen_kwargs": {
+            "do_sample": false,
+            "num_beams": 1,
+            "max_new_tokens": 32,
+            "eos_token_id": 0
+        },
+        "pred_response": "The man is wearing a white shirt. a white shirt."
+    },
+    {
+        "sample_id": 37,
+        "question": "Example Question 1:\n<image> <image> <image> <image> <image> <image> {image#1}{image#2}{image#3}{image#4}{image#5}{image#6}Question: are there any bikes parked outside the building?\nAnswer: yes\n\nCurrent Question:\n{image#1}{image#2}{image#3}{image#4}{image#5}{image#6}Question: how many white balls do you see on the ground?<image> <image> <image> <image> <image> <image> ",
+        "gt_response": "nine",
+        "gen_kwargs": {
+            "do_sample": false,
+            "num_beams": 1,
+            "max_new_tokens": 32,
+            "eos_token_id": 0
+        },
+        "pred_response": "Answer: 0: 0: 0"
+    },
+    {
+        "sample_id": 38,
+        "question": "Example Question 1:\n<image> <image> <image> <image> <image> <image> {image#1}{image#2}{image#3}{image#4}{image#5}{image#6}Question: what is the color of balls?\nAnswer: white\n\nCurrent Question:\n{image#1}{image#2}{image#3}{image#4}{image#5}{image#6}Question: is there a glass canopy?<image> <image> <image> <image> <image> <image> ",
+        "gt_response": "yes",
+        "gen_kwargs": {
+            "do_sample": false,
+            "num_beams": 1,
+            "max_new_tokens": 32,
+            "eos_token_id": 0
+        },
+        "pred_response": "The image shows a modern urban setting with a focus on a building entrance. The building has a glass facade, and there is a sign with the text \"P"
+    },
+    {
+        "sample_id": 39,
+        "question": "Example Question 1:\n<image> <image> <image> <image> <image> <image> {image#1}{image#2}{image#3}{image#4}{image#5}{image#6}Question: what is the color of the road barriers besides orange color?\nAnswer: white\n\nCurrent Question:\n{image#1}{image#2}{image#3}{image#4}{image#5}{image#6}Question: what is written on the trash container on our right ?<image> <image> <image> <image> <image> <image> ",
+        "gt_response": "harvey",
+        "gen_kwargs": {
+            "do_sample": false,
+            "num_beams": 1,
+            "max_new_tokens": 32,
+            "eos_token_id": 0
+        },
+        "pred_response": "The image shows a street scene with a row of buildings on the left side. The buildings have large garage doors, and there are several cars parked in front of"
+    },
+    {
+        "sample_id": 40,
+        "question": "Example Question 1:\n<image> <image> <image> <image> <image> <image> {image#1}{image#2}{image#3}{image#4}{image#5}{image#6}Question: are we allowed to cross this intersection ?\nAnswer: yes\n\nCurrent Question:\n{image#1}{image#2}{image#3}{image#4}{image#5}{image#6}Question: what does the dumpster say?<image> <image> <image> <image> <image> <image> ",
+        "gt_response": "harvey",
+        "gen_kwargs": {
+            "do_sample": false,
+            "num_beams": 1,
+            "max_new_tokens": 32,
+            "eos_token_id": 0
+        },
+        "pred_response": "Answer: no dumpster{image#1}{image#2}{image#3}{image#4"
+    },
+    {
+        "sample_id": 41,
+        "question": "Example Question 1:\n<image> <image> <image> <image> <image> <image> {image#1}{image#2}{image#3}{image#4}{image#5}{image#6}Question: what is the bus color?\nAnswer: blue\n\nCurrent Question:\n{image#1}{image#2}{image#3}{image#4}{image#5}{image#6}Question: how many people are by the red car?<image> <image> <image> <image> <image> <image> ",
+        "gt_response": "two",
+        "gen_kwargs": {
+            "do_sample": false,
+            "num_beams": 1,
+            "max_new_tokens": 32,
+            "eos_token_id": 0
+        },
+        "pred_response": "Answer: 1{image#1}{image#2}{"
+    },
+    {
+        "sample_id": 42,
+        "question": "Example Question 1:\n<image> <image> <image> <image> <image> <image> {image#1}{image#2}{image#3}{image#4}{image#5}{image#6}Question: is there a pedestrian in the road?\nAnswer: yes\n\nCurrent Question:\n{image#1}{image#2}{image#3}{image#4}{image#5}{image#6}Question: what is written on the road to the right side of the girl who wears a red colored bag?<image> <image> <image> <image> <image> <image> ",
+        "gt_response": "ahead",
+        "gen_kwargs": {
+            "do_sample": false,
+            "num_beams": 1,
+            "max_new_tokens": 32,
+            "eos_token_id": 0
+        },
+        "pred_response": "The text on the road to the right side of the girl who wears a red colored bag is \"KEEPING\"."
+    },
+    {
+        "sample_id": 43,
+        "question": "Example Question 1:\n<image> <image> <image> <image> <image> <image> {image#1}{image#2}{image#3}{image#4}{image#5}{image#6}Question: what is the color of the buildings?\nAnswer: white\n\nCurrent Question:\n{image#1}{image#2}{image#3}{image#4}{image#5}{image#6}Question: what are the color of patterned squares on the street?<image> <image> <image> <image> <image> <image> ",
+        "gt_response": "yellow",
+        "gen_kwargs": {
+            "do_sample": false,
+            "num_beams": 1,
+            "max_new_tokens": 32,
+            "eos_token_id": 0
+        },
+        "pred_response": "The patterned squares on the street are yellow and black. crosswalk"
+    },
+    {
+        "sample_id": 44,
+        "question": "Example Question 1:\n<image> <image> <image> <image> <image> <image> {image#1}{image#2}{image#3}{image#4}{image#5}{image#6}Question: if there parking for the cars?\nAnswer: yes\n\nCurrent Question:\n{image#1}{image#2}{image#3}{image#4}{image#5}{image#6}Question: on the other side of the white stripes the crossing has another color- what?<image> <image> <image> <image> <image> <image> ",
+        "gt_response": "yellow",
+        "gen_kwargs": {
+            "do_sample": false,
+            "num_beams": 1,
+            "max_new_tokens": 32,
+            "eos_token_id": 0
+        },
+        "pred_response": "The video presents a series of images depicting a city street scene, focusing on a black SUV parked on the side of the road. The first image shows the SUV"
+    },
+    {
+        "sample_id": 45,
+        "question": "Example Question 1:\n<image> <image> <image> <image> <image> <image> {image#1}{image#2}{image#3}{image#4}{image#5}{image#6}Question: what broad classification of plant are behind the railings?\nAnswer: bushes\n\nCurrent Question:\n{image#1}{image#2}{image#3}{image#4}{image#5}{image#6}Question: are there any cars on the road?<image> <image> <image> <image> <image> <image> ",
+        "gt_response": "yes",
+        "gen_kwargs": {
+            "do_sample": false,
+            "num_beams": 1,
+            "max_new_tokens": 32,
+            "eos_token_id": 0
+        },
+        "pred_response": "No, there are no cars on the road. Walkway"
+    },
+    {
+        "sample_id": 46,
+        "question": "Example Question 1:\n<image> <image> <image> <image> <image> <image> {image#1}{image#2}{image#3}{image#4}{image#5}{image#6}Question: is there a crosswalk?\nAnswer: yes\n\nCurrent Question:\n{image#1}{image#2}{image#3}{image#4}{image#5}{image#6}Question: is there a stop sign?<image> <image> <image> <image> <image> <image> ",
+        "gt_response": "yes",
+        "gen_kwargs": {
+            "do_sample": false,
+            "num_beams": 1,
+            "max_new_tokens": 32,
+            "eos_token_id": 0
+        },
+        "pred_response": "Yes, there is a stop sign in the image."
+    },
+    {
+        "sample_id": 47,
+        "question": "Example Question 1:\n<image> <image> <image> <image> <image> <image> {image#1}{image#2}{image#3}{image#4}{image#5}{image#6}Question: what color are the solid lines in the road?\nAnswer: yellow\n\nCurrent Question:\n{image#1}{image#2}{image#3}{image#4}{image#5}{image#6}Question: are we currently at a stop ?<image> <image> <image> <image> <image> <image> ",
+        "gt_response": "yes",
+        "gen_kwargs": {
+            "do_sample": false,
+            "num_beams": 1,
+            "max_new_tokens": 32,
+            "eos_token_id": 0
+        },
+        "pred_response": "No, we are not currently at a stop."
+    },
+    {
+        "sample_id": 48,
+        "question": "Example Question 1:\n<image> <image> <image> <image> <image> <image> {image#1}{image#2}{image#3}{image#4}{image#5}{image#6}Question: what color is the roof of the building?\nAnswer: red\n\nCurrent Question:\n{image#1}{image#2}{image#3}{image#4}{image#5}{image#6}Question: what color is the bottom of the fire hydrant ?<image> <image> <image> <image> <image> <image> ",
+        "gt_response": "black",
+        "gen_kwargs": {
+            "do_sample": false,
+            "num_beams": 1,
+            "max_new_tokens": 32,
+            "eos_token_id": 0
+        },
+        "pred_response": "The color of the bottom of the fire hydrant is black. a white van."
+    },
+    {
+        "sample_id": 49,
+        "question": "Example Question 1:\n<image> <image> <image> <image> <image> <image> {image#1}{image#2}{image#3}{image#4}{image#5}{image#6}Question: do you see white and black stripes?\nAnswer: yes\n\nCurrent Question:\n{image#1}{image#2}{image#3}{image#4}{image#5}{image#6}Question: what is growing on this side of the parked cars?<image> <image> <image> <image> <image> <image> ",
+        "gt_response": "tree",
+        "gen_kwargs": {
+            "do_sample": false,
+            "num_beams": 1,
+            "max_new_tokens": 32,
+            "eos_token_id": 0
+        },
+        "pred_response": "The video presents a series of images depicting various urban and suburban scenes, focusing on different aspects of the environment, including buildings, roads, and natural elements. Here"
+    },
+    {
+        "sample_id": 50,
+        "question": "Example Question 1:\n<image> <image> <image> <image> <image> <image> {image#1}{image#2}{image#3}{image#4}{image#5}{image#6}Question: how many blue cars are there?\nAnswer: one\n\nCurrent Question:\n{image#1}{image#2}{image#3}{image#4}{image#5}{image#6}Question: how many people are walking?<image> <image> <image> <image> <image> <image> ",
+        "gt_response": "two",
+        "gen_kwargs": {
+            "do_sample": false,
+            "num_beams": 1,
+            "max_new_tokens": 32,
+            "eos_token_id": 0
+        },
+        "pred_response": "The image shows a street scene with a few people walking. There are two people walking on the sidewalk, and one person is walking on the street. The street"
+    },
+    {
+        "sample_id": 51,
+        "question": "Example Question 1:\n<image> <image> <image> <image> <image> <image> {image#1}{image#2}{image#3}{image#4}{image#5}{image#6}Question: how many blue cars are there?\nAnswer: one\n\nCurrent Question:\n{image#1}{image#2}{image#3}{image#4}{image#5}{image#6}Question: how many white vans are parked on ths side of the road ?<image> <image> <image> <image> <image> <image> ",
+        "gt_response": "one",
+        "gen_kwargs": {
+            "do_sample": false,
+            "num_beams": 1,
+            "max_new_tokens": 32,
+            "eos_token_id": 0
+        },
+        "pred_response": "Answer: 11"
+    },
+    {
+        "sample_id": 52,
+        "question": "Example Question 1:\n<image> <image> <image> <image> <image> <image> {image#1}{image#2}{image#3}{image#4}{image#5}{image#6}Question: how many diamond shaped orange construction signs can be seen?\nAnswer: two\n\nCurrent Question:\n{image#1}{image#2}{image#3}{image#4}{image#5}{image#6}Question: is there an entry way visible?<image> <image> <image> <image> <image> <image> ",
+        "gt_response": "yes",
+        "gen_kwargs": {
+            "do_sample": false,
+            "num_beams": 1,
+            "max_new_tokens": 32,
+            "eos_token_id": 0
+        },
+        "pred_response": "The image shows a street view with a building on the left side. There is a sign on the building that reads \"PLACE ENTRY.\" The building has large"
+    },
+    {
+        "sample_id": 53,
+        "question": "Example Question 1:\n<image> <image> <image> <image> <image> <image> {image#1}{image#2}{image#3}{image#4}{image#5}{image#6}Question: where is orange construction sign?\nAnswer: on side of road\n\nCurrent Question:\n{image#1}{image#2}{image#3}{image#4}{image#5}{image#6}Question: the name of the place  is?<image> <image> <image> <image> <image> <image> ",
+        "gt_response": "harbor place",
+        "gen_kwargs": {
+            "do_sample": false,
+            "num_beams": 1,
+            "max_new_tokens": 32,
+            "eos_token_id": 0
+        },
+        "pred_response": "The name of the place is Harbor Place. South Entry."
+    },
+    {
+        "sample_id": 54,
+        "question": "Example Question 1:\n<image> <image> <image> <image> <image> <image> {image#1}{image#2}{image#3}{image#4}{image#5}{image#6}Question: are there clouds?\nAnswer: yes\n\nCurrent Question:\n{image#1}{image#2}{image#3}{image#4}{image#5}{image#6}Question: white words on the building?<image> <image> <image> <image> <image> <image> ",
+        "gt_response": "harbor place",
+        "gen_kwargs": {
+            "do_sample": false,
+            "num_beams": 1,
+            "max_new_tokens": 32,
+            "eos_token_id": 0
+        },
+        "pred_response": "Answer: no"
+    },
+    {
+        "sample_id": 55,
+        "question": "Example Question 1:\n<image> <image> <image> <image> <image> <image> {image#1}{image#2}{image#3}{image#4}{image#5}{image#6}Question: how many scooters in the image?\nAnswer: zero\n\nCurrent Question:\n{image#1}{image#2}{image#3}{image#4}{image#5}{image#6}Question: do you see white and black stripes?<image> <image> <image> <image> <image> <image> ",
+        "gt_response": "yes",
+        "gen_kwargs": {
+            "do_sample": false,
+            "num_beams": 1,
+            "max_new_tokens": 32,
+            "eos_token_id": 0
+        },
+        "pred_response": "The image does not contain any white and black stripes.{image#"
+    },
+    {
+        "sample_id": 56,
+        "question": "Example Question 1:\n<image> <image> <image> <image> <image> <image> {image#1}{image#2}{image#3}{image#4}{image#5}{image#6}Question: is there a vegetation at the roadside?\nAnswer: yes\n\nCurrent Question:\n{image#1}{image#2}{image#3}{image#4}{image#5}{image#6}Question: how many fences are there?<image> <image> <image> <image> <image> <image> ",
+        "gt_response": "two",
+        "gen_kwargs": {
+            "do_sample": false,
+            "num_beams": 1,
+            "max_new_tokens": 32,
+            "eos_token_id": 0
+        },
+        "pred_response": "Question: is there a vegetation at the roadside?\nAnswer: yes small"
+    },
+    {
+        "sample_id": 57,
+        "question": "Example Question 1:\n<image> <image> <image> <image> <image> <image> {image#1}{image#2}{image#3}{image#4}{image#5}{image#6}Question: what is the color of the sedan car?\nAnswer: black\n\nCurrent Question:\n{image#1}{image#2}{image#3}{image#4}{image#5}{image#6}Question: does this development have gates?<image> <image> <image> <image> <image> <image> ",
+        "gt_response": "yes",
+        "gen_kwargs": {
+            "do_sample": false,
+            "num_beams": 1,
+            "max_new_tokens": 32,
+            "eos_token_id": 0
+        },
+        "pred_response": "The video presents a series of images depicting various scenes, primarily focusing on urban and suburban environments. The first image shows a white pickup truck parked on a street next"
+    },
+    {
+        "sample_id": 58,
+        "question": "Example Question 1:\n<image> <image> <image> <image> <image> <image> {image#1}{image#2}{image#3}{image#4}{image#5}{image#6}Question: what word is wrote in blue letters?\nAnswer: nucleos\n\nCurrent Question:\n{image#1}{image#2}{image#3}{image#4}{image#5}{image#6}Question: is this a green zone?<image> <image> <image> <image> <image> <image> ",
+        "gt_response": "yes",
+        "gen_kwargs": {
+            "do_sample": false,
+            "num_beams": 1,
+            "max_new_tokens": 32,
+            "eos_token_id": 0
+        },
+        "pred_response": "The video presents a series of images showcasing a journey through a suburban or semi-urban area, focusing on the transition from natural to built environments. It begins"
+    },
+    {
+        "sample_id": 59,
+        "question": "Example Question 1:\n<image> <image> <image> <image> <image> <image> {image#1}{image#2}{image#3}{image#4}{image#5}{image#6}Question: what color is the bus?\nAnswer: blue\n\nCurrent Question:\n{image#1}{image#2}{image#3}{image#4}{image#5}{image#6}Question: what color is the fence?<image> <image> <image> <image> <image> <image> ",
+        "gt_response": "green",
+        "gen_kwargs": {
+            "do_sample": false,
+            "num_beams": 1,
+            "max_new_tokens": 32,
+            "eos_token_id": 0
+        },
+        "pred_response": "The fence is green.The fence is green.The fence is green.The fence is green."
+    },
+    {
+        "sample_id": 60,
+        "question": "Example Question 1:\n<image> <image> <image> <image> <image> <image> {image#1}{image#2}{image#3}{image#4}{image#5}{image#6}Question: is there a glass canopy?\nAnswer: yes\n\nCurrent Question:\n{image#1}{image#2}{image#3}{image#4}{image#5}{image#6}Question: are there clouds?<image> <image> <image> <image> <image> <image> ",
+        "gt_response": "yes",
+        "gen_kwargs": {
+            "do_sample": false,
+            "num_beams": 1,
+            "max_new_tokens": 32,
+            "eos_token_id": 0
+        },
+        "pred_response": "The image shows a street scene with a few cars parked on the side of the road. The sky is partly cloudy, and there are trees lining the street"
+    },
+    {
+        "sample_id": 61,
+        "question": "Example Question 1:\n<image> <image> <image> <image> <image> <image> {image#1}{image#2}{image#3}{image#4}{image#5}{image#6}Question: how many pedestrians are there?\nAnswer: one\n\nCurrent Question:\n{image#1}{image#2}{image#3}{image#4}{image#5}{image#6}Question: how many pickup trucks are parked?<image> <image> <image> <image> <image> <image> ",
+        "gt_response": "one",
+        "gen_kwargs": {
+            "do_sample": false,
+            "num_beams": 1,
+            "max_new_tokens": 32,
+            "eos_token_id": 0
+        },
+        "pred_response": "Answer: 11"
+    },
+    {
+        "sample_id": 62,
+        "question": "Example Question 1:\n<image> <image> <image> <image> <image> <image> {image#1}{image#2}{image#3}{image#4}{image#5}{image#6}Question: what color is the traffic light indicating?\nAnswer: green\n\nCurrent Question:\n{image#1}{image#2}{image#3}{image#4}{image#5}{image#6}Question: what color is the crossing sign?<image> <image> <image> <image> <image> <image> ",
+        "gt_response": "yellow",
+        "gen_kwargs": {
+            "do_sample": false,
+            "num_beams": 1,
+            "max_new_tokens": 32,
+            "eos_token_id": 0
+        },
+        "pred_response": "The crossing sign is yellow. traffic light."
+    },
+    {
+        "sample_id": 63,
+        "question": "Example Question 1:\n<image> <image> <image> <image> <image> <image> {image#1}{image#2}{image#3}{image#4}{image#5}{image#6}Question: how many persons are riding bike?\nAnswer: one\n\nCurrent Question:\n{image#1}{image#2}{image#3}{image#4}{image#5}{image#6}Question: what colour are the verandas on the building?<image> <image> <image> <image> <image> <image> ",
+        "gt_response": "blue",
+        "gen_kwargs": {
+            "do_sample": false,
+            "num_beams": 1,
+            "max_new_tokens": 32,
+            "eos_token_id": 0
+        },
+        "pred_response": "The color of the verandas on the building is blue. a"
+    },
+    {
+        "sample_id": 64,
+        "question": "Example Question 1:\n<image> <image> <image> <image> <image> <image> {image#1}{image#2}{image#3}{image#4}{image#5}{image#6}Question: is there a bus stop?\nAnswer: yes\n\nCurrent Question:\n{image#1}{image#2}{image#3}{image#4}{image#5}{image#6}Question: are there any bikes parked outside the building?<image> <image> <image> <image> <image> <image> ",
+        "gt_response": "yes",
+        "gen_kwargs": {
+            "do_sample": false,
+            "num_beams": 1,
+            "max_new_tokens": 32,
+            "eos_token_id": 0
+        },
+        "pred_response": "Answer: no{image#1"
+    },
+    {
+        "sample_id": 65,
+        "question": "Example Question 1:\n<image> <image> <image> <image> <image> <image> {image#1}{image#2}{image#3}{image#4}{image#5}{image#6}Question: how many diamond shaped orange construction signs can be seen?\nAnswer: two\n\nCurrent Question:\n{image#1}{image#2}{image#3}{image#4}{image#5}{image#6}Question: how many cars running?<image> <image> <image> <image> <image> <image> ",
+        "gt_response": "zero",
+        "gen_kwargs": {
+            "do_sample": false,
+            "num_beams": 1,
+            "max_new_tokens": 32,
+            "eos_token_id": 0
+        },
+        "pred_response": "Answer: 1{image#1}{image#2"
+    },
+    {
+        "sample_id": 66,
+        "question": "Example Question 1:\n<image> <image> <image> <image> <image> <image> {image#1}{image#2}{image#3}{image#4}{image#5}{image#6}Question: what colour shirt is the man standing beside the green sign wearing?\nAnswer: white\n\nCurrent Question:\n{image#1}{image#2}{image#3}{image#4}{image#5}{image#6}Question: do the buildings have a connection?<image> <image> <image> <image> <image> <image> ",
+        "gt_response": "yes",
+        "gen_kwargs": {
+            "do_sample": false,
+            "num_beams": 1,
+            "max_new_tokens": 32,
+            "eos_token_id": 0
+        },
+        "pred_response": "The images depict a series of urban scenes, likely within a business or office district. The buildings are modern, with a mix of glass and concrete facades."
+    },
+    {
+        "sample_id": 67,
+        "question": "Example Question 1:\n<image> <image> <image> <image> <image> <image> {image#1}{image#2}{image#3}{image#4}{image#5}{image#6}Question: what's the color of the car behind us on our right ?\nAnswer: red\n\nCurrent Question:\n{image#1}{image#2}{image#3}{image#4}{image#5}{image#6}Question: how many bridges in this above picture/?<image> <image> <image> <image> <image> <image> ",
+        "gt_response": "one",
+        "gen_kwargs": {
+            "do_sample": false,
+            "num_beams": 1,
+            "max_new_tokens": 32,
+            "eos_token_id": 0
+        },
+        "pred_response": "Question: how many bridges in this above picture/?a single bridge"
+    },
+    {
+        "sample_id": 68,
+        "question": "Example Question 1:\n<image> <image> <image> <image> <image> <image> {image#1}{image#2}{image#3}{image#4}{image#5}{image#6}Question: what color is the bottom of the fire hydrant ?\nAnswer: black\n\nCurrent Question:\n{image#1}{image#2}{image#3}{image#4}{image#5}{image#6}Question: what word is wrote in blue letters?<image> <image> <image> <image> <image> <image> ",
+        "gt_response": "nucleos",
+        "gen_kwargs": {
+            "do_sample": false,
+            "num_beams": 1,
+            "max_new_tokens": 32,
+            "eos_token_id": 0
+        },
+        "pred_response": "The word \"nucleos\" is written in blue letters.\"nucleos\""
+    },
+    {
+        "sample_id": 69,
+        "question": "Example Question 1:\n<image> <image> <image> <image> <image> <image> {image#1}{image#2}{image#3}{image#4}{image#5}{image#6}Question: what does the dumpster say?\nAnswer: harvey\n\nCurrent Question:\n{image#1}{image#2}{image#3}{image#4}{image#5}{image#6}Question: how many buses are there?<image> <image> <image> <image> <image> <image> ",
+        "gt_response": "one",
+        "gen_kwargs": {
+            "do_sample": false,
+            "num_beams": 1,
+            "max_new_tokens": 32,
+            "eos_token_id": 0
+        },
+        "pred_response": "Answer: 1"
+    },
+    {
+        "sample_id": 70,
+        "question": "Example Question 1:\n<image> <image> <image> <image> <image> <image> {image#1}{image#2}{image#3}{image#4}{image#5}{image#6}Question: is there a blue bus?\nAnswer: yes\n\nCurrent Question:\n{image#1}{image#2}{image#3}{image#4}{image#5}{image#6}Question: a person is walking what color their hair?<image> <image> <image> <image> <image> <image> ",
+        "gt_response": "black",
+        "gen_kwargs": {
+            "do_sample": false,
+            "num_beams": 1,
+            "max_new_tokens": 32,
+            "eos_token_id": 0
+        },
+        "pred_response": "The image does not provide any information about a person's hair color. hair color."
+    },
+    {
+        "sample_id": 71,
+        "question": "Example Question 1:\n<image> <image> <image> <image> <image> <image> {image#1}{image#2}{image#3}{image#4}{image#5}{image#6}Question: what color are the mans pants in the blue shirt?\nAnswer: black\n\nCurrent Question:\n{image#1}{image#2}{image#3}{image#4}{image#5}{image#6}Question: what color is the van?<image> <image> <image> <image> <image> <image> ",
+        "gt_response": "white",
+        "gen_kwargs": {
+            "do_sample": false,
+            "num_beams": 1,
+            "max_new_tokens": 32,
+            "eos_token_id": 0
+        },
+        "pred_response": "The van is white. cars"
+    },
+    {
+        "sample_id": 72,
+        "question": "Example Question 1:\n<image> <image> <image> <image> <image> <image> {image#1}{image#2}{image#3}{image#4}{image#5}{image#6}Question: is there a pedestrian in the road?\nAnswer: yes\n\nCurrent Question:\n{image#1}{image#2}{image#3}{image#4}{image#5}{image#6}Question: how many bus are above the picture?<image> <image> <image> <image> <image> <image> ",
+        "gt_response": "one bus",
+        "gen_kwargs": {
+            "do_sample": false,
+            "num_beams": 1,
+            "max_new_tokens": 32,
+            "eos_token_id": 0
+        },
+        "pred_response": "Answer: 1"
+    },
+    {
+        "sample_id": 73,
+        "question": "Example Question 1:\n<image> <image> <image> <image> <image> <image> {image#1}{image#2}{image#3}{image#4}{image#5}{image#6}Question: what color is the bulldozer?\nAnswer: yellow\n\nCurrent Question:\n{image#1}{image#2}{image#3}{image#4}{image#5}{image#6}Question: what is the color of the van?<image> <image> <image> <image> <image> <image> ",
+        "gt_response": "white",
+        "gen_kwargs": {
+            "do_sample": false,
+            "num_beams": 1,
+            "max_new_tokens": 32,
+            "eos_token_id": 0
+        },
+        "pred_response": "The color of the van is white."
+    },
+    {
+        "sample_id": 74,
+        "question": "Example Question 1:\n<image> <image> <image> <image> <image> <image> {image#1}{image#2}{image#3}{image#4}{image#5}{image#6}Question: is there a car?\nAnswer: yes\n\nCurrent Question:\n{image#1}{image#2}{image#3}{image#4}{image#5}{image#6}Question: what's the color of the bus parked on the side of the road ?<image> <image> <image> <image> <image> <image> ",
+        "gt_response": "blue",
+        "gen_kwargs": {
+            "do_sample": false,
+            "num_beams": 1,
+            "max_new_tokens": 32,
+            "eos_token_id": 0
+        },
+        "pred_response": "Answer: white blue"
+    },
+    {
+        "sample_id": 75,
+        "question": "Example Question 1:\n<image> <image> <image> <image> <image> <image> {image#1}{image#2}{image#3}{image#4}{image#5}{image#6}Question: is there a receiving area visible?\nAnswer: yes\n\nCurrent Question:\n{image#1}{image#2}{image#3}{image#4}{image#5}{image#6}Question: how many buses are there?<image> <image> <image> <image> <image> <image> ",
+        "gt_response": "one",
+        "gen_kwargs": {
+            "do_sample": false,
+            "num_beams": 1,
+            "max_new_tokens": 32,
+            "eos_token_id": 0
+        },
+        "pred_response": "Question: is there a receiving area visible?\n\nAnswer: yes a receiving area is visible in the image."
+    },
+    {
+        "sample_id": 76,
+        "question": "Example Question 1:\n<image> <image> <image> <image> <image> <image> {image#1}{image#2}{image#3}{image#4}{image#5}{image#6}Question: what is the shirt color of the man that is on the crosswalk?\nAnswer: red\n\nCurrent Question:\n{image#1}{image#2}{image#3}{image#4}{image#5}{image#6}Question: what is the color of bus?<image> <image> <image> <image> <image> <image> ",
+        "gt_response": "blue",
+        "gen_kwargs": {
+            "do_sample": false,
+            "num_beams": 1,
+            "max_new_tokens": 32,
+            "eos_token_id": 0
+        },
+        "pred_response": "Answer: blueblue"
+    },
+    {
+        "sample_id": 77,
+        "question": "Example Question 1:\n<image> <image> <image> <image> <image> <image> {image#1}{image#2}{image#3}{image#4}{image#5}{image#6}Question: is there a large white semi-truck in the scene?\nAnswer: yes\n\nCurrent Question:\n{image#1}{image#2}{image#3}{image#4}{image#5}{image#6}Question: what's the primary color of the bus?<image> <image> <image> <image> <image> <image> ",
+        "gt_response": "blue",
+        "gen_kwargs": {
+            "do_sample": false,
+            "num_beams": 1,
+            "max_new_tokens": 32,
+            "eos_token_id": 0
+        },
+        "pred_response": "Answer: blue blue"
+    },
+    {
+        "sample_id": 78,
+        "question": "Example Question 1:\n<image> <image> <image> <image> <image> <image> {image#1}{image#2}{image#3}{image#4}{image#5}{image#6}Question: what color is the car?\nAnswer: silver\n\nCurrent Question:\n{image#1}{image#2}{image#3}{image#4}{image#5}{image#6}Question: the bollards are colored what color?<image> <image> <image> <image> <image> <image> ",
+        "gt_response": "yellow",
+        "gen_kwargs": {
+            "do_sample": false,
+            "num_beams": 1,
+            "max_new_tokens": 32,
+            "eos_token_id": 0
+        },
+        "pred_response": "The bollards are colored yellow. two"
+    },
+    {
+        "sample_id": 79,
+        "question": "Example Question 1:\n<image> <image> <image> <image> <image> <image> {image#1}{image#2}{image#3}{image#4}{image#5}{image#6}Question: what type of vehicle is seen most in the pictures?\nAnswer: truck\n\nCurrent Question:\n{image#1}{image#2}{image#3}{image#4}{image#5}{image#6}Question: is a bus visible?<image> <image> <image> <image> <image> <image> ",
+        "gt_response": "yes",
+        "gen_kwargs": {
+            "do_sample": false,
+            "num_beams": 1,
+            "max_new_tokens": 32,
+            "eos_token_id": 0
+        },
+        "pred_response": "Answer: nonoyesno"
+    },
+    {
+        "sample_id": 80,
+        "question": "Example Question 1:\n<image> <image> <image> <image> <image> <image> {image#1}{image#2}{image#3}{image#4}{image#5}{image#6}Question: what is the barrier color?\nAnswer: white and orange\n\nCurrent Question:\n{image#1}{image#2}{image#3}{image#4}{image#5}{image#6}Question: what is the color of the buildings?<image> <image> <image> <image> <image> <image> ",
+        "gt_response": "white",
+        "gen_kwargs": {
+            "do_sample": false,
+            "num_beams": 1,
+            "max_new_tokens": 32,
+            "eos_token_id": 0
+        },
+        "pred_response": "The color of the buildings in the images is white."
+    },
+    {
+        "sample_id": 81,
+        "question": "Example Question 1:\n<image> <image> <image> <image> <image> <image> {image#1}{image#2}{image#3}{image#4}{image#5}{image#6}Question: if there parking for the cars?\nAnswer: yes\n\nCurrent Question:\n{image#1}{image#2}{image#3}{image#4}{image#5}{image#6}Question: is there an orange or yellow construction sign?<image> <image> <image> <image> <image> <image> ",
+        "gt_response": "orange",
+        "gen_kwargs": {
+            "do_sample": false,
+            "num_beams": 1,
+            "max_new_tokens": 32,
+            "eos_token_id": 0
+        },
+        "pred_response": "Answer: no"
+    },
+    {
+        "sample_id": 82,
+        "question": "Example Question 1:\n<image> <image> <image> <image> <image> <image> {image#1}{image#2}{image#3}{image#4}{image#5}{image#6}Question: how many pickup trucks are parked?\nAnswer: one\n\nCurrent Question:\n{image#1}{image#2}{image#3}{image#4}{image#5}{image#6}Question: amount of cars behind you?<image> <image> <image> <image> <image> <image> ",
+        "gt_response": "one",
+        "gen_kwargs": {
+            "do_sample": false,
+            "num_beams": 1,
+            "max_new_tokens": 32,
+            "eos_token_id": 0
+        },
+        "pred_response": "The video presents a sequence of scenes from a city street, showcasing various elements of urban life. It begins with a view of a street lined with parked cars"
+    },
+    {
+        "sample_id": 83,
+        "question": "Example Question 1:\n<image> <image> <image> <image> <image> <image> {image#1}{image#2}{image#3}{image#4}{image#5}{image#6}Question: are there cones along the street?\nAnswer: yes\n\nCurrent Question:\n{image#1}{image#2}{image#3}{image#4}{image#5}{image#6}Question: what color are the traffic signs?<image> <image> <image> <image> <image> <image> ",
+        "gt_response": "orange",
+        "gen_kwargs": {
+            "do_sample": false,
+            "num_beams": 1,
+            "max_new_tokens": 32,
+            "eos_token_id": 0
+        },
+        "pred_response": "The video presents a series of images depicting a city street scene with various elements such as buildings, vehicles, and construction activities. The images are taken from different angles"
+    },
+    {
+        "sample_id": 84,
+        "question": "Example Question 1:\n<image> <image> <image> <image> <image> <image> {image#1}{image#2}{image#3}{image#4}{image#5}{image#6}Question: is the road empty?\nAnswer: yes\n\nCurrent Question:\n{image#1}{image#2}{image#3}{image#4}{image#5}{image#6}Question: what is the color of the board?<image> <image> <image> <image> <image> <image> ",
+        "gt_response": "orange",
+        "gen_kwargs": {
+            "do_sample": false,
+            "num_beams": 1,
+            "max_new_tokens": 32,
+            "eos_token_id": 0
+        },
+        "pred_response": "The video presents a series of images depicting a city street scene, focusing on a road that appears to be undergoing some form of construction or maintenance. The road is"
+    },
+    {
+        "sample_id": 85,
+        "question": "Example Question 1:\n<image> <image> <image> <image> <image> <image> {image#1}{image#2}{image#3}{image#4}{image#5}{image#6}Question: are there any green cars driving on the road?\nAnswer: no\n\nCurrent Question:\n{image#1}{image#2}{image#3}{image#4}{image#5}{image#6}Question: where is orange construction sign?<image> <image> <image> <image> <image> <image> ",
+        "gt_response": "on side of road",
+        "gen_kwargs": {
+            "do_sample": false,
+            "num_beams": 1,
+            "max_new_tokens": 32,
+            "eos_token_id": 0
+        },
+        "pred_response": "The video presents a series of images depicting various urban and suburban scenes, focusing on different aspects of the environment, including buildings, roads, and vehicles. Here is"
+    },
+    {
+        "sample_id": 86,
+        "question": "Example Question 1:\n<image> <image> <image> <image> <image> <image> {image#1}{image#2}{image#3}{image#4}{image#5}{image#6}Question: how many cars running?\nAnswer: zero\n\nCurrent Question:\n{image#1}{image#2}{image#3}{image#4}{image#5}{image#6}Question: has there been construction lately?<image> <image> <image> <image> <image> <image> ",
+        "gt_response": "yes",
+        "gen_kwargs": {
+            "do_sample": false,
+            "num_beams": 1,
+            "max_new_tokens": 32,
+            "eos_token_id": 0
+        },
+        "pred_response": "The images depict various urban and suburban scenes, including parking lots, streets, and buildings. There is no direct evidence of recent construction in the provided images. However"
+    },
+    {
+        "sample_id": 87,
+        "question": "Example Question 1:\n<image> <image> <image> <image> <image> <image> {image#1}{image#2}{image#3}{image#4}{image#5}{image#6}Question: what is the color of the banner in front of the restaurant?\nAnswer: red\n\nCurrent Question:\n{image#1}{image#2}{image#3}{image#4}{image#5}{image#6}Question: what's the color of the car behind us on our right ?<image> <image> <image> <image> <image> <image> ",
+        "gt_response": "red",
+        "gen_kwargs": {
+            "do_sample": false,
+            "num_beams": 1,
+            "max_new_tokens": 32,
+            "eos_token_id": 0
+        },
+        "pred_response": "The color of the car behind us on our right is white."
+    },
+    {
+        "sample_id": 88,
+        "question": "Example Question 1:\n<image> <image> <image> <image> <image> <image> {image#1}{image#2}{image#3}{image#4}{image#5}{image#6}Question: are there cars?\nAnswer: yes\n\nCurrent Question:\n{image#1}{image#2}{image#3}{image#4}{image#5}{image#6}Question: is there a blue bus?<image> <image> <image> <image> <image> <image> ",
+        "gt_response": "yes",
+        "gen_kwargs": {
+            "do_sample": false,
+            "num_beams": 1,
+            "max_new_tokens": 32,
+            "eos_token_id": 0
+        },
+        "pred_response": "Answer: no\n\nAnswer: no"
+    },
+    {
+        "sample_id": 89,
+        "question": "Example Question 1:\n<image> <image> <image> <image> <image> <image> {image#1}{image#2}{image#3}{image#4}{image#5}{image#6}Question: how many white balls do you see on the ground?\nAnswer: nine\n\nCurrent Question:\n{image#1}{image#2}{image#3}{image#4}{image#5}{image#6}Question: what is the bus color?<image> <image> <image> <image> <image> <image> ",
+        "gt_response": "blue",
+        "gen_kwargs": {
+            "do_sample": false,
+            "num_beams": 1,
+            "max_new_tokens": 32,
+            "eos_token_id": 0
+        },
+        "pred_response": "The video presents a series of images showcasing various urban and suburban settings, focusing on different aspects of the environment, including buildings, streets, and natural elements."
+    },
+    {
+        "sample_id": 90,
+        "question": "Example Question 1:\n<image> <image> <image> <image> <image> <image> {image#1}{image#2}{image#3}{image#4}{image#5}{image#6}Question: what colour are the verandas on the building?\nAnswer: blue\n\nCurrent Question:\n{image#1}{image#2}{image#3}{image#4}{image#5}{image#6}Question: what color is the bus?<image> <image> <image> <image> <image> <image> ",
+        "gt_response": "blue",
+        "gen_kwargs": {
+            "do_sample": false,
+            "num_beams": 1,
+            "max_new_tokens": 32,
+            "eos_token_id": 0
+        },
+        "pred_response": "The color of the bus is blue."
+    },
+    {
+        "sample_id": 91,
+        "question": "Example Question 1:\n<image> <image> <image> <image> <image> <image> {image#1}{image#2}{image#3}{image#4}{image#5}{image#6}Question: are the buildings made of brick?\nAnswer: yes\n\nCurrent Question:\n{image#1}{image#2}{image#3}{image#4}{image#5}{image#6}Question: are there roadworks?<image> <image> <image> <image> <image> <image> ",
+        "gt_response": "yes",
+        "gen_kwargs": {
+            "do_sample": false,
+            "num_beams": 1,
+            "max_new_tokens": 32,
+            "eos_token_id": 0
+        },
+        "pred_response": "No, there are no roadworks in the images."
+    },
+    {
+        "sample_id": 92,
+        "question": "Example Question 1:\n<image> <image> <image> <image> <image> <image> {image#1}{image#2}{image#3}{image#4}{image#5}{image#6}Question: what color car is in front of the bus?\nAnswer: red\n\nCurrent Question:\n{image#1}{image#2}{image#3}{image#4}{image#5}{image#6}Question: what direction is the traffic sign pointing?<image> <image> <image> <image> <image> <image> ",
+        "gt_response": "left",
+        "gen_kwargs": {
+            "do_sample": false,
+            "num_beams": 1,
+            "max_new_tokens": 32,
+            "eos_token_id": 0
+        },
+        "pred_response": "The traffic sign is pointing to the right. a black car."
+    },
+    {
+        "sample_id": 93,
+        "question": "Example Question 1:\n<image> <image> <image> <image> <image> <image> {image#1}{image#2}{image#3}{image#4}{image#5}{image#6}Question: how many concrete ball you can see?\nAnswer: six\n\nCurrent Question:\n{image#1}{image#2}{image#3}{image#4}{image#5}{image#6}Question: what is the main color of the bus?<image> <image> <image> <image> <image> <image> ",
+        "gt_response": "blue",
+        "gen_kwargs": {
+            "do_sample": false,
+            "num_beams": 1,
+            "max_new_tokens": 32,
+            "eos_token_id": 0
+        },
+        "pred_response": "The video presents a series of images showcasing an urban environment, likely within a city or business district. The scenes are characterized by modern architecture, with buildings featuring"
+    },
+    {
+        "sample_id": 94,
+        "question": "Example Question 1:\n<image> <image> <image> <image> <image> <image> {image#1}{image#2}{image#3}{image#4}{image#5}{image#6}Question: what colors are the dividers on the side of the road?\nAnswer: orange and white\n\nCurrent Question:\n{image#1}{image#2}{image#3}{image#4}{image#5}{image#6}Question: what colour is the traffic blocker?<image> <image> <image> <image> <image> <image> ",
+        "gt_response": "orange and white",
+        "gen_kwargs": {
+            "do_sample": false,
+            "num_beams": 1,
+            "max_new_tokens": 32,
+            "eos_token_id": 0
+        },
+        "pred_response": "The color of the traffic blocker is orange. an excavator is present in the image. a road"
+    },
+    {
+        "sample_id": 95,
+        "question": "Example Question 1:\n<image> <image> <image> <image> <image> <image> {image#1}{image#2}{image#3}{image#4}{image#5}{image#6}Question: what is written on the trash container on our right ?\nAnswer: harvey\n\nCurrent Question:\n{image#1}{image#2}{image#3}{image#4}{image#5}{image#6}Question: what is the color of the barriers?<image> <image> <image> <image> <image> <image> ",
+        "gt_response": "white and orange",
+        "gen_kwargs": {
+            "do_sample": false,
+            "num_beams": 1,
+            "max_new_tokens": 32,
+            "eos_token_id": 0
+        },
+        "pred_response": "The color of the barriers is orange and white. \"harvey\""
+    },
+    {
+        "sample_id": 96,
+        "question": "Example Question 1:\n<image> <image> <image> <image> <image> <image> {image#1}{image#2}{image#3}{image#4}{image#5}{image#6}Question: is there a fire hydrant near a bicycle?\nAnswer: yes\n\nCurrent Question:\n{image#1}{image#2}{image#3}{image#4}{image#5}{image#6}Question: is this place bicycle-friendly?<image> <image> <image> <image> <image> <image> ",
+        "gt_response": "yes",
+        "gen_kwargs": {
+            "do_sample": false,
+            "num_beams": 1,
+            "max_new_tokens": 32,
+            "eos_token_id": 0
+        },
+        "pred_response": "The images depict a series of urban street scenes, each with its own unique characteristics. The first image shows a street corner with a white car parked on the side"
+    },
+    {
+        "sample_id": 97,
+        "question": "Example Question 1:\n<image> <image> <image> <image> <image> <image> {image#1}{image#2}{image#3}{image#4}{image#5}{image#6}Question: how many men are standing together at the crosswalk?\nAnswer: three\n\nCurrent Question:\n{image#1}{image#2}{image#3}{image#4}{image#5}{image#6}Question: how many green lights are there?<image> <image> <image> <image> <image> <image> ",
+        "gt_response": "five",
+        "gen_kwargs": {
+            "do_sample": false,
+            "num_beams": 1,
+            "max_new_tokens": 32,
+            "eos_token_id": 0
+        },
+        "pred_response": "Answer: 23"
+    },
+    {
+        "sample_id": 98,
+        "question": "Example Question 1:\n<image> <image> <image> <image> <image> <image> {image#1}{image#2}{image#3}{image#4}{image#5}{image#6}Question: is there a pedestrian in the road?\nAnswer: yes\n\nCurrent Question:\n{image#1}{image#2}{image#3}{image#4}{image#5}{image#6}Question: what color is the traffic light indicating?<image> <image> <image> <image> <image> <image> ",
+        "gt_response": "green",
+        "gen_kwargs": {
+            "do_sample": false,
+            "num_beams": 1,
+            "max_new_tokens": 32,
+            "eos_token_id": 0
+        },
+        "pred_response": "The traffic light is red. no"
+    },
+    {
+        "sample_id": 99,
+        "question": "Example Question 1:\n<image> <image> <image> <image> <image> <image> {image#1}{image#2}{image#3}{image#4}{image#5}{image#6}Question: what color is the roof of the building?\nAnswer: red\n\nCurrent Question:\n{image#1}{image#2}{image#3}{image#4}{image#5}{image#6}Question: is there an intersection present?<image> <image> <image> <image> <image> <image> ",
+        "gt_response": "yes",
+        "gen_kwargs": {
+            "do_sample": false,
+            "num_beams": 1,
+            "max_new_tokens": 32,
+            "eos_token_id": 0
+        },
+        "pred_response": "The image shows a street intersection with traffic lights, buildings, and a few cars. The traffic lights are green, indicating that vehicles can proceed. There are no"
+    },
+    {
+        "sample_id": 100,
+        "question": "Example Question 1:\n<image> <image> <image> <image> <image> <image> {image#1}{image#2}{image#3}{image#4}{image#5}{image#6}Question: is there a large ship and a crane?\nAnswer: yes\n\nCurrent Question:\n{image#1}{image#2}{image#3}{image#4}{image#5}{image#6}Question: are we allowed to cross this intersection ?<image> <image> <image> <image> <image> <image> ",
+        "gt_response": "yes",
+        "gen_kwargs": {
+            "do_sample": false,
+            "num_beams": 1,
+            "max_new_tokens": 32,
+            "eos_token_id": 0
+        },
+        "pred_response": "No, we are not allowed to cross the intersection. The traffic light is red, indicating that vehicles must stop and wait for the light to turn green before proceeding"
+    },
+    {
+        "sample_id": 101,
+        "question": "Example Question 1:\n<image> <image> <image> <image> <image> <image> {image#1}{image#2}{image#3}{image#4}{image#5}{image#6}Question: what color is the van?\nAnswer: white\n\nCurrent Question:\n{image#1}{image#2}{image#3}{image#4}{image#5}{image#6}Question: what is the name displayed on the courier van?<image> <image> <image> <image> <image> <image> ",
+        "gt_response": "fedex",
+        "gen_kwargs": {
+            "do_sample": false,
+            "num_beams": 1,
+            "max_new_tokens": 32,
+            "eos_token_id": 0
+        },
+        "pred_response": "Answer: courier courier"
+    },
+    {
+        "sample_id": 102,
+        "question": "Example Question 1:\n<image> <image> <image> <image> <image> <image> {image#1}{image#2}{image#3}{image#4}{image#5}{image#6}Question: what colour are the verandas on the building?\nAnswer: blue\n\nCurrent Question:\n{image#1}{image#2}{image#3}{image#4}{image#5}{image#6}Question: what color is the light?<image> <image> <image> <image> <image> <image> ",
+        "gt_response": "green",
+        "gen_kwargs": {
+            "do_sample": false,
+            "num_beams": 1,
+            "max_new_tokens": 32,
+            "eos_token_id": 0
+        },
+        "pred_response": "The light is red. a red light."
+    },
+    {
+        "sample_id": 103,
+        "question": "Example Question 1:\n<image> <image> <image> <image> <image> <image> {image#1}{image#2}{image#3}{image#4}{image#5}{image#6}Question: what is the color of the waves in graphite?\nAnswer: blue\n\nCurrent Question:\n{image#1}{image#2}{image#3}{image#4}{image#5}{image#6}Question: what company does the white van belong to?<image> <image> <image> <image> <image> <image> ",
+        "gt_response": "fedex",
+        "gen_kwargs": {
+            "do_sample": false,
+            "num_beams": 1,
+            "max_new_tokens": 32,
+            "eos_token_id": 0
+        },
+        "pred_response": "Answer: FedEx blue Steve Go"
+    },
+    {
+        "sample_id": 104,
+        "question": "Example Question 1:\n<image> <image> <image> <image> <image> <image> {image#1}{image#2}{image#3}{image#4}{image#5}{image#6}Question: is there an intersection present?\nAnswer: yes\n\nCurrent Question:\n{image#1}{image#2}{image#3}{image#4}{image#5}{image#6}Question: how many truck are above the roadways?<image> <image> <image> <image> <image> <image> ",
+        "gt_response": "one truck",
+        "gen_kwargs": {
+            "do_sample": false,
+            "num_beams": 1,
+            "max_new_tokens": 32,
+            "eos_token_id": 0
+        },
+        "pred_response": "Answer: 1{"
+    },
+    {
+        "sample_id": 105,
+        "question": "Example Question 1:\n<image> <image> <image> <image> <image> <image> {image#1}{image#2}{image#3}{image#4}{image#5}{image#6}Question: what is the color of the board where food count is written?\nAnswer: yellow\n\nCurrent Question:\n{image#1}{image#2}{image#3}{image#4}{image#5}{image#6}Question: how many orange horizontal bits on the barrier between the bollards?<image> <image> <image> <image> <image> <image> ",
+        "gt_response": "seven",
+        "gen_kwargs": {
+            "do_sample": false,
+            "num_beams": 1,
+            "max_new_tokens": 32,
+            "eos_token_id": 0
+        },
+        "pred_response": "Answer: 33333"
+    },
+    {
+        "sample_id": 106,
+        "question": "Example Question 1:\n<image> <image> <image> <image> <image> <image> {image#1}{image#2}{image#3}{image#4}{image#5}{image#6}Question: what's the color of the car behind us on our right ?\nAnswer: red\n\nCurrent Question:\n{image#1}{image#2}{image#3}{image#4}{image#5}{image#6}Question: is there any construction?<image> <image> <image> <image> <image> <image> ",
+        "gt_response": "yes",
+        "gen_kwargs": {
+            "do_sample": false,
+            "num_beams": 1,
+            "max_new_tokens": 32,
+            "eos_token_id": 0
+        },
+        "pred_response": "The video presents a series of images depicting various urban and suburban scenes, focusing on the presence of construction sites and the surrounding environment. Here's a detailed analysis of"
+    },
+    {
+        "sample_id": 107,
+        "question": "Example Question 1:\n<image> <image> <image> <image> <image> <image> {image#1}{image#2}{image#3}{image#4}{image#5}{image#6}Question: is there a vegetation at the roadside?\nAnswer: yes\n\nCurrent Question:\n{image#1}{image#2}{image#3}{image#4}{image#5}{image#6}Question: is there a cow on an a car?<image> <image> <image> <image> <image> <image> ",
+        "gt_response": "yes",
+        "gen_kwargs": {
+            "do_sample": false,
+            "num_beams": 1,
+            "max_new_tokens": 32,
+            "eos_token_id": 0
+        },
+        "pred_response": "Answer: no building"
+    },
+    {
+        "sample_id": 108,
+        "question": "Example Question 1:\n<image> <image> <image> <image> <image> <image> {image#1}{image#2}{image#3}{image#4}{image#5}{image#6}Question: does this appear to be a construction site?\nAnswer: yes\n\nCurrent Question:\n{image#1}{image#2}{image#3}{image#4}{image#5}{image#6}Question: how many red vehicles are there?<image> <image> <image> <image> <image> <image> ",
+        "gt_response": "one",
+        "gen_kwargs": {
+            "do_sample": false,
+            "num_beams": 1,
+            "max_new_tokens": 32,
+            "eos_token_id": 0
+        },
+        "pred_response": "Answer: 1"
+    },
+    {
+        "sample_id": 109,
+        "question": "Example Question 1:\n<image> <image> <image> <image> <image> <image> {image#1}{image#2}{image#3}{image#4}{image#5}{image#6}Question: what is the color of the sedan car?\nAnswer: black\n\nCurrent Question:\n{image#1}{image#2}{image#3}{image#4}{image#5}{image#6}Question: is there a large ship and a crane?<image> <image> <image> <image> <image> <image> ",
+        "gt_response": "yes",
+        "gen_kwargs": {
+            "do_sample": false,
+            "num_beams": 1,
+            "max_new_tokens": 32,
+            "eos_token_id": 0
+        },
+        "pred_response": "No, there is no large ship and crane in the image."
+    },
+    {
+        "sample_id": 110,
+        "question": "Example Question 1:\n<image> <image> <image> <image> <image> <image> {image#1}{image#2}{image#3}{image#4}{image#5}{image#6}Question: what color are the traffic signs?\nAnswer: orange\n\nCurrent Question:\n{image#1}{image#2}{image#3}{image#4}{image#5}{image#6}Question: are there black cars parked?<image> <image> <image> <image> <image> <image> ",
+        "gt_response": "yes",
+        "gen_kwargs": {
+            "do_sample": false,
+            "num_beams": 1,
+            "max_new_tokens": 32,
+            "eos_token_id": 0
+        },
+        "pred_response": "Yes, there are black cars parked in the image."
+    },
+    {
+        "sample_id": 111,
+        "question": "Example Question 1:\n<image> <image> <image> <image> <image> <image> {image#1}{image#2}{image#3}{image#4}{image#5}{image#6}Question: the name of the place  is?\nAnswer: harbor place\n\nCurrent Question:\n{image#1}{image#2}{image#3}{image#4}{image#5}{image#6}Question: what color is the boat?<image> <image> <image> <image> <image> <image> ",
+        "gt_response": "black and white",
+        "gen_kwargs": {
+            "do_sample": false,
+            "num_beams": 1,
+            "max_new_tokens": 32,
+            "eos_token_id": 0
+        },
+        "pred_response": "The image shows a large ship docked at a port. The ship is predominantly black with a white superstructure. It has several visible decks and a large cr"
+    },
+    {
+        "sample_id": 112,
+        "question": "Example Question 1:\n<image> <image> <image> <image> <image> <image> {image#1}{image#2}{image#3}{image#4}{image#5}{image#6}Question: how many orange horizontal bits on the barrier between the bollards?\nAnswer: seven\n\nCurrent Question:\n{image#1}{image#2}{image#3}{image#4}{image#5}{image#6}Question: is there parking for cars?<image> <image> <image> <image> <image> <image> ",
+        "gt_response": "yes",
+        "gen_kwargs": {
+            "do_sample": false,
+            "num_beams": 1,
+            "max_new_tokens": 32,
+            "eos_token_id": 0
+        },
+        "pred_response": "The image shows a large ship docked at a port. In front of the ship, there is a parking lot filled with various cars, including a red pickup"
+    },
+    {
+        "sample_id": 113,
+        "question": "Example Question 1:\n<image> <image> <image> <image> <image> <image> {image#1}{image#2}{image#3}{image#4}{image#5}{image#6}Question: what colour is the traffic blocker?\nAnswer: orange and white\n\nCurrent Question:\n{image#1}{image#2}{image#3}{image#4}{image#5}{image#6}Question: is there a fire hydrant near a bicycle?<image> <image> <image> <image> <image> <image> ",
+        "gt_response": "yes",
+        "gen_kwargs": {
+            "do_sample": false,
+            "num_beams": 1,
+            "max_new_tokens": 32,
+            "eos_token_id": 0
+        },
+        "pred_response": "Answer: no a bicycle"
+    },
+    {
+        "sample_id": 114,
+        "question": "Example Question 1:\n<image> <image> <image> <image> <image> <image> {image#1}{image#2}{image#3}{image#4}{image#5}{image#6}Question: how many people are wearing orange shirts?\nAnswer: two\n\nCurrent Question:\n{image#1}{image#2}{image#3}{image#4}{image#5}{image#6}Question: are the buildings made of brick?<image> <image> <image> <image> <image> <image> ",
+        "gt_response": "yes",
+        "gen_kwargs": {
+            "do_sample": false,
+            "num_beams": 1,
+            "max_new_tokens": 32,
+            "eos_token_id": 0
+        },
+        "pred_response": "The video presents a series of urban scenes, each capturing different aspects of city life. It begins with a view of a modern building with large glass windows, where"
+    },
+    {
+        "sample_id": 115,
+        "question": "Example Question 1:\n<image> <image> <image> <image> <image> <image> {image#1}{image#2}{image#3}{image#4}{image#5}{image#6}Question: can trees be seen?\nAnswer: yes\n\nCurrent Question:\n{image#1}{image#2}{image#3}{image#4}{image#5}{image#6}Question: is there a receiving area visible?<image> <image> <image> <image> <image> <image> ",
+        "gt_response": "yes",
+        "gen_kwargs": {
+            "do_sample": false,
+            "num_beams": 1,
+            "max_new_tokens": 32,
+            "eos_token_id": 0
+        },
+        "pred_response": "The image shows a street scene with a few elements. There is a large truck parked on the right side of the street, and a smaller vehicle is visible in"
+    },
+    {
+        "sample_id": 116,
+        "question": "Example Question 1:\n<image> <image> <image> <image> <image> <image> {image#1}{image#2}{image#3}{image#4}{image#5}{image#6}Question: has there been construction lately?\nAnswer: yes\n\nCurrent Question:\n{image#1}{image#2}{image#3}{image#4}{image#5}{image#6}Question: does the truck say salmon on it?<image> <image> <image> <image> <image> <image> ",
+        "gt_response": "yes",
+        "gen_kwargs": {
+            "do_sample": false,
+            "num_beams": 1,
+            "max_new_tokens": 32,
+            "eos_token_id": 0
+        },
+        "pred_response": "Answer: no the truck says \"Salmon\" on it."
+    },
+    {
+        "sample_id": 117,
+        "question": "Example Question 1:\n<image> <image> <image> <image> <image> <image> {image#1}{image#2}{image#3}{image#4}{image#5}{image#6}Question: is this a one or two way street?\nAnswer: one way\n\nCurrent Question:\n{image#1}{image#2}{image#3}{image#4}{image#5}{image#6}Question: what is the guy holding to his ear on the truck?<image> <image> <image> <image> <image> <image> ",
+        "gt_response": "phone",
+        "gen_kwargs": {
+            "do_sample": false,
+            "num_beams": 1,
+            "max_new_tokens": 32,
+            "eos_token_id": 0
+        },
+        "pred_response": "The video presents a series of scenes from an urban environment, focusing on a street and its surroundings. It begins with a view of a street lined with trees and"
+    },
+    {
+        "sample_id": 118,
+        "question": "Example Question 1:\n<image> <image> <image> <image> <image> <image> {image#1}{image#2}{image#3}{image#4}{image#5}{image#6}Question: what color is the building?\nAnswer: white\n\nCurrent Question:\n{image#1}{image#2}{image#3}{image#4}{image#5}{image#6}Question: is there a cement truck?<image> <image> <image> <image> <image> <image> ",
+        "gt_response": "yes",
+        "gen_kwargs": {
+            "do_sample": false,
+            "num_beams": 1,
+            "max_new_tokens": 32,
+            "eos_token_id": 0
+        },
+        "pred_response": "The image shows a construction site with a cement truck parked on the street. The truck is white and has a large cement mixer attached to it. The truck is"
+    },
+    {
+        "sample_id": 119,
+        "question": "Example Question 1:\n<image> <image> <image> <image> <image> <image> {image#1}{image#2}{image#3}{image#4}{image#5}{image#6}Question: what color are the solid lines in the road?\nAnswer: yellow\n\nCurrent Question:\n{image#1}{image#2}{image#3}{image#4}{image#5}{image#6}Question: what is the cone color?<image> <image> <image> <image> <image> <image> ",
+        "gt_response": "orange and white",
+        "gen_kwargs": {
+            "do_sample": false,
+            "num_beams": 1,
+            "max_new_tokens": 32,
+            "eos_token_id": 0
+        },
+        "pred_response": "The cone color is orange. orange"
+    },
+    {
+        "sample_id": 120,
+        "question": "Example Question 1:\n<image> <image> <image> <image> <image> <image> {image#1}{image#2}{image#3}{image#4}{image#5}{image#6}Question: are the buildings made of brick?\nAnswer: yes\n\nCurrent Question:\n{image#1}{image#2}{image#3}{image#4}{image#5}{image#6}Question: is it urban or rural?<image> <image> <image> <image> <image> <image> ",
+        "gt_response": "urban",
+        "gen_kwargs": {
+            "do_sample": false,
+            "num_beams": 1,
+            "max_new_tokens": 32,
+            "eos_token_id": 0
+        },
+        "pred_response": "The images depict an urban environment. parked cars, a street with traffic lights, and buildings with brick facades."
+    },
+    {
+        "sample_id": 121,
+        "question": "Example Question 1:\n<image> <image> <image> <image> <image> <image> {image#1}{image#2}{image#3}{image#4}{image#5}{image#6}Question: how many road cleaner trucks are present?\nAnswer: one\n\nCurrent Question:\n{image#1}{image#2}{image#3}{image#4}{image#5}{image#6}Question: what color shirt is the person with the bear and sunglasses wearing?<image> <image> <image> <image> <image> <image> ",
+        "gt_response": "blue",
+        "gen_kwargs": {
+            "do_sample": false,
+            "num_beams": 1,
+            "max_new_tokens": 32,
+            "eos_token_id": 0
+        },
+        "pred_response": "The image you've provided does not contain any people or vehicles, so I'm unable to answer the question about the color of a person's shirt or the presence"
+    },
+    {
+        "sample_id": 122,
+        "question": "Example Question 1:\n<image> <image> <image> <image> <image> <image> {image#1}{image#2}{image#3}{image#4}{image#5}{image#6}Question: the bollards are colored what color?\nAnswer: yellow\n\nCurrent Question:\n{image#1}{image#2}{image#3}{image#4}{image#5}{image#6}Question: how many men are standing together at the crosswalk?<image> <image> <image> <image> <image> <image> ",
+        "gt_response": "three",
+        "gen_kwargs": {
+            "do_sample": false,
+            "num_beams": 1,
+            "max_new_tokens": 32,
+            "eos_token_id": 0
+        },
+        "pred_response": "Question: how many men are standing together at the crosswalk?\nAnswer: 3 waiting"
+    },
+    {
+        "sample_id": 123,
+        "question": "Example Question 1:\n<image> <image> <image> <image> <image> <image> {image#1}{image#2}{image#3}{image#4}{image#5}{image#6}Question: what is the color of the waves in graphite?\nAnswer: blue\n\nCurrent Question:\n{image#1}{image#2}{image#3}{image#4}{image#5}{image#6}Question: what is color of board on which martix is written?<image> <image> <image> <image> <image> <image> ",
+        "gt_response": "orange",
+        "gen_kwargs": {
+            "do_sample": false,
+            "num_beams": 1,
+            "max_new_tokens": 32,
+            "eos_token_id": 0
+        },
+        "pred_response": "The color of the board on which the matrix is written is blue.\"target-org"
+    },
+    {
+        "sample_id": 124,
+        "question": "Example Question 1:\n<image> <image> <image> <image> <image> <image> {image#1}{image#2}{image#3}{image#4}{image#5}{image#6}Question: what street is listed on the last picture?\nAnswer: one north link\n\nCurrent Question:\n{image#1}{image#2}{image#3}{image#4}{image#5}{image#6}Question: what color are the mans pants in the blue shirt?<image> <image> <image> <image> <image> <image> ",
+        "gt_response": "black",
+        "gen_kwargs": {
+            "do_sample": false,
+            "num_beams": 1,
+            "max_new_tokens": 32,
+            "eos_token_id": 0
+        },
+        "pred_response": "The man in the blue shirt is wearing black pants. another man in a"
+    },
+    {
+        "sample_id": 125,
+        "question": "Example Question 1:\n<image> <image> <image> <image> <image> <image> {image#1}{image#2}{image#3}{image#4}{image#5}{image#6}Question: are we currently at a stop ?\nAnswer: yes\n\nCurrent Question:\n{image#1}{image#2}{image#3}{image#4}{image#5}{image#6}Question: what is the color of the balls?<image> <image> <image> <image> <image> <image> ",
+        "gt_response": "white",
+        "gen_kwargs": {
+            "do_sample": false,
+            "num_beams": 1,
+            "max_new_tokens": 32,
+            "eos_token_id": 0
+        },
+        "pred_response": "The color of the balls is gray. \"Happy Diw"
+    },
+    {
+        "sample_id": 126,
+        "question": "Example Question 1:\n<image> <image> <image> <image> <image> <image> {image#1}{image#2}{image#3}{image#4}{image#5}{image#6}Question: how many traffic lights are on?\nAnswer: two\n\nCurrent Question:\n{image#1}{image#2}{image#3}{image#4}{image#5}{image#6}Question: is there a person crossing the street?<image> <image> <image> <image> <image> <image> ",
+        "gt_response": "yes",
+        "gen_kwargs": {
+            "do_sample": false,
+            "num_beams": 1,
+            "max_new_tokens": 32,
+            "eos_token_id": 0
+        },
+        "pred_response": "No, there is no person crossing the street in the image."
+    },
+    {
+        "sample_id": 127,
+        "question": "Example Question 1:\n<image> <image> <image> <image> <image> <image> {image#1}{image#2}{image#3}{image#4}{image#5}{image#6}Question: how many bus are above the picture?\nAnswer: one bus\n\nCurrent Question:\n{image#1}{image#2}{image#3}{image#4}{image#5}{image#6}Question: are there people walking around?<image> <image> <image> <image> <image> <image> ",
+        "gt_response": "yes",
+        "gen_kwargs": {
+            "do_sample": false,
+            "num_beams": 1,
+            "max_new_tokens": 32,
+            "eos_token_id": 0
+        },
+        "pred_response": "No, there are no people walking around in the image."
+    },
+    {
+        "sample_id": 128,
+        "question": "Example Question 1:\n<image> <image> <image> <image> <image> <image> {image#1}{image#2}{image#3}{image#4}{image#5}{image#6}Question: how many cars running?\nAnswer: zero\n\nCurrent Question:\n{image#1}{image#2}{image#3}{image#4}{image#5}{image#6}Question: is the man on the road?<image> <image> <image> <image> <image> <image> ",
+        "gt_response": "yes",
+        "gen_kwargs": {
+            "do_sample": false,
+            "num_beams": 1,
+            "max_new_tokens": 32,
+            "eos_token_id": 0
+        },
+        "pred_response": "Answer: no {image#7}{image#8}{image#9}{image#10}{image"
+    },
+    {
+        "sample_id": 129,
+        "question": "Example Question 1:\n<image> <image> <image> <image> <image> <image> {image#1}{image#2}{image#3}{image#4}{image#5}{image#6}Question: what is the color of the van?\nAnswer: white\n\nCurrent Question:\n{image#1}{image#2}{image#3}{image#4}{image#5}{image#6}Question: is there a pedestrian in the road?<image> <image> <image> <image> <image> <image> ",
+        "gt_response": "yes",
+        "gen_kwargs": {
+            "do_sample": false,
+            "num_beams": 1,
+            "max_new_tokens": 32,
+            "eos_token_id": 0
+        },
+        "pred_response": "No, there is no pedestrian in the road. {image#"
+    },
+    {
+        "sample_id": 130,
+        "question": "Example Question 1:\n<image> <image> <image> <image> <image> <image> {image#1}{image#2}{image#3}{image#4}{image#5}{image#6}Question: what is written on the road to the right side of the girl who wears a red colored bag?\nAnswer: ahead\n\nCurrent Question:\n{image#1}{image#2}{image#3}{image#4}{image#5}{image#6}Question: what does the blue sign say?<image> <image> <image> <image> <image> <image> ",
+        "gt_response": "twenty-three",
+        "gen_kwargs": {
+            "do_sample": false,
+            "num_beams": 1,
+            "max_new_tokens": 32,
+            "eos_token_id": 0
+        },
+        "pred_response": "The blue sign says \"BUS STOP\".STOP\".}"
+    },
+    {
+        "sample_id": 131,
+        "question": "Example Question 1:\n<image> <image> <image> <image> <image> <image> {image#1}{image#2}{image#3}{image#4}{image#5}{image#6}Question: is there any construction?\nAnswer: yes\n\nCurrent Question:\n{image#1}{image#2}{image#3}{image#4}{image#5}{image#6}Question: how many images show people?<image> <image> <image> <image> <image> <image> ",
+        "gt_response": "four",
+        "gen_kwargs": {
+            "do_sample": false,
+            "num_beams": 1,
+            "max_new_tokens": 32,
+            "eos_token_id": 0
+        },
+        "pred_response": "Answer: 5{image#7}{image#"
+    },
+    {
+        "sample_id": 132,
+        "question": "Example Question 1:\n<image> <image> <image> <image> <image> <image> {image#1}{image#2}{image#3}{image#4}{image#5}{image#6}Question: what color is the car in front of the building?\nAnswer: white\n\nCurrent Question:\n{image#1}{image#2}{image#3}{image#4}{image#5}{image#6}Question: color of the car most showed?<image> <image> <image> <image> <image> <image> ",
+        "gt_response": "silver",
+        "gen_kwargs": {
+            "do_sample": false,
+            "num_beams": 1,
+            "max_new_tokens": 32,
+            "eos_token_id": 0
+        },
+        "pred_response": "The color of the car most shown in the image is silver. other cars are also"
+    },
+    {
+        "sample_id": 133,
+        "question": "Example Question 1:\n<image> <image> <image> <image> <image> <image> {image#1}{image#2}{image#3}{image#4}{image#5}{image#6}Question: is it urban or rural?\nAnswer: urban\n\nCurrent Question:\n{image#1}{image#2}{image#3}{image#4}{image#5}{image#6}Question: what is the color of the bus?<image> <image> <image> <image> <image> <image> ",
+        "gt_response": "yellow",
+        "gen_kwargs": {
+            "do_sample": false,
+            "num_beams": 1,
+            "max_new_tokens": 32,
+            "eos_token_id": 0
+        },
+        "pred_response": "The color of the bus is yellow. Harbor Place"
+    },
+    {
+        "sample_id": 134,
+        "question": "Example Question 1:\n<image> <image> <image> <image> <image> <image> {image#1}{image#2}{image#3}{image#4}{image#5}{image#6}Question: on the other side of the white stripes the crossing has another color- what?\nAnswer: yellow\n\nCurrent Question:\n{image#1}{image#2}{image#3}{image#4}{image#5}{image#6}Question: what's connecting the two buildings across the street?<image> <image> <image> <image> <image> <image> ",
+        "gt_response": "overpass",
+        "gen_kwargs": {
+            "do_sample": false,
+            "num_beams": 1,
+            "max_new_tokens": 32,
+            "eos_token_id": 0
+        },
+        "pred_response": "Answer: bridge yellowbridge"
+    },
+    {
+        "sample_id": 135,
+        "question": "Example Question 1:\n<image> <image> <image> <image> <image> <image> {image#1}{image#2}{image#3}{image#4}{image#5}{image#6}Question: what street is listed on the last picture?\nAnswer: one north link\n\nCurrent Question:\n{image#1}{image#2}{image#3}{image#4}{image#5}{image#6}Question: what color are the doors?<image> <image> <image> <image> <image> <image> ",
+        "gt_response": "white",
+        "gen_kwargs": {
+            "do_sample": false,
+            "num_beams": 1,
+            "max_new_tokens": 32,
+            "eos_token_id": 0
+        },
+        "pred_response": "The color of the doors in the image is gray. a white van."
+    },
+    {
+        "sample_id": 136,
+        "question": "Example Question 1:\n<image> <image> <image> <image> <image> <image> {image#1}{image#2}{image#3}{image#4}{image#5}{image#6}Question: what is the main color of the bus?\nAnswer: blue\n\nCurrent Question:\n{image#1}{image#2}{image#3}{image#4}{image#5}{image#6}Question: how many scooters in the image?<image> <image> <image> <image> <image> <image> ",
+        "gt_response": "zero",
+        "gen_kwargs": {
+            "do_sample": false,
+            "num_beams": 1,
+            "max_new_tokens": 32,
+            "eos_token_id": 0
+        },
+        "pred_response": "Answer: 1"
+    },
+    {
+        "sample_id": 137,
+        "question": "Example Question 1:\n<image> <image> <image> <image> <image> <image> {image#1}{image#2}{image#3}{image#4}{image#5}{image#6}Question: is there a car?\nAnswer: yes\n\nCurrent Question:\n{image#1}{image#2}{image#3}{image#4}{image#5}{image#6}Question: how many cranes are visible?<image> <image> <image> <image> <image> <image> ",
+        "gt_response": "one",
+        "gen_kwargs": {
+            "do_sample": false,
+            "num_beams": 1,
+            "max_new_tokens": 32,
+            "eos_token_id": 0
+        },
+        "pred_response": "Question: is there a car?\nAnswer: yes"
+    },
+    {
+        "sample_id": 138,
+        "question": "Example Question 1:\n<image> <image> <image> <image> <image> <image> {image#1}{image#2}{image#3}{image#4}{image#5}{image#6}Question: how many yellow trucks are there?\nAnswer: three\n\nCurrent Question:\n{image#1}{image#2}{image#3}{image#4}{image#5}{image#6}Question: how many persons in the image?<image> <image> <image> <image> <image> <image> ",
+        "gt_response": "one",
+        "gen_kwargs": {
+            "do_sample": false,
+            "num_beams": 1,
+            "max_new_tokens": 32,
+            "eos_token_id": 0
+        },
+        "pred_response": "The image shows a street scene with a large truck parked on the side of the road. The truck is black and has a large cargo area. There is a"
+    },
+    {
+        "sample_id": 139,
+        "question": "Example Question 1:\n<image> <image> <image> <image> <image> <image> {image#1}{image#2}{image#3}{image#4}{image#5}{image#6}Question: what color are the construction barriers?\nAnswer: orange and white\n\nCurrent Question:\n{image#1}{image#2}{image#3}{image#4}{image#5}{image#6}Question: how many people are wearing orange shirts?<image> <image> <image> <image> <image> <image> ",
+        "gt_response": "two",
+        "gen_kwargs": {
+            "do_sample": false,
+            "num_beams": 1,
+            "max_new_tokens": 32,
+            "eos_token_id": 0
+        },
+        "pred_response": "Answer: 1{image#1}{image#"
+    },
+    {
+        "sample_id": 140,
+        "question": "Example Question 1:\n<image> <image> <image> <image> <image> <image> {image#1}{image#2}{image#3}{image#4}{image#5}{image#6}Question: are ther any trees parallel to the road?\nAnswer: yes\n\nCurrent Question:\n{image#1}{image#2}{image#3}{image#4}{image#5}{image#6}Question: what colors are the striped curb?<image> <image> <image> <image> <image> <image> ",
+        "gt_response": "black and white",
+        "gen_kwargs": {
+            "do_sample": false,
+            "num_beams": 1,
+            "max_new_tokens": 32,
+            "eos_token_id": 0
+        },
+        "pred_response": "The video presents a series of images depicting a city street scene, focusing on the urban environment and its elements. The first image shows a silver car driving on a"
+    },
+    {
+        "sample_id": 141,
+        "question": "Example Question 1:\n<image> <image> <image> <image> <image> <image> {image#1}{image#2}{image#3}{image#4}{image#5}{image#6}Question: what is the color of balcony?\nAnswer: blue\n\nCurrent Question:\n{image#1}{image#2}{image#3}{image#4}{image#5}{image#6}Question: what is the color of the board where food count is written?<image> <image> <image> <image> <image> <image> ",
+        "gt_response": "yellow",
+        "gen_kwargs": {
+            "do_sample": false,
+            "num_beams": 1,
+            "max_new_tokens": 32,
+            "eos_token_id": 0
+        },
+        "pred_response": "The color of the board where the food count is written is yellow. black"
+    },
+    {
+        "sample_id": 142,
+        "question": "Example Question 1:\n<image> <image> <image> <image> <image> <image> {image#1}{image#2}{image#3}{image#4}{image#5}{image#6}Question: what color is the curb?\nAnswer: black and white\n\nCurrent Question:\n{image#1}{image#2}{image#3}{image#4}{image#5}{image#6}Question: what are the words above the building entrance behind the man in the red shirt?<image> <image> <image> <image> <image> <image> ",
+        "gt_response": "harbor place",
+        "gen_kwargs": {
+            "do_sample": false,
+            "num_beams": 1,
+            "max_new_tokens": 32,
+            "eos_token_id": 0
+        },
+        "pred_response": "The words above the building entrance behind the man in the red shirt are \"HARBOR PLACE.\" construction"
+    },
+    {
+        "sample_id": 143,
+        "question": "Example Question 1:\n<image> <image> <image> <image> <image> <image> {image#1}{image#2}{image#3}{image#4}{image#5}{image#6}Question: what color are the solid lines in the road?\nAnswer: yellow\n\nCurrent Question:\n{image#1}{image#2}{image#3}{image#4}{image#5}{image#6}Question: how many blue cars are there?<image> <image> <image> <image> <image> <image> ",
+        "gt_response": "one",
+        "gen_kwargs": {
+            "do_sample": false,
+            "num_beams": 1,
+            "max_new_tokens": 32,
+            "eos_token_id": 0
+        },
+        "pred_response": "Answer: 11"
+    },
+    {
+        "sample_id": 144,
+        "question": "Example Question 1:\n<image> <image> <image> <image> <image> <image> {image#1}{image#2}{image#3}{image#4}{image#5}{image#6}Question: what color are the traffic signs?\nAnswer: orange\n\nCurrent Question:\n{image#1}{image#2}{image#3}{image#4}{image#5}{image#6}Question: are there any green cars driving on the road?<image> <image> <image> <image> <image> <image> ",
+        "gt_response": "no",
+        "gen_kwargs": {
+            "do_sample": false,
+            "num_beams": 1,
+            "max_new_tokens": 32,
+            "eos_token_id": 0
+        },
+        "pred_response": "Question: are there any green cars driving on the road?\n\nAnswer: no person"
+    },
+    {
+        "sample_id": 145,
+        "question": "Example Question 1:\n<image> <image> <image> <image> <image> <image> {image#1}{image#2}{image#3}{image#4}{image#5}{image#6}Question: are there plants near the building?\nAnswer: yes\n\nCurrent Question:\n{image#1}{image#2}{image#3}{image#4}{image#5}{image#6}Question: what is the color of the banner in front of the restaurant?<image> <image> <image> <image> <image> <image> ",
+        "gt_response": "red",
+        "gen_kwargs": {
+            "do_sample": false,
+            "num_beams": 1,
+            "max_new_tokens": 32,
+            "eos_token_id": 0
+        },
+        "pred_response": "The color of the banner in front of the restaurant is red. red"
+    },
+    {
+        "sample_id": 146,
+        "question": "Example Question 1:\n<image> <image> <image> <image> <image> <image> {image#1}{image#2}{image#3}{image#4}{image#5}{image#6}Question: are there any cars that are driving?\nAnswer: no\n\nCurrent Question:\n{image#1}{image#2}{image#3}{image#4}{image#5}{image#6}Question: is this sight under constuction?<image> <image> <image> <image> <image> <image> ",
+        "gt_response": "yes",
+        "gen_kwargs": {
+            "do_sample": false,
+            "num_beams": 1,
+            "max_new_tokens": 32,
+            "eos_token_id": 0
+        },
+        "pred_response": "The image shows a construction site with a large blue excavator and a worker in a high-visibility vest. The excavator is positioned on a paved area"
+    },
+    {
+        "sample_id": 147,
+        "question": "Example Question 1:\n<image> <image> <image> <image> <image> <image> {image#1}{image#2}{image#3}{image#4}{image#5}{image#6}Question: how many buses are there?\nAnswer: one\n\nCurrent Question:\n{image#1}{image#2}{image#3}{image#4}{image#5}{image#6}Question: what is written on the red sign board with white letters ?<image> <image> <image> <image> <image> <image> ",
+        "gt_response": "do not enter",
+        "gen_kwargs": {
+            "do_sample": false,
+            "num_beams": 1,
+            "max_new_tokens": 32,
+            "eos_token_id": 0
+        },
+        "pred_response": "The red sign board with white letters says \"EXIT\". \"Reshaping The Way Our Workers Live\" is written"
+    },
+    {
+        "sample_id": 148,
+        "question": "Example Question 1:\n<image> <image> <image> <image> <image> <image> {image#1}{image#2}{image#3}{image#4}{image#5}{image#6}Question: are there people walking around?\nAnswer: yes\n\nCurrent Question:\n{image#1}{image#2}{image#3}{image#4}{image#5}{image#6}Question: is the road empty?<image> <image> <image> <image> <image> <image> ",
+        "gt_response": "yes",
+        "gen_kwargs": {
+            "do_sample": false,
+            "num_beams": 1,
+            "max_new_tokens": 32,
+            "eos_token_id": 0
+        },
+        "pred_response": "Answer: no mostly"
+    },
+    {
+        "sample_id": 149,
+        "question": "Example Question 1:\n<image> <image> <image> <image> <image> <image> {image#1}{image#2}{image#3}{image#4}{image#5}{image#6}Question: are there any cars that are driving?\nAnswer: no\n\nCurrent Question:\n{image#1}{image#2}{image#3}{image#4}{image#5}{image#6}Question: how many persons are riding bike?<image> <image> <image> <image> <image> <image> ",
+        "gt_response": "one",
+        "gen_kwargs": {
+            "do_sample": false,
+            "num_beams": 1,
+            "max_new_tokens": 32,
+            "eos_token_id": 0
+        },
+        "pred_response": "Answer: 1{image#1}{image"
+    },
+    {
+        "sample_id": 150,
+        "question": "Example Question 1:\n<image> <image> <image> <image> <image> <image> {image#1}{image#2}{image#3}{image#4}{image#5}{image#6}Question: how many white balls do you see on the ground?\nAnswer: nine\n\nCurrent Question:\n{image#1}{image#2}{image#3}{image#4}{image#5}{image#6}Question: is the grass cut?<image> <image> <image> <image> <image> <image> ",
+        "gt_response": "yes",
+        "gen_kwargs": {
+            "do_sample": false,
+            "num_beams": 1,
+            "max_new_tokens": 32,
+            "eos_token_id": 0
+        },
+        "pred_response": "The video presents a series of images showcasing a modern urban environment, likely a campus or business district, with a focus on the architecture, landscaping, and"
+    },
+    {
+        "sample_id": 151,
+        "question": "Example Question 1:\n<image> <image> <image> <image> <image> <image> {image#1}{image#2}{image#3}{image#4}{image#5}{image#6}Question: what are the words above the building entrance behind the man in the red shirt?\nAnswer: harbor place\n\nCurrent Question:\n{image#1}{image#2}{image#3}{image#4}{image#5}{image#6}Question: what is the color of the waves in graphite?<image> <image> <image> <image> <image> <image> ",
+        "gt_response": "blue",
+        "gen_kwargs": {
+            "do_sample": false,
+            "num_beams": 1,
+            "max_new_tokens": 32,
+            "eos_token_id": 0
+        },
+        "pred_response": "The color of the waves in the image is graphite."
+    },
+    {
+        "sample_id": 152,
+        "question": "Example Question 1:\n<image> <image> <image> <image> <image> <image> {image#1}{image#2}{image#3}{image#4}{image#5}{image#6}Question: what does the dumpster say?\nAnswer: harvey\n\nCurrent Question:\n{image#1}{image#2}{image#3}{image#4}{image#5}{image#6}Question: is there a bus stop?<image> <image> <image> <image> <image> <image> ",
+        "gt_response": "yes",
+        "gen_kwargs": {
+            "do_sample": false,
+            "num_beams": 1,
+            "max_new_tokens": 32,
+            "eos_token_id": 0
+        },
+        "pred_response": "The image shows a street scene with a bus stop shelter on the right side. The shelter has a sign that reads \"BROOKLYN PARKWAY"
+    },
+    {
+        "sample_id": 153,
+        "question": "Example Question 1:\n<image> <image> <image> <image> <image> <image> {image#1}{image#2}{image#3}{image#4}{image#5}{image#6}Question: is there a stop sign?\nAnswer: yes\n\nCurrent Question:\n{image#1}{image#2}{image#3}{image#4}{image#5}{image#6}Question: how many building towers are seen far away?<image> <image> <image> <image> <image> <image> ",
+        "gt_response": "four",
+        "gen_kwargs": {
+            "do_sample": false,
+            "num_beams": 1,
+            "max_new_tokens": 32,
+            "eos_token_id": 0
+        },
+        "pred_response": "Answer: 1"
+    },
+    {
+        "sample_id": 154,
+        "question": "Example Question 1:\n<image> <image> <image> <image> <image> <image> {image#1}{image#2}{image#3}{image#4}{image#5}{image#6}Question: what's the color of the bus parked on the side of the road ?\nAnswer: blue\n\nCurrent Question:\n{image#1}{image#2}{image#3}{image#4}{image#5}{image#6}Question: what color is the van?<image> <image> <image> <image> <image> <image> ",
+        "gt_response": "silver",
+        "gen_kwargs": {
+            "do_sample": false,
+            "num_beams": 1,
+            "max_new_tokens": 32,
+            "eos_token_id": 0
+        },
+        "pred_response": "The color of the van is silver. \"Ayer Rajah Cres\" \""
+    },
+    {
+        "sample_id": 155,
+        "question": "Example Question 1:\n<image> <image> <image> <image> <image> <image> {image#1}{image#2}{image#3}{image#4}{image#5}{image#6}Question: what color is the man walking in the road wearing?\nAnswer: black\n\nCurrent Question:\n{image#1}{image#2}{image#3}{image#4}{image#5}{image#6}Question: what is the main color of bus?<image> <image> <image> <image> <image> <image> ",
+        "gt_response": "blue",
+        "gen_kwargs": {
+            "do_sample": false,
+            "num_beams": 1,
+            "max_new_tokens": 32,
+            "eos_token_id": 0
+        },
+        "pred_response": "The main color of the bus is blue. \"BAS PEKERJA\" is"
+    },
+    {
+        "sample_id": 156,
+        "question": "Example Question 1:\n<image> <image> <image> <image> <image> <image> {image#1}{image#2}{image#3}{image#4}{image#5}{image#6}Question: what color is big truck?\nAnswer: blue\n\nCurrent Question:\n{image#1}{image#2}{image#3}{image#4}{image#5}{image#6}Question: how many diamond shaped orange construction signs can be seen?<image> <image> <image> <image> <image> <image> ",
+        "gt_response": "two",
+        "gen_kwargs": {
+            "do_sample": false,
+            "num_beams": 1,
+            "max_new_tokens": 32,
+            "eos_token_id": 0
+        },
+        "pred_response": "Answer: 2{image#1"
+    },
+    {
+        "sample_id": 157,
+        "question": "Example Question 1:\n<image> <image> <image> <image> <image> <image> {image#1}{image#2}{image#3}{image#4}{image#5}{image#6}Question: is a bus visible?\nAnswer: yes\n\nCurrent Question:\n{image#1}{image#2}{image#3}{image#4}{image#5}{image#6}Question: are there any cars that are driving?<image> <image> <image> <image> <image> <image> ",
+        "gt_response": "no",
+        "gen_kwargs": {
+            "do_sample": false,
+            "num_beams": 1,
+            "max_new_tokens": 32,
+            "eos_token_id": 0
+        },
+        "pred_response": "Answer: no cars"
+    },
+    {
+        "sample_id": 158,
+        "question": "Example Question 1:\n<image> <image> <image> <image> <image> <image> {image#1}{image#2}{image#3}{image#4}{image#5}{image#6}Question: can you see concrete circles ?\nAnswer: yes\n\nCurrent Question:\n{image#1}{image#2}{image#3}{image#4}{image#5}{image#6}Question: what is the color of balcony?<image> <image> <image> <image> <image> <image> ",
+        "gt_response": "blue",
+        "gen_kwargs": {
+            "do_sample": false,
+            "num_beams": 1,
+            "max_new_tokens": 32,
+            "eos_token_id": 0
+        },
+        "pred_response": "The color of the balcony is blue. \""
+    },
+    {
+        "sample_id": 159,
+        "question": "Example Question 1:\n<image> <image> <image> <image> <image> <image> {image#1}{image#2}{image#3}{image#4}{image#5}{image#6}Question: what is the color of bus?\nAnswer: blue\n\nCurrent Question:\n{image#1}{image#2}{image#3}{image#4}{image#5}{image#6}Question: what is the color of balls?<image> <image> <image> <image> <image> <image> ",
+        "gt_response": "white",
+        "gen_kwargs": {
+            "do_sample": false,
+            "num_beams": 1,
+            "max_new_tokens": 32,
+            "eos_token_id": 0
+        },
+        "pred_response": "The color of the balls is gray.The color of the balls is gray.The color of the"
+    },
+    {
+        "sample_id": 160,
+        "question": "Example Question 1:\n<image> <image> <image> <image> <image> <image> {image#1}{image#2}{image#3}{image#4}{image#5}{image#6}Question: are there plants near the building?\nAnswer: yes\n\nCurrent Question:\n{image#1}{image#2}{image#3}{image#4}{image#5}{image#6}Question: how many motercycles in parking lot?<image> <image> <image> <image> <image> <image> ",
+        "gt_response": "six",
+        "gen_kwargs": {
+            "do_sample": false,
+            "num_beams": 1,
+            "max_new_tokens": 32,
+            "eos_token_id": 0
+        },
+        "pred_response": "Answer: 3"
+    },
+    {
+        "sample_id": 161,
+        "question": "Example Question 1:\n<image> <image> <image> <image> <image> <image> {image#1}{image#2}{image#3}{image#4}{image#5}{image#6}Question: what is the cone color?\nAnswer: orange\n\nCurrent Question:\n{image#1}{image#2}{image#3}{image#4}{image#5}{image#6}Question: what color are the solid lines in the road?<image> <image> <image> <image> <image> <image> ",
+        "gt_response": "yellow",
+        "gen_kwargs": {
+            "do_sample": false,
+            "num_beams": 1,
+            "max_new_tokens": 32,
+            "eos_token_id": 0
+        },
+        "pred_response": "The solid lines in the road are yellow. a large ship is docked in a parking lot."
+    },
+    {
+        "sample_id": 162,
+        "question": "Example Question 1:\n<image> <image> <image> <image> <image> <image> {image#1}{image#2}{image#3}{image#4}{image#5}{image#6}Question: what is written on the green board?\nAnswer: one north link\n\nCurrent Question:\n{image#1}{image#2}{image#3}{image#4}{image#5}{image#6}Question: how many person running?<image> <image> <image> <image> <image> <image> ",
+        "gt_response": "one",
+        "gen_kwargs": {
+            "do_sample": false,
+            "num_beams": 1,
+            "max_new_tokens": 32,
+            "eos_token_id": 0
+        },
+        "pred_response": "The video presents a series of images depicting various urban and suburban scenes, focusing on different aspects of city life, construction, and infrastructure. Here is a detailed description"
+    },
+    {
+        "sample_id": 163,
+        "question": "Example Question 1:\n<image> <image> <image> <image> <image> <image> {image#1}{image#2}{image#3}{image#4}{image#5}{image#6}Question: are there people walking around?\nAnswer: yes\n\nCurrent Question:\n{image#1}{image#2}{image#3}{image#4}{image#5}{image#6}Question: how many traffic lights are on?<image> <image> <image> <image> <image> <image> ",
+        "gt_response": "two",
+        "gen_kwargs": {
+            "do_sample": false,
+            "num_beams": 1,
+            "max_new_tokens": 32,
+            "eos_token_id": 0
+        },
+        "pred_response": "The video presents a series of urban scenes, each capturing different aspects of city life. It begins with a view of a modern building with large glass windows and a"
+    },
+    {
+        "sample_id": 164,
+        "question": "Example Question 1:\n<image> <image> <image> <image> <image> <image> {image#1}{image#2}{image#3}{image#4}{image#5}{image#6}Question: can you see concrete circles ?\nAnswer: yes\n\nCurrent Question:\n{image#1}{image#2}{image#3}{image#4}{image#5}{image#6}Question: what color is the roof of the building?<image> <image> <image> <image> <image> <image> ",
+        "gt_response": "red",
+        "gen_kwargs": {
+            "do_sample": false,
+            "num_beams": 1,
+            "max_new_tokens": 32,
+            "eos_token_id": 0
+        },
+        "pred_response": "The video presents a series of images showcasing various urban and suburban environments, focusing on the interaction between architecture, nature, and human activity. It begins with a"
+    },
+    {
+        "sample_id": 165,
+        "question": "Example Question 1:\n<image> <image> <image> <image> <image> <image> {image#1}{image#2}{image#3}{image#4}{image#5}{image#6}Question: are there plants near the building?\nAnswer: yes\n\nCurrent Question:\n{image#1}{image#2}{image#3}{image#4}{image#5}{image#6}Question: is there a car?<image> <image> <image> <image> <image> <image> ",
+        "gt_response": "yes",
+        "gen_kwargs": {
+            "do_sample": false,
+            "num_beams": 1,
+            "max_new_tokens": 32,
+            "eos_token_id": 0
+        },
+        "pred_response": "Answer: yes"
+    },
+    {
+        "sample_id": 166,
+        "question": "Example Question 1:\n<image> <image> <image> <image> <image> <image> {image#1}{image#2}{image#3}{image#4}{image#5}{image#6}Question: is there a bus stop?\nAnswer: yes\n\nCurrent Question:\n{image#1}{image#2}{image#3}{image#4}{image#5}{image#6}Question: can a black and white curb be seen in our two left side pictures?<image> <image> <image> <image> <image> <image> ",
+        "gt_response": "no",
+        "gen_kwargs": {
+            "do_sample": false,
+            "num_beams": 1,
+            "max_new_tokens": 32,
+            "eos_token_id": 0
+        },
+        "pred_response": "Answer: no{"
+    },
+    {
+        "sample_id": 167,
+        "question": "Example Question 1:\n<image> <image> <image> <image> <image> <image> {image#1}{image#2}{image#3}{image#4}{image#5}{image#6}Question: how many traffic lights are on?\nAnswer: two\n\nCurrent Question:\n{image#1}{image#2}{image#3}{image#4}{image#5}{image#6}Question: does this appear to be a construction site?<image> <image> <image> <image> <image> <image> ",
+        "gt_response": "yes",
+        "gen_kwargs": {
+            "do_sample": false,
+            "num_beams": 1,
+            "max_new_tokens": 32,
+            "eos_token_id": 0
+        },
+        "pred_response": "The images depict various urban scenes, including streets, buildings, and construction sites. The presence of traffic lights, vehicles, pedestrians, and construction barriers indicate a bust"
+    },
+    {
+        "sample_id": 168,
+        "question": "Example Question 1:\n<image> <image> <image> <image> <image> <image> {image#1}{image#2}{image#3}{image#4}{image#5}{image#6}Question: what colours is the curb next to the tree striped?\nAnswer: black and white\n\nCurrent Question:\n{image#1}{image#2}{image#3}{image#4}{image#5}{image#6}Question: what color is the car in front of the building?<image> <image> <image> <image> <image> <image> ",
+        "gt_response": "white",
+        "gen_kwargs": {
+            "do_sample": false,
+            "num_beams": 1,
+            "max_new_tokens": 32,
+            "eos_token_id": 0
+        },
+        "pred_response": "The car in front of the building is white."
+    },
+    {
+        "sample_id": 169,
+        "question": "Example Question 1:\n<image> <image> <image> <image> <image> <image> {image#1}{image#2}{image#3}{image#4}{image#5}{image#6}Question: what does the sign say?\nAnswer: stop\n\nCurrent Question:\n{image#1}{image#2}{image#3}{image#4}{image#5}{image#6}Question: what type of vehicle is seen most in the pictures?<image> <image> <image> <image> <image> <image> ",
+        "gt_response": "truck",
+        "gen_kwargs": {
+            "do_sample": false,
+            "num_beams": 1,
+            "max_new_tokens": 32,
+            "eos_token_id": 0
+        },
+        "pred_response": "truck semi"
+    },
+    {
+        "sample_id": 170,
+        "question": "Example Question 1:\n<image> <image> <image> <image> <image> <image> {image#1}{image#2}{image#3}{image#4}{image#5}{image#6}Question: how many truck are above the roadways?\nAnswer: one truck\n\nCurrent Question:\n{image#1}{image#2}{image#3}{image#4}{image#5}{image#6}Question: how many cars in the image?<image> <image> <image> <image> <image> <image> ",
+        "gt_response": "one",
+        "gen_kwargs": {
+            "do_sample": false,
+            "num_beams": 1,
+            "max_new_tokens": 32,
+            "eos_token_id": 0
+        },
+        "pred_response": "The image shows a street scene with a few cars and a truck. There are two cars visible in the image, one on the left side of the road and"
+    },
+    {
+        "sample_id": 171,
+        "question": "Example Question 1:\n<image> <image> <image> <image> <image> <image> {image#1}{image#2}{image#3}{image#4}{image#5}{image#6}Question: can you see concrete circles ?\nAnswer: yes\n\nCurrent Question:\n{image#1}{image#2}{image#3}{image#4}{image#5}{image#6}Question: what is the color of the truck?<image> <image> <image> <image> <image> <image> ",
+        "gt_response": "white",
+        "gen_kwargs": {
+            "do_sample": false,
+            "num_beams": 1,
+            "max_new_tokens": 32,
+            "eos_token_id": 0
+        },
+        "pred_response": "Question: can you see concrete circles?\nAnswer: yes"
+    },
+    {
+        "sample_id": 172,
+        "question": "Example Question 1:\n<image> <image> <image> <image> <image> <image> {image#1}{image#2}{image#3}{image#4}{image#5}{image#6}Question: how many cars in the image?\nAnswer: one\n\nCurrent Question:\n{image#1}{image#2}{image#3}{image#4}{image#5}{image#6}Question: what color is the car?<image> <image> <image> <image> <image> <image> ",
+        "gt_response": "silver",
+        "gen_kwargs": {
+            "do_sample": false,
+            "num_beams": 1,
+            "max_new_tokens": 32,
+            "eos_token_id": 0
+        },
+        "pred_response": "The image shows a street view with a modern building on the left side. The building has a gray facade with horizontal lines and a series of windows. There is"
+    },
+    {
+        "sample_id": 173,
+        "question": "Example Question 1:\n<image> <image> <image> <image> <image> <image> {image#1}{image#2}{image#3}{image#4}{image#5}{image#6}Question: are there roadworks?\nAnswer: yes\n\nCurrent Question:\n{image#1}{image#2}{image#3}{image#4}{image#5}{image#6}Question: is there a farm house?<image> <image> <image> <image> <image> <image> ",
+        "gt_response": "no",
+        "gen_kwargs": {
+            "do_sample": false,
+            "num_beams": 1,
+            "max_new_tokens": 32,
+            "eos_token_id": 0
+        },
+        "pred_response": "The image shows a street scene with a silver van parked on the side of the road. The van is positioned near a traffic light, which is red. In"
+    },
+    {
+        "sample_id": 174,
+        "question": "Example Question 1:\n<image> <image> <image> <image> <image> <image> {image#1}{image#2}{image#3}{image#4}{image#5}{image#6}Question: how many tiers are the chain link fences?\nAnswer: two\n\nCurrent Question:\n{image#1}{image#2}{image#3}{image#4}{image#5}{image#6}Question: is there a crosswalk?<image> <image> <image> <image> <image> <image> ",
+        "gt_response": "yes",
+        "gen_kwargs": {
+            "do_sample": false,
+            "num_beams": 1,
+            "max_new_tokens": 32,
+            "eos_token_id": 0
+        },
+        "pred_response": "The image shows a street scene with a crosswalk visible. There are no pedestrians crossing the street at the moment. The crosswalk is marked with white lines and"
+    },
+    {
+        "sample_id": 175,
+        "question": "Example Question 1:\n<image> <image> <image> <image> <image> <image> {image#1}{image#2}{image#3}{image#4}{image#5}{image#6}Question: what color is the man walking in the road wearing?\nAnswer: black\n\nCurrent Question:\n{image#1}{image#2}{image#3}{image#4}{image#5}{image#6}Question: how many concrete ball you can see?<image> <image> <image> <image> <image> <image> ",
+        "gt_response": "six",
+        "gen_kwargs": {
+            "do_sample": false,
+            "num_beams": 1,
+            "max_new_tokens": 32,
+            "eos_token_id": 0
+        },
+        "pred_response": "Answer: 1{image#"
+    },
+    {
+        "sample_id": 176,
+        "question": "Example Question 1:\n<image> <image> <image> <image> <image> <image> {image#1}{image#2}{image#3}{image#4}{image#5}{image#6}Question: what street is listed on the last picture?\nAnswer: one north link\n\nCurrent Question:\n{image#1}{image#2}{image#3}{image#4}{image#5}{image#6}Question: do you see trucks in the background?<image> <image> <image> <image> <image> <image> ",
+        "gt_response": "yes",
+        "gen_kwargs": {
+            "do_sample": false,
+            "num_beams": 1,
+            "max_new_tokens": 32,
+            "eos_token_id": 0
+        },
+        "pred_response": "Yes, there are trucks in the background of the last image. several trucks are parked in the lot"
+    },
+    {
+        "sample_id": 177,
+        "question": "Example Question 1:\n<image> <image> <image> <image> <image> <image> {image#1}{image#2}{image#3}{image#4}{image#5}{image#6}Question: what text is on the bus?\nAnswer: yankee\n\nCurrent Question:\n{image#1}{image#2}{image#3}{image#4}{image#5}{image#6}Question: how many safety cones are in front of the lift?<image> <image> <image> <image> <image> <image> ",
+        "gt_response": "four",
+        "gen_kwargs": {
+            "do_sample": false,
+            "num_beams": 1,
+            "max_new_tokens": 32,
+            "eos_token_id": 0
+        },
+        "pred_response": "Answer: 22"
+    },
+    {
+        "sample_id": 178,
+        "question": "Example Question 1:\n<image> <image> <image> <image> <image> <image> {image#1}{image#2}{image#3}{image#4}{image#5}{image#6}Question: is the man on the road?\nAnswer: yes\n\nCurrent Question:\n{image#1}{image#2}{image#3}{image#4}{image#5}{image#6}Question: is this indoors?<image> <image> <image> <image> <image> <image> ",
+        "gt_response": "no",
+        "gen_kwargs": {
+            "do_sample": false,
+            "num_beams": 1,
+            "max_new_tokens": 32,
+            "eos_token_id": 0
+        },
+        "pred_response": "Answer: no an outdoor urban area"
+    },
+    {
+        "sample_id": 179,
+        "question": "Example Question 1:\n<image> <image> <image> <image> <image> <image> {image#1}{image#2}{image#3}{image#4}{image#5}{image#6}Question: is there a vegetation at the roadside?\nAnswer: yes\n\nCurrent Question:\n{image#1}{image#2}{image#3}{image#4}{image#5}{image#6}Question: how many orange signs are present?<image> <image> <image> <image> <image> <image> ",
+        "gt_response": "two",
+        "gen_kwargs": {
+            "do_sample": false,
+            "num_beams": 1,
+            "max_new_tokens": 32,
+            "eos_token_id": 0
+        },
+        "pred_response": "Question: is there a vegetation at the roadside?\nAnswer: yes"
+    },
+    {
+        "sample_id": 180,
+        "question": "Example Question 1:\n<image> <image> <image> <image> <image> <image> {image#1}{image#2}{image#3}{image#4}{image#5}{image#6}Question: what is the main color of bus?\nAnswer: blue\n\nCurrent Question:\n{image#1}{image#2}{image#3}{image#4}{image#5}{image#6}Question: why is the road so peaceful?<image> <image> <image> <image> <image> <image> ",
+        "gt_response": "no",
+        "gen_kwargs": {
+            "do_sample": false,
+            "num_beams": 1,
+            "max_new_tokens": 32,
+            "eos_token_id": 0
+        },
+        "pred_response": "The road is peaceful because there are no cars or buses on it. the road is empty."
+    },
+    {
+        "sample_id": 181,
+        "question": "Example Question 1:\n<image> <image> <image> <image> <image> <image> {image#1}{image#2}{image#3}{image#4}{image#5}{image#6}Question: color of the car most showed?\nAnswer: silver\n\nCurrent Question:\n{image#1}{image#2}{image#3}{image#4}{image#5}{image#6}Question: is there a large white semi-truck in the scene?<image> <image> <image> <image> <image> <image> ",
+        "gt_response": "yes",
+        "gen_kwargs": {
+            "do_sample": false,
+            "num_beams": 1,
+            "max_new_tokens": 32,
+            "eos_token_id": 0
+        },
+        "pred_response": "The image does not contain a large white semi-truck."
+    },
+    {
+        "sample_id": 182,
+        "question": "Example Question 1:\n<image> <image> <image> <image> <image> <image> {image#1}{image#2}{image#3}{image#4}{image#5}{image#6}Question: is a bus visible?\nAnswer: yes\n\nCurrent Question:\n{image#1}{image#2}{image#3}{image#4}{image#5}{image#6}Question: how many parson are visible?<image> <image> <image> <image> <image> <image> ",
+        "gt_response": "one",
+        "gen_kwargs": {
+            "do_sample": false,
+            "num_beams": 1,
+            "max_new_tokens": 32,
+            "eos_token_id": 0
+        },
+        "pred_response": "The image shows a large bus with a colorful advertisement on its side. The bus is parked on the side of a road, and there is a yellow pole visible"
+    },
+    {
+        "sample_id": 183,
+        "question": "Example Question 1:\n<image> <image> <image> <image> <image> <image> {image#1}{image#2}{image#3}{image#4}{image#5}{image#6}Question: how many buses are there?\nAnswer: one\n\nCurrent Question:\n{image#1}{image#2}{image#3}{image#4}{image#5}{image#6}Question: what color is the traffic light currently on.?<image> <image> <image> <image> <image> <image> ",
+        "gt_response": "red",
+        "gen_kwargs": {
+            "do_sample": false,
+            "num_beams": 1,
+            "max_new_tokens": 32,
+            "eos_token_id": 0
+        },
+        "pred_response": "The traffic light is currently on red. \"Ayer Rajah Cres\""
+    },
+    {
+        "sample_id": 184,
+        "question": "Example Question 1:\n<image> <image> <image> <image> <image> <image> {image#1}{image#2}{image#3}{image#4}{image#5}{image#6}Question: how many buses are there?\nAnswer: one\n\nCurrent Question:\n{image#1}{image#2}{image#3}{image#4}{image#5}{image#6}Question: what color is the building?<image> <image> <image> <image> <image> <image> ",
+        "gt_response": "white",
+        "gen_kwargs": {
+            "do_sample": false,
+            "num_beams": 1,
+            "max_new_tokens": 32,
+            "eos_token_id": 0
+        },
+        "pred_response": "The video presents a series of images depicting various scenes, primarily focusing on a parking lot and a bus. Here's a detailed description of the images:\n\n1."
+    },
+    {
+        "sample_id": 185,
+        "question": "Example Question 1:\n<image> <image> <image> <image> <image> <image> {image#1}{image#2}{image#3}{image#4}{image#5}{image#6}Question: are there any cars on the road?\nAnswer: yes\n\nCurrent Question:\n{image#1}{image#2}{image#3}{image#4}{image#5}{image#6}Question: what is the color of the sedan car?<image> <image> <image> <image> <image> <image> ",
+        "gt_response": "black",
+        "gen_kwargs": {
+            "do_sample": false,
+            "num_beams": 1,
+            "max_new_tokens": 32,
+            "eos_token_id": 0
+        },
+        "pred_response": "Answer: black black"
+    },
+    {
+        "sample_id": 186,
+        "question": "Example Question 1:\n<image> <image> <image> <image> <image> <image> {image#1}{image#2}{image#3}{image#4}{image#5}{image#6}Question: what color are the construction barriers?\nAnswer: orange and white\n\nCurrent Question:\n{image#1}{image#2}{image#3}{image#4}{image#5}{image#6}Question: can trees be seen?<image> <image> <image> <image> <image> <image> ",
+        "gt_response": "yes",
+        "gen_kwargs": {
+            "do_sample": false,
+            "num_beams": 1,
+            "max_new_tokens": 32,
+            "eos_token_id": 0
+        },
+        "pred_response": "The image shows a construction site with a large excavator in the background, surrounded by orange and white barriers. The area is fenced off with a sign that"
+    },
+    {
+        "sample_id": 187,
+        "question": "Example Question 1:\n<image> <image> <image> <image> <image> <image> {image#1}{image#2}{image#3}{image#4}{image#5}{image#6}Question: what's connecting the two buildings across the street?\nAnswer: overpass\n\nCurrent Question:\n{image#1}{image#2}{image#3}{image#4}{image#5}{image#6}Question: what color car is in front of the bus?<image> <image> <image> <image> <image> <image> ",
+        "gt_response": "red",
+        "gen_kwargs": {
+            "do_sample": false,
+            "num_beams": 1,
+            "max_new_tokens": 32,
+            "eos_token_id": 0
+        },
+        "pred_response": "Answer: red bus"
+    },
+    {
+        "sample_id": 188,
+        "question": "Example Question 1:\n<image> <image> <image> <image> <image> <image> {image#1}{image#2}{image#3}{image#4}{image#5}{image#6}Question: how many bus are above the picture?\nAnswer: one bus\n\nCurrent Question:\n{image#1}{image#2}{image#3}{image#4}{image#5}{image#6}Question: are ther any trees parallel to the road?<image> <image> <image> <image> <image> <image> ",
+        "gt_response": "yes",
+        "gen_kwargs": {
+            "do_sample": false,
+            "num_beams": 1,
+            "max_new_tokens": 32,
+            "eos_token_id": 0
+        },
+        "pred_response": "The image shows a street scene with a silver car driving on a road. The road is lined with buildings on both sides, and there are trees in the background"
+    },
+    {
+        "sample_id": 189,
+        "question": "Example Question 1:\n<image> <image> <image> <image> <image> <image> {image#1}{image#2}{image#3}{image#4}{image#5}{image#6}Question: are there cones along the street?\nAnswer: yes\n\nCurrent Question:\n{image#1}{image#2}{image#3}{image#4}{image#5}{image#6}Question: if there parking for the cars?<image> <image> <image> <image> <image> <image> ",
+        "gt_response": "yes",
+        "gen_kwargs": {
+            "do_sample": false,
+            "num_beams": 1,
+            "max_new_tokens": 32,
+            "eos_token_id": 0
+        },
+        "pred_response": "Yes, there are cones along the street in the images."
+    },
+    {
+        "sample_id": 190,
+        "question": "Example Question 1:\n<image> <image> <image> <image> <image> <image> {image#1}{image#2}{image#3}{image#4}{image#5}{image#6}Question: how many building towers are seen far away?\nAnswer: four\n\nCurrent Question:\n{image#1}{image#2}{image#3}{image#4}{image#5}{image#6}Question: are there plants near the building?<image> <image> <image> <image> <image> <image> ",
+        "gt_response": "yes",
+        "gen_kwargs": {
+            "do_sample": false,
+            "num_beams": 1,
+            "max_new_tokens": 32,
+            "eos_token_id": 0
+        },
+        "pred_response": "The image shows a road with a black and white striped curb on the right side. The road is lined with lush green trees and bushes, creating a"
+    },
+    {
+        "sample_id": 191,
+        "question": "Example Question 1:\n<image> <image> <image> <image> <image> <image> {image#1}{image#2}{image#3}{image#4}{image#5}{image#6}Question: do the buildings have a connection?\nAnswer: yes\n\nCurrent Question:\n{image#1}{image#2}{image#3}{image#4}{image#5}{image#6}Question: what sort of public transportation is pictured?<image> <image> <image> <image> <image> <image> ",
+        "gt_response": "bus",
+        "gen_kwargs": {
+            "do_sample": false,
+            "num_beams": 1,
+            "max_new_tokens": 32,
+            "eos_token_id": 0
+        },
+        "pred_response": "The video presents a series of images depicting various urban and suburban scenes, focusing on different aspects of the environment, including buildings, vehicles, and public transportation. Here"
+    },
+    {
+        "sample_id": 192,
+        "question": "Example Question 1:\n<image> <image> <image> <image> <image> <image> {image#1}{image#2}{image#3}{image#4}{image#5}{image#6}Question: is there an orange or yellow construction sign?\nAnswer: orange\n\nCurrent Question:\n{image#1}{image#2}{image#3}{image#4}{image#5}{image#6}Question: what colours is the curb next to the tree striped?<image> <image> <image> <image> <image> <image> ",
+        "gt_response": "black and white",
+        "gen_kwargs": {
+            "do_sample": false,
+            "num_beams": 1,
+            "max_new_tokens": 32,
+            "eos_token_id": 0
+        },
+        "pred_response": "The curb next to the tree is striped with black and white. an orange construction sign."
+    },
+    {
+        "sample_id": 193,
+        "question": "Example Question 1:\n<image> <image> <image> <image> <image> <image> {image#1}{image#2}{image#3}{image#4}{image#5}{image#6}Question: what is the color of bus?\nAnswer: blue\n\nCurrent Question:\n{image#1}{image#2}{image#3}{image#4}{image#5}{image#6}Question: how many container are there?<image> <image> <image> <image> <image> <image> ",
+        "gt_response": "two",
+        "gen_kwargs": {
+            "do_sample": false,
+            "num_beams": 1,
+            "max_new_tokens": 32,
+            "eos_token_id": 0
+        },
+        "pred_response": "The image shows a large blue bus with the text \"NCAA Men's Lacrosse Championships\" and \"Boston\" on its side. The bus is parked"
+    },
+    {
+        "sample_id": 194,
+        "question": "Example Question 1:\n<image> <image> <image> <image> <image> <image> {image#1}{image#2}{image#3}{image#4}{image#5}{image#6}Question: what color is the building?\nAnswer: white\n\nCurrent Question:\n{image#1}{image#2}{image#3}{image#4}{image#5}{image#6}Question: what does the sign say?<image> <image> <image> <image> <image> <image> ",
+        "gt_response": "stop",
+        "gen_kwargs": {
+            "do_sample": false,
+            "num_beams": 1,
+            "max_new_tokens": 32,
+            "eos_token_id": 0
+        },
+        "pred_response": "The sign says \"STOP\". a white bus."
+    },
+    {
+        "sample_id": 195,
+        "question": "Example Question 1:\n<image> <image> <image> <image> <image> <image> {image#1}{image#2}{image#3}{image#4}{image#5}{image#6}Question: where is orange construction sign?\nAnswer: on side of road\n\nCurrent Question:\n{image#1}{image#2}{image#3}{image#4}{image#5}{image#6}Question: is there a fire hydrant?<image> <image> <image> <image> <image> <image> ",
+        "gt_response": "yes",
+        "gen_kwargs": {
+            "do_sample": false,
+            "num_beams": 1,
+            "max_new_tokens": 32,
+            "eos_token_id": 0
+        },
+        "pred_response": "The fire hydrant is located on the sidewalk in front of the building. man is"
+    },
+    {
+        "sample_id": 196,
+        "question": "Example Question 1:\n<image> <image> <image> <image> <image> <image> {image#1}{image#2}{image#3}{image#4}{image#5}{image#6}Question: what color is the boat?\nAnswer: black and white\n\nCurrent Question:\n{image#1}{image#2}{image#3}{image#4}{image#5}{image#6}Question: what text is on the bus?<image> <image> <image> <image> <image> <image> ",
+        "gt_response": "yankee",
+        "gen_kwargs": {
+            "do_sample": false,
+            "num_beams": 1,
+            "max_new_tokens": 32,
+            "eos_token_id": 0
+        },
+        "pred_response": "The text on the bus is \"YANKEE.\""
+    },
+    {
+        "sample_id": 197,
+        "question": "Example Question 1:\n<image> <image> <image> <image> <image> <image> {image#1}{image#2}{image#3}{image#4}{image#5}{image#6}Question: what does the dumpster say?\nAnswer: harvey\n\nCurrent Question:\n{image#1}{image#2}{image#3}{image#4}{image#5}{image#6}Question: what colour is the curb?<image> <image> <image> <image> <image> <image> ",
+        "gt_response": "black and white",
+        "gen_kwargs": {
+            "do_sample": false,
+            "num_beams": 1,
+            "max_new_tokens": 32,
+            "eos_token_id": 0
+        },
+        "pred_response": "Answer: black and white"
+    },
+    {
+        "sample_id": 198,
+        "question": "Example Question 1:\n<image> <image> <image> <image> <image> <image> {image#1}{image#2}{image#3}{image#4}{image#5}{image#6}Question: is there a vegetation at the roadside?\nAnswer: yes\n\nCurrent Question:\n{image#1}{image#2}{image#3}{image#4}{image#5}{image#6}Question: how many tiers are the chain link fences?<image> <image> <image> <image> <image> <image> ",
+        "gt_response": "two",
+        "gen_kwargs": {
+            "do_sample": false,
+            "num_beams": 1,
+            "max_new_tokens": 32,
+            "eos_token_id": 0
+        },
+        "pred_response": "The image shows a street scene with a large building on the left side. There are two people walking on the sidewalk in front of the building. The building has"
+    },
+    {
+        "sample_id": 199,
+        "question": "Example Question 1:\n<image> <image> <image> <image> <image> <image> {image#1}{image#2}{image#3}{image#4}{image#5}{image#6}Question: are there any cars that are driving?\nAnswer: no\n\nCurrent Question:\n{image#1}{image#2}{image#3}{image#4}{image#5}{image#6}Question: how many lanes does the road have?<image> <image> <image> <image> <image> <image> ",
+        "gt_response": "two",
+        "gen_kwargs": {
+            "do_sample": false,
+            "num_beams": 1,
+            "max_new_tokens": 32,
+            "eos_token_id": 0
+        },
+        "pred_response": "Question: how many lanes does the road have?\nAnswer: 2"
+    }
+]

@@ -7,8 +7,8 @@ import time
 from functools import partial
 
 import torch
-from internvl.model.internvl_chat import InternVLChatModel
-from internvl.train.dataset import build_transform, dynamic_preprocess
+from internvl2_5.model.internvl_chat import InternVLChatModel
+from internvl2_5.train.dataset import build_transform, dynamic_preprocess
 from PIL import Image
 from torch.utils.data import Dataset
 from tqdm import tqdm

@@ -1,0 +1,4 @@
+Model,Accuracy,image_quantity_level-Accuracy (Few),image_quantity_level-Accuracy (Medium),image_quantity_level-Accuracy (Many),Rouge-L f
+Realistic Temporal,28.5,0.0,28.97,27.27,
+Realistic Semantic,22.0,22.7,13.33,0.0,21.64
+Diagnostic,10.5,0.0,12.9,1.57,

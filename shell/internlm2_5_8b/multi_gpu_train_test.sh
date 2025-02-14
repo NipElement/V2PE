@@ -1,12 +1,10 @@
 #!/usr/bin/env bash
 set -x
-export TORCH_DISTRIBUTED_DEBUG=DETAIL     
-export TF_CPP_MIN_LOG_LEVEL=3  
-export CUDA_VISIBLE_DEVICES=0,1,2
-GPUS=3
-NODES=1             
-MASTER_ADDR=127.0.0.1     
-MASTER_PORT=29800 
+
+if [ -z "$BASH_VERSION" ]; then
+    exec bash "$0" "$@"
+fi
+NUM_GPUS_PER_NODE=8
 
 OUTPUT_DIR="/map-vepfs/yuansheng/LongContext/trained_models/mammoth_test"
 if [ ! -d "$OUTPUT_DIR" ]; then
@@ -30,11 +28,11 @@ for file in "${files[@]}"; do
 done
 
 MODEL_PATH="/map-vepfs/yuansheng/LongContext/V2PE/pretrained/InternVL2_5-8B"
-META_PATH="/map-vepfs/yuansheng/LongContext/V2PE/shell/data/annotation_train_70K_mammoth.json"
+META_PATH="/map-vepfs/yuansheng/LongContext/V2PE/shell/data/annotation_train_debug.json"
 
 torchrun \
-  --nproc_per_node=${GPUS} \
-  --master_port=${MASTER_PORT} \
+  --nproc_per_node "$NUM_GPUS_PER_NODE" \
+  --standalone \
   internvl2_5/train/internvl2_5_chat_finetune.py \
   --model_name_or_path "${MODEL_PATH}" \
   --conv_style "internlm2-chat" \
@@ -58,8 +56,7 @@ torchrun \
   \
   --dataloader_num_workers 2 \
   --max_seq_length 32768 \
-  --use_packed_ds True \
-  --max_steps 20000 \
+  --use_packed_ds False \
   --group_by_length False \
   --max_packed_tokens 32768 \
   --max_buffer_size 20 \

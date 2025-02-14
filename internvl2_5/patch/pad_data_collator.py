@@ -115,3 +115,77 @@ def concat_pad_data_collator(features, max_item_length=None, pad_id=0):
         if k=='position_ids':
             batch[k]=list(batch[k].numpy())
     return batch
+
+# def concat_pad_data_collator(features, max_item_length=None, pad_id=0):
+#     valid_features = []
+#     for feat in features:
+#         try:
+#             # 检查是否有必要的字段
+#             if 'input_ids' not in feat or 'labels' not in feat:
+#                 raise ValueError("Missing required fields in feature")
+
+#             # 检查数据是否为 tensor
+#             if not isinstance(feat['input_ids'], torch.Tensor) or not isinstance(feat['labels'], torch.Tensor):
+#                 raise TypeError("input_ids or labels is not a torch.Tensor")
+
+#             # 检查 shape 是否合理
+#             if feat['input_ids'].shape[0] == 0 or feat['labels'].shape[0] == 0:
+#                 raise ValueError("Empty input_ids or labels tensor")
+
+#             valid_features.append(feat)
+#         except Exception as e:
+#             print(f"Skipping invalid data: {e}")  # 记录错误信息
+
+#     if not valid_features:
+#         raise RuntimeError("All samples in batch are invalid!")  # 避免 batch 全部无效导致错误
+
+#     first = valid_features[0]
+#     batch = {}
+#     batch_lens = [feat['input_ids'].shape for feat in valid_features]
+#     max_item_length = max_item_length or max(batch_lens)[0]
+
+#     for feat in valid_features:
+#         temp_input_ids = torch.LongTensor([pad_id] * max_item_length)
+#         temp_input_ids[:feat['input_ids'].shape[0]] = feat['input_ids']
+#         feat['input_ids'] = temp_input_ids
+
+#         temp_labels = torch.LongTensor([IGNORE_INDEX] * max_item_length)
+#         temp_labels[:feat['labels'].shape[0]] = feat['labels']
+#         feat['labels'] = temp_labels
+#         feat['attention_mask'] = feat['input_ids'].ne(pad_id)
+
+#         if 'position_ids' in feat:
+#             if isinstance(feat['position_ids'], list):
+#                 temp_position_ids = [pad_id] * max_item_length
+#                 temp_position_ids[:len(feat['position_ids'])] = feat['position_ids']
+#             else:
+#                 temp_position_ids = [pad_id] * max_item_length
+#                 temp_position_ids[:feat['position_ids'].shape[0]] = feat['position_ids']
+#                 feat['position_ids'] = temp_position_ids
+
+#         if 'loss_weight' in feat:
+#             temp_loss_weight = torch.FloatTensor([pad_id] * max_item_length)
+#             temp_loss_weight[:feat['loss_weight'].shape[0]] = feat['loss_weight']
+#             feat['loss_weight'] = temp_loss_weight
+
+#     for k, v in first.items():
+#         if k not in ('label', 'label_ids', 'pixel_values', 'image_flags') and v is not None and not isinstance(v, str):
+#             if isinstance(v, torch.Tensor):
+#                 batch[k] = torch.stack([f[k] for f in valid_features])
+#             elif isinstance(v, np.ndarray):
+#                 batch[k] = torch.tensor(np.stack([f[k] for f in valid_features]))
+#             else:
+#                 batch[k] = torch.tensor([f[k] for f in valid_features])
+
+#         if k in ('pixel_values', 'image_flags'):
+#             if isinstance(v, torch.Tensor):
+#                 batch[k] = torch.concat([f[k] for f in valid_features])
+#             elif isinstance(v, np.ndarray):
+#                 batch[k] = torch.concat(np.stack([f[k] for f in valid_features]))
+#             else:
+#                 batch[k] = torch.concat([f[k] for f in valid_features])
+
+#         if k == 'position_ids':
+#             batch[k] = list(batch[k].numpy())
+
+#     return batch

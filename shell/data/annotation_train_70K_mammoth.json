@@ -1,8 +1,0 @@
-{
-    "mammoth": {
-        "root": "/map-vepfs/yuansheng/LongContext/V2PE/dataset/image/mammoth_ocr",
-        "annotation": "/map-vepfs/yuansheng/LongContext/V2PE/dataset/annotation/mammoth/mammoth_ocr_70K_train_split.jsonl",
-        "data_augment": true,
-        "repeat_time": 1
-    }
-}
