@@ -12,9 +12,9 @@ declare -a tasks=( \
     # 'vqa-docvqa-val' \
     # 'vqa-ai2d-test' \
     # 'vqa-infovqa-val' \
-    'scienceqa' \
+    # 'scienceqa' \
     # 'pope' \
-    # 'mmmu-val' \
+    'mmmu-val' \
     # 'mmbench-test-en' \
     # 'seed' \
 )
@@ -24,6 +24,7 @@ for ((j=0; j<${#tasks[@]}; j++)); do
     task=${tasks[j]}
 
     model_name="$(basename ${model_path})"
+    model_name="test"
     LOG_DIR="/map-vepfs/yuansheng/LongContext/V2PE/eval_logs/${task}/${model_name}"
     mkdir -p "$LOG_DIR"
     echo "$(date) ${model_name}_${task}"

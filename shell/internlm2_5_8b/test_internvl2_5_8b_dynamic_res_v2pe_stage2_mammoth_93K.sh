@@ -6,7 +6,7 @@ fi
 NUM_GPUS_PER_NODE=4
 
 
-OUTPUT_DIR="/map-vepfs/yuansheng/LongContext/trained_models/invervl2_5_8b_stage2_mammoth_baseline_part2_0_8_test"
+OUTPUT_DIR="/map-vepfs/yuansheng/LongContext/trained_models/invervl2_5_8b_stage2_mammoth_icl_test"
 if [ ! -d "$OUTPUT_DIR" ]; then
   mkdir -p "$OUTPUT_DIR"
 fi
@@ -27,7 +27,7 @@ for file in "${files[@]}"; do
   cp "$file" "$OUTPUT_DIR"
 done
 
-MODEL_PATH="/map-vepfs/yuansheng/LongContext/trained_models/invervl2_5_8b_stage2_mammoth_baseline_part2_0_7"
+MODEL_PATH="/map-vepfs/yuansheng/LongContext/V2PE/pretrained/InternVL2_5-8B"
 META_PATH="/map-vepfs/yuansheng/LongContext/V2PE/shell/data/annotation_train_debug.json"
 
 torchrun \
