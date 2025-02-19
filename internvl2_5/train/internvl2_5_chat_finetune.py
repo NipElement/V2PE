@@ -11,7 +11,7 @@ from dataclasses import dataclass, field
 from functools import partial
 from typing import Dict, Optional
 import hashlib
-
+import wandb
 import numpy as np
 import orjson as json
 import torch
@@ -59,14 +59,7 @@ replace_llama_rmsnorm_with_fused_rmsnorm()
 replace_train_sampler()
 replace_train_dataloader()
 
-try:
-    from petrel_client.client import Client
-    from petrel_client.common.config import Config
-
-    has_tcs_loader = True
-except ImportError as E:
-    # print('petrel_client is not installed. Using PIL to load images.')
-    has_tcs_loader = False
+has_tcs_loader = False
 
 IGNORE_INDEX = -100
 Image.MAX_IMAGE_PIXELS = None
@@ -476,6 +469,8 @@ class LazySupervisedDataset(Dataset):
     def multi_modal_get_item(self, data_item):
         if '<image>' not in data_item['conversations'][0]['value']:
             data_item['conversations'][0]['value'] = '<image>\n' + data_item['conversations'][0]['value']
+        if isinstance(data_item['image'], list) and len(data_item['image']) == 1:
+            data_item['image'] = data_item['image'][0]
         if data_item['image'].startswith('s3://'):
             image_path = self.root + data_item['image']
         elif data_item['image'].startswith('http') or data_item['image'].startswith('HTTP'):
@@ -924,7 +919,7 @@ class LazySupervisedDataset(Dataset):
             try:
                 data_item = json.loads(self.raw_data[i])
                 if 'image' in data_item and len(data_item['image']) != 0:
-                    if type(data_item['image']) == list:
+                    if type(data_item['image']) == list and len(data_item['image']) > 1:
                         ret = self.multi_modal_multi_image_get_item(data_item)
                     else:
                         ret = self.multi_modal_get_item(data_item)

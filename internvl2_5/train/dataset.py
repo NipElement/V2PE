@@ -23,11 +23,7 @@ from .constants import (CLIP_MEAN, CLIP_STD, IMAGENET_MEAN, IMAGENET_STD,
                         IMG_CONTEXT_TOKEN, IMG_END_TOKEN, IMG_START_TOKEN,
                         SIGLIP_MEAN, SIGLIP_STD)
 
-try:
-    from petrel_client.client import Client
-    from petrel_client.common.config import Config
-except ImportError as E:
-    print('please install petrel_client')
+
 import sys
 
 Image.MAX_IMAGE_PIXELS = None

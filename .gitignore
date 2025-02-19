@@ -174,3 +174,5 @@ dataset/*
 samples_num/
 data/
 debug_data
+trained_models
+wandb

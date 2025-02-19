@@ -31,3 +31,4 @@ pycocoevalcap
 editdistance
 nltk
 seaborn
+wandb==0.18.7
